@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /mappings/
+Disallow: /404
+{{ $env := getenv "HUGO_ENV" }}
+{{- if eq $env "production" -}}
+Sitemap: https://www.mendix.com/evaluation-guide/sitemap.xml
+  {{- range .Data.Pages -}}
+    {{- $disabled := .Params.disable_sitemap -}}
+    {{ if $disabled }}
+Disallow: {{ .URL }}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+Disallow: /
+{{- end -}}

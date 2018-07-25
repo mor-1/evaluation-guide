@@ -1,0 +1,14 @@
+{{- $env := getenv "HUGO_ENV" -}}
+{{- if eq $env "production" -}}<script src="https://sprintr.home.mendix.com/feedback/sprintrfeedback.js"></script>
+<script>
+  window.sprintrFeedback.create({
+    'sprintrid' : '5b4cbc21-213e-4758-a584-8eb514807752',
+    'allowFile' : true,
+    'allowSshot' : true,
+    'userdata' : {
+      'username' : '',
+      'emailaddress' : '',
+      'userroles' : 'user'
+    }
+  });
+</script>{{- end -}}

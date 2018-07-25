@@ -1,0 +1,40 @@
+.toprow {
+    height: 30px;
+}
+
+h2.guide-front-page {
+    font-size: 20px;
+    line-height: 48px;
+    margin: 0;
+}
+
+.divider {
+    width: 100%;
+    margin-bottom: 30px;
+    display: block;
+    text-align: center;
+    height: 28px;
+    position: relative;
+
+
+    @include element('title') {
+        color: $color-mendix-blue;
+        font-size: 21px;
+        line-height: 28px;
+        background: $color-white;
+        padding: 0 20px;
+        margin: 0 auto;
+        display: inline-block;
+        z-index: 100;
+        text-transform: uppercase;
+    }
+
+    @include element('line') {
+        width: 100%;
+        border-bottom: 1px solid $color-mendix-blue;
+        display: block;
+        height: 1px;
+        z-index: 99;
+        margin-top: -14px;
+    }
+}

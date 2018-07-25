@@ -1,0 +1,41 @@
+.topbar {
+  $size-topbar-search: 50px;
+  $topbar-search-padding: ($size-topbar-height - $size-topbar-search) / 2;
+  $top-search-logo: $size-topbar-search / 2;
+
+  background: url('/evaluation-guide/public/images/swirl-blue.svg');
+  background-size: cover;
+  background-position: center center;
+  height: $size-topbar-height;
+  line-height: $size-topbar-height;
+
+  @include mq('lg', min) {
+    background-position: center -600px;
+  }
+
+  @include mq("sm", max) {
+    height: auto;
+  }
+
+  @include element('title') {
+    line-height: $size-topbar-height;
+    margin: 0;
+    padding: 0;
+    color: $color-topbar-color;
+    font-family: $font-base;
+    font-size: $size-topbar-font;
+    font-weight: 500;
+
+    &:active, &:hover {
+      color: $color-topbar-color;
+    }
+
+    @include mq('sm', max ) {
+      font-size: 24px;
+    }
+  }
+
+  @include element('column') {
+    max-height: $size-topbar-height;
+  }
+}

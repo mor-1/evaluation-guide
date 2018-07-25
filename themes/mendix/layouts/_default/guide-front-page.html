@@ -1,0 +1,53 @@
+{{ partial "header-guide-frontpage" . }}
+  {{ partial "mx-general/header-new" . }}
+  <div class="mx__content mx__content--guide-front-page">
+    {{ partial "background" . }}
+    {{ partial "topbar" . }}
+    {{ partial "banner" . }}
+    <div class="container">
+      <div class="row mx__main-content">
+        <!-- CONTENT -->
+        <div class="col-md-9 col-xs-12 col-md-push-3 mx__main">
+          <div class="row toprow"></div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12">
+              {{ partial "cards/what" . }}
+
+              {{ partial "divider" (dict "context" . "text" "App Lifecycle") }}
+
+              {{ partial "cards/agile" . }}
+              {{ partial "cards/developing" . }}
+              {{ partial "cards/devops" . }}
+
+              {{ partial "divider" (dict "context" . "text" "App Capabilities") }}
+
+              {{ partial "cards/ux" . }}
+              {{ partial "cards/data" . }}
+              {{ partial "cards/integration" . }}
+              {{ partial "cards/multicloud" . }}
+
+              {{ partial "divider" (dict "context" . "text" "Enterprise Capabilities") }}
+
+              {{ partial "cards/architecture" . }}
+              {{ partial "cards/openness" . }}
+              {{ partial "cards/security" . }}
+
+              {{ partial "divider" (dict "context" . "text" "Strategic Partners") }}
+
+              {{ partial "cards/sap" . }}
+              {{ partial "cards/ibm" . }}
+
+              {{ partial "divider" (dict "context" . "text" "Evaluation & Learning") }}
+
+              {{ partial "cards/evaluation" . }}
+              {{ partial "cards/learning" . }}
+            </div>
+          </div>
+        </div>
+        <!-- SIDEBAR -->
+        {{ partial "sidebar" . }}
+      </div>
+    </div>
+  </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" type="text/javascript"></script>
+{{ partial "footer" . }}

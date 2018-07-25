@@ -1,0 +1,145 @@
+.card {
+    @include clearfix();
+    @include border-radius(4px);
+    @include box-shadow(0 0 6px 0 rgba(0,0,0,0.09));
+    border: 1px solid $color-grey-border;
+    background: $color-white;
+    padding: 40px;
+    width: 100%;
+    margin-bottom: 30px!important;
+
+    @include element('title') {
+        margin: 0 0 20px;
+        padding-left: 33px;
+        line-height: 33px;
+        background-repeat: no-repeat;
+
+        @include modifier('mendix') {
+            background-image: url('/evaluation-guide/public/images/logo-24x24.png');
+            background-position: 0px 5px;
+        }
+
+        @include modifier('agile') {
+            background-image: url('/evaluation-guide/public/images/card/Agile.svg');
+            background-position: 0px 5px;
+        }
+
+        @include modifier('data') {
+            background-image: url('/evaluation-guide/public/images/card/Data.svg');
+            background-position: 0px 5px;
+        }
+
+        @include modifier('developing') {
+            background-image: url('/evaluation-guide/public/images/card/Develop.svg');
+            background-position: 0px 5px;
+        }
+
+        @include modifier('devops') {
+            background-image: url('/evaluation-guide/public/images/card/Devops.svg');
+            background-position: 0px 5px;
+        }
+
+        @include modifier('ux') {
+            background-image: url('/evaluation-guide/public/images/card/Ux.svg');
+            background-position: 0px 5px;
+        }
+
+        @include modifier('integration') {
+            background-image: url('/evaluation-guide/public/images/card/Integration.svg');
+            background-position: 0px 5px;
+        }
+
+        @include modifier('multicloud') {
+            background-image: url('/evaluation-guide/public/images/card/MultiCloud.svg');
+            background-position: 0px 5px;
+        }
+
+        @include modifier('architecture') {
+            background-image: url('/evaluation-guide/public/images/card/Architecture.svg');
+            background-position: 0px 5px;
+        }
+
+        @include modifier('scalability') {
+            background-image: url('/evaluation-guide/public/images/card/Scale.svg');
+            background-position: 0px 8px;
+        }
+
+        @include modifier('availability') {
+            background-image: url('/evaluation-guide/public/images/card/Availability.svg');
+            background-position: 0px 8px;
+        }
+
+        @include modifier('openness') {
+            background-image: url('/evaluation-guide/public/images/card/Openness.svg');
+            background-position: 0px 8px;
+        }
+
+        @include modifier('security') {
+            background-image: url('/evaluation-guide/public/images/card/Security.svg');
+            background-position: 0px 8px;
+        }
+
+        @include modifier('evaluation') {
+            background-image: url('/evaluation-guide/public/images/card/Evaluation.svg');
+            background-position: 0px 8px;
+        }
+
+        @include modifier('learning') {
+            background-image: url('/evaluation-guide/public/images/card/Learn.svg');
+            background-position: 0px 8px;
+        }
+
+        @include modifier('sap') {
+            height: 28px;
+            padding-left: 0;
+            img {
+                max-width: 70px!important;
+                position: absolute;
+                top: -23px;
+            }
+        }
+
+        @include modifier('ibm') {
+            height: 28px;
+            padding-left: 0;
+            img {
+                max-width: 70px!important;
+                position: absolute;
+            }
+        }
+    }
+
+    @include element('text') {
+        color: $color-darker-grey-2;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+
+    @include element('readmore') {
+        font-size: 12px;
+        line-height: 17px;
+
+        &:after {
+            content: '>';
+            line-height: 17px;
+            margin-left: 3px;
+        }
+    }
+
+    @include element('featured') {
+
+        @include element('title') {
+            font-size: 12px;
+            margin: 13px 0 15px;
+        }
+
+        @include element('list') {
+            list-style-type: none;
+            padding-left: 0!important;
+
+            li {
+                margin: 0 0 15px;
+            }
+        }
+    }
+}

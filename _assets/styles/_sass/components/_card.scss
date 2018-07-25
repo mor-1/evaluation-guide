@@ -1,12 +1,127 @@
 .card {
+    $cardroot: &;
     @include clearfix();
     @include border-radius(4px);
     @include box-shadow(0 0 6px 0 rgba(0,0,0,0.09));
+    position: relative;
+    overflow: hidden;
     border: 1px solid $color-grey-border;
     background: $color-white;
     padding: 40px;
     width: 100%;
     margin-bottom: 30px!important;
+
+    .col-md-6 {
+        z-index: 10;
+    }
+
+    @include element('background') {
+        position: absolute;
+        bottom: -40px;
+        right: -10px;
+        transform: rotate(-20deg);
+        display: block;
+
+        width: 200px;
+        height: 200px;
+
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(1);
+
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        @include opacity(0.2);
+    }
+
+    &-type {
+        @include modifier('mendix') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card_bg/logo.png');
+            }
+        }
+        @include modifier('agile') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/Agile.svg');
+            }
+        }
+        @include modifier('data') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/Data.svg');
+            }
+        }
+        @include modifier('developing') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/Develop.svg');
+            }
+        }
+        @include modifier('devops') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/Devops.svg');
+            }
+        }
+        @include modifier('ux') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/Ux.svg');
+            }
+        }
+        @include modifier('integration') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/Integration.svg');
+            }
+        }
+        @include modifier('multicloud') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/MultiCloud.svg');
+            }
+        }
+        @include modifier('architecture') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/Architecture.svg');
+            }
+        }
+        @include modifier('scalability') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/Scalability.svg');
+            }
+        }
+        @include modifier('availability') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/Availability.svg');
+            }
+        }
+        @include modifier('openness') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/Openness.svg');
+            }
+        }
+        @include modifier('security') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/Security.svg');
+            }
+        }
+        @include modifier('evaluation') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/Evaluation.svg');
+            }
+        }
+        @include modifier('learning') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/Learn.svg');
+            }
+        }
+        @include modifier('sap') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/Sap.png');
+            }
+        }
+        @include modifier('ibm') {
+            @include element('background', $cardroot) {
+                background-image: url('/evaluation-guide/public/images/card/IBM.png');
+                bottom: -100px;
+            }
+        }
+    }
 
     @include element('title') {
         margin: 0 0 20px;

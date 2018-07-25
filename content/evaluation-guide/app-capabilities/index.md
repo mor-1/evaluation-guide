@@ -12,6 +12,8 @@ Mendix apps pull from a tremendous array of data sources while maintaining the s
 
 Finally, the options for cloud deployment reflect the importance Mendix places on its cloud-native architecture and design.
 
+The chapters and pages give a detailed presentation of all the capabilities of Mendix applications.
+
 {{< partial "cards/ux.html" >}}
 {{< partial "cards/data.html" >}}
 {{< partial "cards/integration.html" >}}

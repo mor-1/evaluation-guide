@@ -10,5 +10,7 @@ SAP has adopted the Mendix Platform as their own rapid application development p
 
 Mendix is the standard low-code development platform to be used on top of IBM Cloud. This means you can utilize IBM as a single contact for using Mendix on IBM Cloud.
 
+Discover all the details of these exciting partnerships in the chapters and pages below.
+
 {{< partial "cards/sap.html" >}}
 {{< partial "cards/ibm.html" >}}

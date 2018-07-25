@@ -4,7 +4,7 @@
         <div class="card__text">
 			Mendix provides all the cloud deployment options you need and is fully optimized for compatibility with the latest cloud platforms and technologies. Running and deploying your Mendix app is easy, fast, and flexible. Read more about why cloud technology is at the core of the Mendix Platform.
         </div>
-        <a href="/evaluation-guide/app-capabilities/deployment" class="card__readmore">Read more</a>
+        {{ partial "card-readmore.html" (dict "context" . "url" "/evaluation-guide/app-capabilities/deployment") }}
     </div>
     <div class="col-md-6 col-xs-6">
         <h4 class="card__featured__title">Featured Questions:</h4>

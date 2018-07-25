@@ -4,7 +4,7 @@
         <div class="card__text">
 			With its cloud-native and stateless runtime architecture, the Mendix Platform fully supports clustering and high availability. Discover more details on how Mendix enables server-based installation and container-based setup.
         </div>
-        <a href="/evaluation-guide/enterprise-capabilities/11.0-high-availability" class="card__readmore">Read more</a>
+        {{ partial "card-readmore.html" (dict "context" . "url" "/evaluation-guide/enterprise-capabilities/11.0-high-availability") }}
     </div>
     <div class="col-md-6 col-xs-6">
         <h4 class="card__featured__title">Featured Questions:</h4>

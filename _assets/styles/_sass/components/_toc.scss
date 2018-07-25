@@ -18,7 +18,7 @@ $block: 'mx';
       position: relative;
       font-weight: 100;
       margin-bottom: $title-padding - 4;
-      margin-top: 10px;
+      margin-top: 30px;
       padding: 0 0 $title-padding;
       width: 100%;
       display: block;
@@ -108,8 +108,14 @@ $block: 'mx';
         }
       }
       a {
-        &:hover, &:active {
+        padding-bottom: 1px;
+        &:hover, &:active, &:focus {
           color: $color-mendix-blue;
+          background-color: transparent;
+        }
+        &:hover {
+          text-decoration: underline;
+          text-decoration-color: $color-mendix-blue;
         }
       }
     }
@@ -120,7 +126,7 @@ $block: 'mx';
     }
   }
 
-  //.lvl-3 { display: none; }
+  .lvl-3 { display: none; }
   .lvl-4 { display: none; }
   .lvl-5 { display: none; }
   .lvl-6 { display: none; }
@@ -128,7 +134,8 @@ $block: 'mx';
   .lvl-8 { display: none; }
 
   > .nav {
-    border-bottom: 1px solid $border-color;
-    padding-bottom: 10px;
+    // border-bottom: 1px solid $border-color;
+    // padding-bottom: 10px;
+    margin-bottom: 20px;
   }
 }

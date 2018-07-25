@@ -4,7 +4,7 @@
         <div class="card__text">
 			Mendix applications can combine multiple sources of data to deliver new systems of differentiation and innovation. Read about how the Mendix Platform empowers you to manage your app’s data storage, optimize your data queries, and handle data security.
         </div>
-        <a href="/evaluation-guide/app-capabilities/data-management" class="card__readmore">Read more</a>
+        {{ partial "card-readmore.html" (dict "context" . "url" "/evaluation-guide/app-capabilities/data-management") }}
     </div>
     <div class="col-md-6 col-xs-6">
         <h4 class="card__featured__title">Featured Questions:</h4>

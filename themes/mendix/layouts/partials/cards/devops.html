@@ -4,7 +4,7 @@
         <div class="card__text">
 			Mendix provides DevOps tools out of the box for CI/CD, test automation, and monitoring, among other services. Read how with the Mendix Platform’s DevOps capabilities, you will be able to bring together development, testing, and operations to build and release the applications your business needs.
         </div>
-        <a href="/evaluation-guide/app-lifecycle/devops" class="card__readmore">Read more</a>
+        {{ partial "card-readmore.html" (dict "context" . "url" "/evaluation-guide/app-lifecycle/devops") }}
     </div>
     <div class="col-md-6 col-xs-6">
         <h4 class="card__featured__title">Featured Questions:</h4>

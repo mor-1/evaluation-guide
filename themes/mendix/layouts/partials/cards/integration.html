@@ -4,7 +4,7 @@
         <div class="card__text">
 			Mendix supports integrating via data mapping, using JSON snippets, consuming REST and web services, publishing SOAP and OData services, and importing data from various sources. Learn more about how to integrate your Mendix app projects with external services.
         </div>
-        <a href="/evaluation-guide/app-capabilities/integration" class="card__readmore">Read more</a>
+        {{ partial "card-readmore.html" (dict "context" . "url" "/evaluation-guide/app-capabilities/integration") }}
     </div>
     <div class="col-md-6 col-xs-6">
         <h4 class="card__featured__title">Featured Questions:</h4>

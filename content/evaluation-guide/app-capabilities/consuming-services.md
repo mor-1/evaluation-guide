@@ -31,7 +31,7 @@ When you have a WSDL (either from a Mendix application or from a third-party app
 
 {{% image_container width="500" align="left" %}}
 
-![](attachments/consumed_webservice.PNG)
+![](attachments/consumed_webservice.png)
 
 {{% /image_container %}}
 

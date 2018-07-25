@@ -111,7 +111,7 @@ Furthermore, the data sets of objects available for viewing, editing, and removi
 
 {{% todo %}}[**Video below will be remade and is to be used in this section as determined by Roald, please work into the content**]{{% /todo %}}
 
-<video controls src="attachments/DM_XPathSecurity.mp4">VIDEO</video>
+<video controls src="attachments/DM_XpathSecurity.mp4">VIDEO</video>
 
 ## 4 How Is Security Handled at the Mendix Data Layer?
 

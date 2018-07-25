@@ -110,7 +110,7 @@ ATS integrates into the Mendix Platform to enable viewing all the user stories a
 
 Test cases can be executed against different browsers and multiple devices using either [Browserstack](https://www.browserstack.com/) or [Saucelabs](https://saucelabs.com/).
 
-![](attachments/browsersauce.png)
+![](attachments/browserSauce.png)
 
 Test cases are run when there is a new deployment, either based on a schedule or manually. The tool also allows for bulk testing by uploading data from Microsoft Excel.
 

@@ -23,7 +23,7 @@ All the application models in Mendix are managed in a single environment. Mendix
 
 {{% image_container width="450" %}}
 
-![](attachments/error-pop-up.png)
+![](attachments/DM-error-list.png)
 
 {{% /image_container %}}
 
@@ -73,11 +73,9 @@ This industry-first cloud service leverages the Mendix metadata-based Model API,
 
 ### 4.1 How Can I Reduce Lifecycle Cost?
 
-Bimodal IT is a critical capability for organizations looking to digitize their business. According to Gartner, one of the top four mistakes organizations make when implementing bimodal is failing to maintain a disciplined focus on refactoring and managing technical debt. This means that the benefit of greater agility can turn into a maintenance nightmare in the long run.
+According to Gartner, one of the top four mistakes organizations make when implementing bimodal is failing to maintain a disciplined focus on refactoring and managing technical debt. This means that the benefit of greater agility can turn into a maintenance nightmare in the long run.
 
 Mendix addresses this challenge by providing a unique cloud service that helps users prevent technical debt. AQM provides you with the proper guardrails to protect against that debt and solidifies Mendix’s promise of speed throughout the entire lifecycle of your applications.
-
-![](attachments/BimodalIT.png)
 
 There is a strong correlation between the maintainability rating of an application and the effort put forth to handle issues and implement enhancements. Issue resolution time increases exponentially as quality drops. The following charts show that issue resolution times for defects and enhancements get exponentially longer with each level of decrease in source code quality:
 

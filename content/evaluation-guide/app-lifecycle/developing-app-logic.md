@@ -53,7 +53,7 @@ A microflow is composed of the following element types:
 
 For more information, see [Microflows](https://docs.mendix.com/refguide/microflows_) in the Mendix Reference Guide.
 
-{{% image_container width="450" align="left" %}}
+{{% image_container width="450" %}}
 ![](attachments/microflow.png)
 {{% /image_container %}}
 

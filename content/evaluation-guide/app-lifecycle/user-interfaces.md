@@ -19,7 +19,7 @@ The first main methods is to use layouts to define a default page structure with
 
 The second main method is to use snippets to define groups of widgets that will be referred to from multiple pages. This way, the model is stored in one location, and when the group of widgets needs to be adapted, you can easily do this in that location. To make reuse effortless, we have a one-click **Create snippet** feature that transforms a group of widgets into a snippet.
 
-{{% image_container width="500" align="left" %}}
+{{% image_container width="500" %}}
 ![](attachments/create-snippet.png)
 {{% /image_container %}}
 
@@ -54,6 +54,6 @@ For translation, the Mendix Desktop Modeler provides the following tools:
 
 {{% todo %}}[**Create screenshot of the app shown in the video, because texts in this screenshot are random**]{{% /todo %}}
 
-{{% image_container width="500" align="left" %}}
+{{% image_container width="500" %}}
 ![](attachments/BatchTranslate-1.png)
 {{% /image_container %}}

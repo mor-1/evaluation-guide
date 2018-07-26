@@ -67,7 +67,7 @@ Business analysts and business developers use the Web Modeler to:
 
 In short, the Web Modeler empowers them to solve problems collaboratively, creatively and quickly, maximizing the productivity of your organization and gaining higher end-user adoption.
 
-{{% image_container width="500" align="left" %}}
+{{% image_container width="500" %}}
 ![](attachments/web-modeler-test.png)
 {{% /image_container %}}
 

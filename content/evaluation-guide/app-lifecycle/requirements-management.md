@@ -41,13 +41,13 @@ When development scales up to larger numbers of teams, advanced project manageme
 
 The [Mendix Developer Portal](https://docs.mendix.com/developerportal/) is the central hub for requirements management for applications developed with Mendix. It provides full-fledged user-story and task management in a flexible backlog management interface.
 
-{{% image_container width="450" align="left" %}}
+{{% image_container width="450" %}}
 ![](attachments/agile/stories.png)
 {{% /image_container %}}
 
 User story refinement is made even easier through the specific Buzz message threads available under each story. You can post update messages, which are centrally visible for all team members and stakeholders in the Developer Portal Buzz.
 
-{{% image_container width="450" align="left" %}}
+{{% image_container width="450" %}}
 ![](attachments/agile/story-detail.png)
 {{% /image_container %}}
 
@@ -65,7 +65,7 @@ Collecting feedback from users and other stakeholders, prioritizing the feedback
 
 The development team can review and triage feedback items in the **Feedback** section of the Developer Portal. They can communicate with the submitter of the feedback item through messages on the Buzz thread under the item.
 
-{{% image_container width="450" align="left" %}}
+{{% image_container width="450" %}}
 ![](attachments/agile/accept-feedback.png)
 {{% /image_container %}}
 

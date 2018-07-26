@@ -30,7 +30,7 @@ Depending on the deployment scenario, different solutions are available to devel
 
 Any licensed app running in the Mendix Cloud can leverage the full monitoring capabilities provided by the Mendix Platform. These include out-of-the-box trend graphs, fully automated alerts, live logging and debugging, and available log archives. With these capabilities, development teams can maintain, operate, and support apps through their lifecycle.
 
-{{% image_container width="450" align="left" %}}
+{{% image_container width="450" %}}
 
 ![](attachments/alerts.png)
 
@@ -38,7 +38,7 @@ Any licensed app running in the Mendix Cloud can leverage the full monitoring ca
 
 This is a historical overview of alerts:
 
-{{% image_container width="450" align="left" %}}
+{{% image_container width="450" %}}
 
 ![](attachments/alerts-history.png)
 

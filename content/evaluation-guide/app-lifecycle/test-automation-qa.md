@@ -68,7 +68,7 @@ The implication for testing is the assurance that your testing is scoped towards
 
 The Mendix [Application Quality Monitor (AQM)](https://docs.mendix.com/aqm/aqm-overview) offers a dashboard that provides instant insight into the quality of the application models you are building. This industry-first cloud service leverages the Mendix metadata-based Model API, performing static analysis of application models by a best-of-breed engine from our integration partner [Software Improvement Group (SIG)](https://www.sig.eu/).
 
-{{% image_container width="500" align="left" %}}
+{{% image_container width="500" %}}
 
 ![](attachments/DO_AQM.png)
 
@@ -90,7 +90,7 @@ This rating provides a quality indicator for your application model and indicate
 
 The Mendix Platform supports the implementation of unit tests. These tests are built using microflows and the [UnitTesting](https://appstore.home.mendix.com/link/app/390/) module available from the Mendix App Store. Tests are run either every time there is a new build of the application or at a scheduled time.
 
-{{% image_container width="450" align="left" %}}
+{{% image_container width="450" %}}
 
 ![](attachments/DO_UnitTestingModule.png)
 
@@ -100,7 +100,7 @@ The Mendix Platform supports the implementation of unit tests. These tests are b
 
 With the Mendix Platform, you can automate your functional tests for the user stories you are developing and reduce the overall cost of testing to less than 10% of your project budget. The Mendix [Application Test Suite (ATS)](https://docs.mendix.com/ats/) offers a suite of tools for embedding testing in your application lifecycle. These tools are built in Mendix, on top of Selenium.
 
-{{% image_container width="500" align="left" %}}
+{{% image_container width="500" %}}
 
 ![](attachments/ats2.png)
 

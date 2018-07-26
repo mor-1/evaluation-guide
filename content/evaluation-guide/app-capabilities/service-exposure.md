@@ -20,13 +20,13 @@ The Mendix REST publish functionality follows the approach used by OpenAPI in wh
 
 Alternatively, you can let Mendix handle all of this automatically. Just expose your entity from your domain model or drag an entity onto the resources section of a publish-REST document, and everything required will be generated for you, including security. All the security rules you define on your entities are automatically used by your REST API.
 
-{{% image_container width="500" align="left" %}}
+{{% image_container width="500" %}}
 ![Publish REST API for entity](attachments/rest_publish_entity_api.gif)
 {{% /image_container %}}
 
 Whether you want full control of the API you implement or you just want to generate a back-end for your mobile application in a few minutes, Mendix can do it.
 
-{{% image_container width="500" align="left" %}}
+{{% image_container width="500" %}}
 ![](attachments/rest-publish-post-example.png)
 {{% /image_container %}}
 
@@ -67,7 +67,7 @@ To expose your Mendix data through OData, select **Expose as OData resource** yo
 
 Next, you will be able to specify which attributes you want to expose. You can also specify who can access this data. Of course, all the entity access rules specified on your domain model entities still apply when retrieving data through OData.
 
-{{% image_container width="450" align="left" %}}
+{{% image_container width="450" %}}
 ![](attachments/odata-published-service.png)
 {{% /image_container %}}
 
@@ -81,7 +81,7 @@ Mendix provides a Java API to define [custom request handlers](https://www.mendi
 
 Every REST API you implement with Mendix will automatically include an OpenAPI document, describing all the resources and methods provided by your API. If you include documentation and example values in your message definition, these will also be included in your OpenAPI documentation. This will make it very easy for your users to start using your API.
 
-{{% image_container width="450" align="left" %}}
+{{% image_container width="450" %}}
 ![](attachments/swagger-documentation.png)
 {{% /image_container %}}
 

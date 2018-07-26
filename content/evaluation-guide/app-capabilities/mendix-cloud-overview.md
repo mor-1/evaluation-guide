@@ -55,7 +55,7 @@ The Mendix Runtime supports out-of-the-box horizontal scaling. This allows you t
 
 For the database, a fallback option needs to be purchased per application where HA is desired. The fallback add-on will enable the Multi-AZ option that AWS RDS offers. When scaling to two or more runtime instances with the fallback option enabled, Mendix applications can be made highly available.
 
-{{% image_container width="400" align="left" %}}
+{{% image_container width="400" %}}
 
 ![](attachments/mx-ha.png)
 

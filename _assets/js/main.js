@@ -43,6 +43,8 @@
       }
       if (alignData) {
         $this.addClass('text-' + alignData);
+      } else {
+        $this.addClass('text-center');
       }
       var width = 'number' === typeof widthData ? widthData + 'px' : widthData;
       $images.each(function () {

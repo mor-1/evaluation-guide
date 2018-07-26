@@ -7,13 +7,13 @@ tags: ["app store", "reusable component", "widget", "module"]
 
 ## 1 What Are the Platform Capabilities of the Mendix App Store?
 
-The Mendix Platform is integrated with the [Mendix App Store](https://appstore.home.mendix.com/index3.html), which is full of items built both by Mendix and the Mendix community. There is a public marketplace for apps and application components, and a private part where companies can internally share apps and application components. 
+The Mendix Platform is integrated with the [Mendix App Store](https://appstore.home.mendix.com/index3.html), which is full of items built both by Mendix and the Mendix community. There is a public marketplace for apps and application components, and a private part where companies can internally share apps and application components.
 
 The Mendix App Store is fully integrated in both the Web and Desktop Modelers. Users can both directly search for and implement reusable components in their applications.
 
 For more information, see [App Store Overview](https://docs.mendix.com/community/app-store/app-store-overview) in the Mendix documentation.
 
-{{% image_container width="500" align="left" %}}
+{{% image_container width="500" %}}
 
 ![](attachments/app-store.png)
 
@@ -21,7 +21,7 @@ For more information, see [App Store Overview](https://docs.mendix.com/community
 
 ## 2 What Types of Reusable Components Are Available in the Mendix App Store?
 
-For developers, the Mendix App Store offers a rich repository of reusable components that can significantly accelerate development productivity. These components are shared in the Mendix community as open-source items or commercial products. 
+For developers, the Mendix App Store offers a rich repository of reusable components that can significantly accelerate development productivity. These components are shared in the Mendix community as open-source items or commercial products.
 
 The Mendix App Store is directly accessible from the Mendix Desktop Modeler, where app store components can be loaded into the project model with a single click. The components are presented in the categories described below.
 
@@ -29,7 +29,7 @@ The Mendix App Store is directly accessible from the Mendix Desktop Modeler, whe
 
 A connector is a Mendix App Store component that contains microflow activities that can directly be used in your app logic to connect to external systems. For example, the [IBM Watson Connector Suite](https://appstore.home.mendix.com/link/app/2860/) contains microflow activities to translate text to speech or to analyze an image, or the [SAP OData Connector](https://appstore.home.mendix.com/link/app/74525/) to connect to any SAP system.
 
-{{% image_container width="500" align="left" %}}
+{{% image_container width="500" %}}
 
 ![](attachments/appstore_connector_grid.png)
 

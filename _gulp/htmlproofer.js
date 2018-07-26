@@ -129,7 +129,7 @@ const parseHtmlFile = file => new Promise((resolve, reject) => {
 
     const todos = $('.todo', '.mx__page__content');
     if (todos.length) {
-      file.warnings.push(`${gutil.colors.yellow('[TODO]   ')} This file has ${gutil.colors.cyan('{{% todo %}}')} elements. These will not be shown on production, but you might want to check them.`);
+      file.warnings.push(`${gutil.colors.yellow('[TODO]   ')} This file has ${gutil.colors.cyan('{{% todo %}}')} elements.`);
     }
 
     const updateTime = $('meta[property="og:updated_time"]').attr('content');
@@ -200,12 +200,12 @@ const validateFiles = files => Promise.resolve(_.map(files, file => {
       if (fullUrl.hash) {
         const hashID = fullUrl.hash.replace('#', '');
         if (linkedFile.anchors.indexOf(hashID) === -1) {
-          file[warningKey].push(`${gutil.colors.yellow('[ANCHOR] ')} Has link to ${gutil.colors.cyan(link)} which does resolve the page ${gutil.colors.cyan(linkedFile.basePath)}, but the anchor ${hashID} does not exist. Please fix this`);
+          file[warningKey].push(`${gutil.colors.yellow('[ANCHOR] ')} ${gutil.colors.cyan(link)}, page ${gutil.colors.cyan(linkedFile.basePath)} exists, anchor ${gutil.colors.cyan(hashID)} does not.`);
           verbose && console.log(`hash err ${file.path} to ${linkedFile.basePath}`, link);
         }
       }
     } else if (!helpers.isFile(fullPath)) {
-      file[errorKey].push(`${gutil.colors.red('[LINK]   ')} Has link to ${gutil.colors.cyan(link)} which would resolve to ${gutil.colors.cyan(linkPath)} (.html | index.html), but it does not exist`);
+      file[errorKey].push(`${gutil.colors.red('[LINK]   ')} ${gutil.colors.cyan(link)} does not exist. Path: ${gutil.colors.cyan(linkPath)} (.html | index.html) is unresolved`);
       verbose && console.log(`err ${file.path}`, link);
     }
   });
@@ -218,7 +218,7 @@ const validateFiles = files => Promise.resolve(_.map(files, file => {
       return;
     }
     if (!helpers.isFile(fullPath)) {
-      file[errorKey].push(`${gutil.colors.red('[IMAGE]  ')} Has image: ${gutil.colors.cyan(image)} which would resolve to ${gutil.colors.cyan(fullPath)}, but it does not exist`);
+      file[errorKey].push(`${gutil.colors.red('[IMAGE]  ')} ${gutil.colors.cyan(image)} does not exist. Path: ${gutil.colors.cyan(fullPath)} is unresolved`);
       verbose && console.log(`err image ${file.path}`, image);
     }
   });
@@ -231,7 +231,7 @@ const validateFiles = files => Promise.resolve(_.map(files, file => {
       return;
     }
     if (!helpers.isFile(fullPath)) {
-      file[errorKey].push(`${gutil.colors.red('[VIDEO]  ')} Has video: ${gutil.colors.cyan(video)} which would resolve to ${gutil.colors.cyan(fullPath)}, but it does not exist`);
+      file[errorKey].push(`${gutil.colors.red('[VIDEO]  ')} ${gutil.colors.cyan(video)} does not exist. Path: ${gutil.colors.cyan(fullPath)} is unresolved`);
       verbose && console.log(`err image ${file.path}`, video);
     }
   });
@@ -240,7 +240,7 @@ const validateFiles = files => Promise.resolve(_.map(files, file => {
   _.forEach(file.anchorLinks, anchorlink => {
     if (file.anchors.indexOf(anchorlink) === -1) {
       //console.log(file.anchors);
-      file[warningKey].push(`${gutil.colors.yellow('[ANCHOR] ')} Has anchor link: ${gutil.colors.cyan('#' + anchorlink)}, which does not exist in the page`);
+      file[warningKey].push(`${gutil.colors.yellow('[ANCHOR] ')} ${gutil.colors.cyan('#' + anchorlink)} does not exist in page`);
       verbose && console.log(`err anchor ${file.path}`, anchorlink);
     }
   });

@@ -55,21 +55,13 @@ The Mendix Runtime supports out-of-the-box horizontal scaling. This allows you t
 
 For the database, a fallback option needs to be purchased per application where HA is desired. The fallback add-on will enable the Multi-AZ option that AWS RDS offers. When scaling to two or more runtime instances with the fallback option enabled, Mendix applications can be made highly available.
 
+{{% image_container width="400" align="left" %}}
+
 ![](attachments/mx-ha.png)
 
-## 5 How Can My App Get Access to My On-Premises Services Without Using a VPN?
+{{% /image_container %}}
 
-The best practice for setting up a secure connection between the Mendix Cloud and your on-premises solution is by using a reverse-proxy with client-server certificates. This allows you to set up a peer-to-peer connection between your application in the cloud and the on-premises solution.
-
-Mendix supports this way of connecting because a VPN comes with significant more maintenance as well as security risk overhead. This is because a VPN will connect to another network not at the application level but at the TCP level. The consequence of this is that, unless you secure your own network with an extra firewall, you are potentially opening your on-premises network to a public network. This is not a best practice and thus not supported by Mendix.
-
-## 6 How Can the Mendix Support Team Assist Me When Running in the Mendix Cloud?
-
-When approved by the user, Mendix Support can gain access to the graphs and activity logs of all Mendix Cloud applications. When troubleshooting customer tickets, Mendix Support uses this data to more effectively assist users. This is only done with the customer's consent in order to follow specific laws for data privacy.
-
-In addition, Mendix Support can utilize their experience to advise on app container sizing, performance tuning, app optimization, and more.
-
-## 7 How Does Horizontal and Vertical Scaling Work in the Mendix Cloud?
+## 5 How Does Horizontal and Vertical Scaling Work in the Mendix Cloud?
 
 Two components can be scaled explicitly in Mendix Cloud:
 
@@ -84,7 +76,7 @@ By moving a slider in the Mendix Developer Portal, an application will scale up 
 
 For the database, vertical scaling is applied. Because Mendix makes use of standard AWS RDS Postgres instances, it is possible to scale up to a gigantic database with 32 cores and 244 GB of memory.
 
-## 8 How Does Mendix Cloud Support Backup and Recovery? {#support-backup}
+## 6 How Does Mendix Cloud Support Backup and Recovery? {#support-backup}
 
 Mendix Cloud uses incremental backups with a 15-minute recovery point objective (RPO) for disaster recovery purposes. Nightly backups (with an RPO of 24 hours) are available on a self-service basis.
 
@@ -94,6 +86,18 @@ This video presents how you can create a backup:
 
 For more information, see [Backups](https://docs.mendix.com/developerportal/operate/backups), [How to Create a Backup](https://docs.mendix.com/developerportal/howto/how-to-create-backup), and [How to Restore a Backup](https://docs.mendix.com/developerportal/howto/how-to-restore-a-backup) in the Mendix documentation.
 
-## 9 What Is the Uptime Guarantee for the Mendix Cloud?
+## 7 What Is the Uptime Guarantee for the Mendix Cloud?
 
 The Mendix Cloud guarantees 99.5% and 99.95% uptime of the cloud infrastructure. The 99.95% guarantee only applies to the Mendix Enterprise Edition when the fallback add-on is purchased and the application has been scaled horizontally to two or more instances.
+
+## 8 How Can My App Get Access to My On-Premises Services Without Using a VPN?
+
+The best practice for setting up a secure connection between the Mendix Cloud and your on-premises solution is by using a reverse-proxy with client-server certificates. This allows you to set up a peer-to-peer connection between your application in the cloud and the on-premises solution.
+
+Mendix supports this way of connecting because a VPN comes with significant more maintenance as well as security risk overhead. This is because a VPN will connect to another network not at the application level but at the TCP level. The consequence of this is that, unless you secure your own network with an extra firewall, you are potentially opening your on-premises network to a public network. This is not a best practice and thus not supported by Mendix.
+
+## 9 How Can the Mendix Support Team Assist Me When Running in the Mendix Cloud?
+
+When approved by the user, Mendix Support can gain access to the graphs and activity logs of all Mendix Cloud applications. When troubleshooting customer tickets, Mendix Support uses this data to more effectively assist users. This is only done with the customer's consent in order to follow specific laws for data privacy.
+
+In addition, Mendix Support can utilize their experience to advise on app container sizing, performance tuning, app optimization, and more.

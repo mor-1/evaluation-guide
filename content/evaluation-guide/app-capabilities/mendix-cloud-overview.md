@@ -9,13 +9,13 @@ tags: [""]
 
 The Mendix Cloud is the deployment solution in which Mendix provides hosting environments for customers. The Mendix Cloud is built on top of Cloud Foundry and AWS, is available in multiple regions around the globe, and comes with high availability options. For more information on the Mendix Cloud architecture, see [Architecture Principles](../enterprise-capabilities/architecture-principles).
 
-The Mendix Cloud should be selected for its low maintenance costs, the services included (like backups, metrics, logs, and alerts), and the amount of insight available for Mendix Support.
+Mendix Cloud is the most optimzed cloud to run Mendix Applications. It comes standard with deep insights, alerting, high availabilty, backups and this is all self-service available. See [Mendix Cloud Features]{./mendix-features).
 
 ## 2 What Does the Mendix Cloud Architecture Look Like?
 
-The Mendix Cloud is a PaaS-based cloud architecture using Cloud Foundry running on top of AWS. A Mendix application runs within fully isolated containers, consuming PaaS service like database and storage.
+The Mendix Cloud is a PaaS-based cloud architecture using Cloud Foundry running on top of AWS. A Mendix application runs within fully isolated containers, consuming PaaS services like database and storage.
 
-For each region, the cloud architecture is set up fully high available and divided in multi-availability zones. This means there is a fully reliable offering for disaster recovery.
+For each region, the Mendix Cloud architecture is set up fully high available and divided in multi-availability zones. This means there is a fully reliable offering for disaster recovery.
 
 ![](attachments/mx-cloud-architecture.png)
 
@@ -25,19 +25,15 @@ For more information on Mendix architecture, see [Architecture Principles](../en
 
 Mendix Cloud is currently available in the following regions:
 
-* US East
-* EU Central
-* EU West
-* UK
-* Japan
+* US East (North Virginia)
+* EU (Frankfurt)
+* EU (Ireland)
+* UK (London)
+* Japan (Tokyo)
 
 New applications can be placed in any of the available regions. Mendix adds new regions based on customer demand.
 
-{{% todo %}}[**Erno, what is the significance of the numbers and colors in the diagram below? This won't be clear to the reader.**]{{% /todo %}}
-
 ![](attachments/mx-cloud-regions.png)
-
-![](attachments/mx-restrictions.png)
 
 ## 4 How Does Mendix Cloud Support High Availability?
 

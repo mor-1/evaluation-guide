@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
-parent: "evaluation"
-menu_order: 10
+parent: "introduction"
+menu_order: 50
 tags: [""]
 ---
 

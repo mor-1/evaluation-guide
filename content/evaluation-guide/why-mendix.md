@@ -1,7 +1,7 @@
 ---
 title: "Why Mendix?"
 parent: "introduction"
-menu_order: 50
+menu_order: 10
 tags: [""]
 ---
 

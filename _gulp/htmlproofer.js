@@ -30,7 +30,9 @@ let SOURCEPATH = null,
     DELETE_UNUSED_IMAGES = false;
 
 const parseHtmlFile = file => new Promise((resolve, reject) => {
+
   file.basePath = file.path.replace(SOURCEPATH, '');
+
   if (file.content) {
     const $ = cheerio.load(file.content);
 
@@ -195,12 +197,12 @@ const validateFiles = files => Promise.resolve(_.map(files, file => {
       if (fullUrl.hash) {
         const hashID = fullUrl.hash.replace('#', '');
         if (linkedFile.anchors.indexOf(hashID) === -1) {
-          file.warnings.push(`Has link to ${gutil.colors.cyan(link)} which does resolve the page ${gutil.colors.cyan(linkedFile.basePath)}, but the anchor ${hashID} does not exist. Please fix this`);
+          file.warnings.push(`${gutil.colors.yellow('[ANCHOR]')} Has link to ${gutil.colors.cyan(link)} which does resolve the page ${gutil.colors.cyan(linkedFile.basePath)}, but the anchor ${hashID} does not exist. Please fix this`);
           verbose && console.log(`hash err ${file.path} to ${linkedFile.basePath}`, link);
         }
       }
     } else if (!helpers.isFile(fullPath)) {
-      file.errors.push(`Has link to ${gutil.colors.cyan(link)} which would resolve to ${gutil.colors.cyan(linkPath)} (.html | index.html), but it does not exist`);
+      file.errors.push(`${gutil.colors.red('[LINK]')} Has link to ${gutil.colors.cyan(link)} which would resolve to ${gutil.colors.cyan(linkPath)} (.html | index.html), but it does not exist`);
       verbose && console.log(`err ${file.path}`, link);
     }
   });
@@ -213,7 +215,7 @@ const validateFiles = files => Promise.resolve(_.map(files, file => {
       return;
     }
     if (!helpers.isFile(fullPath)) {
-      file.errors.push(`Has image: ${gutil.colors.cyan(image)} which would resolve to ${gutil.colors.cyan(fullPath)}, but it does not exist`);
+      file.errors.push(`${gutil.colors.red('[IMAGE]')} Has image: ${gutil.colors.cyan(image)} which would resolve to ${gutil.colors.cyan(fullPath)}, but it does not exist`);
       verbose && console.log(`err image ${file.path}`, image);
     }
   });
@@ -226,7 +228,7 @@ const validateFiles = files => Promise.resolve(_.map(files, file => {
       return;
     }
     if (!helpers.isFile(fullPath)) {
-      file.errors.push(`Has video: ${gutil.colors.cyan(video)} which would resolve to ${gutil.colors.cyan(fullPath)}, but it does not exist`);
+      file.errors.push(`${gutil.colors.red('[VIDEO]')} Has video: ${gutil.colors.cyan(video)} which would resolve to ${gutil.colors.cyan(fullPath)}, but it does not exist`);
       verbose && console.log(`err image ${file.path}`, video);
     }
   });
@@ -235,7 +237,7 @@ const validateFiles = files => Promise.resolve(_.map(files, file => {
   _.forEach(file.anchorLinks, anchorlink => {
     if (file.anchors.indexOf(anchorlink) === -1) {
       //console.log(file.anchors);
-      file.warnings.push(`Has anchor link: ${gutil.colors.cyan('#' + anchorlink)}, which does not exist in the page`);
+      file.warnings.push(`${gutil.colors.yellow('[ANCHOR]')} Has anchor link: ${gutil.colors.cyan('#' + anchorlink)}, which does not exist in the page`);
       verbose && console.log(`err anchor ${file.path}`, anchorlink);
     }
   });
@@ -307,7 +309,7 @@ const writeUpdateFeed = files => new Promise((resolve, reject) => {
     feed.item({
       title: update.seoTitle,
       description: '',
-      url: 'https://' + normalizeSafe(`docs.mendix.com${update.basePath}`),
+      url: 'https://' + normalizeSafe(`https://www.mendix.com${update.basePath}`),
       date: update.dateObj
     })
   });

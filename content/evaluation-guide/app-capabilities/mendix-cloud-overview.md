@@ -59,12 +59,13 @@ For the database, a fallback option needs to be purchased per application where 
 
 ## 5 How Does Horizontal and Vertical Scaling Work in the Mendix Cloud?
 
-Two components can be scaled explicitly in Mendix Cloud:
+A Mendix Application relies on three basic components. Which are the:
 
-* Mendix Runtime instances
+* Mendix Runtime
 * The database
+* S3 (File) Storage 
 
-The Mendix Runtime instances can be scaled horizontally (for adding more Runtime instances) and vertically (so the Runtime instances have more CPU and RAM).
+The Mendix Runtime instances can be scaled horizontally by added more instances and vertically by added more memory for each instance. As the runtime is stateless no additional effort is needed to run your Mendix application in cluster mode.  
 
 By moving a slider in the Mendix Developer Portal, an application will scale up or down without application downtime.
 

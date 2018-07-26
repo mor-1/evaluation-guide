@@ -1,7 +1,7 @@
 ---
 title: "Mobile Apps"
 parent: "ux-multi-channel-apps"
-menu_order: 40
+menu_order: 30
 tags: [""]
 ---
 

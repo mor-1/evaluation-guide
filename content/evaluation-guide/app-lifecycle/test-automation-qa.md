@@ -46,6 +46,8 @@ Here are some examples of consistency checking on the Mendix Platform:
 
 The implication for testing is that these consistency checks can point out or prevent defects that could easily slip through in non-Mendix development efforts. This results in fewer defects to deal with. In some instances, these checks also work proactively (for example, when you change the name of an attribute, the Modeler adjusts all references to this attribute). This again reduces the chances of defects slipping into your model.
 
+For more information, see [Model Consistency](model-consistency).
+
 ### 2.2 Consistent Deployment of Your Application Model
 
 When an application is started, the Mendix Platform ensures that the underlying database structure matches the domain model defined within your application model. Since consistency within your domain model is also guaranteed (see above), the database structure that is deployed is consistent with all the data usage of your application.

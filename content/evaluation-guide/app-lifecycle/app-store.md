@@ -1,5 +1,5 @@
 ---
-title: "App Store & Component Reuse"
+title: "App Store"
 parent: "developing-in-mendix"
 menu_order: 70
 tags: ["app store", "reusable component", "widget", "module"]

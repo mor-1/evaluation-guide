@@ -26,13 +26,20 @@ The Mendix approach leverages model execution at runtime rather than generating 
 
 Application models consist of data models as well as UI, logic, and navigation documents as the main elements. You build these models visually using the Web Modeler and Desktop Modeler, which combine to deliver an integrated, low-code, and model-driven app development experience across a spectrum of users, from Business Analysts and professional Developers to the end-users.
 
-![](attachments/BothModelers.png)
+## 3 How Can I Work with My Team Members on the Same App?
 
-## 3 The Modelers
+Business Analysts and Business Developers can work together on a single app model version in the Web Modeler. This means that all changes are directly available to all other Web Modeler users. The Web Modeler can also be used for stakeholders to review the app and place comments on the app pages, domain model, and microflow logic.
+
+Developers using the Mendix Desktop Modeler can work together on the same app model via the [Team Server](version-control) version control repository. The models in the Web Modeler and Desktop Modeler environments can be brought in sync using Team Server. For detailed steps on how to manage this, see [How to Sync  the Web Modeler with the Desktop Modeler](https://docs.mendix.com/howto/web-modeler/syncing-webmodeler-desktop) in the Mendix documentation.
+
+## 4 The Modelers
+**[Adam: please make sure this picture is visible]**
+
+![](attachments/BothModelers.png)
 
 While both the Web Modeler and Desktop Modeler environments support the ability to build data models, pages, and logic, their target audiences differ, and their features are tuned accordingly.
 
-### 3.1 What Can I Do with the Web Modeler? {#web-modeler}
+### 4.1 What Can I Do with the Web Modeler? {#web-modeler}
 
 The Mendix Web Modeler is our collaborative, no-code, web-based application development environment. It enables Business Developers and users with minimal coding or software development experience to create engaging web and mobile applications without having to know how to code. With the Web Modeler's visual drag-and-drop interface for design, data, and logic, collaborative software development becomes accessible to a variety of stakeholders.
 
@@ -50,7 +57,7 @@ In short, the Web Modeler empowers them to solve problems collaboratively, creat
 ![](attachments/web-modeler-test.png)
 {{% /image_container %}}
 
-### 3.2 What Can I Do with the Desktop Modeler? {#desktop-modeler}
+### 4.2 What Can I Do with the Desktop Modeler? {#desktop-modeler}
 
 The Mendix Desktop Modeler is our comprehensive low-code application development environment. It allows cross-functional teams to turn ideas into production applications. A range of developers—from the seriously experienced to those with little previous exposure to coding—can build applications from the ground up by adding complex logic and building sophisticated integrations to create enterprise-grade, transactional web and mobile applications.
 
@@ -58,13 +65,24 @@ The Desktop Modeler is designed for (experienced) Business Analysts and Develope
 
 ![](attachments/desktop-modeler.png)
 
-### 3.3 Which Operating Systems Do the Mendix Modelers Support? {#operating-systems}
+### 4.3 How Can I Work Offline?
+
+The Mendix Desktop Modeler has a **Work offline** mode in which you can continue modeling, running, and testing the app locally without the need of an internet connection. In this mode, all the changes are still stored in the local version repository. When you want to share the changes made with the rest of your App Team, you can go online again and commit to the [Team Server](version-control) version control repository.
+
+While working offline, online services like the [Mendix App Store](https://appstore.home.mendix.com/index3.html), Team Server, and and app project stories in the Mendix Developer Portal are temporarily disabled.
+
+### 4.4 How Can I Deploy and Test Locally?
+
+Rapid development requires developers to test changes quickly, particularly where UX/UI is concerned. To achieve this, the Mendix Platform provides one-click deployment to the user's local machine. Local deployment works out of the box, no additional installation or configuration required. When deploying locally, a fully functional local working instance of the application with its own local SQL database is started.
+
+The **Instant Update** feature in the Desktop Modeler provides the fastest way to quickly iterate on changes made in an app project. Only the changed parts of the app are pushed and updated to the locally running app, so you can directly test your change in the live app.
+
+<video controls  src="attachments/instant-update.mp4">VIDEO</video>
+
+You can even test changes locally without the need of an internet connection using `http://localhost:{dynamic variable port}`.
+
+### 4.5 Which Operating Systems Do the Mendix Modelers Support? {#operating-systems}
 
 Most Mendix Platform features are browser-based, including the Web Modeler. These features are available on Windows, MacOS, and Linux.
 
 The Desktop Modeler is a Windows-based application, which can also be run in a virtual machine like Parallels on MacOS.
-
-## 4 How Can I Work with My Team Members on the Same App?
-
-* Business Analysts and Business Developers can work together on a single app model version in the Web Modeler. This means that all changes are directly available to all other Web Modeler users. The Web Modeler can also be used for stakeholders to review the app and place comments on the app pages, domain model, and microflow logic.
-* Developers using the Mendix Desktop Modeler can work together on the same app model via the [Team Server](version-control) version control repository. The models in the Web Modeler and Desktop Modeler environments can be brought in sync using Team Server. For detailed steps on how to manage this, see [How to Sync  the Web Modeler with the Desktop Modeler](https://docs.mendix.com/howto/web-modeler/syncing-webmodeler-desktop) in the Mendix documentation.

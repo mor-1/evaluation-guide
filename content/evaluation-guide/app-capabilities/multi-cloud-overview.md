@@ -4,6 +4,29 @@ parent: "deployment"
 menu_order: 10
 tags: [""]
 ---
+## 1 What Deployment Options Does Mendix Provide? {#deployment-options}
+
+An application built with Mendix is based on a cloud-native design and conforms to 12-factor principles. The Mendix Runtime is fully optimized to run in a container technology that is compatible with most modern cloud platform offerings like Kubernetes and Cloud Foundry. Mendix apps are thus able to utilize benefits of these cloud platforms such as auto-scaling, auto-provisioning, auto-healing, low infra-overhead, CI/CD support, and cloud interoperability. For more information on these Mendix architecture principles, see [Architecture Principles](../enterprise-capabilities/architecture-principles).
+
+Within this flexible model, Mendix supports a large variety of deployment options that allow you to run your Mendix application on a public, virtual private, private, or hybrid cloud or via a traditional (virtual) server.
+
+### 1.1 Public Cloud
+
+If you want to acquire the best utilization rate for your infrastructure, to maintain optimal flexibility, and to convert your capital investment into operational expenses, the public cloud is the best choice. Mendix has support for most public cloud vendors, such as Mendix Cloud, IBM, SAP, Microsoft, AWS, and Google. For Mendix Cloud, SAP, and IBM, we deliver a fully integrated experience in which you can run your app with a single click via your cloud choice.
+
+For more information, see the section [How Can I Run Mendix in the Public Cloud?](#running-public-cloud) below.
+
+### 1.2 Virtual Private Cloud (VPC)
+
+If your business requires a higher data or application isolation level, a virtual private cloud (VPC) could be the best choice. You still can benefit from a high utilization rate and resource flexibility, but on dedicated hardware or within a separate network segment. A Mendix application runs fully decoupled from our public Mendix Developer Portal, which means running on a VPC can be accommodated easily.
+
+For more information, see the section [How Can I Run Mendix in a Virtual Private Cloud?](#vpc) below.
+
+### 1.3 Private Cloud – On-Premises
+
+If your organization is complying with specific regulations and is not allowed to run in a third-party cloud, you must run your infrastructure on premises. This option can be based on a private cloud or on a traditional server. Mendix can run on both server-based solutions as private cloud IaaS or PaaS solutions.
+
+For more information, see the section [How Can I Run Mendix in a Private Cloud or On Premises?](#on-prem) below.
 
 ## 2 How Do I Run and Deploy My Mendix Application? {#run-deploy}
 

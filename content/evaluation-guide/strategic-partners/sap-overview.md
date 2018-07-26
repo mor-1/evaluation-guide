@@ -31,7 +31,14 @@ To learn more about the SAP–Mendix partnership, check out these featured quest
 
 ## 2 What Does the Mendix–SAP Partnership Offer? {#sap-partnership-offer}
 
-{{% todo %}}**[Note from Adam: Erno, this question was specified by Roald, and it will go on the landing page card. Please consult with Roald for what content should go here. Content can probably be moved from other sections of this doc.]**{{% /todo %}}
+SAP together with Mendix offers the ability to extend digital core of SAP with Low-code / Rapid Application development. Bringing best of two worlds together, by having best in class products, like SAP S/4 Hana, SAP SuccessFactors, SAP Hybris together with the ability to customize these to the companies differentiating needs in a controlled, collaborative and fast way.
+
+![](attachments/mx-sap-offering.png)
+
+Mendix extensions are full stack, they include both data, logic and UI. This makes it possible to keep the data layer of your system of records clean from data which should not belong in there. This all makes it possible to keep your systems of record vanilla. With the benefit of update your SAP system more easily and keep the maintenance cost low of your SAP system. This way of extensions are named  as side-by-side extensions by SAP.  
+
+![](attachments/sap-future-proof-extentions.png)
+
 
 ## 3 How Can I See the Road Map of SAP Cloud Platform Rapid Application Development by Mendix?
 

@@ -5,23 +5,7 @@ menu_order: 20
 tags: ["Integration"]
 ---
 
-## 1 How Can I Integrate with Mendix? {#integrate}
-
-Integration has always been an important part of application development. But the topic has not received much of the spotlight in the market for developing apps until now. The maturation of cloud-native and as-a-service software options has increased the need for APIs that connect disparate applications together to exchange data, trigger events, and orchestrate workflow processes.
-
-Mendix invests in its platform to make it easy to connect applications and services with each other in a variety of ways, most recently with REST. While REST has become a standard for building APIs and web-services for applications to talk, other web service protocols, standardized frameworks, and APIs remain valid options, depending on the problem you need to solve.
-
-The Mendix Platform provides an extensive array of tools to handle integrations:
-
-* Message definitions – specify what message you exchange with external systems, and these can be based on XML schemas, JSON snippets, or entities defined in your domain models
-* Mappings – these visual specifications translate external messages to and from entities in your Mendix applications
-* Web services – publish microflows as web service operations and call external web services from your microflows
-* REST services – publish microflows and entities as REST resources and operations and call external REST APIs from your microflows
-* OData – publish data in your application in a standardized REST format for easy use in business analytics tooling
-* Connectors – purpose-built connector modules provide easy-to-use microflow activities as integrated with third-party services like SAP, Kafka, Redis, Slack, Twitter, and Salesforce
-* Connector Kit – enables adding any custom integration using Java to Mendix in a generic and reusable way
-
-## 2 How Does Mendix Support Data Mapping? {#data-mapping}
+## 1 How Does Mendix Support Data Mapping? {#data-mapping}
 
 Being able to easily map external data formats to the entities used in your application is an important aspect of integration. Mendix gives you both advanced control over these mappings and an easy-to-understand visual editor for defining your mappings. This gives you the ability to handle anything you may encounter in external systems as well as to collaborate with any stakeholder in your organization on the correct mapping.
 
@@ -40,7 +24,7 @@ These message definitions and mappings can be reused through the different integ
 <video controls src="attachments/ApplyImportMapping.mp4">VIDEO</video>
 {{% /image_container %}}
 
-## 3 How Can I Use JSON Snippets?
+## 2 How Can I Use JSON Snippets?
 
 External REST APIs often come with documentation including example JSON messages that you need to send to receive. With Mendix, you can just copy and paste these examples from the documentation to create a message definition in your application project. Mendix will automatically detect the structure of the message as well as the data types of the properties in the JSON snippet.
 
@@ -50,7 +34,7 @@ After doing this, you can use the message definition as any other message defini
 ![](attachments/json-snippet-example.png)
 {{% /image_container %}}
 
-## 4 How Can I Use XMLs and WSDLs?
+## 3 How Can I Use XMLs and WSDLs?
 
 When importing a web service definition (WSDL), the message definition will be automatically provided in your application based on the XML schema used in the WSDL. 
 
@@ -60,7 +44,7 @@ Alternatively, you can define your messages based on a separate XML schema docum
 ![](attachments/xsd-message-definition.png)
 {{% /image_container %}}
 
-## 5 How Can I Create XML and JSON Messages from Application Data?
+## 4 How Can I Create XML and JSON Messages from Application Data?
 
 When creating services or APIs in Mendix, you can easily support both XML and JSON. To do this, you can create a message definition document, and then define all the separate message simply by dragging and dropping entities into your message definition document. Here you exclude properties you do not want included in your JSON or XML, or provide different naming for external systems.
 
@@ -76,7 +60,7 @@ The image below illustrates how to use a microflow export activity to generate a
 ![](attachments/export-to-json.png)
 {{% /image_container %}}
 
-## 6 How Does Mendix Support Using REST with Formats Other than JSON?
+## 5 How Does Mendix Support Using REST with Formats Other than JSON?
 
 You can use REST with import and export mappings, which support both JSON and XML. You are not limited to using mappings, as you can directly use the content payload when sending and receiving message, or you can use a string template to define the message. 
 

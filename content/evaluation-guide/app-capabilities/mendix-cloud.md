@@ -1,7 +1,7 @@
 ---
 title: "Mendix Cloud"
 parent: "deployment"
-menu_order: 20
+menu_order: 30
 tags: [""]
 ---
 

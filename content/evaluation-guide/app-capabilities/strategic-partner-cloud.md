@@ -1,7 +1,7 @@
 ---
 title: "Strategic Partner Clouds"
 parent: "deployment"
-menu_order: 30
+menu_order: 40
 tags: [""]
 ---
 

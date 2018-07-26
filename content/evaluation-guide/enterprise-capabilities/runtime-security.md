@@ -43,7 +43,7 @@ The Mendix Runtime protects your application and data according to your model, w
 
 Mendix offers out-of-the-box support for developing multi-tenant applications. Multi-tenant apps in Mendix share the same database, application logic, and user interface. Application logic can be extended with tenant-specific logic, and the UI can be styled per tenant.
 
-Tenants are defined by identifying companies in the Mendix identity management module MxID. The company/tenant ID is used to do the following:
+The tenant object is used to do the following:
 
 * Define a tenant-aware object model for the application. Tenant-level access to domain objects is configured using XPath definitions. This restricts access to those application object instances for the company to which the end-user belongs.
 * Define tenant-specific microflows and configure access rights to implement tenant-level application and process logic.

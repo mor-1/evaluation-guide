@@ -14,6 +14,8 @@ Within this flexible model, Mendix supports a large variety of deployment option
 
 If you want to acquire the best utilization rate for your infrastructure, to maintain optimal flexibility, and to convert your capital investment into operational expenses, the public cloud is the best choice. Mendix has support for most public cloud vendors, such as Mendix Cloud, IBM, SAP, Microsoft, AWS, and Google. For Mendix Cloud, SAP, and IBM, we deliver a fully integrated experience in which you can run your app with a single click via your cloud choice.
 
+![](attachments/multi-cloud-deploy.png)
+
 For more information, see the section [How Can I Run Mendix in the Public Cloud?](#running-public-cloud) below.
 
 ### 1.2 Virtual Private Cloud (VPC)
@@ -71,8 +73,6 @@ It is even possible to switch between cloud providers, so you can start developi
 ![](attachments/mutli-cloud-selection.png)
 
 At the moment, the integrated Mendix Multi-Cloud solution is provided for Mendix Cloud, IBM Cloud, and SAP Cloud. More clouds will be added to the Mendix Multi-Cloud portfolio in the near future.
-
-![](attachments/multi-cloud-deploy.png)
 
 ### 2.5 When Should I Use IaaS vs. PaaS?
 

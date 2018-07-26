@@ -75,7 +75,7 @@ For the database, vertical scaling is applied. Because Mendix makes use of stand
 
 ## 6 How Does Mendix Cloud Support Backup and Recovery? {#support-backup}
 
-Mendix Cloud uses incremental backups with a 15-minute recovery point objective (RPO) for disaster recovery purposes. Nightly backups (with an RPO of 24 hours) are available on a self-service basis.
+Mendix Cloud uses incremental backups with a 15-minute recovery point objective (RPO) for disaster recovery purposes. Nightly backups (with an RPO of 24 hours) are available on a self-service basis. Next to the automatic backup's it is also possible to trigger a backup manually using the Mendix Portal or API.
 
 This video presents how you can create a backup:
 

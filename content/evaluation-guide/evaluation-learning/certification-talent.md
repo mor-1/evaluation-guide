@@ -45,7 +45,7 @@ Every member of the [Mendix community](https://developer.mendixcloud.com/link/co
 
 If you're looking for a partner to help you with the implementation of a Mendix project(s), you can search through our extensive [list of partners](https://developer.mendixcloud.com/link/partneroverview). For more information, check [this section](../strategic-partners/) of the platform evaluation guide.
 
-### 2.1 Does Mendix Have a University Program?
+### 3 Does Mendix Have a University Program?
 
 Mendix works with many universities and higher education institutions to enable students to learn how to develop mobile and web applications quickly. The course curriculum is designed to give students a well-rounded knowledge of both the Mendix Platform and Agile project management using the Scrum framework. The curriculum allows students to receive hands-on experience with the process of building and deploying working applications.
 

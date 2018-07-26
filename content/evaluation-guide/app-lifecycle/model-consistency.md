@@ -23,7 +23,7 @@ All the application models in Mendix are managed in a single environment. Mendix
 
 {{% image_container width="450" %}}
 
-![](attachments/DesktopModeler-error-list.png)
+![](attachments/DM-error-list.png)
 
 {{% /image_container %}}
 
@@ -73,7 +73,9 @@ This industry-first cloud service leverages the Mendix metadata-based Model API,
 
 ### 4.1 How Can I Reduce Lifecycle Cost?
 
-According to Gartner, one of the top four mistakes organizations make when implementing bimodal is failing to maintain a disciplined focus on refactoring and managing technical debt. This means that the benefit of greater agility can turn into a maintenance nightmare in the long run.
+Mendix helps most in projects where the requirements are not completely defined up front and in projects that have a high rate of change. Often these projects are building innovative apps using agile techniques, short feedback loop and experimentation.  The benefits of having this agility when can turn into a maintenance nightmare in the long run if development teams have insufficient focus on and insight in refactoring and managing technical debt.
+
+![pace layer model](attachments/blog-in-post-pace-payer-model-02.png)
 
 Mendix addresses this challenge by providing a unique cloud service that helps users prevent technical debt. AQM provides you with the proper guardrails to protect against that debt and solidifies Mendix’s promise of speed throughout the entire lifecycle of your applications.
 

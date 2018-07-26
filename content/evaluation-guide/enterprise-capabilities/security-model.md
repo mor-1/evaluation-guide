@@ -89,13 +89,13 @@ This information can also be edited within a microflow using the **Allowed roles
 
 Entity access defines for each module role whether users with this role are authorized to create, read, update, and delete objects of the entity. Entity access is configured with access rules that apply to entities. Each access rule in turn applies to a (set of) module role(s). The access rules of an entity define what a user is allowed to do with objects of the entity. Users can be allowed to create and delete objects as well as view and edit member values. A member is an attribute or an association of an entity.
 
-Furthermore, the data sets of objects available for viewing, editing, and removing, which can be limited by means of an XPath constraint. Every access rule is applicable to one or more module roles. An access rule grants certain access rights to those roles. Rules are additive, which means that if multiple access rules apply to the same module role, all the access rights of those rules are combined for that module role. This feature is applied, for example, when applications are configured for multi-tenant usage.
-
 ![Object security rule](attachments/figure-6-object-security-role.png)
 
-{{% todo %}}[**Video below will be remade and is to be used in this section as determined by Roald, please work into the content**]{{% /todo %}}
+Furthermore, the data sets of objects available for viewing, editing, and removing, which can be limited by means of an XPath constraint. Every access rule is applicable to one or more module roles. An access rule grants certain access rights to those roles. Rules are additive, which means that if multiple access rules apply to the same module role, all the access rights of those rules are combined for that module role. This feature is applied, for example, when applications are configured for multi-tenant usage.
 
 <video controls src="attachments/DM_XpathSecurity.mp4">VIDEO</video>
+
+These rules will be applied anytime your application uses an entity. The rules will be automatically applied to XPath retrieves done in your model. You can define XPath constraints on entities, which means you can define access rules depending on the user role or organization. This can be used to ensure strict data separation in multi-tenant applications.
 
 ## 3 How Can My Mendix App Integrate with Third-Party Identity Management Solutions?
 

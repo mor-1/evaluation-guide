@@ -1,48 +1,44 @@
 ---
 title: "What Is Mendix?"
-category: "Overview"
-notoc: true
+parent: "introduction"
+menu_order: 20
 tags: [""]
 ---
 
-The Mendix Platform is designed to accelerate enterprise app delivery across your entire application development lifecycle, from ideation to development, deployment, and the ongoing management of your application portfolio in the cloud or on premises.
+## 1 What Is Mendix?
 
-Mendix offers both no-code (visual modelling) and low-code (highly extensible and integrated tooling to support cross-functional teams working collaboratively) solutions. Business domain experts such as analysts and citizen developers can work alongside expert developers to achieve much greater levels of business agility and accelerated delivery. The Mendix Platform's cloud-native architecture and automation tools support the deployment, management, and monitoring of highly available enterprise-grade applications. 
+Mendix is a low-code platform for delivering enterprise applications. The Mendix Platform covers the entire lifecycle of an application, from the initial idea to developing, deploying, operating, and evolving the application.
 
-Based on our three core principles of speed, collaboration, and control, Mendix offers a complete platform for your enterprise application delivery needs.
+This is a brief overview of Mendix capabilities:
 
-## {Video}
+* Agile requirements management
+  * Sprint and story management
+    * Integrated feedback management via embedded feedback widgets that enable end-users to provide instant feedback directly within an application
+    * A closed feedback loop enables the development team to quickly resolve queries from the business, facilitating rapid iteration
+    * Built-in app validation with instant app sharing can further enhance collaboration
+* Application development
+    * Visual modeling languages for all the aspects of a business application
+      * Web and mobile UI, data, logic, integration, and security
+    * Version management and team collaboration with a built-in Team Server
+    * Consistency checks to prevent technical errors in the application with real-time error checking
+    * Visual debugging
+* Automated Testing and CI/CD
+    * {{% todo %}}[**Needs to be finished**]{{% /todo %}} 
+* Application deployment
+    * The ability to deploy with one click to any cloud environment directly from Mendix's app modeling environment enables developers with any background to bring applications to their users
+    * Multi-cloud deployment options
+* Application monitoring
+    * Monitoring & alerts
+    	* {{% todo %}}[**Needs to be finished**]{{% /todo %}} 
+* Portfolio management
+    	* {{% todo %}}[**Do we have enough capabilities to mention this?**]{{% /todo %}}
+		
+# 2 Who Uses Mendix?
 
-**[Idea from Roald: should be a 1.5 minute personal video with Johan talking]**
+Mendix helps the world's largest organizations create innovative applications at speed and scale. Explore some of our [customer success stories](https://www.mendix.com/our-customers/).
 
-## What Is the Vision Behind Mendix? {#vision}
+There are more than 60,000 Mendix community members ready to help you. Visit the [Mendix Community site](https://developers.mendix.com/) to explore content, ask questions, and enroll at the Mendix Academy.
 
-Our vision in a world where software is the lifeblood of every company is to empower people with diverse skills and backgrounds to collaborate successfully and create better software that delivers true business value. Mendix can accomplish this more quickly and at a significantly lower cost than ever before.
+{{% todo %}}[**Write new section [PRIO2]: 3 How Does Visual Modeling Work?**]{{% /todo %}}
 
-The Mendix Platform brings together the people with ideas and the people with the technical aptitude to execute in order to create a powerful force for change, which we believe is necessary to compete and survive in this software-driven world.
 
-For details, see [What Is the Vision Behind Mendix?](what-is-mendix#vision).
-
-## How Does Mendix Optimize the Collaboration Between Business & IT? {#optimize-collaboration}
-
-To achieve the high levels of agility and continuous interactions required to collaborate effectively across multi-disciplinary teams, the Mendix Platform combines the following key concepts:
-
-* Abstraction through visual model-driven development tools
-* Automation via continuous integration and deployment (CI/CD)
-* Intelligent assisted development with a fully integrated feed that maps every interaction across the application lifecycle to a central dashboard
-
-Project team members are connected instantly and interactively to changes and updates about new requirements, software revisions, updates, and shipments, including test results and feedback loops from end-users. This live feed becomes the backbone for the collaborative process, while visual models and drag-and-drop WYSYWG editors lower the barrier to entry for business users to participate in the app development process.
-
-Read more in [How Does Mendix Optimize the Collaboration Between Business & IT?](what-is-mendix#optimize-collaboration).
-
-## What Does the Mendix Architecture Look Like? {#architecture}
-
-Mendix is a fully open platform that leverages open standards and open-source technologies to meet the demands of today's enterprise software delivery requirements. Our stateless architecture is Twelve-Factor App methodology-compatible and supports highly available and scalable solutions running in container technologies like Docker, Kubernetes, and Cloud Foundry or on top of Windows or Linux.  
-
-At its core, the Mendix Platform is open and extensible on every level, from integration to your existing development landscape for CI/CD and DevOps.
-
-For details, see [What Does the Mendix Architecture Look Like?](what-is-mendix#architecture).
-
-## Read More
-
-* [The Mendix Vision](what-is-mendix)

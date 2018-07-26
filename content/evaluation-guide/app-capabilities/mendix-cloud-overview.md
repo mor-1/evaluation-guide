@@ -95,6 +95,6 @@ Mendix supports this way of connecting because a VPN comes with significant more
 
 ## 9 How Can the Mendix Support Team Assist Me When Running in the Mendix Cloud?
 
-When approved by the user, Mendix Support can gain access to the graphs and activity logs of all Mendix Cloud applications. When troubleshooting customer tickets, Mendix Support uses this data to more effectively assist users. This is only done with the customer's consent in order to follow specific laws for data privacy.
+When approved by the user, Mendix Support can gain access to the graphs and activity logs of a Mendix Cloud applications. for troubleshooting customer tickets, Mendix Support uses this data to more effectively assist users. This is only done with the customer's consent in order to follow specific laws for data privacy.
 
 In addition, Mendix Support can utilize their experience to advise on app container sizing, performance tuning, app optimization, and more.

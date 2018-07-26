@@ -9,7 +9,7 @@ tags: ["app", "model", "modeler", "team", "test", "debug", "offline", "custom co
 
 The Mendix platform is designed for a variety of app developers. From business oriented developers without any software development skills to very experienced technical oriented developers with extensive software development skills and programming experience.
 
-**[to be added: picture with the developer continuum]**
+![](attachments/DeveloperContinuum.png)
 
 * Business Analysts and Business Developers can directly use the Mendix Web Modeler to build, review, and collaborate on an app. The Web Modeler provides the tools to build the app, no matter the user's programming experience or background. Users familiar with the Web Modeler can easily start using the Mendix Desktop Modeler too, if more advanced app features need to be added. The Modelers share the same concepts and terminology, which makes for a smooth user experience.
 * Developers with a technical programming background (for example, in JavaScript, Java, or .NET) can use the Mendix Desktop Modeler along with CSS, Java and JavaScript to build, customize and extend an app.

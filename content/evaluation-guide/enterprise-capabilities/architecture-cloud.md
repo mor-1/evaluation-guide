@@ -29,11 +29,9 @@ Within Mendix Cloud we make use a logical term called App Container to describe 
 
 The Mendix Cloud offers high availability for all app environments, ensuring zero downtime in the case of a Mendix Runtime outage. Users are able to scale Mendix app environments using the Cloud Portal.
 
-![Mendix app scaling](attachments/figure-11-mendix-app-scaling.png)
-
 Mendix Cloud architecture automatically applies failover between availability zones. Database containers and file storage buckets are automatically replicated across multiple availability zones. All backups are copied to other data centers, but the data will not leave the region, should your company require this.
 
-[](figure-12-multi-az-deployment-in-mendix-cloud.png)
+![](figure-12-multi-az-deployment-in-mendix-cloud.png)
 
 The Mendix Cloud enables auto-recovery and failover within the same availability zone, and the user load is balanced over two runtime containers. In the rare occurrence that a single runtime container crashes, the other runtime container automatically takes over all user requests while the Cloud Foundry Health Manager automatically replaces the crashed runtime container with a new runtime container. Because of the stateless architecture of Mendix, end-users will not be impacted in this scenario.
 

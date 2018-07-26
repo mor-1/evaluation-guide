@@ -57,7 +57,7 @@ Mendix offers MxID (which is a user management and provisioning service) as part
 
 ## 7 How Are Permissions Assigned with My Application?
 
-Apart from the company profile and settings, Mendix supports the definition of Company Admins who can assign permissions to users following a delegated administration concept. One or more administrators can be identified per tenant who, in turn, can perform certain administrative tasks in the tenant according to the permissions granted.
+Apart from the company profile and settings, Mendix supports the definition of Company Admins who can assign permissions to users following a delegated administration concept. One or more administrators can be identified per tenant who, in turn, can perform administrative tasks in the tenant according to the permissions granted.
 
 ## 8 How Are User Roles Assigned to Users in My App? {#user-roles-assigned}
 

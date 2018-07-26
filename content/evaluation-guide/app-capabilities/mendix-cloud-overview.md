@@ -9,13 +9,13 @@ tags: [""]
 
 The Mendix Cloud is the deployment solution in which Mendix provides hosting environments for customers. The Mendix Cloud is built on top of Cloud Foundry and AWS, is available in multiple regions around the globe, and comes with high availability options. For more information on the Mendix Cloud architecture, see [Architecture Principles](../enterprise-capabilities/architecture-principles).
 
-The Mendix Cloud should be selected for its low maintenance costs, the services included (like backups, metrics, logs, and alerts), and the amount of insight available for Mendix Support.
+Mendix Cloud is the most optimzed cloud to run Mendix Applications. It comes standard with deep insights, alerting, high availabilty, backups and this is all self-service available. See [Mendix Cloud Features]{./mendix-features).
 
 ## 2 What Does the Mendix Cloud Architecture Look Like?
 
-The Mendix Cloud is a PaaS-based cloud architecture using Cloud Foundry running on top of AWS. A Mendix application runs within fully isolated containers, consuming PaaS service like database and storage.
+The Mendix Cloud is a PaaS-based cloud architecture using Cloud Foundry running on top of AWS. A Mendix application runs within fully isolated containers, consuming PaaS services like database and storage.
 
-For each region, the cloud architecture is set up fully high available and divided in multi-availability zones. This means there is a fully reliable offering for disaster recovery.
+For each region, the Mendix Cloud architecture is set up fully high available and divided in multi-availability zones. This means there is a fully reliable offering for disaster recovery.
 
 ![](attachments/mx-cloud-architecture.png)
 
@@ -25,19 +25,15 @@ For more information on Mendix architecture, see [Architecture Principles](../en
 
 Mendix Cloud is currently available in the following regions:
 
-* US East
-* EU Central
-* EU West
-* UK
-* Japan
+* US East (North Virginia)
+* EU (Frankfurt)
+* EU (Ireland)
+* UK (London)
+* Japan (Tokyo)
 
 New applications can be placed in any of the available regions. Mendix adds new regions based on customer demand.
 
-{{% todo %}}[**Erno, what is the significance of the numbers and colors in the diagram below? This won't be clear to the reader.**]{{% /todo %}}
-
 ![](attachments/mx-cloud-regions.png)
-
-![](attachments/mx-restrictions.png)
 
 ## 4 How Does Mendix Cloud Support High Availability?
 
@@ -63,12 +59,13 @@ For the database, a fallback option needs to be purchased per application where 
 
 ## 5 How Does Horizontal and Vertical Scaling Work in the Mendix Cloud?
 
-Two components can be scaled explicitly in Mendix Cloud:
+A Mendix Application relies on three basic components. Which are the:
 
-* Mendix Runtime instances
+* Mendix Runtime
 * The database
+* S3 (File) Storage 
 
-The Mendix Runtime instances can be scaled horizontally (for adding more Runtime instances) and vertically (so the Runtime instances have more CPU and RAM).
+The Mendix Runtime instances can be scaled horizontally by added more instances and vertically by added more memory for each instance. As the runtime is stateless no additional effort is needed to run your Mendix application in cluster mode.  
 
 By moving a slider in the Mendix Developer Portal, an application will scale up or down without application downtime.
 
@@ -78,7 +75,7 @@ For the database, vertical scaling is applied. Because Mendix makes use of stand
 
 ## 6 How Does Mendix Cloud Support Backup and Recovery? {#support-backup}
 
-Mendix Cloud uses incremental backups with a 15-minute recovery point objective (RPO) for disaster recovery purposes. Nightly backups (with an RPO of 24 hours) are available on a self-service basis.
+Mendix Cloud uses incremental backups with a 15-minute recovery point objective (RPO) for disaster recovery purposes. Nightly backups (with an RPO of 24 hours) are available on a self-service basis. Next to the automatic backup's it is also possible to trigger a backup manually using the Mendix Portal or API.
 
 This video presents how you can create a backup:
 
@@ -88,7 +85,7 @@ For more information, see [Backups](https://docs.mendix.com/developerportal/oper
 
 ## 7 What Is the Uptime Guarantee for the Mendix Cloud?
 
-The Mendix Cloud guarantees 99.5% and 99.95% uptime of the cloud infrastructure. The 99.95% guarantee only applies to the Mendix Enterprise Edition when the fallback add-on is purchased and the application has been scaled horizontally to two or more instances.
+The Mendix Cloud guarantees 99.5% or 99.95% uptime of the cloud infrastructure depending on your SLA. The 99.95% guarantee only applies to the Mendix Enterprise Edition when the fallback add-on is purchased and the application has been scaled horizontally to two or more instances.
 
 ## 8 How Can My App Get Access to My On-Premises Services Without Using a VPN?
 

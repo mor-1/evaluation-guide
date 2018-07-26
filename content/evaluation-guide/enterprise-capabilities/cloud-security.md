@@ -131,6 +131,8 @@ Mendix Cloud architecture automatically distributes Mendix apps via a multi-avai
 
 ![Multi AZ deployment in Mendix Cloud](attachments/figure-12-multi-az-deployment-in-mendix-cloud.png)
 
+{{% todo %}} : Above image is not correct. We don't distribute runtimes accross availability zones  (Comment: Erno)  {{% todo %}}
+
 The Mendix Cloud enables auto-recovery and failover within the same availability zone, and the user load is balanced over two runtime containers. In the rare occurrence that a single runtime container crashes, the other runtime container automatically takes over all user requests while the Cloud Foundry Health Manager automatically replaces the crashed runtime container with a new runtime container. Because of the stateless architecture of Mendix, end-users will not be impacted in this scenario.
 
 ![Auto recovery in Mendix Cloud](attachments/figure-13-auto-recovery-in-mendix-cloud.png)

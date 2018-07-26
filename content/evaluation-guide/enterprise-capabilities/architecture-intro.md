@@ -6,9 +6,9 @@ notoc: true
 tags: [""]
 ---
 
-Mendix is a high-productivity aPaaS environment built on a modern, open, and cloud-native architecture that provides for scalability and the freedom to deploy to virtually any infrastructure, including Docker, Kubernetes, and Cloud Foundry. The platform's stateless server architecture supports on-demand vertical and horizontal scaling, while the Mendix public cloud provides self-service scaling and is highly available (HA) by default.
+Mendix is a high productivity aPaaS environment built on a modern, open cloud-native architecture for scalability and the freedom to deploy to virtually any infrastructure, including Docker, Kubernetes and Cloud-Foundry. The platforms statelsss server architecture supports on-demand vertical and horizontal scaling, while our public cloud provides self-service scaling and is highly available (HA) by default. 
 
-Openness and extensibility hooks are available across the platform. This includes client and server-side APIs for custom model extensions as well as platform APIs. In addition, the open-source Mendix Model SDK allows you to integrate Mendix with your existing tools (for CI/CD and DevOps) as well as build scripts to manage, monitor, and modify the core metadata of your apps.
+Openness and extensibility hooks are available across the platform, from the client and server-side APIs for custom model extensions to the platform APIs and our open-source Model SDK, which allows you to integrate Mendix with your existing tools (CICD/ Dev Ops) and build scripts to manage/monitor and modify the core metadata of your apps.
 
 ## {Video}
 
@@ -30,13 +30,14 @@ For more details, see [Which Technologies Are Behind the Mendix Platform?](archi
 
 ## What Does the Mendix Cloud-Native Architecture Look Like?
 
-The Mendix cloud-native architecture enables you to scale your applications and nodes while supporting the speed and flexibility required to deliver new functionality. Built-in agility and DevOps features combine with our Cloud Foundry (PaaS) support to empower small cross-functional teams to deploy highly portable and microservice-based applications in containers.
+The Mendix cloud-native architecture enables you to scale your applications and nodes while supporting the speed and flexibility required to deliver new functionality. Built-in Agility and DevOps combine with our Cloud-Foundry (PaaS) support to allow small cross-functional teams to deploy highly portable, microservices based applications in containers. 
 
 Read more in [What Does the Mendix Cloud-Native Architecture Look Like?](architecture-principles#cloud-native).
 
 ## How Does the Mendix Architecture Enable Scalability & Performance?
 
-At its core, the Mendix Platform architecture has a stateless runtime engine. Being stateless means that new resources can be added dynamically to support the growing demands of your applications, such as increasing user populations and processing requirements. Multiple runtimes instances seamlessly handle any requests, and if an instance should fail or become overloaded, the load is picked up automatically in order to provide an HA environment with instances managed at the PaaS layer.
+At its core, the Mendix Platform architecture has a stateless runtime engine. Being stateless means that new resources can be added dynamically to support the growing demands of your applications, such as increasing user populations or processing requirements. 
+Multiple runtimes instances seamlessly handle any requests picking up the load automatically should an instance fail or become overloaded to provide an HA environment, with instances managed at the PaaS layer. 
 
 For details, see [How Does the Mendix Architecture Enable Scalability & Performance?](architecture-principles#scalability-performance).
 

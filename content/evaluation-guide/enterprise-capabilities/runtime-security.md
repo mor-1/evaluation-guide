@@ -27,7 +27,13 @@ The core interface of the Mendix Runtime (which is responsible for the execution
 
 ## 2 How Is Security Handled at the Mendix Data Layer?
 
-The core interface of the Mendix Runtime (which is responsible for the execution of any action) has a security matrix that contains all the executable actions and data access rules per user role. The data access rules are applied at runtime when a query is sent to the database. This ensures that only data within the boundary of the access rule constraint is retrieved.
+Data security in Mendix is handled by defining the data access rules on your entities. Per entity, you can define who can see what data and who can create or delete data.
+
+{{% image_container width="450" %}}
+![](attachments/entity_access_rules.png)
+{{% /image_container %}}
+
+These rules will be applied anytime your application uses an entity. The rules will be automatically applied to XPath retrieves done in your model. You can define XPath constraints on entities, which means you can define access rules depending on the user role or organization. This can be used to ensure strict data separation in multi-tenant applications.
 
 ## 3 How Does My Mendix Application Handle Known Security Threats?
 
@@ -43,7 +49,7 @@ The Mendix Runtime protects your application and data according to your model, w
 
 Mendix offers out-of-the-box support for developing multi-tenant applications. Multi-tenant apps in Mendix share the same database, application logic, and user interface. Application logic can be extended with tenant-specific logic, and the UI can be styled per tenant.
 
-Tenants are defined by identifying companies in the Mendix identity management module MxID. The company/tenant ID is used to do the following:
+The tenant object is used to do the following:
 
 * Define a tenant-aware object model for the application. Tenant-level access to domain objects is configured using XPath definitions. This restricts access to those application object instances for the company to which the end-user belongs.
 * Define tenant-specific microflows and configure access rights to implement tenant-level application and process logic.
@@ -57,7 +63,7 @@ Mendix offers MxID (which is a user management and provisioning service) as part
 
 ## 7 How Are Permissions Assigned with My Application?
 
-Apart from the company profile and settings, Mendix supports the definition of Company Admins who can assign permissions to users following a delegated administration concept. One or more administrators can be identified per tenant who, in turn, can perform certain administrative tasks in the tenant according to the permissions granted.
+Apart from the company profile and settings, Mendix supports the definition of Company Admins who can assign permissions to users following a delegated administration concept. One or more administrators can be identified per tenant who, in turn, can perform administrative tasks in the tenant according to the permissions granted.
 
 ## 8 How Are User Roles Assigned to Users in My App? {#user-roles-assigned}
 

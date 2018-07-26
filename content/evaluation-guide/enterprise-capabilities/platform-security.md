@@ -11,7 +11,7 @@ As part of the Mendix Cloud, Mendix provides a user management and provisioning 
 
 ## 2 How Can I Administer My Company Within the Mendix Platform?
 
-Apart from the company profile and settings, Mendix supports the definition of **Company Admins**, who can assign permissions to users following a delegated administration concept. One or more administrators can be identified per tenant who, in turn, can perform certain administrative tasks in the tenant according to the permissions granted.
+Apart from the company profile and settings, Mendix supports the definition of **Company Admins**, who can assign permissions to users following a delegated administration concept. One or more administrators can be identified per tenant who, in turn, can perform administrative tasks in the tenant according to the permissions granted.
 
 ![](attachments/company-admin.png)
 

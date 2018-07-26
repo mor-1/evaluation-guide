@@ -1,5 +1,5 @@
 ---
-title: "Architecture Principles"
+title: "Gordon - Architecture Principles"
 parent: "architecture-intro"
 menu_order: 10
 tags: [""]

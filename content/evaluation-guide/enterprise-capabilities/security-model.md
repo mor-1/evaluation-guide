@@ -1,5 +1,5 @@
 ---
-title: "Model Security"
+title: "Security Model"
 parent: "security"
 menu_order: 30
 tags: [""]

@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "Use Cases"
 parent: "introduction"
 menu_order: 50
 tags: [""]

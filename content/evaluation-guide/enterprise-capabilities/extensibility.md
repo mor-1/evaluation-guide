@@ -119,22 +119,3 @@ This is a short overview of the open standards and technologies used in the Mend
 [**Duplicate of {#data-storage-extensions} **]
 [**Howto will be available on mendix site: https://github.com/ako/docs/blob/d6617f0b8e39f5ad7e064db7b6a196ec5233ca93/content/howto/extensibility/howto-datastorage-api.md **]
 {{% /todo %}}
-
-{{% todo %}}[**Note from Adam: if this section will only link to that how-to (once it is reviewed and merged into docs), I'd recommend putting this link somewhere else and not in its own section**]{{% /todo %}}
-
-## 6 How Can I Get My Data Out of My Apps?
-
-{{% todo %}}
-[** Duplicate of (12.1-openness-extensibility-ovevrview#no-lock-in) (section on data) **]
-[** Deuplicate of (7.4-importing-data#mass-export-and-import) **]
-{{% /todo %}}
-
-{{% todo %}}[**Note from Adam: if this section will only link to those other sections, I'd recommend just adding a Related Content type of section**]{{% /todo %}}
-
-## 7 How Can I Export Data Out of Mendix?
-
-{{% todo %}}
-[** Deuplicate of (7.4-importing-data#mass-export-and-import) **]
-{{% /todo %}}
-
-{{% todo %}}[**Note from Adam: if this section will only link to that other section, I'd recommend just adding a Related Content type of section**]{{% /todo %}}

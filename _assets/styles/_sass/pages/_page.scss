@@ -52,7 +52,7 @@ $block: 'mx';
         font-size: 28px;
         //letter-spacing: -1.75px;
         line-height: 1;
-        font-weight: 400;
+        font-weight: 600;
         margin: 0;
         color: $color-grey-font;
         @include modifier('frontpage') {
@@ -118,14 +118,17 @@ $block: 'mx';
       h3,
       .h3 {
           font-size: 18px;
+          margin: 20px 0;
       }
       h4,
       .h4 {
-          font-size: 14px;
+          font-size: 16px;
+          margin: 20px 0;
       }
       h5,
       .h5 {
-          font-size: 12px;
+          font-size: 14px;
+          margin: 20px 0;
       }
       h6,
       .h6 {
@@ -134,6 +137,7 @@ $block: 'mx';
 
       h1, h2, h3, h4, h5, h6 {
         color: $color-grey-font;
+        font-weight: 600;
         margin-bottom: 20px;
       }
 

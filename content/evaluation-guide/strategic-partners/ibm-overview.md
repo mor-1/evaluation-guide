@@ -21,5 +21,4 @@ To accelerate development, IBM Cloud delivers a broad range of services (which a
 
 ## 2  What Does the Mendix–IBM Partnership Offer? {#ibm-partnership-offer}
 
-**[Note from Adam: Erno, this question was specified by Roald, and it will be linked to from the landing page. Please consult with Roald for what content should go here. Content can probably be moved from other sections of this doc.]**
-
+{{% todo %}}[**Note from Adam: Erno, this question was specified by Roald, and it will be linked to from the landing page. Please consult with Roald for what content should go here. Content can probably be moved from other sections of this doc.**]{{% /todo %}}

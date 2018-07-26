@@ -1,0 +1,75 @@
+@include block('floating_background') {
+    @include opacity(0.2);
+    @include transform(rotate(-20deg));
+    position: absolute;
+    bottom: -40px;
+    right: -10px;
+    display: block;
+
+    width: 200px;
+    height: 200px;
+
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(1);
+    // filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 11;
+
+    @include modifier('mendix') {
+        background-image: url('/evaluation-guide/public/images/card_bg/logo.png');
+    }
+    @include modifier('agile') {
+        background-image: url('/evaluation-guide/public/images/card/Agile.svg');
+    }
+    @include modifier('data') {
+        background-image: url('/evaluation-guide/public/images/card/Data.svg');
+    }
+    @include modifier('developing') {
+        background-image: url('/evaluation-guide/public/images/card/Develop.svg');
+    }
+    @include modifier('devops') {
+        background-image: url('/evaluation-guide/public/images/card/Devops.svg');
+    }
+    @include modifier('ux') {
+        background-image: url('/evaluation-guide/public/images/card/Ux.svg');
+    }
+    @include modifier('integration') {
+        background-image: url('/evaluation-guide/public/images/card/Integration.svg');
+    }
+    @include modifier('multicloud') {
+        background-image: url('/evaluation-guide/public/images/card/MultiCloud.svg');
+    }
+    @include modifier('architecture') {
+        background-image: url('/evaluation-guide/public/images/card/Architecture.svg');
+    }
+    @include modifier('scalability') {
+        background-image: url('/evaluation-guide/public/images/card/Scalability.svg');
+    }
+    @include modifier('availability') {
+        background-image: url('/evaluation-guide/public/images/card/Availability.svg');
+    }
+    @include modifier('openness') {
+        background-image: url('/evaluation-guide/public/images/card/Openness.svg');
+    }
+    @include modifier('security') {
+        background-image: url('/evaluation-guide/public/images/card/Security.svg');
+    }
+    @include modifier('evaluation') {
+        background-image: url('/evaluation-guide/public/images/card/Evaluation.svg');
+    }
+    @include modifier('learning') {
+        background-image: url('/evaluation-guide/public/images/card/Learn.svg');
+    }
+    @include modifier('sap') {
+        background-image: url('/evaluation-guide/public/images/card/Sap.png');
+    }
+    @include modifier('ibm') {
+        background-image: url('/evaluation-guide/public/images/card/IBM.png');
+        bottom: -100px;
+    }
+
+
+}

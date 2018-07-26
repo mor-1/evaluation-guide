@@ -1,0 +1,4 @@
+{{- $bg := index .Page.Params "bg" -}}
+{{- if not (eq $bg nil) -}}
+<div class="floating_background floating_background--{{- $bg -}}"></div>
+{{- end -}}

@@ -23,7 +23,7 @@ All the application models in Mendix are managed in a single environment. Mendix
 
 {{% image_container width="450" %}}
 
-![](attachments/DM-error-list.png)
+![](attachments/DesktopModeler-error-list.png)
 
 {{% /image_container %}}
 

@@ -1,7 +1,7 @@
 ---
 title: "Data Security"
 parent: "data-management"
-menu_order: 20
+menu_order: 30
 tags: [""]
 ---
 

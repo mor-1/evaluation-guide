@@ -57,6 +57,8 @@ For more information on utilizing the Mendix Platform APIs, see this video:
 
 ### 2.3 Model APIs
 
+{{% todo %}}[**Needs more content, use that Googled page for Model SDK content – David & Andrej to discuss how to merge this content with Eval Guide; link to Model SDK page in ref guide and not to RN**]{{% /todo %}}
+
 Application models can be read and manipulated using the [Model SDK](https://docs.mendix.com/releasenotes/model-sdk/index).
 
 For more information on the Mendix Model SDK, see this video:

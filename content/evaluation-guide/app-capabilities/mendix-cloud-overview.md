@@ -85,7 +85,7 @@ For more information, see [Backups](https://docs.mendix.com/developerportal/oper
 
 ## 7 What Is the Uptime Guarantee for the Mendix Cloud?
 
-The Mendix Cloud guarantees 99.5% and 99.95% uptime of the cloud infrastructure. The 99.95% guarantee only applies to the Mendix Enterprise Edition when the fallback add-on is purchased and the application has been scaled horizontally to two or more instances.
+The Mendix Cloud guarantees 99.5% or 99.95% uptime of the cloud infrastructure depending on your SLA. The 99.95% guarantee only applies to the Mendix Enterprise Edition when the fallback add-on is purchased and the application has been scaled horizontally to two or more instances.
 
 ## 8 How Can My App Get Access to My On-Premises Services Without Using a VPN?
 

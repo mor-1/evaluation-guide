@@ -2,6 +2,7 @@
 title: "Agile Requirements Management"
 category: "App Lifecycle"
 notoc: true
+bg: "agile"
 menu_order: 10
 tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 ---
@@ -31,8 +32,3 @@ For details, see [How Does Mendix Support Feedback Management?](agile-overview#f
 For details, see [How Can I Integrate Mendix with Third-Party Project Management Tooling?](agile-overview#tooling).
 
 ## Read More
-
-
-
-
-

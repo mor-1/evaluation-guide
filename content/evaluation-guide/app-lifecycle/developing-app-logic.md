@@ -59,7 +59,18 @@ For more information, see [Microflows](https://docs.mendix.com/refguide/microflo
 
 A Rule is a special kind of microflow and can be used to express business rules. A Rule has to return a boolean or enumeration, and it can be used in a split to make a decision based on that result. The idea is that complicated decisions can be consolidated in rules and reused in various places in the application.
 
-### 4.1 How Can I Use My Own Custom Code in Server-Side Logic? {#custom-code}
+## 5 How Can I Add Custom Code to My Application?
+
+On the server side, Mendix provides out-of-the-box microflow logic and integration features based on REST, OData, and SOAP web services. This means that there is not often a need for custom code. If you do need to extend the microflow logic with your own (via a library call or an external service call that exposes via Java), the Mendix Modeler allows you to build Java logic that can be used directly from within the Mendix Modelers.
+
+For more details, see the following sections:
+
+* [How Can I Use My Own Custom Code in Server-Side Logic?](developing-app-logic#custom-code) in *Logic*
+* [Where Can I Use the Openness and Extensibility the Mendix Platform Offers?](../enterprise-capabilities/openness-api-sdk#where) in *Openness (API & SDK)*
+* [Custom Widget Development](https://docs.mendix.com/howto/custom-widget-development/) in the Mendix documentation about how to develop UI extensions and custom Mendix widgets for adding app-specific UI and JavaScript logic to pages
+* [Writing Code in a Low-Code World](https://www.mendix.com/blog/writing-code-in-a-low-code-world/) blog post
+
+### 5.1 How Can I Use My Own Custom Code in Server-Side Logic? {#custom-code}
 
 Integration with a third-generation programming language (in this case, Java) is one of the key strengths of the Mendix model-driven development approach. This is particularly useful in those rare situations where you are unable to achieve your desired results using microflows alone, or where you have an existing investment in Java/Scala code and skills that you would like to leverage in your application models. The Mendix Desktop Modeler is integrated with Eclipse to support you in making code extensions to the models. The Mendix debugging facilities are fully integrated into Eclipse, providing you the same debugging capabilities with the referred Java code as any other part of the running application.
 
@@ -73,7 +84,7 @@ Java extensions are fully managed by the Mendix Platform across the entire appli
 
 For more information about how to use Java code in the Mendix app, see [Java Programming](https://docs.mendix.com/refguide/java-programming) in the Mendix Reference Guide.
 
-## 5 How Do I Debug in Mendix?
+## 6 How Do I Debug in Mendix?
 
 The Mendix Desktop Modeler ensures the intrinsic quality, security, and technical consistency of applications built with the Mendix Platform through the approach and mechanisms described in [Model Consistencies](model-consistency).
 
@@ -81,7 +92,7 @@ As a result, debugging and issue testing are primarily needed on a functional le
 
 For more details on Mendix's built-in debugging tools, see [Debugging Facilities](debugging).
 
-## 6 What Error Handling Options Does Mendix Offer? {#error-handling-options}
+## 7 What Error Handling Options Does Mendix Offer? {#error-handling-options}
 
 Sophisticated error handling is supported in Mendix through the definition of error handlers in microflows. Error handlers allow you to gracefully manage errors in the logic (such as timeouts) or unexpected results from a service call or database access according to your requirements.
 
@@ -91,7 +102,7 @@ This error handling process ensures consistency across a Mendix app.
 
 <video controls  src="attachments/error-handling.mp4">VIDEO</video>
 
-## 7 How Can I Reuse Logic?
+## 8 How Can I Reuse Logic?
 
 The following features in the Mendix Modelers make logic reuse possible and easy:
 

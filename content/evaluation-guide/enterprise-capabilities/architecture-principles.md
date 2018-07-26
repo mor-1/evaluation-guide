@@ -51,7 +51,7 @@ The [Desktop Modeler](https://docs.mendix.com/refguide/desktop-modeler-overview)
 
 The Team Server is the central repository for managing and versioning application models. Team Server is written as an extension on top of Subversion (SVN), a widely adopted open-source software configuration management system. The Team Server may be hosted in Mendix Cloud or deployed on-premises.
 
-For more information, see [Version Control & Multi-User Development](../app-lifecycle/3.5-version-control).
+For more information, see [Version Control & Multi-User Development](../app-lifecycle/version-control).
 
 ### 2.1.4 Build Server
 
@@ -71,7 +71,7 @@ The [Cloud Portal](../app-capabilities/8.1-multi-cloud-deployment-overview#cloud
 
 The [Mendix App Store](https://appstore.home.mendix.com/index3.html) is a public marketplace for apps and application building blocks. This App Store can also be configured to serve as a private enterprise app store, so that end-users and business managers can discover what apps are accessible to them within their organization.
 
-For more information, see [App Store & Component Reuse](../app-lifecycle/3.7-app-store-reuse).
+For more information, see [App Store & Component Reuse](../app-lifecycle/app-store-reuse).
 
 ## 2.2 PaaS Framework and Multi-Cloud Deployment
 
@@ -99,7 +99,7 @@ Mobile applications use the same HTML5-, CSS-, and React-based client architectu
 
 •            Support for native functionality – Apache Cordoba enables JavaScript applications to use native device functionality – this enables you to, for example, benefit from all the sensors available in your mobile device, like the camera and microphone
 
-For more details on Mendix mobile device support, see [Mobile Apps](5.4-mobile-apps).
+For more details on Mendix mobile device support, see [Mobile Apps](mobile-apps).
 
 # 3 What is the Mendix Runtime and how does it support key architectural principles?
 
@@ -123,7 +123,7 @@ The runtime consists of the following components:
 
 •            Data layer – persists and retrieves objects from your application database
 
-•            Also responsible for creating and updating the database structures required to persist your data: the data layer supports a large number of different databases, and data is stored using common data model design best practices (for details, see section [9 What Databases Does Mendix Support?](../app-capabilities/6.1-data-storage#database-support) in *Data Storage*)
+•            Also responsible for creating and updating the database structures required to persist your data: the data layer supports a large number of different databases, and data is stored using common data model design best practices (for details, see section [9 What Databases Does Mendix Support?](../app-capabilities/data-storage#database-support) in *Data Storage*)
 
 •            Integration layer – handles incoming and outgoing service requests for web services, REST APIs, app services, and OData
 
@@ -169,7 +169,7 @@ This design does not just ensure scalability, it also benefits performance. This
 
 ### 3.3.2 How Does the Mendix Architecture Enable High Availability?
 
-The stateless aspect of the Mendix architecture benefits as availability and robustness. If you are using multiple runtime instances, user requests can be handled by any one of the instances. If one instance is too busy or unavailable, another instance will transparently handle the user request. To ensure runtime instances are always running, Mendix relies on the underlying platform. Both Cloud Foundry (which includes [SAP Cloud](../app-capabilities/8.2-deploy-with-partners#running-sap-cloud) and [IBM Cloud](../app-capabilities/8.2-deploy-with-partners#ibm-cloud)) and Kubernetes will automatically ensure that the configured amount of instances is running. If one of the instances goes down, the platform will automatically restart the instance.
+The stateless aspect of the Mendix architecture benefits as availability and robustness. If you are using multiple runtime instances, user requests can be handled by any one of the instances. If one instance is too busy or unavailable, another instance will transparently handle the user request. To ensure runtime instances are always running, Mendix relies on the underlying platform. Both Cloud Foundry (which includes [SAP Cloud](../app-capabilities/deploy-with-partners#running-sap-cloud) and [IBM Cloud](../app-capabilities/deploy-with-partners#ibm-cloud)) and Kubernetes will automatically ensure that the configured amount of instances is running. If one of the instances goes down, the platform will automatically restart the instance.
 
 What is more, high availability can be realized in both container- and server-based installations:
 
@@ -203,7 +203,7 @@ Mobile applications use the same HTML5-, CSS-, and React-based client architectu
 
 •            Support for native functionality – Apache Cordoba enables JavaScript applications to use native device functionality – this enables you to, for example, benefit from all the sensors available in your mobile device, like the camera and microphone
 
-For more details on Mendix mobile device support, see [Mobile Apps](5.4-mobile-apps).
+For more details on Mendix mobile device support, see [Mobile Apps](mobile-apps).
 
 ## 3.6 How are the Mendix Runtime and Mendix Platform deployed?
 

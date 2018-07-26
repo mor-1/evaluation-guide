@@ -27,7 +27,13 @@ The core interface of the Mendix Runtime (which is responsible for the execution
 
 ## 2 How Is Security Handled at the Mendix Data Layer?
 
-The core interface of the Mendix Runtime (which is responsible for the execution of any action) has a security matrix that contains all the executable actions and data access rules per user role. The data access rules are applied at runtime when a query is sent to the database. This ensures that only data within the boundary of the access rule constraint is retrieved.
+Data security in Mendix is handled by defining the data access rules on your entities. Per entity, you can define who can see what data and who can create or delete data.
+
+{{% image_container width="450" %}}
+![](attachments/entity_access_rules.png)
+{{% /image_container %}}
+
+These rules will be applied anytime your application uses an entity. The rules will be automatically applied to XPath retrieves done in your model. You can define XPath constraints on entities, which means you can define access rules depending on the user role or organization. This can be used to ensure strict data separation in multi-tenant applications.
 
 ## 3 How Does My Mendix Application Handle Known Security Threats?
 

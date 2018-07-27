@@ -5,15 +5,15 @@ menu_order: 40
 tags: [""]
 ---
 
-## 1 What is the Mendix Runtime and how does it support key architectural principles?
+## 1 What Is the Mendix Runtime & How Does It Support Key Architectural Principles?
 
 The Mendix Runtime executes your applications within the context of a cloud-native architecture. In this section we will have a look at the core components of the Mendix runtime and related capabilities, as well as take a deeper look at several important aspects of runtime execution.
 
-### 1.1 Runtime
+### 1.1 Which Component Is Responsible for Model Execution?
 
 The Mendix Runtime interprets and executes the models of your apps. The runtime has a [12-factor-compatible](architecture-12-factor) design using industry-leading Java and Scala technologies.
 
-### 1.2 Model Execution {#model-execution}
+### 1.2 How Does Mendix Execute Models? {#model-execution}
 
 The Mendix runtime directly executes models, meaning that the model literally is the application—not an intermediary. As opposed to approaches where a visually-modeled design would actually generate code (for example, Java or .Net), our model interpretation approach has a number of unique characteristics and advantages.
 
@@ -33,7 +33,7 @@ Application changes can be accommodated more easily. In addition, since the mode
 
 [Debugging]()TODO and solving problems becomes easier for the developer, as they do not have to understand how the generated code relates to the visual model. Debugging and problem-solving are done on the model, not on the generated code.
 
-### 1.2 Stateless Implementation
+### 1.2 How Does Mendix Implement Stateless Architecture?
 
 To ensure scalability, performance, and high availability, Mendix has implemented a stateless runtime. This means that any runtime instance available can handle a user request, regardless of any previous requests or subsequent requests.
 
@@ -41,21 +41,26 @@ To achieve this, runtime instances have state for the duration of a user request
 
 For more information, see [Clustered Mendix Runtime](https://docs.mendix.com/refguide/clustered-mendix-runtime) in the Mendix Reference Guide.
 
-## 2 What are the components of the Mendix runtime?
+## 2 What Are the Components of the Mendix Runtime?
 
 The Runtime consists of 2 main components:
+
 * Clients - Web and mobile clients.
 * Runtime server - scalable runtime to handle server side logic.
 
 ![Mendix architecture](attachments/mendix-architecture.png)
 
+{{% todo %}}[**Maker smaller**]{{% /todo %}}
+
 ### 2.1 Server architecture
+
+The Mendix Server architecture consists of multiple components to execute logic, manage data, communicate with client, and implement security. The diagram below shows a schematical overview of all of the components followed by a short description of their responsibility:
 
 ![Runtime components](attachments/runtime-engine.png)
 
 The runtime consists of the following components:
 
-* *Platform core* – responsible for the correct startup and shutdown of your application and loading the required libraries and extensions
+* **Platform core** – responsible for the correct startup and shutdown of your application and loading the required libraries and extensions
 * *Object cache* – handles the creation and removal of objects
 * *Session manager* – manages the creation of user sessions and the cleanup of logged-out or abandoned sessions.
 * *HTTP server* – included in the Mendix Runtime to handle requests from the web and mobile client and to handle service requests
@@ -69,7 +74,12 @@ The runtime consists of the following components:
 
 ### 2.2 Client architecture
 
+The Mendix Client is responsible for the user interaction and consists of a UI widget layer, a logic layer to execute offline logic, a data layer for offline storage. The diagram shows a schematicl overview.
+
+{{% todo %}}[**Need diagram to be made by UX - client-architecture.png; correlate list to layer order in image ]{{% /todo %}}
+
 The Mendix clients consist of the following components:
+
 * Communications layer - Exchanges metadata, session managements, and data with the Mendix runtime server. Uses a secure json over http protocol.
 * Data layer - Manages the data used in the front-end. Based on the React Flux pattern to handle state and push changes to UI components
 * Logic layer - Handles data validations and more complex logic using nano-flows.

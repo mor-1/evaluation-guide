@@ -7,46 +7,52 @@ tags: [""]
 
 ## 1 What are the key components of the Mendix platform and their architecture?
 
-The Mendix Platform is a completely integrated application platform-as-a-service (aPaaS) offering for designing, building, deploying, and managing enterprise apps. The platform is accessible for developers and administrators through the Developer Portal, which provides access to apps as well as services for development, operations, and administration of apps and app services. The platform includes an [App Store](https://appstore.home.mendix.com/index3.html) that features hundreds of publicly available building blocks to speed up development. The Mendix App Store can be configured for private use as well, so that apps and building blocks can be shared across your organization. The platform features online collaboration amongst users through the Developer Portal.
+The Mendix Platform is a completely integrated application platform-as-a-service (aPaaS) offering for designing, building, deploying, and managing enterprise apps. The platform is accessible for developers and administrators through the Developer Portal, which provides access to apps as well as services for requirements, development, and a cloud portal for operations and administration of apps and app services. The platform includes both the Desktop and Web Modeler and an [App Store](https://appstore.home.mendix.com/index3.html) that features hundreds of publicly available building blocks to speed up development. The Mendix App Store can be configured for private use as well, so that apps and building blocks can be shared across your organization. The platform features online collaboration amongst users through the Dev Portal, Mendix app, and both modelers.
 
 The below diagram provides an overview of the key components of the Mendix Platform.
 
+{{% todo %}}[add cross-references above to each part of doc below]{{% /todo %}}
+
+{{% todo %}}[Developer Portal instead of Projects Portal]{{% /todo %}}
+
 ![](attachments/architecture-overview.png)
 
-### 1.1 Key Platform Modules and Services
+### 2 Key Platform Modules and Services
 
-#### 1.1.1 Developer Portal
+#### 2.1 What is the Developer Portal?
 
-The [Mendix Developer Portal](https://sprintr.home.mendix.com/) is a collaborative environment for the design, development, and deployment of apps. This web-based portal comes with online social collaboration features (via the **Buzz**), a notification service, and a directory of active members in your company who could be invited for participation in app projects as well as for social collaboration.
+The Mendix Developer Portal is a collaborative environment for the design, development, and deployment of apps. This web-based portal comes with online social collaboration features (via the **Buzz**), a notification service, and a directory of active members in your company who could be invited for participation in app projects as well as for social collaboration.
 
-The Developer Portal is where you do most of your project planning and tracking according to the Scrum methodology. You can define sprints and stories, follow the progress, and see the velocity for your project. The is hosted on the Mendix public cloud running on AWS.
+The Developer Portal is where you do most of your requirements management and tracking according to the Scrum methodology. You can define sprints and stories, follow the progress, and see the velocity for your project. The is hosted on the Mendix public cloud running on AWS.
 
-#### 1.1.2 The Modelers
+#### 2.2 What Are the Modelers?
 
-The [Desktop Modeler](https://docs.mendix.com/refguide/desktop-modeler-overview) and [Web Modeler](https://docs.mendix.com/refguide/web-modeler/overview-wm) are the multi-user modeling studios of the Mendix Platform. The general purpose of the Modelers is to provide an integrated, unified modeling space, where business analysts, and IT engineers can work closely together to model the various application elements. The Desktop Modeler runs locally on the developer’s computer, while the Web Modeler is hosted on the Mendix public cloud running on AWS.
+The [Desktop Modeler](https://docs.mendix.com/refguide/desktop-modeler-overview) and [Web Modeler](https://docs.mendix.com/refguide/web-modeler/overview-wm) are the multi-user modeling studios of the Mendix Platform. The general purpose of the Modelers is to provide an integrated, unified modeling space, where business analysts, and IT engineers can work closely together to model the various application elements. The Desktop Modeler runs locally on the developer’s computer and has an integrated build service for working fully offline, while the Web Modeler is hosted on the Mendix public cloud.
 
-#### 1.1.3 Team Server
+{{% todo %}}[Add link to Mendix Cloud]{{% /todo %}}
+
+#### 2.3 What Is Team Server?
 
 The Team Server is the central repository for managing and versioning application models. Team Server is written as an extension on top of Subversion (SVN), a widely adopted open-source software configuration management system. The Team Server may be hosted in Mendix Cloud or deployed on-premises.
 
 For more information, see [Version Control & Multi-User Development](../app-lifecycle/version-control).
 
-#### 1.1.4 Build Server
+#### 2.4 What Is the Build Server?
 
 The Build Server creates deployment packages from artifacts (such as models, style sheets, and custom Java classes) in the app project on the Team Server, where all the application artifacts are versioned and stored in project folders. The Build Server is triggered by the Cloud Portal or from the Mendix Runtime. The Build Server also performs package validation and determines if the specific build is a deployable package.
 
-#### 1.1.5 MxID
+#### 2.5 What Is MxID?
 
 MxID is a user-management and provisioning service that applies the OpenID standard. It can be integrated with active directory and single sign-on (SSO) protocols. MxID provides a login server for the Developer Portal, which is the central access portal for Mendix apps.
 
 Furthermore, MxID provides an administration portal for the management of companies and app users.
 
-#### 1.1.6 Cloud Portal
+#### 2.6 What Is Cloud Portal?
 
-The [Cloud Portal](../app-capabilities/8.1-multi-cloud-deployment-overview#cloud-portal) enables you to manage users, environments, and configurations as well as to deploy apps to the cloud with a single click and manage and monitor their performance. The Cloud Portal is the interface to the deployment services layer in the platform. Mendix also offers a Cloud Portal for deploying to [SAP Cloud](../strategic-partners/8.2-deploy-with-partners#running-sap-cloud) and [IBM Cloud](../strategic-partners/8.2-deploy-with-partners#ibm-cloud).
+The [Cloud Portal](../app-capabilities/8.1-multi-cloud-deployment-overview#cloud-portal) enables you to manage environments and configurations as well as to deploy apps to the cloud with a single click and manage and monitor their performance. The Cloud Portal is the interface to the deployment services layer in the platform. Mendix also offers a Cloud Portal for deploying to [SAP Cloud](../strategic-partners/8.2-deploy-with-partners#running-sap-cloud) and [IBM Cloud](../strategic-partners/8.2-deploy-with-partners#ibm-cloud).
 
-#### 1.1.7 App Store
+#### 2.7 What Is App Store?
 
 The [Mendix App Store](https://appstore.home.mendix.com/index3.html) is a public marketplace for apps and application building blocks. This App Store can also be configured to serve as a private enterprise app store, so that end-users and business managers can discover what apps are accessible to them within their organization.
 
-For more information, see [App Store & Component Reuse](../app-lifecycle/app-store).
+For more information, see [App Store](../app-lifecycle/app-store).

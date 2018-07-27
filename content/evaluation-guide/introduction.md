@@ -14,11 +14,11 @@ Based around our three core principles of **speed**, **collaboration**, and **co
 
 ## {Video}
 
-## Why Mendix? 
+## Why Was Mendix Founded? 
 
 {Brief answer}
 
-For more details on the story behind Mendix, see [Why Mendix?](why-mendix#founded).
+For more details on the story behind Mendix, see [Why Was Mendix Founded?](why-mendix#founded)
 
 ## What Is the Vision Behind Mendix?
 

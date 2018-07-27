@@ -5,7 +5,7 @@ menu_order: 10
 tags: [""]
 ---
 
-## 1 Why Mendix? {#founded}
+## 1 Why Was Mendix Founded? {#founded}
 
 The founders of Mendix learned it the hard way: delivering software that fulfills business needs is extremely hard and fails more often than it succeeds. Mendix was founded on the belief that software development could only be significantly improved if there was a paradigm shift. And that’s exactly what Mendix introduced.
 

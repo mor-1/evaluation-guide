@@ -54,13 +54,11 @@ For managing users and security, you can use APIs to [manage user profiles](http
 
 For more information on utilizing the Mendix Platform APIs, see this video:
 
-{{% youtube MIUGYJnjrqw %}}
-
 ### 2.3 Model APIs
 
 {{% todo %}}[**Needs more content, use that Googled page for Model SDK content – David & Andrej to discuss how to merge this content with Eval Guide; link to Model SDK page in ref guide and not to RN**]{{% /todo %}}
 
-Application models can be read and manipulated using the [Model SDK](https://docs.mendix.com/releasenotes/model-sdk/index).
+Application models can be read and manipulated using the [Model SDK](https://docs.mendix.com/apidocs-mxsdk/mxsdk/#2-2-mendix-model-sdk).
 
 For more information on the Mendix Model SDK, see this video:
 

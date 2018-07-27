@@ -1,5 +1,5 @@
 ---
-title: "Runtime Twelve-Factor Architecture"
+title: "Twelve-Factor Architecture"
 parent: "architecture-intro"
 menu_order: 50
 tags: [""]

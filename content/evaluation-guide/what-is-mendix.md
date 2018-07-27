@@ -5,7 +5,7 @@ menu_order: 20
 tags: [""]
 ---
 
-## 1 What Is Mendix?
+## 1 What Is Mendix? {#what-mendix}
 
 Mendix is a low-code platform for delivering enterprise applications. The Mendix Platform covers the entire lifecycle of an application, from the initial idea to developing, deploying, operating, and evolving the application.
 

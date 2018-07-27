@@ -1,37 +1,46 @@
 ---
-title: "Why Mendix?"
+title: "Why Was Mendix Founded?"
 parent: "introduction"
 menu_order: 10
-bg: "mendix"
 tags: [""]
 ---
 
-## 1 Why Mendix? {#founded}
+## 1 Why was Mendix founded? {#founded}
 
 The founders of Mendix learned it the hard way: delivering software that fulfills business needs is extremely hard and fails more often than it succeeds. Mendix was founded on the belief that software development could only be significantly improved if there was a paradigm shift. And that’s exactly what Mendix introduced.
 
-Mendix is fundamentally changing how software is created. With the current generation of the Mendix Platform, business applications can be created 10 times faster in close collaboration with (or even wholly owned by) the business while IT is in control.
+### How it started
 
-Mendix was founded with a two-point mission that still holds true today:
+Rewind the clock to the early 2000s. One of the founders of Mendix (Roald Kruit) is developing software as a free-lance developer. Time and time again he finds that, despite long hours of work and all the best intentions, the customer (often: the business) isn't happy with the result. Even creating long functional requirement documents up front does not help solve this problem. The result: a frustrated customer, let alone a frustrated and increasingly demotivated developer. 
 
-* To bridge the business-IT gap and enable organizations with a whole new way to innovate and differentiate with apps
-* Build a company that will attract, develop, excite and retain exceptional people
+How could this happen? It doesn't take long for Roald to realize that apparently he doesn't understand the business after all, despite lengthy documents and long requirements sessions. Many implicit assumptions exist on both sides about how the software will work or the way it will look. And even if there is perceived alignment, the next day the customer's requirements will change, consciously or unconsciously, which takes the whole process back to square one. Why can't the business simply make up their minds on what they want? Determined to get to the root of this problem, Roald gets an MBA. It is during his studies that he gets a full view on how large and how fundamental the problem actually is. In essence: people on the business side and people on the IT side think and act inherently different. Unless that gap is bridged, there is very little chance any software project will be remotely successful. 
 
-And thus Mendix came into creation. The name "Mendix" is derived from the verb *to mend*, which means to repair anything that is broken, torn, defaced, or the like.
+### Bridging the gap
 
-Mendix is here to mend the relationship between business and IT.
+As a next step, Roald starts using visual tools, such as flow charts, user interface mockups and process mappings in the requirements discovery and software design phase. This allows the business to validate his interpretation of their requirements before any coding happens and solves the problem that requirements have to be reverse-engineered by a developer further down the line. Although this is a very valuable step forward, it leaves Roald with three additional problems. 
+1. Once validated, the actual coding becomes far less interesting, since the majority of thought process has happened during the requirements and design phase.
+2. Programming often involves many repetitive tasks which in the end does not make any developer happy.
+3. It is becoming harder to keep up-to-date with the rapidly evolving number of programming tools and languages across the spectrum. It is virtually impossible for a single developer to be proficient in back-end tooling, front-end tooling, database tooling and the different operating systems at the same time. This makes developers highly dependent on other people with specific skills, which adds significant lead time to the software development project.
 
-## 2 What Do Gartner and Forrester Say About Mendix?
+Meanwhile, the two other founders of Mendix (Derek Roos and Derckjan Kruit) are experiencing the business-IT gap from the opposite side: the business. Why is it so hard for developers to understand an obvious business need? Why do so many IT projects fail, wasting time and money and only leading to pointless blame shifting games which nobody ever wins?
 
-{{% todo %}}[**Add image of magic quadrants**]{{% /todo %}}
+At this point Mendix is founded in the year 2005. Mendix was founded to bridge the business-IT gap and enable organizations with a whole new way to design and deliver apps. A new way: both in the technology used as well as the process that is applied.
 
-Mendix is a leader in four analyst reports at the same time:
+### A new technology
 
-* *Gartner 2018 Magic Quadrant for High Productivity Application Platform as a Service*
-    * Mendix was recognized as a leader in hpaPaaS, placed furthest for completeness of vision for 2 years running.
-* *The Forrester Wave: Low-Code Development Platforms For AD&D Pros, Q4 2017*
-    * “A well-known low-code platform for AD&D pros, Mendix continues to innovate in new use cases and deepen its features across the board. Its decision to base its low-code environment on Cloud Foundry also paid big dividends, as SAP—a Cloud Foundry distributor—adopted the vendor's platform as its worldwide low-code solution.”
-* *Gartner 2017 Magic Quadrant for Mobile Application Development Platforms*
-    * Mendix was acknowledged for its compelling vision for citizen development, Agile development workflows, and multichannel support.
-* *Forrester: Mobile Low-Code Development Platforms, Q1 2017*
-    * Based on the assessment of the current offering, strategy, and market presence of 11 vendors, Mendix was named a leader in T*he Forrester Wave™: Mobile Low-Code Development Platforms, Q1 2017*.
+Avoiding the pitfalls of 4GL tooling (basically: it creates tomorrow's legacy), the Mendix founders set out to make visual model driven development a reality. The two core principles of this approach are abstraction and automation. 
+*	Abstraction: a software application model is defined on a higher abstraction level than in traditional coding
+		Automation: the model is then converted into a working application using automated transformations or interpretations. 
+
+The right model-driven development approach leverages model execution at runtime rather than generating code. The model is transformed automatically into a working software application by interpreting and executing it. This removes the need to generate code at all. 
+With Mendix model driven development is visual from start till finish, making sure the customer is engaged and requirements are always aligned, right from the get go and throughout the development cycle. To avoid developers getting stuck, Mendix has made sure that any model is extensible: in this way highly specific application features and low-level optimizations can be built without sacrificing the benefits of model driven development. 
+
+### A new process
+
+At the same time, Mendix has always realized that you need more than technology to bridge the gap. An iterative, agile process is required that allows key users and stakeholders to be involved in every iteration, allowing for fast experimentation and on-the-spot feedback. While this process can be applied to any software development project, the unique combination of fast and visual model driven development with an iterative, agile process speeds up the development hugely. At the same time it ensures the customer will be happy with the result, removing a lot of frustration and setting the customer up for success.
+
+### This is who we are
+
+And thus Mendix came into creation. The name Mendix is derived from the verb *to mend*, which means 'to repair anything that is broken, torn, defaced, or the like'.
+
+We are a company full of people committed to help companies win in a software driven world, by successfully bridging the fundamental gap between business and IT. Mendix is here to mend the app delivery process.

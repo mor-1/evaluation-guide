@@ -2,6 +2,7 @@
 title: "Strategic Partner Clouds"
 parent: "deployment"
 menu_order: 50
+bg: "multicloud"
 tags: [""]
 ---
 

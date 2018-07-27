@@ -2,6 +2,7 @@
 title: "Community"
 parent: "evaluation"
 menu_order: 20
+bg: "evaluation"
 tags: [""]
 ---
 
@@ -25,11 +26,11 @@ With the goal of gaining different levels, points, and badges, Mendix incentiviz
 
 This gamification system makes it fun to learn, build, and contribute to Mendix while rewarding you for your achievements.
 
-## 2 What Can the Mendix Partner Community Do for Me? {#mendix-partners} 
+## 2 What Can the Mendix Partner Community Do for Me? {#mendix-partners}
 
-Customers may wish to outsource the development and management of their applications to a partner. All Mendix development partners have to go through a training and verification process before they can qualify themselves as a Mendix partner. This helps us ensure that our partners deliver a level of service that meets our expectations. 
+Customers may wish to outsource the development and management of their applications to a partner. All Mendix development partners have to go through a training and verification process before they can qualify themselves as a Mendix partner. This helps us ensure that our partners deliver a level of service that meets our expectations.
 
-![](attachments/partner-overview.png) 
+![](attachments/partner-overview.png)
 
 Partners are ranked using the [Mendix Partner Profiles](https://developer.mendixcloud.com/link/partneroverview). Customers can see how many trained and certified engineers each partner has, their [projects](https://developer.mendixcloud.com/link/customers) they have completed, and their references. The partners can be filtered by experience, industry, and area.
 

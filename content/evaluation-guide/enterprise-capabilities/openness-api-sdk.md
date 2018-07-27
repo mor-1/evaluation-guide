@@ -2,6 +2,7 @@
 title: "Openness (API & SDK)"
 parent: "openness-extensibility"
 menu_order: 20
+bg: "openness"
 tags: [""]
 ---
 
@@ -45,7 +46,7 @@ Mendix [APIs](https://docs.mendix.com/apidocs-mxsdk/apidocs/) are available on m
 
 Each application built using the Mendix platform has powerful API options. Every element of the application model can be easily provided as part of the API through REST, OData, or SOAP services. You can use [Java to extend the runtime](https://apidocs.mendix.com/7/runtime/https://apidocs.mendix.com/7/runtime/), [JavaScript to provide custom Widgets](https://apidocs.mendix.com/7/client/), and SQL to extend the data storage.
 
-### 2.2. Platform APIs 
+### 2.2. Platform APIs
 
 The core platform functionality is accessible through APIs, which allows developers to access and integrate Mendix with other tools and applications (for example, to build and deploy APIs to support continuous integration). The platform provides APIs to create [application projects](https://docs.mendix.com/apidocs-mxsdk/apidocs/projects-api) as well as to manage [sprints, stories](https://docs.mendix.com/apidocs-mxsdk/apidocs/stories-api), and [user feedback](https://docs.mendix.com/apidocs-mxsdk/apidocs/feedback-api). You can also [build](https://docs.mendix.com/apidocs-mxsdk/apidocs/build-api) and [deploy](https://docs.mendix.com/apidocs-mxsdk/apidocs/deploy-api) your applications through APIs.
 
@@ -64,4 +65,3 @@ Application models can be read and manipulated using the [Model SDK](https://doc
 For more information on the Mendix Model SDK, see this video:
 
 {{% youtube xGDPJt9PFeg %}}
-

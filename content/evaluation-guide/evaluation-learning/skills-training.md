@@ -2,6 +2,7 @@
 title: "Skills & Training"
 parent: "learning"
 menu_order: 10
+bg: "learning"
 tags: [""]
 ---
 

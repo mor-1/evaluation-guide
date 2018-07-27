@@ -2,6 +2,7 @@
 title: "Certification & Talent"
 parent: "learning"
 menu_order: 20
+bg: "learning"
 tags: [""]
 ---
 

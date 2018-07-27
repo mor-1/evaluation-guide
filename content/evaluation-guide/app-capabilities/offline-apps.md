@@ -2,6 +2,7 @@
 title: "Offline Apps"
 parent: "ux-multi-channel-apps"
 menu_order: 50
+bg: "ux"
 tags: [""]
 ---
 

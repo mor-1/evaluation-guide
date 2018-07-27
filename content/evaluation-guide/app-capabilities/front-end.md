@@ -2,6 +2,7 @@
 title: "Front-End"
 parent: "ux-multi-channel-apps"
 menu_order: 10
+bg: "ux"
 tags: [""]
 ---
 

@@ -2,6 +2,7 @@
 title: "Mendix Cloud Features"
 parent: "deployment"
 menu_order: 40
+bg: "multicloud"
 tags: [""]
 ---
 

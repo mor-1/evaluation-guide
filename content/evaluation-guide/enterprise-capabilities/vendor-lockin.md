@@ -2,6 +2,7 @@
 title: "Vendor Lock-In"
 parent: "openness-extensibility"
 menu_order: 10
+bg: "openness"
 tags: [""]
 ---
 

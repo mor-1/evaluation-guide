@@ -3,6 +3,7 @@ title: "Integration"
 category: "App Capabilities"
 notoc: true
 menu_order: 30
+bg: "integration"
 tags: [""]
 ---
 
@@ -31,4 +32,3 @@ For details, see [How Does Mendix Support Data Mapping?](data-mappings#data-mapp
 For details, see [How Does Mendix Support REST & Web Services?](consuming-services#support-rest-web)
 
 ## Read More
-

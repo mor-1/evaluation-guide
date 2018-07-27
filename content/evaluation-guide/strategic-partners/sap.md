@@ -3,6 +3,7 @@ title: "SAP"
 category: "Strategic Partners"
 notoc: true
 menu_order: 10
+bg: "sap"
 tags: [""]
 ---
 
@@ -31,6 +32,3 @@ For details, see [What Does the Mendix–SAP Partnership Offer?](sap-overview#sa
 For details, see [How Can I Integrate Mendix with SAP?](sap-integration#integrate-with-sap)
 
 ## Read More
-
-
-

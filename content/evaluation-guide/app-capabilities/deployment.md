@@ -3,6 +3,7 @@ title: "Deployment"
 category: "App Capabilities"
 notoc: true
 menu_order: 40
+bg: "multicloud"
 tags: [""]
 ---
 
@@ -31,6 +32,3 @@ For details, see [How Do I Run and Deploy My Mendix Application?](multi-cloud-ov
 For details, see [Which Cloud Providers Can I Use for Mendix?](cloud-providers#which-cloud)
 
 ## Read More
-
- 
-

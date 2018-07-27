@@ -2,6 +2,7 @@
 title: "IBM Integration"
 parent: "ibm"
 menu_order: 20
+bg: "ibm"
 tags: [""]
 ---
 

@@ -2,6 +2,7 @@
 title: "Integration Overview"
 parent: "integration"
 menu_order: 10
+bg: "integration"
 tags: [""]
 ---
 
@@ -23,7 +24,11 @@ Mendix offers you an extensive array of tools to handle integrations:
 * **OData** – publish data in your application in a standardized REST format for easy use in business analytics tooling
 * **Connectors** – implement purpose-built connector modules that provide easy-to-use microflow activities integrated with third-party services
   * Examples include SAP, Kafka, Redis, and third-party services like Slack, Twitter, and Salesforce
+<<<<<<< HEAD
 * **Connector Kit** – the Mendix Connector Kit enables adding any custom integration using Java to Mendix in an easy, generic, and reusable way
 * **Database integration** – 
 
 {{% todo %}}[Need content for last point]{{% /todo %}}
+=======
+* Connector Kit – the Mendix Connector Kit enables adding any custom integration using Java to Mendix in an easy, generic, and reusable way
+>>>>>>> e1863a6e11f4be1eaf2583fdd5f4d3d2e4277825

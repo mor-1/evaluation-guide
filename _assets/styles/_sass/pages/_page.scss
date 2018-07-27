@@ -53,7 +53,7 @@ $block: 'mx';
         //letter-spacing: -1.75px;
         line-height: 1;
         font-weight: 600;
-        margin: 0;
+        margin: 0 0 20px;
         color: $color-grey-font;
         @include modifier('frontpage') {
           font-size: 48px;
@@ -113,7 +113,7 @@ $block: 'mx';
           border-bottom: 1px solid $color-mendix-blue;
           margin-top: 30px;
           margin-bottom: 30px;
-          padding-bottom: 10px;
+          padding-bottom: 15px;
       }
       h3,
       .h3 {

@@ -5,8 +5,6 @@ menu_order: 30
 tags: [""]
 ---
 
-{{% todo %}}[**Needs review for accuracy**]{{% /todo %}}
-
 ## 1 How Is Application Security Defined in Mendix?
 
 Out of the box, Mendix provides role-based user access to applications built with the platform. Applications in Mendix consist of one or more modules. A module typically has a functional scope (for example, items, customers, orders) and is self-contained so that modules can be reused in multiple applications. Due to the distinction between applications and modules, security aspects are defined on both levels. Application-level security settings apply to all the modules within the application. Module-level settings are specific to each module.
@@ -19,19 +17,17 @@ The Mendix Platform supports configurable integrity checks for security on all t
 
 Depending on the stage of development, application and integrity checks can be applied more or less stringently. This is advantageous in development and prototype contexts to avoid unnecessary activities regarding consistency and security in the preproduction stage. The security levels **Off** and **Prototype / demo** are only allowed for apps deployed to a development and/or local test environment, not for deployments in production environments. Deployment to the Mendix Cloud (except for Free Apps) requires the **Production** security level and the complete configuration of all security settings.
 
-{{% todo %}}[**Video below will be remade and is to be used in this section as determined by Roald, please work into the content**]{{% /todo %}}
-
-<video controls src="attachments/DM_ProjectSecurity.mp4">VIDEO</video>
-
 ### 1.2 How Can I Define User Roles for My App?
 
 An end-user of your application is assigned one or more user roles by an administrator or is provisioned automatically from a (third-party) identity and access management solution that can be integrated with the app. The user then gets all the access rights that these user roles represent.
 
+![User roles](attachments/figure-3-user-roles.png)
+
 Within a user role, it is possible to assign user management rights for this particular role as well, so that users assigned to this role can then manage access rights for other users with the selected role. This feature is relevant for supporting a delegated administration concept.
 
-Every user role has one or more module roles. Module roles define a role on a module level (for example, “order entry” or “approver”). This means that users with that user role have all the access rights defined for those module roles. An end-user of your application only sees the user roles and not the module roles, so only user roles can be assigned to an end-user, while module roles are assigned to user roles. A user role aggregates multiple access rights on data, pages, and microflows (logic) from the module roles.
+<video controls src="attachments/DM_ProjectSecurity.mp4">VIDEO</video>
 
-![User roles](attachments/figure-3-user-roles.png)
+Every user role has one or more module roles. Module roles define a role on a module level (for example, “order entry” or “approver”). This means that users with that user role have all the access rights defined for those module roles. An end-user of your application only sees the user roles and not the module roles, so only user roles can be assigned to an end-user, while module roles are assigned to user roles. A user role aggregates multiple access rights on data, pages, and microflows (logic) from the module roles.
 
 What is more, Mendix supports logging in to applications by anonymous users through the configuration of a specific role for this purpose.
 

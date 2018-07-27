@@ -22,7 +22,8 @@ For information on getting started with Mendix, have a look at [First Steps with
 
 *Developers* using the Mendix Desktop Modeler can work together on the same app model via the [Team Server](version-control) version control repository. The models in the Web Modeler and Desktop Modeler environments can be brought in sync using Team Server. For detailed steps on how to manage this, see [How to Sync  the Web Modeler with the Desktop Modeler](https://docs.mendix.com/howto/web-modeler/syncing-webmodeler-desktop) in the Mendix documentation.
 
-## 3 The Modelers
+## 3 How Does Mendix Enable Model-Driven Development? {#enable}
+
 **[Adam: please make sure this picture is visible]**
 
 ![](attachments/BothModelers.png)

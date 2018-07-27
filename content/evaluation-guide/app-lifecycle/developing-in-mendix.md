@@ -14,15 +14,19 @@ The Mendix Web Modeler is a browser-based, no-code development environment for b
 
 ## How Does Mendix Support the Entire Application Lifecycle?
 
+{{% todo %}}[**This question was removed from the App Development page, needs to be replaced by new featured question**]{{% /todo %}}
+
 {Brief answer}
 
 For details, see [How Does Mendix Support the Entire Application Lifecycle?](app-development#support-lifecycle).
 
-## Who Uses Mendix?
+## How Does Mendix Support Different Developer Profiles?
+
+{{% todo %}}[**Replaced title from Who Uses Mendix to this, in order to link to a question**]{{% /todo %}}
 
 Mendix is designed to support the spectrum of users who are necessary for building enterprise apps in today's software-driven world. This includes line-of-business developers, citizen developers, business analysts, SCRUM Masters, product owners, and professional developers.  Each of these roles can collaborate in Mendix through an integrated set of tools across the entire software development lifecycle.
 
-For details, see [Who Uses Mendix?](app-development#who-uses).
+For details, see [Who Uses Mendix?](app-development#developer-profiles).
 
 ## How Does Mendix Enable Model-Driven Development?
 

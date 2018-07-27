@@ -21,16 +21,16 @@ Mendix supports different methods to ensure the integrity of your application da
 Data types define what sort of data can be stored in an attribute. The type ensures that, for example, text fields only contain text and numeric fields only contain numbers.
 
 You can use the following types for your attributes:
-* Autonumber – an automatically generated number
-* Binary – binary data
-* Boolean – true or false
-* Date and time – a point in time
-* Decimal – a positive or negative number
-* Enumeration – one value of a predefined set of values
-* Hashed string – the hash value of a string
-* Integer – a 32-bit whole number
-* Long – a 64-bit whole number
-* String – text containing letter, numbers, spaces, and other characters
+* **Autonumber** – an automatically generated number
+* **Binary** – binary data
+* **Boolean** – true or false
+* **Date and time** – a point in time
+* **Decimal** – a positive or negative number
+* **Enumeration** – one value of a predefined set of values
+* **Hashed strin**g – the hash value of a string
+* **Integer** – a 32-bit whole number
+* **Long** – a 64-bit whole number
+* **String** – text containing letter, numbers, spaces, and other characters
 
 {{% image_container width="450" %}}
 

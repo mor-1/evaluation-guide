@@ -9,7 +9,7 @@ tags: [""]
 
 The Mendix Runtime can be extended in number of different ways. The sections below present details on extending via the Mendix Connector Kit, Java actions, JavaScript widgets, Java request handlers, and data storage.
 
-### 1.1 Java Actions & the Connector Kit
+### 1.1 Java Actions & the Connector Kit {#connector-kit}
 
 Java actions enable creating reusable microflow activities that you can use in any microflow. You can create Java actions specific for your app, and you can also bundle them in a reusable module so that they can be reused in other projects and by other developers.
 
@@ -112,10 +112,3 @@ This is a short overview of the open standards and technologies used in the Mend
 * For the front-end, Mendix supports a number of open standards and also a number of de-facto standards, such as web pages being rendered using HTML5, CSS3, and React.
 * Mendix has embraced best practices for software innovation management through Agile methodologies. The Mendix Platform provides the tools required for the most commonly used Agile methodology—which is Scrum—so that you can manage your Mendix application projects.
 * For hosting, Mendix has embraced open and de-facto hosting technologies like Linux, Docker, Kubernetes, and Cloud foundry.
-
-## 5 How Can I Extend Data Storage?
-
-{{% todo %}}
-[**Duplicate of {#data-storage-extensions} **]
-[**Howto will be available on mendix site: https://github.com/ako/docs/blob/d6617f0b8e39f5ad7e064db7b6a196ec5233ca93/content/howto/extensibility/howto-datastorage-api.md **]
-{{% /todo %}}

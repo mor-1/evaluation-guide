@@ -2,6 +2,7 @@
 title: "CI/CD"
 parent: "devops"
 menu_order: 10
+bg: "devops"
 tags: ["continuous integration and delivery", "ci/cd", "automated test", "API", "jenkins", "testing"]
 ---
 

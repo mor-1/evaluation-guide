@@ -2,6 +2,7 @@
 title: "Test Automation & Quality Assurance"
 parent: "devops"
 menu_order: 30
+bg: "devops"
 tags: ["test automation", "quality assurance", "model", "AQM", "unit test", "functional test", "Selenium", "JUnit"]
 ---
 

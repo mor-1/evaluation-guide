@@ -2,6 +2,7 @@
 title: "Operations, Deployment, Release"
 parent: "devops"
 menu_order: 40
+bg: "devops"
 tags: [""]
 ---
 

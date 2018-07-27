@@ -2,10 +2,11 @@
 title: "Debugging Facilities"
 parent: "developing-in-mendix"
 menu_order: 40
+bg: "developing"
 tags: ["debug", "cloud", "java", "java action", "eclipse"]
 ---
 
-## 1 How Can I Debug a Mendix App? 
+## 1 How Can I Debug a Mendix App?
 
 Developers can debug any deployed instance of a Mendix app running either locally, on-premises, or in the cloud. The Desktop Modeler's built-in debugging tools allow it to connect to and authenticate with an app environment using the app instance's URL and the credentials provided from within the Mendix Developer Portal.
 

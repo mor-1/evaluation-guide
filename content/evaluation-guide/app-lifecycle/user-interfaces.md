@@ -2,6 +2,7 @@
 title: "User Interfaces"
 parent: "developing-in-mendix"
 menu_order: 20
+bg: "developing"
 tags: ["user interface", "reusable", "template", "multilingual", "translate"]
 ---
 

@@ -2,6 +2,7 @@
 title: "Monitoring Solutions & Alerts"
 parent: "devops"
 menu_order: 50
+bg: "devops"
 tags: ["monitoring", "alerts", "devops"]
 ---
 

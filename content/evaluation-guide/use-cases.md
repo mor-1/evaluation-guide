@@ -2,6 +2,7 @@
 title: "Use Cases"
 parent: "introduction"
 menu_order: 50
+bg: "mendix"
 tags: [""]
 ---
 
@@ -116,5 +117,3 @@ However, there are situations when the Mendix platform is a good fit even if the
 In addition to such systems of records, the Mendix Platform is not a good fit for building games or replacing full ESB solutions.
 
 The Mendix Platform allows you to build web, mobile, and tablet applications; therefore, it’s not suitable if you are looking to build apps that are not browser- or mobile-based.
-
-

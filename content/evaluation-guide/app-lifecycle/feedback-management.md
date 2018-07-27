@@ -2,6 +2,7 @@
 title: "Feedback Management"
 parent: "requirements-intro"
 menu_order: 40
+bg: "agile"
 tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 ---
 

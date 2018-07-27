@@ -2,6 +2,7 @@
 title: "Why Mendix?"
 parent: "introduction"
 menu_order: 10
+bg: "mendix"
 tags: [""]
 ---
 

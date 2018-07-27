@@ -2,6 +2,7 @@
 title: "Model Consistency"
 parent: "developing-in-mendix"
 menu_order: 60
+bg: "developing"
 tags: ["model", "consistency", "refactoring", "AQM", "ISO standard"]
 ---
 

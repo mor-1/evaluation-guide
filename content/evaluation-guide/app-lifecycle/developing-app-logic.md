@@ -2,6 +2,7 @@
 title: "Logic"
 parent: "developing-in-mendix"
 menu_order: 30
+bg: "developing"
 tags: ["logic", "business logic", "client-side", "server-side", "custom code", "debug"]
 ---
 

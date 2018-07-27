@@ -2,6 +2,7 @@
 title: "DevOps Overview"
 parent: "devops"
 menu_order: 05
+bg: "devops"
 tags: ["devops", "continuous integration", "deploying", "monitoring", "apm", "datadog", "new relic", "appdynamics"]
 ---
 

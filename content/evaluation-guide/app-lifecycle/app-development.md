@@ -2,6 +2,7 @@
 title: "App Development"
 parent: "developing-in-mendix"
 menu_order: 10
+bg: "developing"
 tags: ["app", "model", "modeler", "team", "test", "debug", "offline", "custom code"]
 ---
 

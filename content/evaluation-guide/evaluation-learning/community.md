@@ -1,7 +1,7 @@
 ---
 title: "Community"
 parent: "evaluation"
-menu_order: 30
+menu_order: 20
 tags: [""]
 ---
 

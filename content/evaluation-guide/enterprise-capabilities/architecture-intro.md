@@ -16,19 +16,19 @@ Openness and extensibility hooks are available across the platform, from the cli
 
 {Brief answer}
 
-For details, see [What Are the Key Architectural principles behind the Mendix platform?](architecture-principles#key-principles)
+For details, see [What Are the Key Architectural Principles Behind the Mendix Platform?](architecture-principles#key-principles)
 
 ## What Are the Key Components of the Mendix Platform Architecture?
 
 {Brief answer}
 
-For details, see [What are the key components of the Mendix platform and their architecture?](architecture-platform#key-components).
+For details, see [What Are the Key Components of the Mendix Platform and Their Architecture?](architecture-platform#key-components).
 
 ## How Does the Mendix Runtime Support 12-Factor Cloud-Native Apps? 
 
 {Brief answer}
 
-For details, see [How does the Mendix Runtime support Twelve-Factor Cloud-Native Apps](architecture-12-factor#12-factor)?
+For details, see [How Does the Mendix Runtime Support 12-Factor Cloud-Native Apps?](architecture-12-factor#12-factor)
 
 ## Read More
 

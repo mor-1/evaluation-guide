@@ -23,10 +23,10 @@ Microservices offer a software architecture that is best aligned with small Agil
 
 Modern Web-scale apps leverage stateless architectures as a means for supporting greater scalability and resilience. Statelessness supports horizontal scalability by allowing additional resources to be easily added as required to support increasing user or processing loads. Every user request and every transaction can be handled by any one of the runtime instances available. If your performance needs require you to handle more transactions or user requests, you can simply add another runtime instance to handle part of the processing. As state is managed outside the runtime, resiliency can also be increased by more readily failing over from one run-time instance to another.
 
-## 1.6 Openness
+## 1.5 Openness
 
 Openness is a fundamental architectural requirement of any modern app platform, allowing apps to readily coexist and leverage other apps and app services, as well as to allow the platform itself to fit within your IT landscape and support your core development processes and standards.
 
-## 1.7 Twelve-Factor App Principles
+## 1.6 Twelve-Factor App Principles
 
 While not strictly a set of architectural principles, the [Twelve-Factor App](https://12factor.net/) methodology (originally developed by the Heroku team) is a set of best practices whose purpose is to avoid a set of common systemic mistakes involved in building cloud-native apps. How this applies to Mendix is described in [How does the Mendix Runtime support Twelve-Factor Cloud-Native Apps](architecture-12-factor)

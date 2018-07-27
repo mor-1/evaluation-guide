@@ -28,7 +28,7 @@ For details, see [How Do I Run and Deploy My Mendix Application?](multi-cloud-ov
 
 {Brief answer}
 
-For details, see [Which Cloud Providers Can I Use for Mendix?](multi-cloud-overview#which-clouds)
+For details, see [Which Cloud Providers Can I Use for Mendix?](cloud-providers#which-cloud)
 
 ## Read More
 

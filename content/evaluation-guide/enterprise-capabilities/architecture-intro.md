@@ -14,6 +14,8 @@ Openness and extensibility hooks are available across the platform, from the cli
 
 ## Which Technologies Are Behind the Mendix Platform?
 
+{{% todo %}}[**Question no longer available - what to replace with?**]{{% /todo %}}
+
 Mendix uses best-of-breed standard technologies to run your applications. When choosing the technologies for the Mendix Platform, we made decisions based on the following guiding principles:
 
 * **Fit for cloud architecture** – To support the HA, scalability, and agility technologies used in the Mendix Platform, the technology should be a good fit for cloud architecture.
@@ -28,11 +30,15 @@ For more details, see [Which Technologies Are Behind the Mendix Platform?](archi
 
 ## What Does the Mendix Cloud-Native Architecture Look Like?
 
+{{% todo %}}[**Question no longer available - what to replace with?**]{{% /todo %}}
+
 The Mendix cloud-native architecture enables you to scale your applications and nodes while supporting the speed and flexibility required to deliver new functionality. Built-in Agility and DevOps combine with our Cloud-Foundry (PaaS) support to allow small cross-functional teams to deploy highly portable, microservices based applications in containers. 
 
 Read more in [What Does the Mendix Cloud-Native Architecture Look Like?](architecture-principles#cloud-native).
 
 ## How Does the Mendix Architecture Enable Scalability & Performance?
+
+{{% todo %}}[**Question no longer available - what to replace with? The Statelessness point in Architecture Principles? **]{{% /todo %}}
 
 At its core, the Mendix Platform architecture has a stateless runtime engine. Being stateless means that new resources can be added dynamically to support the growing demands of your applications, such as increasing user populations or processing requirements. 
 

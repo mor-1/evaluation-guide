@@ -22,7 +22,7 @@ For details, see [How Does Mendix Support the Entire Application Lifecycle?](app
 
 ## How Does Mendix Support Different Developer Profiles?
 
-{{% todo %}}[**Replaced title from Who Uses Mendix to this, in order to link to a question**]{{% /todo %}}
+{{% todo %}}[**Replaced title from Who Uses Mendix to this, in order to link to a question - should verified**]{{% /todo %}}
 
 Mendix is designed to support the spectrum of users who are necessary for building enterprise apps in today's software-driven world. This includes line-of-business developers, citizen developers, business analysts, SCRUM Masters, product owners, and professional developers.  Each of these roles can collaborate in Mendix through an integrated set of tools across the entire software development lifecycle.
 

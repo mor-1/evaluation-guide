@@ -1,5 +1,5 @@
 ---
-title: "Agile Requirements Management"
+title: "Requirements"
 category: "App Lifecycle"
 notoc: true
 bg: "agile"

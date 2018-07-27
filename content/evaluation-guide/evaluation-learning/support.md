@@ -1,7 +1,7 @@
 ---
 title: "Support"
 parent: "evaluation"
-menu_order: 30
+menu_order: 20
 tags: [""]
 ---
 
@@ -52,7 +52,13 @@ For more details, see [Mendix Support](https://docs.mendix.com/howtogeneral/supp
 
 Customers may wish to outsource the development and management of their applications to a partner. All Mendix development partners have to go through a training and verification process before they can qualify themselves as a Mendix partner. This helps us ensure that our partners deliver a level of service that meets our expectations.
 
+{{% todo %}}[**update the two screenshots below with the white gradient as used above**]{{% /todo %}}
+
+![](attachments/partner-overview.png)
+
 Partners are ranked using the [Mendix Partner Profiles](https://developer.mendixcloud.com/link/partneroverview). Customers can see how many trained and certified engineers each partner has, their [projects](https://developer.mendixcloud.com/link/customers) they have completed, and their references. The partners can be filtered by experience, industry, and area.
+
+![](attachments/partner-projects.png)
 
 The Mendix development partners can give advice, help you realize projects, and take over complete development cycles.
 

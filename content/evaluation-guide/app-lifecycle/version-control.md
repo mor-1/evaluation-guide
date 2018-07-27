@@ -1,6 +1,7 @@
 ---
 title: "Version Control & Multi-User Development"
 parent: "developing-in-mendix"
+bg: "developing"
 menu_order: 50
 tags: ["version control", "multi-user", "user stories", "SVN", "branching", "merging", "API"]
 ---
@@ -96,5 +97,3 @@ If a whole folder (or module) was deleted and another developer changes a docume
 By default the Mendix Modeler will do also a diff comparison on external files like Java classes. When there are new versions or files have been deleted this will directly be handled by the Desktop Modeler itself.
 
 For additional diffing or conflict resolution on external files external SVN tools, like Tortoise SVN can be used.
-
-

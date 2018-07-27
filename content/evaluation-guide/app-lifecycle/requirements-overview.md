@@ -2,12 +2,13 @@
 title: "Requirements Overview"
 parent: "requirements-intro"
 menu_order: 10
+bg: "agile"
 tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 ---
 
 ## 1 How Is Requirements Management Positioned in Mendix?
 
-Requirements management is critical in every phase of the application development lifecycle. 
+Requirements management is critical in every phase of the application development lifecycle.
 
 Requirements management is a critical part of the application development lifecycle. Mendix helps to shorten the feedback loop between development teams and users as well as all other stakeholders in order to drive project success, lower costs, and decrease time-to-market.
 

@@ -2,6 +2,7 @@
 title: "Collaboration channels"
 parent: "requirements-intro"
 menu_order: 20
+bg: "agile"
 tags: ["agile", "collaboration", "requirements", "project management", "feedback", "dashboard", "traceability"]
 ---
 

@@ -2,6 +2,7 @@
 title: "App Build Creation"
 parent: "devops"
 menu_order: 20
+bg: "devops"
 tags: ["version control", "branching", "consistency", "monitoring"]
 ---
 

@@ -2,6 +2,7 @@
 title: "Developing in Mendix"
 category: "App Lifecycle"
 notoc: true
+bg: "developing"
 menu_order: 20
 tags: ["development", "lifecycle", "user interface", "logic", "version", "app store"]
 ---
@@ -31,4 +32,3 @@ For details, see [How Does Mendix Support Different Developer Profiles?](app-dev
 For details, see [How Does Mendix Support Multi-User Development?](version-control#multi-user)
 
 ## Read More
-

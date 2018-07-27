@@ -2,6 +2,7 @@
 title: "App Store"
 parent: "developing-in-mendix"
 menu_order: 70
+bg: "developing"
 tags: ["app store", "reusable component", "widget", "module"]
 ---
 

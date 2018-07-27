@@ -2,12 +2,13 @@
 title: "The Mendix Difference"
 parent: "introduction"
 menu_order: 30
+bg: "mendix"
 tags: [""]
 ---
 
 ## 1 How Is Mendix Different?
 
-{{% todo %}}[**Needs to be finished**]{{% /todo %}} 
+{{% todo %}}[**Needs to be finished**]{{% /todo %}}
 
 To-do: speed, collaboration, control
 

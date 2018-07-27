@@ -105,17 +105,11 @@ The Mendix Cloud has multiple mitigations for disasters, including high availabi
 
 Disaster recovery tests are performed quarterly on the Mendix Platform. These tests are reported in our ISAE 3402 Type II report, SOC 1 Type II report, and ISO/IEC 27001:2013 certification.
 
-### 2.2 Does the Mendix Cloud Offers High Availability, Scaling, or Auto-Recovery?
+### 2.2 Does the Mendix Cloud Offers High Availability and Auto-Recovery?
 
-The Mendix Cloud offers high availability for all app environments, ensuring zero downtime in the case of a Mendix Runtime outage. Users are able to scale Mendix app environments using the Cloud Portal.
+The Mendix Cloud offers high availability for all app environments, ensuring zero downtime in the case of a Mendix Runtime outage. Users are able to scale Mendix app environments using the Cloud Portal. Furthermore, the Mendix Cloud enables auto-recovery and failover within the same availability zone.
 
-![Mendix app scaling](attachments/figure-11-mendix-app-scaling.png)
-
-Mendix Cloud architecture automatically applies failover between availability zones. Database containers and file storage buckets are automatically replicated across multiple availability zones. All backups are copied to other data centers, but the data will not leave the region, should your company require this.
-
-The Mendix Cloud enables auto-recovery and failover within the same availability zone, and the user load is balanced over two runtime containers. In the rare occurrence that a single runtime container crashes, the other runtime container automatically takes over all user requests while the Cloud Foundry Health Manager automatically replaces the crashed runtime container with a new runtime container. Because of the stateless architecture of Mendix, end-users will not be impacted in this scenario.
-
-![Auto recovery in Mendix Cloud](attachments/figure-13-auto-recovery-in-mendix-cloud.png)
+For more details, see the sections [How Does Mendix Cloud Offer High Availability?](architecture-cloud#cloud-ha), [How Does Mendix Provide Disaster Recovery?](architecture-cloud#cloud-dr), and [How Does Mendix Cloud Provide Auto-Recovery & Auto-Healing?](architecture-cloud#cloud-ar) in *Cloud Architecture*.
 
 ## 3 What Kind of Encryption Is Provided in the Mendix Cloud?
 

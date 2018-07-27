@@ -5,7 +5,7 @@ menu_order: 10
 tags: [""]
 ---
 
-### 1 What are the key architectural principles behind the Mendix platform?
+## 1 What are the key architectural principles behind the Mendix platform?
 
 ### 1.1 Model-Driven Development
 

@@ -65,7 +65,7 @@ Along with a database and optionally a storage service, you will be able to run 
 
 For more information, see [How to Run a Mendix Docker Image](https://docs.mendix.com/deployment/docker/run-mendix-docker-image) in the Mendix documentation.
 
-#### 3.2 How Does Mendix Run on Kubernetes?
+### 3.1 How Does Mendix Run on Kubernetes?
 
 Mendix added official support for Kubernetes in 2017. Kubernetes is a container orchestration layer, also positioned as an aPaaS or PaaS. It is typically used to support DevOps teams and microservices architectures. In the combination of Mendix Docker support, a Mendix application is a smooth fit for running on a Kubernetes cluster.
 

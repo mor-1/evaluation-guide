@@ -19,7 +19,7 @@ The Mendix runtime directly executes models, meaning that the model literally is
 
 Microservices offer a software architecture that is best aligned with small Agile DevOps teams. This architecture is best capable of benefitting from the qualities of containers. Containers enable you to deploy your application in any cloud, in an automated fashion, and to ensure quality, repeatability, and speed. Deployment standardization enables a small DevOps team to handle anything related to operations.
 
-### 1.4 Statelessness
+### 1.4 Statelessness {#statelessness}
 
 Modern Web-scale apps leverage stateless architectures as a means for supporting greater scalability and resilience. Statelessness supports horizontal scalability by allowing additional resources to be easily added as required to support increasing user or processing loads. Every user request and every transaction can be handled by any one of the runtime instances available. If your performance needs require you to handle more transactions or user requests, you can simply add another runtime instance to handle part of the processing. As state is managed outside the runtime, resiliency can also be increased by more readily failing over from one run-time instance to another.
 

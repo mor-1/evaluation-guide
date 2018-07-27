@@ -30,7 +30,7 @@ Mendix makes it easy to manage the requirements of different stakeholders for yo
 
 ![](attachments/stories.png)
 
-For more details on how Mendix helps development teams to manage their requirements and project backlogs, see [Agile Project Management](agile-requirements-management).
+For more details on how Mendix helps development teams to manage their requirements and project backlogs, see [Agile Project Management](requirements-management).
 
 ### 2.2 The Modeling Phase {#modeling-phase}
 

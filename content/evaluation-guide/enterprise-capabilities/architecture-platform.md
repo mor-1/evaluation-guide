@@ -49,4 +49,4 @@ The [Cloud Portal](../app-capabilities/8.1-multi-cloud-deployment-overview#cloud
 
 The [Mendix App Store](https://appstore.home.mendix.com/index3.html) is a public marketplace for apps and application building blocks. This App Store can also be configured to serve as a private enterprise app store, so that end-users and business managers can discover what apps are accessible to them within their organization.
 
-For more information, see [App Store & Component Reuse](../app-lifecycle/app-store-reuse).
+For more information, see [App Store & Component Reuse](../app-lifecycle/app-store).

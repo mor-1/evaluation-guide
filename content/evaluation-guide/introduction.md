@@ -24,7 +24,7 @@ For details, see [What Is the Vision Behind Mendix?](mendix-vision#vision).
 
 ## How Does Mendix Optimize the Collaboration Between Business & IT?
 
-{{% todo %}}[**This question section is not yet written, and was previously specified as a Prio2 question. Should it be written for inclusion in v1 as a featured question, or should the featured question be changed (and Nick would have to rewrite this featured question brief answer)?**]{{% /todo %}}
+{{% todo %}}[**This question section is not yet written, and was previously specified as a Prio2 question. Should it be written for inclusion in v1 as a featured question, or should the featured question be changed (and Nick would have to rewrite this featured question brief answer)? Fix link below when resolved.**]{{% /todo %}}
 
 To achieve the high levels of agility and continuous interactions required to collaborate effectively across multi-disciplinary teams, Mendix combines the following elements:
 
@@ -34,7 +34,7 @@ To achieve the high levels of agility and continuous interactions required to co
 
 Project team members are connected instantly and interactively to changes and updates, such as new requirements, software revisions, updates, and shipments as well as test results and feedback loops from end-users. This live feed becomes the backbone for the collaborative process, while visual models and drag-and-drop WYSYWG editors lower the barrier to entry for business users to participate in the development process.
 
-Read more in [How Does Mendix Optimize the Collaboration Between Business & IT?](what-is-mendix#optimize-collaboration).
+Read more in [How Does Mendix Optimize the Collaboration Between Business & IT?](what-is-mendix).
 
 ## What Does the Mendix Architecture Look Like?
 

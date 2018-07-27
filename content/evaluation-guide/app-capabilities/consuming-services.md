@@ -7,7 +7,7 @@ tags: [""]
 
 ## 1 How Does Mendix Support REST & Web Services? {#support-rest-web}
 
-**[Note from Adam: Andrej, this question is specified as necessary by Roald and will go on the landing page card. Please talk to Roald about any content issues.]**
+{{% todo %}}[**Note from Adam: Andrej, this question is specified as necessary by Roald and will go on the landing page card. Please talk to Roald about any content issues.**]{{% /todo %}}
 
 ## 2 How Can I Consume a REST API?
 

@@ -5,7 +5,7 @@ menu_order: 10
 tags: [""]
 ---
 
-## How Can I Integrate with Mendix?
+## How Can I Integrate with Mendix? {#integrate-with}
 
 Integration has always been an important part of application development, but the topic has not received much attention in the marketplace for developing apps until now. The maturation in cloud-native and as-a-service software options has increased the need for APIs that connect disparate applications together to exchange data, trigger events, and orchestrate workflow processes.
 

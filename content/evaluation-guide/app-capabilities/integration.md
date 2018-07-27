@@ -16,7 +16,7 @@ DRAFT: Mendix supports integrating via data mapping, using JSON snippets, consum
 
 {Brief answer}
 
-For details, see [How Can I Integrate with Mendix?](integration-overview)
+For details, see [How Can I Integrate with Mendix?](integration-overview#integrate-with)
 
 ## How Does Mendix Support Data Mapping?
 

@@ -42,6 +42,10 @@
             @include element('background', $cardroot) {
                 background-image: url('/evaluation-guide/public/images/card_bg/logo.png');
             }
+            @include element('readmore', $cardroot) {
+                font-size: 16px;
+            }
+            margin-bottom: 80px!important;
         }
         @include modifier('agile') {
             @include element('background', $cardroot) {
@@ -236,7 +240,23 @@
 
     @include element('readmore') {
         font-size: 12px;
+        font-weight: bold;
         line-height: 17px;
+        background: $color-mendix-blue;
+        border-color: $color-mendix-blue;
+        color: $color-white;
+        background-image: url(/evaluation-guide/public/images/swirl-blue.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-width: 0;
+
+        &:hover, &:active {
+            color: $color-white;
+            border-color: $color-mendix-blue;
+            @include box-shadow(none);
+            outline: none;
+            border-width: 0;
+        }
 
         &:after {
             content: '>';

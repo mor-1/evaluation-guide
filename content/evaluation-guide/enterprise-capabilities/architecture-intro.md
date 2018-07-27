@@ -24,11 +24,11 @@ For details, see [What Are the Key Architectural principles behind the Mendix pl
 
 For details, see [What are the key components of the Mendix platform and their architecture?](architecture-platform#key-components).
 
-## How Does Mendix Support 12 Factor 
+## How Does the Mendix Runtime Support 12-Factor Cloud-Native Apps? 
 
 {Brief answer}
 
-For details, see [How does the Mendix Runtime support Twelve-Factor Cloud-Native Apps](architecture-12-factor#12-factor).
+For details, see [How does the Mendix Runtime support Twelve-Factor Cloud-Native Apps](architecture-12-factor#12-factor)?
 
 ## Read More
 

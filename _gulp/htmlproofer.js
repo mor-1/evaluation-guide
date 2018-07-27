@@ -116,7 +116,13 @@ const parseHtmlFile = file => new Promise((resolve, reject) => {
 
     $('h1,h2,h3,h4,h5', '.mx__page__content').each((i, el) => {
       var $el = $(el),
-          id = $el.attr('id');
+          id = $el.attr('id'),
+          tagName = $el[0].name.toLowerCase(),
+          level = parseInt(tagName.replace('h', ''), 10);
+
+      if ('h1' === tagName) {
+        file.warnings.push(`${gutil.colors.red('[TITLE]  ')} There is a title with text ${gutil.colors.cyan($el.text())} which is an H1. This cannot happen, as this is the page title`);
+      }
 
       if (id) {
         if (file.anchors.indexOf(id) !== -1) {

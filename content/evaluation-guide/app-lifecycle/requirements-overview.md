@@ -1,6 +1,6 @@
 ---
 title: "Requirements Overview"
-parent: "requirements"
+parent: "requirements-intro"
 menu_order: 10
 tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 ---

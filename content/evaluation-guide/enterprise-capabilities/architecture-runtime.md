@@ -5,35 +5,35 @@ menu_order: 40
 tags: [""]
 ---
 
-# 1 What is the Mendix Runtime and how does it support key architectural principles?
+## 1 What is the Mendix Runtime and how does it support key architectural principles?
 
 The Mendix Runtime executes your applications within the context of a cloud-native architecture. In this section we will have a look at the core components of the Mendix runtime and related capabilities, as well as take a deeper look at several important aspects of runtime execution.
 
-## 1.1 Runtime
+### 1.1 Runtime
 
 The Mendix Runtime interprets and executes the models of your apps. The runtime has a [12-factor-compatible](architecture-12-factor) design using industry-leading Java and Scala technologies.
 
-## 1.2 Model Execution {#model-execution}
+### 1.2 Model Execution {#model-execution}
 
-The Mendix runtime directly executes models, meaning that the model literally is the application—not an intermediary. As opposed to approaches where a visually-modeled design would actually generate code (for example, Java or .Net), our model interpretation approach has a number of unique characteristics and advantages. 
+The Mendix runtime directly executes models, meaning that the model literally is the application—not an intermediary. As opposed to approaches where a visually-modeled design would actually generate code (for example, Java or .Net), our model interpretation approach has a number of unique characteristics and advantages.
 
-### 1.2.1 Change Management
+#### 1.2.1 Change Management
 
 Application changes can be accommodated more easily. In addition, since the model is the application, Mendix safeguards compatibility of the application and the model.
 
-### 1.2.2 Custom Extensions
+#### 1.2.2 Custom Extensions
 
 [Extending models with custom code]()TODO is controlled more elegantly, as the model is aware of the custom code and includes it in consistency checks, in contrast to the insertion of custom code into generated code. Mendix’s model-interpretation approach solves the fundamental round-trip problem of code generation, whereby changes in the model would conflict with custom-code extensions. Further, not having custom changes in generated code means the technical architecture of the platform can be modernized without impacting your model. This means it is easier and cheaper to benefit from technical innovation.
 
-### 1.2.3 Monitoring
+#### 1.2.3 Monitoring
 
 [Monitoring]()TODO and analyzing application behavior in the runtime can be set up more dynamically and flexibly versus defining monitor parameters beforehand.
 
-### 1.2.4 Debugging
+#### 1.2.4 Debugging
 
 [Debugging]()TODO and solving problems becomes easier for the developer, as they do not have to understand how the generated code relates to the visual model. Debugging and problem-solving are done on the model, not on the generated code.
 
-## 1.2 Stateless Implementation
+### 1.2 Stateless Implementation
 
 To ensure scalability, performance, and high availability, Mendix has implemented a stateless runtime. This means that any runtime instance available can handle a user request, regardless of any previous requests or subsequent requests.
 
@@ -41,7 +41,7 @@ To achieve this, runtime instances have state for the duration of a user request
 
 For more information, see [Clustered Mendix Runtime](https://docs.mendix.com/refguide/clustered-mendix-runtime) in the Mendix Reference Guide.
 
-# 2 What are the components of the Mendix runtime?
+## 2 What are the components of the Mendix runtime?
 
 The Runtime consists of 2 main components:
 * Clients - Web and mobile clients.
@@ -49,7 +49,7 @@ The Runtime consists of 2 main components:
 
 ![Mendix architecture](attachments/mendix-architecture.png)
 
-# 2.1 Server architecture
+### 2.1 Server architecture
 
 ![Runtime components](attachments/runtime-engine.png)
 
@@ -67,7 +67,7 @@ The runtime consists of the following components:
 * *Monitoring API* – this JSON API is used by the Cloud Portal and container buildpack to retrieve monitoring metrics
 * *Custom APIs* – this Java APIs is used to extend the Mendix Runtime (for example, with microflow activities or entity listeners)
 
-## 2.2 Client architecture
+### 2.2 Client architecture
 
 The Mendix clients consist of the following components:
 * Communications layer - Exchanges metadata, session managements, and data with the Mendix runtime server. Uses a secure json over http protocol.
@@ -75,7 +75,7 @@ The Mendix clients consist of the following components:
 * Logic layer - Handles data validations and more complex logic using nano-flows.
 * UI component layer - Manages widget lifecycle, communication between widgets, and provides out-of-the-box widgets.
 
-### 2.2.1 Mobile client
+#### 2.2.1 Mobile client
 
 Mobile applications use the same HTML5-, CSS-, and React-based client architecture, but they are deployed using Apache Cordova. This framework enables mobile apps built using state-of-the-art web technologies to offer a great mobile user experience:
 
@@ -85,9 +85,8 @@ Mobile applications use the same HTML5-, CSS-, and React-based client architectu
 
 For more details on Mendix mobile device support, see [Mobile Apps](mobile-apps).
 
-### 2.2.2 Web Client
+#### 2.2.2 Web Client
 
 The web client is designed using a single-page architecture, wherein a single JavaScript web page is loaded into the browser that will then update the page and interact with the Mendix Runtime as required by the actions of the user. This may include retrieving parts of the web page as well as retrieving and storing data.
 
 The client is predominantly implemented using HTML5, CSS with Sass and Bootstrap, and the React framework. For more information, see [Web Client Settings](https://docs.mendix.com/refguide/custom-settings#9-web-client-settings).
-

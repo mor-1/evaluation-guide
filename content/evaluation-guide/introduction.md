@@ -14,15 +14,15 @@ Based around our three core principles of **speed**, **collaboration**, and **co
 
 ## {Video}
 
-## What Is the Vision Behind Mendix? {#vision}
+## What Is the Vision Behind Mendix?
 
 Our vision in a world where software is the lifeblood of every company is to empower people with diverse skills and backgrounds to collaborate successfully to create better software, that delivers true business value, faster and at significantly lower costs than ever before.
 
 The Mendix Platform brings together the people with ideas and the people that have the technical aptitude to execute on them to create a powerful force for change, which we believe is necessary to compete and survive in a software-driven world.
 
-For details, see [What Is the Vision Behind Mendix?](what-is-mendix#vision).
+For details, see [What Is the Vision Behind Mendix?](mendix-vision#vision).
 
-## How Does Mendix Optimize the Collaboration Between Business & IT? {#optimize-collaboration}
+## How Does Mendix Optimize the Collaboration Between Business & IT?
 
 To achieve the high levels of agility and continuous interactions required to collaborate effectively across multi-disciplinary teams, Mendix combines **abstraction:** visual model-driven development tools, **automation:** continuous integration and deployment (CICD), and **intelligent assisted development** with a fully integrated feed that maps every interaction across the ALM to a central buzz.
 
@@ -34,7 +34,7 @@ Project team members are connected instantly and interactively to changes and up
 
 Read more in [How Does Mendix Optimize the Collaboration Between Business & IT?](what-is-mendix#optimize-collaboration).
 
-## What Does the Mendix Architecture Look Like? {#architecture}
+## What Does the Mendix Architecture Look Like?
 
 Mendix is a fully open platform that leverages open standards and open source technologies to meet the demands of today's enterprise software delivery requirements. Our 12-factor compatible cloud-native, stateless architecture supports highly available, scalable solutions running in container technologies such as Docker, Kubernetes and Cloud Foundry or on top of windows or Linux.
 

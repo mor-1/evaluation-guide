@@ -5,7 +5,7 @@ menu_order: 40
 tags: [""]
 ---
 
-## 1 What Is the Vision Behind Mendix?
+## 1 What Is the Vision Behind Mendix? {#vision}
 
 The fundamental belief at Mendix is that software should not be something just for IT. Every company needs to become a software company to survive in a software-driven world. The whole organization needs to be collaborating on the lifeblood of the business, which is software. The future of each company depends on it. Experimentation and innovation by people that know the business domain is key to survival.
 

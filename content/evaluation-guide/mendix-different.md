@@ -29,4 +29,6 @@ Organizations wanting to harness the power of both groups should look for a rapi
 
 The Mendix Platform contains the Web Modeler and Desktop Modeler, which are visual modeling environments that combine to deliver an integrated and model-driven app development experience across the full continuum of users. What is more, these modeling environments are integrated with the Mendix Development Portal as the backbone for collaborative modeling.
 
-{{% todo %}}[**Write new section [PRIO2]: 3 How Does Mendix Optimize the Collaboration Between Business & IT? {#optimize-collaboration}**]{{% /todo %}}
+## 3  How Does Mendix Optimize the Collaboration Between Business & IT? {#optimize-collaboration}
+
+{{% todo %}}[**New section - to be written now because linked from intro page and Nick has already written content, not as prio2 for later**]{{% /todo %}}

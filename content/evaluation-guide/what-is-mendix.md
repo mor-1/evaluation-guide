@@ -39,4 +39,8 @@ Mendix helps the world's largest organizations create innovative applications at
 
 There are more than 60,000 Mendix community members ready to help you. Visit the [Mendix Community site](https://developers.mendix.com/) to explore content, ask questions, and enroll at the Mendix Academy.
 
-{{% todo %}}[**Write new section [PRIO2]: 3 How Does Visual Modeling Work?**]{{% /todo %}}
+## 3 What Does the Mendix Architecture Look Like? {#architecture}
+
+{{% todo %}}[**Section to be written because already linked from Introduction as featured question and Nick has already written content?**]{{% /todo %}}
+
+{{% todo %}}[**Write new section [PRIO2]: How Does Visual Modeling Work?**]{{% /todo %}}

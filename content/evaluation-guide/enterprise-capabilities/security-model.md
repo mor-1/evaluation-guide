@@ -5,8 +5,6 @@ menu_order: 30
 tags: [""]
 ---
 
-{{% todo %}}[**Needs review for accuracy**]{{% /todo %}}
-
 ## 1 How Is Application Security Defined in Mendix?
 
 Out of the box, Mendix provides role-based user access to applications built with the platform. Applications in Mendix consist of one or more modules. A module typically has a functional scope (for example, items, customers, orders) and is self-contained so that modules can be reused in multiple applications. Due to the distinction between applications and modules, security aspects are defined on both levels. Application-level security settings apply to all the modules within the application. Module-level settings are specific to each module.

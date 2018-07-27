@@ -5,8 +5,6 @@ menu_order: 35
 tags: [""]
 ---
 
-{{% todo %}}[**Needs review for accuracy**]{{% /todo %}}
-
 ## 1 How Is Security Handled in a Mendix Application?
 
 Before understanding how security is handled in a Mendix application, it is important to understand the [Mendix Runtime architecture](architecture-principles#runtime).

@@ -7,7 +7,7 @@ tags: [""]
 
 ## 1 How Can I Run Mendix on the Mendix Cloud {#mendix-cloud}
 
-The Mendix Cloud is the deployment solution in which Mendix provides hosting environments for customers. The Mendix Cloud is built on top of Cloud Foundry and AWS, is available in multiple regions around the globe, and comes with high availability options. For more information on the Mendix Cloud architecture, see [Architecture Principles](../enterprise-capabilities/architecture-principles).
+The Mendix Cloud is the deployment solution in which Mendix provides hosting environments for customers. The Mendix Cloud is built on top of Cloud Foundry and AWS, is available in multiple regions around the globe, and comes with high availability options. For details on the Mendix Cloud architecture, see [Cloud Architecture](../enterprise-capabilities/architecture-cloud).
 
 Mendix Cloud is the most optimzed cloud to run Mendix Applications. It comes standard with deep insights, alerting, high availabilty, backups and this is all self-service available. See [Mendix Cloud Features]{./mendix-features).
 
@@ -19,7 +19,7 @@ For each region, the Mendix Cloud architecture is set up fully high available an
 
 ![](attachments/mx-cloud-architecture.png)
 
-For more information on Mendix architecture, see [Architecture Principles](../enterprise-capabilities/architecture-principles).
+For more information on Mendix Cloud architecture, see [Cloud Architecture](../enterprise-capabilities/architecture-cloud).
 
 ## 3 What Mendix Cloud Regions Are Available?
 

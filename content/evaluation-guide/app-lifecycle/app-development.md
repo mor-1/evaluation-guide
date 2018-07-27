@@ -12,7 +12,7 @@ The Mendix platform is designed for a variety of app developers. From business o
 
 ![](attachments/DeveloperContinuum.png)
 
-**Business Analysts and Business Developers** can directly use the Mendix Web Modeler to build, review, and collaborate on an app. The Web Modeler provides the tools to build the app, no matter the user's programming experience or background. Users familiar with the Web Modeler can easily start using the Mendix Desktop Modeler too, if more advanced app features need to be added. The Modelers share the same concepts and terminology, which makes for a smooth user experience.
+**Business Analysts** and **Business Developers** can directly use the Mendix Web Modeler to build, review, and collaborate on an app. The Web Modeler provides the tools to build the app, no matter the user's programming experience or background. Users familiar with the Web Modeler can easily start using the Mendix Desktop Modeler too, if more advanced app features need to be added. The Modelers share the same concepts and terminology, which makes for a smooth user experience.
 **Developers** with a technical programming background (for example, in JavaScript, Java, or .NET) can use the Mendix Desktop Modeler along with CSS, Java and JavaScript to build, customize and extend an app.
 
 For information on getting started with Mendix, have a look at [First Steps with Mendix](../evaluation-learning/getting-started) and [Skills & Training](../evaluation-learning/skills-training).
@@ -78,3 +78,7 @@ You can even test changes locally without the need of an internet connection usi
 Most Mendix Platform features are browser-based, including the Web Modeler. These features are available on Windows, MacOS, and Linux.
 
 The Desktop Modeler is a Windows-based application, which can also be run in a virtual machine like Parallels on MacOS.
+
+## 4 How Does Mendix Support Coding IDEs? (Eclipse, Brackets)
+
+{{% todo %}}[**Still want this question for v1, or a PRIO2**]{{% /todo %}}

@@ -2,6 +2,7 @@
 title: "Mendix Cloud Overview"
 parent: "deployment"
 menu_order: 30
+bg: "multicloud"
 tags: [""]
 ---
 
@@ -63,9 +64,9 @@ A Mendix Application relies on three basic components. Which are the:
 
 * Mendix Runtime
 * The database
-* S3 (File) Storage 
+* S3 (File) Storage
 
-The Mendix Runtime instances can be scaled horizontally by added more instances and vertically by added more memory for each instance. As the runtime is stateless no additional effort is needed to run your Mendix application in cluster mode.  
+The Mendix Runtime instances can be scaled horizontally by added more instances and vertically by added more memory for each instance. As the runtime is stateless no additional effort is needed to run your Mendix application in cluster mode.
 
 By moving a slider in the Mendix Developer Portal, an application will scale up or down without application downtime.
 

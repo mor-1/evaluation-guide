@@ -2,6 +2,7 @@
 title: "Data Storage"
 parent: "data-management"
 menu_order: 10
+bg: "data"
 tags: [""]
 ---
 

@@ -2,6 +2,7 @@
 title: "Cloud Security"
 parent: "security"
 menu_order: 40
+bg: "security"
 tags: [""]
 ---
 

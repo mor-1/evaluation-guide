@@ -2,6 +2,7 @@
 title: "Extensibility"
 parent: "openness-extensibility"
 menu_order: 30
+bg: "openness"
 tags: [""]
 ---
 

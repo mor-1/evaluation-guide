@@ -3,6 +3,7 @@ title: "IBM"
 category: "Strategic Partners"
 notoc: true
 menu_order: 20
+bg: "ibm"
 tags: [""]
 ---
 
@@ -31,4 +32,3 @@ For details, see [What Does the Mendix-IBM Partnership Offer?](ibm-overview#ibm-
 For details, see [How Can I Integrate Mendix with IBM Cloud?](ibm-integration#integrate-with-ibm)
 
 ## Read More
-

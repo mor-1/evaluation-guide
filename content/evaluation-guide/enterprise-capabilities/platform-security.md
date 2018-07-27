@@ -2,6 +2,7 @@
 title: "Platform Security"
 parent: "security"
 menu_order: 20
+bg: "security"
 tags: [""]
 ---
 
@@ -29,11 +30,11 @@ Two-factor authentication can be enabled within the Mendix Cloud for sensitive a
 
 The Mendix Platform logs relevant activities during the app delivery cycle, from requirements management and development to deployment and application monitoring. This is to ensure compliance with customer requirements for auditability.
 
-## 6 What Kind of Security Tests Are Performed on the Mendix Platform? 
+## 6 What Kind of Security Tests Are Performed on the Mendix Platform?
 
 An independent auditing firm periodically performs security audits of Mendix, which are reported through our ISO/IEC 27001 certificate, ISAE 3402 Type II assertion report ,and SOC I Type II assertion report.
 
-In addition, a leading IT security firm performs penetration tests on the Mendix Platform on a monthly basis. These penetration tests are based on the Open Web Application Security Project (OWASP), Information Systems Security Assessment Framework (ISSAF), and Open Source Security Testing Methodology Manual (OSSTMM ). 
+In addition, a leading IT security firm performs penetration tests on the Mendix Platform on a monthly basis. These penetration tests are based on the Open Web Application Security Project (OWASP), Information Systems Security Assessment Framework (ISSAF), and Open Source Security Testing Methodology Manual (OSSTMM ).
 
 For vulnerability management, a program is in place for continuous monitoring of the security posture of the Mendix Platform. Before a release is shipped, the release is scanned by Black Duck and SonarQube.
 

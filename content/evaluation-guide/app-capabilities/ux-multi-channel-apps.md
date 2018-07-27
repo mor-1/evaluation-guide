@@ -3,6 +3,7 @@ title: "UX & Multi-Channel Apps"
 category: "App Capabilities"
 menu_order: 10
 notoc: true
+bg: "ux"
 tags: [""]
 ---
 
@@ -16,15 +17,15 @@ Finally, in addition to many standard components, Mendix offers several options 
 
 ## How Does Mendix Support Multi-Channel Applications?
 
-Mendix provides a single development paradigm for building multi-channel apps. You can build simple responsive user experiences to complete offline mobile apps with client-side logic and data synchronization as well as everything in between. 
+Mendix provides a single development paradigm for building multi-channel apps. You can build simple responsive user experiences to complete offline mobile apps with client-side logic and data synchronization as well as everything in between.
 
-Both business and IT developers can create multi-chanel apps through Mendix's visual drag-and-drop development environment using a single model base and skillset to serve multiple use cases, including mBaaS.  Consolidating skills, reducing complexity, and accelerating business value with Mendix will help you to meet the demands of today’s highly mobile workforce. 
+Both business and IT developers can create multi-chanel apps through Mendix's visual drag-and-drop development environment using a single model base and skillset to serve multiple use cases, including mBaaS.  Consolidating skills, reducing complexity, and accelerating business value with Mendix will help you to meet the demands of today’s highly mobile workforce.
 
 For more information, see [How Does Mendix Support Multi-Channel Applications?](front-end#support-multi-channel).
 
 ## How Do Mendix Mobile Apps Work?
 
-With Mendix, users can develop, deploy, test, and manage mobile apps from a single integrated visual development environment that uses the popular [Cordova](https://cordova.apache.org/) framework to provide access to native mobile device features. Mobile applications can operate in an online or offline mode, storing data locally and synchronizing with the Mendix server, which provides a complete mBaaS. 
+With Mendix, users can develop, deploy, test, and manage mobile apps from a single integrated visual development environment that uses the popular [Cordova](https://cordova.apache.org/) framework to provide access to native mobile device features. Mobile applications can operate in an online or offline mode, storing data locally and synchronizing with the Mendix server, which provides a complete mBaaS.
 
 The Mendix mBaaS provides over-the-air updates that remove the need to redeploy applications to the app stores in order to deploy new or updated functionality.
 
@@ -32,12 +33,10 @@ For details, see [How Do Mendix Mobile Apps Work?](mobile-apps#mobile-apps-work)
 
 ## How Can I Build an Offline Mobile App?
 
-The most important point to make here is that you build offline apps using the same tools as online and responsive apps, thus consolidating your skills and knowledge of reuse across the deployment landscape. By simply specifying an offline profile inside your app model and setting the data source of your required offline pages to be offline, the Mendix Platform will automatically manage both the consistency and deployment of those model artefacts that are required to be synchronized to the device to run locally. 
+The most important point to make here is that you build offline apps using the same tools as online and responsive apps, thus consolidating your skills and knowledge of reuse across the deployment landscape. By simply specifying an offline profile inside your app model and setting the data source of your required offline pages to be offline, the Mendix Platform will automatically manage both the consistency and deployment of those model artefacts that are required to be synchronized to the device to run locally.
 
 In addition, Mendix will create and synchronize a local SQL database to persist data between the client and server automatically, requiring no additional skills to manage data movement when on or offline.
 
 For details, go to [How Can I Build an Offline Mobile App?](offline-apps#build-offline).
 
 ## Read More
-
-

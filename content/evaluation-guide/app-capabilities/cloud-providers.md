@@ -2,6 +2,7 @@
 title: "Cloud Providers"
 parent: "deployment"
 menu_order: 20
+bg: "multicloud"
 tags: [""]
 ---
 

@@ -2,17 +2,18 @@
 title: "Cloud Architecture"
 parent: "architecture-intro"
 menu_order: 30
+bg: "architecture"
 tags: [""]
 ---
 ## 1 What Does the Mendix Deployment Architecture Look Like?
 
-Mendix Cloud is a PaaS based Cloud Offering based on Cloud Foundry technoligy. It runs on the IaaS layer of Amazon Web Services. A Mendix application will run in a container provided by Cloud Foundry. A Container in Cloud Foundry has standard support for horizontal and veritcal scaling and auto healing. 
+Mendix Cloud is a PaaS based Cloud Offering based on Cloud Foundry technoligy. It runs on the IaaS layer of Amazon Web Services. A Mendix application will run in a container provided by Cloud Foundry. A Container in Cloud Foundry has standard support for horizontal and veritcal scaling and auto healing.
 
-Scaling up and down can be done without any downtime, it is just a matter of adding container or removing containers. 
+Scaling up and down can be done without any downtime, it is just a matter of adding container or removing containers.
 
-The Mendix Cloud Foundry layer is for each AWS region deployed in mulitple availability zones. An availability zone is physical datacenter location of AWS witin a region. 
+The Mendix Cloud Foundry layer is for each AWS region deployed in mulitple availability zones. An availability zone is physical datacenter location of AWS witin a region.
 
-Mendix application needs a database and file storage to operate. In the Mendix cloud these aPaaS services are directly consumed from the AWS service layer. For the database the Mendix Cloud makes use of RDS PostgreSQL and for the file store S3. Both these services are multi AZ configured so data will be repicated accros datacenters. 
+Mendix application needs a database and file storage to operate. In the Mendix cloud these aPaaS services are directly consumed from the AWS service layer. For the database the Mendix Cloud makes use of RDS PostgreSQL and for the file store S3. Both these services are multi AZ configured so data will be repicated accros datacenters.
 
 ![Mendix deployment architecture](attachments/figure-7-mendix-cloud-deployment-architecture.png)
 
@@ -32,7 +33,7 @@ Within Mendix Cloud we make use a logical term called App Container to describe 
 
 ## 4 How Does Mendix Cloud Offer High Availability? {#cloud-ha}
 
-The Mendix Cloud offers high availability for all app environments, ensuring zero downtime in the case of a Mendix Runtime outage. Users are able to scale Mendix app environments using the Cloud Portal. When selecting a minimum of 2 containers the application will run in high availability mode. 
+The Mendix Cloud offers high availability for all app environments, ensuring zero downtime in the case of a Mendix Runtime outage. Users are able to scale Mendix app environments using the Cloud Portal. When selecting a minimum of 2 containers the application will run in high availability mode.
 
 ![](attachments/figure-11-mendix-app-scaling.png)
 

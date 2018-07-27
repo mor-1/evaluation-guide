@@ -2,6 +2,7 @@
 title: "Service Consumption"
 parent: "integration"
 menu_order: 30
+bg: "integration"
 tags: [""]
 ---
 

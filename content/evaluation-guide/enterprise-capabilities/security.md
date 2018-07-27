@@ -3,6 +3,7 @@ title: "Security"
 category: "Enterprise Capabilities"
 notoc: true
 menu_order: 50
+bg: "security"
 tags: [""]
 ---
 

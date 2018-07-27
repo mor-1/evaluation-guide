@@ -3,6 +3,7 @@ title: "Data Management"
 category: "App Capabilities"
 notoc: true
 menu_order: 20
+bg: "data"
 tags: [""]
 ---
 
@@ -37,4 +38,3 @@ For details, see [How Does Object-Relational Mapping Work in Mendix?](data-stora
 For details, see [How Does Mendix Ensure Data Security?](data-security#ensure-data-security)
 
 ## Read More
-

@@ -23,12 +23,16 @@
     }
     @include modifier('agile') {
         background-image: url('/evaluation-guide/public/images/card/Agile.svg');
+        top: 120px;
+        right: -4px;
     }
     @include modifier('data') {
         background-image: url('/evaluation-guide/public/images/card/Data.svg');
     }
     @include modifier('developing') {
         background-image: url('/evaluation-guide/public/images/card/Develop.svg');
+        @include transform(rotate(-25deg));
+        top: 120px;
     }
     @include modifier('devops') {
         background-image: url('/evaluation-guide/public/images/card/Devops.svg');
@@ -38,9 +42,13 @@
     }
     @include modifier('integration') {
         background-image: url('/evaluation-guide/public/images/card/Integration.svg');
+        top: 110px;
+        right: 0px;
     }
     @include modifier('multicloud') {
         background-image: url('/evaluation-guide/public/images/card/MultiCloud.svg');
+        top: 105px;
+        right: -19px;
     }
     @include modifier('architecture') {
         background-image: url('/evaluation-guide/public/images/card/Architecture.svg');
@@ -64,11 +72,16 @@
         background-image: url('/evaluation-guide/public/images/card/Learn.svg');
     }
     @include modifier('sap') {
+        @include transform(rotate(0deg));
         background-image: url('/evaluation-guide/public/images/card/Sap.png');
+        top: 76px;
+        right: 2px;
     }
     @include modifier('ibm') {
+        @include transform(rotate(0deg));
         background-image: url('/evaluation-guide/public/images/card/IBM.png');
-        bottom: -100px;
+        top: 124px;
+        right: 3px;
     }
 
 

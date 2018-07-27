@@ -2,6 +2,7 @@
 title: "Data Mappings"
 parent: "integration"
 menu_order: 20
+bg: "integration"
 tags: ["Integration"]
 ---
 

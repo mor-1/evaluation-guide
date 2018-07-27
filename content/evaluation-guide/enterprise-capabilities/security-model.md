@@ -2,6 +2,7 @@
 title: "Security Model"
 parent: "security"
 menu_order: 30
+bg: "security"
 tags: [""]
 ---
 

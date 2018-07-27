@@ -2,6 +2,7 @@
 title: "Architecture Principles"
 parent: "architecture-intro"
 menu_order: 10
+bg: "architecture"
 tags: [""]
 ---
 

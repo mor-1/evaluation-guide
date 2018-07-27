@@ -2,6 +2,7 @@
 title: "Twelve-Factor Architecture"
 parent: "architecture-intro"
 menu_order: 50
+bg: "architecture"
 tags: [""]
 ---
 

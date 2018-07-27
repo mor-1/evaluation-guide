@@ -2,6 +2,7 @@
 title: "UI Design"
 parent: "ux-multi-channel-apps"
 menu_order: 20
+bg: "ux"
 tags: [""]
 ---
 

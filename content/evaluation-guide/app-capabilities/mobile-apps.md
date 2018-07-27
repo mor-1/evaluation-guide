@@ -2,6 +2,7 @@
 title: "Mobile Apps"
 parent: "ux-multi-channel-apps"
 menu_order: 30
+bg: "ux"
 tags: [""]
 ---
 

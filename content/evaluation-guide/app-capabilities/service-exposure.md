@@ -2,6 +2,7 @@
 title: "Service Exposure"
 parent: "integration"
 menu_order: 40
+bg: "integration"
 tags: [""]
 ---
 

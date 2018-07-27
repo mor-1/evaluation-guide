@@ -12,27 +12,23 @@ DRAFT: When evaluating all that the Mendix Platform has to offer, you need  to c
 
 ## {Video}
 
-## What Can I Build with Mendix?
-
-{{% todo %}}[**This question has been moved to Use Cases in What Is Mendix. What to replace with?**]{{% /todo %}}
+## How Can I Quickstart My App Development Project?
 
 {Brief answer}
 
-For details, see [What Can I Build with Mendix?](getting-started#can-i-build) 
-
-## What Shouldn't I Build in Mendix?
-
-{{% todo %}}[**This question has been moved to Use Cases in What Is Mendix. What to replace with?**]{{% /todo %}}
-
-{Brief answer}
-
-For details, see [What Shouldn't I Build in Mendix?](getting-started#should-not-build)
+For details, see [How Can I Quickstart My App Development Project](getting-started#starter-apps)
 
 ## Where Do I Start with the Mendix Platform?
 
 {Brief answer}
 
 For details, see [Where Do I Start with the Mendix Platform?](getting-started#where-do-i-start)
+
+## What Can the Mendix Community Do for Me?
+
+{Brief answer}
+
+For details, see [What Can the Mendix Community Do for Me?](community#community-do-for-me)
 
 ## Read More
 

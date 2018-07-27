@@ -5,7 +5,7 @@ menu_order: 20
 tags: [""]
 ---
 
-## 1 What are the key components of the Mendix platform and their architecture?
+## 1 What are the key components of the Mendix platform and their architecture? {#key-components}
 
 The Mendix Platform is a completely integrated application platform-as-a-service (aPaaS) offering for designing, building, deploying, and managing enterprise apps. The platform is accessible for developers and administrators through the Developer Portal, which provides access to apps as well as services for requirements, development, and a cloud portal for operations and administration of apps and app services. The platform includes both the Desktop and Web Modeler and an [App Store](https://appstore.home.mendix.com/index3.html) that features hundreds of publicly available building blocks to speed up development. The Mendix App Store can be configured for private use as well, so that apps and building blocks can be shared across your organization. The platform features online collaboration amongst users through the Dev Portal, Mendix app, and both modelers.
 

@@ -12,27 +12,23 @@ The Mendix Web Modeler is a browser-based, no-code development environment for b
 
 ## {Video}
 
-## How Does Mendix Support the Entire Application Lifecycle?
-
-{{% todo %}}[**This question was removed from the App Development page, needs to be replaced by new featured question**]{{% /todo %}}
+## How Does Mendix Enable Model-Driven Development?
 
 {Brief answer}
 
-For details, see [How Does Mendix Support the Entire Application Lifecycle?](app-development#support-lifecycle).
+For details, see [How Does Mendix Enable Model-Driven Development?](app-development#enable)
 
 ## How Does Mendix Support Different Developer Profiles?
 
-{{% todo %}}[**Replaced title from Who Uses Mendix to this, in order to link to a question - should verified**]{{% /todo %}}
+Mendix is designed to support the spectrum of users who are necessary for building enterprise apps in today's software-driven world. This includes line-of-business developers, citizen developers, business analysts, and professional developers.  Each of these roles can collaborate in Mendix through an integrated set of tools across the entire software development lifecycle.
 
-Mendix is designed to support the spectrum of users who are necessary for building enterprise apps in today's software-driven world. This includes line-of-business developers, citizen developers, business analysts, SCRUM Masters, product owners, and professional developers.  Each of these roles can collaborate in Mendix through an integrated set of tools across the entire software development lifecycle.
+For details, see [How Does Mendix Support Different Developer Profiles?](app-development#developer-profiles)
 
-For details, see [Who Uses Mendix?](app-development#developer-profiles).
+## How Does Mendix Support Multi-User Development?
 
-## How Does Mendix Enable Model-Driven Development?
+{Brief answer}
 
-Mendix enables model-driven development through our Web and Desktop Modelers, which provide visual drag-and-drop development tools for no-code and low-code development. The resulting model is then executed at runtime, removing the overhead of code generation, which breaks the bond between model and application while producing tomorrow's legacy. Model execution, on the other hand, provides significant advantages, supporting the easy accommodation of changes, controlled extensions, and dynamic monitoring analysis at runtime. 
-
-For details, see [How Does Mendix Enable Model-Driven Development?](app-development#enable).
+For details, see [How Does Mendix Support Multi-User Development?](version-control#multi-user)
 
 ## Read More
 

@@ -5,7 +5,7 @@ menu_order: 50
 tags: ["version control", "multi-user", "user stories", "SVN", "branching", "merging", "API"]
 ---
 
-## 1 How Does Mendix Support Multi-User Development?
+## 1 How Does Mendix Support Multi-User Development? {#multi-user}
 
 To accomplish this, the Desktop Modeler and Web Modeler combine multi-user development across different skill levels. When a user creates a new set of pages and associated assets using the Web Modeler, it will be built in a branch line. When the app project is synchronized with the Desktop Modeler, the branch can be merged at the request of the developer in the Modeler.  From that point on, control of the model is handed over to the developer, effectively blocking access by other users until the merges are committed back to the Team Server and the developer releases the lock.
 

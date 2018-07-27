@@ -1,7 +1,7 @@
 ---
 title: "What Do Gartner and Forrester Say About Mendix?"
 parent: "introduction"
-menu_order: 80
+menu_order: 70
 tags: [""]
 ---
 

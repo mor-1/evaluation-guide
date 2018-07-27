@@ -16,7 +16,7 @@ Mendix offers openness and extensibility at all levels, providing open model spe
 
 {Brief answer}
 
-For details, see [How Can I Avoid Being Locked in to the Mendix Platform?](vendor-lockin)
+For details, see [How Can I Avoid Being Locked in to the Mendix Platform?](vendor-lockin#avoid-lockin)
 
 ## Where Can I Use the Openness and Extensibility the Mendix Platform Offers?
 

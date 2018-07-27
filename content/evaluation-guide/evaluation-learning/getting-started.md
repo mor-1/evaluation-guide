@@ -5,8 +5,6 @@ menu_order: 10
 tags: [""]
 ---
 
-{{% todo %}}[**Restructure all tables: put ino text?**]{{% /todo %}}
-
 ## 1 How Can I Quickstart My App Development Project? {#starter-apps}
 
 The Mendix Platform provides several starter apps as part of the onboarding process for [creating new applications](#can-i-build).

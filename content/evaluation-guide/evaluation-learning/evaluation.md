@@ -14,11 +14,15 @@ DRAFT: When evaluating all that the Mendix Platform has to offer, you need  to c
 
 ## What Can I Build with Mendix?
 
+{{% todo %}}[**This question has been moved to Use Cases in What Is Mendix. What to replace with?**]{{% /todo %}}
+
 {Brief answer}
 
 For details, see [What Can I Build with Mendix?](getting-started#can-i-build) 
 
 ## What Shouldn't I Build in Mendix?
+
+{{% todo %}}[**This question has been moved to Use Cases in What Is Mendix. What to replace with?**]{{% /todo %}}
 
 {Brief answer}
 

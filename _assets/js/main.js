@@ -310,6 +310,8 @@
       var found = false;
       $(element).find('a').each(function () {
         var $menulink = $(this);
+        var hrefList = [];
+        var broken = false;
         if ($menulink.attr('href') === window.location.pathname) {
           var $parents = $($menulink.parents('.collapse').get().reverse()),
               $breadcrumb = $('ul.mx__breadcrumb'),
@@ -321,6 +323,7 @@
           $parents.each(function () {
             var $collapse = $(this),
                 $parentlink = $collapse.parent().find('> a.expand-link'),
+                $parentA = $collapse.parent().find('> a:not(.expand-link)'),
                 $title = $collapse.parent().find('> [data-page-title]');
 
             $collapse.addClass('in');
@@ -330,7 +333,45 @@
               found = true;
               $title.addClass('sub-active');
             }
+
+            if ($parentA && $parentA.attr('href')) {
+              hrefList.push({
+                title: $parentA.text(),
+                href: $parentA.attr('href')
+              });
+            } else {
+              broken = true;
+            }
+
           });
+
+          if (!broken) {
+            hrefList.push({
+              title: $menulink.text(),
+              href: href
+            });
+            var schema = {
+              "@context": "http://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": []
+            };
+            $.each(hrefList, function (index, item) {
+              schema.itemListElement.push({
+                "@type": "ListItem",
+                "position": index + 1,
+                "item":
+                {
+                 "@id": item.href,
+                 "name": item.title
+                 }
+               });
+            });
+
+            $( "<script/>", {
+              "type": "application/ld+json",
+              "html":JSON.stringify(schema, null, 4)
+            }).appendTo( "head" );
+          }
 
           if ($parent.find('> .expand-link').length === 1) {
             $parent.find('> .expand-link').attr('aria-expanded', 'true');

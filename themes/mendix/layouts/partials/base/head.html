@@ -11,9 +11,9 @@
   <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
   <link rel="preconnect" href="https://js.intercomcdn.com" crossorigin>
 
-  {{ if .Page.URL }}
+  {{- if .Page.URL }}
   {{ partial "base/seo" . }}
-  {{ end }}
+  {{- end }}
   {{ .Hugo.Generator }}
 
   <meta name="msapplication-TileColor" content="#ffffff">
@@ -22,12 +22,7 @@
   <link rel="icon" href="https://www.mendix.com/favicon.png">
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,300,600|Inconsolata" rel="stylesheet" type="text/css" />
-
   <link href="https://search-static.mendix.com/search.css" rel="stylesheet">
-
-  <!--[if lte IE 9]>
-    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-  <![endif]-->
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">

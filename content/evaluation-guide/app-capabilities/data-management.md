@@ -17,9 +17,6 @@ The Mendix Platform automatically handles persistent storage of your data in a d
 
 A Mendix app project includes a local database for development and provisions a "sandbox" environment using a PostgreSQL database. The Mendix Platform automatically provisions your test, acceptance, and production environment databases on the Mendix Cloud or a platform of your choice. Data is secured at both the platform- and application-level, which ensures that access to data is constrained to permitted users only. The migration of data is handled within the platform, and existing databases can be queried using our [Database Connector](https://appstore.home.mendix.com/link/app/2888/) add-on, which is available in the Mendix App Store.
 
-
-
-
 ## {Video}
 
 ## What Databases Does Mendix Support?

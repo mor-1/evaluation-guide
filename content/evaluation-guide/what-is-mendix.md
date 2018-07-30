@@ -22,7 +22,9 @@ Based on our three core principles of speed, collaboration, and control, Mendix 
 
 With Mendix you can accelarate every step of your app life cycle.
 
-{{% todo %}}[**Add ALM slide/image from Roald**]{{% /todo %}} 
+{{% todo %}}[**Verify correct diagram is below; note that this diagram is already used elsewhere**]{{% /todo %}}
+
+![](attachments/cycle-1.png)
 
 ### 2.1 Ideation & Requirements Management
 

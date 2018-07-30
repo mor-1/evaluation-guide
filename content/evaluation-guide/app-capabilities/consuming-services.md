@@ -10,7 +10,7 @@ tags: [""]
 
 {{% todo %}}[**Note from Adam: Andrej, this question is specified as necessary by Roald and will go on the landing page card. Please talk to Roald about any content issues.**]{{% /todo %}}
 
-## 2 How Can I Consume a REST API?
+## 2 How Can I Consume a REST API? {#consume-rest-api}
 
 Calling a REST service is simple. First, you define what the external resources you are going to use look like by creating a message definition. The easiest way to do this is usually to create a JSON structure by copying and pasting an example JSON message. Mendix will automatically determine the structure of your message and the applicable attribute types, as illustrated below.
 

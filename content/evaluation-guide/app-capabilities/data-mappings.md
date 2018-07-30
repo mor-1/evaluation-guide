@@ -25,7 +25,7 @@ These message definitions and mappings can be reused through the different integ
 <video controls src="attachments/ApplyImportMapping.mp4">VIDEO</video>
 {{% /image_container %}}
 
-## 2 How Can I Use JSON Snippets?
+## 2 How Can I Use JSON Snippets? {#message-definition}
 
 External REST APIs often come with documentation including example JSON messages that you need to send to receive. With Mendix, you can just copy and paste these examples from the documentation to create a message definition in your application project. Mendix will automatically detect the structure of the message as well as the data types of the properties in the JSON snippet.
 

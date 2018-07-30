@@ -20,7 +20,7 @@ BizDevOps encourages developers, operations staff, and business teams to work to
 Mendix has optimized the BizDevOps approach for the use of low-code, resulting in a feedback loop of weeks, not months on the app under development. On a high level, the short feedback loop is ensured due to four factors of the Mendix Platform:
 
 * **An integrated feedback mechanism** – The business can provide their feedback on the live app (minimal viable product) through a user friendly feedback mechanism, which is integrated with the Mendix Platform.
-* **Team synergy **– The business analyst in the development team speaks the language of the business, can translate the requirements and feedback into user stories, and builds the functionality with the professional developer.
+* **Team synergy** – The business analyst in the development team speaks the language of the business, can translate the requirements and feedback into user stories, and builds the functionality with the professional developer.
 * **1 visual model** – With the Mendix low-code platform, the business analysts is enabled to visually build apps and work together with the professional developer's work on a common model, in a shared environment with ongoing real-time feedback. Any issues are quickly detected and resolved ensuring apps meet business and customer expectations with the first release.
 * **1-click deployment** – The one-click deployment to the cloud ensures that the MVP can be released in minutes to enable the business to provide their feedback on the next iteration.
 

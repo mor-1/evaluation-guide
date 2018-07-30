@@ -10,6 +10,7 @@ tags: [""]
 The Mendix Platform is designed to accelerate enterprise app delivery across your entire application development lifecycle, from ideation to development, deployment, test and the ongoing management of your application portfolio in the cloud or on premises.
 
 Mendix offers both no-code and low-code tooling in one single platform:
+
 * No-code: collaborative visual modeling by business domain experts
 * Low-code: highly extensible and integrated, collaborative tooling to support cross-functional teams
 
@@ -46,4 +47,4 @@ To discover more about all these capabilities, see [Developing in Mendix](app-li
 
 ### 2.4 Deployment & Operations
 
-Mendix provides all the cloud deployment options you need and is fully optimized for compatibility with the latest cloud platforms and technologies. Running and deploying your Mendix app is easy, fast, and flexible. The ability to deploy with one click *to any cloud environment or on-premise* directly from Mendix's app modeling environment enables developers with any background to bring applications to their users. Read more in the [DevOps Overview](/app-lifecylce/devops-overview) about why cloud technology is at the core of the Mendix Platform.
+Mendix provides all the cloud deployment options you need and is fully optimized for compatibility with the latest cloud platforms and technologies. Running and deploying your Mendix app is easy, fast, and flexible. The ability to deploy with one click to any cloud environment or on-premise directly from Mendix's app modeling environment enables developers with any background to bring applications to their users. Read more in the [DevOps Overview](/app-lifecylce/devops-overview) about why cloud technology is at the core of the Mendix Platform.

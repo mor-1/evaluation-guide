@@ -7,8 +7,6 @@ tags: [""]
 
 ## 1 What Do Gartner and Forrester Say About Mendix?
 
-{{% todo %}}[**update the image of magic quadrants**]{{% /todo %}}
-
 ![](attachments/magic-quadrants.png)
 
 Mendix is a leader in four analyst reports at the same time. This section will give an overview of these reports and links to where you can download the report.

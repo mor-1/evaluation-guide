@@ -7,7 +7,7 @@ tags: ["{#can-i-build}"]
 
 ## 1 In General, What Can I Build with Mendix?
 
-With Mendix, you can build a wide range of transactional, event-driven, and adjacent applications for all kinds of industries, regardless of complexity, [performance](../enterprise-capabilities/architecture-principles#scalability-performance), or [scale](../enterprise-capabilities/architecture-principles#scalability-performance).
+With Mendix, you can build a wide range of transactional, event-driven, and adjacent applications for all kinds of industries, regardless of complexity, performance, or [scale](../enterprise-capabilities/architecture-principles#statelessness).
 
 The [Mendix App Gallery](https://gallery.mendix.com) showcases all kinds of applications built using the Mendix Platform. These applications are there to present you with the art of the possible.
 

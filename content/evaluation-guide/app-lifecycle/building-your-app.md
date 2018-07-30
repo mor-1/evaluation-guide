@@ -1,12 +1,10 @@
 ---
-title: "App Build Creation"
+title: "App Builds"
 parent: "devops"
 menu_order: 20
 bg: "devops"
 tags: ["version control", "branching", "consistency", "monitoring"]
 ---
-
-**[Better title - "Creating a Build for Your App"?]**
 
 ## 1 How Do I Create a Build for My App? {#build-my-app}
 

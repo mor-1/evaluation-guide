@@ -53,7 +53,7 @@ The Runtime consists of 2 main components:
 
 {{% todo %}}[**Maker smaller**]{{% /todo %}}
 
-### 2.1 Server architecture
+### 2.1 Server Architecture
 
 The Mendix Server architecture consists of multiple components to execute logic, manage data, communicate with client, and implement security. The diagram below shows a schematical overview of all of the components followed by a short description of their responsibility:
 
@@ -73,7 +73,7 @@ The runtime consists of the following components:
 * *Monitoring API* – this JSON API is used by the Cloud Portal and container buildpack to retrieve monitoring metrics
 * *Custom APIs* – this Java APIs is used to extend the Mendix Runtime (for example, with microflow activities or entity listeners)
 
-### 2.2 Client architecture
+### 2.2 Client Architecture
 
 The Mendix Client is responsible for the user interaction and consists of a UI widget layer, a logic layer to execute offline logic, a data layer for offline storage. The diagram shows a schematicl overview.
 
@@ -86,7 +86,7 @@ The Mendix clients consist of the following components:
 * Logic layer - Handles data validations and more complex logic using nano-flows.
 * UI component layer - Manages widget lifecycle, communication between widgets, and provides out-of-the-box widgets.
 
-#### 2.2.1 Mobile client
+#### 2.2.1 Mobile Client
 
 Mobile applications use the same HTML5-, CSS-, and React-based client architecture, but they are deployed using Apache Cordova. This framework enables mobile apps built using state-of-the-art web technologies to offer a great mobile user experience:
 

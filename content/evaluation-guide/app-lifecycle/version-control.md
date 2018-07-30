@@ -22,7 +22,7 @@ This diagram presents the Mendix version control architecture:
 
 Developers can manage revisions and conflicts as well as create branch lines, which can be merged back to mainline branch as required. Every change in the platform is recorded and compared against other revisions to detect conflicts and manage updates. Users are invited to app projects via the [Developer Portal](https://sprintr.home.mendix.com/index.html) and assigned security roles, which allow them appropriate access rights to the models held in Team Server.
 
-## 3 How Do I Cross-Reference User Stories and Application Change Commits? {#cross-reference}
+## 3 How Do I Cross-Reference User Stories & Application Change Commits? {#cross-reference}
 
 Mendix provides an integrated development experience between the Team Server versioning repository, the Project Dashboard, and the Web and Desktop Modelers. The integration of the Mendix Team Server version repository with both the Project Dashboard and Desktop Modeler has the following significant advantages:
 
@@ -37,7 +37,7 @@ Mendix provides an integrated development experience between the Team Server ver
 
 	![](attachments/SeeUserStoryFromBuzzCommentInDM.png)
 
-## 4 How Do I Use My Own SVN Repository Instead of the Mendix Team Server? {#ts-on-prem}
+## 4 How Do I Use My Own SVN Repository Instead of Mendix Team Server? {#ts-on-prem}
 
 Next to the default central Mendix Team Server versioning repository, you can choose to configure your own on-premise SVN repository instead as versioning repository for your projects.
 
@@ -77,7 +77,7 @@ When retrieving new updates from the Mendix Team Server versioning repository in
 
 At all times, the Developer is in control of which changes and merge conflicts are accepted. Changes can be reverted to the original version before committing the final version to the Mendix Team Server again.
 
-## 9 What Are the Conflict Resolutions Capabilities in the Mendix Desktop Modeler?
+## 9 What Are the Conflict Resolutions Capabilities in the Desktop Modeler?
 
 The Desktop Modeler has built-in support for conflict resolution by showing detailed information about what the differences between two versions of a document are (for example, when you edit a list on a page, then someone else from the team deletes the list from that page).
 
@@ -92,7 +92,7 @@ Here are two examples:
 
 If a whole folder (or module) was deleted and another developer changes a document inside that folder, the folder is restored locally and also marked as conflicted. This way you know that the intention was to delete that folder, but it was restored to show the context of the changed document.
 
-## 10 How Can I Resolve Conflicts in External Files like Java Classes, Widgets, and Images?
+## 10 How Can I Resolve Conflicts in External Files like Java Classes, Widgets, & Images?
 
 By default the Mendix Modeler will do also a diff comparison on external files like Java classes. When there are new versions or files have been deleted this will directly be handled by the Desktop Modeler itself.
 

@@ -6,7 +6,7 @@ bg: "developing"
 tags: ["model", "consistency", "refactoring", "AQM", "ISO standard"]
 ---
 
-## 1 How Does Mendix Ensure the Quality and Consistency of Applications in the Development Phase?
+## 1 How Does Mendix Ensure the Quality & Consistency of Apps in the Development Phase?
 
 The Mendix Desktop Modeler ensures the intrinsic quality and consistency of applications built with the Mendix Platform through the approach and mechanisms described below.
 
@@ -44,7 +44,7 @@ The Mendix Modeler has extensive support for model refactoring. For example, whe
 
 When the refactoring requires a conscious decision by the user (for example, adding an additional input parameter to a microflow signature), the model consistency checks provide the user direct feedback on which parts of the model require further action before the the application can be deployed again.
 
-## 2 How Does Mendix Make Sure Data Access Rights Are Also Respected in the User Interface and APIs?
+## 2 How Does Mendix Make Sure Data Access Rights Are Respected in the UI & APIs?
 
 Data access rights are an integral part of the Mendix model, which means that these data access rights are propagated throughout the whole application. Accordingly, the Mendix user does not have to write additional custom security logic on every application entry point.
 
@@ -85,7 +85,7 @@ There is a strong correlation between the maintainability rating of an applicati
 ![](attachments/aqm-quality.png)
 *Source for charts above: Bijlsma, Ferreira, Luijten, and Visser: ["Faster Issue Resolution with Higher Technical Quality of Software"](https://www.sig.eu/wp-content/uploads/2016/10/Faster_Issue_Resolution_With_Higher_Technical_Quality_of_Software.pdf). N.d. June 26, 2018.*
 
-### 4.2 What Is the Mendix Application Quality Rating and ISO Standard for Maintainability?
+### 4.2 What Is the Mendix Application Quality Rating & ISO Standard for Maintainability?
 
 Mendix application models have been mapped by experts from SIG on the ISO 25010 standard for software quality. This service measures key aspects of app maintainability against a set of parameters while benchmarking your application against a database of thousands of projects on a scale of 1–5.
 

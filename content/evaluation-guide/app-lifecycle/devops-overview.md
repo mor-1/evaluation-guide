@@ -25,7 +25,7 @@ Many tools and services considered standard for DevOps are either available out 
 
 ![](attachments/devops-cycle.png)
 
-### 2.1 The Planning Phase
+### 2.1 Planning Phase
 
 Mendix makes it easy to manage the requirements of different stakeholders for your apps. Through the [Mendix Developer Portal](https://sprintr.home.mendix.com/), development teams can set up their app project backlogs. As part of the DevOps process, a team regularly schedules user stories from their backlog to improve their operational processes.
 
@@ -33,7 +33,7 @@ Mendix makes it easy to manage the requirements of different stakeholders for yo
 
 For more details on how Mendix helps development teams to manage their requirements and project backlogs, see [Agile Project Management](requirements-management).
 
-### 2.2 The Modeling Phase {#modeling-phase}
+### 2.2 Modeling Phase {#modeling-phase}
 
 During development, Mendix helps development teams to efficiently develop (or *model*) high-quality application models. An app model is continuously checked for consistency errors while the user is working in the Mendix Desktop Modeler or Web Modeler. These consistency checks ensure model integrity and immediately catch many of the mistakes users can make.
 
@@ -45,7 +45,7 @@ To ensure that apps being developed have consistently high-quality app models wi
 
 For further information on developing Mendix apps, see [Developing in Mendix](developing-in-mendix).
 
-### 2.3 The Building Phase
+### 2.3 Building Phase
 
 Mendix users commit the changes they make to their app models to the Mendix Team Server, which is a fully fledged and managed version control system based on Subversion. From any commit on any branch, you can create a deployment package. This is then stored in the Mendix Deployment Package Repository, where developers can manage all Mendix artifacts.
 
@@ -63,7 +63,7 @@ For more information, see [Continuous Integration](cicd) and [Testing](test-auto
 
 And for details on using third-party testing tools, see the section [How Does Mendix Support Third-Party Testing Tools?](test-automation-qa#third-party) in *Test Automation & Quality Assurance*.
 
-### 2.5 The Deploying Phase
+### 2.5 Deploying Phase
 
 During development with the Desktop Modeler, you can run your application locally on your machine while you are experimenting with the development of new features. And in addition to publishing apps in the Mendix Cloud, you can run your app locally when you do not want to share your app with others stakeholders yet.
 
@@ -85,7 +85,7 @@ Deployment operations can be easily automated by the development team through [p
 
 For more details, see [Operations, Deployment, and Release](ops-deployment-release).
 
-### 2.6 The Monitoring Phase
+### 2.6 Monitoring Phase
 
 The Mendix Platform provides out-of-the-box monitoring capabilities that give insight into the health and status of all your Mendix apps running in the Mendix Cloud. Development teams will find that the essential [trend graphs](https://docs.mendix.com/developerportal/operate/trends-v4), [alerting functionality](https://docs.mendix.com/developerportal/operate/monitoring-application-health), and [live logging](https://docs.mendix.com/developerportal/operate/logs) feature make it very easy to operate and monitor Mendix apps after deployment.
 

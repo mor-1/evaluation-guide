@@ -6,7 +6,7 @@ bg: "agile"
 tags: ["agile", "requirements", "requirements management", "project management", "feedback", "dashboard", "traceability"]
 ---
 
-## 2 How Does Mendix Support Agile Requirements Management? {#requirements-management}
+## 1 How Does Mendix Support Agile Requirements Management? {#requirements-management}
 
 Mendix enables development teams to adopt a Scrum-based development approach through easy-to-use [backlog management](#backlog) features, [feedback gathering and management tools](feedback-management#feedback-management), and [rapid deployment](devops-overview#support-devops) to testing, acceptance, and production environments.
 
@@ -34,7 +34,7 @@ Any updates to the conversation on the **Story Details** page are also pushed to
 
 This integrated experience enables engaging stakeholders in the development process in order to effectively capture and validate requirements. With the Mendix Developer Portal, the Mendix mobile app, and the notifications system, the Mendix Platform provides stakeholders a unified interface for all of your ongoing development activity and enables you to actively take part in that process.
 
-## 4 How Can I Manage My Team's Backlog? {#backlog}
+## 2 How Can I Manage My Team's Backlog? {#backlog}
 
 In the Mendix Developer Portal, each development team can find their user story backlog in the project space for their app. There, the team can review user stories, prioritize them, and schedule them for sprints.
 
@@ -46,7 +46,7 @@ User stories can be labeled with, for example, the epics under which the stories
 
 {{% todo %}}[**Screenshot of Stories page with several stories categorized into 2-3 epics through the use of colored labels**]{{% /todo %}}
 
-## 5 How Can I Integrate Mendix with Third-Party Project Management Tooling? {#tooling}
+## 3 How Can I Integrate Mendix with Third-Party Project Management Tooling? {#tooling}
 
 Mendix provides full-featured requirements-and-feedback management out of the box. The Mendix Platform provides a complete feature set for many use cases. For requirements capture, feedback collection, and social collaboration, the platform provides development teams with the tools they need to quickly get started and deliver successful apps.
 
@@ -58,15 +58,18 @@ If you are working on a large with many teams and you find the Mendix Platform d
 
 Mendix recommends that teams starting with Mendix for the first time leverage all the functionality available as part of the platform in order to bring your first application into production in the least possible time, without dependencies on external tools and services. The next step can be to integrate with a third-party project management tool or service of choice, but this is not necessary for the successful delivery of your first app.
 
-## 7 Reporting & Dashboards
+## 4 Reporting & Dashboards
 
-## 8 Release Management
+{{% todo %}}[**Needs content**]{{% /todo %}}
 
-**[Add content: Notifications to stakeholders when sprint is closed & release is done]**
+## 5 Release Management
+
+{{% todo %}}[**Add content: Notifications to stakeholders when sprint is closed & release is done**]{{% /todo %}}
 
 ## 9 Traceability & Auditability
 
-# Content
+{{% todo %}}[**Needs content**]{{% /todo %}}
+
 * Requirements definitition in user stories
 * Prioritization
 * Planning in sprints

@@ -6,7 +6,7 @@ bg: "security"
 tags: [""]
 ---
 
-## 1 What Kind of Security Controls are Available in the Mendix Cloud?
+## 1 What Kind of Security Controls Are Available in the Mendix Cloud?
 
 Security controls for the Mendix Cloud include various levels of encryption, TLS, access restrictions, and node settings and permissions. The sections below describe these security controls in detail.
 
@@ -58,7 +58,7 @@ The Technical Contact receives the following alerts from the cloud node:
   * For example, CPU load is high, running out of disk space
   * The Technical Contact cannot turn these alerts off
 
-#### 1.5.2 Who Is the First Point of Contact for Incidents and Changes to the App?
+#### 1.5.2 Who Is the First Point of Contact for Incidents & Changes to the App?
 
 The Technical Contact is the first point of contact from Mendix Support about the application. The Technical Contact can submit requests for the cloud node with the following request types:
 * Incidents – for example, when the app is down
@@ -106,7 +106,7 @@ The Mendix Cloud has multiple mitigations for disasters, including high availabi
 
 Disaster recovery tests are performed quarterly on the Mendix Platform. These tests are reported in our ISAE 3402 Type II report, SOC 1 Type II report, and ISO/IEC 27001:2013 certification.
 
-### 2.2 Does the Mendix Cloud Offers High Availability and Auto-Recovery?
+### 2.2 Does the Mendix Cloud Offers High Availability & Auto-Recovery?
 
 The Mendix Cloud offers high availability for all app environments, ensuring zero downtime in the case of a Mendix Runtime outage. Users are able to scale Mendix app environments using the Cloud Portal. Furthermore, the Mendix Cloud enables auto-recovery and failover within the same availability zone.
 
@@ -118,7 +118,7 @@ Mendix offers encryption for data at rest and in transit for app environments ou
 
 For details on routing and network encryption, refer to section [3.1 How Is Data in Transit Secured?](#data-in-transit) above.
 
-## 4 What Kind of Logging and Audit Trails Are Provided in the Mendix Cloud?
+## 4 What Kind of Logging & Audit Trails Are Provided in the Mendix Cloud?
 
 Mendix applies extensive logging of the whole application lifecycle. Logging is done not only on actions performed by the Mendix Runtime, but also on activities during the design, development, and deployment of an application. Accordingly, there is a full audit trail of all the relevant activities in an app, as well as who executed them and when they were executed.
 

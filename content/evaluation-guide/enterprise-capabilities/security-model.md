@@ -12,7 +12,7 @@ Out of the box, Mendix provides role-based user access to applications built wit
 
 Mendix application security is defined according to the parameters described below.
 
-### 1.1 How Is App-Level Security & App Model Consistency Defined in Mendix?
+### 1.1 How Are App-Level Security & App Model Consistency Defined in Mendix?
 
 The Mendix Platform supports configurable integrity checks for security on all the relevant aspects of applications deployed on the platform. Mendix checks the consistency of the security settings as well. For example, a person who is allowed to see a certain UI element that lists data from a table must also be authorized to view the data associated with that UI element.
 

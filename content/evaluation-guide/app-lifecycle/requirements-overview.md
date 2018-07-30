@@ -8,9 +8,9 @@ tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 
 ## 1 How Is Requirements Management Positioned in Mendix?
 
-Requirements management is critical in every phase of the application development lifecycle.
-
 Requirements management is a critical part of the application development lifecycle. Mendix helps to shorten the feedback loop between development teams and users as well as all other stakeholders in order to drive project success, lower costs, and decrease time-to-market.
+
+## 2 How Does Mendix Support Agile Development Teams?
 
 Mendix enables development teams to adopt an Agile approach based on Scrum in which they collaborate closely with internal and external stakeholders in short iterative development cycles. The Mendix Platform supports this way of working out of the box through the following key functionalities:
 

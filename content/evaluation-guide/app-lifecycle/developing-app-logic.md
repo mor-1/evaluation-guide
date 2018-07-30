@@ -24,7 +24,7 @@ The following table presents the differences between nanoflows and microflows al
 | Execution of actions in the client (for example, close page) | Directly                 | After microflow is executed                                |
 
 
-## 2 How Can I Make Sure the Logic Fits the Business Needs?
+## 2 How Can I Make Sure the Logic Fits My Business Needs?
 
 Mendix is all about the collaboration between business and IT. And because of the visual nature of microflows and nanoflows, they provide business-minded users insight into how the application is designed. Therefore, business and IT team members can have the necessary discussions about what the logic should do.
 

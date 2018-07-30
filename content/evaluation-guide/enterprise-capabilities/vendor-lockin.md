@@ -24,11 +24,11 @@ By using the [Mendix SDK](https://developers.mendix.com/sdk/), you can programma
 
 ![](attachments/platform-openness-web-chart-1.png)
 
-## 2 Are There Other Project Resources I Can Reuse?
+## 2 What Other Project Resources Can I Reuse?
 
 Next to the application model, Mendix app projects consist of a number of other resources. These resources use technologies like HTML5, CSS, Sass, Bootstrap, and Java. The main goal of using these resources is to allow you to extend the platform as required, (for example, by implementing custom microflow activities). Because these resources are based on commonly accepted modern technologies, they can be used by most developers. For example, they can be used as documentation when moving to another platform or as code to be included in a new solution.
 
-## 3 What About the Data?
+## 3 How Do I Maintain My Data?
 
 The data is the most valuable part of your application projects. You can always export your data, and there are different ways to do this. In the Mendix Cloud, you can download a backup of all the data in your app, including all the files that form the app. This means you can store the files somewhere else, or you can create a new database with your data. You can then convert the data to other databases or file formats.
 

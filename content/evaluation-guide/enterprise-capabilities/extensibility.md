@@ -6,11 +6,11 @@ bg: "openness"
 tags: [""]
 ---
 
-## 1. How Can I Extend the Functionality of the Mendix Platform? {#extend-functionality}
+## 1 How Can I Extend the Functionality of the Mendix Platform? {#extend-functionality}
 
 The Mendix Runtime can be extended in number of different ways. The sections below present details on extending via the Mendix Connector Kit, Java actions, JavaScript widgets, Java request handlers, and data storage.
 
-### 1.1 Java Actions & the Connector Kit {#connector-kit}
+### 1.1 Java Actions & Connector Kit {#connector-kit}
 
 Java actions enable creating reusable microflow activities that you can use in any microflow. You can create Java actions specific for your app, and you can also bundle them in a reusable module so that they can be reused in other projects and by other developers.
 
@@ -40,7 +40,7 @@ For more information on the use of custom Java actions, see this documentation:
 
 {{% youtube MIUGYJnjrqw %}}
 
-### 1.2 JavaScript widgets {#custom-widgets}
+### 1.2 JavaScript Widgets {#custom-widgets}
 
 You can extend the [front-end](../app-capabilities/front-end#4-how-can-i-extend-the-mendix-front-end-extend) of your Mendix applications using custom JavaScript widgets. For mobile apps, these custom JavaScript widgets can include Cordova plugins to provide native functionality in your mobile apps.
 
@@ -103,7 +103,7 @@ Mendix provides seamless integration with a number of tools developers use:
 * Many Mendix developers use IntelliJ IDEA. IntelliJ enables you to import Eclipse projects, so by selecting **Deploy for Eclipse** in the Mendix Modeler, you will also be able to do all your custom Java actions coding in IntelliJ.
 * Widget developers can benefit from the [Widget Generator](https://docs.mendix.com/howto/custom-widget-development/scaffold-a-widget-with-the-yeoman-widget-generator) to quickly scaffold a new Mendix widget. This supports a number of commonly used JavaScript tools, like Yeoman, NodeJS, and Grunt. As this relies on common tools, you can edit your JavaScript widgets using a number of popular JavaScript IDEs, such as Brackets and WebStorm.
 
-## 4 What Open Standards Does Mendix support?
+## 4 What Open Standards Does Mendix Support?
 
 Mendix strongly adopts open standards to support seamless integration of the platform and applications built on the platform as well as to support the exchange of design artifacts.
 

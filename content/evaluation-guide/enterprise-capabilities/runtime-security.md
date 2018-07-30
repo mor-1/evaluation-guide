@@ -6,13 +6,13 @@ bg: "security"
 tags: [""]
 ---
 
-## 1 How Is Security Handled in a Mendix Application?
+## 1 How Is Security Handled in a Mendix App?
 
 Before understanding how security is handled in a Mendix application, it is important to understand the [Mendix Runtime architecture](architecture-principles#runtime).
 
 In a Mendix application, the UI layer is implemented in the Mendix Client as JavaScript libraries running in the browser. For hybrid mobile applications, the UI layer runs in a native Cordova container. The logic and data layers are implemented in the Mendix Runtime (the Mendix Runtime itself is developed in Java and runs on a Java virtual machine).
 
-![Mendix Runtime Architecture](attachments/figure-1-mendix-runtime-architecture.png)
+![](attachments/figure-1-mendix-runtime-architecture.png)
 
 Within the Mendix Client, we implement measures against JavaScript-based security threats such as cross-site scripting. This prevents other websites and web applications running in the same browser from obtaining sensitive information from the Mendix app (for example, cookies).
 
@@ -34,17 +34,17 @@ Data security in Mendix is handled by defining the data access rules on your ent
 
 These rules will be applied anytime your application uses an entity. The rules will be automatically applied to XPath retrieves done in your model. You can define XPath constraints on entities, which means you can define access rules depending on the user role or organization. This can be used to ensure strict data separation in multi-tenant applications.
 
-## 3 How Does My Mendix Application Handle Known Security Threats?
+## 3 How Does My Mendix App Handle Known Security Threats?
 
 To gain full security for a Mendix application, you need to explicitly give access to forms, entities, and microflows before an end-user can access them. By default, no end-user can access anything. To make it easier to create prototypes and demos, there are security levels that require fewer security settings than are needed for a production system.
 
 The Mendix Runtime and the Mendix Client have out-of-the-box security measures that protect your Mendix applications against known security threats (including but not limited to SQL Injection, XSS, CSRF, and broken authentication). These security measures undergo a monthly external penetration testing.
 
-## 4 Does My Mendix Application Comply with the OWASP Top 10?
+## 4 Does My Mendix App Comply with the OWASP Top 10?
 
 The Mendix Runtime protects your application and data according to your model, wherein the Mendix Cloud handles security at the infrastructural level. The Mendix Runtime takes care of most known security threats (OWASP top 10) out of the box, as the functionality where most common security mistakes take place is abstracted away from developers. Mendix has compiled a [few best practices](https://docs.mendix.com/howtogeneral/bestpractices/best-practices-security-and-improvements-for-mendix-applications) to keep your Mendix application safe from attackers.
 
-## 5 How Does My Mendix Application Support Multi-Tenancy?
+## 5 How Does My Mendix App Support Multi-Tenancy?
 
 Mendix offers out-of-the-box support for developing multi-tenant applications. Multi-tenant apps in Mendix share the same database, application logic, and user interface. Application logic can be extended with tenant-specific logic, and the UI can be styled per tenant.
 
@@ -56,11 +56,11 @@ The tenant object is used to do the following:
 
 Tenants can be custom defined in the application as well by using identifiers like division, country, and site.
 
-## 6 Which Identity Management Solutions Can I Use in My Mendix Application?
+## 6 Which Identity Management Solutions Can I Use in My Mendix App?
 
 Mendix offers MxID (which is a user management and provisioning service) as part of Mendix Cloud. MxID is built on the Mendix Platform and thus inherits all security measures from the platform. MxID provides an administration portal for the management of user access and authentication.
 
-## 7 How Are Permissions Assigned with My Application?
+## 7 How Are Permissions Assigned with My App?
 
 Apart from the company profile and settings, Mendix supports the definition of Company Admins who can assign permissions to users following a delegated administration concept. One or more administrators can be identified per tenant who, in turn, can perform administrative tasks in the tenant according to the permissions granted.
 
@@ -68,7 +68,7 @@ Apart from the company profile and settings, Mendix supports the definition of C
 
 Based on policy rules, users are assigned a user role within an application. MxID automatically reads the user roles from the application.
 
-## 9 How Are Users &  Services Authenticated When Accessing My Mendix App?
+## 9 How Are Users & Services Authenticated When Accessing My Mendix App?
 
 The authentication of users and services accessing Mendix apps is handled through MxID by default. MxID applies the OpenID standard.
 
@@ -88,7 +88,7 @@ If a user fails to log in with the correct password three times, the user accoun
 
 An administrator can manually override such a block by resetting the password.
 
-### 9.4 how Does Mendix Authenticate System and Service Interfaces Using Web Services, REST Services, & APIs?
+### 9.4 How Does Mendix Authenticate System & Service Interfaces Using Web Services, REST Services & APIs?
 
 System and service interfaces must also be authenticated in the context of the attached role. The default option for this is through a username and password, but other options like tokens are also possible. Authorization for APIs is derived from the authorizations defined in the application model.
 
@@ -100,6 +100,6 @@ For authentication, Mendix supports the following technical implementations:
 
 These options make it possible to apply identity propagation.
 
-## 10 What Kind of Encryption Is Available in My Mendix Application?
+## 10 What Kind of Encryption Is Available in My Mendix App?
 
 Besides the default encryption at rest and in transit, users are able to implement column encryption or uploaded file encryption. Column and uploaded file encryption are supported out of the box via the [Encryption](https://appstore.home.mendix.com/link/app/1011/) module from the Mendix App Store using AES encryption.

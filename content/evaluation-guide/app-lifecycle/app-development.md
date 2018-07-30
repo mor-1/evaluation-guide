@@ -6,7 +6,7 @@ bg: "developing"
 tags: ["app", "model", "modeler", "team", "test", "debug", "offline", "custom code"]
 ---
 
-## 1 How does Mendix support the different developer profiles? {#developer-profiles}
+## 1 How does Mendix Support the Different Developer Profiles? {#developer-profiles}
 
 The Mendix platform is designed for a variety of app developers. From business oriented developers without any software development skills to very experienced technical oriented developers with extensive software development skills and programming experience.
 
@@ -63,7 +63,7 @@ The Mendix Desktop Modeler has a **Work offline** mode in which you can continue
 
 While working offline, online services like the [Mendix App Store](https://appstore.home.mendix.com/index3.html), Team Server, and and app project stories in the Mendix Developer Portal are temporarily disabled.
 
-### 3.4 How Can I Deploy and Test Locally?
+### 3.4 How Can I Deploy & Test Locally?
 
 Rapid development requires developers to test changes quickly, particularly where UX/UI is concerned. To achieve this, the Mendix Platform provides one-click deployment to the user's local machine. Local deployment works out of the box, no additional installation or configuration required. When deploying locally, a fully functional local working instance of the application with its own local SQL database is started.
 

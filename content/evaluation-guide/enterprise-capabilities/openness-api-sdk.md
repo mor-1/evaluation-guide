@@ -6,7 +6,7 @@ bg: "openness"
 tags: [""]
 ---
 
-## 1 Where Can I Use the Openness and Extensibility Provided by the Mendix Platform? {#where}
+## 1 Where Can I Use the Openness & Extensibility Provided by Mendix? {#where}
 
 There are many use cases that benefit from the openness and extensibility of the Mendix Platform. The next sections present examples grouped into three main categories.
 

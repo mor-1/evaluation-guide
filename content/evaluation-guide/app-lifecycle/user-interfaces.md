@@ -6,7 +6,7 @@ bg: "developing"
 tags: ["user interface", "reusable", "template", "multilingual", "translate"]
 ---
 
-## 1 How Can I Build Pages and Forms in Mendix? {#build-pages}
+## 1 How Can I Build Pages & Forms in Mendix? {#build-pages}
 
 Mendix has a visual page editor in the Modelers that can be used to build both dynamic and static pages (for example, a dashboard page containing a report overview, or a registration form for a mortgage application). An app built in Mendix can support multiple app profile, so you can target multiple device types with device specific app flow and page layouts. While still re-using the underlying app logic and integrations.
 
@@ -24,7 +24,7 @@ The second main method is to use snippets to define groups of widgets that will 
 ![](attachments/create-snippet.png)
 {{% /image_container %}}
 
-## 3 How Can I Provide Company-Branded Templates and Styling to My Projects? {#private-templates-styling}
+## 3 How Can I Provide Company-Branded Templates & Styling to My Projects? {#private-templates-styling}
 
 Mendix provides a rich set of [Atlas UI](https://atlas.mendix.com/) resources out of the box containing a beautiful theme with page templates and building blocks. This makes it very easy to kick-start your first project.
 

@@ -26,7 +26,7 @@ For more information, see [Roles Within the Company and Apps](https://docs.mendi
 
 Two-factor authentication can be enabled within the Mendix Cloud for sensitive activities. It can also be added anywhere within a Mendix application to further secure access to the app or parts of the app.
 
-## 5 What Kind of Logging and Audit Trails Are Provided in the Mendix Platform?
+## 5 What Kind of Logging & Audit Trails Are Provided in Mendix?
 
 The Mendix Platform logs relevant activities during the app delivery cycle, from requirements management and development to deployment and application monitoring. This is to ensure compliance with customer requirements for auditability.
 
@@ -38,6 +38,6 @@ In addition, a leading IT security firm performs penetration tests on the Mendix
 
 For vulnerability management, a program is in place for continuous monitoring of the security posture of the Mendix Platform. Before a release is shipped, the release is scanned by Black Duck and SonarQube.
 
-## 7 What Kind of Encryption Is Provided by the Mendix Platform? {#encryption}
+## 7 What Kind of Encryption Is Provided by Mendix? {#encryption}
 
 The Mendix Platform encrypts data at rest and data in transit out of the box.

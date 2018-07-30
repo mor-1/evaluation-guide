@@ -6,7 +6,7 @@ bg: "devops"
 tags: [""]
 ---
 
-## 1 How Does Mendix Support Staging and Deployment?
+## 1 How Does Mendix Support Staging & Deployment?
 
 Staging and deployment is an essential part of the DevOps process, and having proper governance and control in place allows developers to release new versions of their code rapidly. Building this process can often be complicated, as it requires many moving parts. The Mendix Platform provides integrated tooling to support the staging and deployment of applications, both into the Mendix Cloud but also into other PaaS providers such as SAP Cloud Platform, Pivotal, AWS, Azure, and IBM Bluemix.
 
@@ -60,6 +60,6 @@ To deploy an application into a production environment, users must authenticate 
 
 <video controls src="attachments/DO_GoogleAuthenticator.mp4">Production operations are secured through two-factor authentication</video>
 
-## 6 How Does Mendix Support Staging and Deployment to Other Platforms?
+## 6 How Does Mendix Support Staging & Deployment to Other Platforms?
 
 Besides the Mendix Cloud, Mendix supports deployments on many different platforms, such as SAP Cloud Platform, IBM Cloud, Azure, AWS, VPC, and on-premises scenarios. For details on all the deployment capabilities of the Mendix platform, review the  [Multi-Cloud Overview](../app-capabilities/multi-cloud-overview).

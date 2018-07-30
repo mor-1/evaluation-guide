@@ -57,7 +57,7 @@ For example, a text box in your application not only has a corresponding string 
 
 The implication for testing is that it is not necessary to test whether data committed in a Mendix application actually ends up correctly in the underlying SQL database.
 
-### 2.3 Standard Mendix Components Are Tested by Mendix
+### 2.3 Testing Standard Mendix Components
 
 If you envision Mendix as a toolkit with which you build your own apps, you can rest assured that your tools will work as advertised. Our internal quality assurance team rigorously tests whether standard Mendix components work as intended and continue to do so across platform releases.
 
@@ -65,7 +65,7 @@ For example, a text box connected to a string attribute of a certain maximum len
 
 The implication for testing is the assurance that your testing is scoped towards your own logic, not just validating Mendix components. In this sense, you do not need to test the toolset, only the house you have chosen to build with it.
 
-## 3 What Tools Are Available for Quality-Monitoring Mendix Applications? {#quality-monitoring}
+## 3 What Tools Are Available for Quality-Monitoring Mendix Apps? {#quality-monitoring}
 
 The Mendix [Application Quality Monitor (AQM)](https://docs.mendix.com/aqm/aqm-overview) offers a dashboard that provides instant insight into the quality of the application models you are building. This industry-first cloud service leverages the Mendix metadata-based Model API, performing static analysis of application models by a best-of-breed engine from our integration partner [Software Improvement Group (SIG)](https://www.sig.eu/).
 
@@ -77,7 +77,7 @@ The Mendix [Application Quality Monitor (AQM)](https://docs.mendix.com/aqm/aqm-o
 
 Mendix AQM performs a static analysis of Mendix application models according the ISO 25010 standard for maintainability. By proactively monitoring quality on a daily basis, customers can improve maintainability and reduce lifecycle costs.
 
-## 4 What Is the Mendix Application Quality Rating and ISO Standard for Maintainability?
+## 4 What Is the Mendix App Quality Rating & ISO Standard for Maintainability?
 
 Mendix application models have been mapped by experts from SIG on the ISO 25010 standard for software quality. This service measures key aspects of app maintainability against a set of parameters and rates your application against a database of thousands of projects on a scale of one to five.
 
@@ -87,7 +87,7 @@ Mendix application models have been mapped by experts from SIG on the ISO 25010 
 
 This rating provides a quality indicator for your application model and indicates how much effort and cost can be expected with future changes to the application model. A higher rating means the application model can be changed more easily compared to application models with a lower rating.
 
-## 5 How Can I Unit Test My Mendix Apps? {#unit-test}
+## 5 How Can I Unit-Test My Mendix Apps? {#unit-test}
 
 The Mendix Platform supports the implementation of unit tests. These tests are built using microflows and the [UnitTesting](https://appstore.home.mendix.com/link/app/390/) module available from the Mendix App Store. Tests are run either every time there is a new build of the application or at a scheduled time.
 
@@ -123,7 +123,7 @@ The Mendix Platform provides an open and extensible toolset, which can be extend
 
 ![](attachments/Junite5Selenium.png)
 
-## 8 How Can I Link My User Stories and Test Cases to Model Revisions?
+## 8 How Can I Link My User Stories & Test Cases to Model Revisions?
 
 When committing changes to an application, developers can select the user stories that are covered in that specific revision. This information is then stored with the revision and held in Team Server for future use in audit processes. This helps in the testing process.
 

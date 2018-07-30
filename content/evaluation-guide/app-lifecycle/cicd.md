@@ -6,7 +6,7 @@ bg: "devops"
 tags: ["continuous integration and delivery", "ci/cd", "automated test", "API", "jenkins", "testing"]
 ---
 
-## 1 How Does Mendix Support Continuous Integration and Delivery (CI/CD)? {#support-cicd}
+## 1 How Does Mendix Support Continuous Integration & Delivery (CI/CD)? {#support-cicd}
 
 Continuous integration and continuous delivery (CI/CD) are supported at both the Mendix Platform level and via the platform APIs. The APIs enable integrating external tools to build a delivery pipeline using products like [Jenkins](https://github.com/mendix/azure-kubernetes-cicd-reference-impl) and [Visual Studio Team Services](https://github.com/mendix/azure-kubernetes-cicd-reference-impl-vsts) coupled with container technologies like Cloud Foundry, Kubernetes, and Docker and quality assurance services like Mendix Application Test Suite (ATS), Mendix Application Quality Monitor (AQM), and Selenium.
 

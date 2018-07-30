@@ -1,5 +1,5 @@
 ---
-title: "Collaboration channels"
+title: "Collaboration Channels"
 parent: "requirements-intro"
 menu_order: 20
 bg: "agile"
@@ -12,15 +12,15 @@ The Mendix Developer Portal is the starting point for the development of Mendix 
 
 Once development is underway, it is crucial to engage stakeholders in the development process. The Mendix Platform provides various channels of engagement for different stakeholders.
 
-### 1.1 Involvement via the Mendix Developer Portal
+### 1.1 How Can Stakeholders Get Involved via the Mendix Developer Portal?
 
 The [Mendix Developer Portal](https://docs.mendix.com/developerportal/) is the central hub for project management and collaboration. This is usually the place where Product Managers, Product Owners, and similar roles spend their time specifying user stories, reviewing feedback, prioritizing the backlog, and providing their input to the development team through the Buzz.
 
-### 1.2 Involvement via the IDE
+### 1.2 How Can Stakeholders Get Involved via the Mendix IDE?
 
 As developer are usually found working with the [Desktop Modeler](app-development#desktop-modeler) or the [Web Modeler](app-development#web-modeler), user stories from the active sprint and Buzz are available in the Modelers as well.
 
-### 1.3 Involvement via the Mendix Mobile App
+### 1.3 How Can Stakeholders Get Involved via the Mendix Mobile App?
 
 The [Mendix mobile app](https://docs.mendix.com/refguide/getting-the-mendix-app) enables development teams to closely collaborate with stakeholders on app development in general and mobile app development in particular.
 
@@ -32,13 +32,13 @@ Anyone collaborating on app development with Mendix—whether you are a develope
 
 {{% todo %}}[**Add  phone wrapper**]{{% /todo %}}
 
-### 1.4 Involvement via Email Notifications
+### 1.4 How Can Stakeholders Get Involved via Email Notifications?
 
 All the users involved in a Mendix application project receive relevant and timely email notifications for Buzz and other updates of interest. This includes responses to submitted feedback items and status changes such as feedback items that are completed.
 
 {{% todo %}}[**Screenshot of email notificaiton for buzz update**]{{% /todo %}}
 
-### 1.5 The Central Buzz
+### 1.5 How Can Stakeholders Get Involved via the Central Buzz?
 
 All of the above channels are bundled together through the central Buzz in the Developer Portal. This is where you can post messages from the context of your project activity. For example, user stories and feedback items each have their own Buzz thread. All the updates posted are visible in the Developer Portal and the Mendix mobile app in a central Buzz stream.
 

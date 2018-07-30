@@ -78,7 +78,3 @@ You can even test changes locally without the need of an internet connection usi
 Most Mendix Platform features are browser-based, including the Web Modeler. These features are available on Windows, MacOS, and Linux.
 
 The Desktop Modeler is a Windows-based application, which can also be run in a virtual machine like Parallels on MacOS.
-
-## 4 How Does Mendix Support Coding IDEs? (Eclipse, Brackets)
-
-{{% todo %}}[**Still want this question for v1, or a PRIO2**]{{% /todo %}}

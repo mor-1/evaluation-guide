@@ -14,7 +14,11 @@ The Mendix vision is to enable a whole range of people with different background
 * Mendix enables professional developers by giving them low-level control, extensibility using programming languages like Java and JavaScript, integration capabilities, debugging capabilities and a completely open meta-model as well as the APIs to interact with any part of the Mendix Platform, including the models. 
 * Mendix enables IT departments to manage their application landscapes and to provide guardrails for business domain experts to build apps
 
-The Mendix Platform makes this vision a reality. There are three core principles of the Mendix Platform underlying every single platform feature:
+The Mendix Platform makes this vision a reality. 
+
+## 2 What Are the Mendix Core Principles?
+
+There are three core principles of the Mendix Platform underlying every single platform feature:
 
 {{% todo %}}[**Add diagrams for 3 core principles [prio2]**]{{% /todo %}}
 

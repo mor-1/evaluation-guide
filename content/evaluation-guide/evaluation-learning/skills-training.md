@@ -6,9 +6,7 @@ bg: "learning"
 tags: [""]
 ---
 
-## 1 What Type of Users Can Build Apps with Mendix?
-
-{{% todo %}}[**Leon, maybe this question should be moved to 16.1 Getting Started with Mendix ?**]{{% /todo %}}
+## 1 What Types of Users Can Build Apps with Mendix?
 
 With Mendix, anyone with an idea can build an app. It does not matter whether you are a citizen developer, business analyst, or seasoned professional developer – Mendix provides a wealth of resources for you to get started on the platform right away.
 

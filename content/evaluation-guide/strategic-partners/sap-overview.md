@@ -40,7 +40,6 @@ Mendix extensions are full stack, they include both data, logic and UI. This mak
 
 ![](attachments/sap-future-proof-extentions.png)
 
-
 ## 3 How Can I See the Road Map of SAP Cloud Platform Rapid Application Development by Mendix?
 
 As part of its Solution Extension partnership, Mendix has a shared road map with SAP. This road map is published online and is publicly available as long as you have an SAP ID.

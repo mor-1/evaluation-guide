@@ -16,7 +16,7 @@ Data security in Mendix is handled by defining the data access rules on your ent
 
 These rules will be applied anytime your application uses an entity. The rules will be automatically applied to XPath retrieves done in your model. You can define XPath constraints on entities, which means you can define access rules depending on the user role or organization. This can be used to ensure strict data separation in multi-tenant applications.
 
-For more details, see [Application Security](../enterprise-capabilities/application-security).
+For more details, see [Security Model](../enterprise-capabilities/security-model).
 
 ## 2 How Can I Encrypt My Data?
 

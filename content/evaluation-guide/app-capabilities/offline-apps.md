@@ -14,7 +14,7 @@ Mendix offers all the functionality to build rich offline mobile apps that alway
 
 Mendix offline mobile apps do not use a network connection except for synchronizing and updating. This increases the reliability and performance of the apps.
 
-### 2 How Do Mendix Offline Apps Work?
+## 2 How Do Mendix Offline Apps Work?
 
 Mendix makes it easy to add offline capabilities to an existing model, allowing for the reuse of UI components, logic, and domain models. Offline capabilities are exposed as a separate channel that can be enabled by adding an offline navigation profile.  For more information, see the section [How Does Mendix Support Multi-Channel Applications?](front-end#support-multi-channel) in *Front-End*.
 
@@ -28,11 +28,11 @@ Data is stored in a local SQLite database, which is only accessible by the app. 
 
 The synchronization of data can be triggered manually via buttons, gestures, or the saving of data. If an error occurs while synchronizing, the app tries to sync the data again later. For more information about offline mobile apps, see [Offline](https://docs.mendix.com/refguide/offline) in the Mendix Reference Guide.
 
-### 3 What Data Is Stored on the Device? {#what-data-is-stored-on-the-device}
+## 3 What Data Is Stored on the Device? {#what-data-is-stored-on-the-device}
 
 Mendix knows what data should be available offline based on automatic analysis of the application model (while respecting access control settings). The result is that the end-user only sees the data they are assigned to and allowed to access. The data to which the user is assigned is synced and can be filtered and controlled on a fine-grained level by assigning it to a specific user in a specific context via microflow logic. All the data and resources are automatically removed when the user logs out.
 
-### 4 How Are Data Conflicts Handled?
+## 4 How Are Data Conflicts Handled?
 
 Mendix supports the standard [conflict resolution](https://appstore.home.mendix.com/link/app/66614/) patterns **first wins** and **last wins** as well as the possibility to trigger a human workflow to handle conflicts. These mechanisms can easily be extended by visually modelling the resolution with microflows.
 

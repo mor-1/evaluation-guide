@@ -5,6 +5,7 @@ menu_order: 10
 bg: "multicloud"
 tags: [""]
 ---
+
 ## 1 What Deployment Options Does Mendix Provide? {#deployment-options}
 
 An application built with Mendix is based on a cloud-native design and conforms to 12-factor principles. The Mendix Runtime is fully optimized to run in a container technology that is compatible with most modern cloud platform offerings like Kubernetes and Cloud Foundry. Mendix apps are thus able to utilize benefits of these cloud platforms such as auto-scaling, auto-provisioning, auto-healing, low infra-overhead, CI/CD support, and cloud interoperability. For more information on these Mendix architecture principles, see [Architecture Principles](../enterprise-capabilities/architecture-principles).

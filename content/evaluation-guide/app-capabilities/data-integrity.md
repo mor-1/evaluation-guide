@@ -15,13 +15,12 @@ Mendix supports different methods to ensure the integrity of your application da
 * Access rules – ensure only authorized users can access or modify data
 * Referential integrity – ensure data is stored with the required associated data
 
-{{% todo %}}[**Turn all below first-level headings into questions**]{{% /todo %}}
-
-## 2 Data Types
+## 2 What Data Types Can I Use in Mendix?
 
 Data types define what sort of data can be stored in an attribute. The type ensures that, for example, text fields only contain text and numeric fields only contain numbers.
 
 You can use the following types for your attributes:
+
 * **Autonumber** – an automatically generated number
 * **Binary** – binary data
 * **Boolean** – true or false
@@ -41,7 +40,7 @@ You can use the following types for your attributes:
 
 For more details, see the section [Type](https://docs.mendix.com/refguide/attributes#type-1) in *Attributes* in the Mendix Reference Guide.
 
-## 3 Validation Rules
+## 3 What Validation Rules Can I Use in Mendix?
 
 Validation rules specify the rules to which your data should adhere. If your data does not follow the rules specified, you will receive an error when you try to save the data.
 
@@ -53,9 +52,10 @@ Validation rules specify the rules to which your data should adhere. If your dat
 
 Depending on the rule type, this will be handled by the Mendix Runtime or by the database.
 
-## 4 Event Handlers
+## 4 How Do I Use Event Handlers in Mendix?
 
 Event handlers give you the ability to run logic before or after certain events. There are many use cases for this, such as the following:
+
 * Setting default values on object creation – if you want to initialize a new object (for example, one with non-constant default values), you can use a before-create event
 * Keeping an audit trail – sometimes keeping a trail of all the changes made to data is required, and after-events enable you to do this by storing any changes into an audit trail object (the [Audittrail](https://appstore.home.mendix.com/link/app/138/) module in the Mendix App Store provides this exact functionality)
 * Validating data changes – before-events can be used to trigger a microflow that validates data changes
@@ -68,11 +68,12 @@ To set event handlers on all the entities in your application, you can use the M
 
 {{% /image_container %}}
 
-## 5 Access Rules
+## 5 How Can I Configure Access Rules?
 
 A major aspect of data integrity relates to who is allowed to change what data. Data authorization is a built-in feature of the Mendix Platform. User roles can be directly tied to what those roles are allowed to do with the end-user's data.
 
 Access right aspects that you can define on entities include the following:
+
 * Who can read or change entities
 * Who can read or change attributes
 * Who can create or delete entities
@@ -85,7 +86,7 @@ You can also use XPath constraints to define so-called row-level security, which
 
 {{% /image_container %}}
 
-## 6 Referential Integrity
+## 6 How Does Referential Integrity Work in Mendix?
 
 Referential integrity is added inside the Modeler using delete behavior properties. Delete behavior defines what should happen to the associated object when an object is deleted. The following options can be configured for each end of the association.
 

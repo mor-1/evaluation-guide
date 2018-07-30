@@ -10,13 +10,13 @@ tags: [""]
 
 Mendix has a partnership with SAP of the **Solution Extension** type. This means that SAP has fully adopted the Mendix Platform as their rapid application development platform to extend the SAP Business Suite, SAP S/4 Hana, SuccessFactors, and other SAP solutions.
 
-![Mendix Cloud Selection](attachments/sapsolutionextention.png)
+![](attachments/sapsolutionextention.png)
 
 As part of this partnership, the Mendix Development Portal is fully integrated with the SAP Cloud Platform to deliver a one-click deployment functionality similar to the Mendix Cloud.
 
 For more information, see [SAP Cloud Platform Rapid App Development by Mendix](https://cloudplatform.sap.com/dmp/capabilities/us/product/SAP-Cloud-Platform-Rapid-Application-Development-by-Mendix/b9ec34b2-9343-46a9-9ed4-030997a40eb1).
 
-![Mendix Cloud Selection](attachments/sapradbymendix.png)
+![](attachments/sapradbymendix.png)
 
 ### 1.1 How Does Mendix Run on SAP Cloud Platform?
 
@@ -28,7 +28,7 @@ Based on the cloud-native architecture of the Mendix application as well as the 
 
 ![](attachments/runningonsapcloud.png)
 
-### 1.2 How Is the Mendix Development Portal Integrated with the SAP Cloud Platform?
+### 1.2 How Is the Mendix Development Portal Integrated with SAP Cloud Platform?
 
 The deployment of a Mendix application to the SAP Cloud Platform is fully integrated in the application lifecycle of Mendix.
 
@@ -48,11 +48,11 @@ This video presents how you can create an environment;
 
 <video controls src="attachments/CreateAnEnvironment.mp4">VIDEO</video>
 
-### 1.3 How Can I Run in High Availability Mode on the SAP Cloud Platform?
+### 1.3 How Can I Run in High Availability Mode on SAP Cloud Platform?
 
 You can run a Mendix application in high availability on the SAP Cloud Platform via the scaling option. By creating more than one instance of your application, your application will automatically start running in high availability.
 
-### 1.4 Does Mendix Have Auto-Scaling Support on the SAP Cloud Platform?
+### 1.4 Does Mendix Have Auto-Scaling Support on SAP Cloud Platform?
 
 The SAP Cloud Platform has a service that provides auto-scaling capabilities. It has two methods to auto-scale an application:
 
@@ -61,19 +61,19 @@ The SAP Cloud Platform has a service that provides auto-scaling capabilities. It
 
 A Mendix application has full support to work with this service in order to optimize resource utilization and performance reliability.
 
-### 1.5 How Can I Use the SAP Cloud Platform's Authentication and Authorization Service to Enable SSO for My Mendix Application?
+### 1.5 How Can I Use SAP Cloud Platform's Authentication & Authorization Service to Enable SSO for My Mendix App?
 
 Within the SAP Cloud Platform, it is possible to connect your own identity provider (IDP) for managing the user authentication and authorization of your applications running on the SAP Cloud Platform. A Mendix application supports this service out of the box. During deployment of the Mendix app, the authentication and authorization service (SAP XSUAA Connector) is automatically bound to the app. The Mendix app will use this service to provide an SSO experience with your IDP.
 
 For more details, see [How to Use the SAP XSUAA Connector](https://docs.mendix.com/howto/sap/use-sap-xsuaa-connector) in the Mendix documentation.
 
-### 1.6 How Do I Connect My Mendix Application with My On-Premises SAP System When Running on the SAP Cloud Platform?
+### 1.6 How Do I Connect My Mendix App with My On-Premises SAP System When Running on SAP Cloud Platform?
 
 To extend your on-premises SAP system, a secure connection is required between the SAP Cloud Platform and your premises. This is done via the SAP Cloud Connector, which is installed on your premises in order to create a secure tunnel between your premises and the SAP Cloud Platform.
 
 When deploying a Mendix application on the SAP Cloud Platform, the SAP Connectivity service is automatically bound to your app. This service provides the necessary information to the Mendix appfor it to use the tunnel and connect to your on-premises system.
 
-### 1.7 How Can I Set Up Principle Propagation Between My Mendix Application and the SAP Back-End?
+### 1.7 How Can I Set Up Principle Propagation Between My Mendix App & the SAP Back-End?
 
 The SAP Cloud Connector must be configured for principle propagation with the back-end system, which is a standard operation within the SAP Cloud Connector. For the developer of the Mendix app, no effort is required.
 

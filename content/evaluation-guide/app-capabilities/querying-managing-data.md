@@ -63,7 +63,7 @@ While OData is a broad standard that provides both query and manipulation operat
 
 For more information on the use of OData with Mendix, see the [Turn Data into Insight with Mendix OData Support](https://www.mendix.com/blog/mendix-odata-support/) and [Using R to Gain Insight from the Data in Your Mendix Applications](https://www.mendix.com/blog/using-r-to-gain-insight-from-the-data-in-your-mendix-applications/) blog posts.
 
-## 2 How Can I Optimize My Queries in the Mendix Platform?
+## 2 How Can I Optimize My Queries?
 
 The Mendix Platform provides a lot of optimization out of the box. For example, when retrieving data for your pages through XPath, Mendix will automatically retrieve all the related information used on the page in one go. A concept called schemas is used for this. A schema tells the data retrieval component to not only retrieve a specific set of objects from the database, but to include specific associated entities in the result as well.
 
@@ -105,7 +105,7 @@ For more information, see [How to Migrate Your Mendix Database](https://docs.men
 
 For details on using an existing SQL database in Mendix, see the section [How Does Mendix Support Direct Access to an External SQL Database?](importing-data#external-sql) in *External Data*.
 
-## 5 What APIs does Mendix offer to extend Data Storage behavior?
+## 5 What APIs Does Mendix Offer to Extend Data Storage Behavior?
 
 The Mendix runtime provides Java APIs that enable extending the data storage behavior. Mendix ensures that anybody on your team can use these extensions by enabling you to provide them through normal microflow activities. For more info on this extensibility feature of Mendix, see the section [What Kind of APIs Does Mendix Expose?](../enterprise-capabilities/openness-api-sdk#apis) in *Openness (API & SDK)*.
 

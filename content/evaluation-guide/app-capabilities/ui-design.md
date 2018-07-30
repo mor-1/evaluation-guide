@@ -75,7 +75,7 @@ New widgets are being built all the time by both our core Mendix development tea
 
 ![](attachments/appstore.png)
 
-## 3 How Can I Customize the Look and Feel of My Apps? {#customize}
+## 3 How Can I Customize the Look & Feel of My Apps? {#customize}
 
 The Mendix front-end uses the [Atlas UI](https://atlas.mendix.com) framework to render responsive pages. The framework is based on a default theme that be fully customized. With the **Theme Customizer** tool, you can easily upload a logo that is used to determine your brand's colors. The various colors, fonts, and size settings can be quickly configured and previewed.
 
@@ -91,7 +91,7 @@ For more information, see the collection of [Atlas UI](https://docs.mendix.com/h
 
 Mendix apps are based on a theme that can be published to your private App Store or embedded in a company starter app for easy reuse across apps. For every app, it is possible to extend the default theme so that you can fine tune the app according to your needs.
 
-## 5 How Does Mendix Support the Reuse of Design Patterns and Elements?
+## 5 How Does Mendix Support Reuse of Design Patterns & Elements?
 
 Atlas UI promotes the reuse of elements and layouts by facilitating a layered and componentized approach to application design. What is more, Atlas UI enables your UX Designers to extend out-of-the-box components, assemble their own building blocks, create custom widgets, and override default design properties. New and enhanced design elements are automatically propagated throughout all the applications in which each element is used.
 
@@ -105,7 +105,7 @@ This video demonstrates how to use a snippet call widget in your app project:
 
 <video controls src="attachments/Snippet.mp4">VIDEO</video>
 
-### 5.2 Layouts, Navigation, and Page Templates
+### 5.2 Layouts, Navigation, & Page Templates
 
 Layouts are wireframe page designs that combine widgets, navigation placeholders, and branding into a centralized repository of reusable components. Layouts can be designed to support specific form factors in order to create a common user experience across devices. Once created, the layouts are applied to application pages at design time.
 

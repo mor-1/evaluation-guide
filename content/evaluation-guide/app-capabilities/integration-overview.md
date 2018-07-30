@@ -6,11 +6,13 @@ bg: "integration"
 tags: [""]
 ---
 
-## How Can I Integrate with Mendix? {#integrate-with}
+## 1 How Can I Integrate with Mendix? {#integrate-with}
 
 Integration has always been an important part of application development, but the topic has not received much attention in the marketplace for developing apps until now. The maturation in cloud-native and as-a-service software options has increased the need for APIs that connect disparate applications together to exchange data, trigger events, and orchestrate workflow processes.
 
 At Mendix, we have made investments in the platform to make it easy to connect applications and services with each other in a variety of ways, most recently with REST. And while REST has become a standard for building APIs and web-services for applications to talk, it’s important to recognize that other web service protocols, standardized frameworks, and APIs remain valid options, depending on the problem you are trying to solve.
+
+## 2 What Tools Can I Use for Integrating with Mendix?
 
 Mendix offers you an extensive array of tools to handle integrations:
 
@@ -24,11 +26,8 @@ Mendix offers you an extensive array of tools to handle integrations:
 * **OData** – publish data in your application in a standardized REST format for easy use in business analytics tooling
 * **Connectors** – implement purpose-built connector modules that provide easy-to-use microflow activities integrated with third-party services
   * Examples include SAP, Kafka, Redis, and third-party services like Slack, Twitter, and Salesforce
-<<<<<<< HEAD
 * **Connector Kit** – the Mendix Connector Kit enables adding any custom integration using Java to Mendix in an easy, generic, and reusable way
 * **Database integration** – 
 
 {{% todo %}}[Need content for last point]{{% /todo %}}
-=======
-* Connector Kit – the Mendix Connector Kit enables adding any custom integration using Java to Mendix in an easy, generic, and reusable way
->>>>>>> e1863a6e11f4be1eaf2583fdd5f4d3d2e4277825
+

@@ -74,11 +74,11 @@ Next, you will be able to specify which attributes you want to expose. You can a
 
 You can now open the exposed entity directly in a tool like Microsoft Excel or PowerBI and always have up-to-date information from your Mendix application.
 
-## 5 How Can I Implement a Custom HTTP Protocol in Mendix?
+## 4 How Can I Implement a Custom HTTP Protocol in Mendix?
 
 Mendix provides a Java API to define [custom request handlers](https://www.mendix.com/blog/requesthandlers-at-your-service/), which enables defining a completely custom way to handle HTTP endpoint calls. This can be useful for scenarios such as the bulk import or export of data or for implementing a custom authentication handler. Custom request handlers are also used by the [DeepLink](https://appstore.home.mendix.com/link/app/43/Mendix/Deep-link-module) module to provide deeplinks into pages that need custom microflow logic before a page can be displayed. Another use case is the [PublicImagePath](https://appstore.home.mendix.com/link/app/54112/) module, which provides direct URLs to image entities in your application, including support for caching in CDNs.
 
-## 6 How Does Mendix Support Swagger and OpenAPI?
+## 5 How Does Mendix Support Swagger and OpenAPI?
 
 Every REST API you implement with Mendix will automatically include an OpenAPI document, describing all the resources and methods provided by your API. If you include documentation and example values in your message definition, these will also be included in your OpenAPI documentation. This will make it very easy for your users to start using your API.
 
@@ -86,7 +86,7 @@ Every REST API you implement with Mendix will automatically include an OpenAPI d
 ![](attachments/swagger-documentation.png)
 {{% /image_container %}}
 
-## 7 How Can I Use Certificates to Secure My Integrations?
+## 6 How Can I Use Certificates to Secure My Integrations?
 
 Mendix enables using certificates for incoming and outgoing communication in the following ways:
 

@@ -69,17 +69,11 @@ During development with the Desktop Modeler, you can run your application locall
 
 <video controls  src="attachments/run-locally.mp4">VIDEO</video>
 
-{{% todo %}}**[David TODO: We should extend this video with an example of instant refresh of the model]**{{% /todo %}}
-
 From both the Desktop Modeler and Web Modeler, you can easily publish your app directly in the Mendix Cloud with a single click. This immediately makes the app available as a Free App for up to 10 users, either for development or production use.
 
 <video controls  src="attachments/MA_SandboxDeployment.mp4">VIDEO</video>
 
-{{% todo %}}**[David TODO: I think it is a good idea to show one video with side-by-side WM & DM publish/run & preview in browser, showing that both can do 1-click publishing]**{{% /todo %}}
-
 Once the development team is satisfied with the version of the app that is running in development, the Mendix Developer Portal allows users to quickly stage the app to the test and acceptance environments before it is finally released to the production environment.
-
-{{% todo %}}**[David: TODO: Deployment Operations in the Mendix Developer Portal (currently only for Licensed Apps):  1) Building a Mendix Deployment Package from a Team Server revision: DO_BuildingRevisionFromCloudPortal.mp4 (legacy attachments), 2) Deploying a new Deployment Package to the TEST environment: video (TODO), 3) Staging an app from TEST to PROD: DO_StagingEnvironments.png (legacy attachments) and video]**{{% /todo %}}
 
 Deployment operations can be easily automated by the development team through [platform APIs](https://apidocs.mendix.com/) and with third-party CI/CD tools like Jenkins, GitLab-CI or Visual Studio Team Services.
 

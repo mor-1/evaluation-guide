@@ -28,7 +28,7 @@ With Mendix you can accelarate every step of your app life cycle.
 
 ### 2.1 Ideation & Requirements Management
 
-The first step of the Application Lifecycle Management process is Ideation. The Mendix Developer Portal enables a new approach to solving problems and facilitates [requirements management](../app-lifecycle/agile-requirements-management) of your app development. With capabilities as sprint and story management and integrated feedback management via embedded feedback widgets that enable end-users to provide instant feedback directly within an application. The closed feedback loop enables the development team to quickly resolve queries from the business, facilitating rapid iteration.
+The first step of the Application Lifecycle Management process is Ideation. The Mendix Developer Portal enables a new approach to solving problems and facilitates [requirements management](../app-lifecycle/requirements-management) of your app development. With capabilities as sprint and story management and integrated feedback management via embedded feedback widgets that enable end-users to provide instant feedback directly within an application. The closed feedback loop enables the development team to quickly resolve queries from the business, facilitating rapid iteration.
 
 The value of collaboration is strengthened through the Mendix Platform’s support for Agile reqirements management. Learn about the Agile tools built into Mendix that will help you to manage your projects and teams effectively from day one.
 
@@ -49,4 +49,4 @@ To discover more about all these capabilities, see [Developing in Mendix](app-li
 
 ### 2.4 Deployment & Operations
 
-Mendix provides all the cloud deployment options you need and is fully optimized for compatibility with the latest cloud platforms and technologies. Running and deploying your Mendix app is easy, fast, and flexible. The ability to deploy with one click to any cloud environment or on-premise directly from Mendix's app modeling environment enables developers with any background to bring applications to their users. Read more in the [DevOps Overview](/app-lifecylce/devops-overview) about why cloud technology is at the core of the Mendix Platform.
+Mendix provides all the cloud deployment options you need and is fully optimized for compatibility with the latest cloud platforms and technologies. Running and deploying your Mendix app is easy, fast, and flexible. The ability to deploy with one click to any cloud environment or on-premise directly from Mendix's app modeling environment enables developers with any background to bring applications to their users. Read more in the [DevOps Overview](/app-lifecycle/devops-overview) about why cloud technology is at the core of the Mendix Platform.

@@ -17,18 +17,18 @@ DRAFT: The value of collaboration is strengthened through the Mendix Platform’
 
 {Brief answer}
 
-For details, see [How Does Mendix Support Requirements Management?](agile-overview#requirements-management).
+For details, see [How Does Mendix Support Requirements Management?](requirements-management#requirements-management).
 
 ## How Does Mendix Support Feedback Management?
 
 {Brief answer}
 
-For details, see [How Does Mendix Support Feedback Management?](agile-overview#feedback-management).
+For details, see [How Does Mendix Support Feedback Management?](requirements-management#feedback-management).
 
 ## How Can I Integrate Mendix with Third-Party Project Management Tooling?
 
 {Brief answer}
 
-For details, see [How Can I Integrate Mendix with Third-Party Project Management Tooling?](agile-overview#tooling).
+For details, see [How Can I Integrate Mendix with Third-Party Project Management Tooling?](requirements-management#tooling).
 
 ## Read More

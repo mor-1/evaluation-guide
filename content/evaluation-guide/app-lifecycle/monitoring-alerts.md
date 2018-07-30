@@ -49,9 +49,7 @@ Besides these monitoring features, the Mendix Cloud provides high availability f
 
 When third-party services (like New Relic, Datadog, and AppDynamics) are integrated, development teams can leverage the advanced monitoring capabilities provided by these services to increase the service level of their applications even further.
 
-See the section on the capabilities of the Mendix Cloud for more details on the [features available to development teams for monitoring](../app-capabilities/mendix-cloud#cloud-portal).
-
-For more details, see the section [Which Features Are Available in the Mendix Cloud?](../app-capabilities/mendix-cloud#cloud-portal) in *Mendix Cloud*.
+For more details, see the section [Which Features Are Available in the Mendix Cloud?](../app-capabilities/mendix-cloud-features#cloud-portal) in *Mendix Cloud*.
 
 ## 3 How Do I Monitor My Mendix Apps Running on Premises?
 

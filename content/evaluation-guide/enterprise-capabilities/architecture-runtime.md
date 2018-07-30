@@ -94,7 +94,7 @@ Mobile applications use the same HTML5-, CSS-, and React-based client architectu
 * Offline availability – because the application is installed on the mobile devices (including all required resources and potentially cached data), end-users can use your Mendix app offline, and relevant app data is cached in a SQLite database on your device
 * Support for native functionality – Apache Cordoba enables JavaScript applications to use native device functionality – this enables you to, for example, benefit from all the sensors available in your mobile device, like the camera and microphone
 
-For more details on Mendix mobile device support, see [Mobile Apps](mobile-apps).
+For more details on Mendix mobile device support, see [Mobile Apps](../app-capabilities/mobile-apps).
 
 #### 2.2.2 Web Client
 

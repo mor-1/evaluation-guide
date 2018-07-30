@@ -50,7 +50,7 @@ Furthermore, MxID provides an administration portal for the management of compan
 
 #### 2.6 What Is the Cloud Portal?
 
-The [Cloud Portal](../app-capabilities/8.1-multi-cloud-deployment-overview#cloud-portal) enables you to manage environments and configurations as well as to deploy apps to the cloud with a single click and manage and monitor their performance. The Cloud Portal is the interface to the deployment services layer in the platform. Mendix also offers a Cloud Portal for deploying to [SAP Cloud](../strategic-partners/8.2-deploy-with-partners#running-sap-cloud) and [IBM Cloud](../strategic-partners/8.2-deploy-with-partners#ibm-cloud).
+The [Cloud Portal](../app-capabilities/mendix-cloud-features#cloud-portal) enables you to manage environments and configurations as well as to deploy apps to the cloud with a single click and manage and monitor their performance. The Cloud Portal is the interface to the deployment services layer in the platform. Mendix also offers a Cloud Portal for deploying to [SAP Cloud](../app-capabilities/strategic-partner-cloud#running-sap-cloud) and [IBM Cloud](../app-capabilities/strategic-partner-cloud#ibm-cloud).
 
 #### 2.7 What Is the Mendix App Store?
 

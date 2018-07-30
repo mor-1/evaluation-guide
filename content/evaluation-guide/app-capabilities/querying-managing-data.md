@@ -49,7 +49,7 @@ For more details, see [OQL](https://docs.mendix.com/refguide/oql) in the Mendix 
 
 ### 1.3 SQL {#sql}
 
-All application data is stored in a relation database. In the [Mendix Cloud](mendix-cloud#mendix-cloud), this is PostgreSQL, but there are other options as well, depending on your deployment environment.
+All application data is stored in a relation database. In the [Mendix Cloud](mendix-cloud-overview), this is PostgreSQL, but there are other options as well, depending on your deployment environment.
 
 Mendix provides Java APIs to directly interact with your underlying relation database. Through the Mendix Java API, you can use Java JDBC to run SQL queries and execute stored procedures. This provides you with a very powerful way of using your data, but it requires an understanding of relational database systems and SQL. You can use database vendor-specific extensions, but this will limit the portability of your application to other databases.
 

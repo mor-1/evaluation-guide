@@ -18,12 +18,12 @@ This table presents an overview of the deployment options for each provider:
 
 | Provider / Deployment | Public Cloud Foundry | Public Managed Kubernetes | Docker Container Services | (Virtual) Service-based | Virtual Private Cloud  | Private Cloud (On-Premises) |
 |-----------------------------|-----|-----|-------|-----|-----------|--------|
-| IBM | &#10004; | &#10004; |  | &#10004; | &#10004; | &#10004; |
-| SAP | &#10004; |  |  |  |  |  |
-| Azure |  | &#10004; | &#10004; | &#10004; | &#10004; | &#10004; |
-| AWS |  |  | &#10004; | &#10004; | &#10004; |  |
-| Openshift |  | &#10004; |  | &#10004; |  | &#10004; |
-| Google |  | &#10004; |  |  | &#10004; |  |
+| IBM | <center>&#10004;</center> | <center>&#10004;</center> |  | <center>&#10004;</center> | <center>&#10004;</center> | <center>&#10004;</center> |
+| SAP | <center>&#10004;</center> |  |  |  |  |  |
+| Azure |  | <center>&#10004;</center> | <center>&#10004;</center> | <center>&#10004;</center> | <center>&#10004;</center> | <center>&#10004;</center> |
+| AWS |  |  | <center>&#10004;</center> | <center>&#10004;</center> | <center>&#10004;</center> |  |
+| Openshift |  | <center>&#10004;</center> |  | <center>&#10004;</center> |  | <center>&#10004;</center> |
+| Google |  | <center>&#10004;</center> |  |  | <center>&#10004;</center> |  |
 
 ## 2 How Does Mendix Provide Support for Cloud Foundry?
 

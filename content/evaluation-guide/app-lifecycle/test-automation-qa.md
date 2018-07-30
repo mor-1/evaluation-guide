@@ -81,10 +81,6 @@ Mendix AQM performs a static analysis of Mendix application models according the
 
 Mendix application models have been mapped by experts from SIG on the ISO 25010 standard for software quality. This service measures key aspects of app maintainability against a set of parameters and rates your application against a database of thousands of projects on a scale of one to five.
 
-{{% todo %}}**[David: Discuss: This image shows properties defined in the ISO 25010 standard but AQM only supports one: maintainability. We should consider changing this image to one where the "System properties" of AQM (see above image) are put front and center.]**{{% /todo %}}
-
-{{% todo %}}**[From Adam: removed link to platform-security-aqm-diagram-1 because of comment above, doesn't seem reasonable to ask UX to update a diagram that will not be used]**{{% /todo %}}
-
 This rating provides a quality indicator for your application model and indicates how much effort and cost can be expected with future changes to the application model. A higher rating means the application model can be changed more easily compared to application models with a lower rating.
 
 ## 5 How Can I Unit-Test My Mendix Apps? {#unit-test}

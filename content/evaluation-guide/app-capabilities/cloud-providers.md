@@ -41,7 +41,9 @@ As the Mendix Cloud is based on Cloud Foundry, a buildpack is available at [http
 
 The container build within Cloud Foundry contains the full runtime setup for running your application. Together with a database service and optionally a storage service, you are able to run your application on Cloud Foundry.
 
+{{% image_container width="400" %}}
 ![](attachments/mendix-container.png)
+{{% /image_container %}}
 
 ### 2.1 How Can I Use the Mendix Cloud Foundry Buildpack in Offline Mode?
 
@@ -73,6 +75,8 @@ To run a Mendix application with high availability on a Kubernetes cluster, the 
 
 If the application needs file storage, this can be attached using a standard storage classed to the StatefullSet or by using cloud services like AWS S3 storage, Azure Blob storage, or IBM Swift storage.
 
+{{% image_container width="500" %}}
 ![](attachments/kubernetes.png)
+{{% /image_container %}}
 
 For more details, see [How to Run Mendix on Kubernetes](https://docs.mendix.com/deployment/docker/run-mendix-on-kubernetes) in the Mendix documentation.

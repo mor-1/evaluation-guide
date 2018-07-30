@@ -53,15 +53,7 @@ See the section on the capabilities of the Mendix Cloud for more details on the 
 
 For more details, see the section [Which Features Are Available in the Mendix Cloud?](../app-capabilities/mendix-cloud#cloud-portal) in *Mendix Cloud*.
 
-## 3 How Do I Monitor My Mendix Apps Running on SAP Cloud Platform or IBM Cloud?
-
-{{% todo %}}**[David: TODO: Andrej/Erno need to review this section & provide further input. What is possible on SAP CP? What is possible on IBM Cloud?]**{{% /todo %}}
-
-SAP Cloud Platform supports [monitoring through JMX interfaces](https://blogs.sap.com/2018/02/17/monitoring-and-tuning-java-applications-deployed-on-scp/).
-
-{{% todo %}}**[David: TODO: Monitoring on IBM Cloud -- Andrej has input]**{{% /todo %}}
-
-## 4 How Do I Monitor My Mendix Apps Running on Premises?
+## 3 How Do I Monitor My Mendix Apps Running on Premises?
 
 Mendix supports integration with third-party monitoring products, both tools and services.
 

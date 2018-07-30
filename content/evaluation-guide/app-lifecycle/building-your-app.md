@@ -12,13 +12,9 @@ Mendix applications are easily built from their models, as they are stored under
 
 With the Mendix Desktop Modeler, you can create a deployment package by simply selecting the option from the menu, and a fully functional deployment package is created on your disk.
 
-{{% todo %}}**[David: TODO: We should add a video here in phase 2: have app model opened in DM, choose 'create deployment archive' from menu, create versioned package, set version, hit 'build' and show deployment archive on disk in explorer]**{{% /todo %}}
-
 For full control, you can leverage the Mendix Developer Portal, which allows DevOps teams to manage model versions in the Team Server and create versioned deployment packages from those model versions. These versioned deployment archives are stored in the Mendix Deployment Package Repository in the Mendix Cloud and can be staged with a few clicks to any environment.
 
 <video controls src="attachments/DO_BuildingRevisionFromCloudPortal.mp4">Create a versioned deployment package from the Mendix Developer Portal</video>
-
-{{% todo %}}**[Note from Adam: why is this video used here and in 4.4? Should just be used once.]**{{% /todo %}}
 
 While building deployment packages, Mendix always executes a full consistency check of the app model before completing the build process successfully. This guarantees that app models are checked for many common issues and the deployment packages do not contain any such errors. For more details, see the section [Consistency Checks](model-consistency#consistency-checks) in *Model Consistency*.
 

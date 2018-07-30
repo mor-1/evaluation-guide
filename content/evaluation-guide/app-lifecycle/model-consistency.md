@@ -24,7 +24,7 @@ All the application models in Mendix are managed in a single environment. Mendix
 
 {{% image_container width="450" %}}
 
-![](attachments/DM-error-list.png)
+![](attachments/error-list.png)
 
 {{% /image_container %}}
 
@@ -64,7 +64,7 @@ In addition to integrated model analysis and consistency checks, the Mendix Desk
 
 The Mendix Platform contains an integrated automated quality governance tool called Application Quality Monitor (AQM). The Mendix AQM offers a dashboard that provides instant insight into the quality of the application models that you are building.
 
-This industry-first cloud service leverages the Mendix metadata-based Model API, performing static analysis of application models by a best-of-breed engine from our integration partner [Software Improvement Group (SIG)](https://www.sig.eu/) against the ISO 25010 industry standard for maintainability.
+This industry-first cloud service leverages the Mendix metadata-based Model API, performing static analysis of application models by a best-of-breed engine from our integration partner [Software Improvement Group (SIG)](https://www.sig.eu/) against the [ISO 25010 industry standard for maintainability](#iso).
 
 {{% image_container width="600" %}}
 
@@ -72,20 +72,14 @@ This industry-first cloud service leverages the Mendix metadata-based Model API,
 
 {{% /image_container %}}
 
-### 4.1 How Can I Reduce Lifecycle Cost?
-
-Mendix helps most in projects where the requirements are not completely defined up front and in projects that have a high rate of change. Often these projects are building innovative apps using agile techniques, short feedback loop and experimentation.  The benefits of having this agility when can turn into a maintenance nightmare in the long run if development teams have insufficient focus on and insight in refactoring and managing technical debt.
-
-![pace layer model](attachments/blog-in-post-pace-payer-model-02.png)
-
-Mendix addresses this challenge by providing a unique cloud service that helps users prevent technical debt. AQM provides you with the proper guardrails to protect against that debt and solidifies Mendix’s promise of speed throughout the entire lifecycle of your applications.
+### 4.1 What Are the Benefits of Automated Quality Monitoring?
 
 There is a strong correlation between the maintainability rating of an application and the effort put forth to handle issues and implement enhancements. Issue resolution time increases exponentially as quality drops. The following charts show that issue resolution times for defects and enhancements get exponentially longer with each level of decrease in source code quality:
 
 ![](attachments/aqm-quality.png)
 *Source for charts above: Bijlsma, Ferreira, Luijten, and Visser: ["Faster Issue Resolution with Higher Technical Quality of Software"](https://www.sig.eu/wp-content/uploads/2016/10/Faster_Issue_Resolution_With_Higher_Technical_Quality_of_Software.pdf). N.d. June 26, 2018.*
 
-### 4.2 What Is the Mendix Application Quality Rating & ISO Standard for Maintainability?
+### 4.2 How Does ISO 25010 (Maintainability) Apply to Mendix? {#iso}
 
 Mendix application models have been mapped by experts from SIG on the ISO 25010 standard for software quality. This service measures key aspects of app maintainability against a set of parameters while benchmarking your application against a database of thousands of projects on a scale of 1–5.
 

@@ -53,8 +53,6 @@ For translation, the Mendix Desktop Modeler provides the following tools:
 * Batch translate – for translating all the labels in your application from the source language to destination language batch-wise (after having translated the individual labels)
 * Language operations – for handling a set of labels in one quick operation (for example, copying all US English labels to UK English labels, whereafter individual labels can be adjusted)
 
-{{% todo %}}[**Create screenshot of the app shown in the video, because texts in this screenshot are random**]{{% /todo %}}
-
 {{% image_container width="500" %}}
 ![](attachments/BatchTranslate-1.png)
 {{% /image_container %}}

@@ -30,7 +30,7 @@ More technical Mendix developers in the community have the following characteris
 
 Mendix provides multiple learning paths to onboard these different type of developers. Section [2 What Are the Mendix Training Options?](#training-options) explains how we tailor the Mendix learning experience to the type of user.
 
-## 2 What Skills Do I Need to Have to Learn Mendix? {#skills-needed}
+## 2 What Skills Do I Need to Learn Mendix? {#skills-needed}
 
 The Mendix community consists of a wide variety of users, all with different educational backgrounds and work experience. To build apps with Mendix, you do not need to have any software development skills.
 

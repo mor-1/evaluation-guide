@@ -6,7 +6,7 @@ bg: "multicloud"
 tags: [""]
 ---
 
-## 1 How Does Mendix Run on SAP Cloud Platform? {#running-sap-cloud}
+## 1 How Does Mendix Run on the SAP Cloud Platform? {#running-sap-cloud}
 
 The SAP Cloud Platform is available in two development environments: SAP Neo and SAP Cloud Foundry (which is their newest option). Mendix is integrated with the SAP Cloud Foundry environment.
 
@@ -16,7 +16,7 @@ Based on the cloud-native architecture of the Mendix application as well as the 
 
 ![](attachments/runningonsapcloud.png)
 
-## 2 How Is the Mendix Development Portal Integrated with SAP Cloud Platform?
+## 2 How Is the Mendix Development Portal Integrated with the SAP Cloud Platform?
 
 The deployment of a Mendix application to the SAP Cloud Platform is fully integrated in the application lifecycle of Mendix.
 
@@ -36,11 +36,11 @@ This video presents how you can create an environment;
 
 <video controls src="attachments/CreateAnEnvironment.mp4">VIDEO</video>
 
-## 3 How Can I Run in High Availability Mode on SAP Cloud Platform?
+## 3 How Can I Run in High Availability Mode on the SAP Cloud Platform?
 
 You can run a Mendix application in high availability on the SAP Cloud Platform via the scaling option. By creating more than one instance of your application, your application will automatically start running in high availability.
 
-## 4 Does Mendix Have Auto-Scaling Support on SAP Cloud Platform?
+## 4 Does Mendix Have Auto-Scaling Support on the SAP Cloud Platform?
 
 The SAP Cloud Platform has a service that provides auto-scaling capabilities. It has two methods to auto-scale an application:
 

@@ -13,6 +13,8 @@ DRAFT: Mendix is a Solution Extension partner for SAP. You can use SAP data in y
 
 ## {Video}
 
+{{% todo %}}[**Can use video of Johan talking about SAP partnership that was already made**]{{% /todo %}}
+
 ## What Type of Partnership Does Mendix Have with SAP?
 
 {Brief answer}

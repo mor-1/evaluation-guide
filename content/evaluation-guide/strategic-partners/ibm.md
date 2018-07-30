@@ -13,6 +13,8 @@ DRAFT: IBM has selected Mendix as the standard low-code development platform to 
 
 ## {Video}
 
+{{% todo %}}[**Can use video of Johan talking about IBM partnership that was already made**]{{% /todo %}}
+
 ## What Type of Partnership Does Mendix Have with IBM?
 
 {Brief answer}

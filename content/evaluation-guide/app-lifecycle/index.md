@@ -8,6 +8,6 @@ Mendix is the only high-productivity application platform (hpaPaaS) for low-code
 
 Read on in the chapters and pages below to discover exactly how Mendix supports the entire application lifecycle.
 
-{{< partial "cards/agile.html" >}}
+{{< partial "cards/requirements.html" >}}
 {{< partial "cards/developing.html" >}}
 {{< partial "cards/devops.html" >}}

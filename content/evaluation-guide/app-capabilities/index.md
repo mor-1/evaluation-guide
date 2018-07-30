@@ -17,4 +17,4 @@ The chapters and pages give a detailed presentation of all the capabilities of M
 {{< partial "cards/ux.html" >}}
 {{< partial "cards/data.html" >}}
 {{< partial "cards/integration.html" >}}
-{{< partial "cards/multicloud.html" >}}
+{{< partial "cards/deployment.html" >}}

@@ -29,28 +29,36 @@ Mendix helps most in projects where the requirements are not completely defined 
 
 The following types of projects are a natural fit for Mendix:
 
-*  **Systems of innovation projects** that are built to create new ways of working
-   *  Often customers do not know exactly what they need, so they need to experiment before and after the app's go-live
-*  **Systems of differentiation projects** that extend on core systems projects
-   *  In this case, customers have an idea of what they would like to have, and it needs to be different from their competitors
-*  **Unique systems of records projects** that modernize legacy systems
-   *  Here, customers typically know exactly what they would like to have and the solution is not available off the shelf, since it is a unique system
+*  **Systems of innovation projects** that are built to create new ways of working – often customers do not know exactly what they need, so they need to experiment before and after the app's go-live
+*  **Systems of differentiation projects** that extend on core systems projects – customers have an idea of what they would like to have, and it needs to be different from their competitors
+*  **Unique systems of records projects** that modernize legacy systems –  customers typically know exactly what they would like to have and the solution is not available off the shelf, since it is a unique system
 
 With fluid requirements and a high rate of change, these types of projects require small cross-functional teams, rapid iteration and releases, and a unified innovation platform like Mendix.
 
+![](attachments/BimodalIT.png)
+
 ## 3 What Are Common Use Cases for Mendix Applications?
 
-Based on the experience of Mendix's hundreds of enterprise customers, there are four common use cases that are perfect fits for developing with a low-code platform like Mendix. These are the four use cases mapped to the Gartner's Pace-Layered Model:
+Based on the experience of Mendix's hundreds of enterprise customers, there are four common use cases that are perfect fits for developing with a low-code platform like Mendix.:
+
+* [Innovation apps](#innovation-apps)
+* [Customer engagement apps](#customer-engagement-apps)
+* [Operational efficiency apps](#operational-efficiency-apps)
+* [Legacy migration apps](#legacy-migration-apps)
+
+These are the four use cases mapped to the Gartner's Pace-Layered Model:
 
 ![](attachments/blog-in-post-pace-payer-model-use-cases-03.png)
 
-The sections below describe these common use cases in more detail.
+The sections below describe these common use cases in detail.
 
-### 3.1 Innovation Applications
+## 4 How Does Mendix Support Innovation Apps? {#innovation-apps}
 
 Innovation applications stem from ideas for new digital business models, products, and channels to help grow and differentiate the organization. Often, they leverage emerging technologies like IoT, AI, and machine learning to unlock new sources of value. Because innovation apps start as ideas (with loose and fuzzy requirements and a high rate of change), they require a high degree of business involvement throughout the entire development process.
 
-This section will highlight some features that enable you to build innovation apps in Mendix along with some examples.
+These are the key features that enable you to build innovation apps in Mendix:
+
+{{% todo %}}[**Cross-reference each key feature**]{{% /todo %}} 
 
 * **The Web Modeler** enables business users to build prototypes that development teams can continue to enhance via the Desktop Modeler
 * **Out-of-the-box [connectors](../app-lifecycle/app-store-reuse#connectors)** simplify integrating with third-party databases or applications, handling complex XML messages, and utilize IoT and cognitive services, which enables developers to leverage emerging technologies and legacy systems with minimal dependencies on IT
@@ -58,11 +66,13 @@ This section will highlight some features that enable you to build innovation ap
 
 Some great examples of innovation apps built with Mendix are AntTail’s [medicine tracking app](https://www.mendix.com/blog/anttail-ensures-quality-medicines-iot/), Solomon Group’s [RFID wristband event access app](https://www.mendix.com/blog/solomon-group-iot-solution/), KLM’s [IoT equipment tracking app](https://www.mendix.com/blog/comes-building-iot-apps-klm-says-just/), and Heijman’s [IoT-based smart building management app](https://www.mendix.com/our-customers/heijmans/).
 
-### 3.2 Customer Engagement Applications
+## 5 How Does Mendix Support Customer Engagement Apps? {#customer-engagement-apps}
 
 Customer engagement applications enable customers and partners to better interact and/or transact with the business, improving satisfaction, retention, and revenue. With these apps, the business has a fairly well-defined idea of the app, but the development team must adapt to issues revealed during the application lifecycle. Customer-facing applications often encounter high expectations from unforgiving users in terms of both usability and seamless, multi-channel access. There are often underlying operational improvements required to support customer-facing processes, and integration with systems of record is required to support the experience layer and existing processes.
 
-This section will highlight some features that enable you to build customer engagement apps in Mendix along with some examples.
+These are the key features that enable you to build customer engagement apps in Mendix:
+
+{{% todo %}}[**Cross-reference each key feature**]{{% /todo %}} 
 
 * **Multichannel apps**, build once for all channels. The [WYSIWYG page editor](../app-lifecycle/user-interfaces#build-pages) and  enable users without front-end development or UI design skills to create beautiful, engaging, and highly usable multi-channel apps
 * **[Atlas UI](../app-capabilities/ui-design#atlas-ui) framework** enables you to build pixel perfect apps, and your company's UI/UX team to create a package containing the organization’s design language for use across development teams, ensuring consistency while broadly leveraging the skills of what could be a small UI/UX team
@@ -70,26 +80,34 @@ This section will highlight some features that enable you to build customer enga
 
 Some examples of customer engagement app built with Mendix are agent/broker portals, customer portals, [self-service policy administration apps](https://www.mendix.com/our-customers/texas-life/), claims management apps, and student service applications for universities.
 
-### 3.3 Operational Efficiency Applications
+## 6 How Does Mendix Support Operational Efficiency Apps? {#operational-efficiency-apps}
 
 Operational efficiency applications are employee- or partner-facing applications designed to lower costs by reducing or automating manual or paper-based processes. These apps may support departmental, cross-departmental, or company-wide processes, and they are often driven by compliance needs, particularly in regulated industries. This type of app almost always integrates with core systems. The closer the app is to the core systems of the business, the more critical the operational robustness becomes.
+
+These are the key features that enable you to build operational efficiency apps in Mendix:
+
+{{% todo %}}[**Cross-reference each key feature**]{{% /todo %}} 
 
 * **The Web Modeler** enables business users to build prototypes that development teams can continue to enhance via the Desktop Modeler
 * **Integration options**, Mendix offers you an extensive array of [tools](../app-capabilities/integration-overview) to handle integrations
 * **The Mendix cloud** enables you to deploy your apps easily and cost effective to the cloud
 
-### 3.4 Legacy Migration Applications
+## 7 How Does Mendix Support Legacy Migration Apps? {#legacy-migration-apps}
 
 Most legacy migration Mendix application projects are business-driven transformation initiatives. That is, rather than a pure lift-and-shift of existing functionality, these new apps are meant to replace legacy apps that cannot support new processes or provide the right user experience. As such, they require new functionality, but they should also support current processes.
 
+These are the key features that enable you to build legacy migration apps in Mendix:
+
+{{% todo %}}[**Cross-reference each key feature**]{{% /todo %}} 
+
 *  **High Availability**, the Mendix Cloud offers high availability for all app environments, ensuring zero downtime in the case of a Mendix Runtime outage
 *  **The Mendix [Application Quality Monitor](../app-lifecycle/model-consistency#aqm)** provides benchmarks into the maintainability of apps based on the ISO 25010 standard, to ensure you don't build tomorrows legacy
-* **Integration options**, Mendix offers you an extensive array of [tools](../app-capabilities/integration-overview) to handle integrations
-* **Data migration tooling** intgrated in the Mendix platform, like visual data mapping, allows you to create the optimal data model for the new solution (with traceability back to systems of record). Not simply recreate the legacy systems’ model
+*  **Integration options**, Mendix offers you an extensive array of [tools](../app-capabilities/integration-overview) to handle integrations
+*  **Data migration tooling** integrated in the Mendix platform, like visual data mapping, allows you to create the optimal data model for the new solution (with traceability back to systems of record), not simply recreate the legacy systems’ model (for more information, see the section [How Can I Migrate Data from My Existing Database?](app-capabilities/querying-managing-data#migrate-from-existing) in *Data Querying & Management*)
 
 Examples of legacy migrations include transferring legacy [Lotus Notes](https://www.mendix.com/blog/how-one-customer-is-using-mendix-for-legacy-application-migration/), Microsoft Access, SharePoint, or Excel applications to an updated system.
 
-## 4 What Should I *Not* Build in Mendix? {#should-not-build}
+## 8 What Should I *Not* Build in Mendix? {#should-not-build}
 
 While there are endless possibilities for what apps can be built with the platform, we at Mendix do have some advice on what you should not build in Mendix.
 

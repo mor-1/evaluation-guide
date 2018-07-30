@@ -53,15 +53,15 @@ The roles in the Center of Excellence can be seen as enablers of multiple core d
 
 ## 4 How Does Mendix Fit into Other App Development Processes?
 
-### 4.1 DevOps
+### 4.1 Agile
+
+The Agile methodology is adopted in the DevOps approach. The Agile methodology changed traditional Waterfall projects from a linear approach to an iterative, team-based approach to software development. This approach emphasizes the rapid delivery of an application in complete functional components per “time-boxed” phases called sprints. Each sprint has a defined duration with a running list of deliverables, planned at the start of the sprint. The Agile approach enables the business to review a minimal viable product (MVP), which is a product with just enough features to satisfy and enable the business to provide feedback for future development.
+
+### 4.2 DevOps
 
 DevOps is a software engineering culture and practice that aims at unifying software development (Dev) and software operation (Ops). The main characteristic of the DevOps movement is to strongly advocate automation and monitoring at all steps of software construction, from integration, testing, releasing to deployment and infrastructure management. DevOps aims at shorter development cycles, increased deployment frequency, and more dependable releases, in close alignment with business objectives. 
 
 Compared to DevOps, the BizDevOps approach knocks down the silos between the DevOps teams (meaning, the development teams and operations staff) and the business teams.
-
-### 4.2 Agile
-
-The Agile methodology is adopted in the DevOps approach. The Agile methodology changed traditional Waterfall projects from a linear approach to an iterative, team-based approach to software development. This approach emphasizes the rapid delivery of an application in complete functional components per “time-boxed” phases called sprints. Each sprint has a defined duration with a running list of deliverables, planned at the start of the sprint. The Agile approach enables the business to review a minimal viable product (MVP), which is a product with just enough features to satisfy and enable the business to provide feedback for future development.
 
 ### 4.3 Traditional App Development
 

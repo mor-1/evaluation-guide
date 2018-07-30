@@ -77,7 +77,7 @@ In addition to these out-of-the-box optimizations, there are a number of steps y
 
 In some cases—especially when you have a large number of objects—it can be helpful to use database-specific indexes. You can create these through the JDBC API, as described above in section [1.3 SQL](#sql).
 
-## 3 How Can I Migrate Data from My Existing Database?
+## 3 How Can I Migrate Data from My Existing Database? {#migrate-from-existing}
 
 You may want to use existing data from old non-Mendix applications in your new Mendix application. If you need a one-time migration into your Mendix app, you have the options described below.
 

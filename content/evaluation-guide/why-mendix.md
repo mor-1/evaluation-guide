@@ -42,8 +42,8 @@ At the same time, Mendix has always realized that you need more than technology 
 
 And thus Mendix came into creation. 
 
-## 6 Why "Mendix"?
+## 6 Why  the Name "Mendix"?
 
-The name *Mendix* is derived from the verb *to mend*, which means to repair anything that is broken, torn, defaced, or the like.
+The name Mendix is derived from the verb *to mend*, which means to repair anything that is broken, torn, defaced, or the like.
 
 We are a company full of people committed to help companies win in a software driven world, by successfully bridging the fundamental gap between business and IT. Mendix is here to mend the app delivery process.

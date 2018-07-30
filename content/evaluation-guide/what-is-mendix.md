@@ -21,15 +21,15 @@ Based on our three core principles of speed, collaboration, and control, Mendix 
 
 With Mendix you can accelarate every step of your app life cycle.
 
-{{% todo %}}[**Add ALM slide/image**]{{% /todo %}} 
+{{% todo %}}[**Add ALM slide/image from Roald**]{{% /todo %}} 
 
-### 2.1 Ideation
+### 2.1 Ideation & Requirements Management
 
-The first step of the Application Lifecycle Management process is Ideation. The Mendix Developer Portal enables a *new approach to solve problems* and facilitates [agile requirements management](../app-lifecycle/agile-requirements-management) of your app development. With capabilities as sprint and story management and integrated feedback management via embedded feedback widgets that enable end-users to provide instant feedback directly within an application. The closed feedback loop enables the development team to quickly resolve queries from the business, facilitating rapid iteration.
+The first step of the Application Lifecycle Management process is Ideation. The Mendix Developer Portal enables a new approach to solving problems and facilitates [requirements management](../app-lifecycle/agile-requirements-management) of your app development. With capabilities as sprint and story management and integrated feedback management via embedded feedback widgets that enable end-users to provide instant feedback directly within an application. The closed feedback loop enables the development team to quickly resolve queries from the business, facilitating rapid iteration.
 
 The value of collaboration is strengthened through the Mendix Platform’s support for Agile reqirements management. Learn about the Agile tools built into Mendix that will help you to manage your projects and teams effectively from day one.
 
-### 2.2 Developing
+### 2.2 Development & Testing
 
 The next step is to develop your application and *convert ideas into app logic*. Mendix uses visual modeling languages for all the aspects of an application and is designed for a variety of users, while providing powerful capabilities to developers for their day-to-day work. 
 
@@ -40,28 +40,10 @@ Developers with a technical programming background can use the Mendix Desktop Mo
 
 With Mendix, development is visual from start till finish, making sure the customer is engaged and requirements are always aligned, right from the get go and throughout the development cycle. To avoid developers getting stuck, Mendix has made sure that any model is extensible: in this way highly specific application features and low-level optimizations can be built without sacrificing the benefits of model driven development.
 
-Read section [Developing in Mendix](app-lifecycle/developing-in-mendix) to discover all these capabilities.
-   
-### 2.3 Testing
+The Mendix Platform provides development teams with an extensive toolset with extension points to set up effective quality assurance with efficient test automation. The platform contains an integrated automated quality governance tool called Application Quality Monitor (AQM), which monitors the quality during operation. AQM offers a dashboard that provides instant insight into the quality of the application models that you are building and provides insight on the right granularity of apps and microservices. 
 
-The Mendix Platform provides development teams with an extensive toolset with extension points to set up effective quality assurance with efficient test automation. In the section [Test Automation & Quality Assurance](/app-lifecycle/test-automation-qa), you will learn more about capabilities how Mendix *automatically checks for consistency* to prevent technical errors in the application with real-time error checking, visual debugging, Automated Testing and CI/CD.
+To discover more about all these capabilities, see [Developing in Mendix](app-lifecycle/developing-in-mendix).
 
-The Mendix Platform contains an integrated automated quality governance tool called Application Quality Monitor (AQM), which *monitors the quality during operation*. AQM offers a dashboard that provides instant insight into the quality of the application models that you are building and provides insight on the right granularity of apps and microservices. 
+### 2.4 Deployment & Operations
 
-### 2.4 Deploying
-
-Mendix provides all the cloud deployment options you need and is fully optimized for compatibility with the latest cloud platforms and technologies. Running and deploying your Mendix app is easy, fast, and flexible. The ability to deploy with one click *to any cloud environment or on-premise* directly from Mendix's app modeling environment enables developers with any background to bring applications to their users. Read more in the [Deplopyment](/app-capabilities/deployment) section about why cloud technology is at the core of the Mendix Platform.
-
-### 2.5 Controling
-
-With Mendix, security, performance, scalability, and governance are built in. This means that the business can be enabled while IT stays in control.
-
-{{% todo %}}[**ADAM: do you know where we can link to from this section?**]{{% /todo %}} 
-		
-## 3 Who Uses Mendix?
-
-Mendix helps the world's largest organizations create innovative applications at speed and scale. Explore some of our [customer success stories](https://www.mendix.com/our-customers/).
-
-There are more than 60,000 Mendix community members ready to help you. Visit the [Mendix Community site](https://developers.mendix.com/) to explore content, ask questions, and enroll at the Mendix Academy.
-
-{{% todo %}}[**Write new section [PRIO2]: 3 How Does Visual Modeling Work?**]{{% /todo %}}
+Mendix provides all the cloud deployment options you need and is fully optimized for compatibility with the latest cloud platforms and technologies. Running and deploying your Mendix app is easy, fast, and flexible. The ability to deploy with one click *to any cloud environment or on-premise* directly from Mendix's app modeling environment enables developers with any background to bring applications to their users. Read more in the [DevOps Overview](/app-lifecylce/devops-overview) about why cloud technology is at the core of the Mendix Platform.

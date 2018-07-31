@@ -6,17 +6,13 @@ notoc: true
 tags: [""]
 ---
 
-The Mendix platform is designed to accelerate enterprise app delivery across your entire application development lifecycle from ideation to development, deployment, and the ongoing management of your application portfolio in the cloud or on premises. 
+{{% todo %}}[**Need intro text**]{{% /todo %}} 
 
-Mendix offers both **no-code** (visual-modelling) and **low code** (highly extensible, integrated tooling to support cross-functional teams working collaboratively). Business-domain experts such as analysts and citizen developers can work alongside expert developers to achieve much greater levels of business agility and consequently accelerated delivery, while the platform's cloud-native architecture and automation tools support the deployment, management, and monitoring of highly-available enterprise-grade applications.
-
-Based around our three core principles of **speed**, **collaboration**, and **control**, Mendix offers a complete platform for your enterprise application delivery needs.
-
-## {Video}
+{{% todo %}}[**Add video when available**]{{% /todo %}}
 
 ## Why Was Mendix Founded? 
 
-{Brief answer}
+Mendix was founded on the belief that software development could only be significantly improved if there was a paradigm shift, which meant bringing the Business and IT much closer to together.
 
 For more details on the story behind Mendix, see [Why Was Mendix Founded?](why-mendix#founded)
 
@@ -26,10 +22,15 @@ Our vision in a world where software is the lifeblood of every company is to emp
 
 The Mendix Platform brings together the people with ideas and the people that have the technical aptitude to execute on them to create a powerful force for change, which we believe is necessary to compete and survive in a software-driven world.
 
-For details, see [What Is the Vision Behind Mendix?](mendix-vision).
+For details, see [What Is the Vision Behind Mendix?](mendix-vision)
 
 ## What Is Mendix?
 
+The Mendix platform is designed to accelerate enterprise app delivery across your entire application development lifecycle from ideation to development, deployment, and the ongoing management of your application portfolio in the cloud or on premises. 
+
+Mendix offers both **no-code** (visual-modelling) and **low code** (highly extensible, integrated tooling to support cross-functional teams working collaboratively). Business-domain experts such as analysts and citizen developers can work alongside expert developers to achieve much greater levels of business agility and consequently accelerated delivery, while the platform's cloud-native architecture and automation tools support the deployment, management, and monitoring of highly-available enterprise-grade applications.
+
+Based around our three core principles of **speed**, **collaboration**, and **control**, Mendix offers a complete platform for your enterprise application delivery needs.
 
 For details, see [What Is Mendix?](what-is-mendix)
 

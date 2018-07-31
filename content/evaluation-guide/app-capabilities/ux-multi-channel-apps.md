@@ -13,9 +13,7 @@ Users can build rich [front-ends](front-end) for multi-channel apps (for both [w
 
 Finally, in addition to many standard components, Mendix offers several options for extending the platform. These options are presented in the section [How Can I Extend the Mendix Front-End?](front-end#extend) in *Front-End* and [How Can I Customize the Look and Feel of My Apps?](ui-design#customize) in *User Interface Design*.
 
-## {Video}
-
-{{% todo %}}Add video or remove title{{% /todo %}}
+{{% todo %}}[**Add video when available**]{{% /todo %}}
 
 ## How Does Mendix Support Multi-Channel Applications?
 

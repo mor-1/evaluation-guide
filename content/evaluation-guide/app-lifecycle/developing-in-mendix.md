@@ -11,13 +11,11 @@ Mendix is a model-driven development environment designed to cater to the needs 
 
 The Mendix Web Modeler is a browser-based, no-code development environment for business developers. It employs WYSIWYG, drag-and-drop tools for data, UI, logic, and navigation. The Desktop Modeler builds on these visual editors to offer a sophisticated local development environment for the professional developer.
 
-## {Video}
-
-{{% todo %}}Add video or remove title{{% /todo %}}
+{{% todo %}}[**Add video when available**]{{% /todo %}}
 
 ## How Does Mendix Enable Model-Driven Development?
 
-{{% todo %}}Brief answer{{% /todo %}}
+Mendix enables Model-Driven development through our Web and Desktop modelers which provide visual drag and drop development tools for four UI, Data, Logic and Navigation using no and low-code development. The resulting model is then executed at runtime, removing the overhead of code generation, which breaks the bond between model and application and produces tomorrows legacy. Model execution, on the other hand, provides significant advantages, supporting easy accommodation of changes, controlled extensions and dynamic monitoring analysis at runtime.  
 
 For details, see [How Does Mendix Enable Model-Driven Development?](app-development#enable)
 
@@ -29,7 +27,9 @@ For details, see [How Does Mendix Support Different Developer Profiles?](app-dev
 
 ## How Does Mendix Support Multi-User Development?
 
-{{% todo %}}Brief answer{{% /todo %}}
+To achieve the high levels of agility and continuous interactions required to collaborate effectively across multi-disciplinary teams, Mendix combines **abstraction:** visual model-driven development tools, **automation:** continuous integration and deployment (CICD), and **intelligent assisted development** with a fully integrated feed that maps every interaction across the ALM to a central buzz. 
+
+Project team members are connected instantly and interactively to changes and updates: such as new requirements, software revisions, updates and shipments; as well as test results and feedback loops from end users. This live feed becomes the backbone for the collaborative process, while visual models and drag and drop WYSYWG editors lower the barrier to entry for business users to participate in the development process.
 
 For details, see [How Does Mendix Support Multi-User Development?](version-control#multi-user)
 

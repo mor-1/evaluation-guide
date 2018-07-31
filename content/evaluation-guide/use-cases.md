@@ -59,8 +59,8 @@ Innovation applications stem from ideas for new digital business models, product
 These are the key features that enable you to build innovation apps in Mendix:
 
 * [The Mendix Web Modeler](app-lifecycle/app-development#web-modeler) enables business users to build prototypes that development teams can continue to enhance via the Desktop Modeler
-* [Out-of-the-box connectors](../app-lifecycle/app-store-reuse#connectors) simplify integrating with third-party databases or applications, handling complex XML messages, and utilize IoT and cognitive services, which enables developers to leverage emerging technologies and legacy systems with minimal dependencies on IT
-* [Requirement management](../app-lifecycle/requirements-management) via easy-to-use [Developer Portal](../app-lifecycle/requirements-management#1-how-is-requirements-management-positioned-in-mendix) allows business users to create and track their own user stories, enables the development teams to adopt a Scrum-based development approach and shortens the feedback loop between development teams and the business
+* [Out-of-the-box connectors](app-lifecycle/app-store-reuse#connectors) simplify integrating with third-party databases or applications, handling complex XML messages, and utilize IoT and cognitive services, which enables developers to leverage emerging technologies and legacy systems with minimal dependencies on IT
+* [Requirement management](app-lifecycle/requirements-management) via easy-to-use [Developer Portal](app-lifecycle/requirements-management#1-how-is-requirements-management-positioned-in-mendix) allows business users to create and track their own user stories, enables the development teams to adopt a Scrum-based development approach and shortens the feedback loop between development teams and the business
 
 Some great examples of innovation apps built with Mendix are AntTail’s [medicine tracking app](https://www.mendix.com/blog/anttail-ensures-quality-medicines-iot/), Solomon Group’s [RFID wristband event access app](https://www.mendix.com/blog/solomon-group-iot-solution/), KLM’s [IoT equipment tracking app](https://www.mendix.com/blog/comes-building-iot-apps-klm-says-just/), and Heijman’s [IoT-based smart building management app](https://www.mendix.com/our-customers/heijmans/).
 
@@ -70,9 +70,9 @@ Customer engagement applications enable customers and partners to better interac
 
 These are the key features that enable you to build customer engagement apps in Mendix:
 
-* [Multichannel apps](../app-capabilities/ux-multi-channel-apps) can be built once for all channels via the [WYSIWYG page editor](../app-lifecycle/user-interfaces#build-pages) that enables users without front-end development or UI design skills to create beautiful, engaging, and highly usable multi-channel apps
-* [The Atlas UI framework](../app-capabilities/ui-design#atlas-ui) enables you to build pixel perfect apps, and your company's UI/UX team to create a package containing the organization’s design language for use across development teams, ensuring consistency while broadly leveraging the skills of what could be a small UI/UX team
-* [Horizontal scalability](../enterprise-capabilities/architecture-principles#statelessness) allows additional resources to be added easily as required to support increasing user or processing loads
+* [Multichannel apps](app-capabilities/ux-multi-channel-apps) can be built once for all channels via the [WYSIWYG page editor](app-lifecycle/user-interfaces#build-pages) that enables users without front-end development or UI design skills to create beautiful, engaging, and highly usable multi-channel apps
+* [The Atlas UI framework](app-capabilities/ui-design#atlas-ui) enables you to build pixel perfect apps, and your company's UI/UX team to create a package containing the organization’s design language for use across development teams, ensuring consistency while broadly leveraging the skills of what could be a small UI/UX team
+* [Horizontal scalability](enterprise-capabilities/architecture-principles#statelessness) allows additional resources to be added easily as required to support increasing user or processing loads
 
 {{% todo %}}[**Best place to link for horizontal scalability?**]{{% /todo %}} 
 
@@ -84,9 +84,9 @@ Operational efficiency applications are employee- or partner-facing applications
 
 These are the key features that enable you to build operational efficiency apps in Mendix:
 
-* [The Mendix Web Modeler](../app-lifecycle/app-development#web-modeler) enables business users to build prototypes that development teams can continue to enhance via the Desktop Modeler
-* [Integration options](../app-capabilities/integration-overview) for which Mendix offers an extensive array of tools for integrating with other systems
-* [The Mendix Cloud](../app-capabilities/mendix-cloud-overview) enables you to deploy your apps easily and cost effective to the cloud
+* [The Mendix Web Modeler](app-lifecycle/app-development#web-modeler) enables business users to build prototypes that development teams can continue to enhance via the Desktop Modeler
+* [Integration options](app-capabilities/integration-overview) for which Mendix offers an extensive array of tools for integrating with other systems
+* [The Mendix Cloud](app-capabilities/mendix-cloud-overview) enables you to deploy your apps easily and cost effective to the cloud
 
 ## 7 How Does Mendix Support Legacy Migration Apps? {#legacy-migration-apps}
 
@@ -94,9 +94,9 @@ Most legacy migration Mendix application projects are business-driven transforma
 
 These are the key features that enable you to build legacy migration apps in Mendix:
 
-*  [High Availability](../enterprise-capabilities/architecture-cloud#cloud-ha), the Mendix Cloud offers high availability for all app environments, ensuring zero downtime in the case of a Mendix Runtime outage
-*  [The Mendix Application Quality Monitor](../app-lifecycle/model-consistency#aqm) provides benchmarks into the maintainability of apps based on the ISO 25010 standard, to ensure you don't build tomorrows legacy
-*  [Integration options](../app-capabilities/integration-overview) for which Mendix offers an extensive array of tools for integrating with other systems
+*  [High Availability](enterprise-capabilities/architecture-cloud#cloud-ha), the Mendix Cloud offers high availability for all app environments, ensuring zero downtime in the case of a Mendix Runtime outage
+*  [The Mendix Application Quality Monitor](app-lifecycle/model-consistency#aqm) provides benchmarks into the maintainability of apps based on the ISO 25010 standard, to ensure you don't build tomorrows legacy
+*  [Integration options](app-capabilities/integration-overview) for which Mendix offers an extensive array of tools for integrating with other systems
 *  [Data migration tooling](app-capabilities/querying-managing-data#migrate-from-existing) integrated in the Mendix platform, like visual data mapping, allows you to create the optimal data model for the new solution (with traceability back to systems of record), not simply recreate the legacy systems’ model
 
 Examples of legacy migrations include transferring legacy [Lotus Notes](https://www.mendix.com/blog/how-one-customer-is-using-mendix-for-legacy-application-migration/), Microsoft Access, SharePoint, or Excel applications to an updated system.

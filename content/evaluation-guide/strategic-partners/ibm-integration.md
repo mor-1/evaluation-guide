@@ -8,8 +8,7 @@ tags: [""]
 
 ## 1 How Can I Integrate Mendix with IBM Cloud? {#integrate-with-ibm}
 
-**[Note from Adam: Erno, this question was specified by Roald, and it will be linked to from the landing page. Please consult with Roald for what overview content should go here. Content can probably be moved from other sections of this doc.]**
-
+{{% todo %}}**[Note from Adam: Erno, this question was specified by Roald, and it will be linked to from the landing page. Please consult with Roald for what overview content should go here. Content can probably be moved from other sections of this doc.]**{{% /todo %}}
 ## 2 How Can I Start Using Mendix on IBM Cloud?
 
 {{% todo %}}**[Add link to how-to once published]**{{% /todo %}}

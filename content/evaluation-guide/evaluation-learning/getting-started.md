@@ -8,7 +8,7 @@ tags: [""]
 
 ## 1 How Can I Quickstart My App Development Project? {#starter-apps}
 
-The Mendix Platform provides several starter apps as part of the onboarding process for [creating new applications](#can-i-build).
+The Mendix Platform provides several starter apps as part of the onboarding process for [creating new applications](use-cases#can-i-build).
 
 Starter apps are complete app frameworks that can be used as a starting point when building a new app on the Mendix Platform. Starter apps provide the scaffolding required to massively accelerate app development, as they include basic design patterns such as branding, design assets, page templates, navigation, and security models.
 

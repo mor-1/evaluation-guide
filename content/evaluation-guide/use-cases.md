@@ -5,7 +5,7 @@ menu_order: 50
 tags: ["{#can-i-build}"]
 ---
 
-## 1 In General, What Can I Build with Mendix?
+## 1 In General, What Can I Build with Mendix? {#can-i-build}
 
 With Mendix, you can build a wide range of transactional, event-driven, and adjacent applications for all kinds of industries, regardless of complexity, performance, or [scale](enterprise-capabilities/architecture-principles#statelessness).
 

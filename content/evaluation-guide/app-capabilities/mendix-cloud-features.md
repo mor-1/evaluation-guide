@@ -30,7 +30,7 @@ When you receive a new Mendix Cloud environment for you application, it is stand
 
 Each application running in the Mendix Cloud gets a default daily backup. Next to that, it is possible to create a backup of your application at any time via self-service. Optionally, it is possible to upgrade your backup policy to go to real-time replication and backup.
 
-For more details, see the section [How Does Mendix Cloud Support Backup and Recovery?](#support-backup) below.
+For more details, see the section [How Does Mendix Cloud Support Backup & Recovery?](mendix-cloud-overview#support-backup) in *Mendix Cloud Overview*.
 
 ## 5 How Does Application & Database (Performance) Monitoring Work?
 

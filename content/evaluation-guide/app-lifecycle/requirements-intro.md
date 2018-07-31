@@ -23,7 +23,7 @@ For details, see [How Does Mendix Support Requirements Management?](requirements
 
 {Brief answer}
 
-For details, see [How Does Mendix Support Feedback Management?](requirements-management#feedback-management).
+For details, see the section [How Does Mendix Support Feedback Management?](feedback-management#feedback-management) in *Feedback Managemenet*.
 
 ## How Can I Integrate Mendix with Third-Party Project Management Tooling?
 

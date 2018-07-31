@@ -42,13 +42,13 @@ For more information on the use of custom Java actions, see this documentation:
 
 ### 1.2 JavaScript Widgets {#custom-widgets}
 
-You can extend the [front-end](../app-capabilities/front-end#4-how-can-i-extend-the-mendix-front-end-extend) of your Mendix applications using custom JavaScript widgets. For mobile apps, these custom JavaScript widgets can include Cordova plugins to provide native functionality in your mobile apps.
+You can extend the [front-end](../app-capabilities/front-end#extend) of your Mendix applications using custom JavaScript widgets. For mobile apps, these custom JavaScript widgets can include Cordova plugins to provide native functionality in your mobile apps.
 
 To ease the development of custom widgets, Mendix provides a [Mendix widget generator](https://github.com/mendix/generator-mendix). This will set up your environment and all the dependencies so that you can focus on implementing the custom widget. Watch this video for a short demonstration of this tool:
 
 <video controls src="attachments/MA_CustomWidgetGeneration-2.mp4">VIDEO</video>
 
-For more information on custom JavaScript widgets, see the section [How Can I Extend the Mendix Front-End](../app-capabilities/front-end#4-how-can-i-extend-the-mendix-front-end-extend) in *Front-End* as well as this documentation:
+For more information on custom JavaScript widgets, see the section [How Can I Extend the Mendix Front-End](../app-capabilities/front-end#extend) in *Front-End* as well as this documentation:
 
 * [Custom Widget Development How-to's](https://docs.mendix.com/howto/custom-widget-development/)
 * [Mendix Widget Generator documentation](https://github.com/mendix/generator-mendix)

@@ -64,7 +64,7 @@ The learning paths take you from different starting points, levels, and roles to
 
 <video controls  src="attachments/learning-path.mp4">VIDEO</video>
 
-The ultimate destination for each learning path is [certification](https://gettingstarted.mendixcloud.com/link/certification). Soon enough, you will be able to follow one of the advanced learning paths to take your career to the next level by specializing in one topic, or you can master them all to get certified as an [Advanced Developer](#get-certified).
+The ultimate destination for each learning path is [certification](https://gettingstarted.mendixcloud.com/link/certification). Soon enough, you will be able to follow one of the advanced learning paths to take your career to the next level by specializing in one topic, or you can master them all to get certified as an [Advanced Developer](certification-training#get-certified).
 
 Each learning path contains various [modules](https://gettingstarted.mendixcloud.com/link/module) you need to complete. Each module contains theory and assignment units as well as knowledge checks. You can start these whenever you want to learn more about a specific topic.
 

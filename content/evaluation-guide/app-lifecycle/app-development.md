@@ -37,11 +37,11 @@ The Mendix Web Modeler is our collaborative, no-code, web-based application deve
 
 Business analysts and business developers use the Web Modeler to:
 
-* Develop application user interfaces with styled building blocks and widgets
-* Create domain models for reading and writing data in an application
-* Visually model the interactions and flow control of an application
-* Leverage the enterprise design language to create engaging apps that conform to company standards beyond branding and theming
-* Collaborate and align with stakeholders both in Business and IT in a what-you-see-is-what-you-get environment, which is a key element of iterative software development
+* Develop application **user interfaces** with styled building blocks and widgets
+* Create **domain models** for reading and writing data in an application
+* Visually model the **interactions and flow control** of an application
+* Leverage the **enterprise design language** to create engaging apps that conform to company standards beyond branding and theming
+* Collaborate and **align with stakeholders both in Business and IT** in a what-you-see-is-what-you-get environment, which is a key element of iterative software development
 
 In short, the Web Modeler empowers them to solve problems collaboratively, creatively and quickly, maximizing the productivity of your organization and gaining higher end-user adoption.
 

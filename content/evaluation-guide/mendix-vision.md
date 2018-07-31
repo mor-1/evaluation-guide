@@ -21,7 +21,7 @@ The Mendix Platform has three core principles that make this vision a reality.
 
 There are three core principles of the Mendix Platform underlying every single platform feature:
 
-{{% todo %}}[**Add diagrams for 3 core principles [prio2]**]{{% /todo %}}
+![](attachments/core-principles.png)
 
 * **Speed** – In a world that is changing ever faster, IT backlogs are overflowing. To change that, software needs to be created much faster. App development must take place at the speed of the business.
 * **Collaboration** – The talent gap for software development is only widening. Teaching more people to program will not solve this, as the gap is exponentially growing. So, we need to involve a much broader audience in software development. They key to faster and better software delivery is collaboration. The Mendix Platform brings the people with ideas together with the people with the technical aptitude to execute those ideas.

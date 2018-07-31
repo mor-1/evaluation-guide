@@ -38,13 +38,15 @@ The Mendix Platform contains the Web Modeler and Desktop Modeler, which are visu
 
 ## 5 How Does Mendix Support Full Application Lifecycle Management?
 
-The Mendix Platform is designed to accelerate enterprise app delivery across your entire application development lifecycle, from ideation to development, deployment, test and the ongoing management of your application portfolio in the cloud or on premises.
+The Mendix platform supports the rapid delivery of Applications through an integrated set of tools designed to cover the full ALM, starting with business requirements capture, teams can create a backlog of user stories, sprint and release plans (Mendix provides an API to integrate with third-party tools, should you already have the technology for requirements management). Once created developers use the Web and Desktop modeling environments to rapidly build and iterate over the current sprints user stories, continuously merging models, shipping revisions for automated testing, and refactoring feedback from the built-in feedback mechanism and collaboration features inside the platform.  
 
-For more details, see [App Lifecycle](app-lifecycle/index).
+All contributing parties from the Product Owner to the Testing teams are continuously connected to changes and updates in the delivery cycle, via real-time interactive data feeds connected to assets in the model, built-in chat and collaboration features, and visual models that enable business users to contribute early and often around design and logic decisions. 
 
 ## 6  What Does the Mendix Cloud-Native Architecture Look Like?
 
 The Mendix cloud-native architecture enables you to scale your applications and nodes while supporting the speed and flexibility required to deliver new functionality. Built-in Agility and DevOps combine with our Cloud-Foundry (PaaS) support to allow small cross-functional teams to deploy highly portable, microservices based applications in containers.  
+
+{{% todo %}}[**New content from Margaret?**]{{% /todo %}}
 
 ## 7 What Strategic Partnerships Has Mendix Developed?
 

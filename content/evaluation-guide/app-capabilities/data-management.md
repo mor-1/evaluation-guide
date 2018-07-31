@@ -26,6 +26,7 @@ A Mendix app project includes a local database for development and provisions a 
 ## What Databases Does Mendix Support?
 
 The Mendix Platform supports the following database servers:
+
 * PostgreSQL 9.2, 9.3, 9.4, 9.5, 9.6
 * Microsoft SQL Server 2008, 2008 R2, 2012, 2014, 2016
 * Microsoft Azure SQL Database

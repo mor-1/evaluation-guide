@@ -30,9 +30,12 @@ The core interface of the Mendix Runtime (which is responsible for the execution
 
 Data security in Mendix is handled by defining the data access rules on your entities. Per entity, you can define who can see what data and who can create or delete data.
 
+{{% todo %}}
 {{% image_container width="450" %}}
-![](attachments/entity_access_rules.png)
+attachments/entity_access_rules.png -- missing
 {{% /image_container %}}
+{{% /todo %}}
+
 
 These rules will be applied anytime your application uses an entity. The rules will be automatically applied to XPath retrieves done in your model. You can define XPath constraints on entities, which means you can define access rules depending on the user role or organization. This can be used to ensure strict data separation in multi-tenant applications.
 

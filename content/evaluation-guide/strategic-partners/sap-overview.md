@@ -28,7 +28,7 @@ The benefits of the SAP and Mendix partnership are the following:
 To learn more about the SAP–Mendix partnership, check out these featured questions:
 
 * [What Does the Mendix–SAP Partnership Offer?](#sap-partnership-offer)
-* [How Can I Integrate Mendix with SAP?](sap-integration#integrate-with-sap)
+* [How Can I Integrate Mendix with SAP?](sap-integration#integrate)
 
 ## 2 What Does the Mendix–SAP Partnership Offer? {#sap-partnership-offer}
 

@@ -20,7 +20,7 @@ The [Mendix Developer Portal](https://docs.mendix.com/developerportal/) is the c
 
 As developer are usually found working with the [Desktop Modeler](app-development#desktop-modeler) or the [Web Modeler](app-development#web-modeler), user stories from the active sprint and Buzz are available in the Modelers as well.
 
-### 1.3 How Can Stakeholders Get Involved via the Mendix Mobile App?
+### 1.3 How Can Stakeholders Get Involved via the Mendix Mobile App? {#mxapp}
 
 The [Mendix mobile app](https://docs.mendix.com/refguide/getting-the-mendix-app) enables development teams to closely collaborate with stakeholders on app development in general and mobile app development in particular.
 
@@ -38,7 +38,7 @@ All the users involved in a Mendix application project receive relevant and time
 
 {{% todo %}}[**Screenshot of email notificaiton for buzz update**]{{% /todo %}}
 
-### 1.5 How Can Stakeholders Get Involved via the Central Buzz?
+### 1.5 How Can Stakeholders Get Involved via the Central Buzz? {#buzz}
 
 All of the above channels are bundled together through the central Buzz in the Developer Portal. This is where you can post messages from the context of your project activity. For example, user stories and feedback items each have their own Buzz thread. All the updates posted are visible in the Developer Portal and the Mendix mobile app in a central Buzz stream.
 

@@ -19,7 +19,7 @@ The result: business domain experts such as analysts and citizen developers can 
 
 Based on our three core principles of speed, collaboration, and control, Mendix offers a complete platform for your enterprise application delivery needs.
 
-<video controls src="attachments/Bring-Business-Knowledge-Into-the-App-Development-Process.mp4">VIDEO</video> 
+<video controls src="attachments/Bring-Business-Knowledge-Into-the-App-Development-Process.mp4">VIDEO</video>
 
 ## 2 How Does Mendix Support Each App Lifecycle Step?
 
@@ -50,10 +50,10 @@ The Mendix Platform provides development teams with an extensive toolset with ex
 
 To discover more about all these capabilities, see [Developing in Mendix](app-lifecycle/developing-in-mendix).
 
-![](attachments/XXX.mp4)
+{{% todo %}}Add video{{% /todo %}}
 
 ### 2.3 Deployment & Operations
 
 Mendix provides all the cloud deployment options you need and is fully optimized for compatibility with the latest cloud platforms and technologies. Running and deploying your Mendix app is easy, fast, and flexible. The ability to deploy with one click to any cloud environment or on-premise directly from Mendix's app modeling environment enables developers with any background to bring applications to their users. Read more in the [DevOps Overview](app-lifecycle/devops-overview) about why cloud technology is at the core of the Mendix Platform.
 
-![](attachments/XXX.mp4)
+{{% todo %}}Add video{{% /todo %}}

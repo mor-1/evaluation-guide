@@ -22,7 +22,7 @@ For on-premises systems, this is realized by setting up a trust between the SAP 
 
 ![](attachments/dev_principal_prop_solution_diagram.png)
 
-## 3 How Can I Use the SAP Cloud Connector to Integrate Mendix with Non-SAP Apps?
+## 3 How Can I Use the SAP Cloud Connector to Integrate Mendix with Non-SAP Apps? {#integrate}
 
 The SAP Cloud Connector allows you to set up connections to any end-point within your premises. Because the SAP Cloud Connector acts as a secure reverse proxy, the Mendix native REST and web services integrations have been extended with the support to configure the use of the SAP Cloud Connector. This makes it possible to integrate with any REST-based or web services (SOAP)-based solution within your premises when running your Mendix application within the SAP Cloud Platform.
 

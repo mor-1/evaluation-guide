@@ -32,3 +32,6 @@ For details, see [What Are the Mendix Training Options?](skills-training#trainin
 For details, see [How Long Does It Take to Learn Mendix?](skills-training#how-long-to-learn)
 
 ## Read More
+
+* [Skills & Training](skills-training)
+* [Certification & Talent](certification-talent)

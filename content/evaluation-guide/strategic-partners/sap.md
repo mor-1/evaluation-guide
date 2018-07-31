@@ -34,3 +34,6 @@ For details, see [What Does the Mendix–SAP Partnership Offer?](sap-overview#sa
 For details, see [How Can I Integrate Mendix with SAP?](sap-integration#integrate-with-sap)
 
 ## Read More
+
+* [SAP Partnership](sap-overview)
+* [SAP Integration](sap-integration)

@@ -32,3 +32,7 @@ For details, see [Where Can I Use the Openness and Extensibility the Mendix Plat
 For details, see [How Can I Extend the Functionality of the Mendix Platform?](extensibility#extend-functionality)
 
 ## Read More
+
+* [Vendor Lock-In](vendor-lockin)
+* [Openness (API & SDK)](openness-api-sdk)
+* [Extensibility](extensibility)

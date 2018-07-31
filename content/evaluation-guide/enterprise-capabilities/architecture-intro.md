@@ -34,3 +34,7 @@ For details, see [How Does the Mendix Runtime Support 12-Factor Cloud-Native App
 ## Read More
 
 * [Architecture Principles](architecture-principles)
+* [Platform Architecture](architecture-platform)
+* [Cloud Architecture](architecture-cloud)
+* [Runtime Architecture](architecture-runtime)
+* [Twelve-Factor Architecture](architecture-12-factor)

@@ -34,3 +34,6 @@ For details, see [What Does the Mendix-IBM Partnership Offer?](ibm-overview#ibm-
 For details, see [How Can I Integrate Mendix with IBM Cloud?](ibm-integration#integrate-with-ibm)
 
 ## Read More
+
+* [IBM Partnership](ibm-overview)
+* [IBM Integration](ibm-integration)

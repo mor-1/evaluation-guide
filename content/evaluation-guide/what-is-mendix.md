@@ -19,15 +19,13 @@ The result: business domain experts such as analysts and citizen developers can 
 
 Based on our three core principles of speed, collaboration, and control, Mendix offers a complete platform for your enterprise application delivery needs.
 
-![](attachments/Bring-Business-Knowledge-Into-the-App-Development-Process.mp4)
+<video controls src="attachments/Bring-Business-Knowledge-Into-the-App-Development-Process.mp4">VIDEO</video> 
 
 ## 2 How Does Mendix Support Each App Lifecycle Step?
 
-With Mendix you can accelarate every step of your app life cycle.
+With Mendix you can accelerate every step of your app life cycle.
 
-{{% todo %}}[**Verify correct diagram is below; note that this diagram is already used elsewhere**]{{% /todo %}}
-
-![](attachments/cycle-1.png)
+![](attachments/accelerate-app-journey.png)
 
 ### 2.1 Ideation & Requirements Management
 

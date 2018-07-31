@@ -56,16 +56,20 @@ The roles in the Center of Excellence can be seen as enablers of multiple core d
 
 ### 4.1 Agile
 
-The Agile methodology is adopted in the DevOps approach. The Agile methodology changed traditional Waterfall projects from a linear approach to an iterative, team-based approach to software development. This approach emphasizes the rapid delivery of an application in complete functional components per “time-boxed” phases called sprints. Each sprint has a defined duration with a running list of deliverables, planned at the start of the sprint. The Agile approach enables the business to review a minimal viable product (MVP), which is a product with just enough features to satisfy and enable the business to provide feedback for future development.
+The Agile methodology is adopted in the DevOps approach. The Agile methodology changed traditional Waterfall projects from a linear approach to an iterative, team-based approach to software development. This approach emphasizes the rapid delivery of an application in complete functional components per “time-boxed” phases called sprints. Each sprint has a defined duration with a running list of deliverables, planned at the start of the sprint. The Agile approach enables the business to review a minimal viable product (MVP), which is a product with just enough features to satisfy and enable the business to provide feedback for future development.  
+
+Mendix enables development teams to adopt an Agile approach based on Scrum in which they collaborate closely with internal and external stakeholders in short iterative development cycles. With capabilities as sprint and story management and integrated feedback management via embedded feedback widgets that enable end-users to provide instant feedback directly within an application. The closed feedback loop enables the development team to quickly resolve queries from the business, facilitating rapid iteration as emphasized in the Agile methodology. Read this section if you would like to learn more about how [Mendix supports Agile Requirements Management](..//app-lifecycle/requirements-management).
 
 ### 4.2 DevOps
 
 DevOps is a software engineering culture and practice that aims at unifying software development (Dev) and software operation (Ops). The main characteristic of the DevOps movement is to strongly advocate automation and monitoring at all steps of software construction, from integration, testing, releasing to deployment and infrastructure management. DevOps aims at shorter development cycles, increased deployment frequency, and more dependable releases, in close alignment with business objectives.
 
-Compared to DevOps, the BizDevOps approach knocks down the silos between the DevOps teams (meaning, the development teams and operations staff) and the business teams.
+Mendix provides DevOps tools out of the box for CI/CD, test automation, and monitoring, among other services, enabling your development teams to embrace the DevOps way of working. Read [this section](../app-lifecycle/devops) to learn more about how Mendix supports DevOps. 
+
+Compared to DevOps, the BizDevOps approach knocks down the silos between the DevOps teams (meaning, the development teams and operations staff) and the business teams.  
 
 ### 4.3 Traditional App Development
 
 In Traditional App Development feedback could only be given on full working applications, instead of iterative approach in the Agile methodology. Compared to DevOps the teams, Traditional app development projects, development teams, operation teams, and business management teams all operated in silos instead of unifying software development (Dev) and software operation (Ops).
 
-The development team worked on the app (or better said, worked on the code before the introduction of low-code platforms), the operations team maintained the app after it was released, and the business management team reviewed the app, gave feedback, and set the requirements for new app development projects. In BizDevOps, the business management team is so tightly integrated in the process that they can be seen as partners of the development team.
+The development team worked on the app (or better said, worked on the code before the introduction of low-code platforms), the operations team maintained the app after it was released, and the business management team reviewed the app, gave feedback, and set the requirements for new app development projects. In the BizDevOps approach that Mendix adopts, the business management team is so tightly integrated in the process that they can be seen as partners of the development team. 

@@ -20,6 +20,8 @@ Model-driven development (MDD) has emerged as one of the leading approaches for 
 
 The Mendix Runtime directly executes models, meaning that the model literally is the application—not an intermediary. As opposed to approaches where a visually-modeled design would actually generate code (for example, Java or .Net), our model interpretation approach has a number of [unique characteristics and advantages](architecture-runtime#model-execution).
 
+For more information, see the [Model Driven Development: Code Generation or Model Interpretation?](http://www.theenterprisearchitect.eu/blog/2010/06/28/model-driven-development-code-generation-or-model-interpretation/) blog post.
+
 ## 4 How Does Mendix Utilize Microservices, Containers, & Deployment Standardization?
 
 Microservices offer a software architecture that is best aligned with small Agile DevOps teams. This architecture is best capable of benefitting from the qualities of containers. Containers enable you to deploy your application in any cloud, in an automated fashion, and to ensure quality, repeatability, and speed. Deployment standardization enables a small DevOps team to handle anything related to operations.

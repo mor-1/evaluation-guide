@@ -5,7 +5,7 @@ menu_order: 40
 tags: [""]
 ---
 
-## 1 What Development Process Works Best for Mendix {#bizdevops}
+## 1 What Development Process Works Best for Mendix? {#bizdevops}
 
 Mendix adopts a DevOps methodology with a high focus on business and IT collaboration, also known as a **BizDevOps** or **DevOps 2.0**. Mendix has optimized the BizDevOps approach for the low-code uses. This combination of changing the process to BizDevOps and using low-code in this process results in a shorter feedback loop and [changes the roles](#changing-roles) within the software development process.
 
@@ -37,7 +37,7 @@ There are three main roles involved in a core development team in Mendix low-cod
 
 The other roles that were traditionally part of the development process are involved too, as enablers of the project
 
-The other roles that were traditionally part of the development process are involved too, as enablers of the project. They are often involved as an enabler and specialist over the complete program/portfolio of apps that are under development.
+The other roles that were traditionally part of the development process are involved too, as enablers and specialists for the project as well as for the complete program and portfolio of apps that are under development. 
 
 ### 3.1 Three Roles in the Core Development Team
 
@@ -45,7 +45,7 @@ First of all, the business user has a key role in the BizDevOps process. The bus
 
 Next, the business analyst (who talks to the business) works together with a more technical developer to run the entire application delivery lifecycle, including the operations. The involvement of the business analyst is key in interpreting the requirements and feedback from the business correctly. In other words, they speak the same language to verify the UX/UI (pages) and business rules (logic). The technical developer is key to helping build the app and deliver tangible results.
 
-This core development team runs the entire application delivery lifecycle without the direct help of a database expert, Java programmer, UX/UI expert, test engineer, project manager, or operations staff. All these roles are still important, especially in an enterprise-scale delivery of multiple applications. However, they are part of a higher level Center of Excellence, which is often spread between multiple Mendix application development teams.
+This core development team runs the entire application delivery lifecycle without the direct help of a database expert, Java programmer, UX/UI expert, test engineer, project manager, or operations staff. All these roles are still important, especially in an enterprise-scale delivery of multiple applications. However, they are part of a higher level Center of Excellence, wis often spread between multiple Mendix application development teams.
 
 ### 3.2 Roles in Center of Excellence (CoE)
 
@@ -67,4 +67,4 @@ Compared to DevOps, the BizDevOps approach knocks down the silos between the Dev
 
 In Traditional App Development feedback could only be given on full working applications, instead of iterative approach in the Agile methodology. Compared to DevOps the teams, Traditional app development projects, development teams, operation teams, and business management teams all operated in silos instead of unifying software development (Dev) and software operation (Ops). 
 
-The development team worked on the app (or better said, worked on the code before the introduction of low-code platforms), the operations team maintained the app after it was released, and the business management team reviewed the app, gave feedback, and set the requirements for new app development projects. In BizDevOps the business management team is so tight integrated in the process that they can be seen as partners of the development team.
+The development team worked on the app (or better said, worked on the code before the introduction of low-code platforms), the operations team maintained the app after it was released, and the business management team reviewed the app, gave feedback, and set the requirements for new app development projects. In BizDevOps, the business management team is so tightly integrated in the process that they can be seen as partners of the development team.

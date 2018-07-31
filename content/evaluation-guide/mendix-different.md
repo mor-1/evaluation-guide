@@ -25,7 +25,7 @@ Delivering applications quickly is a key reason for adopting a low code platform
 
 Both no-code and low-code tools use visual, model-driven development concepts to speed up and transform application development.
 
-No-code tools (as the name suggests) enable users to build apps without writing any code. The ir target audience for this capability consists of business analysts, business developers, and citizen developers – users with no or very little experience in software development. Low-code tools add another dimension, which is the ability to extend application models with custom code, such as Java extensions. This makes low-code tools appealing to a far wider range of developers with any level of software development experience.
+No-code tools (as the name suggests) enable users to build apps without writing any code. The target audience for this capability consists of business analysts, business developers, and citizen developers – users with no or very little experience in software development. Low-code tools add another dimension, which is the ability to extend application models with custom code, such as Java extensions. This makes low-code tools appealing to a far wider range of developers with any level of software development experience. 
 
 In a way, the "low-code" and "no-code" labels can be misleading. At Mendix, we think the main distinction is found in the types of people using these tools.
 
@@ -39,7 +39,7 @@ The Mendix Platform contains the Web Modeler and Desktop Modeler, which are visu
 
 The Mendix Platform is designed to accelerate enterprise app delivery across your entire application development lifecycle, from ideation to development, deployment, test and the ongoing management of your application portfolio in the cloud or on premises.
 
-For more details, see [App Lifecycle](/app-lifecycle/).
+For more details, see [App Lifecycle](app-lifecycle/index).
 
 ## 6 How Does Mendix Provide a Full Cloud-Native Architecture?
 

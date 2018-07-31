@@ -35,4 +35,10 @@ For details, see [What Is Mendix?](what-is-mendix#what-mendix)
 
 ## Read More
 
-* [The Mendix Vision](what-is-mendix)
+* [Why Was Mendix Founded?](why-mendix)
+* [The Mendix Vision](mendix-vision)
+* [What Is Mendix?](what-is-mendix)
+* [What App Development Process Should I Use with Mendix?](app-dev-process)
+* [What Can I Build with Mendix?](use-cases)
+* [The Mendix Difference](mendix-different)
+* [What Do Gartner & Forrester Say About Mendix?](gartner-forrester-mendix)

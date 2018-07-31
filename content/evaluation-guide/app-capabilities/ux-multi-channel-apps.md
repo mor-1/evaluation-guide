@@ -40,3 +40,9 @@ In addition, Mendix will create and synchronize a local SQL database to persist 
 For details, go to [How Can I Build an Offline Mobile App?](offline-apps#build-offline).
 
 ## Read More
+
+* [Front-End](front-end)
+* [UI Design](ui-design)
+* [Mobile Apps](mobile-apps)
+* [Web Apps](web-apps)
+* [Offline Apps](offline-apps)

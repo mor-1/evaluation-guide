@@ -7,31 +7,30 @@ bg: "security"
 tags: [""]
 ---
 
-{{% todo %}}Fix titles{{% /todo %}}
+Mendix takes the security of your applications, the Mendix Platform they run on and the cloud operations to run the platform very seriously.  To achieve the levels of security required by our customers, Mendix has implemented an information security management system (ISMS) according to the ISO/IEC 27001 standards as well as comprehensive security and governance features built into the platform itself.
 
-## {Intro Text}
-
-DRAFT: As the leading hpApaaS provider, it is of the utmost importance to Mendix that the platform itself, the applications built on the platform, and the cloud operations to run the platform meet the highest security standards. The Mendix Platform contains an environment that includes the Mendix Runtime and a set of components to design, develop, deploy, and manage apps. In addition, the platform offers governance services like Mendix ID for identity and access management and services to manage the environments on which the apps run.
-
-## {Video}
-
-{{% todo %}}Add video or remove title{{% /todo %}}
+{{% todo %}}[**Add video when available**]{{% /todo %}}
 
 ## How Is Information Security Organized in Mendix?
 
-{{% todo %}}Brief answer{{% /todo %}}
+Mendix has implemented an information security management system (ISMS) according to the ISO/IEC 27001 standard. The basis of this ISO standard is the development and implementation of a rigorous security program, which includes the development and implementation of an ISMS. 
 
 For details, see [How Is Information Security Organized in Mendix?](organization-compliance#security-organized)
 
 ## Which Third-Party Security Certifications and Assurance Reports Does Mendix Have?
 
-{{% todo %}}Brief answer{{% /todo %}}
+Mendix complies with various third-party security certifications and assurance reports:
+
+* ISO/IEC 27001 Certification
+* ISAE 3402 Type II Assurance Report
+* SOC 1 Type II Assurance Report
+* CSA STAR Certification
 
 For details, see [Which Third-Party Security Certifications and Assurance Reports Does Mendix Have?](organization-compliance#security-certifications)
 
 ## What Kind of Encryption Is Provided by the Mendix Platform?
 
-{{% todo %}}Brief answer{{% /todo %}}
+The Mendix Platform encrypts data at rest and data in transit out of the box. There isn’t much detail around this in the guide?
 
 For details, see [What Kind of Encryption Is Provided by the Mendix Platform?](platform-security#encryption)
 

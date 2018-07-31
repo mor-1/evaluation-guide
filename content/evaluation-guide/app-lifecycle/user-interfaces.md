@@ -10,7 +10,9 @@ tags: ["user interface", "reusable", "template", "multilingual", "translate"]
 
 Mendix has a visual page editor in the Modelers that can be used to build both dynamic and static pages (for example, a dashboard page containing a report overview, or a registration form for a mortgage application). An app built in Mendix can support multiple app profile, so you can target multiple device types with device specific app flow and page layouts. While still re-using the underlying app logic and integrations.
 
-Mendix supports mobile, tablet, and responsive profiles. For detailed information about all the UI development capabilities that Mendix supports, refer to the various details of [App Capabilities](../app-capabilities/).
+Mendix supports mobile, tablet, and responsive profiles. For detailed information about all the UI development capabilities that Mendix supports, refer to the various pages in the [UX & Multi-Channel Apps](../app-capabilities/ux-multi-channel-apps) chapter.
+
+{{% todo %}}[**Add screenshot of WM page editor**]{{% /todo %}}
 
 ## 2 How Do I Build Reusable Page Elements?
 
@@ -49,9 +51,9 @@ For the international rollout of applications, Mendix supports the use of multip
 
 For translation, the Mendix Desktop Modeler provides the following tools:
 
-* Batch replace – for ensuring the consistency of labels in the default language in your application
-* Batch translate – for translating all the labels in your application from the source language to destination language batch-wise (after having translated the individual labels)
-* Language operations – for handling a set of labels in one quick operation (for example, copying all US English labels to UK English labels, whereafter individual labels can be adjusted)
+* **Batch replace** – for ensuring the consistency of labels in the default language in your application
+* **Batch translate** – for translating all the labels in your application from the source language to destination language batch-wise (after having translated the individual labels)
+* **Language operations** – for handling a set of labels in one quick operation (for example, copying all US English labels to UK English labels, whereafter individual labels can be adjusted)
 
 {{% image_container width="500" %}}
 ![](attachments/BatchTranslate-1.png)

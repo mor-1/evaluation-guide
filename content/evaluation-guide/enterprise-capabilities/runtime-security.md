@@ -12,7 +12,9 @@ Before understanding how security is handled in a Mendix application, it is impo
 
 In a Mendix application, the UI layer is implemented in the Mendix Client as JavaScript libraries running in the browser. For hybrid mobile applications, the UI layer runs in a native Cordova container. The logic and data layers are implemented in the Mendix Runtime (the Mendix Runtime itself is developed in Java and runs on a Java virtual machine).
 
-![](attachments/figure-1-mendix-runtime-architecture.png)
+{{% image_container width="500" %}}
+![](attachments/mendix-architecture.png)
+{{% /image_container %}}
 
 Within the Mendix Client, we implement measures against JavaScript-based security threats such as cross-site scripting. This prevents other websites and web applications running in the same browser from obtaining sensitive information from the Mendix app (for example, cookies).
 

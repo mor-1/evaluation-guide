@@ -9,11 +9,12 @@ tags: [""]
 ## 1 How Do I Ensure the Integrity of My Data?
 
 Mendix supports different methods to ensure the integrity of your application data:
-* Data types – ensure that only valid data types can be stored
-* Validation rules – validate if the data is unique, specified, and within a range
-* Event handlers – use microflows to provide custom logic to validate data
-* Access rules – ensure only authorized users can access or modify data
-* Referential integrity – ensure data is stored with the required associated data
+
+* **Data types** – ensure that only valid data types can be stored
+* **Validation rules** – validate if the data is unique, specified, and within a range
+* **Event handlers** – use microflows to provide custom logic to validate data
+* **Access rules** – ensure only authorized users can access or modify data
+* **Referential integrity** – ensure data is stored with the required associated data
 
 ## 2 What Data Types Can I Use in Mendix?
 
@@ -56,9 +57,9 @@ Depending on the rule type, this will be handled by the Mendix Runtime or by the
 
 Event handlers give you the ability to run logic before or after certain events. There are many use cases for this, such as the following:
 
-* Setting default values on object creation – if you want to initialize a new object (for example, one with non-constant default values), you can use a before-create event
-* Keeping an audit trail – sometimes keeping a trail of all the changes made to data is required, and after-events enable you to do this by storing any changes into an audit trail object (the [Audittrail](https://appstore.home.mendix.com/link/app/138/) module in the Mendix App Store provides this exact functionality)
-* Validating data changes – before-events can be used to trigger a microflow that validates data changes
+* **Setting default values on object creation** – if you want to initialize a new object (for example, one with non-constant default values), you can use a before-create event
+* **Keeping an audit trail** – sometimes keeping a trail of all the changes made to data is required, and after-events enable you to do this by storing any changes into an audit trail object (the [Audittrail](https://appstore.home.mendix.com/link/app/138/) module in the Mendix App Store provides this exact functionality)
+* **Validating data changes** – before-events can be used to trigger a microflow that validates data changes
 
 To set event handlers on all the entities in your application, you can use the Mendix Java API. For example, to set a before commit event listener for all entities, use this method: [Core.getListenersRegistry().registerAfterCommitListener](https://apidocs.mendix.com/7/runtime/index.html?com/mendix/core/actionmanagement/ListenersRegistry.html).
 

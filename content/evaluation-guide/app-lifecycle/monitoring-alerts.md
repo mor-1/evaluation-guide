@@ -1,12 +1,10 @@
 ---
-title: "Monitoring Solutions & Alerts"
+title: "Monitoring & Alerting"
 parent: "devops"
 menu_order: 50
 bg: "devops"
 tags: ["monitoring", "alerts", "devops"]
 ---
-
-{{% todo %}}**[David: NOTE: Erno & Andrej should review this section.]**{{% /todo %}}
 
 {{% todo %}}**[David: TODO: Mention APM somewhere.]**{{% /todo %}}
 
@@ -26,6 +24,8 @@ Mendix APM provides this experience through the following tools:
 Customized monitoring is available through integration with third-party services like [New Relic](https://docs.mendix.com/howto/monitoring-troubleshooting/manage-application-performance-with-new-relic), [Datadog](https://www.datadoghq.com/), and [AppDynamics](https://docs.mendix.com/howto/monitoring-troubleshooting/manage-application-performance-with-appdynamics). Alternatively, [JMX integration](https://docs.mendix.com/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx) is available, and the Mendix Runtime provides an [easy-to-program REST-based proprietary interface](https://docs.mendix.com/refguide/monitoring-mendix-runtime) for custom solutions.
 
 Depending on the deployment scenario, different solutions are available to development teams. The sections below present details on specific scenarios.
+
+![](attachments/mx-metrics.png)
 
 ## 2 How Do I Monitor My Mendix Apps Running on the Mendix Cloud?
 

@@ -7,7 +7,9 @@ bg: "devops"
 tags: ["devops", "continuous integration", "deploying", "monitoring", "apm", "datadog", "new relic", "appdynamics"]
 ---
 
-Mendix provides DevOps tools out of the box for CI/CD, test automation, and monitoring, among other services, enabling your development teams to embrace the DevOps way of working. Your teams can now rapidly build, test, release and maintain applications in production environments more autonomously while ensuring compliance with your enterprise requirements. Platform APIs can also be used to support direct integration to your existing CICD pipeline. e:NL;} 
+Mendix provides DevOps tools out of the box for CI/CD, test automation, and monitoring, among other services, enabling your development teams to embrace the DevOps way of working. Your teams can now rapidly build, test, release and maintain applications in production environments more autonomously while ensuring compliance with your enterprise requirements. Platform APIs can also be used to support direct integration to your existing CICD pipeline.
+
+![](attachments/devops-cycle.png)
 
 {{% todo %}}[**Add video when available**]{{% /todo %}}
 

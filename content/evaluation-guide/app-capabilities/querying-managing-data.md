@@ -111,10 +111,10 @@ The Mendix runtime provides Java APIs that enable extending the data storage beh
 
 Regarding data storage extensibility, the main Java APIs provide the following functionality:
 
-* XPath – APIs to [retrieve from the database using Xpath queries](https://apidocs.mendix.com/7/runtime/com/mendix/core/Core.html#retrieveXPathQuery-com.mendix.systemwideinterfaces.core.IContext-java.lang.String-)
-* OQL – APIs to [retrieve data from the database using OQL queries](https://apidocs.mendix.com/7/runtime/com/mendix/core/Core.html#createOQLTextGetRequestFromDataSet-java.lang.String-)
-* SQL – APIs to directly use the underlying [Java JDBC connection](https://apidocs.mendix.com/7/runtime/com/mendix/datastorage/DataStorage.html) to run any SQL required on your application database
-* Entity event handlers – APIs to register [entity event listeners](https://apidocs.mendix.com/7/runtime/com/mendix/core/actionmanagement/ListenersRegistry.html#registerAfterChangeListener-java.util.function.Consumer-) for all your entities
+* **XPath** – APIs to [retrieve from the database using Xpath queries](https://apidocs.mendix.com/7/runtime/com/mendix/core/Core.html#retrieveXPathQuery-com.mendix.systemwideinterfaces.core.IContext-java.lang.String-)
+* **OQL** – APIs to [retrieve data from the database using OQL queries](https://apidocs.mendix.com/7/runtime/com/mendix/core/Core.html#createOQLTextGetRequestFromDataSet-java.lang.String-)
+* **SQL** – APIs to directly use the underlying [Java JDBC connection](https://apidocs.mendix.com/7/runtime/com/mendix/datastorage/DataStorage.html) to run any SQL required on your application database
+* **Entity event handlers** – APIs to register [entity event listeners](https://apidocs.mendix.com/7/runtime/com/mendix/core/actionmanagement/ListenersRegistry.html#registerAfterChangeListener-java.util.function.Consumer-) for all your entities
 	* This can be used to extract auditing information or do a real-time export of all data changes to an external system
 
 ## 6 How Can I Control the Connection Pooling?

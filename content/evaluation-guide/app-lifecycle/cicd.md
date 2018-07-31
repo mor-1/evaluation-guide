@@ -44,11 +44,9 @@ The Mendix Platform comes with an extensive range of APIs to help Developers int
 
 The following APIs are available to enable the external promotion of model revisions to test, acceptance, and production environments from outside the platform:
 
-* Team Server API – allows you to retrieve the information (branches, revisions) of application models stored on the Team Server
-* Build API – allows you to manage and create new deployment packages using the Mendix Build Server
-* Deployment API – allows you to manage application environments in the Mendix Cloud – you can retrieve the app status, start and stop apps, and deploy and transport new model versions to app environments
-
-{{% todo %}}[**Verify image below has all tooling examples vs Roald's diagram**]{{% /todo %}}
+* **Team Server API** – allows you to retrieve the information (branches, revisions) of application models stored on the Team Server
+* **Build API** – allows you to manage and create new deployment packages using the Mendix Build Server
+* **Deployment API** – allows you to manage application environments in the Mendix Cloud – you can retrieve the app status, start and stop apps, and deploy and transport new model versions to app environments
 
 {{% image_container width="700" %}}
 

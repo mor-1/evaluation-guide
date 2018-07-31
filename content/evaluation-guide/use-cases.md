@@ -1,5 +1,5 @@
 ---
-title: "What Can I Build with Mendix??"
+title: "What Can I Build"
 parent: "introduction"
 bg: "mendix"
 menu_order: 50
@@ -35,8 +35,6 @@ The following types of projects are a natural fit for Mendix:
 *  **Unique systems of records projects** that modernize legacy systems –  customers typically know exactly what they would like to have and the solution is not available off the shelf, since it is a unique system
 
 With fluid requirements and a high rate of change, these types of projects require small cross-functional teams, rapid iteration and releases, and a unified innovation platform like Mendix.
-
-![](attachments/BimodalIT.png)
 
 ## 3 What Are Common Use Cases for Mendix Applications?
 

@@ -1,5 +1,5 @@
 ---
-title: "What Do Gartner & Forrester Say About Mendix?"
+title: "Gartner & Forrester Views"
 parent: "introduction"
 menu_order: 70
 bg: "mendix"

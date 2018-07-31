@@ -60,4 +60,6 @@ For more information, see the section [How Can I Debug a Live App Running in the
 
 In the Mendix Cloud, it is possible to extend the access security of your application by using whitelisting based on IP filtering and by using TLS client certificate verification. This ensure that an application is only accessible from a another specific machine or location (like your office).
 
+{{% image_container width="450" %}}
 ![](attachments/mx-restrictions.png)
+{{% /image_container %}}

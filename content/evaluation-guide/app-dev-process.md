@@ -1,5 +1,5 @@
 ---
-title: "What App Development Process Should I Use with Mendix?"
+title: "Development Process
 parent: "introduction"
 bg: "mendix"
 menu_order: 40
@@ -52,15 +52,13 @@ This core development team runs the entire application delivery lifecycle withou
 
 The roles in the Center of Excellence can be seen as enablers of multiple core development teams, delivering the specific knowledge needed to align the development of multiple apps from a performance, UX/UI, integration, architecture, or process perspectivsae.
 
-## 4 How Does Mendix Fit into Other App Development Processes?
-
-### 4.1 Agile
+## 4 How Does Mendix Fit into Agile?
 
 The Agile methodology is adopted in the DevOps approach. The Agile methodology changed traditional Waterfall projects from a linear approach to an iterative, team-based approach to software development. This approach emphasizes the rapid delivery of an application in complete functional components per “time-boxed” phases called sprints. Each sprint has a defined duration with a running list of deliverables, planned at the start of the sprint. The Agile approach enables the business to review a minimal viable product (MVP), which is a product with just enough features to satisfy and enable the business to provide feedback for future development.  
 
 Mendix enables development teams to adopt an Agile approach based on Scrum in which they collaborate closely with internal and external stakeholders in short iterative development cycles. With capabilities as sprint and story management and integrated feedback management via embedded feedback widgets that enable end-users to provide instant feedback directly within an application. The closed feedback loop enables the development team to quickly resolve queries from the business, facilitating rapid iteration as emphasized in the Agile methodology. Read this section if you would like to learn more about how [Mendix supports Agile Requirements Management](..//app-lifecycle/requirements-management).
 
-### 4.2 DevOps
+## 5 How Does Mendix Fit into DevOps?
 
 DevOps is a software engineering culture and practice that aims at unifying software development (Dev) and software operation (Ops). The main characteristic of the DevOps movement is to strongly advocate automation and monitoring at all steps of software construction, from integration, testing, releasing to deployment and infrastructure management. DevOps aims at shorter development cycles, increased deployment frequency, and more dependable releases, in close alignment with business objectives.
 
@@ -68,7 +66,7 @@ Mendix provides DevOps tools out of the box for CI/CD, test automation, and moni
 
 Compared to DevOps, the BizDevOps approach knocks down the silos between the DevOps teams (meaning, the development teams and operations staff) and the business teams.  
 
-### 4.3 Traditional App Development
+## 6 How Does Mendix Fit into Traditional App Development?
 
 In Traditional App Development feedback could only be given on full working applications, instead of iterative approach in the Agile methodology. Compared to DevOps the teams, Traditional app development projects, development teams, operation teams, and business management teams all operated in silos instead of unifying software development (Dev) and software operation (Ops).
 

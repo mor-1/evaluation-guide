@@ -24,15 +24,15 @@ Application changes can be accommodated more easily. In addition, since the mode
 
 #### 1.2.2 Custom Extensions
 
-[Extending models with custom code]()TODO is controlled more elegantly, as the model is aware of the custom code and includes it in consistency checks, in contrast to the insertion of custom code into generated code. Mendix’s model-interpretation approach solves the fundamental round-trip problem of code generation, whereby changes in the model would conflict with custom-code extensions. Further, not having custom changes in generated code means the technical architecture of the platform can be modernized without impacting your model. This means it is easier and cheaper to benefit from technical innovation.
+Extending models with custom code is controlled more elegantly, as the model is aware of the custom code and includes it in consistency checks, in contrast to the insertion of custom code into generated code. Mendix’s model-interpretation approach solves the fundamental round-trip problem of code generation, whereby changes in the model would conflict with custom-code extensions. Further, not having custom changes in generated code means the technical architecture of the platform can be modernized without impacting your model. This means it is easier and cheaper to benefit from technical innovation.
 
 #### 1.2.3 Monitoring
 
-[Monitoring]()TODO and analyzing application behavior in the runtime can be set up more dynamically and flexibly versus defining monitor parameters beforehand.
+Monitoring and analyzing application behavior in the runtime can be set up more dynamically and flexibly versus defining monitor parameters beforehand.
 
 #### 1.2.4 Debugging
 
-[Debugging]()TODO and solving problems becomes easier for the developer, as they do not have to understand how the generated code relates to the visual model. Debugging and problem-solving are done on the model, not on the generated code.
+Debugging and solving problems becomes easier for the developer, as they do not have to understand how the generated code relates to the visual model. Debugging and problem-solving are done on the model, not on the generated code.
 
 ### 1.2 How Does Mendix Implement Stateless Architecture?
 
@@ -46,12 +46,12 @@ For more information, see [Clustered Mendix Runtime](https://docs.mendix.com/ref
 
 The Runtime consists of 2 main components:
 
-* Clients - Web and mobile clients.
-* Runtime server - scalable runtime to handle server side logic.
+* **Clients** - Web and mobile clients.
+* **Runtime server** - scalable runtime to handle server side logic.
 
-![Mendix architecture](attachments/mendix-architecture.png)
-
-{{% todo %}}[**Maker smaller**]{{% /todo %}}
+{{% image_container width="450" %}}
+![](attachments/mendix-architecture.png)
+{{% /image_container %}}
 
 ### 2.1 Server Architecture
 
@@ -62,37 +62,39 @@ The Mendix Server architecture consists of multiple components to execute logic,
 The runtime consists of the following components:
 
 * **Platform core** – responsible for the correct startup and shutdown of your application and loading the required libraries and extensions
-* *Object cache* – handles the creation and removal of objects
-* *Session manager* – manages the creation of user sessions and the cleanup of logged-out or abandoned sessions.
-* *HTTP server* – included in the Mendix Runtime to handle requests from the web and mobile client and to handle service requests
-* *Microflow engine* – executes your microflows and microflow activities
-* *Data layer* – persists and retrieves objects from your application database. Also responsible for creating and updating the database structures required to persist your data: the data layer supports a large number of different databases, and data is stored using common data model design best practices (for details, see section [9 What Databases Does Mendix Support?](../app-capabilities/data-storage#database-support) in *Data Storage*)
-* *Integration layer* – handles incoming and outgoing service requests for web services, REST APIs, app services, and OData
-* *Client API* – responsible for communication with web and mobile clients; the API is used to retrieve data, persist data changes, and execute microflow logic
-* *Configuration API* – this JSON API is used by the Cloud Portal and container buildpack to configure the runtime
-* *Monitoring API* – this JSON API is used by the Cloud Portal and container buildpack to retrieve monitoring metrics
-* *Custom APIs* – this Java APIs is used to extend the Mendix Runtime (for example, with microflow activities or entity listeners)
+* **Object cache** – handles the creation and removal of objects
+* **Session manager** – manages the creation of user sessions and the cleanup of logged-out or abandoned sessions.
+* **HTTP server** – included in the Mendix Runtime to handle requests from the web and mobile client and to handle service requests
+* **Microflow engine** – executes your microflows and microflow activities
+* **Data layer** – persists and retrieves objects from your application database. Also responsible for creating and updating the database structures required to persist your data: the data layer supports a large number of different databases, and data is stored using common data model design best practices (for details, see section [9 What Databases Does Mendix Support?](../app-capabilities/data-storage#database-support) in *Data Storage*)
+* **Integration layer** – handles incoming and outgoing service requests for web services, REST APIs, app services, and OData
+* **Client API** – responsible for communication with web and mobile clients; the API is used to retrieve data, persist data changes, and execute microflow logic
+* **Configuration API** – this JSON API is used by the Cloud Portal and container buildpack to configure the runtime
+* **Monitoring API** – this JSON API is used by the Cloud Portal and container buildpack to retrieve monitoring metrics
+* **Custom APIs** – this Java APIs is used to extend the Mendix Runtime (for example, with microflow activities or entity listeners)
 
 ### 2.2 Client Architecture
 
-The Mendix Client is responsible for the user interaction and consists of a UI widget layer, a logic layer to execute offline logic, a data layer for offline storage. The diagram shows a schematicl overview.
+The Mendix Client is responsible for the user interaction and consists of a UI widget layer, a logic layer to execute offline logic, a data layer for offline storage. The diagram shows a schematical overview.
 
+{{% image_container width="400" %}}
 ![](attachments/client-architecture.png)
+{{% /image_container %}}
 
 The Mendix clients consist of the following components:
 
-* Communications layer - Exchanges metadata, session managements, and data with the Mendix runtime server. Uses a secure json over http protocol.
-* Data layer - Manages the data used in the front-end. Based on the React Flux pattern to handle state and push changes to UI components
-* Logic layer - Handles data validations and more complex logic using nano-flows.
-* UI component layer - Manages widget lifecycle, communication between widgets, and provides out-of-the-box widgets.
+* **Communications layer** - Exchanges metadata, session managements, and data with the Mendix runtime server. Uses a secure json over http protocol.
+* **Data layer** - Manages the data used in the front-end. Based on the React Flux pattern to handle state and push changes to UI components
+* **Logic layer** - Handles data validations and more complex logic using nano-flows.
+* **UI component layer** - Manages widget lifecycle, communication between widgets, and provides out-of-the-box widgets.
 
 #### 2.2.1 Mobile Client
 
 Mobile applications use the same HTML5-, CSS-, and React-based client architecture, but they are deployed using Apache Cordova. This framework enables mobile apps built using state-of-the-art web technologies to offer a great mobile user experience:
 
-* Accessibility – apps can be discovered in the standard device app store, installed on mobile devices, and be opened via an icon
-* Offline availability – because the application is installed on the mobile devices (including all required resources and potentially cached data), end-users can use your Mendix app offline, and relevant app data is cached in a SQLite database on your device
-* Support for native functionality – Apache Cordoba enables JavaScript applications to use native device functionality – this enables you to, for example, benefit from all the sensors available in your mobile device, like the camera and microphone
+* **Accessibility** – apps can be discovered in the standard device app store, installed on mobile devices, and be opened via an icon
+* **Offline availability** – because the application is installed on the mobile devices (including all required resources and potentially cached data), end-users can use your Mendix app offline, and relevant app data is cached in a SQLite database on your device
+* **Support for native functionality** – Apache Cordoba enables JavaScript applications to use native device functionality – this enables you to, for example, benefit from all the sensors available in your mobile device, like the camera and microphone
 
 For more details on Mendix mobile device support, see [Mobile Apps](../app-capabilities/mobile-apps).
 

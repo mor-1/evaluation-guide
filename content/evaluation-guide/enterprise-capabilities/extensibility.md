@@ -38,8 +38,6 @@ For more information on the use of custom Java actions, see this documentation:
 * [Java Programming](https://docs.mendix.com/refguide/java-programming)
 * [Mendix Java API](https://apidocs.mendix.com/7/runtime/)
 
-{{% youtube MIUGYJnjrqw %}}
-
 ### 1.2 JavaScript Widgets {#custom-widgets}
 
 You can extend the [front-end](../app-capabilities/front-end#extend) of your Mendix applications using custom JavaScript widgets. For mobile apps, these custom JavaScript widgets can include Cordova plugins to provide native functionality in your mobile apps.

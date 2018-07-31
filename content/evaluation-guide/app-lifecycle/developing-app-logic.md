@@ -44,13 +44,13 @@ Microflows and Business rules are used to build server-side logic. Microflows al
 
 A microflow is composed of the following element types:
 
-* Events – represent the start and end points of a microflow and special operations in a loop
-* Input parameters – provide the microflow with input from its context
-* Activities – actions that are executed in a microflow
-* Connectors – these can be downloaded from the [Mendix App Store](https://appstore.home.mendix.com) to connect your app to other systems
-* Flows – form the connection between elements
-* Splits – enable making choices and merging different paths again
-* Error handlers – can be set on an activity, split, or loop to define how to handle an error
+* **Events** – represent the start and end points of a microflow and special operations in a loop
+* **Input parameters** – provide the microflow with input from its context
+* **Activities** – actions that are executed in a microflow
+* **Connectors** – these can be downloaded from the [Mendix App Store](https://appstore.home.mendix.com) to connect your app to other systems
+* **Flows** – form the connection between elements
+* **Splits** – enable making choices and merging different paths again
+* **Error handlers** – can be set on an activity, split, or loop to define how to handle an error
 
 For more information, see [Microflows](https://docs.mendix.com/refguide/microflows_) in the Mendix Reference Guide.
 
@@ -109,7 +109,7 @@ This error handling process ensures consistency across a Mendix app.
 
 The following features in the Mendix Modelers make logic reuse possible and easy:
 
-* Existing microflows and rules can be called from any other microflow or page context in the Mendix app project. This makes reuse of logic inside a project easy. Mendix has refactoring tooling built in that makes it easy to extract logic from an existing microflow into a new microflow containing a well-defined interface of input parameters and a return type. The logic is then fully reusable from any other context.
-* You can reuse your existing Java libraries and custom code in the app logic.
-* Reusable logic can be grouped in modules and exported to the [Mendix App Store](https://appstore.home.mendix.com). From there, it can be shared as public or private (company internal) content with other app projects.
-* The Mendix App Store contains many reusable microflows and microflow connectors that can be downloaded into your app model. This eliminates the need for reinventing the logic for each project. The [Community Commons Function Library](https://appstore.home.mendix.com/link/app/170/) module from the App Store is a great example of shared community best practices.
+* Existing **microflows** and rules can be called from any other microflow or page context in the Mendix app project. This makes reuse of logic inside a project easy. Mendix has refactoring tooling built in that makes it easy to extract logic from an existing microflow into a new microflow containing a well-defined interface of input parameters and a return type. The logic is then fully reusable from any other context.
+* You can reuse your existing **Java libraries and custom code** in the app logic.
+* **Reusable logic** can be grouped in modules and exported to the [Mendix App Store](https://appstore.home.mendix.com). From there, it can be shared as public or private (company internal) content with other app projects.
+* The Mendix **App Store** contains many reusable microflows and microflow connectors that can be downloaded into your app model. This eliminates the need for reinventing the logic for each project. The [Community Commons Function Library](https://appstore.home.mendix.com/link/app/170/) module from the App Store is a great example of shared community best practices.

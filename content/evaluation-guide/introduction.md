@@ -26,12 +26,12 @@ Our vision in a world where software is the lifeblood of every company is to emp
 
 The Mendix Platform brings together the people with ideas and the people that have the technical aptitude to execute on them to create a powerful force for change, which we believe is necessary to compete and survive in a software-driven world.
 
-For details, see [What Is the Vision Behind Mendix?](mendix-vision#vision).
+For details, see [What Is the Vision Behind Mendix?](mendix-vision).
 
 ## What Is Mendix?
 
 
-For details, see [What Is Mendix?](what-is-mendix#what-mendix)
+For details, see [What Is Mendix?](what-is-mendix)
 
 ## Read More
 

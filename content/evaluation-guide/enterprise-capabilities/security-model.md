@@ -32,7 +32,7 @@ Every user role has one or more module roles. Module roles define a role on a mo
 
 What is more, Mendix supports logging in to applications by anonymous users through the configuration of a specific role for this purpose.
 
-For further details, see the section [How Are User Roles Assigned to Users in My App?](#user-roles-assigned) below.
+For further details, see the section [How Are User Roles Assigned to Users in My App?](runtime-security#user-roles-assigned) in *Runtime Security*.
 
 ### 1.3 How Can I Define a Password Policy?
 
@@ -40,7 +40,7 @@ Password policies can be defined flexibly (for example, by configuring the passw
 
 Additionally, two-factor authentication can be enabled within the Mendix Cloud for sensitive activities. Two-factor authentication can also be added anywhere within a Mendix application to further secure access to the app or parts of the app.
 
-For further details, see the section [How Are Passwords Stored in My Mendix App?](#password) below.
+For further details, see the section [How Are Passwords Stored in My Mendix App?](runtime-security#password) in *Runtime Security*.
 
 ### 1.4 How Configurable Is File Access in Mendix?
 

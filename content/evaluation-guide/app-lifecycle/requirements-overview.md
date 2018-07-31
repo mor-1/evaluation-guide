@@ -20,6 +20,6 @@ Mendix enables development teams to adopt an Agile approach based on Scrum in wh
 
 Mendix helps development teams shorten the feedback loop between themselves, end-users, and key stakeholders so that development is effective and efficient. This in turn leads to greater success in the delivery of app projects, lower development costs, and shortened time- to-market.
 
-When development activities on the Mendix Platform extend to a large number of teams, some organizations require more advanced project management tools and services. For this scenario, the Mendix Platform provides APIs for [integration with third-party tools and services](requirements-management#tools).
+When development activities on the Mendix Platform extend to a large number of teams, some organizations require more advanced project management tools and services. For this scenario, the Mendix Platform provides APIs for [integration with third-party tools and services](requirements-management#tooling).
 
 ![](attachments/agile/cycle-1.png)

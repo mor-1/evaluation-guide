@@ -8,7 +8,7 @@ tags: [""]
 
 ## 1 How Is Security Handled in a Mendix App?
 
-Before understanding how security is handled in a Mendix application, it is important to understand the [Mendix Runtime architecture](architecture-principles#runtime).
+Before understanding how security is handled in a Mendix application, it is important to understand the [Mendix Runtime architecture](architecture-runtime).
 
 In a Mendix application, the UI layer is implemented in the Mendix Client as JavaScript libraries running in the browser. For hybrid mobile applications, the UI layer runs in a native Cordova container. The logic and data layers are implemented in the Mendix Runtime (the Mendix Runtime itself is developed in Java and runs on a Java virtual machine).
 

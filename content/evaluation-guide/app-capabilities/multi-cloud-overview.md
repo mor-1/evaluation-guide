@@ -42,7 +42,7 @@ Mendix applications can run on all common public cloud providers, like Amazon We
 
 You can choose the methodology to use – from container-based to VM-based, every methodology is possible.
 
-For more information, see the section [Which Cloud Providers Can I Use for Mendix?](#which-cloud) below.
+For more information, see the section [Which Cloud Providers Can I Use for Mendix?](cloud-providers#which-cloud) in *Cloud Providers*.
 
 ### 2.2 How Can I Run Mendix in a Virtual Private Cloud? {#vpc}
 

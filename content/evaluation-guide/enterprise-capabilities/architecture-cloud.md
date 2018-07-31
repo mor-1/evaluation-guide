@@ -30,7 +30,7 @@ For details, see the [Multi-Cloud Overview](../app-capabilities/multi-cloud-over
 
 Within Mendix Cloud we make use a logical term called App Container to describe the Application isolation within Mendix Cloud. Each Application is fully separated from each other on both compute, memory and storage. A Mendix application runs in 1 or more containers, where a container can only support a single application. Also, for each application a dedicated database and s3 bucket is provisioned to have full isolation on data level as well.
 
-![](attachments/mx-app-container.png)
+![](attachments/environment-runtime-container.png)
 
 ## 4 How Does Mendix Cloud Offer High Availability? {#cloud-ha}
 

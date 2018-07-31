@@ -7,7 +7,7 @@ tags: ["{#can-i-build}"]
 
 ## 1 In General, What Can I Build with Mendix?
 
-With Mendix, you can build a wide range of transactional, event-driven, and adjacent applications for all kinds of industries, regardless of complexity, performance, or [scale](../enterprise-capabilities/architecture-principles#statelessness).
+With Mendix, you can build a wide range of transactional, event-driven, and adjacent applications for all kinds of industries, regardless of complexity, performance, or [scale](enterprise-capabilities/architecture-principles#statelessness).
 
 The [Mendix App Gallery](https://gallery.mendix.com) showcases all kinds of applications built using the Mendix Platform. These applications are there to present you with the art of the possible.
 
@@ -58,7 +58,7 @@ Innovation applications stem from ideas for new digital business models, product
 
 These are the key features that enable you to build innovation apps in Mendix:
 
-* [The Mendix Web Modeler](../app-lifecycle/app-development#web-modeler) enables business users to build prototypes that development teams can continue to enhance via the Desktop Modeler
+* [The Mendix Web Modeler](app-lifecycle/app-development#web-modeler) enables business users to build prototypes that development teams can continue to enhance via the Desktop Modeler
 * [Out-of-the-box connectors](../app-lifecycle/app-store-reuse#connectors) simplify integrating with third-party databases or applications, handling complex XML messages, and utilize IoT and cognitive services, which enables developers to leverage emerging technologies and legacy systems with minimal dependencies on IT
 * [Requirement management](../app-lifecycle/requirements-management) via easy-to-use [Developer Portal](../app-lifecycle/requirements-management#1-how-is-requirements-management-positioned-in-mendix) allows business users to create and track their own user stories, enables the development teams to adopt a Scrum-based development approach and shortens the feedback loop between development teams and the business
 

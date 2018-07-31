@@ -20,7 +20,9 @@ We are committed to keeping our platform up-to-date with the latest technologies
 
 ## 3 How Does Mendix Focus on Adding Business Value?
 
-Delivering applications quickly is a key reason for adopting a low code platform, but to achieve true agility and scale with application development, Mendix marries speed with collaboration and control. We focus on adding business true value first. Mendix brings business and IT together with by providing a creating a common language between both worlds. Business users are empowered Mendix involves the business across the application lifecycle from ideation, and continuous feedback, to direct participation in development with visual models.in the process from a requirements gathering and feedback perspective, as well as from a development perspective. The next section zooms in on how business users, without any conding experience, can build apps with Mendix.
+Delivering applications quickly is a key reason for adopting a low code platform, but to achieve true agility and scale with application development, Mendix marries speed with collaboration and control. Mendix brings business and IT together with by providing a common language between both worlds.
+
+Mendix involves the business users across the application lifecycle from ideation and continuous feedback, to direct participation in development with visual models. The next section zooms in on how business users, without any coding experience, can build apps with Mendix.
 
 ## 4 How Does Mendix Provide Both Low Code & No Code in a Single Platform?
 
@@ -34,11 +36,11 @@ Organizations wanting to harness the power of both groups should look for a rapi
 
 The Mendix Platform contains the Web Modeler and Desktop Modeler, which are visual modeling environments that combine to deliver an integrated and model-driven app development experience across the full continuum of users. What is more, these modeling environments are integrated with the Mendix Development Portal as the backbone for collaborative modeling.
 
-{{% todo %}}[**Need a visual in this section**]{{% /todo %}}
+<video controls src="attachments/Bring-Business-Knowledge-Into-the-App-Development-Process.mp4">VIDEO</video>
 
 ## 5 How Does Mendix Support Full Application Lifecycle Management?
 
-The Mendix platform supports the rapid delivery of Applications through an integrated set of tools designed to cover the full ALM, starting with business requirements capture, teams can create a backlog of user stories, sprint and release plans (Mendix provides an API to integrate with third-party tools, should you already have the technology for requirements management). Once created developers use the Web and Desktop modeling environments to rapidly build and iterate over the current sprints user stories, continuously merging models, shipping revisions for automated testing, and refactoring feedback from the built-in feedback mechanism and collaboration features inside the platform.  
+The Mendix platform supports the rapid delivery of Applications through an integrated set of tools designed to cover the full Application Lifecycle, starting with business requirements capture, teams can create a backlog of user stories, sprint and release plans. Mendix provides an API to integrate with third-party tools, should you already have the technology for requirements management. Once created developers use the Web and Desktop modeling environments to rapidly build and iterate over the current sprints user stories, continuously merging models, shipping revisions for automated testing, and refactoring feedback from the built-in feedback mechanism and collaboration features inside the platform.
 
 All contributing parties from the Product Owner to the Testing teams are continuously connected to changes and updates in the delivery cycle, via real-time interactive data feeds connected to assets in the model, built-in chat and collaboration features, and visual models that enable business users to contribute early and often around design and logic decisions. 
 

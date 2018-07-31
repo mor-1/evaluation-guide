@@ -1,6 +1,7 @@
 ---
 title: "The Mendix Difference"
 parent: "introduction"
+bg: "mendix"
 menu_order: 60
 tags: [""]
 ---
@@ -15,7 +16,7 @@ This section zooms in on the main aspects why Mendix is different compared to ot
 
 Innovation happens when people with ideas and technology come together. The culture of innovation has lived within Mendix from the day that the company was started, resulting in a long list of industry-first innovations. Here is just a glimpse of these industry-first innovations that our customers have been able to leverage: App Store (2010), Full Application Lifecycle Management support (2012), 1-click Cloud Deploy (2013), Platform API (2013), Mobile support (2014), Sandboxes/Free cloud environments (2014), Cloud Foundry support (2014), Offline Mobile support (2015), Model Share (2015), Model API & SDK (2015), Horizontal scalability (2015), Cloud-native low-code app runtime (2017), High-control and scalable cloud (2017), low-code and no-code collaboration via Web Modeler (2017), adopting Docker and Kubernetes (2017) and the first low code platform to support AI-assisted development (2018).
 
-We are committed to keeping our platform up-to-date with the latest technologies so our customers can deliver differentiated applications in record time.  
+We are committed to keeping our platform up-to-date with the latest technologies so our customers can deliver differentiated applications in record time.
 
 ## 3 How Does Mendix Focus on Adding Business Value?
 
@@ -25,7 +26,7 @@ Delivering applications quickly is a key reason for adopting a low code platform
 
 Both no-code and low-code tools use visual, model-driven development concepts to speed up and transform application development.
 
-No-code tools (as the name suggests) enable users to build apps without writing any code. The target audience for this capability consists of business analysts, business developers, and citizen developers – users with no or very little experience in software development. Low-code tools add another dimension, which is the ability to extend application models with custom code, such as Java extensions. This makes low-code tools appealing to a far wider range of developers with any level of software development experience. 
+No-code tools (as the name suggests) enable users to build apps without writing any code. The target audience for this capability consists of business analysts, business developers, and citizen developers – users with no or very little experience in software development. Low-code tools add another dimension, which is the ability to extend application models with custom code, such as Java extensions. This makes low-code tools appealing to a far wider range of developers with any level of software development experience.
 
 In a way, the "low-code" and "no-code" labels can be misleading. At Mendix, we think the main distinction is found in the types of people using these tools.
 
@@ -52,5 +53,3 @@ Mendix has strategic partnerships with both SAP and IBM.
 SAP has adopted the Mendix Platform as their own rapid application development platform for extending their solutions. The SAP Solution Extension partnership means you can not only purchase Mendix from SAP directly, but quickly and easily integrate Mendix with SAP in a variety of ways, take advantage of a single point of contact for support, and build Mendix apps on top of SAP.
 
 Mendix is the standard low-code development platform to be used on top of IBM Cloud. This means you can utilize IBM as a single contact for using Mendix on IBM Cloud.
-
-

@@ -2,6 +2,7 @@
 title: "What Do Gartner & Forrester Say About Mendix?"
 parent: "introduction"
 menu_order: 70
+bg: "mendix"
 tags: [""]
 ---
 
@@ -37,7 +38,7 @@ Download your complimentary report *The Forrester Wave™: Low-Code Development 
 
 ## 4 Gartner 2018 Magic Quadrant for Mobile App Development Platforms
 
-According to Gartner, by 2022, citizen developers will be building more than one-third of web and mobile employee-facing apps delivered in organizations with mature citizen development initiatives (*Gartner Inc., “Market Guide for Rapid Mobile App Development Tools,” November 30, 2017, Jason Wong*). 
+According to Gartner, by 2022, citizen developers will be building more than one-third of web and mobile employee-facing apps delivered in organizations with mature citizen development initiatives (*Gartner Inc., “Market Guide for Rapid Mobile App Development Tools,” November 30, 2017, Jason Wong*).
 
 Here's what the report states about Mendix:
 
@@ -55,7 +56,7 @@ Here's what the report states about Mendix:
 
 "Mendix combines feature breadth with mobile features enterprises need. Mendix is an 11-year-old company founded in the netherlands and now headquartered in the US. Mendix builds its product on cloud Foundry, although it’s fully abstracted from the low-code developer’s purview. the Mendix platform includes mobile capabilities that are frequently sought by tech management teams, such as an embedded enterprise app store, flexible deployment options, and broad reporting capabilities. Mendix makes extensive use of declarative tooling to create and deliver applications and drive integration. Mendix also offers a generous free-access program to help customers get started with the platform. one customer reference has built more than 60 apps in the last two years, which would have been impossible with traditional development tools and the resources on staff.
 
-The Mendix platform has a few functional weaknesses, the most glaring of which is its lack of 
+The Mendix platform has a few functional weaknesses, the most glaring of which is its lack of
 security certifications. Mendix relies too heavily on the security certifications of its cloud-platform partners. Also, the vendor’s size ($25 million-$50 million in revenue) gives pause to some global enterprises. Still, Mendix has about 500 customers, including large enterprises."
 
 Download your free *The Forrester Wave™: Mobile Low-Code Development Platforms, Q1 2017* analyst report [here](https://www.mendix.com/resources/forrester-mobile-low-code-wave/).

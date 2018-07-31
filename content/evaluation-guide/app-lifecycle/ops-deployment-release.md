@@ -12,8 +12,6 @@ Staging and deployment is an essential part of the DevOps process, and having pr
 
 ## 2 How Do I Deploy My Apps as Part of the Release Process?
 
-{{% todo %}}**[Note from David: discuss: Some docs talk about Mendix Deployment Archive, some about Mendix Deployment Package, there's a Deployment Package Repository.. what is the correct name?]**{{% /todo %}}
-
 Before deploying an application, a deployment package is required. Using the Mendix Build Server, applications are automatically built and packaged in the cloud. The Build Server will generate a Mendix Deployment Archive (MDA), which contains all the relevant assets to deploy your application.
 
 <video controls src="attachments/DO_BuildingRevisionFromCloudPortal.mp4">Create a versioned deployment package from the Mendix Developer Portal</video>

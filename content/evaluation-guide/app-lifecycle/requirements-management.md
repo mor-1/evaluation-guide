@@ -10,7 +10,7 @@ tags: ["agile", "requirements", "requirements management", "project management",
 
 Mendix enables development teams to adopt a Scrum-based development approach through easy-to-use [backlog management](#backlog) features, [feedback gathering and management tools](feedback-management#feedback-management), and [rapid deployment](devops-overview#support-devops) to testing, acceptance, and production environments.
 
-The development team can [involve users and other stakeholders](collaboration-channels#stakeholder-involvement) through multiple channels. Preview versions of apps can be rolled out to end-users through the [Mendix mobile app](https://docs.mendix.com/refguide/getting-the-mendix-app). Those end-users can provide feedback through the [Mendix Feedback Widget](https://appstore.home.mendix.com/link/app/199/). The development team can communicate with users through Buzz messages for each feedback item. Finally, end-users and other stakeholders can actively take part in the conversation through the Developer Portal and the Mendix mobile app.
+The development team can [involve users and other stakeholders](collaboration-channels#stakeholder-involvement) through [multiple channels](collaboration-channels). Preview versions of apps can be rolled out to end-users through the [Mendix mobile app](https://docs.mendix.com/refguide/getting-the-mendix-app). Those end-users can provide feedback through the [Mendix Feedback Widget](https://appstore.home.mendix.com/link/app/199/). The development team can communicate with users through Buzz messages for each feedback item. Finally∑, end-users and other stakeholders can actively take part in the conversation through the Developer Portal and the Mendix mobile app.
 
 When development scales up to larger numbers of teams, advanced project management is often desirable. Mendix supports [integration with third-party project management tools and services](#tooling) in order to facilitate organizations with setting up appropriate development project management structures.
 
@@ -54,22 +54,29 @@ If you are working on a large with many teams and you find the Mendix Platform d
 
 {{% todo %}}[**Video with integration with Jira from legacy guide**]{{% /todo %}}
 
-{{% todo %}}**[David: Discuss: Should we say the following?]**{{% /todo %}}
-
 Mendix recommends that teams starting with Mendix for the first time leverage all the functionality available as part of the platform in order to bring your first application into production in the least possible time, without dependencies on external tools and services. The next step can be to integrate with a third-party project management tool or service of choice, but this is not necessary for the successful delivery of your first app.
 
 ## 4 Reporting & Dashboards
 
 {{% todo %}}[**Needs content**]{{% /todo %}}
 
+Reporting —> progress tracking —> scrum/kanban board, story state
+—> Communicate to business what current status is
+
+Project mgmt reporting —> Jira integration
+
 ## 5 Release Management
 
 {{% todo %}}[**Add content: Notifications to stakeholders when sprint is closed & release is done**]{{% /todo %}}
 
-## 9 Traceability & Auditability
+## 6 How can changes made to application models be traced back to requirements?
 
-{{% todo %}}[**Needs content**]{{% /todo %}}
+Developers can commit changes made to their application models with a reference to user stories defined for those aplications in the Developer Portal. This enables development teams to go back and check for commits why a change was made. Alternatively, developers can review the changes associated with a user story.
 
-* Requirements definitition in user stories
-* Prioritization
-* Planning in sprints
+For more details, see the section on how [user stories can be cross-referenced with Team Server commits](version-control#cross-reference).
+
+## 7 How can I audit which changes have been made to requirements? 
+
+All changes made to user stories are recorded in an audit trail for future reference. This audit trail shows which user made changes, and allows for rollback as well. 
+
+{{% todo %}}Screenshot of user story audit trail{{% /todo %}}

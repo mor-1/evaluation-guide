@@ -17,17 +17,17 @@ Because of this strategic reseller partnership that exists between IBM and Mendi
 
 For details, see [What Type of Partnership Does Mendix Have with IBM?](ibm-overview#ibm-partnership-type)
 
-## What Does the Mendix-IBM Partnership Offer?
+## How Can I Start Using Mendix on IBM Cloud?
 
-{{% todo %}}[**Featured question section is not filled out, thus summary link goes to empty section - how to fix?**]{{% /todo %}}
+{{% todo %}}[**Needs content**]{{% /todo %}}
 
-For details, see [What Does the Mendix-IBM Partnership Offer?](ibm-overview#ibm-partnership-offer)
+For details, see [How Can I Start Using Mendix on IBM Cloud?](ibm-integration#start-ibm)
 
-## How Can I Integrate Mendix with IBM Cloud?
+## Which IBM Services Can I Use Within Mendix?
 
-{{% todo %}}[**Featured question section is not filled out, thus summary link goes to empty section - how to fix?**]{{% /todo %}}
+{{% todo %}}[**Needs content**]{{% /todo %}}
 
-For details, see [How Can I Integrate Mendix with IBM Cloud?](ibm-integration#integrate-with-ibm)
+For details, see [Which IBM Services Can I Use Within Mendix?](ibm-integration#ibm-services)
 
 ## Read More
 

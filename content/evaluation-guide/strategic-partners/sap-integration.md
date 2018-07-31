@@ -40,11 +40,7 @@ Along with the SAP OData Connector, this allows you to consume any service provi
 
 ![](attachments/api_business_hub_mg.png )
 
-## 6 How Can I Integrate Mendix with SAP? {#integrate-with-sap}
-
-{{% todo %}}**[Note from Adam: Erno, this question was specified by Roald, and it will go on the landing page card. Please consult with Roald for what content should go here. Content can probably be moved from other sections of this doc.]**{{% /todo %}}
-
-### 6.1 How Can I Integrate Mendix with SAP Fiori?
+## 6 How Can I Integrate Mendix with SAP Fiori? {#integrate-with-sap-fiori}
 
 The Mendix SAP integration comes with a standard application template for SAP Fiori-styled applications. This template includes the primary SAP Fiori page layout and theming, so your application can be used within the SAP Fiori launchpad next to your existing SAP Fiori applications.
 
@@ -61,9 +57,5 @@ Another reason to use OData is that in addition to SAP Business Suite and SAP S/
 For SAP Business Suite, SAP Gateway (also known as SAP NetWeaver) is used to publish services in OData. This is supported for both standard and custom (Z-) services in your SAP Business Suite stack.
 
 Based on this strategy, the jointly-owned integration between the Mendix Platform and SAP is based on OData. This does not  exclude the ability to also use BAPI, but it is not recommended by either SAP or Mendix.
-
-## 8 How Can I Start Building a Mendix App on Top of SAP?
-
-{{% todo %}}**[Note from Adam: Erno, this question was specified by Roald. Please consult with Roald for what content should go here. ]**{{% /todo %}}
 
 <video controls src="attachments/CreateSAPAppSmaller.mp4">VIDEO</video>

@@ -1,5 +1,5 @@
 ---
-title: "Development Process
+title: "Development Process"
 parent: "introduction"
 bg: "mendix"
 menu_order: 40

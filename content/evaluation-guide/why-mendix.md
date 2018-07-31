@@ -45,9 +45,13 @@ Avoiding the pitfalls of 4GL tooling (basically: it creates tomorrow's legacy), 
 The right model-driven development approach leverages model execution at runtime rather than generating code. The model is transformed automatically into a working software application by interpreting and executing it. This removes the need to generate code at all.
 With Mendix model driven development is visual from start till finish, making sure the customer is engaged and requirements are always aligned, right from the get go and throughout the development cycle. To avoid developers getting stuck, Mendix has made sure that any model is extensible: in this way highly specific application features and low-level optimizations can be built without sacrificing the benefits of model driven development.
 
-## 5 What Development Process Bridges the Gap between Business and IT?
+## 5 What Development Process Bridges the Gap Between Business and IT?
 
-At the same time, Mendix has always realized that you need more than technology to bridge the gap. An iterative, agile process is required that allows key users and stakeholders to be involved in every iteration, allowing for fast experimentation and on-the-spot feedback. While this process can be applied to any software development project, the unique combination of fast and visual model driven development with an iterative, agile process speeds up the development hugely. At the same time it ensures the customer will be happy with the result, removing a lot of frustration and setting the customer up for success.
+At the same time, Mendix has always realized that you need more than technology to bridge the gap. An iterative, agile process is required that allows key users and stakeholders to be involved in every iteration, allowing for fast experimentation and on-the-spot feedback. 
+
+![](attachments/Mendix_RAD_process.png)
+
+While this process can be applied to any software development project, the unique combination of fast and visual model driven development with an iterative, agile process speeds up the development hugely. At the same time it ensures the customer will be happy with the result, removing a lot of frustration and setting the customer up for success.
 
 And thus Mendix came into creation.
 

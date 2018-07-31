@@ -41,9 +41,9 @@ The Mendix Platform is designed to accelerate enterprise app delivery across you
 
 For more details, see [App Lifecycle](app-lifecycle/index).
 
-## 6 How Does Mendix Provide a Full Cloud-Native Architecture?
+## 6  What Does the Mendix Cloud-Native Architecture Look Like?
 
-{{% todo %}}[**New section, needs content**]{{% /todo %}}
+The Mendix cloud-native architecture enables you to scale your applications and nodes while supporting the speed and flexibility required to deliver new functionality. Built-in Agility and DevOps combine with our Cloud-Foundry (PaaS) support to allow small cross-functional teams to deploy highly portable, microservices based applications in containers.  
 
 ## 7 What Strategic Partnerships Has Mendix Developed?
 

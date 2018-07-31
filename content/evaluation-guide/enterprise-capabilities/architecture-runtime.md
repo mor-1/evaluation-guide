@@ -77,7 +77,7 @@ The runtime consists of the following components:
 
 The Mendix Client is responsible for the user interaction and consists of a UI widget layer, a logic layer to execute offline logic, a data layer for offline storage. The diagram shows a schematicl overview.
 
-{{% todo %}}[**Need diagram to be made by UX - client-architecture.png; correlate list to layer order in image ]{{% /todo %}}
+![](attachments/client-architecture.png)
 
 The Mendix clients consist of the following components:
 

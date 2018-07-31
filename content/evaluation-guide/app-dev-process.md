@@ -1,6 +1,7 @@
 ---
 title: "What App Development Process Should I Use with Mendix?"
 parent: "introduction"
+bg: "mendix"
 menu_order: 40
 tags: [""]
 ---
@@ -33,15 +34,15 @@ What is more, the combination of the evolving processes and the involvement of l
 
 ## 3 How Does BizDevOps Change Roles & Responsibilities in My Organziation? {#changing-roles}
 
-There are three main roles involved in a core development team in Mendix low-code BizDevOps projects. 
+There are three main roles involved in a core development team in Mendix low-code BizDevOps projects.
 
 The other roles that were traditionally part of the development process are involved too, as enablers of the project
 
-The other roles that were traditionally part of the development process are involved too, as enablers and specialists for the project as well as for the complete program and portfolio of apps that are under development. 
+The other roles that were traditionally part of the development process are involved too, as enablers and specialists for the project as well as for the complete program and portfolio of apps that are under development.
 
 ### 3.1 Three Roles in the Core Development Team
 
-First of all, the business user has a key role in the BizDevOps process. The business user is as a product owner responsible for providing the input from the business in requirements or feedback on the app, and translating them into user stories. 
+First of all, the business user has a key role in the BizDevOps process. The business user is as a product owner responsible for providing the input from the business in requirements or feedback on the app, and translating them into user stories.
 
 Next, the business analyst (who talks to the business) works together with a more technical developer to run the entire application delivery lifecycle, including the operations. The involvement of the business analyst is key in interpreting the requirements and feedback from the business correctly. In other words, they speak the same language to verify the UX/UI (pages) and business rules (logic). The technical developer is key to helping build the app and deliver tangible results.
 
@@ -59,12 +60,12 @@ The Agile methodology is adopted in the DevOps approach. The Agile methodology c
 
 ### 4.2 DevOps
 
-DevOps is a software engineering culture and practice that aims at unifying software development (Dev) and software operation (Ops). The main characteristic of the DevOps movement is to strongly advocate automation and monitoring at all steps of software construction, from integration, testing, releasing to deployment and infrastructure management. DevOps aims at shorter development cycles, increased deployment frequency, and more dependable releases, in close alignment with business objectives. 
+DevOps is a software engineering culture and practice that aims at unifying software development (Dev) and software operation (Ops). The main characteristic of the DevOps movement is to strongly advocate automation and monitoring at all steps of software construction, from integration, testing, releasing to deployment and infrastructure management. DevOps aims at shorter development cycles, increased deployment frequency, and more dependable releases, in close alignment with business objectives.
 
 Compared to DevOps, the BizDevOps approach knocks down the silos between the DevOps teams (meaning, the development teams and operations staff) and the business teams.
 
 ### 4.3 Traditional App Development
 
-In Traditional App Development feedback could only be given on full working applications, instead of iterative approach in the Agile methodology. Compared to DevOps the teams, Traditional app development projects, development teams, operation teams, and business management teams all operated in silos instead of unifying software development (Dev) and software operation (Ops). 
+In Traditional App Development feedback could only be given on full working applications, instead of iterative approach in the Agile methodology. Compared to DevOps the teams, Traditional app development projects, development teams, operation teams, and business management teams all operated in silos instead of unifying software development (Dev) and software operation (Ops).
 
 The development team worked on the app (or better said, worked on the code before the introduction of low-code platforms), the operations team maintained the app after it was released, and the business management team reviewed the app, gave feedback, and set the requirements for new app development projects. In BizDevOps, the business management team is so tightly integrated in the process that they can be seen as partners of the development team.

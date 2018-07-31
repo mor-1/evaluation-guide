@@ -25,7 +25,7 @@ For information on getting started with Mendix, have a look at [First Steps with
 
 ## 3 How Does Mendix Enable Model-Driven Development? {#enable}
 
-**[Adam: please make sure this picture is visible]**
+{{% todo %}}**[Adam: please make sure this picture is visible]**{{% /todo %}}
 
 ![](attachments/BothModelers.png)
 

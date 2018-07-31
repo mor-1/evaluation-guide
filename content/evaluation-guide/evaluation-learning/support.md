@@ -59,8 +59,6 @@ Customers may wish to outsource the development and management of their applicat
 
 Partners are ranked using the [Mendix Partner Profiles](https://developer.mendixcloud.com/link/partneroverview). Customers can see how many trained and certified engineers each partner has, their [projects](https://developer.mendixcloud.com/link/customers) they have completed, and their references. The partners can be filtered by experience, industry, and area.
 
-![](attachments/partner-projects.png)
-
 The Mendix development partners can give advice, help you realize projects, and take over complete development cycles.
 
 ### 7.2 Mendix Expert Services

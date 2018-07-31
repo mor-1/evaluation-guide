@@ -13,9 +13,11 @@ The Mendix Web Modeler is a browser-based, no-code development environment for b
 
 ## {Video}
 
+{{% todo %}}Add video or remove title{{% /todo %}}
+
 ## How Does Mendix Enable Model-Driven Development?
 
-{Brief answer}
+{{% todo %}}Brief answer{{% /todo %}}
 
 For details, see [How Does Mendix Enable Model-Driven Development?](app-development#enable)
 
@@ -27,7 +29,7 @@ For details, see [How Does Mendix Support Different Developer Profiles?](app-dev
 
 ## How Does Mendix Support Multi-User Development?
 
-{Brief answer}
+{{% todo %}}Brief answer{{% /todo %}}
 
 For details, see [How Does Mendix Support Multi-User Development?](version-control#multi-user)
 

@@ -1,6 +1,7 @@
 ---
 title: "What Is Mendix?"
 parent: "introduction"
+bg: "mendix"
 menu_order: 30
 tags: [""]
 ---
@@ -34,7 +35,7 @@ The value of collaboration is strengthened through the Mendix Platform’s suppo
 
 ### 2.2 Development & Testing
 
-The next step is to develop your application and *convert ideas into app logic*. Mendix uses visual modeling languages for all the aspects of an application and is designed for a variety of users, while providing powerful capabilities to developers for their day-to-day work. 
+The next step is to develop your application and *convert ideas into app logic*. Mendix uses visual modeling languages for all the aspects of an application and is designed for a variety of users, while providing powerful capabilities to developers for their day-to-day work.
 
 * Business Analysts and Business Developers can directly use the Mendix Web Modeler to build, review, and collaborate on an app.
 Developers with a technical programming background can use the Mendix Desktop Modeler along with Java and JavaScript to build and extend an app.
@@ -43,7 +44,7 @@ Developers with a technical programming background can use the Mendix Desktop Mo
 
 With Mendix, development is visual from start till finish, making sure the customer is engaged and requirements are always aligned, right from the get go and throughout the development cycle. To avoid developers getting stuck, Mendix has made sure that any model is extensible: in this way highly specific application features and low-level optimizations can be built without sacrificing the benefits of model driven development.
 
-The Mendix Platform provides development teams with an extensive toolset with extension points to set up effective quality assurance with efficient test automation. The platform contains an integrated automated quality governance tool called Application Quality Monitor (AQM), which monitors the quality during operation. AQM offers a dashboard that provides instant insight into the quality of the application models that you are building and provides insight on the right granularity of apps and microservices. 
+The Mendix Platform provides development teams with an extensive toolset with extension points to set up effective quality assurance with efficient test automation. The platform contains an integrated automated quality governance tool called Application Quality Monitor (AQM), which monitors the quality during operation. AQM offers a dashboard that provides instant insight into the quality of the application models that you are building and provides insight on the right granularity of apps and microservices.
 
 To discover more about all these capabilities, see [Developing in Mendix](app-lifecycle/developing-in-mendix).
 

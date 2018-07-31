@@ -7,6 +7,8 @@ menu_order: 10
 tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 ---
 
+{{% todo %}}Fix titles{{% /todo %}}
+
 ## {Intro Text}
 
 DRAFT: The value of collaboration is strengthened through the Mendix Platform’s support for Agile requirements management. Learn about the Agile tools built into Mendix that will help you to manage your projects and teams effectively from day one.

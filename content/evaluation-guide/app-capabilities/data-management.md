@@ -7,6 +7,8 @@ bg: "data"
 tags: [""]
 ---
 
+{{% todo %}}Fix titles{{% /todo %}}
+
 ## {Intro Text}
 
 DRAFT OR NEW PAGE (How Does Data Management Work in Mendix)? VERIFY: Application data can be derived from many sources, such as existing systems, SQL databases, service calls, Web APIs, and local application-specific databases. In most cases, an application combines multiple sources of data to deliver new systems of differentiation and innovation. A Mendix application is able to sit on top of disparate sources of data as well as store new amalgamated data in a local SQL database.
@@ -21,19 +23,19 @@ A Mendix app project includes a local database for development and provisions a 
 
 ## What Databases Does Mendix Support?
 
-{Brief answer}
+{{% todo %}}Brief answer{{% /todo %}}
 
 For details, see [What Databases Does Mendix Support?](data-storage#database-support)
 
 ## How Does Object-Relational Mapping Work in Mendix?
 
-{Brief answer}
+{{% todo %}}Brief answer{{% /todo %}}
 
 For details, see [How Does Object-Relational Mapping Work in Mendix?](data-storage#object-relational-mapping)
 
 ## How Does Mendix Ensure Data Security?
 
-{Brief answer}
+{{% todo %}}Brief answer{{% /todo %}}
 
 For details, see [How Does Mendix Ensure Data Security?](data-security#ensure-data-security)
 

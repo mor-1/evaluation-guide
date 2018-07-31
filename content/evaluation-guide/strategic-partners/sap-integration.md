@@ -42,7 +42,7 @@ Along with the SAP OData Connector, this allows you to consume any service provi
 
 ## 6 How Can I Integrate Mendix with SAP? {#integrate-with-sap}
 
-**[Note from Adam: Erno, this question was specified by Roald, and it will go on the landing page card. Please consult with Roald for what content should go here. Content can probably be moved from other sections of this doc.]**
+{{% todo %}}**[Note from Adam: Erno, this question was specified by Roald, and it will go on the landing page card. Please consult with Roald for what content should go here. Content can probably be moved from other sections of this doc.]**{{% /todo %}}
 
 ### 6.1 How Can I Integrate Mendix with SAP Fiori?
 
@@ -64,6 +64,6 @@ Based on this strategy, the jointly-owned integration between the Mendix Platfor
 
 ## 8 How Can I Start Building a Mendix App on Top of SAP?
 
-**[Note from Adam: Erno, this question was specified by Roald. Please consult with Roald for what content should go here. ]**
+{{% todo %}}**[Note from Adam: Erno, this question was specified by Roald. Please consult with Roald for what content should go here. ]**{{% /todo %}}
 
 <video controls src="attachments/CreateSAPAppSmaller.mp4">VIDEO</video>

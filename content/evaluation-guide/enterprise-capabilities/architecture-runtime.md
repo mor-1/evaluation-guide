@@ -34,7 +34,7 @@ Monitoring and analyzing application behavior in the runtime can be set up more 
 
 Debugging and solving problems becomes easier for the developer, as they do not have to understand how the generated code relates to the visual model. Debugging and problem-solving are done on the model, not on the generated code.
 
-### 1.2 How Does Mendix Implement Stateless Architecture?
+### 1.3 How Does Mendix Implement Stateless Architecture?
 
 To ensure scalability, performance, and high availability, Mendix has implemented a stateless runtime. This means that any runtime instance available can handle a user request, regardless of any previous requests or subsequent requests.
 

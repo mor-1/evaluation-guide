@@ -7,6 +7,8 @@ bg: "integration"
 tags: [""]
 ---
 
+{{% todo %}}Fix titles{{% /todo %}}
+
 ## {Intro Text}
 
 DRAFT: Mendix supports integrating via data mapping, using JSON snippets, consuming REST and web services, publishing SOAP and OData services, and importing data from various sources. Learn more about how to integrate your Mendix app projects with external services.
@@ -15,19 +17,19 @@ DRAFT: Mendix supports integrating via data mapping, using JSON snippets, consum
 
 ## How Can I Integrate with Mendix?
 
-{Brief answer}
+{{% todo %}}Brief answer{{% /todo %}}
 
 For details, see [How Can I Integrate with Mendix?](integration-overview#integrate-with)
 
 ## How Does Mendix Support Data Mapping?
 
-{Brief answer}
+{{% todo %}}Brief answer{{% /todo %}}
 
 For details, see [How Does Mendix Support Data Mapping?](data-mappings#data-mapping)
 
 ## How Does Mendix Support REST & Web Services?
 
-{Brief answer}
+{{% todo %}}Brief answer{{% /todo %}}
 
 For details, see [How Does Mendix Support REST & Web Services?](consuming-services#support-rest-web)
 

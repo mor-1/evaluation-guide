@@ -7,7 +7,11 @@ bg: "evaluation"
 tags: [""]
 ---
 
+{{% todo %}}Fix titles{{% /todo %}}
+
 ## {Intro Text}
+
+{{% todo %}}Draft{{% /todo %}}
 
 DRAFT: When evaluating all that the Mendix Platform has to offer, you need  to consider what can and shouldn’t be built with Mendix, which app  developing process to follow, the support options on offer, and how to  take advantage of the vibrant Mendix community.
 
@@ -15,19 +19,19 @@ DRAFT: When evaluating all that the Mendix Platform has to offer, you need  to c
 
 ## How Can I Quickstart My App Development Project?
 
-{Brief answer}
+{{% todo %}}Brief answer{{% /todo %}}
 
 For details, see [How Can I Quickstart My App Development Project](getting-started#starter-apps)
 
 ## Where Do I Start with the Mendix Platform?
 
-{Brief answer}
+{{% todo %}}Brief answer{{% /todo %}}
 
 For details, see [Where Do I Start with the Mendix Platform?](getting-started#where-do-i-start)
 
 ## What Can the Mendix Community Do for Me?
 
-{Brief answer}
+{{% todo %}}Brief answer{{% /todo %}}
 
 For details, see [What Can the Mendix Community Do for Me?](community#community-do-for-me)
 

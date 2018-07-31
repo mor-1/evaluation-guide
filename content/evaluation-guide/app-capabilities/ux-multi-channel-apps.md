@@ -15,6 +15,8 @@ Finally, in addition to many standard components, Mendix offers several options 
 
 ## {Video}
 
+{{% todo %}}Add video or remove title{{% /todo %}}
+
 ## How Does Mendix Support Multi-Channel Applications?
 
 Mendix provides a single development paradigm for building multi-channel apps. You can build simple responsive user experiences to complete offline mobile apps with client-side logic and data synchronization as well as everything in between.

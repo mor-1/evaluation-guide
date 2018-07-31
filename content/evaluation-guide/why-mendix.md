@@ -14,7 +14,13 @@ The founders of Mendix learned it the hard way: delivering software that fulfill
 
 Rewind the clock to the early 2000s. One of the founders of Mendix (Roald Kruit) is developing software as a free-lance developer. Time and time again he finds that, despite long hours of work and all the best intentions, the customer (often: the business) isn't happy with the result. Even creating long functional requirement documents up front does not help solve this problem. The result: a frustrated customer, let alone a frustrated and increasingly demotivated developer.
 
-How could this happen? It doesn't take long for Roald to realize that apparently he doesn't understand the business after all, despite lengthy documents and long requirements sessions. Many implicit assumptions exist on both sides about how the software will work or the way it will look. And even if there is perceived alignment, the next day the customer's requirements will change, consciously or unconsciously, which takes the whole process back to square one. Why can't the business simply make up their minds on what they want? Determined to get to the root of this problem, Roald gets an MBA. It is during his studies that he gets a full view on how large and how fundamental the problem actually is. In essence: people on the business side and people on the IT side think and act inherently different. Unless that gap is bridged, there is very little chance any software project will be remotely successful.
+How could this happen? It doesn't take long for Roald to realize that apparently he doesn't understand the business after all, despite lengthy documents and long requirements sessions. Many implicit assumptions exist on both sides about how the software will work or the way it will look. And even if there is perceived alignment, the next day the customer's requirements will change, consciously or unconsciously, which takes the whole process back to square one. Why can't the business simply make up their minds on what they want? Determined to get to the root of this problem, Roald gets an MBA. It is during his studies that he gets a full view on how large and how fundamental the problem actually is: 
+
+{{% alert type="info" %}}
+
+In any organization, people on the business side and people on the IT side think and act inherently different. Unless that gap is bridged, there is very little chance any software project will be remotely successful.
+
+{{% /alert %}}
 
 ## 3 What Gap Needed to Be Bridged?
 

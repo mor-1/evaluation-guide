@@ -35,7 +35,7 @@ The first step of the Application Lifecycle Management process is Ideation. The 
 
 The value of collaboration is strengthened through the Mendix Platform’s support for Agile requirements management. Learn about the Agile tools built into Mendix that will help you to manage your projects and teams effectively from day one.
 
-![](attachments/Ideation-Requirements-Management.mp4)
+<video controls src="attachments/Ideation-Requirements-Management.mp4">VIDEO</video>
 
 ### 2.2 Development & Testing
 

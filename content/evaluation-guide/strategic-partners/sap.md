@@ -9,7 +9,7 @@ tags: [""]
 
 SAP, the world leader in enterprise applications, and Mendix have joined forces to help enterprises shorten time to value for web and mobile apps that leverage their investments in SAP software. Mendix is a Solution Extension partner for SAP. 
 
-{{% todo %}}[**Can use video of Johan talking about SAP partnership that was already made**]{{% /todo %}}
+{{% youtube nlSdYoRUSoc %}}
 
 ## What Type of Partnership Does Mendix Have with SAP?
 

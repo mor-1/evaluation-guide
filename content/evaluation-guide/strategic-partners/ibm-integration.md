@@ -12,7 +12,7 @@ Mendix can be found in IBM Cloud as starter kits within the standard development
 
 ![](attachments/mendix-ibm-cloud-integration2.png)
 
-### 1.1 How Can I Run my Application on IBM Cloud?
+### 1.1 How Can I Run & Deploy My Application on IBM Cloud?
 
 IBM has integrated the provisioning and deployment of Mendix applications directly into the IBM Cloud. This is done using the IBM Toolchain and CI/CD pipeline integration.
 
@@ -33,3 +33,6 @@ These are the services available as connectors:
  * [IBM Weather Company Connector](https://appstore.home.mendix.com/link/app/106297/)
 
 ![](attachments/ibm-appstore-connectors.png)
+
+
+

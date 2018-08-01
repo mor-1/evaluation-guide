@@ -6,13 +6,13 @@ bg: "sap"
 tags: [""]
 ---
 
-## 1 How Can I Deliver a Single Sign-On Experience in My Mendix Apps Extending SAP?
+## 1 How Can I Deliver a Single Sign-On Experience in My Mendix App Extending SAP?
 
 SAP Cloud Platform comes with a standard identity provider (IDP) integration, also known as a trust configuration within the SAP Cloud Platform. This is a standard SAML2-based trust between your IDP and the SAP Cloud Platform.
 
 After configuring this trust, a Mendix application automatically integrates with the IDP. By mapping the Mendix application roles with the self-defined SAP Cloud Platform roles attached to your IDP, you can log in to the Mendix app with the specific assigned role using your corporate identity.
 
-For more details, see [How to Use the SAP XSUAA Connector](https://docs.mendix.com/howto/sap/use-sap-xsuaa-connector).
+For more details, see [How to Use the SAP XSUAA Connector](https://docs.mendix.com/howto/sap/use-sap-xsuaa-connector) in the Mendix documentation.
 
 ## 2 How Does Mendix Support Principle Propagation Between My Mendix App & the SAP Back-End System? {#principle}
 
@@ -28,7 +28,7 @@ The SAP Cloud Connector allows you to set up connections to any end-point within
 
 ![](attachments/rest-to-non-sap.png)
 
-## 4 How Does Mendix Support Extending Cloud Services like SAP SuccessFactors and SAP Hybris?
+## 4 How Does Mendix Support Extending Cloud Services like SAP SuccessFactors & SAP Hybris?
 
 Cloud solutions like SAP SuccessFactors, SAP Hybris, SAP Concur, and SAP Ariba are all enabled with OData support. Using the Mendix [SAP OData Connector](https://appstore.home.mendix.com/link/app/74525/), Mendix applications can also integrate with these SAP Cloud Platform solutions. This integration also includes support for principle propagation.
 
@@ -57,3 +57,7 @@ Another reason to use OData is that in addition to SAP Business Suite and SAP S/
 For SAP Business Suite, SAP Gateway (also known as SAP NetWeaver) is used to publish services in OData. This is supported for both standard and custom (Z-) services in your SAP Business Suite stack.
 
 Based on this strategy, the jointly-owned integration between the Mendix Platform and SAP is based on OData. This does not  exclude the ability to also use BAPI, but it is not recommended by either SAP or Mendix.
+
+## 8 How Can I Run & Deploy My Mendix Application on the SAP Cloud Platform?
+
+For details on deploying on the SAP Cloud Platform, see the section [How Does Mendix Run on the SAP Cloud Platform?](../app-capabilities/strategic-partner-cloud#running-sap-cloud) in *Strategic Partner Clouds*.

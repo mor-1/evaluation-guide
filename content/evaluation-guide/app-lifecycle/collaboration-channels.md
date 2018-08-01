@@ -26,7 +26,7 @@ Users can post updates, comments, photos and upload documents, and publish polls
 
 As developer are usually found working with the [Desktop Modeler](app-development#desktop-modeler) or the [Web Modeler](app-development#web-modeler), user stories from the active sprint and Buzz are available in the Modelers as well.
 
-![](attachments/buzz_comment.png)
+<video controls src="attachments/buzz-in-wm.mp4">Buzz in the Web Modeler</video>
 
 ### 1.3 How Can Stakeholders Get Involved via the Mendix Mobile App? {#mxapp}
 
@@ -41,6 +41,8 @@ Anyone collaborating on app development with Mendix—whether you are a develope
 ### 1.4 How Can Stakeholders Get Involved via Email Notifications?
 
 All the users involved in a Mendix application project receive relevant and timely email notifications for Buzz and other updates of interest. This includes responses to submitted feedback items and status changes such as feedback items that are completed.
+
+![Email notification for Buzz updates](attachments/buzz-notification.png)
 
 ### 1.5 How Can Stakeholders Get Involved via the Central Buzz? {#buzz}
 

@@ -10,9 +10,7 @@ tags: [""]
 
 With Mendix, anyone with an idea can build an app. It does not matter whether you are a citizen developer, business analyst, or seasoned professional developer – Mendix provides a wealth of resources for you to get started on the platform right away.
 
-In the Mendix [Rapid Developer Profiles overview](https://www.mendix.com/tag/rapid-developer-profile), you can see what type of people became successful as Mendix developers.  Through all the profiles, it is possible to identify Mendix developers who are more business-oriented (for example, citizen developers and business analysts) and those who are more technical (for example, users with a programming background and/or technical education).
-
-![](attachments/rapid-dev-profiles.png)
+Mendix uses have different profiles, and although they are simplified views, these profiles help us to best correlate our features and training courses. Through all the profiles, it is possible to identify Mendix developers who are more business-oriented (for example, citizen developers and business analysts) and those who are more technical (for example, users with a programming background and/or technical education).
 
 Business-oriented Mendix developers have the following characteristics:
 

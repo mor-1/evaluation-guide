@@ -9,7 +9,7 @@ tags: [""]
 
 When evaluating what the Mendix Platform has to offer, it is important to consider every aspect of your organisation's enterprise App development needs and how they align with the Mendix Platform and our vision. This guide is designed to provide you with a structured body of information that will help you evaluate the Mendix Platform and its suitability for your needs.
 
-{{% todo %}}[**Add video when available**]{{% /todo %}}
+<video controls src="attachments/Discover-the-Mendix-Community.mp4">VIDEO</video>
 
 ## How Can I Quickstart My App Development Project?
 

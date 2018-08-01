@@ -14,14 +14,14 @@ The development team can [involve users and other stakeholders](collaboration-ch
 
 When development scales up to larger numbers of teams, advanced project management is often desirable. Mendix supports [integration with third-party project management tools and services](#tooling) on top of Mendix Requirements Management functionality in order to facilitate organizations with setting up appropriate development project management structures.
 
-<video controls src="attachments/agile/MCA_FullAgileLifecycle-2.mp4">VIDEO</video>
+<video controls src="attachments/MCA_FullAgileLifecycle-2.mp4">VIDEO</video>
 
 The [Mendix Developer Portal](https://docs.mendix.com/developerportal/) is the central hub for requirements management for applications developed with Mendix. It provides full-fledged user-story and task management in a flexible backlog management interface.
 
 User story refinement is made even easier through the specific Buzz message threads available under each story. You can post update messages, which are centrally visible for all team members and stakeholders in the Developer Portal Buzz.
 
 {{% image_container width="450" %}}
-![](attachments/agile/story-detail.png)
+![](attachments/story-detail.png)
 {{% /image_container %}}
 
 Any updates to the conversation on the **Story Details** page are also pushed to the central Buzz wall and the [Mendix Mobile app](https://docs.mendix.com/refguide/getting-the-mendix-app). All the users involved in the conversations receive notifications by email.
@@ -36,11 +36,11 @@ In the Mendix Developer Portal, each development team can find their user story 
 
 On the [Stories](https://docs.mendix.com/developerportal/collaborate/stories) page in the Developer Portal, users can easily schedule user stories in sprints by dragging them from the backlog into a sprint. Stories can be prioritized within the sprint by dragging them into the correct spot in the story list.
 
-<video controls  src="attachments/agile/story-sprint.mp4">VIDEO</video>
+<video controls src="attachments/story-sprint.mp4">VIDEO</video>
 
 User stories can be labeled with, for example, the epics under which the stories belong. This means that both within the backlog and in scheduled sprints, user stories can be easily identified as belonging to a certain set of stories. This enables the development team to group stories together across sprints, so that they can stay in control of their backlog and scheduled stories.
 
-![User stories can be categorized with colored labels](attachments/agile/colored-labels.png)
+![User stories can be categorized with colored labels](attachments/colored-labels.png)
 
 ## 3 How Can I Integrate Mendix with Third-Party Project Management Tooling? {#tooling}
 
@@ -56,11 +56,11 @@ Mendix recommends that teams starting with Mendix for the first time leverage al
 
 Development teams and their stakeholders can track the current status of the team in the sprint on implementation of user stories through the Scrum Board in the Development Portal. Story state (To-do, Running or Done) is set by the team for each user story as they progress and this is represented on the Scrum Board:
 
-![Scrum board shows current sprint status](attachments/agile/scrum-board.png)
+![](attachments/scrum-board.png)
 
 Burndown charts provide insight into progress of the sprint:
 
-![Burdown charts show sprint progress](attachments/agile/burndown.png)
+![](attachments/burndown.png)
 
 These reports give insight into progress on implementation of business requirements. For advanced project management functionality, development teams can set up [integrations with third-party project management tools](#tooling).
 
@@ -68,7 +68,7 @@ These reports give insight into progress on implementation of business requireme
 
 Developers can commit changes made to their application models with a reference to user stories defined for those aplications in the Developer Portal. This enables development teams to go back and check for commits why a change was made. Alternatively, developers can review the changes associated with a user story.
 
-![Team Server history for a user story](attachments/agile/story-revisions.png)
+![Team Server history for a user story](attachments/story-revisions.png)
 
 For more details, see the section on how [user stories can be cross-referenced with Team Server commits](version-control#cross-reference).
 
@@ -76,4 +76,4 @@ For more details, see the section on how [user stories can be cross-referenced w
 
 All changes made to user stories are recorded in an audit trail for future reference. This audit trail shows which user made changes, and allows for rollback as well. 
 
-![Uesr story change history](attachments/agile/story-history.png)
+![](attachments/story-history.png)

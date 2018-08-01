@@ -7,7 +7,9 @@ menu_order: 10
 tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 ---
 
-Capturing and managing requirements using Agile methodologies is critical to the success of any software development lifecycle. It enables cross-functional teams to close the feedback loop by working collaboratively and iteratively; accelerating the development process towards better/faster business outcomes.  
+Capturing and managing requirements using Agile methodologies is critical to the success of any software development lifecycle. It enables cross-functional teams to close the feedback loop by working collaboratively and iteratively; accelerating the development process towards better/faster business outcomes. 
+
+![](attachments/cycle-1.png)
 
 {{% todo %}}[**Add video when available**]{{% /todo %}}
 

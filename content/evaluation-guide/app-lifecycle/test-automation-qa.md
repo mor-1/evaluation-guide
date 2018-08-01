@@ -105,7 +105,7 @@ With the Mendix Platform, you can automate your functional tests for the user st
 
 ATS integrates into the Mendix Platform to enable viewing all the user stories and writing test cases against them. Users do not require any knowledge of Selenium or testing frameworks to write test cases. The browser recorder will save every interaction and generate the necessary Selenium scripts.
 
-<video controls src="attachments/testing/DO_CreatingATestCaseandStep.mp4"></video>
+<video controls src="attachments/DO_CreatingATestCaseandStep.mp4"></video>
 
 Test cases can be executed against different browsers and multiple devices using either [Browserstack](https://www.browserstack.com/) or [Saucelabs](https://saucelabs.com/).
 

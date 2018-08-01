@@ -28,7 +28,7 @@ The Mendix mobile app enables developers to [preview and test their app](../app-
 
 Anyone collaborating on app development with Mendix—whether you are a developer, product manager, key end-user, or another stakeholder—can easily take part in the conversation around the development of the app at any time with the Buzz functionality in the Mendix mobile app.
 
-![](attachments/agile/buzz-mobile.png)
+![](attachments/buzz-mobile.png)
 
 {{% todo %}}[**Add  phone wrapper**]{{% /todo %}}
 
@@ -50,7 +50,7 @@ New team members can be easily invited to the (extended) development team. Users
 * Email notification
 * Signup & land on app buzz (i.e. in context)
 
-<video controls src="attachments/agile/DO_InviteUserToProject-1.mp4">Inviting a user to your app team</video>
+<video controls src="attachments/DO_InviteUserToProject-1.mp4">Inviting a user to your app team</video>
 
 ## 3 How Can I Manage the Access of Different Users to My App Project Resources?
 

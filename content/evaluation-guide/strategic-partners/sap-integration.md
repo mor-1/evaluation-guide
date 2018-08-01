@@ -57,5 +57,3 @@ Another reason to use OData is that in addition to SAP Business Suite and SAP S/
 For SAP Business Suite, SAP Gateway (also known as SAP NetWeaver) is used to publish services in OData. This is supported for both standard and custom (Z-) services in your SAP Business Suite stack.
 
 Based on this strategy, the jointly-owned integration between the Mendix Platform and SAP is based on OData. This does not  exclude the ability to also use BAPI, but it is not recommended by either SAP or Mendix.
-
-<video controls src="attachments/CreateSAPAppSmaller.mp4">VIDEO</video>

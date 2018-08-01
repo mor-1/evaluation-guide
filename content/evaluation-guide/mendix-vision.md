@@ -11,6 +11,7 @@ tags: [""]
 Our fundamental belief is that software should not be something just for IT. Every company needs to become a software company to survive in a software-driven world. The whole organization needs to be collaborating on the lifeblood of the business, which is technology. The future of each company depends on it. Experimentation and innovation by people that know the business domain is key to survival.
 
 The Mendix vision is to enable a whole range of people with different backgrounds to be successful in creating software that delivers actual business value in a sustainable way. Mendix enables:
+
  * **Business domain experts** to develop software in an intuitive, visual way.
  * **Professional developers** by giving them low-level control, extensibility to use other programming languages, integration capabilities, debugging capabilities and a completely open meta-model as well as the APIs to interact with any part of the Mendix Platform, including the models.
  * **IT departments** to manage their application landscapes and to provide guardrails for business domain experts to build apps

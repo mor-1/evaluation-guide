@@ -42,6 +42,8 @@ The Mendix Platform contains the Web Modeler and Desktop Modeler, which are visu
 
 The Mendix platform supports the rapid delivery of Applications through an integrated set of tools designed to cover the full Application Lifecycle, starting with business requirements capture, teams can create a backlog of user stories, sprint and release plans. Mendix provides an API to integrate with third-party tools, should you already have the technology for requirements management. Once created developers use the Web and Desktop modeling environments to rapidly build and iterate over the current sprints user stories, continuously merging models, shipping revisions for automated testing, and refactoring feedback from the built-in feedback mechanism and collaboration features inside the platform.
 
+![](attachments/cycle-1.png)
+
 All contributing parties from the Product Owner to the Testing teams are continuously connected to changes and updates in the delivery cycle, via real-time interactive data feeds connected to assets in the model, built-in chat and collaboration features, and visual models that enable business users to contribute early and often around design and logic decisions. 
 
 ## 6  What Does the Mendix Cloud-Native Architecture Look Like?

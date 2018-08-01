@@ -55,7 +55,7 @@ While this process can be applied to any software development project, the uniqu
 
 And thus Mendix came into creation.
 
-## 6 Why the Name Mendix?
+## 6 Why the Name "Mendix"?
 
 The name Mendix is derived from the verb *to mend*, which means to repair anything that is broken, torn, defaced, or the like. Mendix is here to mend the app delivery process.
 

@@ -10,7 +10,7 @@ tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 
 Collecting feedback from users and other stakeholders, prioritizing the feedback, and acting on crucial items is essential to the success of application delivery projects, both during development and after go-live. Mendix provides a [Mendix Feedback Widget](https://appstore.home.mendix.com/link/app/199/) that empowers the end-users of an app to submit feedback from the context of the app itself. Feedback items are submitted through the widget into the [Feedback](https://docs.mendix.com/developerportal/collaborate/feedback) section of the app project in the Developer Portal. This allows end-users to very easily provide valuable feedback to the development team on the app under development.
 
-<video controls src="attachments/agile/OE_FeedbackAPI_CreateFeedback-1.mp4">Provide the development team with feedback from any app</video>
+<video controls src="attachments/OE_FeedbackAPI_CreateFeedback-1.mp4">Provide the development team with feedback from any app</video>
 
 The development team can review and triage feedback items in the **Feedback** section of the Developer Portal. They can communicate with the submitter of the feedback item through messages on the Buzz thread under the feedback item.
 
@@ -21,7 +21,7 @@ Once the team understands the feedback, they can decide on whether or not to acc
 Once the team decides to accept a feedback item, it becomes a user story in the backlog of their app project. The Product Owner can then prioritize these stories in the context of the broader product backlog. This enables the develoment team to focus on what's truly important and schedule these user stories as part of their sprint planning.
 
 {{% image_container width="450" %}}
-![](attachments/agile/accept-feedback.png)
+![](attachments/accept-feedback.png)
 {{% /image_container %}}
 
 In this way, the Mendix Platform enables development teams to fully integrate user feedback into their natural development cycle. At the end of every sprint, when the active sprint is closed and the next sprint is opened, all the feedback items that were scheduled as user stories are closed, and status change notifications are sent to the respective submitters.

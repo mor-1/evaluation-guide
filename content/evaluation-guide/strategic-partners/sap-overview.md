@@ -38,8 +38,6 @@ SAP together with Mendix offers the ability to extend digital core of SAP with L
 
 Mendix extensions are full stack, they include both data, logic and UI. This makes it possible to keep the data layer of your system of records clean from data which should not belong in there. This all makes it possible to keep your systems of record vanilla. With the benefit of update your SAP system more easily and keep the maintenance cost low of your SAP system. This way of extensions are named  as side-by-side extensions by SAP.
 
-![](attachments/sap-future-proof-extentions.png)
-
 ## 3 How Can I See the Road Map of SAP Cloud Platform Rapid Application Development by Mendix?
 
 As part of its Solution Extension partnership, Mendix has a shared road map with SAP. This road map is published online and is publicly available as long as you have an SAP ID.
@@ -47,3 +45,11 @@ As part of its Solution Extension partnership, Mendix has a shared road map with
 The road map contains a two-quarter forecast and a production vision that provides insight into the production direction of Mendix with SAP.
 
 For details, see the public [SAP Cloud Platform Rapid Application Development by Mendix Road Map](https://www.sap.com/products/roadmaps.html?sort=title_asc&search=mendix#pdf-asset=a07b68ed-fc7c-0010-87a3-c30de2ffd8ff&page=11).
+
+## 4 How Can I Quickstart My SAP Development Project?
+
+The Mendix Platform provides several SAP starter apps as part of the onboarding process for creating new applications.
+
+Starter apps are complete app frameworks that can be used as a starting point when building a new app on the Mendix Platform. They provide the scaffolding required to massively accelerate app development, as they include basic design patterns such as branding, design assets, page templates, navigation, and security models.
+
+<video controls src="attachments/CreateSAPAppSmaller.mp4">VIDEO</video>

@@ -22,8 +22,6 @@ You can always open your app models with the free edition of the Mendix Modeler.
 
 By using the [Mendix SDK](https://developers.mendix.com/sdk/), you can programmatically access your models. Of course, the SDK comes with [full documentation](https://apidocs.mendix.com/modelsdk/latest/index.html) of the models used to define your app. This enables you to automate steps like migration to alternative (model-driven) platforms as well as to 3GL languages like Java. By using the SDK, you can generate Java classes or SQL DDL statements from your domain models or Java code from your microflows. This means you can convert your models to any technology stack you wish.
 
-![](attachments/platform-openness-web-chart-1.png)
-
 ## 2 What Other Project Resources Can I Reuse?
 
 Next to the application model, Mendix app projects consist of a number of other resources. These resources use technologies like HTML5, CSS, Sass, Bootstrap, and Java. The main goal of using these resources is to allow you to extend the platform as required, (for example, by implementing custom microflow activities). Because these resources are based on commonly accepted modern technologies, they can be used by most developers. For example, they can be used as documentation when moving to another platform or as code to be included in a new solution.

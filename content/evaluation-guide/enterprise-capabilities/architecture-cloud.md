@@ -8,7 +8,7 @@ tags: [""]
 
 ## 1 What Does the Mendix Deployment Architecture Look Like?
 
-Mendix Cloud is a PaaS based Cloud Offering based on Cloud Foundry technoligy. It runs on the IaaS layer of Amazon Web Services. A Mendix application will run in a container provided by Cloud Foundry. A Container in Cloud Foundry has standard support for horizontal and veritcal scaling and auto healing.
+Mendix Cloud is a PaaS based Cloud Offering based on Cloud Foundry technology. It runs on the IaaS layer of Amazon Web Services. A Mendix application will run in a container provided by Cloud Foundry. A Container in Cloud Foundry has standard support for horizontal and vertical scaling and auto healing.
 
 Scaling up and down can be done without any downtime, it is just a matter of adding container or removing containers.
 

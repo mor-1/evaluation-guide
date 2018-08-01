@@ -7,9 +7,7 @@ bg: "architecture"
 tags: [""]
 ---
 
-Mendix is a high productivity aPaaS environment built on a modern, open cloud-native architecture for scalability and the freedom to deploy to virtually any infrastructure, including Docker, Kubernetes and Cloud-Foundry. The platforms statelsss server architecture supports on-demand vertical and horizontal scaling, while our public cloud provides self-service scaling and is highly available (HA) by default.
-
-Openness and extensibility hooks are available across the platform, from the client and server-side APIs for custom model extensions to the platform APIs and our open-source Model SDK, which allows you to integrate Mendix with your existing tools (CICD/ Dev Ops) and build scripts to manage/monitor and modify the core metadata of your apps.
+Mendix is a high productivity aPaaS environment built on a modern, open cloud-native architecture for scalability and the freedom to deploy to virtually any infrastructure, including Docker, Kubernetes and Cloud-Foundry. The platforms stateless server architecture supports on-demand vertical and horizontal scaling, while our public cloud provides self-service scaling and is highly available (HA) by default.Openness and extensibility hooks are available across the platform, from the client and server-side APIs for custom model extensions to the platform APIs and our open-source Model SDK, which allows you to integrate Mendix with your existing tools (CICD/ Dev Ops) and build scripts to manage/monitor and modify the core metadata of your apps.
 
 {{% todo %}}[**Add video when available**]{{% /todo %}}
 

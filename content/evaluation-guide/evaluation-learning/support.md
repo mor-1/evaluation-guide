@@ -8,7 +8,9 @@ tags: [""]
 
 ## 1 What Kinds of Additional Support Does Mendix Offer?
 
-If you get stuck on the platform, Mendix provides the support channels and options described below.
+If you get stuck on the platform, Mendix provides various support channels, which are described in the sections below. This diagram presents a schematic overview of the various support options:
+
+![](attachments/support-model.png)
 
 ## 2 Documentation
 

@@ -6,7 +6,7 @@ bg: "devops"
 tags: ["monitoring", "alerts", "devops"]
 ---
 
-{{% todo %}}**[David: TODO: Mention APM somewhere.]**{{% /todo %}}
+{{% todo %}}**[David: Mention APM somewhere.]**{{% /todo %}}
 
 ## 1 How Do Mendix Platform Monitoring Solutions Support Development Teams that Adopt DevOps?
 

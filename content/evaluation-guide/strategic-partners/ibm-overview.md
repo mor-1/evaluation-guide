@@ -16,7 +16,9 @@ The IBM Cloud has the portfolio to deliver a full-stack solution that will drive
 
 ![](attachments/ibmcloudoffering.png)
 
-To accelerate development, IBM Cloud delivers a broad range of services (which are also called PaaS services). These are directly accessible from the [IBM Cloud Catalog](https://console.bluemix.net/catalog/). Typical services that IBM offers include Watson cognitive services, data management, mobile, services, CI/CD, toolchain services, and starter apps. Mendix has been added as the low-code development tooling on top of this offering in order to bring these services to an even broader group of users.
+To accelerate development, IBM Cloud delivers a broad range of services (which are also called PaaS services). These are directly accessible from the [IBM Cloud Catalog](https://console.bluemix.net/catalog/). Typical services that IBM offers include Watson cognitive services, data management, mobile, services, CI/CD, toolchain services, and starter apps.
+
+Mendix has been added as the low-code development tooling on top of this offering in order to bring these services to an even broader group of users.
 
 ![](attachments/service-offering-ibm-cloud.png)
 

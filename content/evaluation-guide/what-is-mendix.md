@@ -8,14 +8,16 @@ tags: [""]
 
 ## 1 What Is Mendix?
 
-Mendix is a high productivity app platform that enables you to build and continuously improve Mobile and Web apps at web scale, and gives you control without sacrificing speed and power. The Mendix Platform is designed to accelerate enterprise app delivery across your entire application development lifecycle, from ideation to development, deployment, test and the ongoing management of your application portfolio in the cloud or on premises. From a process perspective, Mendix enables you to implement DevOps best practices to bring together development, testing, operations and line of business stakeholders to foster continuous integration, application monitoring and delivery of their app portfolios.
+Mendix is a high productivity app platform that enables you to build and continuously improve Mobile and Web apps at web scale. The Mendix Platform is designed to accelerate enterprise app delivery across your entire application development lifecycle, from ideation to deployment and operations. 
 
-Mendix offers both no-code and low-code tooling in one single platform:
+Mendix enables you to implement and both Agile & DevOps best practices and goes even beyond by involving business stakeholders in the actual development of the applications.
 
-* No-code: collaborative visual modeling by business domain experts
-* Low-code: highly extensible and integrated, collaborative tooling to support cross-functional teams
+Mendix offers both no-code and low-code tooling in one single fully integrated platform:
 
-The result: business domain experts such as analysts and citizen developers can work alongside expert developers to achieve much greater levels of business agility and accelerated delivery. Moreover, the Mendix Platform's cloud-native architecture and automation tools support the deployment, management, and monitoring of highly available enterprise-grade applications.
+* No-code: a web-based      visual modeler tailored toward business domain experts
+* Low-code: an extensive      desktop based visual modeler tailored towards professional developers      which can be integrated with coding IDE’s to extend its capabilities
+
+The result: business domain experts such as analysts and citizen developers can work alongside expert developers to achieve much greater levels of alignment and accelerated delivery. Moreover, the Mendix Platform’s cloud-native architecture and automation tools support the deployment, management, and monitoring of highly available enterprise-grade applications.
 
 <video controls src="attachments/Bring-Business-Knowledge-Into-the-App-Development-Process.mp4">VIDEO</video>
 

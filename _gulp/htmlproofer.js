@@ -25,6 +25,22 @@ let lastValidated = 0;
 let allFiles = [];
 let allResidualFiles = [];
 
+const statistics = {
+  image: [],
+  video: [],
+  youtube: [],
+  iframe_unknown: []
+};
+
+const addStatistic = (key, value) => {
+  if (typeof statistics[key] === 'undefined') {
+    return;
+  }
+  if (statistics[key].indexOf(value) === -1) {
+    statistics[key].push(value);
+  }
+};
+
 let SOURCEPATH = null,
     EXTERNAL = false,
     DELETE_UNUSED_IMAGES = false;
@@ -52,8 +68,10 @@ const parseHtmlFile = file => new Promise((resolve, reject) => {
 
         if (src.indexOf('/') === 0) {
           file.images.push(src);
+          addStatistic('image', src);
         } else {
-          file.images.push(path.join(path.dirname(file.basePath), parsed.path))
+          file.images.push(path.join(path.dirname(file.basePath), parsed.path));
+          addStatistic('image', path.join(path.dirname(file.basePath), parsed.path));
         }
       }
     });
@@ -71,8 +89,10 @@ const parseHtmlFile = file => new Promise((resolve, reject) => {
 
         if (src.indexOf('/') === 0) {
           file.videos.push(src);
+          addStatistic('video', src);
         } else {
-          file.videos.push(path.join(path.dirname(file.basePath), parsed.path))
+          file.videos.push(path.join(path.dirname(file.basePath), parsed.path));
+          addStatistic('video', path.join(path.dirname(file.basePath), parsed.path));
         }
       }
     });
@@ -114,6 +134,17 @@ const parseHtmlFile = file => new Promise((resolve, reject) => {
       }
     });
 
+    $('iframe').each((i, el) => {
+      const $el = $(el);
+      const src = $el.attr('src');
+
+      if (src.indexOf('youtube') !== -1) {
+        addStatistic('youtube', src);
+      } else {
+        addStatistic('iframe_unknown', src);
+      }
+    });
+
     var lastLevel = null;
     $('h1,h2,h3,h4,h5', '.mx__page__content').each((i, el) => {
       var $el = $(el),
@@ -128,7 +159,7 @@ const parseHtmlFile = file => new Promise((resolve, reject) => {
       lastLevel = level;
 
       if ('h1' === tagName) {
-        file.warnings.push(`${gutil.colors.red('[TITLE]  ')} There is a title with text ${gutil.colors.cyan($el.text())} which is an H1. This cannot happen, as this is the page title`);
+        file.errors.push(`${gutil.colors.red('[TITLE]  ')} There is a title with text ${gutil.colors.cyan($el.text())} which is an H1. This cannot happen, as this is the page title`);
       }
 
       if (id) {
@@ -451,7 +482,16 @@ const checkFiles = (opts) => {
     .then(files => {
       allFiles = files;
       allResidualFiles = files;
-      checkHTMLFiles(opts);
+      return checkHTMLFiles(opts);
+    })
+    .then(() => {
+      gutil.log(` `);
+      gutil.log(gutil.colors.cyan(`Statistics: `));
+      gutil.log(`    Images:         ${gutil.colors.cyan(statistics.image.length)}`);
+      gutil.log(`    Videos:         ${gutil.colors.cyan(statistics.video.length)}`);
+      gutil.log(`    Youtube video:  ${gutil.colors.cyan(statistics.youtube.length)}`);
+      gutil.log(`    Unknown iframe: ${gutil.colors.cyan(statistics.iframe_unknown.length)}`);
+      gutil.log(` `);
     })
     .catch(err => {
       helpers.gulpErr('htmlproofer', err);

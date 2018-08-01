@@ -26,7 +26,7 @@ Users can post updates, comments, photos and upload documents, and publish polls
 
 As developer are usually found working with the [Desktop Modeler](app-development#desktop-modeler) or the [Web Modeler](app-development#web-modeler), user stories from the active sprint and Buzz are available in the Modelers as well.
 
-![](attachments/buzz_comment.png)
+<video controls src="attachments/buzz-in-wm.mp4">Buzz in the Web Modeler</video>
 
 ### 1.3 How Can Stakeholders Get Involved via the Mendix Mobile App? {#mxapp}
 

@@ -7,7 +7,11 @@ bg: "openness"
 tags: [""]
 ---
 
-Mendix is open and extensibility at every level, providing an open model specification and tools for platform and App extensibility. Mendix Apps are extensible with reusable components and custom code; platform APIs allow you to integrate with your existing requirements management tools, test automation suites and CICD pipelines.  ![](attachments/platform-openness-web-chart-1.png)
+Mendix is open and extensibility at every level, providing an open model specification and tools for platform and App extensibility. Mendix Apps are extensible with reusable components and custom code; platform APIs allow you to integrate with your existing requirements management tools, test automation suites and CICD pipelines. 
+
+{{% image_container width="500" %}}
+![](attachments/platform-openness-web-chart-1.png)
+{{% /image_container %}}
 
 {{% todo %}}[**Add video when available**]{{% /todo %}}
 

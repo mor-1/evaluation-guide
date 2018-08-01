@@ -9,7 +9,9 @@ tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 
 Capturing and managing requirements using Agile methodologies is critical to the success of any software development lifecycle (SDLC). This enables cross-functional teams to close the feedback loop by working collaboratively and iteratively while accelerating the development process towards better and faster business outcomes. 
 
+{{% image_container width="400" %}}
 ![](attachments/cycle-1.png)
+{{% /image_container %}}
 
 {{% todo %}}[**Add video when available**]{{% /todo %}}
 

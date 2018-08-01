@@ -23,13 +23,13 @@ For more information, see the [How Can I Integrate with Mendix?](integration-ove
 
 ## How Does Mendix Support Data Mapping?
 
-Being able to easily and visually map external data formats to the entities used in your application is an important aspect of integration. Mendix helps you achieve this with the Mendix Data Mapper. The Data Mapper will automatically map incoming message structures (such as JSON, WSDL, or XML) in order to automatically create domain models (if desired) and data mappings. Once the message structure is mapped, incoming data can then be transformed (if required) so it can be used inside your application models.
+Being able to easily and visually map external data formats to the entities used in your application is an important aspect of integration. Mendix helps you achieve this with its data mapping functionality that automatically maps incoming message structures (such as JSON, WSDL, or XML) in order to create domain models (if desired) and data mappings. Once the message structure is mapped, incoming data can then be transformed (if required) so it can be used inside your application models.
 
 Read on in the [How Does Mendix Support Data Mapping?](data-mappings#data-mapping) section.
 
 ## How Does Mendix Support REST & Web Services?
 
-Mendix makes exposing and consuming REST and Web Services simple. To consume, map the incoming message responses from the API or service request using JSON or a WSDL for example. Once mapped, microflows actions allow you to call the desired service from your logic and process the response directly into your app.  Exposing your data and logic is also very simple, using specific microflow actions you can publish discoverable endpoints for your services or expose an APIs via a swagger definition through microflows or expose entities with a single click as OData resources.
+Mendix makes exposing and consuming REST and web services simple. To consume, map the incoming message responses from the API or service request using JSON or a WSDL, for example. Once mapped, microflow actions allow you to call the desired service from your logic and process the response directly into your app. Exposing your data and logic is also very simple. Using specific microflow actions you can publish discoverable endpoints for your services or expose an APIs via a swagger definition through microflows or expose entities with a single click as OData resources.
 
 For details, see [Service Consumption](consuming-services).
 

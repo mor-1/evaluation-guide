@@ -19,13 +19,13 @@ For details, see [How Can I Integrate with Mendix?](integration-overview#integra
 
 ## How Does Mendix Support Data Mapping?
 
-Being able to easily map external data formats to the entities used in your application is an important aspect of integration. Mendix helps you achieve this with Data Mapper. Data Mapper will automatically map the incoming message structures, such as JSON, WSDL or XML… to create an internal map towards transient objects inside your data model. Once the message structure is mapped incoming data can then be transformed, if required, to be used inside your application models.
+Being able to easily and visually map external data formats to the entities used in your application is an important aspect of integration. Mendix helps you achieve this with Data Mapper. Data Mapper will automatically map the incoming message structures, such as JSON, WSDL or XML, to automatically create domain models (if desired) and data mappings. Once the message structure is mapped incoming data can then be transformed, if required, to be used inside your application models.
 
 For details, see [How Does Mendix Support Data Mapping?](data-mappings#data-mapping)
 
 ## How Does Mendix Support REST & Web Services?
 
-Mendix makes exposing and consuming REST and Web Services simple. To consume, map the incoming message responses from the API or service request using JSON or a WSDL for example. Once mapped, microflows actions allow you to call the desired service from your logic and process the response directly into your app.  Exposing your data and logic is also very simple, using specific microflow actions you can publish discoverable endpoints for your services or expose an APIs via a swagger definition through microflows.
+Mendix makes exposing and consuming REST and Web Services simple. To consume, map the incoming message responses from the API or service request using JSON or a WSDL for example. Once mapped, microflows actions allow you to call the desired service from your logic and process the response directly into your app.  Exposing your data and logic is also very simple, using specific microflow actions you can publish discoverable endpoints for your services or expose an APIs via a swagger definition through microflows or expose entities with a single click as OData resources.
 
 For details, see [How Does Mendix Support REST & Web Services?](consuming-services#support-rest-web)
 

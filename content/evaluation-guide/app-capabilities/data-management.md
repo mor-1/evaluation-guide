@@ -13,7 +13,7 @@ Data required to build new enterprise applications is derived from many sources,
 
 ## What Databases Does Mendix Support?
 
-The Mendix Platform supports the following database servers:
+The Mendix Platform supports the following database servers for data being managed by the Mendix Runtime:
 
 * PostgreSQL 9.2, 9.3, 9.4, 9.5, 9.6
 * Microsoft SQL Server 2008, 2008 R2, 2012, 2014, 2016
@@ -22,6 +22,8 @@ The Mendix Platform supports the following database servers:
 * IBM DB2 11.1
 * MariaDB 5.5, 10.0, 10.1
 * MySQL 5.5, 5.6, 5.7
+
+For integration purposes, Mendix supports integration with any database via the JDBC protocol.
 
 For details, see [What Databases Does Mendix Support?](data-storage#database-support)
 

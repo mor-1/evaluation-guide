@@ -27,7 +27,7 @@ For details, see [What Does the Mendix–SAP Partnership Offer?](sap-overview#sa
 
 Mendix provides specific integration capabilities to any SAP service exposed via OData, either via API Hub, Service Catalog, a specific endpoint or manual upload, with an automated discovery solution to build the necessary scaffolding and local domain from any SAP service. Mendix apps come automatically configured with SAP single sign on and secure access to on premise data via SAP cloud connector gateway.
 
-For details, see [How Can I Integrate Mendix with SAP Fiori?](sap-integration#integrate-with-sap-fiori)
+For details, see [SAP Integration](sap-integration).
 
 ## Read More
 

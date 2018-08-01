@@ -37,6 +37,8 @@ The most important point to make here is that you build offline apps using the s
 
 In addition, Mendix will create and synchronize a local SQL database to persist data between the client and server automatically, requiring no additional skills to manage data movement when on or offline.
 
+The default synchronization patterns can be overwritten by custom models, giving the developer full control of the synchronization in case the default patterns do not suffice. 
+
 For details, go to [How Can I Build an Offline Mobile App?](offline-apps#build-offline).
 
 ## Read More

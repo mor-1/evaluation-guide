@@ -7,9 +7,11 @@ bg: "ibm"
 tags: [""]
 ---
 
-IBM, the leader in enterprise cloud, and Mendix have partnered to help enterprises shorten time to value by building applications. IBM Cloud is built for the enterprise, the only cloud that integrates public, private, multi-cloud and on-premises data centres through a single architecture and is designed for cognitive workloads. IBM has selected Mendix as the standard low-code development platform for use on top of IBM Cloud.  
+IBM, the leader in enterprise cloud, and Mendix have partnered to help enterprises shorten time to value by building applications. IBM Cloud is built for the enterprise, the only cloud that integrates public, private, multi-cloud and on-premises data centres through a single architecture and is designed for cognitive workloads. IBM has selected Mendix as the standard low-code development platform for use on top of IBM Cloud.
 
-{{% todo %}}[**Add video when available; **]{{% /todo %}}
+{{% youtube fMBEMoyzcXc %}}
+
+{{% todo %}}[**Add video of Mendix on IBM Cloud when source file made available**]{{% /todo %}}
 
 ## What Type of Partnership Does Mendix Have with IBM?
 
@@ -19,13 +21,13 @@ For details, see [What Type of Partnership Does Mendix Have with IBM?](ibm-overv
 
 ## How Can I Start Using Mendix on IBM Cloud?
 
-{{% todo %}}[**Needs content**]{{% /todo %}}
+Because of this strategic reseller partnership, it is possible to purchase Mendix directly from IBM combined with your IBM contract. This will provide you a single contact for your full offering.
 
 For details, see [How Can I Start Using Mendix on IBM Cloud?](ibm-integration#start-ibm)
 
 ## Which IBM Services Can I Use Within Mendix?
 
-{{% todo %}}[**Needs content**]{{% /todo %}}
+IBM has integrated the provisioning and deployment of Mendix applications directly into the IBM Cloud. This is done using the IBM Toolchain and CI/CD pipeline integration. For more details, see the section How Can I Run Mendix on IBM Cloud? in Strategic Partner Clouds.
 
 For details, see [Which IBM Services Can I Use Within Mendix?](ibm-integration#ibm-services)
 

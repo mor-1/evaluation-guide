@@ -7,9 +7,7 @@ bg: "openness"
 tags: [""]
 ---
 
-Mendix is open and extensibility at every level, providing an open model specification and tools for platform and App extensibility. Mendix Apps are extensible with reusable components and custom code; platform APIs allow you to integrate with your existing requirements management tools, test automation suites and CICD pipelines. Your applications data is stored inside a SQL Database of your choice, owned and accessible by you at all times. 
-
-![](attachments/platform-openness-web-chart-1.png)
+Mendix is open and extensibility at every level, providing an open model specification and tools for platform and App extensibility. Mendix Apps are extensible with reusable components and custom code; platform APIs allow you to integrate with your existing requirements management tools, test automation suites and CICD pipelines.  ![](attachments/platform-openness-web-chart-1.png)
 
 {{% todo %}}[**Add video when available**]{{% /todo %}}
 
@@ -18,8 +16,9 @@ Mendix is open and extensibility at every level, providing an open model specifi
 We recognize the need for our customers to be able to migrate away from the Mendix Platform, should they wish to do so we offer the following options:
 
 * **ESCROW** – grants you access to the source code of the platform in the event of insolvency on the part of Mendix
-* **Access to your models** even if you cancel your subscription, enabling you to use the rich visual content of the model towards re-engineering in another platform or technology.
+* **Access to your models (which you own)** even if you cancel your subscription, enabling you to use the rich visual content of the model towards re-engineering in another platform or technology.
 * **The Mendix Platform SDK** enables you to programmatically access your models to automate the migration of your Apps to other platforms and 3Gl.
+* **Your applications data is stored inside an SQL database** of your choice, owned and accessible by you at all times.
 
 For details, see [How Can I Avoid Being Locked in to the Mendix Platform?](vendor-lockin#avoid-lockin)
 
@@ -31,7 +30,7 @@ For details, see [Where Can I Use the Openness and Extensibility the Mendix Plat
 
 ## How Can I Extend the Functionality of the Mendix Platform?
 
-The Mendix runtime can be extended using Java Actions that enable you to build reusable microflow activities which are packaged and consumed by less technical developers from the Mendix Toolbox or App Store.  At front-end client,  create custom JavaScript widgets for both web and mobile, including Cordova plugins.
+The Mendix runtime can be extended using Java Actions that enable you to build reusable microflow activities which are packaged as native actions and consumed by less technical developers from the Mendix Toolbox or App Store.  At front-end client,  create custom JavaScript extensions for both web and mobile, including Cordova plugins.
 
 For details, see [How Can I Extend the Functionality of the Mendix Platform?](extensibility#extend-functionality)
 

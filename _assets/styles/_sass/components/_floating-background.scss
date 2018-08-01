@@ -1,13 +1,13 @@
 @include block('floating_background') {
-    @include opacity(0.2);
+    @include opacity(0.1);
     @include transform(rotate(-20deg));
     position: absolute;
     top: 100px;
     right: -10px;
     display: block;
 
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 
     -webkit-filter: grayscale(100%);
     filter: grayscale(1);
@@ -67,6 +67,7 @@
     }
     @include modifier('evaluation') {
         background-image: url('/evaluation-guide/public/images/card/Evaluation.svg');
+        @include transform(rotate(0deg));
     }
     @include modifier('learning') {
         background-image: url('/evaluation-guide/public/images/card/Learn.svg');

@@ -32,7 +32,7 @@ The development team can review and triage feedback items in the **Feedback** se
 
 End-users can keep track of submitted feedback through the Developer Portal and post updates and replies to questions. As with all Buzz activity, email notifications are sent when someone replies to your post. Users can quickly open the Developer Portal from those emails, or just reply by email to post a response.
 
-{{% todo %}}[**Add screenshot of email notification example**]{{% /todo %}}
+![Email notification for Buzz updates](attachments/buzz-notification.png)
 
 ### 4 How Can Development Teams Manage, De-Deduplicate & Prioritize Feedback?
 

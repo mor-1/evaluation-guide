@@ -42,6 +42,8 @@ Anyone collaborating on app development with Mendix—whether you are a develope
 
 All the users involved in a Mendix application project receive relevant and timely email notifications for Buzz and other updates of interest. This includes responses to submitted feedback items and status changes such as feedback items that are completed.
 
+![Email notification for Buzz updates](attachments/buzz-notification.png)
+
 ### 1.5 How Can Stakeholders Get Involved via the Central Buzz? {#buzz}
 
 All of the above channels are bundled together through the central Buzz in the Developer Portal. This is where you can post messages from the context of your project activity. For example, user stories and feedback items each have their own Buzz thread. All the updates posted are visible in the Developer Portal and the Mendix mobile app in a central Buzz stream.

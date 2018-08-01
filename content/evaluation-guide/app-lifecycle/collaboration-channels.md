@@ -16,7 +16,9 @@ Once development is underway, it is crucial to engage stakeholders in the develo
 
 The [Mendix Developer Portal](https://docs.mendix.com/developerportal/) is the central hub for project management and collaboration. This is usually the place where Product Managers, Product Owners, and similar roles spend their time specifying user stories, reviewing feedback, prioritizing the backlog, and providing their input to the development team through the Buzz.
 
-![Buzz feed of the application project space](attachments/app-project-buzz.png)
+{{% image_container width="500" %}}
+![](attachments/app-project-buzz.png)
+{{% /image_container %}}
 
 Users can post updates, comments, photos and upload documents, and publish polls. All updates can be posted both to a Company-wide Buzz channel, as well as to application project-specific Buzz channels.
 
@@ -24,7 +26,7 @@ Users can post updates, comments, photos and upload documents, and publish polls
 
 As developer are usually found working with the [Desktop Modeler](app-development#desktop-modeler) or the [Web Modeler](app-development#web-modeler), user stories from the active sprint and Buzz are available in the Modelers as well.
 
-![Participate in the Buzz from the Web Modeler](attachments/buzz_comment.png)
+![](attachments/buzz_comment.png)
 
 ### 1.3 How Can Stakeholders Get Involved via the Mendix Mobile App? {#mxapp}
 
@@ -34,21 +36,11 @@ Developers can [preview and test their app](../app-capabilities/mobile-apps#mxap
 
 Anyone collaborating on app development with Mendix—whether you are a developer, product manager, key end-user, or another stakeholder—can easily take part in the conversation around the development of the app at any time with the Buzz functionality in the Mendix mobile app.
 
-<<<<<<< HEAD
 ![](attachments/buzz-mobile.png)
-=======
-![Read up on your company's Mendix Buzz from the convenience of your phone](attachments/buzz-mobile.png)
->>>>>>> 379dbf2eeec7337fcaa0f84c419636c16ea67aa9
 
 ### 1.4 How Can Stakeholders Get Involved via Email Notifications?
 
 All the users involved in a Mendix application project receive relevant and timely email notifications for Buzz and other updates of interest. This includes responses to submitted feedback items and status changes such as feedback items that are completed.
-
-<<<<<<< HEAD
-{{% todo %}}[**Add screenshot of email notification for buzz update**]{{% /todo %}}
-=======
-{{% todo %}}Screenshot of email notification for buzz update{{% /todo %}}
->>>>>>> 379dbf2eeec7337fcaa0f84c419636c16ea67aa9
 
 ### 1.5 How Can Stakeholders Get Involved via the Central Buzz? {#buzz}
 

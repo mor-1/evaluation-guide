@@ -7,23 +7,25 @@ bg: "integration"
 tags: [""]
 ---
 
-Mendix supports connections to other apps and services through industry-standard interfaces and protocols such as REST, SOAP, JDBC, and OData, offering many solutions to ensure that new applications can both consume and expose data and services in heterogeneous environments.
+Mendix supports connections to other apps and services through industry-standard interfaces and protocols such as REST, SOAP, JDBC, and OData. The platform offers many solutions for ensuring that new applications can both consume and expose data and services in heterogeneous environments.
 
+{{% image_container width="400" %}}
 ![](attachments/integration-overview.png)
+{{% /image_container %}}
 
 {{% todo %}}[**Add video when available**]{{% /todo %}}
 
 ## How Can I Integrate with Mendix?
 
-Connecting applications and services is simple with Mendix; there are several ways in which we enable you to integrate. Ranging from consuming and exposing REST APIs, SOAP Web Services and OData, to Connectors that use external SDKs to extend the native toolbox of the Mendix Platform with integrations such as Kafka event streams, Redis, MQTT, Slack, Twitter and Salesforce. Many connectors already exist in the Mendix App Store and can be downloaded for immediate use inside your applications. Alternatively, you can build your own with our Connector Kit. 
+Connecting applications and services is simple with Mendix. There are several ways that we enable integration, ranging from consuming and exposing REST APIs, SOAP web services, and OData, to implementing connectors that use external SDKs to extend the native toolbox of the Mendix Platform with integrations such as Kafka event streams, Redis, MQTT, Slack, Twitter, and Salesforce. Many connectors already exist in the Mendix App Store, and they can be downloaded for immediate use inside your applications. Alternatively, you can build your own connectors with our Connector Kit. 
 
-For details, see [How Can I Integrate with Mendix?](integration-overview#integrate-with)
+For more information, see the [How Can I Integrate with Mendix?](integration-overview#integrate-with) section.
 
 ## How Does Mendix Support Data Mapping?
 
-Being able to easily and visually map external data formats to the entities used in your application is an important aspect of integration. Mendix helps you achieve this with Data Mapper. Data Mapper will automatically map the incoming message structures, such as JSON, WSDL or XML, to automatically create domain models (if desired) and data mappings. Once the message structure is mapped incoming data can then be transformed, if required, to be used inside your application models.
+Being able to easily and visually map external data formats to the entities used in your application is an important aspect of integration. Mendix helps you achieve this with the Mendix Data Mapper. The Data Mapper will automatically map incoming message structures (such as JSON, WSDL, or XML) in order to automatically create domain models (if desired) and data mappings. Once the message structure is mapped, incoming data can then be transformed (if required) so it can be used inside your application models.
 
-For details, see [How Does Mendix Support Data Mapping?](data-mappings#data-mapping)
+Read on in the [How Does Mendix Support Data Mapping?](data-mappings#data-mapping) section.
 
 ## How Does Mendix Support REST & Web Services?
 

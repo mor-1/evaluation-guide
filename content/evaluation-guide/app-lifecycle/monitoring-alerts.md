@@ -12,6 +12,8 @@ tags: ["monitoring", "alerts", "devops"]
 
 The Mendix Platform enables development teams to not only develop but also maintain and support applications with enterprise-grade non-functional requirements. Mendix provides a number of monitoring solutions out of the box in order to support development teams. Trend graphs and alerts are available for the full application stack, and live logging and debugging make it possible to quickly diagnose issues as they happen in production.
 
+![](attachments/mx-metrics.png)
+
 Development teams can use the [Mendix Application Performance Monitor](https://docs.mendix.com/apm/) (APM) to continuously monitor and measure performance of their apps in order to diagnose and resolve performance issues. Mendix APM provides point-in-time visibility, tracking, and diagnostics into Mendix Runtime performance at both a high level for user experience performance and at the lowest possible level for details on microflow activity performance. This allows you to continuously improve your app's performance and user experience.
 
 Mendix APM provides this experience through the following tools:
@@ -24,8 +26,6 @@ Mendix APM provides this experience through the following tools:
 Customized monitoring is available through integration with third-party services like [New Relic](https://docs.mendix.com/howto/monitoring-troubleshooting/manage-application-performance-with-new-relic), [Datadog](https://www.datadoghq.com/), and [AppDynamics](https://docs.mendix.com/howto/monitoring-troubleshooting/manage-application-performance-with-appdynamics). Alternatively, [JMX integration](https://docs.mendix.com/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx) is available, and the Mendix Runtime provides an [easy-to-program REST-based proprietary interface](https://docs.mendix.com/refguide/monitoring-mendix-runtime) for custom solutions.
 
 Depending on the deployment scenario, different solutions are available to development teams. The sections below present details on specific scenarios.
-
-![](attachments/mx-metrics.png)
 
 ## 2 How Do I Monitor My Mendix Apps Running on the Mendix Cloud?
 

@@ -8,7 +8,7 @@ tags: [""]
 
 Welcome to the Mendix Evaluation Guide. In this chapter, we will present the essence of Mendix, including background on why we found the company and what the Mendix vision is. We recommend first watching the video below of our Chief Technology Officer, Johann den Haan.
 
-{{% todo %}}[**Add video when available**]{{% /todo %}}
+{{% youtube 5p23szMuhmI %}}
 
 ## Why Was Mendix Founded? 
 

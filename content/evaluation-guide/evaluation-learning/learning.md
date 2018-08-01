@@ -7,7 +7,11 @@ bg: "learning"
 tags: [""]
 ---
 
-Anyone with an idea can build Apps in Mendix, to help you get started we’ve provided access to a fully integrated suite of training materials and learning paths via our Academy. Learning paths are tailored towards your skill set, from citized developers with little or no development expereince to UI developers/designers, operations and of course, professional software engineers.  In addition our rich and vibrant community with tens of thousands of active members jointly participating and sharing their best practice and experience is always a great resource for accelerated learning. 
+Anyone with an idea can build Apps in Mendix, to help you get started we’ve provided access to a fully integrated suite of training materials and learning paths via our Academy. Learning paths are tailored towards your skill set, from citized developers with little or no development expereince to UI developers/designers, operations and of course, professional software engineers.  In addition our rich and vibrant community with tens of thousands of active members jointly participating and sharing their best practice and experience is always a great resource for accelerated learning.
+
+{{% image_container width="400" %}}
+![](attachments/learning-overview.png)
+{{% /image_container %}}
 
 {{% todo %}}[**Add video when available**]{{% /todo %}}
 

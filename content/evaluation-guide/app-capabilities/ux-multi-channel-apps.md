@@ -29,15 +29,15 @@ With Mendix, users can develop, deploy, test, and manage mobile apps from a sing
 
 The Mendix mBaaS provides over-the-air updates that remove the need to redeploy applications to the app stores in order to deploy new or updated functionality.
 
-For details, see [How Do Mendix Mobile Apps Work?](mobile-apps#mobile-apps-work).
+For details, see the [How Do Mendix Mobile Apps Work?](mobile-apps#mobile-apps-work) section.
 
 ## How Can I Build an Offline Mobile App?
 
-The most important point to make here is that you build offline apps using the same tools as online and responsive apps, thus consolidating your skills and knowledge of reuse across the deployment landscape. By simply specifying an offline profile inside your app model and setting the data source of your required offline pages to be offline, the Mendix Platform will automatically manage both the consistency and deployment of those model artefacts that are required to be synchronized to the device to run locally.
+The most important point to make here is that you build offline apps using the same tools as online and responsive apps, which helps to consolidate your skills and knowledge of reuse across the deployment landscape. By simply specifying an offline profile inside your app model and setting the data source of your required offline pages to be offline, the Mendix Platform will automatically manage both the consistency and deployment of those model artifacts that are required to be synchronized to the device to run locally.
 
-In addition, Mendix will create and synchronize a local SQL database to persist data between the client and server automatically, requiring no additional skills to manage data movement when on or offline.
+In addition, Mendix creates and synchronizes a local SQL database to persist data between the client and server automatically, requiring no additional skills to manage data movement when on- or offline.
 
-The default synchronization patterns can be overwritten by custom models, giving the developer full control of the synchronization in case the default patterns do not suffice. 
+The default Mendix synchronization patterns can be overwritten by custom models, giving the developer full control of the synchronization in case the default patterns do not suffice. 
 
 For details, go to [How Can I Build an Offline Mobile App?](offline-apps#build-offline).
 

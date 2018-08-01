@@ -22,6 +22,15 @@ At the same time, Mendix offers professional developers possibilities to make th
 ![](attachments/consistency-checks.png)
 {{% /image_container %}}
 
+Here are some examples of consistency checking on the Mendix Platform:
+
+* The Modeler prevents the deployment of an app that has an input field connected to a wrongly-typed attribute or to an attribute that no longer exists (for example, a text box connected to a Boolean attribute)
+* Mendix automatically hides navigation menu options from the user that lead to pages for which the current user does not have sufficient rights
+* The Modeler shows an error if the user with a given role can navigate to a page that displays entities and/or attributes that are inaccessible to users of that role due to security settings
+* When defining data retrievals in your application, Mendix validates whether the resulting database queries are both syntactically and semantically correct and will execute successfully against the database
+
+The implication for testing is that these consistency checks can point out or prevent defects that could easily slip through in non-Mendix development efforts. This results in fewer defects to deal with. In some instances, these checks also work proactively (for example, when you change the name of an attribute, the Modeler adjusts all references to this attribute). This again reduces the chances of defects slipping into your model.
+
 ### 1.2 Single Modeling Environment
 
 All the application models in Mendix are managed in a single environment. Mendix checks the completeness and consistency of the entire model. This way, Mendix guarantees that the model does not contain technical inconsistencies once deployed. In fact, the system will not allow deployment of the model until inconsistencies are resolved.
@@ -63,32 +72,3 @@ In addition to integrated model analysis and consistency checks, the Mendix Desk
 ![Find Advanced dialog](attachments/find_advanced.png)
 
 {{% /image_container %}}
-
-## 4 How Can I Apply Automated Quality Assessments? {#aqm}
-
-The Mendix Platform contains an integrated automated quality governance tool called Application Quality Monitor (AQM). The Mendix AQM offers a dashboard that provides instant insight into the quality of the application models that you are building.
-
-This industry-first cloud service leverages the Mendix metadata-based Model API, performing static analysis of application models by a best-of-breed engine from our integration partner [Software Improvement Group (SIG)](https://www.sig.eu/) against the [ISO 25010 industry standard for maintainability](#iso).
-
-{{% image_container width="600" %}}
-
-![](attachments/aqm.png)
-
-{{% /image_container %}}
-
-### 4.1 What Are the Benefits of Automated Quality Monitoring?
-
-There is a strong correlation between the maintainability rating of an application and the effort put forth to handle issues and implement enhancements. Issue resolution time increases exponentially as quality drops. The following charts show that issue resolution times for defects and enhancements get exponentially longer with each level of decrease in source code quality:
-
-![](attachments/aqm-quality.png)
-*Source for charts above: Bijlsma, Ferreira, Luijten, and Visser: ["Faster Issue Resolution with Higher Technical Quality of Software"](https://www.sig.eu/wp-content/uploads/2016/10/Faster_Issue_Resolution_With_Higher_Technical_Quality_of_Software.pdf). N.d. June 26, 2018.*
-
-### 4.2 How Does ISO 25010 (Maintainability) Apply to Mendix? {#iso}
-
-Mendix application models have been mapped by experts from SIG on the ISO 25010 standard for software quality. This service measures key aspects of app maintainability against a set of parameters while benchmarking your application against a database of thousands of projects on a scale of 1–5.
-
-AQM rates your application and highlights any potential issues that should be addressed. The diagrams below demonstrate that AQM does not measure your application against Mendix standards, but rather against a true industry standard for expertly defined best practices in the execution of your development.
-
-![](attachments/aqm-sourcec_code_to_stars.png)
-
-![](attachments/aqm-matrix.png)

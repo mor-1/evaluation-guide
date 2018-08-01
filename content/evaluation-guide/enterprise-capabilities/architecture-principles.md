@@ -6,8 +6,6 @@ bg: "architecture"
 tags: [""]
 ---
 
-{{% todo %}}[make toc only for level 2 items; add no-toc to other pages that only have 1 question]{{% /todo %}}
-
 ## 1 What Are the Key Architectural Principles Behind the Mendix Platform? {#key-principles}
 
 Within the entire Mendix Platform, we have embedded the following (technical) principles to guarantee enterprise-ready applications. Enterprise-ready means to Mendix that they are maintanable performing scalable and can cope with all the functional complexity of complex back-end enterprise systems and so that they can be integrated into any enterprise landscape.

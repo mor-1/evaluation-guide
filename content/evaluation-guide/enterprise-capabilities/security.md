@@ -30,9 +30,9 @@ Mendix complies with various third-party security certifications and assurance r
 
 For details, see [Which Third-Party Security Certifications and Assurance Reports Does Mendix Have?](organization-compliance#security-certifications)
 
-## What Kind of Encryption Is Provided by the Mendix Platform?
+## How Is Application Security Defined in Mendix?
 
-The Mendix Platform encrypts data at rest and data in transit out of the box. There isn’t much detail around this in the guide?
+Application specific security is defined using the security domain specific language of the Mendix Desktop Modeler. Your developers can create specific users roles which in turn are mapped to module roles inside your applications model. Each module role defines the access and security levels to all assets in the module, including data. Fine grained security restrictions can be created down to attribute level on specific entity along with database constraints to ensure data never leaves your servers if the constraints aren’t met in full.
 
 For details, see [What Kind of Encryption Is Provided by the Mendix Platform?](platform-security#encryption)
 

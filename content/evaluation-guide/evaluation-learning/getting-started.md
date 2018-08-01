@@ -6,17 +6,7 @@ bg: "evaluation"
 tags: [""]
 ---
 
-## 1 How Can I Quickstart My App Development Project? {#starter-apps}
-
-The Mendix Platform provides several starter apps as part of the onboarding process for [creating new applications](../use-cases#can-i-build).
-
-Starter apps are complete app frameworks that can be used as a starting point when building a new app on the Mendix Platform. They provide the scaffolding required to massively accelerate app development, as they include basic design patterns such as branding, design assets, page templates, navigation, and security models.
-
-<video controls  src="attachments/OE_StarterApps.mp4">VIDEO</video>
-
-You can also upload your own starter apps to your [Private App Store](https://docs.mendix.com/community/app-store/share-app-store-content#private-app-store) to make them available as starting points for your whole organization. This way, they can be used to create the root model of all new apps. In addition to basic design patterns, they will often include complete functional building blocks, such as user onboarding workflows, integration frameworks, document management, business rules, and processes.
-
-## 2 Where Do I Start with the Mendix Platform? {#where-do-i-start}
+## 1 Where Do I Start with the Mendix Platform? {#where-do-i-start}
 
 Mendix's rapidly growing community consists of a wide range of people, from citizen developers and business analysts who can build Mendix apps without any coding experience, to hardcore developers who build all kinds of apps and extend the Mendix Platform with custom code.
 
@@ -25,6 +15,16 @@ In order to onboard this variety of users, Mendix provides a [guided product int
 The [free online training materials](https://gettingstarted.mendixcloud.com/link/home) that Mendix provides is built in a modular fashion. This means that you can skip modules depending on your knowledge, or only complete the knowledge checks to see if you need more information about a specific topic.
 
 In addition to Mendix being free to try and evaluate, the Mendix Community Edition gives all users unlimited access to the platform and community environments. see the section [Can I Evaluate Mendix Before I Buy?](#evaluate-before) for more details, and then check out section [5.3 How Do I Create an App?](../app-capabilities/web-apps) when you are ready to create your first app with Mendix.
+
+## 2 How Can I Quickstart My App Development Project? {#starter-apps}
+
+The Mendix Platform provides several starter apps as part of the onboarding process for [creating new applications](../use-cases#can-i-build).
+
+Starter apps are complete app frameworks that can be used as a starting point when building a new app on the Mendix Platform. They provide the scaffolding required to massively accelerate app development, as they include basic design patterns such as branding, design assets, page templates, navigation, and security models.
+
+<video controls  src="attachments/OE_StarterApps.mp4">VIDEO</video>
+
+You can also upload your own starter apps to your [Private App Store](https://docs.mendix.com/community/app-store/share-app-store-content#private-app-store) to make them available as starting points for your whole organization. This way, they can be used to create the root model of all new apps. In addition to basic design patterns, they will often include complete functional building blocks, such as user onboarding workflows, integration frameworks, document management, business rules, and processes.
 
 ## 3 How Does Mendix Onboard New Users? {#tailored-guidance}
 

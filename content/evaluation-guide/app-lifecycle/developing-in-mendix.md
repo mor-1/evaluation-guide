@@ -7,9 +7,7 @@ menu_order: 20
 tags: ["development", "lifecycle", "user interface", "logic", "version", "app store"]
 ---
 
-Mendix is a model-driven development environment designed to cater to the needs of today's enterprise software developers. Through our highly extensible visual-modeling suite, developers of all skillsets can participate in the design, building, and deploying of applications using both no-code and low-code development tools.
-
-The Mendix Web Modeler is a browser-based, no-code development environment for business developers. It employs WYSIWYG, drag-and-drop tools for data, UI, logic, and navigation. The Desktop Modeler builds on these visual editors to offer a sophisticated local development environment for the professional developer.
+Mendix is a model-driven development environment designed to cater to the needs of today's enterprise software developers, which includes, line of business developers, citizen developers and experienced software engineers. Through our highly extensible, visual modeling suite developers of all skill sets can participate in the design, build and deployment of apps using both no and low-code development tools.
 
 {{% todo %}}[**Add video when available**]{{% /todo %}}
 
@@ -26,8 +24,6 @@ Mendix is designed to support the spectrum of users who are necessary for buildi
 For details, see [How Does Mendix Support Different Developer Profiles?](app-development#developer-profiles)
 
 ## How Does Mendix Support Multi-User Development?
-
-To achieve the high levels of agility and continuous interactions required to collaborate effectively across multi-disciplinary teams, Mendix combines **abstraction:** visual model-driven development tools, **automation:** continuous integration and deployment (CICD), and **intelligent assisted development** with a fully integrated feed that maps every interaction across the ALM to a central buzz. 
 
 Project team members are connected instantly and interactively to changes and updates: such as new requirements, software revisions, updates and shipments; as well as test results and feedback loops from end users. This live feed becomes the backbone for the collaborative process, while visual models and drag and drop WYSYWG editors lower the barrier to entry for business users to participate in the development process.
 

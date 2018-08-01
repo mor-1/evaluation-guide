@@ -15,7 +15,7 @@ Openness and extensibility hooks are available across the platform, from the cli
 
 ## What Are the Key Architectural Principles Behind the Mendix Platform?
 
-The Mendix Platform is architected for the demands of enterprise-ready applications, meaning they are maintainable, highly performant and scalable, and can cope with the complex nature of enterprise systems and integration, achieved through the application of the following architectural principles:-
+The Mendix Platform is architected for the demands of enterprise-ready applications, meaning they are maintainable, highly performant and scalable, and can cope with the complex nature of enterprise systems and integration, achieved through the application of the following architectural principles:
 
 * Model Driven Development
 * Model interpretation over code generation

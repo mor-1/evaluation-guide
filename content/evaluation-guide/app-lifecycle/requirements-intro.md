@@ -15,13 +15,13 @@ Capturing and managing requirements using Agile methodologies is critical to the
 
 ## How Does Mendix Support Requirements Management?
 
-Mendix provides support for requirements management through the SCRUM methodology. Using integrated story definition, backlog management, sprint and release planning and velocity mapping, teams can curate a backlog of user stories into sprint plans for development. The Platform APIs provide integration hooks to draw requirements from third-party tools to integrate with your existing requirements planning software. 
+Mendix supports requirements management through integrated, simple and intuitive  tools for story definition, backlog management, sprint and release planning and velocity mapping,  enabling all stakeholders to curate a backlog of user stories into sprint plans for development. The Platform APIs provide integration hooks to draw requirements from third-party tools to integrate with your existing requirements planning software. 
 
 For details, see [How Does Mendix Support Requirements Management?](requirements-management#requirements-management).
 
 ## How Does Mendix Support Feedback Management?
 
-Feedback is a crucial element of the core Mendix platform allowing team members to interact continuously across the SDLC. From integrated buzz and embedded interactive chat that links to software assets and updates, to feedback management which enables testers and users to report feedback directly from the app itself, Including screenshots and context. Feedback is turned in to user stories and allocated to the backlog to complete the loop to begin the iterative development cycle.
+Feedback is a crucial element of the core Mendix platform allowing team members to interact continuously across the software development lifecycle (SDLC). From integrated buzz and embedded interactive chat that links to software assets and updates, to feedback management which enables testers and users to report feedback directly from the app itself, Including screenshots and context. Feedback is turned in to user stories and allocated to the backlog to complete the loop to begin the iterative development cycle.
 
 For details, see the section [How Does Mendix Support Feedback Management?](feedback-management#feedback-management)
 

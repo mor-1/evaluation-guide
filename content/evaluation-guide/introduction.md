@@ -16,7 +16,7 @@ We recommend first watching this video of our Chief Technology Officer, Johann d
 
 Mendix was founded based on the belief that software development could only be significantly improved if there was a paradigm shift, which meant bringing the Business and IT much closer to together.
 
-For more details on the story behind Mendix, see [Why Was Mendix Founded?](why-mendix#founded).
+Read on for the story of Mendix in the [Why Was Mendix Founded?](why-mendix) section.
 
 ## What Is the Vision Behind Mendix?
 
@@ -24,7 +24,7 @@ Our vision in a world where software is the lifeblood of every company is to emp
 
 The Mendix Platform brings together the people with ideas and the people that have the technical aptitude to execute on them to create a powerful force for change. We believe this is absolutely necessary to compete and survive in a software-driven world.
 
-For details, see [What Is the Vision Behind Mendix?](mendix-vision).
+For more information, see the [What Is the Vision Behind Mendix?](mendix-vision) section.
 
 ## What Is Mendix?
 
@@ -34,7 +34,7 @@ Mendix offers both **no-code** (visual-modelling) and **low code** (highly exten
 
 Based around our three core principles of **speed**, **collaboration**, and **control**, Mendix offers a complete platform for your enterprise application delivery needs.
 
-For details, see [What Is Mendix?](what-is-mendix).
+For details, see the [What Is Mendix?](what-is-mendix) section.
 
 ## Read More
 

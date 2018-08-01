@@ -9,19 +9,19 @@ tags: [""]
 
 The Mendix Platform offers a completely integrated visual development environment for building multi-channel apps. Developers can rapidly build, visualize, and deploy multi-channel apps using the drag-and-drop interfaces of the Mendix Web and Desktop Modelers.
 
-Users can build rich [front-ends](front-end) for multi-channel apps (for both [web](web-apps) and [mobile](mobile-apps) from a single model that supports reuse and a consistent look and feel. In addition, Mendix’s [Atlas UI](https://atlas.mendix.com/) framework enables users to create beautiful interfaces quickly via a wealth of Mendix UX resources.
+Users can build rich front-ends for multi-channel apps (for both web and mobile apps) from a single model that supports reuse and a consistent look and feel. In addition, Mendix’s [Atlas UI](https://atlas.mendix.com/) framework enables users to create beautiful interfaces quickly via a wealth of Mendix UX resources.
 
-Finally, in addition to many standard components, Mendix offers several options for extending the platform. These options are presented in the section [How Can I Extend the Mendix Front-End?](front-end#extend) in *Front-End* and [How Can I Customize the Look and Feel of My Apps?](ui-design#customize) in *User Interface Design*.
+Finally, in addition to many standard components, Mendix offers several options for extending the platform via the Mendix front-end and customizing the look and feel of your applications.
 
 {{% todo %}}[**Add video when available**]{{% /todo %}}
 
 ## How Does Mendix Support Multi-Channel Applications?
 
-Mendix provides a single development paradigm for building multi-channel apps. You can build simple responsive user experiences to complete offline mobile apps with client-side logic and data synchronization as well as everything in between.
+Mendix provides a single development paradigm for building multi-channel apps. You can build simple responsive user experiences, complete offline mobile apps with client-side logic and data synchronization, and everything in between.
 
-Both business and IT developers can create multi-chanel apps through Mendix's visual drag-and-drop development environment using a single model base and skillset to serve multiple use cases, including mBaaS.  Consolidating skills, reducing complexity, and accelerating business value with Mendix will help you to meet the demands of today’s highly mobile workforce.
+Both business and IT developers can create multi-channel apps through Mendix's visual drag-and-drop development environment using a single model base and skill set to serve multiple use cases, including mobile backend as a service (mBaaS).  Consolidating skills, reducing complexity, and accelerating business value with Mendix will help you to meet the demands of today’s highly mobile workforce.
 
-For more information, see [How Does Mendix Support Multi-Channel Applications?](front-end#support-multi-channel).
+For more information, see [How Does Mendix Support Multi-Channel Applications?](front-end#support-multi-channel) in *Front-End*.
 
 ## How Do Mendix Mobile Apps Work?
 

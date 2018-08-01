@@ -62,9 +62,6 @@ Application development project resources are centrally managed from the Mendix 
 
 ![Manage role-based access rights of your team's users](attachments/team-security.png)
 
-<<<<<<< HEAD
-=======
 By default, Mendix provides a set of sensible user roles, such as Scrum Master, Business Engineer, Product Owner, Application Operator, and End User. These roles can be modified to suit your particular organization's access management requirements.
 
 For more information on team roles, see [Roles Within the Company and Apps](https://docs.mendix.com/developerportal/general/roles) in the Mendix documentation. See the section on [Platform Security](../enterprise-capabilities/platform-security) for more details on general Mendix Platform security specifications.
->>>>>>> 379dbf2eeec7337fcaa0f84c419636c16ea67aa9

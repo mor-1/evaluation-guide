@@ -15,7 +15,7 @@ Mendix is a model-driven development environment designed to cater to the needs 
 
 Mendix enables model-driven development through the Web and Desktop Modelers, which provide visual drag-and-drop development tools for UI, data, logic, and navigation using no- and low-code development. The resulting model is then executed at runtime, thus removing the overhead of code generation, which breaks the bond between model and application while producing tomorrow's legacy. Model execution, on the other hand, provides significant advantages, as it supports the easy accommodation of changes, controlled extensions, and dynamic monitoring analysis at runtime.  
 
-For details, see the [How Does Mendix Enable Model-Driven Development?](app-development#enable) section.
+For details, see [How Does Mendix Enable Model-Driven Development?](app-development#enable) in *App Development*.
 
 ## How Does Mendix Support Different Developer Profiles?
 
@@ -27,7 +27,7 @@ Read on in the [How Does Mendix Support Different Developer Profiles?](app-devel
 
 Project team members are connected instantly and interactively to changes and updates such as new requirements, software revisions, updates, and shipments as well as test results and feedback loops from end-users. This live feed becomes the backbone for the Mendix collaborative process, while visual models and drag-and-drop WYSYWG editors lower the barrier to entry for business users to participate in the development process.
 
-For more information, see the [How Does Mendix Support Multi-User Development?](version-control#multi-user) section.
+For more information, see [How Does Mendix Support Multi-User Development?](version-control#multi-user) in *Version Control & Multi-User Development*.
 
 ## Read More
 

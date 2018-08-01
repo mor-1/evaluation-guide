@@ -27,7 +27,7 @@ For details, see [How Does Mendix Support Data Mapping?](data-mappings#data-mapp
 
 Mendix makes exposing and consuming REST and Web Services simple. To consume, map the incoming message responses from the API or service request using JSON or a WSDL for example. Once mapped, microflows actions allow you to call the desired service from your logic and process the response directly into your app.  Exposing your data and logic is also very simple, using specific microflow actions you can publish discoverable endpoints for your services or expose an APIs via a swagger definition through microflows or expose entities with a single click as OData resources.
 
-For details, see [How Does Mendix Support REST & Web Services?](consuming-services#support-rest-web)
+For details, see [Service Consumption](consuming-services).
 
 ## Read More
 

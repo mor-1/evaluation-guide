@@ -19,7 +19,7 @@ Mendix offers you an extensive array of tools to handle integrations:
 * [Message definitions](data-mappings#message-definition) – specify what messages you exchange with external systems
   * These can be based on XML schemas, JSON snippets, or entities defined in your domain models
 * [Mappings](data-mappings) – use visual specifications of how to translate external messages to and from entities in your Mendix applications
-* [Web services](consuming-services#support-rest-web) – publish microflows as web service operations and call external web services from your microflows
+* [Web services](consuming-services#consume-rest-api) – publish microflows as web service operations and call external web services from your microflows
 * [REST services](consuming-services#consume-rest-api) – publish microflows and entities as REST resources and operations and call external REST APIs from your microflows
 * [OData](querying-managing-data#odata) – publish data in your application in a standardized REST format for easy use in business analytics tooling
 * [Connectors](../app-lifecycle/app-store#connectors) – implement purpose-built connector modules that provide easy-to-use microflow activities integrated with third-party services

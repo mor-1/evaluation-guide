@@ -18,7 +18,9 @@ Consistency checks are divided into three categories: errors, warnings, and depr
 
 At the same time, Mendix offers professional developers possibilities to make their own trade-offs when deviating from the recommendations that result from the checks. For example, a warning regarding the performance of a certain query may be ignored, as the user has the context about the frequency of this query to be triggered.
 
-{{% todo %}}[**Add screenshots - verify with Roald of what**]{{% /todo %}}
+{{% image_container width="500" %}}
+![](attachments/consistency-checks.png)
+{{% /image_container %}}
 
 ### 1.2 Single Modeling Environment
 

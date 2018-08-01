@@ -33,6 +33,10 @@ Meanwhile, the two other founders of Mendix (Derek Roos and Derckjan Kruit) are 
 * Why is it so hard for developers to understand an obvious business need? 
 * Why do so many IT projects fail, wasting time and money and only leading to pointless blame shifting games which nobody ever wins?
 
+![](attachments/philosophy.png)
+
+
+
 At this point Mendix is founded in the year 2005. Mendix was founded to bridge the business-IT gap and enable organizations and people with a whole new way to deliver and differentiate with innovative apps. A new way: both in the technology used as well as the process that is applied.
 
 ## 4 How Is Mendix Different Than 4GL?

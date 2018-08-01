@@ -8,13 +8,13 @@ tags: [""]
 
 ## 1 How Does Mendix Support Multi-Channel Applications? {#support-multi-channel}
 
-Mendix allows you to combine web and mobile applications into the same app model using common development tools and a single code base. This increases productivity, reduces maintenance costs, and also reduces the need for differing skillsets to build web and mobile apps. End-users are able to swap interfaces between interactions and seamlessly continue midstream.
+Mendix allows you to combine web and mobile applications into the same app model using common development tools and a single code base. This increases productivity, reduces maintenance costs, and also reduces the need for differing skillsets to build web and mobile apps. 
 
 With Mendix, you can build responsive user interfaces that adapt automatically to the end-user’s device. By default, Mendix provides a full set of layouts, pages, building blocks, and widgets. There is a flexible grid system that can be easily nested and configured for different screen sizes. The Mendix front-end is based on [Bootstrap](https://getbootstrap.com/), which is also fully responsive, making it easy for (new) users to build responsive user interfaces.
 
-{{% todo %}}[**Ask Daniel what WM equivalent is to replace screenshot with**]{{% /todo %}}
-
-![](attachments/page-editor.png)
+{{% image_container width="500" %}}
+![](attachments/web-modeler-test.png)
+{{% /image_container %}}
 
 To gain more flexibility and optimize the user experience, Mendix allows you to specify a user interface per device type (desktop, tablet, and mobile). In addition, it is possible to distinguish between a mobile website and a mobile app that can be installed. This can be done for both phones and tablets, which means you can build a mobile website and a native mobile app from a single model. Using the concept of navigation profiles, you can configure the channels and corresponding user flow for the app. Besides these navigation profiles, it is also possible to use the device type in the logic for other scenarios.
 

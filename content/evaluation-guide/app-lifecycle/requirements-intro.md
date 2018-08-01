@@ -7,7 +7,7 @@ menu_order: 10
 tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 ---
 
-Capturing and managing requirements using Agile methodologies is critical to the success of any software development lifecycle. It enables cross-functional teams to close the feedback loop by working collaboratively and iteratively; accelerating the development process towards better/faster business outcomes. 
+Capturing and managing requirements using Agile methodologies is critical to the success of any software development lifecycle (SDLC). This enables cross-functional teams to close the feedback loop by working collaboratively and iteratively while accelerating the development process towards better and faster business outcomes. 
 
 ![](attachments/cycle-1.png)
 
@@ -15,21 +15,21 @@ Capturing and managing requirements using Agile methodologies is critical to the
 
 ## How Does Mendix Support Requirements Management?
 
-Mendix supports requirements management through integrated, simple and intuitive  tools for story definition, backlog management, sprint and release planning and velocity mapping,  enabling all stakeholders to curate a backlog of user stories into sprint plans for development. The Platform APIs provide integration hooks to draw requirements from third-party tools to integrate with your existing requirements planning software. 
+Mendix supports requirements management through integrated, simple, and intuitive tools for story definition, backlog management, sprint and release planning, and velocity mapping. These tools enable all stakeholders to curate a backlog of user stories into sprint plans for development. The Mendix Platform APIs provide integration hooks to draw requirements from third-party tools to integrate with your existing requirements planning software. 
 
-For details, see [How Does Mendix Support Requirements Management?](requirements-management#requirements-management).
+See [How Does Mendix Support Requirements Management?](requirements-management#requirements-management) for more details.
 
 ## How Does Mendix Support Feedback Management?
 
-Feedback is a crucial element of the core Mendix platform allowing team members to interact continuously across the software development lifecycle (SDLC). From integrated buzz and embedded interactive chat that links to software assets and updates, to feedback management which enables testers and users to report feedback directly from the app itself, Including screenshots and context. Feedback is turned in to user stories and allocated to the backlog to complete the loop to begin the iterative development cycle.
+Feedback is a crucial element of the core Mendix Platform, allowing team members to interact continuously across the SDLC. Mendix facilitates feedback management with features ranging from an integrated platform "buzz" and embedded interactive chat tools that link to software assets and updates, to feedback management that enables testers and users to report feedback directly from the app itself while including screenshots and context. Feedback is turned into user stories and allocated to the backlog to complete the loop and begin the iterative development cycle.
 
-For details, see the section [How Does Mendix Support Feedback Management?](feedback-management#feedback-management)
+For more information, see the [How Does Mendix Support Feedback Management?](feedback-management#feedback-management) section.
 
 ## How Can I Integrate Mendix with Third-Party Project Management Tooling?
 
-Mendix is a fully open and extensible platform; this includes platform APIs that allow integration with your existing tools. One such integration hook is our Stories API which enables external requirements managed using products like Jira, to synchronise with your Mendix project, allowing you to take full advantage of our complete SDLC, automated testing and feedback management tools.
+Mendix is a fully open and extensible platform with platform APIs that allow for integration with your existing tools. One such integration hook is our Stories API, which enables external requirements managed using products like Jira to synchronize with your Mendix app project. Such features allow you to take full advantage of our complete SDLC, automated testing, and feedback management tools.
 
-For details, see [How Can I Integrate Mendix with Third-Party Project Management Tooling?](requirements-management#tooling).
+Read on in the [How Can I Integrate Mendix with Third-Party Project Management Tooling?](requirements-management#tooling) section.
 
 ## Read More
 

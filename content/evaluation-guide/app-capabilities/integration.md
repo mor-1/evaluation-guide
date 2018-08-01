@@ -9,6 +9,8 @@ tags: [""]
 
 Mendix supports connections to other apps and services through industry-standard interfaces and protocols such as REST, SOAP, JDBC, and OData, offering many solutions to ensure that new applications can both consume and expose data and services in heterogeneous environments.
 
+![](attachments/integration-overview.png)
+
 {{% todo %}}[**Add video when available**]{{% /todo %}}
 
 ## How Can I Integrate with Mendix?

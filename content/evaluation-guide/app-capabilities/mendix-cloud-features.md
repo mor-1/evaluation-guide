@@ -14,8 +14,6 @@ The Mendix Cloud is the most optimized and self-service cloud for running Mendix
 
 Features delivered by the Mendix Cloud are described in the sections below.
 
-{{% todo %}}[**Rewrite all headings below as questions**]{{% /todo %}}
-
 ## 2 How Does Application Deployment Management Work?
 
 This feature allows you to deploy a Mendix application with a single click from both the Mendix Development Portal and the Modeler.

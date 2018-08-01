@@ -10,7 +10,9 @@ tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 
 {{% todo %}}Discuss: Should this be a featured question?{{% /todo %}}
 
-### 1.1 Demands on Delivered Applications Evolving Over Time
+Requirements management is fully embedded in the Mendix Platform because of the reasons described in detail below.
+
+### 1.1 Meeting Demands on Delivered Apps as They Evolve Over Time
 
 Development teams need to deliver applications that achieve business objectives from day 1 and match & exceed user’s needs & expectations while staying current with changes in these objectives, needs & expectations throughout the lifetime of the applications. In order for the development team to be truly effective, they need a thorough understanding of those business objectives & user needs. This means they need to better understand their business stakeholders who identified the need for the application, and users who will actually use the application. Collaboratively, they need to create a deep shared understanding of business objectives, user needs and expectations. However, because objectives, needs and expectations evolve throughout the lifetime of the application, so must the shared understanding of the extended team evolve.
 
@@ -20,7 +22,7 @@ So how does the extended team get to a shared understanding of those business ob
 
 These reuqirements means that the extended team needs an integrated environment in which they are encouraged to interact continuously between development team, key users and business stakeholders so that assumptions can be validated, feedback can be gathered and in general incorrect understanding can be set straight.
 
-### 1.3 Collaborating on Business Requirements with the Mendix Platform
+### 1.3 Collaborating on Business Requirements via the Mendix Platform
 
 The Mendix Platform enables development teams, users and other stakeholders to grow this shared understanding of the business requirements through multiple channels that are completely integrated into the platform.
 

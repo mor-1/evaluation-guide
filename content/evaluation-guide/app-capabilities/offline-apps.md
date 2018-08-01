@@ -36,8 +36,10 @@ Mendix knows what data should be available offline based on automatic analysis o
 
 Mendix supports the standard [conflict resolution](https://appstore.home.mendix.com/link/app/66614/) patterns **first wins** and **last wins** as well as the possibility to trigger a human workflow to handle conflicts. These mechanisms can easily be extended by visually modelling the resolution with microflows.
 
-{{% todo %}}[**The videos below will be remade and are to be used in this section as determined by Roald, please work into the content**]{{% /todo %}}
+This video shows you how to edit the automatic sync feature:
 
 <video controls src="attachments/Eval_Mobile_OfflineSaveSync-1.mp4">VIDEO</video>
+
+And this video shows you how to configure the first-wins and last-wins actions:
 
 <video controls src="attachments/Eval_Mobile_SyncConflictApplyFirst.mp4">VIDEO</video>

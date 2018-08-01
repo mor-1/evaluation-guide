@@ -12,10 +12,6 @@ The Mendix Platform is a completely integrated application platform-as-a-service
 
 The below diagram provides an overview of the key components of the Mendix Platform.
 
-{{% todo %}}[add cross-references above to each part of doc below]{{% /todo %}}
-
-{{% todo %}}[Developer Portal instead of Projects Portal]{{% /todo %}}
-
 ![](attachments/architecture-overview.png)
 
 ## 2 What Are the Main Mendix Platform Modules & Services?
@@ -38,9 +34,7 @@ The Developer Portal is where you do most of your requirements management and tr
 
 ### 2.2 What Are the Mendix Modelers? {#modelers}
 
-The [Desktop Modeler](https://docs.mendix.com/refguide/desktop-modeler-overview) and [Web Modeler](https://docs.mendix.com/refguide/web-modeler/overview-wm) are the multi-user modeling studios of the Mendix Platform. The general purpose of the Modelers is to provide an integrated, unified modeling space, where business analysts, and IT engineers can work closely together to model the various application elements. The Desktop Modeler runs locally on the developer’s computer and has an integrated build service for working fully offline, while the Web Modeler is hosted on the Mendix public cloud.
-
-{{% todo %}}[Add link to Mendix Cloud]{{% /todo %}}
+The [Desktop Modeler](https://docs.mendix.com/refguide/desktop-modeler-overview) and [Web Modeler](https://docs.mendix.com/refguide/web-modeler/overview-wm) are the multi-user modeling studios of the Mendix Platform. The general purpose of the Modelers is to provide an integrated, unified modeling space, where business analysts, and IT engineers can work closely together to model the various application elements. The Desktop Modeler runs locally on the developer’s computer and has an integrated build service for working fully offline, while the Web Modeler is hosted on the [Mendix Cloud](../app-capabilities/mendix-cloud-overview).
 
 ### 2.3 What Is the Team Server? {#team-server}
 

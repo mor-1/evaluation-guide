@@ -25,8 +25,6 @@ For information on getting started with Mendix, have a look at [First Steps with
 
 ## 3 How Does Mendix Enable Model-Driven Development? {#enable}
 
-{{% todo %}}**[Adam: please make sure this picture is visible]**{{% /todo %}}
-
 ![](attachments/BothModelers.png)
 
 While both the Web Modeler and Desktop Modeler environments support the ability to build data models, pages, and logic, their target audiences differ, and their features are tuned accordingly.

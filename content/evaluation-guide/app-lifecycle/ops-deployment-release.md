@@ -16,11 +16,9 @@ Before deploying an application, a deployment package is required. Using the Men
 
 <video controls src="attachments/DO_BuildingRevisionFromCloudPortal.mp4">Create a versioned deployment package from the Mendix Developer Portal</video>
 
-{{% todo %}}**[Note from Adam: why is this video used here and in 4.2? Should just be used once.]**{{% /todo %}}
-
 Once a revision of the application is created in the Deployment Package Repository, it can be staged into one of the available environments. The Mendix Developer Portal allows you to do this with just a few clicks.
 
-{{% todo %}}**[David: TODO: Add video showing staging/deployment.]**{{% /todo %}}
+{{% todo %}}**[David: Add video showing staging/deployment.]**{{% /todo %}}
 
 Development teams can fully automate this process by leveraging the [Deploy API](https://docs.mendix.com/apidocs-mxsdk/apidocs/deploy-api) in their [CI/CD tools and services of choice](cicd#cicd-other-tools).
 

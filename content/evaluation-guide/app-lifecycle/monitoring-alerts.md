@@ -6,8 +6,6 @@ bg: "devops"
 tags: ["monitoring", "alerts", "devops"]
 ---
 
-{{% todo %}}**[David: Mention APM somewhere.]**{{% /todo %}}
-
 ## 1 How Do Mendix Platform Monitoring Solutions Support Development Teams that Adopt DevOps?
 
 The Mendix Platform enables development teams to not only develop but also maintain and support applications with enterprise-grade non-functional requirements. Mendix provides a number of monitoring solutions out of the box in order to support development teams. Trend graphs and alerts are available for the full application stack, and live logging and debugging make it possible to quickly diagnose issues as they happen in production.

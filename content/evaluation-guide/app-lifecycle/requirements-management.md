@@ -24,9 +24,11 @@ User story refinement is made even easier through the specific Buzz message thre
 ![](attachments/story-detail.png)
 {{% /image_container %}}
 
-Any updates to the conversation on the **Story Details** page are also pushed to the central Buzz wall and the [Mendix Mobile app](https://docs.mendix.com/refguide/getting-the-mendix-app). All the users involved in the conversations receive notifications by email.
+Any updates to the conversation on the **Story Details** page are also pushed to the central Buzz wall and the [Mendix mobile app](https://docs.mendix.com/refguide/getting-the-mendix-app). All the users involved in the conversations receive notifications by email.
 
-{{% todo %}}[**Screenshot of Buzz in Mendix Mobile app**]{{% /todo %}}
+{{% image_container width="450" %}}
+![](attachments/buzz-phone.png)
+{{% /image_container %}}
 
 This integrated experience enables engaging stakeholders in the development process in order to effectively capture and validate requirements. With the Mendix Developer Portal, the Mendix mobile app, and the notifications system, the Mendix Platform provides stakeholders a unified interface for all of your ongoing development activity and enables you to actively take part in that process.
 

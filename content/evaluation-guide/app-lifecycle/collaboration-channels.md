@@ -30,13 +30,11 @@ Anyone collaborating on app development with Mendix—whether you are a develope
 
 ![](attachments/buzz-mobile.png)
 
-{{% todo %}}[**Add  phone wrapper**]{{% /todo %}}
-
 ### 1.4 How Can Stakeholders Get Involved via Email Notifications?
 
 All the users involved in a Mendix application project receive relevant and timely email notifications for Buzz and other updates of interest. This includes responses to submitted feedback items and status changes such as feedback items that are completed.
 
-{{% todo %}}[**Screenshot of email notificaiton for buzz update**]{{% /todo %}}
+{{% todo %}}[**Add screenshot of email notification for buzz update**]{{% /todo %}}
 
 ### 1.5 How Can Stakeholders Get Involved via the Central Buzz? {#buzz}
 
@@ -60,14 +58,3 @@ By default, Mendix provides a set of sensible user roles, such as Scrum Master, 
 
 For more information, see [Roles Within the Company and Apps](https://docs.mendix.com/developerportal/general/roles) in the Mendix documentation.
 
-{{% todo %}}[**Content notes to delete **]{{% /todo %}}
-
-* Buzz (in the Portal)
-  * Communication, textual & visual
-  * Polls
-* Mendix app
-* Web Modeler
-* Desktop Modeler
-* Notifications
-  * Buzz updates → close micro feedback loop
-  * Sprint completion → close release feedback loop

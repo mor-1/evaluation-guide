@@ -26,8 +26,6 @@ A Mendix mobile app can leverage various native capabilities via widgets that us
 
 The Mendix Platform generates the Mendix mobile app and provides all the logic to run the app. Via the [Mendix Developer Portal](https://sprintr.home.mendix.com/index.html), it is possible to customize the environment (test, acceptance, and production) as well as the necessary settings like app details, icons, splash screens, and permission settings. From the Developer Portal, it is also possible to build the app binaries without the need to install software like Xcode or Android Studio. The binaries can be downloaded from the Developer Portal and uploaded to the app stores.
 
-{{% todo %}}[**Video below to be used in this section as determined by Roald, please work into content**]{{% /todo %}}
-
 <video controls src="attachments/Eval_Mobile_PhoneGapBuild.mp4">VIDEO</video>
 
 Mendix also leverages [PhoneGap Build](https://build.phonegap.com/) to build the mobile app. This allows you to easily manage certificates and share the mobile app binaries (for example, via QR code). It is also possible to download the source of the mobile app and build locally. For more information, see the section [How Can I Extend My Mobile App?](#how-can-i-extend-my-mobile-app) below as well as [How to Publish a Mendix Hybrid Mobile App in Mobile App Stores](https://docs.mendix.com/howto/mobile/publishing-a-mendix-hybrid-mobile-app-in-mobile-app-stores) in the Mendix documentation.

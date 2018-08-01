@@ -6,11 +6,7 @@ bg: "integration"
 tags: [""]
 ---
 
-## 1 How Does Mendix Support REST & Web Services? {#support-rest-web}
-
-{{% todo %}}[**Note from Adam: Andrej, this question is specified as necessary by Roald and will go on the landing page card. Please talk to Roald about any content issues.**]{{% /todo %}}
-
-## 2 How Can I Consume a REST API? {#consume-rest-api}
+## 1 How Can I Consume a REST API? {#consume-rest-api}
 
 Calling a REST service is simple. First, you define what the external resources you are going to use look like by creating a message definition. The easiest way to do this is usually to create a JSON structure by copying and pasting an example JSON message. Mendix will automatically determine the structure of your message and the applicable attribute types, as illustrated below.
 
@@ -26,7 +22,7 @@ Finally, you use the **Call REST** activity in your microflows to call the REST 
 <video controls src="attachments/Integration_CallRest.mp4">VIDEO</video>
 {{% /image_container %}}
 
-## 3 How Can I Consume a SOAP Service?
+## 2 How Can I Consume a SOAP Service?
 
 When you have a WSDL (either from a Mendix application or from a third-party application), you can import it into your Mendix application. All you have to do is create a new consumed web service document and specify the location of your WSDL.
 

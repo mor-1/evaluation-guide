@@ -6,8 +6,6 @@ bg: "openness"
 tags: [""]
 ---
 
-{{% todo %}}[**Roald to look at headings with Andrej**]{{% /todo %}}
-
 ## 1 How Can I Avoid Being Locked In to the Mendix Platform? {#avoid-lockin}
 
 At Mendix, we have put a lot of effort into ensuring you are not locked into the platform.

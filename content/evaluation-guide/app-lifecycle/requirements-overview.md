@@ -6,21 +6,21 @@ bg: "agile"
 tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 ---
 
-## 1 Why is it important that requirements management is fully embedded in the Mendix platform?
+## 1 Why Is It Important that Requirements Management Is Fully Embedded in the Mendix Platform?
 
 {{% todo %}}Discuss: Should this be a featured question?{{% /todo %}}
 
-### Demands on Delivered Applications Evolve over Time
+### 1.1 Demands on Delivered Applications Evolving Over Time
 
 Development teams need to deliver applications that achieve business objectives from day 1 and match & exceed user’s needs & expectations while staying current with changes in these objectives, needs & expectations throughout the lifetime of the applications. In order for the development team to be truly effective, they need a thorough understanding of those business objectives & user needs. This means they need to better understand their business stakeholders who identified the need for the application, and users who will actually use the application. Collaboratively, they need to create a deep shared understanding of business objectives, user needs and expectations. However, because objectives, needs and expectations evolve throughout the lifetime of the application, so must the shared understanding of the extended team evolve.
 
-### Building a Shared Understanding of Objectives & Needs in the Extended Team
+### 1.2 Building a Shared Understanding of Objectives & Needs in the Extended Team
 
 So how does the extended team get to a shared understanding of those business objectives, user needs, and in turn, application requirements? Development teams need to be infused with business knowledge in order for them to be able to properly understand what application to build. This means that business stakeholders shouldn't just provide written-down requirements specifications. Instead, they should share their domain expertise with the team in order to clarify requirements. Finally, continuous feedback from users is essential for the team to understand the needs of those users.
 
 These reuqirements means that the extended team needs an integrated environment in which they are encouraged to interact continuously between development team, key users and business stakeholders so that assumptions can be validated, feedback can be gathered and in general incorrect understanding can be set straight.
 
-### Collaborating on Business Requirements with the Mendix Platform
+### 1.3 Collaborating on Business Requirements with the Mendix Platform
 
 The Mendix Platform enables development teams, users and other stakeholders to grow this shared understanding of the business requirements through multiple channels that are completely integrated into the platform.
 
@@ -32,15 +32,11 @@ Through this collaborative environment, the development team is essentially rede
 
 When the development team truly understands business objectives & user needs, instead of delivering an application that implements imperfect and incomplete requirements, the team can deliver applications that are truly unparalleled in meeting business demands & user needs.
 
-<!--
-## 2 Why is it important that user feedback management and requirements management are integrated? 
--->
-
 ## 2 How Is Requirements Management Positioned in Mendix?
 
 Requirements management is a critical part of the application development lifecycle. Mendix helps to shorten the feedback loop between development teams and users as well as all other stakeholders in order to drive project success, lower costs, and decrease time-to-market.
 
-## 2 How Does Mendix Support Agile Development Teams?
+## 3 How Does Mendix Support Agile Development Teams?
 
 Mendix enables development teams to adopt an Agile approach based on Scrum in which they collaborate closely with internal and external stakeholders in short iterative development cycles. The Mendix Platform supports this way of working out of the box through the following key functionalities:
 

@@ -8,24 +8,26 @@ tags: [""]
 
 ## 1 What Development Process Works Best for Mendix? {#bizdevops}
 
-The app development process that Mendix uses since the first day it was founded is later recognized as a DevOps methodology, though optimized for low-code app development. Due the high focus on business and IT collaboration the Mendix Development process is also known as a **BizDevOps** or **DevOps 2.0**. Mendix has optimized the BizDevOps approach for the low-code uses. 
+The app development process Mendix used from day one was later labelled as a combination of Agile and DevOps, though optimized for low-code app development. Due to the high focus on business and IT collaboration, the Mendix development process can be better described as **BizDevOps** or **DevOps 2.0**. Mendix continues to optimize the BizDevOps approach for low-code usage.
 
-The Mendix Development process encourages developers, operations staff, and business teams to work together so the organization can develop software more quickly, be more responsive to user demand, and ultimately maximize revenue. In this approach, not only does the business team set the requirements, they also work directly with the development team to set priorities for Agile software development sprints and backlogs. The development team becomes partners with the business side and works with business representatives to solve problems and achieve business goals. 
+The Mendix development process encourages developers, operations staff, and business teams to work together so that the organization can develop software more quickly, grow more responsive to user demand, and ultimately maximize revenue. In this approach, not only does the business team set the requirements, they also work directly with the development team. The development team is composed of business analysts and professional developers working alongside the business.
 
 ![](attachments/Mendix_RAD_process.png)
 
-This section explains the concept of the Mendix Development process (BizDevOps) and compares this with other software development processes.
+This section explains the concept of Mendix BizDevOps and compares this with other software development processes.
 
-## 2 Why Should I Use a BizDevOps Process?
+## 2 Why Should I Use the BizDevOps Process?
 
-Adopting the Mendix Development process (BizDevOps) in combination with the Mendix low-code development platfrom shortens the feedback loop drastically, which increases the efficiency, resulting in better outcomes, lower the costs of app developerment and shortens the time to market. 
+Adopting the Mendix development process known as BizDevOps in combination with the Mendix low-code development platform shortens the feedback loop drastically. In turn, there is an increase in efficiency, resulting in better outcomes, lower costs of app development, and shorter time-to-market. 
 
-In Mendix app development projects there is an instant feedback loop, within the development team, between the business analysts and the developers. Due the Mendix platform capabilities as one-click-deployment and visual modeling the development team can handle a hourly feedback loop from the business / product owner. It's often the provisioning of the feedback from business, not the planning and reception by development team, which determines the duration of the feedback loop. In practice, over all Mendix projects, this results in a feedback loop of two weeks till a month between the business and the development this. This is a decrease from a 12 month feedback loop in Waterfall projects:
+In Mendix app development projects, there is an instant feedback loop within the development team between the business analysts and the developers. With the Mendix Platform's features for one-click-deployment and visual modeling, the development team can handle an hourly feedback loop from the business and product owner. It is often the provisioning of feedback from the business—and not the planning and reception by the development team—that determines the duration of the feedback loop.
 
-* **12 months, Waterfall** – Due to the bigger teams, the linear approach, and the fact that feedback could only be given on full working applications, the feedback loop in Waterfall projects reached up to 12 months.
-* **6 months, Agile** – The iterative process—with providing feedback on an MVP instead of on a full working application—resulted in a 6-month feedback loop for Agile software development projects.
-* **3 months, low-code DevOps** –  Instead of working on a big team with specialties in silos, the smaller size of development teams and the use of one-click deployment enables the business to give feedback on the MVP of features instead of the MVP of full applications (as is done in Agile). This results in a 3-month feedback loop.
-* **1 month, low-code BizDevOps** – The involvement in the development team of the business analyst who understands the business and the integrated feedback mechanism (which pulls the business directly into the development process) enables the business to directly share their ideas with a development team who understand the requirements without having to first build the feature. This results in a 1-month feedback loop in low-code BizDevOps projects, saving 2 months compared to low-code DevOps projects.
+In practice, over all Mendix projects, this results in a feedback loop of 2–4 weeks between the business and the development. This is a decrease from a 12-month feedback loop in Waterfall projects:
+
+* **12-month feedback loop with Waterfall** – Due to the bigger teams, the linear approach, and the fact that feedback could only be given on full working applications, the feedback loop in Waterfall projects reached up to 12 months.
+* **6-month feedback loop in Agile** – The iterative process—with providing feedback on an MVP instead of on a full working application—resulted in a 6-month feedback loop for Agile software development projects.
+* **3-month feedback loop with low-code DevOps** –  Instead of working on a big team with specialties in silos, the smaller size of development teams and the use of one-click deployment enables the business to give feedback on the MVP of features instead of the MVP of full applications (as is done in Agile). This results in a 3-month feedback loop.
+* **1-month feedback loop with low-code BizDevOps** – The involvement in the development team of the business analyst who understands the business and the integrated feedback mechanism (which pulls the business directly into the development process) enables the business to directly share their ideas with a development team who understand the requirements without having to first build the feature. This results in a 1-month feedback loop in low-code BizDevOps projects, saving 2 months compared to low-code DevOps projects.
 
 ## 3 How does Mendix support a BizDevOps Process?
 

@@ -8,19 +8,17 @@ tags: [""]
 
 ## 1 What Is the Mendix Vision?
 
-Our fundamental belief is that software should not be something just for IT. Every company needs to become a software company to survive in a software-driven world. The whole organization needs to be collaborating on the lifeblood of the business, which is technology. The future of each company depends on it. Experimentation and innovation by people that know the business domain is key to survival.
+Our fundamental belief is that software should not be something just for IT. Every company needs to become a software company to survive in a software-driven world. The whole organization needs to be collaborating on the lifeblood of the business, which is technology. The future of each company depends on it. The key to survival is experimentation and innovation by people that know the business domain.
 
-The Mendix vision is to enable a whole range of people with different backgrounds to be successful in creating software that delivers actual business value in a sustainable way. Mendix enables:
+The Mendix vision is to enable a whole range of people with different backgrounds to be successful in creating software that delivers actual business value in a sustainable way. So, Mendix enables the following roles:
 
- * **Business domain experts** to develop software in an intuitive, visual way.
- * **Professional developers** by giving them low-level control, extensibility to use other programming languages, integration capabilities, debugging capabilities and a completely open meta-model as well as the APIs to interact with any part of the Mendix Platform, including the models.
- * **IT departments** to manage their application landscapes and to provide guardrails for business domain experts to build apps
-
-The Mendix Platform has three core principles that make this vision a reality.
+ * **Business domain experts** can develop software in an intuitive and visual way.
+ * **Professional developers** can utilize low-level control as well as extensibility to use other programming languages, integration capabilities, debugging capabilities, a completely open meta-model, and APIs to interact with any part of the Mendix Platform, including the models.
+ * **IT departments** can manage their application landscapes and provide guardrails for business domain experts to build apps.
 
 ## 2 What Are the Mendix Core Principles?
 
-There are three core principles of the Mendix Platform underlying every single platform feature:
+The Mendix Platform is based on three principles that make this vision a reality. You can find these core principles underlying every single platform feature:
 
 ![](attachments/core-principles.png)
 

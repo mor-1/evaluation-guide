@@ -6,7 +6,7 @@ bg: "agile"
 tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 ---
 
-## 1 Why Is Requirements Management Is Fully Embedded in the Mendix Platform?
+## 1 Why Is Requirements Management Fully Embedded in the Mendix Platform?
 
 {{% todo %}}This should be a featured question{{% /todo %}}
 

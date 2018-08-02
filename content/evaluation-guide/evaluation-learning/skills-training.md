@@ -10,9 +10,18 @@ tags: [""]
 
 With Mendix, anyone with an idea can build an app. It does not matter whether you are a citizen developer, business analyst, or seasoned professional developer – Mendix provides a wealth of resources for you to get started on the platform right away.
 
-Mendix uses have different profiles, and although they are simplified views, these profiles help us to best correlate our features and training courses. Through all the profiles, it is possible to identify Mendix developers who are more business-oriented (for example, citizen developers and business analysts) and those who are more technical (for example, users with a programming background and/or technical education).
+Mendix uses have different profiles, and although they are simplified views, these profiles help us to best improve our features and training courses. 
 
-Business-oriented Mendix developers have the following characteristics:
+![](attachments/dev-personas.png)
+
+These are some example Mendix user profiles:
+
+* **Hardcore Harry** – the "extreme" IT developer who is a trusted advisor, values autonomy, and likes innovation but on their own terms
+* **Tech Tom** – the "enlightened" IT developer who is intellectually curious, highly productive, and eager
+* **Solution Sam** – the business engineer who is a passionate problem solver, used to working on teams, and is tech-savvy but not CS-fluent
+* **Curious Cate** – the citizen developer who is autonomous, informal, and values personal productivity
+
+Through all Mendix user profiles, it is possible to identify developers who are more business-oriented (for example, citizen developers and business analysts) and those who are more technical (for example, users with a programming background and/or technical education). For example, business-oriented Mendix developers have the following characteristics:
 
 * Graduated with a business degree
 * Passionate about making an impact and solving business problems by building applications
@@ -20,7 +29,7 @@ Business-oriented Mendix developers have the following characteristics:
 * Team players who communicate well
 * Have an interest in technology
 
-More technical Mendix developers in the community have the following characteristics:
+More technical developers in the Mendix community have the following characteristics:
 
 * Often have a technical education
 * Love building applications

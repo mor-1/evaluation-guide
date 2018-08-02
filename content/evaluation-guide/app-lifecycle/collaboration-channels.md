@@ -6,15 +6,21 @@ bg: "agile"
 tags: ["agile", "collaboration", "requirements", "project management", "feedback", "dashboard", "traceability"]
 ---
 
-## 1 How Does Mendix Enable Active Stakeholder Involvement in Requirements Management? {#stakeholder-involvement}
+## 1 How Does Mendix Enable Active Stakeholder Involvement? {#stakeholder-involvement}
 
-The Mendix Developer Portal is the starting point for the development of Mendix projects. Each app has its own central project space, where the development team and their stakeholders can collaborate. This project space provides [backlog management](requirements-management#requirements-management), sprint planning and [user feedback management](feedback-management#feedback-management), development-oriented [DevOps features](devops-overview), and a central social channel, which is the [Buzz](https://docs.mendix.com/developerportal/).
+The Mendix Developer Portal is the central point for the development of Mendix projects. Each app has its own central project space, where the development team and their stakeholders can collaborate. This project space provides [backlog management](requirements-management#requirements-management), sprint planning and [user feedback management](feedback-management#feedback-management), development-oriented [DevOps features](devops-overview), and a central social channel, which is the [Buzz](https://docs.mendix.com/developerportal/). The Buzz can also be accessed through the [Mendix Mobile App](#mxapp).
 
-Once development is underway, it is crucial to engage stakeholders in the development process. The Mendix Platform provides various channels of engagement for different stakeholders.
+The Mendix Platform provides various channels of engagement for different stakeholders:
+
+* Mendix Developer Portal
+* Mendix Modeler or IDE
+* Mendix Mobile App
+* Notification Emails
+* The Central Buzz
 
 ### 1.1 How Can Stakeholders Get Involved via the Mendix Developer Portal?
 
-The [Mendix Developer Portal](https://docs.mendix.com/developerportal/) is the central hub for project management and collaboration. This is usually the place where Product Managers, Product Owners, and similar roles spend their time specifying user stories, reviewing feedback, prioritizing the backlog, and providing their input to the development team through the Buzz.
+The [Mendix Developer Portal](https://docs.mendix.com/developerportal/) is the central hub for requirements management and collaboration. This is usually the place where Product Managers, Product Owners, and similar roles spend their time specifying user stories, reviewing feedback, prioritizing the backlog, and providing their input to the development team through the Buzz.
 
 {{% image_container width="500" %}}
 ![](attachments/app-project-buzz.png)
@@ -24,7 +30,7 @@ Users can post updates, comments, photos and upload documents, and publish polls
 
 ### 1.2 How Can Stakeholders Get Involved via the Mendix IDE?
 
-As developer are usually found working with the [Desktop Modeler](app-development#desktop-modeler) or the [Web Modeler](app-development#web-modeler), user stories from the active sprint and Buzz are available in the Modelers as well.
+As developer are usually found working with the [Desktop Modeler](app-development#desktop-modeler) or the [Web Modeler](app-development#web-modeler), user stories from the active sprint and Buzz are available in the Modelers as well, in a side panel as shown below:
 
 <video controls src="attachments/buzz-in-wm.mp4">Buzz in the Web Modeler</video>
 
@@ -46,7 +52,7 @@ All the users involved in a Mendix application project receive relevant and time
 
 ### 1.5 How Can Stakeholders Get Involved via the Central Buzz? {#buzz}
 
-All of the above channels are bundled together through the central Buzz in the Developer Portal. This is where you can post messages from the context of your project activity. For example, user stories and feedback items each have their own Buzz thread. All the updates posted are visible in the Developer Portal and the Mendix mobile app in a central Buzz stream.
+The central buzz in the Developer Portal and Mendix Mobile App brings all platform activity together in a single feed. For example, updates to user stories in projects become visible here, so that users have a single view in which all their flows of work across projects comes together.
 
 ## 2 How Do I Invite Users & Other Stakeholders to Collaborate With the Development Team?
 

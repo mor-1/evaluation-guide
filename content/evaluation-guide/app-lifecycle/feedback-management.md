@@ -18,13 +18,23 @@ Collecting feedback from users and other stakeholders, prioritizing the feedback
 
 This functionality enables a very fast feedback loop between the development team, key end-users, and other stakeholders, in turn enabling quick improvement of the app under development. And the management features enable development teams to fully integrate user feedback into their natural development cycle
 
-### 2 How Can Users Provide Feedback on Applications to the Development Teams?
+## 2 How Can Users Provide Feedback on Applications to the Development Teams?
 
 Mendix provides a [Mendix Feedback Widget](https://appstore.home.mendix.com/link/app/199/) that empowers the end-users of an app to submit feedback from the context of the app itself. Feedback items are submitted through the widget into the [Feedback](https://docs.mendix.com/developerportal/collaborate/feedback) section of the app project in the Developer Portal. This allows end-users to very easily provide valuable feedback to the development team on the app under development.
 
 <video controls src="attachments/OE_FeedbackAPI_CreateFeedback-1.mp4">Provide the development team with feedback from any app</video>
 
-### 3 How can Development Teams Communicate with Users About Submitted Feedback?
+For every submitted feedback item the Mendix Platform automatically collects metadata to help the development team at the time of submission:
+
+* Information about the user who submitted the feedback item
+* The page that was visible on screen when the feedback item was submitted
+* A screenshot of the page as it looked at the time the user submitted the feedback
+* The application-level user role that the user had 
+* The browser that the user was using, and the resolution of his screen
+
+When a feedback item is accepted, the associated user story has the same metadata associated to it. When the story is scheduled in the current sprint, it becomes visible in the Desktop Modeler. From here, developers can click a link to immediately open the page that was visible on screen when the feedback item was submitted.
+
+## 3 How can Development Teams Communicate with Users About Submitted Feedback?
 
 The development team can review and triage feedback items in the **Feedback** section of the Developer Portal. They can communicate with the submitter of the feedback item through messages on the Buzz thread under the feedback item.
 
@@ -34,7 +44,7 @@ End-users can keep track of submitted feedback through the Developer Portal and 
 
 ![Email notification for Buzz updates](attachments/buzz-notification.png)
 
-### 4 How Can Development Teams Manage, De-Deduplicate & Prioritize Feedback?
+## 4 How Can Development Teams Manage, De-Deduplicate & Prioritize Feedback?
 
 Once the team understands the feedback, they can decide on whether or not to accept it. This is an important step in the feedback management process, because it allows the team to also immediately close feedback items, e.g. to get rid of duplicate feedback items, or close feedback items that have already been resolved, without polluting the user story backlog with low-priority items.
 
@@ -44,7 +54,9 @@ When the team decides to accept a feedback item, it becomes a user story in the 
 ![](attachments/accept-feedback.png)
 {{% /image_container %}}
 
-### 5 How Do Users Get Notifications on Planning, Progress & Resolution Status Changes?
+## 5 How Do Users Get Notifications on Planning, Progress & Resolution Status Changes?
+
+Communication between the submitter of feedback items and the development team needs to be smooth. As feedback items are handled by the development team and progress through different states, notifications will be sent out to the submitter of the feedback item.
 
 ### 5.1 Notifications for Accepted Feedback
 

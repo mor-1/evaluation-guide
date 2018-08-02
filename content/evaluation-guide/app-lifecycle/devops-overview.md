@@ -55,7 +55,7 @@ For details on how to version your app models, create deployable artifacts, and 
 
 ### 2.4 Continuous Integration (CI/CD)
 
-Continuous integration and continuous delivery (CI/CD) are supported at both the platform level and via the platform APIs. The APIs enable integrating external tools to build a delivery pipeline using products like Jenkins and Selenium coupled with container technologies like Cloud Foundry, Kubernetes, and Docker.
+Continuous integration and continuous delivery (CI/CD) is supported both in the Mendix Developer Portal and via the platform APIs. The platform APIs enable [integrating with external tools](#devops-tools) to build a delivery pipeline using products like Jenkins and Selenium coupled with container technologies like Cloud Foundry, Kubernetes, and Docker.
 
 As part of the CI pipeline, testing can be fully automated. To implement unit tests, you can use the [UnitTesting module](https://appstore.home.mendix.com/link/app/390/), which is available in the Mendix App Store. In addition, testers and developers alike can use the [Application Test Suite](https://docs.mendix.com/ats/), a Selenium-based test service for automated UI testing. Third-party testing tools and services like Selenium, JMeter, and Gatling can also be integrated in the CI pipeline.
 
@@ -81,7 +81,7 @@ For more details, see [Operations, Deployment, and Release](ops-deployment-relea
 
 ### 2.6 Monitoring Phase
 
-The Mendix Platform provides out-of-the-box monitoring capabilities that give insight into the health and status of all your Mendix apps running in the Mendix Cloud. Development teams will find that the essential [trend graphs](https://docs.mendix.com/developerportal/operate/trends-v4), [alerting functionality](https://docs.mendix.com/developerportal/operate/monitoring-application-health), and [live logging](https://docs.mendix.com/developerportal/operate/logs) feature make it very easy to operate and monitor Mendix apps after deployment.
+The Mendix Platform provides out-of-the-box monitoring capabilities that give insight into the health and status of all your Mendix apps running in the Mendix Cloud. Development teams will find that the essential [trend graphs](https://docs.mendix.com/developerportal/operate/trends-v4), [alerting functionality](https://docs.mendix.com/developerportal/operate/monitoring-application-health), and [live logging](https://docs.mendix.com/developerportal/operate/logs) features make it very easy to operate and monitor Mendix apps after deployment.
 
 ![](attachments/metrics.png)
 

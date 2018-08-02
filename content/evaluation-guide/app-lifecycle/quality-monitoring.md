@@ -16,11 +16,11 @@ The Mendix [Application Quality Monitor (AQM)](https://docs.mendix.com/aqm/aqm-o
 
 {{% /image_container %}}
 
-Mendix AQM performs a static analysis of Mendix application models according the ISO 25010 standard for maintainability. By proactively monitoring quality on a daily basis, customers can improve maintainability and reduce lifecycle costs.
+Mendix AQM performs a static analysis of Mendix application models according the ISO/IEC 25010:2011 standard for maintainability. By proactively monitoring quality on a daily basis, customers can improve maintainability and reduce lifecycle costs.
 
 ## 2 What Is the Mendix App Quality Rating & ISO Standard for Maintainability?
 
-Mendix application models have been mapped by experts from SIG on the ISO 25010 standard for software quality. The AQM service measures key aspects of app maintainability against a set of parameters and rates your application against a database of thousands of projects on a scale of one to five.
+Mendix application models have been mapped by experts from SIG on the ISO/IEC 25010:2011 standard for software quality. The AQM service measures key aspects of app maintainability against a set of parameters and rates your application against a database of thousands of projects on a scale of one to five.
 
 This rating provides a quality indicator for your application model and indicates how much effort and cost can be expected with future changes to the application model. A higher rating means the application model can be changed more easily compared to application models with a lower rating.
 
@@ -31,7 +31,7 @@ There is a strong correlation between the maintainability rating of an applicati
 ![](attachments/aqm-quality.png)
 *Source for charts above: Bijlsma, Ferreira, Luijten, and Visser: ["Faster Issue Resolution with Higher Technical Quality of Software"](https://www.sig.eu/wp-content/uploads/2016/10/Faster_Issue_Resolution_With_Higher_Technical_Quality_of_Software.pdf). N.d. June 26, 2018.*
 
-### 4 How Does ISO 25010 (Maintainability) Apply to Mendix? {#iso}
+## 4 How Does ISO 25010 (Maintainability) Apply to Mendix? {#iso}
 
 Mendix application models have been mapped by experts from SIG on the ISO 25010 standard for software quality. This service measures key aspects of app maintainability against a set of parameters while benchmarking your application against a database of thousands of projects on a scale of 1–5.
 

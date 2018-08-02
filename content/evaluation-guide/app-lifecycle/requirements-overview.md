@@ -18,9 +18,7 @@ The Mendix Developer Portal provides the extended team with a central space to m
 
 Requirements management is an integral part of Mendix application development. Mendix helps to shorten the feedback loop between development teams and users as well as all other stakeholders in order to drive project success, lower costs, and decrease time-to-market.
 
-{{% todo %}}
---> feedback loop with widget/portal/dm/redeploy flow & video
-{{% /todo %}}
+<video controls src="attachments/feedback-cycle.mp4">Accepted feedback can be easily looked up in the Desktop Modeler</video>
 
 Users can provide feedback to the development team when using applications. This feedback is triaged by the development team and accepted as user story. The user story is scheduled in the current sprint and becomes visible in the Desktop Modeler. The developer can click on the link next to the user story to quickly open the actual page from which the feedback item was submitted. He can then resolve the issue and quickly redeploy the application with a single click.
 

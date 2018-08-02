@@ -16,6 +16,8 @@ In order for the development team to be able to cope with these demands, the tea
 
 Between development team, key users and business stakeholders, assumptions must be validated, feedback must be collected and in general incorrect understanding must be set straight. This means that the extended team needs an integrated environment in which requirements, releases, feedback and communication are brought together and which facilitates continuous interaction.
 
+The Mendix Developer Portal provides the extended team with a central space to manage their application requirements in a backlog of user stories. The development team, business stakeholders and key users can all access this space, which provides everyone involved with a single, integrated view on all requirements and where they can collaborate on fleshing out the details. The extended team can comment on every user story or feedback item so that questions can be quickly answered and details specified further. This [Buzz feed](collaboration-channels#buzz) is available in the context of every user story and feedback item, but also centrally visible at the project level, both on the desktop and through the [Mendix Mobile app](collaboration-channels#mxapp).
+
 ## 2 How Is Requirements Management Positioned in Mendix?
 
 Requirements management is a critical part of the application development lifecycle. Mendix helps to shorten the feedback loop between development teams and users as well as all other stakeholders in order to drive project success, lower costs, and decrease time-to-market.

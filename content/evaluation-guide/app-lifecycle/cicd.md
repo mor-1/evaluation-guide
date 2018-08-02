@@ -8,7 +8,7 @@ tags: ["continuous integration and delivery", "ci/cd", "automated test", "API", 
 
 ## 1 How Does Mendix Support Continuous Integration & Delivery (CI/CD)? {#support-cicd}
 
-Continuous integration and continuous delivery (CI/CD) are supported at both the Mendix Platform level and via the platform APIs. The APIs enable integrating external tools to build a delivery pipeline using products like [Jenkins](https://github.com/mendix/azure-kubernetes-cicd-reference-impl) and [Visual Studio Team Services](https://github.com/mendix/azure-kubernetes-cicd-reference-impl-vsts) coupled with container technologies like Cloud Foundry, Kubernetes, and Docker and quality assurance services like Mendix Application Test Suite (ATS), Mendix Application Quality Monitor (AQM), and Selenium.
+Continuous integration and continuous delivery (CI/CD) is supported both in the Mendix Developer Portal and via the platform APIs. The platform APIs enable [integrating with external tools](#devops-tools) to build a delivery pipeline using products like [Jenkins](https://github.com/mendix/azure-kubernetes-cicd-reference-impl) and [Visual Studio Team Services](https://github.com/mendix/azure-kubernetes-cicd-reference-impl-vsts) coupled with container technologies like Cloud Foundry, Kubernetes, and Docker and quality assurance services like Mendix Application Test Suite (ATS), Mendix Application Quality Monitor (AQM), and Selenium.
 
 The Mendix Platform’s support for CI/CD facilitates the rapid development and deployment of applications, enabling organizations to ship multiple code revisions through test and acceptance and in to production environments daily (if required). This reduces risk and cost through automation and standardization, and it enables DevOps and microservices.
 
@@ -44,9 +44,9 @@ The Mendix Platform comes with an extensive range of APIs to help Developers int
 
 The following APIs are available to enable the external promotion of model revisions to test, acceptance, and production environments from outside the platform:
 
-* **Team Server API** – allows you to retrieve the information (branches, revisions) of application models stored on the Team Server
-* **Build API** – allows you to manage and create new deployment packages using the Mendix Build Server
-* **Deployment API** – allows you to manage application environments in the Mendix Cloud – you can retrieve the app status, start and stop apps, and deploy and transport new model versions to app environments
+* **[Team Server API](https://docs.mendix.com/apidocs-mxsdk/apidocs/team-server-api)** – allows you to retrieve the information (branches, revisions) of application models stored on the Team Server
+* **[Build API](https://docs.mendix.com/apidocs-mxsdk/apidocs/build-api)** – allows you to manage and create new deployment packages using the Mendix Build Server
+* **[Deployment API](https://docs.mendix.com/apidocs-mxsdk/apidocs/deploy-api)** – allows you to manage application environments in the Mendix Cloud – you can retrieve the app status, start and stop apps, and deploy and transport new model versions to app environments
 
 {{% image_container width="700" %}}
 

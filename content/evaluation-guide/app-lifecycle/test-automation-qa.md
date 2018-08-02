@@ -42,7 +42,7 @@ For more information, see [Model Consistency](model-consistency).
 
 ### 2.2 Consistent Deployment of Your Application Model
 
-When an application is started, the Mendix Platform ensures that the underlying database structure matches the domain model defined within your application model. Since consistency within your domain model is also guaranteed (see above), the database structure that is deployed is consistent with all the data usage of your application.
+When an application is started, the Mendix Platform [ensures that the underlying database structure matches the domain model defined within your application model](../app-capabilities/data-storage). Since consistency within your domain model is also guaranteed (see above), the database structure that is deployed is consistent with all the data usage of your application.
 
 For example, a text box in your application not only has a corresponding string attribute in the data model, but also a corresponding string (-equivalent) field in the underlying SQL database.
 

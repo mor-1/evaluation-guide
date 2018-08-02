@@ -13,7 +13,7 @@ To help you get started with the Mendix Platform, we have created a complete int
 
 ## Where Do I Start with the Mendix Platform?
 
-First, you will need to sign up on the platform by clicking **Start for free** on the [Mendix website](https://www.mendix.com/). Once signed up, you will be guided through a carefully planned onboarding experience, which only takes a few minutes. This will give you the grounding you need to get started building your first app in Mendix. From there, head over to the rich and diverse Mendix Community and Forum, or visit our Academy and get started on one of our many Learning Paths.
+First, you will need to sign up on the platform by clicking **Start for free** on the [Mendix website](https://www.mendix.com/). Once signed up, you will be guided through a carefully planned onboarding experience, which only takes a few minutes. This will give you the grounding you need to get started building your first app in Mendix. From there, head over to the rich and diverse Mendix Community and Forum, or visit our Academy and get started on one of our many learning paths.
 
 For details, see [Where Do I Start with the Mendix Platform?](getting-started#where-do-i-start).
 

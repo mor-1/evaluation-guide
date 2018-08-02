@@ -6,13 +6,9 @@ bg: "agile"
 tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 ---
 
-## 1 Why Is Requirements Management Fully Embedded in the Mendix Platform?
+## 1 Why Is Requirements Management Integrated in Mendix? {#why}
 
-{{% todo %}}This should be a featured question{{% /todo %}}
-
-Development teams need to deliver applications that achieve business objectives from day 1 and match & exceed user’s needs & expectations. But at the same time the applications must stay current with changes in these objectives, needs & expectations throughout the lifetime of the applications.
-
-In order for the development team to be able to cope with these demands, the team needs a thorough understanding of those business objectives & user needs. This means they need to better understand their business stakeholders and the users of the application. Collaboratively, as an extended team, they need to create a deep shared understanding of requirements. And as these requirements evolve throughout the lifetime of the application, so must the shared understanding of the extended team evolve.
+Development teams need to deliver applications that achieve business objectives from day 1 and match & exceed users’s needs & expectations. But at the same time the applications must stay current with changes in these objectives, needs & expectations throughout the lifetime of the applications. Therefore, the team needs a thorough understanding of those business objectives & user needs.
 
 Between development team, key users and business stakeholders, assumptions must be validated, feedback must be collected and in general incorrect understanding must be set straight. This means that the extended team needs an integrated environment in which requirements, releases, feedback and communication are brought together and which facilitates continuous interaction.
 
@@ -20,7 +16,13 @@ The Mendix Developer Portal provides the extended team with a central space to m
 
 ## 2 How Is Requirements Management Positioned in Mendix?
 
-Requirements management is a critical part of the application development lifecycle. Mendix helps to shorten the feedback loop between development teams and users as well as all other stakeholders in order to drive project success, lower costs, and decrease time-to-market.
+Requirements management is an integral part of Mendix application development. Mendix helps to shorten the feedback loop between development teams and users as well as all other stakeholders in order to drive project success, lower costs, and decrease time-to-market.
+
+{{% todo %}}
+--> feedback loop with widget/portal/dm/redeploy flow & video
+{{% /todo %}}
+
+Users can provide feedback to the development team when using applications. This feedback is triaged by the development team and accepted as user story. The user story is scheduled in the current sprint and becomes visible in the Desktop Modeler. The developer can click on the link next to the user story to quickly open the actual page from which the feedback item was submitted. He can then resolve the issue and quickly redeploy the application with a single click.
 
 ## 3 How Does Mendix Support Agile Development Teams?
 

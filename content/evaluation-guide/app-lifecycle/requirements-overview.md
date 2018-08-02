@@ -6,11 +6,9 @@ bg: "agile"
 tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 ---
 
-## 1 Why Is Requirements Management Fully Embedded in the Mendix Platform?
+## 1 Why Is Requirements Management Integrated in Mendix? {#why}
 
-{{% todo %}}This should be a featured question{{% /todo %}}
-
-Development teams need to deliver applications that achieve business objectives from day 1 and match & exceed user’s needs & expectations. But at the same time the applications must stay current with changes in these objectives, needs & expectations throughout the lifetime of the applications.
+Development teams need to deliver applications that achieve business objectives from day 1 and match & exceed users’s needs & expectations. But at the same time the applications must stay current with changes in these objectives, needs & expectations throughout the lifetime of the applications.
 
 In order for the development team to be able to cope with these demands, the team needs a thorough understanding of those business objectives & user needs. This means they need to better understand their business stakeholders and the users of the application. Collaboratively, as an extended team, they need to create a deep shared understanding of requirements. And as these requirements evolve throughout the lifetime of the application, so must the shared understanding of the extended team evolve.
 

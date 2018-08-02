@@ -21,7 +21,7 @@ Mendix provides a single development paradigm for building multi-channel apps. Y
 
 Both business and IT developers can create multi-channel apps through Mendix's visual drag-and-drop development environment using a single model base and skill set to serve multiple use cases, including mobile backend as a service (mBaaS).  Consolidating skills, reducing complexity, and accelerating business value with Mendix will help you to meet the demands of today’s highly mobile workforce.
 
-For more information, see [How Does Mendix Support Multi-Channel Applications?](front-end#support-multi-channel) in *Front-End*.
+For more information, see [How Does Mendix Support Multi-Channel Applications?](front-end#support-multi-channel).
 
 ## How Do Mendix Mobile Apps Work?
 
@@ -29,7 +29,7 @@ With Mendix, users can develop, deploy, test, and manage mobile apps from a sing
 
 The Mendix mBaaS provides over-the-air updates that remove the need to redeploy applications to the app stores in order to deploy new or updated functionality.
 
-For details, see the [How Do Mendix Mobile Apps Work?](mobile-apps#mobile-apps-work) section.
+For details, see [How Do Mendix Mobile Apps Work?](mobile-apps#mobile-apps-work).
 
 ## How Can I Build an Offline Mobile App?
 

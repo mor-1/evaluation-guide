@@ -25,13 +25,13 @@ See [How Does Mendix Support Requirements Management?](requirements-management#r
 
 Feedback is a crucial element of the core Mendix Platform, allowing team members to interact continuously across the SDLC. Mendix facilitates feedback management with features ranging from an integrated platform "buzz" and embedded interactive chat tools that link to software assets and updates, to feedback management that enables testers and users to report feedback directly from the app itself while including screenshots and context. Feedback is turned into user stories and allocated to the backlog to complete the loop and begin the iterative development cycle.
 
-For more information, see the [How Does Mendix Support Feedback Management?](feedback-management#feedback-management) section.
+For more information, see [How Does Mendix Support Feedback Management?](feedback-management#feedback-management).
 
 ## How Can I Integrate Mendix with Third-Party Project Management Tooling?
 
 Mendix is a fully open and extensible platform with platform APIs that allow for integration with your existing tools. One such integration hook is our Stories API, which enables external requirements managed using products like Jira to synchronize with your Mendix app project. Such features allow you to take full advantage of our complete SDLC, automated testing, and feedback management tools.
 
-Read on in the [How Can I Integrate Mendix with Third-Party Project Management Tooling?](requirements-management#tooling) section.
+Read on in [How Can I Integrate Mendix with Third-Party Project Management Tooling?](requirements-management#tooling).
 
 ## Read More
 

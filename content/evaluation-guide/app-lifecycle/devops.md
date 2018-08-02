@@ -17,7 +17,7 @@ Mendix provides DevOps tools out of the box for continuous integration and conti
 
 With one-click deployment and out-of-the-box monitoring, the Mendix Platform enables small cross-functional teams working iteratively to rapidly build, test, release, and operate enterprise applications in production environments. Teams can continuously release new functionality to the cloud for automated testing before using two-factor authentication to push updates to live production environments. All of this is carried out under the strict security controls and governance set out by your enterprise requirements.
 
-Read more about this topic in the [How Does Mendix Support DevOps?](devops-overview#support-devops) section.
+Read more about this topic in the [How Does Mendix Support DevOps?](devops-overview#support-devops).
 
 ## How Does Mendix Support Continuous Integration & Delivery (CI/CD)?
 
@@ -29,7 +29,7 @@ For more information, see [How Does Mendix Support Continuous Integration and De
 
 The Mendix Platform offers several features to ensure the quality of your applications, such as the integrated consistency checking of your models at design-time as well as Mendix AQM for monitoring your application model against the ISO 25010 standard for maintainability. The development roundtrip can be completed via Mendix ATS, which is a fully automated functional testing environment with test cases tied to user stories. 
 
-Read on in the [What Mendix Tools Are Available for Test Automation & Quality Assurance?](test-automation-qa#qa-tools) section.
+Read on in the [What Mendix Tools Are Available for Test Automation & Quality Assurance?](test-automation-qa#qa-tools).
 
 ## Read More
 

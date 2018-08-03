@@ -21,13 +21,13 @@ Mendix applications run on a variety of deployment options, including public clo
 
 For deployment details, see [What Deployment Options Does Mendix Provide?](multi-cloud-overview#deployment-options)
 
-## How Do I Run and Deploy My Mendix Application?
+## How Do I Run & Deploy My Mendix Application?
 
 Mendix applications are packaged and deployed to the cloud provider of your choice using our one-click deployment. This feature automatically builds the appropriate deployment package, such as Docker or Cloud Foundry, including all the necessary assets required before deploying it to the staging area of your cloud provider. Mendix also supports the creation of build packs for deployment on premises and infrastructure-as-a-service (IaaS).
 
 For details, see [How Do I Run and Deploy My Mendix Application?](multi-cloud-overview#run-deploy)
 
-## Which Cloud Providers Can I Use for Mendix
+## Which Cloud Providers Can I Use for Mendix?
 
 Mendix supports all the major cloud providers:
 

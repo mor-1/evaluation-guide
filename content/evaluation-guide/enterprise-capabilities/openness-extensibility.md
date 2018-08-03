@@ -26,7 +26,7 @@ We recognize the need for our customers to be able to migrate away from the Mend
 
 For more information on this important topic, see [How Can I Avoid Being Locked in to the Mendix Platform?](vendor-lockin#avoid-lockin).
 
-## Where Can I Use the Openness and Extensibility the Mendix Platform Offers?
+## Where Can I Use the Openness & Extensibility the Mendix Platform Offers?
 
 There are many occasions for using the openness and extensibility provided by the Mendix Platform. For example, you may have a specific need for a new UI widget or component, or you want to build a connector using the SDK for an external service or API. Perhaps your software engineers want to ensure that the quality of the models developed by business developers is of a high standard by building external scripts using the Model SDK to analyze them and automate updates. Or, you may need to leverage your existing investments in tools and technology, such as CI/CD pipelines and external requirements and project management tools.
 

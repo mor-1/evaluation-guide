@@ -17,7 +17,7 @@ Capturing and managing requirements using Agile methodologies is critical to the
 
 ## Why Is Requirements Management Integrated in Mendix?
 
-Development teams need to deliver applications that achieve business objectives from day 1 and match & exceed users’s needs and expectations. To be able to do so, the team needs to collaborate with business stakeholders and users on building a shared understanding of requirements. The Mendix Developer Portal provides the extended team with an integrated view on all requirements & user feedback where the team can collaborate on fleshing out the details.
+Development teams need to deliver applications that achieve business objectives from day one while matching and even exceeding the needs and expectations of users. To do this, the team needs to collaborate with business stakeholders and users on building a shared understanding of requirements. The Mendix Developer Portal provides the extended team with an integrated view on all requirements and user feedback where the team can collaborate on implementing the details.
 
 Read on in [Why Is Requirements Management Integrated in Mendix?](requirements-overview#why).
 

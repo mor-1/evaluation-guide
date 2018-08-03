@@ -19,7 +19,7 @@ Mendix has implemented an information security management system (ISMS) accordin
 
 You can find more information in [How Is Information Security Organized in Mendix?](organization-compliance#security-organized).
 
-## Which Third-Party Security Certifications and Assurance Reports Does Mendix Have?
+## Which Third-Party Security Certifications & Assurance Reports Does Mendix Have?
 
 Mendix complies with the following third-party security certifications and assurance reports:
 

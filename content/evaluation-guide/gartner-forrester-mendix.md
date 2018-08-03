@@ -8,19 +8,19 @@ tags: [""]
 
 ## 1 What Do Gartner and Forrester Say About Mendix?
 
-![](attachments/magic-quadrants.png)
+Mendix is a leader in four analyst reports at the same time. This page will provide an overview of these reports along with links for downloading the reports.
 
-Mendix is a leader in four analyst reports at the same time. This section will give an overview of these reports and links to where you can download the report.
+![](attachments/magic-quadrants.png)
 
 ## 2 Gartner 2018 Magic Quadrant for High-Productivity Application Platform as a Service
 
-Mendix was recognized as a leader in hpaPaaS, placed furthest for completeness of vision for 2 years running.
+Mendix was recognized as a leader in high-productivity-application-platform-as-a-service (hpaPaaS), placed furthest for completeness of vision for two years running.
 
 Here's what the report states about Mendix:
 
-"Mendix is an established (2005) pure-play,  low-code hpaPaaS provider offering cloud-native architecture and  capabilities. The Mendix Web Modeler together with the Atlas UI  framework offers both professional developers and, to a lesser degree,  citizen developers interested in high-productivity, a model-driven  visual development environment generating metadata that is interpreted  at runtime. Mendix also offers an additional integrated development  environment (IDE) for professional developers to complement and extend  the low-code development tools. Mendix's low-code modeling tool supports  sophisticated data-driven, event-driven and process-oriented  applications.
+<blockquote>Mendix is an established (2005) pure-play, low-code hpaPaaS provider offering cloud-native architecture and capabilities. The Mendix Web Modeler together with the Atlas UI framework offers both professional developers and, to a lesser degree, citizen developers interested in high-productivity, a model-driven visual development environment generating metadata that is interpreted at runtime. Mendix also offers an additional integrated development environment (IDE) for professional developers to complement and extend the low-code development tools. Mendix's low-code modeling tool supports sophisticated data-driven, event-driven and process-oriented applications.
 
-"Mendix is deployed on  AWS and supports Cloud Foundry and Docker images. The company has  distribution partnerships with SAP and IBM. Mendix is investing heavily  in growing its business and has 4,000 customers using its free community  edition."
+Mendix is deployed on AWS and supports Cloud Foundry and Docker images. The company has distribution partnerships with SAP and IBM. Mendix is investing heavily in growing its business and has 4,000 customers using its free community edition.</blockquote>
 
 Download your complimentary *Gartner 2018 Magic Quadrant for Enterprise High Productivity Application Platform as a Service* analyst report [here](https://www.mendix.com/resources/gartner-high-productivity-apaas-report/?utm_source=google&utm_medium=cpc&utm_term=%2Bmendix&utm_campaign=NL%20-%20Branded&gclid=CjwKCAjw4uXaBRAcEiwAuAUz8O91V7HHyGAr5y7PrGldJyokTLHnGhxO6ojRSQLByLpscXrcAyTeeRoCk3QQAvD_BwE).
 

@@ -44,7 +44,7 @@ The next step is to develop your application and convert ideas into apps. Mendix
 * **Business Analysts & Business Developers** can directly use the Mendix Web Modeler to build, review, and collaborate on an app.
 * **Developers** with a technical programming background can use the Mendix Desktop Modeler along with Java and JavaScript to build and extend an app.
 * **Product Owners & Scrum Masters** can use the Mendix Developer Portal to govern user requirements, end-user feedback, and sprint backlogs.
-* **End-users** involved in running acceptance tests can use the app in combination with the Mendix Feedback widget. This feedback is directly connected to the Mendix Developer Portal, so the Product Owner can review and validate the user feedback.
+* **End-users** involved in running acceptance tests can use the app in combination with the Mendix Feedback Widget. This feedback is directly connected to the Mendix Developer Portal, so the Product Owner can review and validate the user feedback.
 
 With Mendix, development is visual from start till finish, which ensures that the customer is engaged and requirements are aligned throughout the development cycle. 
 

@@ -38,7 +38,7 @@ Because developers are usually found working with the [Desktop Modeler](app-deve
 
 The [Mendix mobile app](https://docs.mendix.com/refguide/getting-the-mendix-app) enables development teams to closely collaborate with stakeholders on app development in general and mobile app development in particular.
 
-Developers can [preview and test their app](../app-capabilities/mobile-apps#mxapp-preview) on their device (without having to use services like Test Flight) or publish apps to the public app stores. Once it is loaded into the Mendix mobile app, [the app under development can be shared](../app-capabilities/mobile-apps#mxapp-share) with other developers, key end-users, and stakeholders, who can then provide feedback through the Mendix Feedback widget. End-users can preview an app under development with the Mendix mobile app as well as follow the Buzz.
+Developers can [preview and test their app](../app-capabilities/mobile-apps#mxapp-preview) on their device (without having to use services like Test Flight) or publish apps to the public app stores. Once it is loaded into the Mendix mobile app, [the app under development can be shared](../app-capabilities/mobile-apps#mxapp-share) with other developers, key end-users, and stakeholders, who can then provide feedback through the Mendix Feedback Widget. End-users can preview an app under development with the Mendix mobile app as well as follow the Buzz.
 
 Any developer, product manager, key end-user, or other stakeholder collaborating on app development with Mendix can easily take part in the conversation around the development of the app at any time with the Buzz functionality in the Mendix mobile app.
 

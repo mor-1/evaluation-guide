@@ -16,11 +16,11 @@ Mendix is a leader in four analyst reports at the same time. This page will prov
 
 Mendix was recognized as a leader in high-productivity-application-platform-as-a-service (hpaPaaS), placed furthest for completeness of vision for two years running.
 
-Here's what the report states about Mendix:
+Here's what the Gartner report states about Mendix:
 
-<blockquote>Mendix is an established (2005) pure-play, low-code hpaPaaS provider offering cloud-native architecture and capabilities. The Mendix Web Modeler together with the Atlas UI framework offers both professional developers and, to a lesser degree, citizen developers interested in high-productivity, a model-driven visual development environment generating metadata that is interpreted at runtime. Mendix also offers an additional integrated development environment (IDE) for professional developers to complement and extend the low-code development tools. Mendix's low-code modeling tool supports sophisticated data-driven, event-driven and process-oriented applications.
+<blockquote><p>Mendix is an established (2005) pure-play, low-code hpaPaaS provider offering cloud-native architecture and  capabilities. The Mendix Web Modeler together with the Atlas UI framework offers both professional developers and, to a lesser degree,  citizen developers interested in high-productivity, a model-driven  visual development environment generating metadata that is interpreted at runtime. Mendix also offers an additional integrated development  environment (IDE) for professional developers to complement and extend  the low-code development tools. Mendix's low-code modeling tool supports  sophisticated data-driven, event-driven and process-oriented applications.</p>
 
-Mendix is deployed on AWS and supports Cloud Foundry and Docker images. The company has distribution partnerships with SAP and IBM. Mendix is investing heavily in growing its business and has 4,000 customers using its free community edition.</blockquote>
+<p>Mendix is deployed on AWS and supports Cloud Foundry and Docker images. The company has  distribution partnerships with SAP and IBM. Mendix is investing heavily in growing its business and has 4,000 customers using its free community  edition.</p></blockquote>
 
 Download your complimentary *Gartner 2018 Magic Quadrant for Enterprise High Productivity Application Platform as a Service* analyst report [here](https://www.mendix.com/resources/gartner-high-productivity-apaas-report/?utm_source=google&utm_medium=cpc&utm_term=%2Bmendix&utm_campaign=NL%20-%20Branded&gclid=CjwKCAjw4uXaBRAcEiwAuAUz8O91V7HHyGAr5y7PrGldJyokTLHnGhxO6ojRSQLByLpscXrcAyTeeRoCk3QQAvD_BwE).
 
@@ -28,13 +28,13 @@ Download your complimentary *Gartner 2018 Magic Quadrant for Enterprise High Pro
 
 A Forrester survey of IT leaders reveals that low-code development platforms speed up application delivery, dramatically improving IT’s ability to respond to business demands.
 
-Here's what the report states about Mendix:
+Here's what the Forrester report states about Mendix:
 
-"Mendix is firing on all cylinders and about to accelerate its distribution. A well-known low-code platform for AD&D pros, Mendix continues to innovate in new use cases and deepen its features across the board. Its decision to base its low-code environment on Cloud Foundry also paid big dividends, as SAP — a Cloud Foundry distributor — adopted the vendor's platform as its worldwide low-code solution. That partnership is the first by one of the four largest enterprise vendors (IBM, Microsoft, Oracle, and SAP) with a low-code platform vendor and should accelerate Mendix's already substantial growth.
+<blockquote>Mendix is firing on all cylinders and about to accelerate its distribution. A well-known low-code platform for AD&D pros, Mendix continues to innovate in new use cases and deepen its features across the board. Its decision to base its low-code environment on Cloud Foundry also paid big dividends, as SAP — a Cloud Foundry distributor — adopted the vendor's platform as its worldwide low-code solution. That partnership is the first by one of the four largest enterprise vendors (IBM, Microsoft, Oracle, and SAP) with a low-code platform vendor and should accelerate Mendix's already substantial growth.<p>
 
-"Mendix has many strengths in addition to its new SAP relationship: The platform's user experience (UX) and content/collaboration services tooling, its development-team support and administration tooling, and its cloud service and developer community are all outstanding. Mendix has leading AI and machine-learning development features, and offers a specific tool to include business developers in app-delivery projects. Mendix shows weakness in cloud security certifications, and breadth of partner roster, and some advanced reporting and process features."
+Mendix has many strengths in addition to its new SAP relationship: The platform's user experience (UX) and content/collaboration services tooling, its development-team support and administration tooling, and its cloud service and developer community are all outstanding. Mendix has leading AI and machine-learning development features, and offers a specific tool to include business developers in app-delivery projects. Mendix shows weakness in cloud security certifications, and breadth of partner roster, and some advanced reporting and process features.</blockquote>
 
-Download your complimentary report *The Forrester Wave™: Low-Code Development Platforms for AD&D Pros, Q4 2017* [here](https://www.mendix.com/resources/forrester-low-code-platform-wave/).
+Download your complimentary *The Forrester Wave™: Low-Code Development Platforms for AD&D Pros, Q4 2017* report [here](https://www.mendix.com/resources/forrester-low-code-platform-wave/).
 
 ## 4 Gartner 2018 Magic Quadrant for Mobile App Development Platforms
 

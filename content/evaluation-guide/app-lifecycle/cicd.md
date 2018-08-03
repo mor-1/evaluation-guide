@@ -22,7 +22,7 @@ The core of the Mendix Platform provides all the tooling required to continuousl
 
 At any point and with a single click, a model revision can be versioned and pushed to the build server, packaged, and moved to staging before it is deployed to test. At that point, the platform’s built-in ATS system will run functional testing based on test cases defined against user stories.
 
-Tested deployment packages can then be promoted through acceptance and in to production with two-factor authentication. Finally, applications are monitored using the platform’s built-in monitoring tools and feedback loops to complete the delivery pipeline.
+The tested deployment packages can then be promoted through acceptance and in to production with two-factor authentication. Finally, applications are monitored using the platform’s built-in monitoring tools and feedback loops to complete the delivery pipeline.
 
 Through automation with the Mendix Platform APIs, each of these functions can be automated into a continuous integration pipeline.
 
@@ -34,19 +34,19 @@ Through automation with the Mendix Platform APIs, each of these functions can be
 
 ## 2 How Can I Integrate Automated Tests of My Mendix Apps in My CI/CD Pipeline?
 
-As part of the CI pipeline, testing can be fully automated. To implement unit tests, you can use the [UnitTesting module](https://appstore.home.mendix.com/link/app/390/), which is available in the Mendix App Store. In addition, testers and developers alike can use the [Application Test Suite](https://docs.mendix.com/ats/), a Selenium-based test service for automated UI testing. Third-party testing tools and services can also be used to integrate with the CI pipeline.
+As part of the CI pipeline, testing can be fully automated. To implement unit tests, you can use the [UnitTesting](https://appstore.home.mendix.com/link/app/390/) module, which is available in the Mendix App Store. In addition, testers and developers alike can use the [Mendix Application Test Suite](https://docs.mendix.com/ats/), a Selenium-based test service for automated UI testing. Third-party testing tools and services can also be used to integrate with the CI pipeline.
 
-For more details, see the [Testing](test-automation-qa) chapter.
+For more details, see [Testing](test-automation-qa).
 
 ## 3 How Can I Use My Own CI/CD Tooling with Mendix? {#cicd-other-tools}
 
-The Mendix Platform comes with an extensive range of APIs to help Developers integrate the platform into their existing DevOps pipeline. With tools for CI/CD like [Jenkins](https://github.com/mendix/azure-kubernetes-cicd-reference-impl), [Visual Studio Team Services](https://github.com/mendix/azure-kubernetes-cicd-reference-impl-vsts), GitLab-CI and Bamboo, you can leverage these APIs to build, test, and deploy applications automatically. These applications can be deployed on any public or private cloud or on premises, using either Docker or a Cloud Foundry container, and they can run on any container platform like Kubernetes or Cloud Foundry.
+The Mendix Platform comes with an extensive range of APIs to help developers integrate the platform into their existing DevOps pipeline. With tools for CI/CD like [Jenkins](https://github.com/mendix/azure-kubernetes-cicd-reference-impl), [Visual Studio Team Services](https://github.com/mendix/azure-kubernetes-cicd-reference-impl-vsts), GitLab-CI, and Bamboo, you can leverage these APIs to build, test, and deploy applications automatically. These apps can be deployed on any public or private cloud or on premises, using either Docker or a Cloud Foundry container, and they can run on any container platform like Kubernetes or Cloud Foundry.
 
 The following APIs are available to enable the external promotion of model revisions to test, acceptance, and production environments from outside the platform:
 
-* **[Team Server API](https://docs.mendix.com/apidocs-mxsdk/apidocs/team-server-api)** – allows you to retrieve the information (branches, revisions) of application models stored on the Team Server
-* **[Build API](https://docs.mendix.com/apidocs-mxsdk/apidocs/build-api)** – allows you to manage and create new deployment packages using the Mendix Build Server
-* **[Deployment API](https://docs.mendix.com/apidocs-mxsdk/apidocs/deploy-api)** – allows you to manage application environments in the Mendix Cloud – you can retrieve the app status, start and stop apps, and deploy and transport new model versions to app environments
+* [Team Server API](https://docs.mendix.com/apidocs-mxsdk/apidocs/team-server-api) – allows you to retrieve the information (branches, revisions) of application models stored on the Team Server
+* [Build API](https://docs.mendix.com/apidocs-mxsdk/apidocs/build-api) – allows you to manage and create new deployment packages using the Mendix Build Server
+* [Deployment API](https://docs.mendix.com/apidocs-mxsdk/apidocs/deploy-api) – allows you to manage application environments in the Mendix Cloud – you can retrieve the app status, start and stop apps, and deploy and transport new model versions to app environments
 
 {{% image_container width="700" %}}
 

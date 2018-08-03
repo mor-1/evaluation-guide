@@ -71,8 +71,8 @@ The [Mendix Runtime](enterprise-capabilities/architecture-runtime) executes your
 
 Mendix strives to become the standard in low-code development, and therefore actively pursues and integrates the platform with strategic partners. SAP and IBM are the first two [strategic partners](strategic-partners) to adopt Mendix.
 
-[SAP](../strategic-partners/sap) has adopted the Mendix Platform as their own rapid application development platform for extending their solutions. The SAP Solution Extension partnership means that you can not only purchase Mendix from SAP directly, but you can quickly and easily integrate Mendix with SAP in a variety of ways while taking advantage of a single point of contact for support and building Mendix apps on top of SAP.
+[SAP](strategic-partners/sap) has adopted the Mendix Platform as their own rapid application development platform for extending their solutions. The SAP Solution Extension partnership means that you can not only purchase Mendix from SAP directly, but you can quickly and easily integrate Mendix with SAP in a variety of ways while taking advantage of a single point of contact for support and building Mendix apps on top of SAP.
 
-Mendix is also the standard low-code development platform to be used on top of [IBM Cloud](../strategic-partners/ibm). This means you can utilize IBM as a single contact for using Mendix on IBM Cloud.
+Mendix is also the standard low-code development platform to be used on top of [IBM Cloud](strategic-partners/ibm). This means you can utilize IBM as a single contact for using Mendix on IBM Cloud.
 
 Because of this cloud-native architecture, Mendix apps are portable over different clouds.

@@ -12,7 +12,7 @@ The Mendix Platform enables development teams to embrace the DevOps way of worki
 
 With [one-click deployment](https://docs.mendix.com/developerportal/howto/deploying-to-the-cloud#5-deploying-a-free-app-to-the-mendix-cloud) and out-of-the-box monitoring for all apps, the Mendix Platform provides the basis for development teams to adopt DevOps practices. In addition, the Mendix [Platform APIs](https://apidocs.mendix.com/) enable development teams to complement the capabilities of the Mendix Platform with their third-party DevOps tools of choice.
 
-Through the same APIs, teams can implement CI/CD pipelines on top of the Mendix Platform to fully automate their DevOps processes, including build, test, and release steps. Documentation and reference implementations for the most commonly used tools are available (for more information, see the section [Can I Use My Own DevOps Tools with Mendix?](#devops-tools) below).
+Through the same APIs, teams can implement CI/CD pipelines on top of the Mendix Platform to fully automate their DevOps processes, including the build, test, and release steps. Documentation and reference implementations for the most commonly used tools are available (for details, see [Can I Use My Own DevOps Tools with Mendix?](#devops-tools) below).
 
 To go deeper into how Mendix supports DevOps, see these featured questions:
 
@@ -27,7 +27,7 @@ Many tools and services considered standard for DevOps are either available out 
 
 ### 2.1 Planning Phase
 
-Mendix makes it easy to manage the requirements of different stakeholders for your apps. Through the [Mendix Developer Portal](https://sprintr.home.mendix.com/), development teams can set up their app project backlogs. As part of the DevOps process, a team regularly schedules user stories from their backlog to improve their operational processes.
+Mendix makes it easy to manage the requirements of different stakeholders for your apps. In the [Mendix Developer Portal](https://sprintr.home.mendix.com/), development teams can set up their app project backlogs. As part of the DevOps process, a team regularly schedules user stories from their backlog to improve their operational processes.
 
 ![](attachments/stories.png)
 
@@ -41,7 +41,7 @@ During development, Mendix helps development teams to efficiently develop (or *m
 
 Compared to other development tools, this makes users more efficient and reduces the number of accidentally introduced regressions. For more details, see [Consistency Checks](model-consistency).
 
-To ensure that apps being developed have consistently high-quality app models with limited technical debt, development teams use the [Application Quality Monitor (AQM)](https://docs.mendix.com/addons/aqm/) to continuously monitor the quality of their app models. AQM provides development teams with deep insight into the technical quality of their app models, so that they can stay in control of technical debt.  For more details, see the section [Quality Monitoring](test-automation-qa#quality-monitoring) in *App Build Creation*.
+To ensure that the apps being developed have consistently high-quality app models with limited technical debt, development teams use the [Mendix Application Quality Monitor (AQM)](https://docs.mendix.com/addons/aqm/) to continuously monitor the quality of their app models. AQM provides development teams with deep insight into the technical quality of their app models, so that they can stay in control of technical debt.  For more details, see the section [Quality Monitoring](test-automation-qa#quality-monitoring) in *App Build Creation*.
 
 For further information on developing Mendix apps, see [Developing in Mendix](developing-in-mendix).
 
@@ -57,11 +57,9 @@ For details on how to version your app models, create deployable artifacts, and 
 
 Continuous integration and continuous delivery (CI/CD) is supported both in the Mendix Developer Portal and via the platform APIs. The platform APIs enable [integrating with external tools](#devops-tools) to build a delivery pipeline using products like Jenkins and Selenium coupled with container technologies like Cloud Foundry, Kubernetes, and Docker.
 
-As part of the CI pipeline, testing can be fully automated. To implement unit tests, you can use the [UnitTesting module](https://appstore.home.mendix.com/link/app/390/), which is available in the Mendix App Store. In addition, testers and developers alike can use the [Application Test Suite](https://docs.mendix.com/ats/), a Selenium-based test service for automated UI testing. Third-party testing tools and services like Selenium, JMeter, and Gatling can also be integrated in the CI pipeline.
+As part of the CI pipeline, testing can be fully automated. To implement unit tests, you can use the [UnitTesting module](https://appstore.home.mendix.com/link/app/390/), which is available in the Mendix App Store. In addition, testers and developers alike can use the [Mendix Application Test Suite](https://docs.mendix.com/ats/), a Selenium-based test service for automated UI testing. Third-party testing tools and services like Selenium, JMeter, and Gatling can also be integrated in the CI pipeline.
 
-For more information, see [Continuous Integration](cicd) and [Testing](test-automation-qa).
-
-And for details on using third-party testing tools, see the section [How Does Mendix Support Third-Party Testing Tools?](test-automation-qa#third-party) in *Test Automation & Quality Assurance*.
+For more information, see [Continuous Integration](cicd) and [Testing](test-automation-qa). And for details on using third-party testing tools, see the section [How Does Mendix Support Third-Party Testing Tools?](test-automation-qa#third-party) in *Test Automation & Quality Assurance*.
 
 ### 2.5 Deploying Phase
 
@@ -75,7 +73,7 @@ From both the Desktop Modeler and Web Modeler, you can easily publish your app d
 
 Once the development team is satisfied with the version of the app that is running in development, the Mendix Developer Portal allows users to quickly stage the app to the test and acceptance environments before it is finally released to the production environment.
 
-Deployment operations can be easily automated by the development team through [platform APIs](https://apidocs.mendix.com/) and with third-party CI/CD tools like Jenkins, GitLab-CI or Visual Studio Team Services.
+Deployment operations can be easily automated by the development team through [platform APIs](https://apidocs.mendix.com/) and with third-party CI/CD tools like Jenkins, GitLab-CI, or Visual Studio Team Services.
 
 For more details, see [Operations, Deployment, and Release](ops-deployment-release).
 
@@ -85,7 +83,7 @@ The Mendix Platform provides out-of-the-box monitoring capabilities that give in
 
 ![](attachments/metrics.png)
 
-Developers can do advanced problem diagnosis and performance monitoring of their Mendix apps with Mendix [Application Performance Monitor (APM)](https://docs.mendix.com/apm/).
+Developers can do advanced problem diagnosis and performance monitoring of their Mendix apps with [Mendix Application Performance Monitor (APM)](https://docs.mendix.com/apm/).
 
 For an overview of the features available for development teams to run apps with enterprise-grade service levels, see [Monitoring](monitoring-alerts).
 
@@ -93,6 +91,6 @@ For an overview of the features available for development teams to run apps with
 
 Development teams that like to use third-party tools for certain tasks can integrate those with the Mendix Platform through the [Mendix Platform APIs](https://apidocs.mendix.com/). For example, continuous integration services like [Visual Studio Team Services](https://github.com/mendix/azure-kubernetes-cicd-reference-impl-vsts), [Jenkins](https://github.com/mendix/azure-kubernetes-cicd-reference-impl), or  [GitLab-CI](https://about.gitlab.com/features/gitlab-ci-cd/) can be easily configured as CI pipeline orchestrators on top of the Mendix Platform.
 
-Application performance management services like [Datadog](https://www.datadoghq.com/), [New Relic](https://docs.mendix.com/howto/monitoring-troubleshooting/manage-application-performance-with-new-relic), and [AppDynamics](https://docs.mendix.com/howto/monitoring-troubleshooting/manage-application-performance-with-appdynamics) can be used to monitor and manage the performance of Mendix apps.
+You can use application performance management services like [Datadog](https://www.datadoghq.com/), [New Relic](https://docs.mendix.com/howto/monitoring-troubleshooting/manage-application-performance-with-new-relic), and [AppDynamics](https://docs.mendix.com/howto/monitoring-troubleshooting/manage-application-performance-with-appdynamics) to monitor and manage the performance of Mendix apps.
 
 For more details, see [CI/CD](cicd) and [Monitoring Solutions & Alerts](monitoring-alerts).

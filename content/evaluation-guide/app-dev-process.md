@@ -8,7 +8,7 @@ tags: [""]
 
 ## 1 What Development Process Works Best for Mendix? {#bizdevops}
 
-The app development process Mendix used from day one was later labelled as a combination of Agile and DevOps, though optimized for low-code app development. Due to the high focus on business and IT collaboration, the Mendix development process can be better described as **BizDevOps** or **DevOps 2.0**. Mendix continues to optimize the BizDevOps approach for low-code usage.
+The app development process Mendix used from day one was later identified as a combination of Agile and DevOps, though optimized for low-code app development. Due to the high focus on business and IT collaboration, the Mendix development process can be better described as **BizDevOps** or **DevOps 2.0**. Mendix has optimized the BizDevOps approach for low-code usage.
 
 The Mendix development process encourages developers, operations staff, and business teams to work together so that the organization can develop software more quickly, grow more responsive to user demand, and ultimately maximize revenue. In this approach, not only does the business team set the requirements, they also work directly with the development team. The development team is composed of business analysts and professional developers working alongside the business.
 
@@ -18,60 +18,53 @@ This section explains the concept of Mendix BizDevOps and compares this with oth
 
 ## 2 Why Should I Use the BizDevOps Process?
 
-Adopting the Mendix development process known as BizDevOps in combination with the Mendix low-code development platform shortens the feedback loop drastically. In turn, there is an increase in efficiency, resulting in better outcomes, lower costs of app development, and shorter time-to-market. 
+Adopting the Mendix development process known as BizDevOps in combination with the Mendix low-code development platform drastically shortens the feedback loop. In turn, there is an increase in efficiency, which results in better outcomes, lower costs of app development, and shorter time-to-market. 
 
-In Mendix app development projects, there is an instant feedback loop within the development team between the business analysts and the developers. With the Mendix Platform's features for one-click-deployment and visual modeling, the development team can handle an hourly feedback loop from the business and product owner. It is often the provisioning of feedback from the business—and not the planning and reception by the development team—that determines the duration of the feedback loop.
+In Mendix app development projects, there is an instant feedback loop between the business analysts and the developers. With the Mendix Platform's capabilities of one-click-deployment and visual modeling, the development team can handle an hourly feedback loop from the business and product owners. This means it is often the provisioning of feedback from the business that determines the duration of the feedback loop. In practice, this results in a feedback loop of 1–2 weeks between the business and the development team, which enables monthly releases.
 
-In practice, over all Mendix projects, this results in a feedback loop of 2–4 weeks between the business and the development. This is a decrease from a 12-month feedback loop in Waterfall projects:
+Just as Agile reduced time-to-market by roughly 50% by implementing shorter feedback loops, we are seeing even better results with the Mendix process. The BizDevOps approach not only reduces time-to-market by another 50%, it also reduces the development effort by 70%.
 
-* **12-month feedback loop with Waterfall** – Due to the bigger teams, the linear approach, and the fact that feedback could only be given on full working applications, the feedback loop in Waterfall projects reached up to 12 months.
-* **6-month feedback loop in Agile** – The iterative process—with providing feedback on an MVP instead of on a full working application—resulted in a 6-month feedback loop for Agile software development projects.
-* **3-month feedback loop with low-code DevOps** –  Instead of working on a big team with specialties in silos, the smaller size of development teams and the use of one-click deployment enables the business to give feedback on the MVP of features instead of the MVP of full applications (as is done in Agile). This results in a 3-month feedback loop.
-* **1-month feedback loop with low-code BizDevOps** – The involvement in the development team of the business analyst who understands the business and the integrated feedback mechanism (which pulls the business directly into the development process) enables the business to directly share their ideas with a development team who understand the requirements without having to first build the feature. This results in a 1-month feedback loop in low-code BizDevOps projects, saving 2 months compared to low-code DevOps projects.
+## 3 How Does Mendix Support the BizDevOps Process?
 
-## 3 How does Mendix support a BizDevOps Process?
+Mendix has optimized the BizDevOps approach for low-code, resulting in a feedback loop of less then a month. This short feedback loop is ensured due to four important factors in the Mendix Platform:
 
-Mendix has optimized the BizDevOps approach for the use of low-code, resulting in a feedback loop less then a month. On a high level, the short feedback loop is ensured due to four factors of the Mendix Platform:
+* [Integrated requirement management](app-lifecycle/requirements-overview) – The business provides their requirements and feedback on the live app (minimal viable product) through a user-friendly feedback mechanism, which is integrated in the Mendix IDEs. This provides developers with contextual metadata, such as the page, user, and browser from which the feedback was given.
+* [Visual modeling](app-lifecycle/developing-in-mendix) – With the Mendix low-code platform, the business analyst is enabled to visually build apps and work together with the professional developer on a common model in a shared environment with ongoing real-time feedback. Any issues are quickly detected and resolved, ensuring apps meet business and customer expectations with the first release.
+* [Team synergy via multiple IDEs (modelers)](app-lifecycle/app-development) – With tailored-made IDEs for the different roles, Mendix enables everyone to contribute to their strengths while still working on the same model.
+* [One-click deployment](app-capabilities/multi-cloud-overview) – The one-click deployment to any cloud ensures the app can be released in minutes, enabling the business to provide their feedback on the next iteration.
 
-* **An integrated feedback mechanism** – The business can provide their feedback on the live app (minimal viable product) through a user friendly feedback mechanism, which is integrated with the Mendix Platform.
-* **Team synergy** – The business analyst in the development team speaks the language of the business, can translate the requirements and feedback into user stories, and builds the functionality with the professional developer.
-* **1 visual model** – With the Mendix low-code platform, the business analysts is enabled to visually build apps and work together with the professional developer's work on a common model, in a shared environment with ongoing real-time feedback. Any issues are quickly detected and resolved ensuring apps meet business and customer expectations with the first release.
-* **1-click deployment** – The one-click deployment to the cloud ensures that the MVP can be released in minutes to enable the business to provide their feedback on the next iteration.
+## 4 What Are the Key Roles in a Mendix Development Team? {#changing-roles}
 
-## 4 How Does BizDevOps Change Roles & Responsibilities in My Organziation? {#changing-roles}
+The core development team in Mendix low-code BizDevOps projects consists of three main roles:
 
-The core development team in Mendix low-code BizDevOps projects consists out of three main roles; the business user or representative, the business analyst and the developer.
+* **Business representative** – This role is key in the BizDevOps process. The business user is—as a product owner—responsible for providing input from the business via requirements for or feedback on the app, and then translating these into user stories.
 
-The other roles that were traditionally part of the development process are involved too as enablers and specialists in the project and often over the full Mendix app development program / portfolio.
+* **Business analyst** – This role talks to the business and works together with a more technical developer to run the entire application delivery lifecycle, including the operations. The enablement of the business analyst is key in interpreting the requirements and feedback from the business correctly. In other words, they speak the same language to verify the UX/UI (pages), business rules (logic), and the conceptual data model of the app in development.
 
-### 4.1 Three Roles in the Core Development Team
+* **Developer** – This role is delivers tangible results by supporting the business analyst to build the app. The developer focusses on the technical work with the integrations, data model, security, and performance.
 
-The **business representative** has a key role in the BizDevOps process. The business user is as a product owner responsible for providing the input from the business in requirements or feedback on the app, and translating them into user stories.
+This core development team runs the entire application delivery lifecycle without the direct help of a Java programmer. All of these roles are important, especially in an enterprise-scale delivery of multiple applications. However, they are also part of a higher-level Center of Excellence, which is often spread between multiple Mendix application development teams.
 
-The **business analyst** (who talks to the business) works together with a more technical developer to run the entire application delivery lifecycle, including the operations. The enablement of the business analyst is key in interpreting the requirements and feedback from the business correctly. In other words, they speak the same language to verify the UX/UI (pages), business rules (logic) and the conceptual data model. 
-
-The **developer** is key to and deliver tangible results by supporting the business analyst to build the apps with focussing on the technical work as the integrations, data model, security, performace, etc.
-
-This core development team runs the entire application delivery lifecycle without the direct help of a Java programmer, UX/UI expert, test engineer, project manager, or operations staff. All these roles are still important, especially in an enterprise-scale delivery of multiple applications. However, they are part of a higher level Center of Excellence, wis often spread between multiple Mendix application development teams.
+Other roles—such as UX/UI expert and test engineer—are involved too as enablers and specialists (fly-in experts) in the project.
 
 ## 5 How Does Mendix Fit into Agile?
 
-The Agile methodology is adopted in the DevOps approach. The Agile methodology changed traditional Waterfall projects from a linear approach to an iterative, team-based approach to software development. This approach emphasizes the rapid delivery of an application in complete functional components per “time-boxed” phases called sprints. Each sprint has a defined duration with a running list of deliverables, planned at the start of the sprint. The Agile approach enables the business to review a minimal viable product (MVP), which is a product with just enough features to satisfy and enable the business to provide feedback for future development.  
+The Agile methodology is adopted in the DevOps approach. The Agile methodology changed traditional Waterfall projects from a linear approach to an iterative, team-based approach for software development. This approach emphasizes the rapid delivery of an application in complete functional components per “time-boxed” phases called Sprints. Each Sprint has a defined duration with a running list of deliverables, planned at the start of the Sprint. The Agile approach enables the business to review a minimal viable product (MVP), which is a product with just enough features to satisfy and enable the business to provide feedback for future development.
 
-Mendix enables development teams to adopt an Agile approach based on Scrum in which they collaborate closely with internal and external stakeholders in short iterative development cycles. With capabilities as sprint and story management and integrated feedback management via embedded feedback widgets that enable end-users to provide instant feedback directly within an application. The closed feedback loop enables the development team to quickly resolve queries from the business, facilitating rapid iteration as emphasized in the Agile methodology. Read this section if you would like to learn more about how [Mendix supports Agile Requirements Management](app-lifecycle/requirements-management).
+Mendix enables development teams to adopt an Agile approach based on Scrum, in which they collaborate closely with internal and external stakeholders in short iterative development cycles. Mendix provides capabilities such as Sprints, story management, and integrated feedback management via embedded feedback widgets that enable end-users to provide instant feedback directly within an application. The closed feedback loop allows the development team to quickly resolve queries from the business, facilitating rapid iteration as emphasized in the Agile methodology.
+
+To learn more, see the [Requirements Management](app-lifecycle/requirements-management) chapter.
 
 ## 6 How Does Mendix Fit into DevOps?
 
-DevOps is a software engineering culture and practice that aims at unifying software development (Dev) and software operation (Ops). The main characteristic of the DevOps movement is to strongly advocate automation and monitoring at all steps of software construction, from integration, testing, releasing to deployment and infrastructure management. DevOps aims at shorter development cycles, increased deployment frequency, and more dependable releases, in close alignment with business objectives.
+DevOps is a software engineering culture and practice that aims to unify software development (Dev) and software operations (Ops). The main characteristic of the DevOps practice is to strongly advocate automation and monitoring at all steps of software construction, from integration, testing, and releasing to deployment and infrastructure management. DevOps aims for shorter development cycles, increased deployment frequency, and more dependable releases, in close alignment with business objectives.
 
-Mendix provides DevOps tools out of the box for CI/CD, test automation, and monitoring, among other services, enabling your development teams to embrace the DevOps way of working. Read [this section](app-lifecycle/devops) to learn more about how Mendix supports DevOps. 
+Mendix provides DevOps tools out of the box for CI/CD, test automation, and monitoring, among other services, empowering your development teams to embrace the DevOps way of working. For more details, see the [DevOps](app-lifecycle/devops) chapter. 
 
-Compared to DevOps, the BizDevOps approach knocks down the silos between the DevOps teams (meaning, the development teams and operations staff) and the business teams.  
+Compared to DevOps, the BizDevOps approach knocks down the silos between DevOps teams (meaning, the development teams and operations staff) and business teams.
 
 ## 7 How Does Mendix Fit into Traditional App Development?
 
-In a Traditional App Development process Mendix can be used a low-code development platform to enable the developers to build apps faster, and operations can use the Mendix Cloud Portal (ADAM, LINK) to manage and monitor their. Of course in this approach you will miss a big part what makes building apps with Mendix so succesfull; The Mendix development process.
+In traditional app development, feedback can only be given on full working applications, which contrasts with the iterative approach of the Agile methodology. Compared to DevOps teams, traditional app development projects, development teams, operation teams, and business management teams all operate in silos, instead of unifying software development (Dev) and software operation (Ops).
 
-In Traditional App Development feedback can only be given on full working applications, instead of iterative approach in the Agile methodology. Compared to DevOps the teams, Traditional app development projects, development teams, operation teams, and business management teams all operated in silos instead of unifying software development (Dev) and software operation (Ops).
-
-The development team worked on the app (or better said, worked on the code before the introduction of low-code platforms), the operations team maintained the app after it was released, and the business management team reviewed the app, gave feedback, and set the requirements for new app development projects. In the BizDevOps approach that Mendix adopts, the business management team is so tightly integrated that they work as one team. 
+Mendix can be used in this traditional process as a low-code development platform to enable developers to build apps faster. Operations can use the Mendix Cloud Portal to manage and monitor the apps. Of course, in this approach, you will be missing a big part of what makes building apps with Mendix so succesful – the Mendix BizDevOps process.

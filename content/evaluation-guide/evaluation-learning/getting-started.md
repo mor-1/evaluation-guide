@@ -16,7 +16,7 @@ The [free online training materials](https://gettingstarted.mendixcloud.com/link
 
 In addition to Mendix being free to try and evaluate, the Mendix Community Edition gives all users unlimited access to the platform and community environments. see the section [Can I Evaluate Mendix Before I Buy?](#evaluate-before) for more details, and then check out section [5.3 How Do I Create an App?](../app-capabilities/web-apps) when you are ready to create your first app with Mendix.
 
-## 2 How Can I Quickstart My App Development Project? {#starter-apps}
+## 2 How Can I Kick-Start My App Development Project? {#starter-apps}
 
 The Mendix Platform provides several starter apps as part of the onboarding process for [creating new applications](../use-cases#can-i-build).
 

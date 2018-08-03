@@ -46,7 +46,7 @@ The road map contains a two-quarter forecast and a production vision that provid
 
 For details, see the public [SAP Cloud Platform Rapid Application Development by Mendix Road Map](https://www.sap.com/products/roadmaps.html?sort=title_asc&search=mendix#pdf-asset=a07b68ed-fc7c-0010-87a3-c30de2ffd8ff&page=11).
 
-## 4 How Can I Quickstart My SAP Development Project?
+## 4 How Can I Kick-Start My SAP Development Project?
 
 The Mendix Platform provides several SAP starter apps as part of the onboarding process for creating new applications.
 

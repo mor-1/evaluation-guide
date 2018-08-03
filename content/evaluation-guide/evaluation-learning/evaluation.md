@@ -17,11 +17,11 @@ First, you will need to sign up on the platform by clicking **Start for free** o
 
 For details, see [Where Do I Start with the Mendix Platform?](getting-started#where-do-i-start).
 
-## How Can I Quickstart My App Development Project?
+## How Can I Kick-Start My App Development Project?
 
 The Mendix Platform comes with a series of Starter Apps, which provide all the scaffolding needed to get started building your first application. Starter apps combine with ready-made open-source components downloaded from the Mendix App Store, such as theme packs, UI templates, and logic to further accelerate the delivery of your first app. You can create company-specific Starter Apps as well as App Store components and store them in your company's Private App Store to accelerate development even more.
 
-Read on in [How Can I Quickstart My App Development Project](getting-started#starter-apps).
+Read on in [How Can I Kick-Start My App Development Project](getting-started#starter-apps).
 
 ## What Can the Mendix Community Do for Me?
 

@@ -42,7 +42,7 @@ Building blocks are single-purpose UI elements comprised of multiple widgets and
 
 This video presents how to use building blocks with your app's layout:
 
-<video controls src="attachments/building-blocks.mp4">VIDEO</video>
+<video controls src="attachments/building-blocks.mp4">VIDEO</video>
 
 ### 1.4 Widgets
 

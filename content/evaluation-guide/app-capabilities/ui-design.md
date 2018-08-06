@@ -82,7 +82,7 @@ New widgets are built all the time by both the core Mendix development team and 
 
 The Mendix front-end uses the [Atlas UI](https://atlas.mendix.com) framework to render responsive pages. The framework is based on a default theme that be fully customized. With the **Theme Customizer** tool, you can easily upload a logo that is used to determine your brand's colors. The various colors, fonts, and size settings can be quickly configured and previewed.
 
-<video controls  src="attachments/ThemeCustomizer.mp4">VIDEO</video>
+<video controls src="attachments/ThemeCustomizer.mp4">VIDEO</video>
 
 Next to this, Mendix uses [Sass](https://sass-lang.com/) to define the styling. The platform contains a configuration file with many variables that can be used to configure and tweak the theme. The configuration is set up so that it can be easily changed and extended by providing custom Sass files. It is also possible to directly extend the styling with custom CSS. The styling can also be shared, as discussed in the next section about creating consistent user experiences.
 

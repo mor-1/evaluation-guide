@@ -10,14 +10,16 @@ tags: [""]
 
 With Mendix, anyone with an idea can build an app. It does not matter whether you are a citizen developer, business analyst, or seasoned professional developer – Mendix provides a wealth of resources for you to get started on the platform right away.
 
-Mendix uses have different profiles, and although they are simplified views, these profiles help us to best improve our features and training courses. 
+Mendix users have different characteristics and backgrounds. Although these are simplified views, analyzing these have helped us to create certain "user personas" that we use to best improve our features and training courses.
 
-These are some example Mendix user profiles:
+These are some example Mendix user personas:
 
-* **Advanced/Seasoned/Senior/Veteran IT developer** – a trusted advisor who values autonomy, likes innovation but on their own terms
-* **Analytical/Enlightened/Open-minded IT developer** – intellectually curious, highly productive, and eager
-* **Business engineer** – a passionate problem solver used to working on teams, tech-savvy but not CS-fluent
-* **Citizen developer** – autonomous and informal, values personal productivity
+![](attachments/dev-personas2.png)
+
+* **Curious Cate** – a citizen developer who is autonomous and informal, values personal productivity
+* **Solution Sam** – a business analyst who is a passionate problem solver used to working on teams, tech-savvy but not CS-fluent
+* **Tech Teresa/Teri/Tina/Tory/Tavia** – a business-oriented IT developer who is intellectually curious, highly productive, and eager
+* **Hardcore Harry** – a seasoned IT developer and trusted adviser who values autonomy, likes innovation but on their own terms
 
 Through all Mendix user profiles, it is possible to identify Mendix developers who are more business-oriented and those who are more technical oriented.
 

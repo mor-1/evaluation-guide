@@ -8,26 +8,26 @@ tags: [""]
 
 ## 1 How Can I Publish a REST API?
 
-Most newer services use REST instead of web services nowadays. Using REST requires a small shift in the design of your services. Web services are about calling and providing access to remote logic, but in REST, you design a data model that can be used by external apps. Objects in your domain model are called resources, and the operations on your resources are standardized into the following options
+Most newer services use REST instead of web services, but using REST requires a small shift in the design of your services. Web services are about calling and providing access to remote logic, but in REST, you design a data model that can be used by external apps. Objects in your domain model are called resources, and the operations on your resources are standardized into the following options:
 
-* Read or find one or more existing resources (`GET`)
-* Create a new resource (`POST`)
-* Change an existing resource (`PUT`)
-* Delete an existing resource (`DELETE`)
+* **GET** – read or find one or more existing resources
+* **POST** – create a new resource
+* **PUT** – change an existing resource
+* **DELETE** – delete an existing resource
 
-You will also see this approach in contracts for REST services like Swagger and OpenAPI – first the resources are listed, and then the operations on those resources are listed.
+You will also see this approach in contracts for REST services like Swagger and OpenAPI: first, the resources are listed, and then the operations on those resources are listed.
 
 The Mendix REST publish functionality follows the approach used by OpenAPI in which you define your resources first and then the operations on those resources. You have full control of your REST API because you define the resources, messages exchanged, and microflows that implement the operations.
 
 Alternatively, you can let Mendix handle all of this automatically. Just expose your entity from your domain model or drag an entity onto the resources section of a publish-REST document, and everything required will be generated for you, including security. All the security rules you define on your entities are automatically used by your REST API.
 
-{{% image_container width="500" %}}
+{{% image_container width="550" %}}
 ![Publish REST API for entity](attachments/rest_publish_entity_api.gif)
 {{% /image_container %}}
 
 Whether you want full control of the API you implement or you just want to generate a back-end for your mobile application in a few minutes, Mendix can do it.
 
-{{% image_container width="500" %}}
+{{% image_container width="550" %}}
 ![](attachments/rest-publish-post-example.png)
 {{% /image_container %}}
 
@@ -35,7 +35,9 @@ Looking at the implementation of your REST operations, you can use any microflow
 
 The following images use the optional `httpResponse` parameter, which you can use to override HTTP status code or status message. If required, you can also specify that you want access to the HTTP request, for example, to determine the value of the HTTP header values.
 
+{{% image_container width="550" %}}
 ![](attachments/get-order-rest-example-mf.png)
+{{% /image_container %}}
 
 Mendix automatically provides an OpenAPI contract and documentation page for every REST service you create. If you provide example values in your message definitions, users of your REST service literally only have to click **Execute** to see the result of calling your service. We cannot make it any easier than this!
 
@@ -47,28 +49,29 @@ Creating a web service is as easy as selecting **Publish as web service operatio
 
 <video controls src="attachments/Integration_PublishWebService-1.mp4">VIDEO</video>
 
-You have full control over the message, and you can select which attributes to include as well as what names to use, as illustrated in this image:
+You have full control over the message, and you can select which attributes to include as well as what names to use, as illustrated in this video:
 
 <video controls src="attachments/Integration_ExposingParameters.mp4">VIDEO</video>
-This enables you to ensure the contract with the outside world is stable, while you can still make changes to your application. Furthermore, using this information is enough to generate both the WSDL and the documentation automatically.
+
+This ensures that the contract with the outside world is stable, while you can still make changes to your application. Furthermore, using this information is enough to generate both the WSDL and the documentation automatically.
 
 <video controls src="attachments/Integration_PublishMultipleWebServices.mp4">VIDEO</video>
 
 ## 3 How Can I Publish an OData Service?
 
-Mendix currently provides OData in the Mendix Modeler as an integration facility for a specific use case, which is providing Mendix app data for analytics. Next to this, Mendix also provides an SAP integration based on OData, but this is also based on Mendix Connector Kit technology, as described in section [5 How Can I Import & Export Fixed-Length & Delimited Files?](importing-data#fixed-length) of *External Data*.
+Mendix currently provides OData in the Mendix Modeler as an integration facility for a specific use case, which is providing Mendix app data for analytics. Next to this, Mendix also provides an SAP integration based on OData, but this is also based on Mendix Connector Kit technology, as described in the section [How Can I Import & Export Fixed-Length & Delimited Files?](importing-data#fixed-length) of *External Data*.
 
 OData provides an interface similar to what you may expect from a database. It has insert, select, update, and delete functionality available. OData achieves this by standardizing a data language on top of REST. The benefit of this is that all client tools understand up front how to work with the data you expose.
 
 The data analytics tools that support OData range from Microsoft Excel to Tableau, ETL tools, basic query tools like LINQPad, and even statistical analytics tools like R. This means that you can expose your data from Mendix once, and all these tools can directly work with the data within your application.
 
-To expose your Mendix data through OData, select **Expose as OData resource** your entity in a domain model:
+To expose your Mendix data through OData, select **Expose as OData resource** for your entity in your domain model:
 
 <video controls src="attachments/Integration_PublishODataService.mp4">VIDEO</video>
 
-Next, you will be able to specify which attributes you want to expose. You can also specify who can access this data. Of course, all the entity access rules specified on your domain model entities still apply when retrieving data through OData.
+Next, you are able to specify which attributes you want to expose. You can also specify who can access this data. Of course, all the entity access rules specified on your domain model entities still apply when retrieving data through OData.
 
-{{% image_container width="450" %}}
+{{% image_container width="550" %}}
 ![](attachments/odata-published-service.png)
 {{% /image_container %}}
 

@@ -16,10 +16,10 @@ These are some example Mendix user personas:
 
 ![](attachments/dev-personas2.png)
 
-* **Curious Cate** – a citizen developer who is autonomous and informal, values personal productivity
-* **Solution Sam** – a business analyst who is a passionate problem solver used to working on teams, tech-savvy but not CS-fluent
-* **Tech Teresa/Teri/Tina/Tory/Tavia** – a business-oriented IT developer who is intellectually curious, highly productive, and eager
-* **Hardcore Harry** – a seasoned IT developer and trusted adviser who values autonomy, likes innovation but on their own terms
+* **Curious Cate** – 
+* **Solution Sam** – 
+* **Tech Tom** – 
+* **Hardcore Harry** – 
 
 Through all Mendix user profiles, it is possible to identify Mendix developers who are more business-oriented and those who are more technical oriented.
 

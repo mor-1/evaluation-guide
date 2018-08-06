@@ -77,8 +77,13 @@ const parseHtmlFile = file => new Promise((resolve, reject) => {
     });
 
     $('video').each((i, el) => {
-      const src = $(el).attr('src'),
-            parsed = url.parse(src);
+      const src = $(el).attr('src');
+
+      if (!src) {
+        file.warnings.push(`${gutil.colors.yellow('[VIDEO] ')} this file contains a video that has no src. Check the video`);
+        return;
+      }
+      const parsed = url.parse(src);
 
       if (parsed.hostname) {
         file.external.videos.push(src);

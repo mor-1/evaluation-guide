@@ -12,8 +12,6 @@ With Mendix, anyone with an idea can build an app. It does not matter whether yo
 
 Mendix uses have different profiles, and although they are simplified views, these profiles help us to best improve our features and training courses. 
 
-![](attachments/dev-personas.png)
-
 These are some example Mendix user profiles:
 
 * **Advanced/Seasoned/Senior/Veteran IT developer** – a trusted advisor who values autonomy, likes innovation but on their own terms

@@ -12,9 +12,11 @@ The Mendix developer [Certification Program](https://gettingstarted.mendixcloud.
 
 Once you sign up on the platform, you will automatically join as a Mendix community member, so you can start training and building apps with Mendix right away. The three levels of Mendix certification that you can obtain after you join as a Mendix community member are described below.
 
+![](attachments/certifications.png)
+
 ### 1.1 Rapid Developer Certification
 
-The [Rapid Developer Certification](https://gettingstarted.mendixcloud.com/link/certification/rapid)  shows that you understand the fundamentals of the Mendix Platform and how, when, and where to use them.
+To get the [Rapid Developer Certification](https://gettingstarted.mendixcloud.com/link/certification/rapid), you need to pass an exam that prooves that you understand the fundamentals of the Mendix Platform and how, when, and where to use them.
 
 This certification is proof of your basic Mendix knowledge and demonstrates that you can join a project team and independently build prototypes. You can then learn more on the job about the Mendix Platform and Agile development.
 
@@ -26,17 +28,17 @@ This certification is proof of your advanced knowledge of the platform and your 
 
 ### 1.3 Expert Developer Certification
 
+To get the [Expert Developer Certification](https://gettingstarted.mendixcloud.com/link/certification/expert) you need to send your application, and Mendix will evaluate your completion of the requirements as well as your motivation, project description, customer references, and portfolio.
+
 When you reach the [Expert Developer Certification](https://gettingstarted.mendixcloud.com/link/certification/expert), you demonstrate capabilities in taking the lead when delivering Mendix applications to customers.
 
 While the Rapid Developer Certification proves your Mendix knowledge and the Advanced Developer Certification proves your Mendix skills, the Expert Developer Certification proves more than just knowledge and skills—it proves expertise and experience. As a certified Mendix Expert Developer, you can lead project teams, do project estimations and proofs of concept, and coach other teams.
-
-![](attachments/certifications.png)
 
 ## 2 Where Can I Find Suitable Talent?
 
 There are a number of ways Mendix can help you find the right talent to set up your App Teams.
 
-Mendix encourages customers to first look internally at their talent pool. In every organization, many suitable candidates are currently working as Business Analysts, Access/Excel/VBA Developers, or Business-Led Developers. Next to this pool of no-code talent, Mendix encourages customers to extend the App Teams with internal talent like Java and/or .NET developers in order to add low-code skills to the team.
+Mendix encourages customers to first look internally at their talent pool. In every organization, many suitable candidates are currently working as Business Analysts, Access/Excel/VBA Developers, or Business-Led Developers. Next to this group of no-code talent, Mendix encourages customers to extend the App Teams with internal talent like Java and/or .NET developers in order to add low-code skills to the team.
 
 If you are you looking to hire external resources, the [Mendix Job Board](https://developers.mendix.com/jobs/) features job openings posted by Mendix customers and partners.
 
@@ -44,7 +46,7 @@ Every member of the [Mendix community](https://developer.mendixcloud.com/link/co
 
 ![](attachments/devs.png)
 
-If you're looking for a partner to help you with the implementation of a Mendix project(s), you can search through our extensive [list of partners](https://developer.mendixcloud.com/link/partneroverview). For more information, check [this section](../strategic-partners/) of the platform evaluation guide.
+If you're looking for a Mendix partner company to help you with the implementation of a Mendix project(s), you can search through our extensive [list of Mendix partner companies](https://developer.mendixcloud.com/link/partneroverview). For more information, check [this section](../strategic-partners/) of the platform evaluation guide.
 
 ## 3 How Does the Mendix University Program Work?
 

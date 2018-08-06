@@ -23,7 +23,7 @@ Read more in [What Skills Do I Need to  Learn Mendix?](skills-training#skills-ne
 
 ## What Are the Mendix Training Options?
 
-Training is fully integrated in the platform with an in-product [guided introduction tour](https://mendix-platform-guide.cfapps.io/evaluation-guide/evaluation-learning/skills-training#git). And in addition to the Academy learning paths and modules, there are multiple channels for helping different kinds of users learn about the Mendix Platform:
+Training is fully integrated in the platform with an in-product [guided introduction tour](skills-training#git). And in addition to the Academy learning paths and modules, there are multiple channels for helping different kinds of users learn about the Mendix Platform:
 
 * [Documentation](https://docs.mendix.com/)
 * [Classroom courses](https://gettingstarted.mendixcloud.com/link/classroom)

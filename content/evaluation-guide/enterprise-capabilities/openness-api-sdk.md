@@ -14,7 +14,7 @@ Mendix [APIs](https://docs.mendix.com/apidocs-mxsdk/apidocs/) are available on m
 
 ### 1.1 Runtime APIs
 
-Each application built using the Mendix platform has powerful API options. Every element of the application model can be easily provided as part of the API through REST, OData, or SOAP services. You can use [Java to extend the runtime](https://apidocs.mendix.com/7/runtime/https://apidocs.mendix.com/7/runtime/), [JavaScript to provide custom Widgets](https://apidocs.mendix.com/7/client/), and SQL to extend the data storage.
+Each application built using the Mendix platform has powerful API options. Every element of the application model can be easily provided as part of the API through REST, OData, or SOAP services. You can use [Java to extend the runtime](https://apidocs.mendix.com/7/runtime), [JavaScript to provide custom Widgets](https://apidocs.mendix.com/7/client/), and SQL to extend the data storage.
 
 ### 1.2. Platform APIs
 
@@ -63,4 +63,3 @@ The openness and extensibility of the Mendix Platform also helps you migrate exi
 The Model SDK can be used to take existing end-of-life applications (like Lotus Notes applications) and automatically generate the basis for a Mendix alternative. This can save significant time when re-platforming old software to Mendix.
 
 If you no longer want to use Mendix for your application, you can use the Model SDK to access every part of your application model. This can be used to generate the application using a different technology or platform. For more information, see [Vendor Lock-In](vendor-lockin).
-

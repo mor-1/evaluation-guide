@@ -298,6 +298,7 @@ gulp.task('serve', `Serve`, done => {
 // CHECK
 gulp.task('check:html', `Check HTML files in the build folder`, done => {
   htmlproofer.check({
+    external: !!process.env.EXTERNAL,
     dir: path.resolve(CURRENTFOLDER, '_site'),
     callback: function (err) {
       if (err) {

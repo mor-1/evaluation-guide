@@ -52,7 +52,7 @@ A microflow is composed of the following element types:
 * **Splits** enable making choices and merging different paths again
 * **Error handlers** can be set on an activity, split, or loop to define how to handle an error
 
-For more information, see [Microflows](https://docs.mendix.com/refguide/microflows_) in the Mendix Reference Guide.
+For more information, see [Microflows](https://docs.mendix.com/refguide/microflows) in the Mendix Reference Guide.
 
 {{% image_container width="450" %}}
 ![](attachments/microflow.png)

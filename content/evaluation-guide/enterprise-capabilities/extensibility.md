@@ -85,7 +85,7 @@ Connectors include everything you need to use them, like microflow activities, l
 
 Here is an example of a connector:
 
-<video controls  src="attachments/connector.mp4">VIDEO</video>
+<video controls src="attachments/connector.mp4">VIDEO</video>
 
 For details on how to build a connector in Mendix, watch this video:
 

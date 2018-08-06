@@ -31,7 +31,7 @@ For integration purposes, Mendix supports integration with any database via the 
 
 For more information, see [What Databases Does Mendix Support?](data-storage#database-support).
 
-## How Does Object-Relational Mapping (ORM) Work in Mendix?
+## How Does Object-Relational Mapping Work in Mendix?
 
 ORM in Mendix enables developers to concentrate on the creation of domain models using our visual domain modeling editor. Developers drag and drop entities, configure attributes, and map associations across entities to create the required data model visually. Once complete, the Mendix Platform will turn this domain model into an underlying SQL database, automatically creating and maintaining the desired tables, data types, joins, and constraints.
 

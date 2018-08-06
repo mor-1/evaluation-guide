@@ -12,13 +12,17 @@ An application built with Mendix is based on a cloud-native design and conforms 
 
 Within this flexible model, Mendix supports a large variety of deployment options that allow you to run your Mendix application on a public, virtual private, private, or hybrid cloud or via a traditional (virtual) server.
 
+{{% image_container width="550" %}}
 ![](attachments/multi-cloud.png)
+{{% /image_container %}}
 
 ### 1.1 Public Cloud
 
 If you want to acquire the best utilization rate for your infrastructure, to maintain optimal flexibility, and to convert your capital investment into operational expenses, the public cloud is the best choice. Mendix has support for most public cloud vendors, such as Mendix Cloud, IBM, SAP, Microsoft, AWS, and Google. For Mendix Cloud, SAP, and IBM, we deliver a fully integrated experience in which you can run your app with a single click via your cloud choice.
 
+{{% image_container width="550" %}}
 ![](attachments/multi-cloud-deploy.png)
+{{% /image_container %}}
 
 For more information, see the section [How Can I Run Mendix in the Public Cloud?](#running-public-cloud) below.
 
@@ -30,7 +34,7 @@ For more information, see the section [How Can I Run Mendix in a Virtual Private
 
 ### 1.3 Private Cloud – On-Premises
 
-If your organization is complying with specific regulations and is not allowed to run in a third-party cloud, you must run your infrastructure on premises. This option can be based on a private cloud or on a traditional server. Mendix can run on both server-based solutions as private cloud IaaS or PaaS solutions.
+If your organization is complying with specific regulations and is not allowed to run in a third-party cloud, you must run your infrastructure on premises. This option can be based on a private cloud or on a traditional server. Mendix can run on both server-based solutions as private cloud infrastructure-as-a-service (IaaS) or platform-as-a-service (PaaS) solutions.
 
 For more information, see the section [How Can I Run Mendix in a Private Cloud or On Premises?](#on-prem) below.
 
@@ -60,13 +64,13 @@ If you are required to run your software on your own premises, you can choose an
 * IaaS
 * PaaS
 
-In terms of speed, self-service, and governance, the PaaS level has significant benefits. Because of the small footprint of a Mendix application, having a 2-node (VMs) Kubernetes cluster allows you to run multiple Mendix applications (in test, acceptance, and production environments) with high availability as well as auto-scaling and auto-healing capabilities. This is also possible when running Mendix on traditional servers, but the setup time and maintenance will be significantly higher.
+In terms of speed, self-service, and governance, the **PaaS** level has significant benefits. Because of the small footprint of a Mendix application, having a two-node (VMs) Kubernetes cluster allows you to run multiple Mendix applications (in test, acceptance, and production environments) with high availability as well as auto-scaling and auto-healing capabilities. This is also possible when running Mendix on traditional servers, but the setup time and maintenance will be significantly higher.
 
 For more information, see the section [Which Operating Systems Do the Mendix Modelers Support?](../app-lifecycle/app-development#operating-systems) in *App Development*.
 
 ### 2.4 How Do I Select a Cloud Provider?
 
-Mendix Multi-Cloud is a deep integration with different cloud providers that allows you to deploy your application with a single click from both the Mendix Modeler and the Developer Portal.
+Mendix multi-cloud is a deep integration with different cloud providers, which allows you to deploy your application with a single click from both the Mendix Modeler and the Developer Portal.
 
 ![](attachments/run.png)
 
@@ -76,13 +80,13 @@ It is even possible to switch between cloud providers, so you can start developi
 
 ![](attachments/mutli-cloud-selection.png)
 
-At the moment, the integrated Mendix Multi-Cloud solution is provided for Mendix Cloud, IBM Cloud, and SAP Cloud. More clouds will be added to the Mendix Multi-Cloud portfolio in the near future.
+At the moment, the integrated Mendix multi-cloud solution is provided for Mendix Cloud, IBM Cloud, and SAP Cloud. More clouds will be added to the Mendix multi-cloud portfolio in the near future.
 
 ### 2.5 When Should I Use IaaS vs. PaaS?
 
-Infrastructure-as-a-service (IaaS) is the virtualization of computing, network, and storage running on-premises or within the public cloud. A platform-as-a-service (PaaS) is an extra abstraction layer on top that allows you to work with services and applications. The abstraction layer of a PaaS will allow you to think in terms of services and applications while providing capabilities like high availability, auto-scaling, auto-healing, auto-provisioning, and user governance.
+IaaS is the virtualization of computing, network, and storage running on premises or in the public cloud. A PaaS is an extra abstraction layer on top that allows you to work with services and applications. The abstraction layer of a PaaS will allow you to think in terms of services and applications while providing capabilities like high availability, auto-scaling, auto-healing, auto-provisioning, and user governance.
 
-The choice of either an IaaS or PaaS in relation to Mendix is based on the amount of applications you are planning to run and who the owner is of the PaaS layer on the cloud.
+The choice of either an IaaS or a PaaS in relation to Mendix is based on the amount of applications you are planning to run and who the owner is of the PaaS layer on the cloud.
 
 If you are able to consume a PaaS on demand from a public cloud, this will always be the best fit for a Mendix hosting solution based on cost, speed, and control.
 
@@ -98,4 +102,4 @@ For Linux-based applications, this is a command-line based tool called [M2EE](ht
 
 For details on supported operating systems and related databases, see [System Requirements](https://docs.mendix.com/refguide/system-requirements) in the Mendix Reference Guide.
 
-In addition to a container-based solution, Mendix provides full support for a high availability configuration. For details, see [How to Configure High Availability](https://docs.mendix.com/deployment/on-premises/high-availability) in the Mendix documentation.
+In addition to a container-based solution, Mendix provides full support for a high availability configuration. For more information, see [How to Configure High Availability](https://docs.mendix.com/deployment/on-premises/high-availability) in the Mendix documentation.

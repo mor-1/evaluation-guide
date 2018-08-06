@@ -16,10 +16,10 @@ Mendix uses have different profiles, and although they are simplified views, the
 
 These are some example Mendix user profiles:
 
-* **Hardcore Harry** – the "extreme" IT developer who is a trusted advisor, values autonomy, and likes innovation but on their own terms
-* **Tech Tom** – the "enlightened" IT developer who is intellectually curious, highly productive, and eager
-* **Solution Sam** – the business engineer who is a passionate problem solver, used to working on teams, and is tech-savvy but not CS-fluent
-* **Curious Cate** – the citizen developer who is autonomous, informal, and values personal productivity
+* **Advanced/Seasoned/Senior/Veteran IT developer** – a trusted advisor who values autonomy, likes innovation but on their own terms
+* **Analytical/Enlightened/Open-minded IT developer** – intellectually curious, highly productive, and eager
+* **Business engineer** – a passionate problem solver used to working on teams, tech-savvy but not CS-fluent
+* **Citizen developer** – autonomous and informal, values personal productivity
 
 Through all Mendix user profiles, it is possible to identify Mendix developers who are more business-oriented and those who are more technical oriented.
 
@@ -40,7 +40,7 @@ More technical developers in the Mendix community have the following characteris
 * Focus on the more complex parts of app development, integrations, and extending Mendix apps with code
 * Do not want to waste time on meetings
 
-Mendix provides multiple learning paths to onboard these different type of developers. Section [2 What Are the Mendix Training Options?](#training-options) explains how we tailor the Mendix learning experience to the type of user.
+Mendix provides multiple learning paths to onboard these different type of developers. The section [What Are the Mendix Training Options?](#training-options) below explains how we tailor the Mendix learning experience to the type of user.
 
 ## 2 What Skills Do I Need to Learn Mendix? {#skills-needed}
 

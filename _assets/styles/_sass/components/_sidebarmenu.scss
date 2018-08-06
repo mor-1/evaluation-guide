@@ -214,6 +214,9 @@ $active-color: $color-black;
             font-weight: bold;
           }
         }
+        &:hover {
+          color: $color-grey-font;
+        }
       }
 
       ul {

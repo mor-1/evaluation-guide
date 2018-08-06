@@ -8,17 +8,17 @@ tags: ["test automation", "quality assurance", "model", "AQM", "unit test", "fun
 
 ## 1 What Mendix Tools Are Available for Test Automation & Quality Assurance? {#qa-tools}
 
-The Mendix Platform provides development teams with an extensive toolset with extension points to set up effective quality assurance with efficient test automation.
+The Mendix Platform provides development teams with an extensive toolset and extension points to set up quality assurance via efficient test automation.
 
-Mendix apps are built from standard components that are already pre-tested by Mendix. The internal consistency of the custom application model that a development team builds on top of these components is continuously checked by the Mendix Modeler, in order to catch many common modeling mistakes and issues early in development. For more details, see the section [How Does Mendix Ensure the Quality of My Apps?](#ensure).
+Mendix apps are built from standard components that are already pre-tested by Mendix. The internal consistency of a custom application model that a development team builds on top of these components is continuously checked by the Mendix Modeler. The goal of this is to catch common modeling mistakes and issues early in development. For more details, see  [How Does Mendix Ensure the Quality of My Apps?](#ensure) below.
 
-During development, the [Mendix Application Quality Monitor (AQM)](https://docs.mendix.com/aqm/) provides insight into the quality of the application models you’re building. Dashboards provide high-level details and allow you to drill down at the microflow level. For more details, see the section [What Tools Are Available for Quality Monitoring Mendix Applications?](quality-monitoring#quality-monitoring).
+During development, the [Mendix Application Quality Monitor (AQM)](https://docs.mendix.com/aqm/) provides insight into the quality of the application models that you are building. Dashboards provide high-level details and allow you to drill down at the microflow level. For more details, see the section [What Tools Are Available for Quality-Monitoring Mendix Apps?](quality-monitoring#quality-monitoring) in *Quality Monitoring*.
 
-With standard components, you can develop complex business logic as part of your applications. To test the business logic in your application, you can use a combination of unit tests and automated functional acceptance tests to create an end-to-end test suite for your apps. For more information, see the sections [How Can I Unit Test My Mendix Apps?](#unit-test) and [What Tools Does Mendix Offer for Functional Testing?](#tools-functional).
+With standard components, you can develop complex business logic as part of your applications. To test the business logic in your application, you can use a combination of unit tests and automated functional acceptance tests to create an end-to-end test suite for your apps. For more information, see [How Can I Unit Test My Mendix Apps?](#unit-test) and [What Tools Does Mendix Offer for Functional Testing?](#tools-functional) below.
 
-Developers can also use third-party test tools and services with Mendix. For details, see the section [How Does Mendix Support Third-Party Testing Tools?](#third-party).
+Developers can also use third-party test tools and services with Mendix. For details, see [How Does Mendix Support Third-Party Testing Tools?](#third-party) below.
 
-All the testing tools provided by Mendix integrate easily into CI/CD pipelines. For more information, see the [CI/CD](cicd) chapter.
+All the testing tools provided by Mendix integrate easily into CI/CD pipelines. Read more in the [CI/CD](cicd) chapter.
 
 ## 2 How Does Mendix Ensure the Quality of My Apps? {#ensure}
 
@@ -26,9 +26,9 @@ In Mendix, application functionality is defined at a higher level of abstraction
 
 Mendix helps you in three main ways:
 
-* Mendix enforces consistency within your application model
-* Mendix consistently deploys your application model
-* Mendix tests all of the standard Mendix components itself
+* Enforcing consistency within your application model
+* Deploying your application model consistently
+* Testing all of the standard Mendix components itself
 
 There are more ways in which the Mendix Platform reduces the likelihood of defects and costly mistakes, but the main ways Mendix makes your testing life easier should help you get a better understanding of what to test and what not to test.
 
@@ -40,7 +40,7 @@ The Mendix Modeler continuously monitors whether the entirety of the application
 
 For more information, see [Model Consistency](model-consistency).
 
-### 2.2 Consistent Deployment of Your Application Model
+### 2.2 Deploying Your Application Model Consistently
 
 When an application is started, the Mendix Platform [ensures that the underlying database structure matches the domain model defined within your application model](../app-capabilities/data-storage). Since consistency within your domain model is also guaranteed (see above), the database structure that is deployed is consistent with all the data usage of your application.
 
@@ -54,16 +54,14 @@ If you envision Mendix as a toolkit with which you build your own apps, you can 
 
 For example, a text box connected to a string attribute of a certain maximum length will never accept a value that exceeds this length.
 
-The implication for testing is the assurance that your testing is scoped towards your own logic, not just validating Mendix components. In this sense, you do not need to test the toolset, only the house you have chosen to build with it.
+The implication for testing is that you can be assured your testing is scoped towards your own logic, not just validating Mendix components. In this sense, you do not need to test the toolset, only the house you have chosen to build with it.
 
 ## 3 How Can I Unit-Test My Mendix Apps? {#unit-test}
 
 The Mendix Platform supports the implementation of unit tests. These tests are built using microflows and the [UnitTesting](https://appstore.home.mendix.com/link/app/390/) module available from the Mendix App Store. Tests are run either every time there is a new build of the application or at a scheduled time.
 
-{{% image_container width="450" %}}
-
+{{% image_container width="550" %}}
 ![](attachments/DO_UnitTestingModule.png)
-
 {{% /image_container %}}
 
 ## 4 What Tools Does Mendix Offer for Functional Testing? {#tools-functional}
@@ -76,7 +74,7 @@ With the Mendix Platform, you can automate your functional tests for the user st
 
 {{% /image_container %}}
 
-ATS integrates into the Mendix Platform to enable viewing all the user stories and writing test cases against them. Users do not require any knowledge of Selenium or testing frameworks to write test cases. The browser recorder will save every interaction and generate the necessary Selenium scripts.
+ATS integrates into the Mendix Platform to enable viewing all the user stories and writing test cases against them. You do not need any knowledge of Selenium or testing frameworks to write test cases. The browser recorder will save every interaction and generate the necessary Selenium scripts.
 
 <video controls src="attachments/DO_CreatingATestCaseandStep.mp4"></video>
 
@@ -84,7 +82,7 @@ Test cases can be executed against different browsers and multiple devices using
 
 ![](attachments/browserSauce.png)
 
-Test cases are run when there is a new deployment, either based on a schedule or manually. The tool also allows for bulk testing by uploading data from Microsoft Excel.
+Test cases are run when there is a new deployment, either based on a schedule or triggered manually. The tool also allows for bulk testing by uploading data from Microsoft Excel.
 
 ## 5 How Does Mendix Support Third-Party Testing Tools? {#third-party}
 

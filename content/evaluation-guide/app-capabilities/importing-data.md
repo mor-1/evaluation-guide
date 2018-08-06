@@ -57,8 +57,8 @@ If you cannot find a module with support for your specific fixed-length format, 
 
 There are a number of ways you can mass export and import data from your Mendix applications:
 
-* Using **custom build services**, for example, using WebServices or REST services. The benefit of this approach is that it enable you to adapt the data and validate it complies with your business rules.
-* Using **backup and restore**. You can use custom (SQL) scripts to fill a Mendix development database with the data you need. When done, you create a backup of this database and restore it in the desired destination database.
-* Using a **source database**. When you start a runtime on a new empty database you can specify that it needs to be initialized with data from another database.
+* **Custom build services** – Examples of this are using web services or REST services. The benefit of this approach is that it enables you to adapt the data and validate it complies with your business rules.
+* **Backup and restore** – You can use custom (SQL) scripts to fill a Mendix development database with the data you need. When done, you create a backup of this database and restore it in the desired destination database.
+* **Source database** – When you start a runtime on a new empty database, you can specify that it needs to be initialized with data from another database.
 
-If you want to create a realtime mass synchronization between 2 environments you can use entity event listeners. This enables you to run some custom Java logic for every object event, for example when data is changed in your database. In this custom handler you can provide logic to duplicate the data changes to another application.
+If you want to create a real-time mass synchronization between two environments, you can use entity event listeners. This enables you to run custom Java logic for every object event (for example, when data is changed in your database). In this custom handler, you can provide logic to duplicate the data changes to another app.

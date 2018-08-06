@@ -8,7 +8,7 @@ tags: [""]
 
 ## 1 How Does the Mendix Platform Manage My Identities?
 
-As part of the Mendix Cloud, Mendix provides a user management and provisioning service called MxID. Because it is built on the Mendix Platform, MxID inherits all the security measures from the platform. MxID provides an administration portal for the management of user access and authentication.
+As part of the Mendix Cloud, Mendix provides a user management and provisioning service called MxID. Because it is built on the Mendix Platform, MxID inherits all the security measures from the platform. MxID also provides an administration portal for the management of user access and authentication.
 
 ## 2 How Can I Administer My Company Within the Mendix Platform?
 

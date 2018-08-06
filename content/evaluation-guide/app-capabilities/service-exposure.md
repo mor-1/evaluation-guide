@@ -10,10 +10,10 @@ tags: [""]
 
 Most newer services use REST instead of web services, but using REST requires a small shift in the design of your services. Web services are about calling and providing access to remote logic, but in REST, you design a data model that can be used by external apps. Objects in your domain model are called resources, and the operations on your resources are standardized into the following options:
 
-* **GET** – read or find one or more existing resources
-* **POST** – create a new resource
-* **PUT** – change an existing resource
-* **DELETE** – delete an existing resource
+* `GET` – read or find one or more existing resources
+* `POST` – create a new resource
+* `PUT` – change an existing resource
+* `DELETE` – delete an existing resource
 
 You will also see this approach in contracts for REST services like Swagger and OpenAPI: first, the resources are listed, and then the operations on those resources are listed.
 
@@ -94,9 +94,9 @@ Every REST API you implement with Mendix will automatically include an OpenAPI d
 Mendix enables using certificates for incoming and outgoing communication in the following ways:
 
 * You can use certificates to ensure secure communication with services. You can provide multiple pkcs12 certificate files to be used for authentication with the service, including both REST services and SOAP web services. In the configuration, you can specify which certificate should be used for which service domain.
-* For connections from the internet to your Mendix Cloud applications, Mendix provide a *.mendixcloud.com* or *.mxapps.io* domain with a certificate managed by Mendix. If you want to set up your own domain name, you can configure [custom domains](https://docs.mendix.com/developerportal/howto/custom-domains). You can also restrict incoming traffic by requiring client certificates signed by a Certificate Authority of your choice. For details on how to set this up, see [How to Restrict Access for Incoming Requests](https://docs.mendix.com/deployment/mendixcloud/access-restrictions) in the Mendix documentation.
+* For connections from the internet to your Mendix Cloud applications, Mendix provides a *.mendixcloud.com* or *.mxapps.io* domain with a certificate managed by Mendix. If you want to set up your own domain name, you can configure [custom domains](https://docs.mendix.com/developerportal/howto/custom-domains). You can also restrict incoming traffic by requiring client certificates signed by a certificate authority of your choice. For details on how to set this up, see [How to Restrict Access for Incoming Requests](https://docs.mendix.com/deployment/mendixcloud/access-restrictions) in the Mendix documentation.
 
-The following documentation provides more information:
+The following Mendix documentation provides more information:
 
 * [How to Use a Client Certificate](https://docs.mendix.com/howto/integration/use-a-client-certificate)
 * [Securing Outgoing Connections from Your Application](https://docs.mendix.com/deployment/mendixcloud/securing-outgoing-connections-from-your-application)

@@ -14,7 +14,7 @@ Mendix users have different characteristics and backgrounds. Although these are 
 
 These are some example Mendix user personas:
 
-![](attachments/dev-personas1.png)
+![](attachments/dev-personas.png)
 
 * **Curious Cate** – 
 * **Solution Sam** – 

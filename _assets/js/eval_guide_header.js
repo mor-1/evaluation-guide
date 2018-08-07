@@ -48,11 +48,26 @@
         var $li = $('<li id="menu-item-' + link.ID + '" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-' + link.ID + '"></li>');
         var $bottomli = $('<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-' + link.ID + '"></li>');
 
-        $li.append('<a href="#" aria-haspopup="true">' + link.title + '</a>');
+        var $mobilePlus = $('<a href="#" aria-haspopup="true">' + link.title + '</a>');
+        $li.append($mobilePlus);
         $bottomli.append('<a href="#" aria-haspopup="true">' + link.title + '</a>');
 
         $mainNav.append($li);
         $footNav.append($bottomli);
+
+        $mobilePlus.on('click', function () {
+            var $this = $(this);
+            var $submenu = $this.parent().find('> ul.sub-menu');
+            if ($(window).width() < 1100 && $submenu) {
+                if ($submenu.hasClass('shown')) {
+                    $submenu.hide(250);
+                    $submenu.toggleClass('shown', false);
+                } else {
+                    $submenu.show(250);
+                    $submenu.toggleClass('shown', true);
+                }
+            }
+        })
 
         if (subitems && subitems.length) {
             $li.addClass('menu-item-has-children');

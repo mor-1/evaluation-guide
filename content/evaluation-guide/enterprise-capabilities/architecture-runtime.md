@@ -8,15 +8,15 @@ tags: [""]
 
 ## 1 What Is the Mendix Runtime & How Does It Support Key Architectural Principles?
 
-The Mendix Runtime executes your applications within the context of a cloud-native architecture. In this section we will have a look at the core components of the Mendix runtime and related capabilities, as well as take a deeper look at several important aspects of runtime execution.
+The Mendix Runtime executes your applications within the context of a cloud-native architecture. In this section, we will look at the core components of the Mendix Runtime and its related capabilities. We will also take a deeper look at several important aspects of runtime execution.
 
 ### 1.1 Which Component Is Responsible for Model Execution?
 
-The Mendix Runtime interprets and executes the models of your apps. The runtime has a [12-factor-compatible](architecture-12-factor) design using industry-leading Java and Scala technologies.
+The Mendix Runtime interprets and executes the models of your apps. The Runtime has a [12-factor-compatible](architecture-12-factor) design using industry-leading Java and Scala technologies.
 
 ### 1.2 How Does Mendix Execute Models? {#model-execution}
 
-The Mendix runtime directly executes models, meaning that the model literally is the application—not an intermediary. As opposed to approaches where a visually-modeled design would actually generate code (for example, Java or .Net), our model interpretation approach has a number of unique characteristics and advantages.
+The Mendix Runtime directly executes models, meaning that the model literally is the application, not an intermediary. As opposed to approaches where a visually-modeled design would actually generate code (for example, Java or .NET), the Mendix model interpretation approach has a number of unique characteristics and advantages, which are described below.
 
 #### 1.2.1 Change Management
 
@@ -46,18 +46,20 @@ For more information, see [Clustered Mendix Runtime](https://docs.mendix.com/ref
 
 The Runtime consists of 2 main components:
 
-* **Clients** - Web and mobile clients.
-* **Runtime server** - scalable runtime to handle server side logic.
+* **Clients** – web and mobile clients
+* **Runtime server** – a scalable runtime to handle server-side logic
 
-{{% image_container width="450" %}}
+{{% image_container width="550" %}}
 ![](attachments/mendix-architecture.png)
 {{% /image_container %}}
 
 ### 2.1 Server Architecture
 
-The Mendix Server architecture consists of multiple components to execute logic, manage data, communicate with client, and implement security. The diagram below shows a schematical overview of all of the components followed by a short description of their responsibility:
+The Mendix Server architecture consists of multiple components to execute logic, manage data, communicate with the client, and implement security. The diagram below presents an overview of all of the components, which is followed by a short description of their responsibilities:
 
-![Runtime components](attachments/runtime-engine.png)
+{{% image_container width="550" %}}
+![](attachments/runtime-engine.png)
+{{% /image_container %}}
 
 The runtime consists of the following components:
 
@@ -66,7 +68,7 @@ The runtime consists of the following components:
 * **Session manager** – manages the creation of user sessions and the cleanup of logged-out or abandoned sessions.
 * **HTTP server** – included in the Mendix Runtime to handle requests from the web and mobile client and to handle service requests
 * **Microflow engine** – executes your microflows and microflow activities
-* **Data layer** – persists and retrieves objects from your application database. Also responsible for creating and updating the database structures required to persist your data: the data layer supports a large number of different databases, and data is stored using common data model design best practices (for details, see section [9 What Databases Does Mendix Support?](../app-capabilities/data-storage#database-support) in *Data Storage*)
+* **Data layer** – persists and retrieves objects from your application database; also responsible for creating and updating the database structures required to persist your data: the data layer supports a large number of different databases, and data is stored using common data model design best practices (for details, see the section [What Databases Does Mendix Support?](../app-capabilities/data-storage#database-support) in *Data Storage*)
 * **Integration layer** – handles incoming and outgoing service requests for web services, REST APIs, app services, and OData
 * **Client API** – responsible for communication with web and mobile clients; the API is used to retrieve data, persist data changes, and execute microflow logic
 * **Configuration API** – this JSON API is used by the Cloud Portal and container buildpack to configure the runtime
@@ -75,26 +77,26 @@ The runtime consists of the following components:
 
 ### 2.2 Client Architecture
 
-The Mendix Client is responsible for the user interaction and consists of a UI widget layer, a logic layer to execute offline logic, a data layer for offline storage. The diagram shows a schematical overview.
+The Mendix Client is responsible for the user interaction and consists of a UI widget layer, a logic layer to execute offline logic, and a data layer for offline storage. This diagram presents an overview:
 
-{{% image_container width="400" %}}
+{{% image_container width="550" %}}
 ![](attachments/client-architecture.png)
 {{% /image_container %}}
 
-The Mendix clients consist of the following components:
+The Mendix Client consists of the following components:
 
-* **Communications layer** - Exchanges metadata, session managements, and data with the Mendix runtime server. Uses a secure json over http protocol.
-* **Data layer** - Manages the data used in the front-end. Based on the React Flux pattern to handle state and push changes to UI components
-* **Logic layer** - Handles data validations and more complex logic using nano-flows.
-* **UI component layer** - Manages widget lifecycle, communication between widgets, and provides out-of-the-box widgets.
+* **Communications layer** – exchanges metadata, session managements, and data with the Mendix Runtime server while using a secure JSON over HTTP protocol
+* **Data layer** – manages the data used in the front-end; based on the React Flux pattern to handle state and push changes to UI components
+* **Logic layer** – handles data validations and more complex logic using Mendix nanoflows
+* **UI component layer** – manages the widget lifecycle and communication between widgets, and provides out-of-the-box widgets
 
 #### 2.2.1 Mobile Client
 
 Mobile applications use the same HTML5-, CSS-, and React-based client architecture, but they are deployed using Apache Cordova. This framework enables mobile apps built using state-of-the-art web technologies to offer a great mobile user experience:
 
-* **Accessibility** – apps can be discovered in the standard device app store, installed on mobile devices, and be opened via an icon
-* **Offline availability** – because the application is installed on the mobile devices (including all required resources and potentially cached data), end-users can use your Mendix app offline, and relevant app data is cached in a SQLite database on your device
-* **Support for native functionality** – Apache Cordoba enables JavaScript applications to use native device functionality – this enables you to, for example, benefit from all the sensors available in your mobile device, like the camera and microphone
+* **Accessibility** – apps can be discovered in the standard device app store, installed on mobile devices, and opened via an icon
+* **Offline availability** – because the app is installed on mobile devices (including all required resources and potentially cached data), end-users can use your Mendix app offline, and relevant app data is cached in an SQLite database on your device
+* **Support for native functionality** – Apache Cordoba enables JavaScript applications to use native device functionality, which in turn allows you to benefit from all the sensors available in your mobile device, like the camera and microphone, for example
 
 For more details on Mendix mobile device support, see [Mobile Apps](../app-capabilities/mobile-apps).
 
@@ -102,4 +104,4 @@ For more details on Mendix mobile device support, see [Mobile Apps](../app-capab
 
 The web client is designed using a single-page architecture, wherein a single JavaScript web page is loaded into the browser that will then update the page and interact with the Mendix Runtime as required by the actions of the user. This may include retrieving parts of the web page as well as retrieving and storing data.
 
-The client is predominantly implemented using HTML5, CSS with Sass and Bootstrap, and the React framework. For more information, see [Web Client Settings](https://docs.mendix.com/refguide/custom-settings#9-web-client-settings).
+The client is predominantly implemented using HTML5, CSS with Sass and Bootstrap, and the React framework. For more information, see [Web Client Settings](https://docs.mendix.com/refguide/custom-settings#9-web-client-settings) in the Mendix documentation.

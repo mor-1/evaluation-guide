@@ -53,7 +53,7 @@ $block: 'mx';
         //letter-spacing: -1.75px;
         line-height: 1;
         font-weight: 600;
-        margin: 0;
+        margin: 0 0 20px;
         color: $color-grey-font;
         @include modifier('frontpage') {
           font-size: 48px;
@@ -107,15 +107,15 @@ $block: 'mx';
       .h1 {
           font-size: 30px;
       }
-      h2,
+      h2:not(.card__title),
       .h2 {
           font-size: 24px;
-          border-bottom: 1px solid $color-table-border;
+          border-bottom: 1px solid $color-mendix-blue;
           margin-top: 30px;
           margin-bottom: 30px;
-          padding-bottom: 10px;
+          padding-bottom: 15px;
       }
-      h3,
+      h3:not(.card__featured__title),
       .h3 {
           font-size: 18px;
           margin: 20px 0;
@@ -139,6 +139,12 @@ $block: 'mx';
         color: $color-grey-font;
         font-weight: 600;
         margin-bottom: 20px;
+
+        &.card__title,
+        &.card__featured__title {
+          color: $color-darker-grey-2;
+          font-weight: 500;
+        }
       }
 
       table {
@@ -247,6 +253,20 @@ $block: 'mx';
         margin: 0 auto;
         display: block;
         text-align: center;
+      }
+    }
+
+    .todo {
+      position: relative;
+      border-width: 2px;
+      &:before {
+        content: 'todo';
+        position: absolute;
+        top: -8px;
+        left: -1px;
+        font-size: 11px;
+        font-weight: bold;
+        color: #F00;
       }
     }
   }

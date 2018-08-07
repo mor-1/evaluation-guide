@@ -25,12 +25,30 @@ let lastValidated = 0;
 let allFiles = [];
 let allResidualFiles = [];
 
+const statistics = {
+  image: [],
+  video: [],
+  youtube: [],
+  iframe_unknown: []
+};
+
+const addStatistic = (key, value) => {
+  if (typeof statistics[key] === 'undefined') {
+    return;
+  }
+  if (statistics[key].indexOf(value) === -1) {
+    statistics[key].push(value);
+  }
+};
+
 let SOURCEPATH = null,
     EXTERNAL = false,
     DELETE_UNUSED_IMAGES = false;
 
 const parseHtmlFile = file => new Promise((resolve, reject) => {
+
   file.basePath = file.path.replace(SOURCEPATH, '');
+
   if (file.content) {
     const $ = cheerio.load(file.content);
 
@@ -45,32 +63,41 @@ const parseHtmlFile = file => new Promise((resolve, reject) => {
         file.external.images.push(src);
       } else {
         if (parsed.query) {
-          file.warnings.push(`${gutil.colors.yellow('[QS]')} The src of the image ${gutil.colors.cyan(src)} has a query string. Is that necessary?`);
+          file.warnings.push(`${gutil.colors.yellow('[QS]     ')} The src of the image ${gutil.colors.cyan(src)} has a query string. Is that necessary?`);
         }
 
         if (src.indexOf('/') === 0) {
           file.images.push(src);
+          addStatistic('image', src);
         } else {
-          file.images.push(path.join(path.dirname(file.basePath), parsed.path))
+          file.images.push(path.join(path.dirname(file.basePath), parsed.path));
+          addStatistic('image', path.join(path.dirname(file.basePath), parsed.path));
         }
       }
     });
 
     $('video').each((i, el) => {
-      const src = $(el).attr('src'),
-            parsed = url.parse(src);
+      const src = $(el).attr('src');
+
+      if (!src) {
+        file.warnings.push(`${gutil.colors.yellow('[VIDEO] ')} this file contains a video that has no src. Check the video`);
+        return;
+      }
+      const parsed = url.parse(src);
 
       if (parsed.hostname) {
         file.external.videos.push(src);
       } else {
         if (parsed.query) {
-          file.warnings.push(`${gutil.colors.yellow('[QS]')} The src of the video ${gutil.colors.cyan(src)} has a query string. Is that necessary?`);
+          file.warnings.push(`${gutil.colors.yellow('[QS]    ')} The src of the video ${gutil.colors.cyan(src)} has a query string. Is that necessary?`);
         }
 
         if (src.indexOf('/') === 0) {
           file.videos.push(src);
+          addStatistic('video', src);
         } else {
-          file.videos.push(path.join(path.dirname(file.basePath), parsed.path))
+          file.videos.push(path.join(path.dirname(file.basePath), parsed.path));
+          addStatistic('video', path.join(path.dirname(file.basePath), parsed.path));
         }
       }
     });
@@ -97,7 +124,7 @@ const parseHtmlFile = file => new Promise((resolve, reject) => {
           const parsed = url.parse(href.trim());
 
           if (parsed.query) {
-            file.warnings.push(`${gutil.colors.yellow('[QS]')} The link to ${gutil.colors.cyan(href)} has a query string. Is that necessary?`);
+            file.warnings.push(`${gutil.colors.yellow('[QS]     ')} The link to ${gutil.colors.cyan(href)} has a query string. Is that necessary?`);
           }
 
           if (href.indexOf('/') === 0) {
@@ -112,13 +139,37 @@ const parseHtmlFile = file => new Promise((resolve, reject) => {
       }
     });
 
+    $('iframe').each((i, el) => {
+      const $el = $(el);
+      const src = $el.attr('src');
+
+      if (src.indexOf('youtube') !== -1) {
+        addStatistic('youtube', src);
+      } else {
+        addStatistic('iframe_unknown', src);
+      }
+    });
+
+    var lastLevel = null;
     $('h1,h2,h3,h4,h5', '.mx__page__content').each((i, el) => {
       var $el = $(el),
-          id = $el.attr('id');
+          id = $el.attr('id'),
+          tagName = $el[0].name.toLowerCase(),
+          level = parseInt(tagName.replace('h', ''), 10);
+
+      const diff = lastLevel !== null ? level - lastLevel : 0;
+      if (diff > 1) {
+        file.warnings.push(`${gutil.colors.red('[TOC]    ')} There is are inconsistencies with the title sorting. Check title with text ${gutil.colors.cyan($el.text())}`);
+      }
+      lastLevel = level;
+
+      if ('h1' === tagName) {
+        file.errors.push(`${gutil.colors.red('[TITLE]  ')} There is a title with text ${gutil.colors.cyan($el.text())} which is an H1. This cannot happen, as this is the page title`);
+      }
 
       if (id) {
         if (file.anchors.indexOf(id) !== -1) {
-          file.warnings.push(`${gutil.colors.yellow('[ID]')} The element with ${gutil.colors.cyan('id="' + id + '"')} has a duplicate ID, this should not happen`);
+          file.warnings.push(`${gutil.colors.yellow('[ID]     ')} The element with ${gutil.colors.cyan('id="' + id + '"')} has a duplicate ID, this should not happen`);
         } else {
           file.anchors.push(id);
         }
@@ -127,7 +178,7 @@ const parseHtmlFile = file => new Promise((resolve, reject) => {
 
     const todos = $('.todo', '.mx__page__content');
     if (todos.length) {
-      file.warnings.push(`${gutil.colors.yellow('[TODO]')} This file has ${gutil.colors.cyan('{{% todo %}}')} elements. These will not be shown on production, but you might want to check them.`);
+      file.warnings.push(`${gutil.colors.yellow('[TODO]   ')} This file has ${gutil.colors.cyan('{{% todo %}}')} elements.`);
     }
 
     const updateTime = $('meta[property="og:updated_time"]').attr('content');
@@ -178,6 +229,9 @@ const getLinkPaths = link => {
 
 const validateFiles = files => Promise.resolve(_.map(files, file => {
 
+  const warningKey = 'warnings';
+  const errorKey = 'errors';
+
   // Let's check all the links
   _.forEach(file.links, link => {
     const fullPath = normalizeSafe(path.join(SOURCEPATH, link)),
@@ -195,12 +249,12 @@ const validateFiles = files => Promise.resolve(_.map(files, file => {
       if (fullUrl.hash) {
         const hashID = fullUrl.hash.replace('#', '');
         if (linkedFile.anchors.indexOf(hashID) === -1) {
-          file.warnings.push(`Has link to ${gutil.colors.cyan(link)} which does resolve the page ${gutil.colors.cyan(linkedFile.basePath)}, but the anchor ${hashID} does not exist. Please fix this`);
+          file[warningKey].push(`${gutil.colors.yellow('[ANCHOR] ')} ${gutil.colors.cyan(link)}, page ${gutil.colors.cyan(linkedFile.basePath)} exists, anchor ${gutil.colors.cyan(hashID)} does not.`);
           verbose && console.log(`hash err ${file.path} to ${linkedFile.basePath}`, link);
         }
       }
     } else if (!helpers.isFile(fullPath)) {
-      file.errors.push(`Has link to ${gutil.colors.cyan(link)} which would resolve to ${gutil.colors.cyan(linkPath)} (.html | index.html), but it does not exist`);
+      file[errorKey].push(`${gutil.colors.red('[LINK]   ')} ${gutil.colors.cyan(link)} does not exist. Path: ${gutil.colors.cyan(linkPath)} (.html | index.html) is unresolved`);
       verbose && console.log(`err ${file.path}`, link);
     }
   });
@@ -213,7 +267,7 @@ const validateFiles = files => Promise.resolve(_.map(files, file => {
       return;
     }
     if (!helpers.isFile(fullPath)) {
-      file.errors.push(`Has image: ${gutil.colors.cyan(image)} which would resolve to ${gutil.colors.cyan(fullPath)}, but it does not exist`);
+      file[errorKey].push(`${gutil.colors.red('[IMAGE]  ')} ${gutil.colors.cyan(image)} does not exist. Path: ${gutil.colors.cyan(fullPath)} is unresolved`);
       verbose && console.log(`err image ${file.path}`, image);
     }
   });
@@ -226,7 +280,7 @@ const validateFiles = files => Promise.resolve(_.map(files, file => {
       return;
     }
     if (!helpers.isFile(fullPath)) {
-      file.errors.push(`Has video: ${gutil.colors.cyan(video)} which would resolve to ${gutil.colors.cyan(fullPath)}, but it does not exist`);
+      file[errorKey].push(`${gutil.colors.red('[VIDEO]  ')} ${gutil.colors.cyan(video)} does not exist. Path: ${gutil.colors.cyan(fullPath)} is unresolved`);
       verbose && console.log(`err image ${file.path}`, video);
     }
   });
@@ -235,7 +289,7 @@ const validateFiles = files => Promise.resolve(_.map(files, file => {
   _.forEach(file.anchorLinks, anchorlink => {
     if (file.anchors.indexOf(anchorlink) === -1) {
       //console.log(file.anchors);
-      file.warnings.push(`Has anchor link: ${gutil.colors.cyan('#' + anchorlink)}, which does not exist in the page`);
+      file[warningKey].push(`${gutil.colors.yellow('[ANCHOR] ')} ${gutil.colors.cyan('#' + anchorlink)} does not exist in page`);
       verbose && console.log(`err anchor ${file.path}`, anchorlink);
     }
   });
@@ -307,7 +361,7 @@ const writeUpdateFeed = files => new Promise((resolve, reject) => {
     feed.item({
       title: update.seoTitle,
       description: '',
-      url: 'https://' + normalizeSafe(`docs.mendix.com${update.basePath}`),
+      url: 'https://' + normalizeSafe(`www.mendix.com${update.basePath}`),
       date: update.dateObj
     })
   });
@@ -433,7 +487,16 @@ const checkFiles = (opts) => {
     .then(files => {
       allFiles = files;
       allResidualFiles = files;
-      checkHTMLFiles(opts);
+      return checkHTMLFiles(opts);
+    })
+    .then(() => {
+      gutil.log(` `);
+      gutil.log(gutil.colors.cyan(`Statistics: `));
+      gutil.log(`    Images:         ${gutil.colors.cyan(statistics.image.length)}`);
+      gutil.log(`    Videos:         ${gutil.colors.cyan(statistics.video.length)}`);
+      gutil.log(`    Youtube video:  ${gutil.colors.cyan(statistics.youtube.length)}`);
+      gutil.log(`    Unknown iframe: ${gutil.colors.cyan(statistics.iframe_unknown.length)}`);
+      gutil.log(` `);
     })
     .catch(err => {
       helpers.gulpErr('htmlproofer', err);

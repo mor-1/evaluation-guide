@@ -1,2 +1,4 @@
 {{- $env := getenv "HUGO_ENV" -}}
-<div class="alert alert-warning todo {{ if or (eq $env "production") (eq $env "development") }}hidden{{ end }}" role="alert"><strong>{{.Inner}}</strong></div>
+{{- if (ne $env "production") -}}
+<div class="alert alert-warning todo{{ if (ne $env "production") }} hidden{{ end }}" role="alert"><strong>{{.Inner}}</strong></div>
+{{- end -}}

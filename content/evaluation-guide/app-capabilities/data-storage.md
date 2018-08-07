@@ -2,30 +2,31 @@
 title: "Data Storage"
 parent: "data-management"
 menu_order: 10
+bg: "data"
 tags: [""]
 ---
 
 ## 1 How Do I Define Data in Mendix?
 
-In Mendix, you define your data needs using domain models. Every module can have its own domain model. A domain model consists of one or more entities, and these entities can be persistable or non-persistable. Entities contain one or more objects.
+In Mendix, you define your data needs using domain models. Every module in your app project can have its own domain model, which consists of one or more entities. These entities can be persistable or non-persistable, and they contain one or more objects.
 
-{{% image_container width="500" %}}
+{{% image_container width="550" %}}
 
 ![](attachments/data-domain-model.png)
 
 {{% /image_container %}}
 
-Persistable  objects are stored in a database, and Mendix automatically creates tables to store your entities in the database. For every object, one record is inserted in the table. Non-persistable entities only live in memory for the duration of a user session.
+Persistable objects are stored in a database, and Mendix automatically creates tables to store your entities in the database. For every object, one record is inserted in the table. Non-persistable entities only live in memory for the duration of a user session.
 
 For every entity, you can define the attributes and what type of data the attributes should hold. You can also define security rules, who can see what data, and validation rules. A validation rule specifies what values are allowed for an attribute.
 
 When you start or redeploy your application, Mendix automatically creates database tables to store your data. When you redeploy, all of your app's tables are automatically changed as required, and data is migrated to the new table structures.
 
-## 2 What Is the Difference Between Persistable and Non-Persistable Objects?
+## 2 What Is the Difference Between Persistable & Non-Persistable Objects?
 
-Persistable  objects are stored in a database, so you can use your data across sessions and across users. However, because non-persistable  entities only live in memory for the duration of a user session, such entities cannot be shared between users or across user sessions.
+Persistable objects are stored in a database, so you can use your data across sessions and across users. However, because non-persistable entities only live in memory for the duration of a user session, such entities cannot be shared between users or across user sessions.
 
-Non-persistable  entities are mostly used for calculations where you do not want to store all the intermediate results, or for temporarily storing data fetched from external systems through different integration means.
+Non-persistable entities are mostly used for calculations where you do not want to store all the intermediate results, or for temporarily storing data fetched from external systems through different integration means.
 
 <video controls src="attachments/Integration_PersistableEntity.mp4">VIDEO</video>
 
@@ -41,10 +42,8 @@ The database structure created will include tables, data types, associations, re
 
 It is important to note that whenever you make changes to your applications, the underlying database tables will be automatically updated accordingly. Your data will also be migrated.
 
-{{% image_container width="450" %}}
-
+{{% image_container width="500" %}}
 ![](attachments/deploy_ddl.png)
-
 {{% /image_container %}}
 
 By handling both table creation and data migration, the Mendix Platform helps you to deliver apps quickly. You do not have to manage the database schema yourself. Equally important is that for most migrations (for example, attribute renaming or type changes), Mendix also automates data migration.
@@ -56,6 +55,7 @@ The data migration phase can also migrate data from one Mendix app to another ac
 ### 3.2 Data Retrieval
 
 Mendix offers a number of ways to specify what data you want to retrieve:
+
 * Both the Desktop Modeler and Web Modeler offer visual ways to specify your query needs
 * To retrieve specific objects or a set of related objects, you can use XPath expressions
 * For reporting needs (where aggregation and the joining of multiple entities into a single result set is important), Mendix offers OQL queries
@@ -81,13 +81,13 @@ Indexes are lists of attributes for which a database index is created on the und
 
 Indexes are added using the entity properties menu inside the Modeler. Multiple indexes can be added to one entity.
 
-<video controls  src="attachments/IndexSettings.mp4">Using indexes to improve query performance</video>
+<video controls src="attachments/IndexSettings.mp4">VIDEO</video>
 
 ## 5 How Can I Use a Stored Procedure with Mendix?
 
 Using a stored procedure in Mendix depends on where your data resides.
 
-If you want to use a stored procedure in the database of your Mendix application, you can use the Mendix Java API. For details, see [How to Use the Java API](https://docs.mendix.com/howto/logic-business-rules/java-api-tutorial). And for details on executing SQL statements on your Mendix application database using JDBC, see [DataStorage executeWithConnection](https://apidocs.mendix.com/7/runtime/com/mendix/datastorage/DataStorage.html#executeWithConnection-java.util.function.Function-)
+If you want to use a stored procedure in the database of your Mendix application, you can use the Mendix Java API. For more information, see [How to Use the Java API](https://docs.mendix.com/howto/logic-business-rules/java-api-tutorial) in the Mendix documentation. And for details on executing SQL statements on your Mendix app database using JDBC, see [DataStorage executeWithConnection](https://apidocs.mendix.com/7/runtime/com/mendix/datastorage/DataStorage.html#executeWithConnection-java.util.function.Function-).
 
 If you are using an external database, you can use the [Database Connector](https://appstore.home.mendix.com/link/app/2888/) add-on available in the Mendix App Store.
 
@@ -95,14 +95,12 @@ Calling stored procedures is mostly relevant if you are building on top of an ex
 
 ## 6 How Does Mendix Handle Transaction Management?
 
-Every request to the Mendix Runtime is automatically starts a new transaction. Upon successful completion of the request, the transaction is committed with all related data. In case of an error, all the data changes are rolled back by default. You have the option to provide custom error handling logic to change this default behavior.
+Every request to the Mendix Runtime automatically starts a new transaction. Upon successful completion of the request, the transaction is committed with all related data. In case of an error, all the data changes are rolled back by default. You have the option to provide custom error handling logic to change this default behavior.
 
-In the following microflow, a custom error handler is defined. When the **Change** activity fails, any changes it made to the database are rolled back. The error handler defines what you want to do with the transaction: you can roll back everything that happened in the microflow, or you can compensate for the problem and continue. In this example a log message is generated, after which the microflow ends in an error. The calling microflow can then decide how to handle this.
+In the following microflow, a custom error handler is defined. When the **Change** activity fails, any changes it made to the database are rolled back. The error handler defines what you want to do with the transaction: you can roll back everything that happened in the microflow, or you can compensate for the problem and continue. In this example, a log message is generated, after which the microflow ends in an error. The calling microflow can then decide how to handle this.
 
-{{% image_container width="400" %}}
-
+{{% image_container width="450" %}}
 ![](attachments/transaction_error_handling.png)
-
 {{% /image_container %}}
 
 ## 7 What Databases Does Mendix Support? {#database-support}

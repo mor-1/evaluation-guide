@@ -8,11 +8,20 @@ $block: 'mx';
     right: 0;
     left: 0;
     bottom: 0;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8f8f8+0,f8f8f8+25,ffffff+25,ffffff+25,ffffff+100 */
+    background: rgb(248,248,248); /* Old browsers */
+    background: -moz-linear-gradient(left, #f8f8f8 25%, #fff 25%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #f8f8f8 25%, #fff 25%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #f8f8f8 25%, #fff 25%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+
     @include mq("sm", max) {
       display: none;
     }
     @include element('left') {
-      display: block;
+      display: none;
       width: 50%;
       top: 0;
       left: 0;
@@ -21,7 +30,7 @@ $block: 'mx';
       position: absolute;
     }
     @include element('right') {
-      display: block;
+      display: none;
       width: 50%;
       top: 0;
       bottom: 0;
@@ -33,6 +42,7 @@ $block: 'mx';
 
   @include element('content') {
     position: relative;
+    overflow: hidden;
     & > .container {
       position: relative;
       z-index: 20;

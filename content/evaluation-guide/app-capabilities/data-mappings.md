@@ -2,6 +2,7 @@
 title: "Data Mappings"
 parent: "integration"
 menu_order: 20
+bg: "integration"
 tags: ["Integration"]
 ---
 
@@ -11,26 +12,22 @@ Being able to easily map external data formats to the entities used in your appl
 
 Using mappings in Mendix involves two steps:
 
-1. You need to define what the message looks like that you are going to use while communicating with external systems. This could be a JSON or XML message based on an example JSON snippet, or an XML message based on an XML Schema (XSD).
-2. You need to configure a mapping to define how to transform the message into Mendix objects and vice versa.
+1. You define what the message looks like that you are going to use while communicating with external systems. This could be a JSON or XML message based on an example JSON snippet, or an XML message based on an XML Schema (XSD).
+2. You configure a mapping to define how to transform the message into Mendix objects and vice versa.
 
-{{% image_container width="500" %}}
 <video controls src="attachments/Integration_JSON_Import_and_Mapping-1.mp4">VIDEO</video>
-{{% /image_container %}}
 
 These message definitions and mappings can be reused through the different integration facilities offered by Mendix (as in, web services, REST services, or connectors using the Connector Kit to provide custom integrations).
 
-{{% image_container width="500" %}}
 <video controls src="attachments/ApplyImportMapping.mp4">VIDEO</video>
-{{% /image_container %}}
 
-## 2 How Can I Use JSON Snippets?
+## 2 How Can I Use JSON Snippets? {#message-definition}
 
 External REST APIs often come with documentation including example JSON messages that you need to send to receive. With Mendix, you can just copy and paste these examples from the documentation to create a message definition in your application project. Mendix will automatically detect the structure of the message as well as the data types of the properties in the JSON snippet.
 
 After doing this, you can use the message definition as any other message definition in your mappings.
 
-{{% image_container width="500" %}}
+{{% image_container width="550" %}}
 ![](attachments/json-snippet-example.png)
 {{% /image_container %}}
 
@@ -40,7 +37,7 @@ When importing a web service definition (WSDL), the message definition will be a
 
 Alternatively, you can define your messages based on a separate XML schema document. Simply create an XML schema document in your project, read the XSD file, and all the available message will be displayed. You can then use them in your mappings.
 
-{{% image_container width="500" %}}
+{{% image_container width="550" %}}
 ![](attachments/xsd-message-definition.png)
 {{% /image_container %}}
 
@@ -56,7 +53,7 @@ When you use import or export mappings based on these message definitions, you c
 
 The image below illustrates how to use a microflow export activity to generate a JSON message. Generating XML is just a matter of selecting XML instead of JSON.
 
-{{% image_container width="500" %}}
+{{% image_container width="550" %}}
 ![](attachments/export-to-json.png)
 {{% /image_container %}}
 
@@ -66,6 +63,6 @@ You can use REST with import and export mappings, which support both JSON and XM
 
 This image illustrates how you can use a string template to define form-URL-encoded data to be sent to an API:
 
-{{% image_container width="500" %}}
+{{% image_container width="550" %}}
 ![](attachments/rest-post-template.png)
 {{% /image_container %}}

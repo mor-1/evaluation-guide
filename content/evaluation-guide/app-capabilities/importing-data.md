@@ -2,6 +2,7 @@
 title: "External Data"
 parent: "integration"
 menu_order: 50
+bg: "integration"
 tags: [""]
 ---
 
@@ -25,7 +26,7 @@ The [Database Connector](https://appstore.home.mendix.com/link/app/2888/) availa
 
 <video controls src="attachments/DM_DragSQLStatement.mp4">VIDEO</video>
 
-The Database Connector works well with relational databases that support JDBC. Some NoSQL databases also include for SQL through JDBC, so for these NoSQL databases, you may also be able to use the Database Connector. Most NoSQL databases also offer connectivity through REST APIs. If this is the case, you can use Mendix's extensive [REST support](consuming-services#support-rest-web) to use data in these databases.
+The Database Connector works well with relational databases that support JDBC. Some NoSQL databases also include for SQL through JDBC, so for these NoSQL databases, you may also be able to use the Database Connector. Most NoSQL databases also offer connectivity through REST APIs. If this is the case, you can use Mendix's extensive [REST support](consuming-services#consume-rest-api) to use data in these databases.
 
 For Oracle databases, the [Oracle Connector (Beta)](https://appstore.home.mendix.com/link/app/8683/) is available in the Mendix App Store. This is a version of the Database Connector with support for Oracle-specific features like [PL/SQL](http://www.oracle.com/technetwork/database/features/plsql/index.html), [Ref Cursors](https://docs.oracle.com/cd/E17781_01/appdev.112/e18751/procedures_plsql.htm#TDPNG60040), and [user-defined SQL types](https://docs.oracle.com/database/121/ADOBJ/adobjmng.htm#ADOBJ7651). This module will be useful for many Oracle databases used in Oracle Forms and Oracle Designer applications, where most of the data access is handled by table APIs implemented using PL/SQL packages.
 
@@ -56,8 +57,8 @@ If you cannot find a module with support for your specific fixed-length format, 
 
 There are a number of ways you can mass export and import data from your Mendix applications:
 
-* Using custom build services, e.g. using WebServices or REST services. The benefit of this approach is that it enable you to adapt the data and validate it complies with your business rules.
-* Using backup and restore. You can use custom (SQL) scripts to fill a Mendix development database with the data you need. When done, you create a backup of this database and restore it in the desired destination database.
-* Using a source database - When you start a runtime on a new empty database you can specify that it needs to be initialized with data from another database.
+* **Custom build services** – Examples of this are using web services or REST services. The benefit of this approach is that it enables you to adapt the data and validate it complies with your business rules.
+* **Backup and restore** – You can use custom (SQL) scripts to fill a Mendix development database with the data you need. When done, you create a backup of this database and restore it in the desired destination database.
+* **Source database** – When you start a runtime on a new empty database, you can specify that it needs to be initialized with data from another database.
 
-If you want to create a realtime mass synchronization between 2 environments you can use entity event listeners. This enables you to run some custom Java logic for every object event, for example when data is changed in your database. In this custom handler you can provide logic to duplicate the data changes to another application.
+If you want to create a real-time mass synchronization between two environments, you can use entity event listeners. This enables you to run custom Java logic for every object event (for example, when data is changed in your database). In this custom handler, you can provide logic to duplicate the data changes to another app.

@@ -7,7 +7,7 @@
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
+  // -webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
 }
 
 html, body { height: 100%; }
@@ -33,9 +33,16 @@ a {
   text-decoration: none;
   transition: all 0.2s ease;
   &:hover, &:focus {
-    color: #ea9629;
-    text-decoration: none;
+    // color: #ea9629;
+    // text-decoration: none;
+    text-decoration: underline;
+    outline-width: 0;
+    color: $color-mendix-blue;
   }
+}
+
+p {
+  text-rendering: optimizeLegibility;
 }
 
 .post-content {

@@ -4,6 +4,7 @@ const sass        = require('gulp-sass');
 const sourcemaps  = require('gulp-sourcemaps');
 const minify      = require('gulp-minify');
 const hash        = require('gulp-hash');
+const replace     = require('gulp-replace');
 
 const server      = require('./_gulp/server');
 const hugo        = require('./_gulp/hugo');
@@ -65,6 +66,19 @@ gulp.task('clean', `Cleanup the ${DIST_FOLDER} directory`, () => {
   return del([
     DIST_FOLDER
   ], { force: true });
+});
+
+gulp.task('clean:production', `Cleanup copied sitemap`, () => {
+  const toDel = [
+    '_site/sitemap.xml'
+  ];
+
+  // In production we don't use robots.txt
+  if ('production' === process.env.HUGO_ENV) {
+    toDel.push('_site/robots.txt');
+  };
+
+  return del(toDel, { force: true });
 });
 
 gulp.task('clean:js', `Cleanup the ${paths.scripts.dest} directory`, () => {
@@ -174,10 +188,64 @@ gulp.task('build:hugo', `Build`, [], done => {
   hugo.build(done);
 });
 
+gulp.task('replace', 'Replace urls from production', done => {
+  runSequence('replace:html', 'replace:css', 'replace:nginx', done);
+});
+
+const urlReplacer = match => {
+  if ('production' === process.env.HUGO_ENV) {
+    return 'https://evaluation-guide.mendix.com/evaluation-guide/public/images/';
+  }
+  return match;
+}
+
+gulp.task('replace:html', 'Replace urls in HTML for production', done => {
+  return gulp
+    .src('_site/**/*.html')
+    .pipe(replace('/evaluation-guide/public/images/', urlReplacer))
+    .pipe(gulp.dest('_site/'));
+});
+
+gulp.task('replace:css', 'Replace urls in CSS for production', done => {
+  return gulp
+    .src('_site/**/*.css')
+    .pipe(replace('/evaluation-guide/public/images/', urlReplacer))
+    .pipe(gulp.dest('_site/'));
+});
+
+gulp.task('replace:nginx', 'Replace nxinx', done => {
+  return gulp
+    .src('_site/nginx.conf')
+    .pipe(replace('#ROOT_REDIRECT', match => {
+      if ('production' === process.env.HUGO_ENV) {
+        return 'return 301 https://www.mendix.com/evaluation-guide/;'
+      }
+      return 'return 302 https://$host/evaluation-guide/;'
+    }))
+    .pipe(replace('#X_FORWARD_FOR', match => {
+      if ('production' === process.env.HUGO_ENV) {
+        return `if ( $http_x_forwarded_server != "www.mendix.com") {
+        return 301 https://www.mendix.com$request_uri;
+      }`;
+      }
+      return '';
+    }))
+    .pipe(gulp.dest('_site/'));
+});
+
+gulp.task('copy', 'Move sitemap on production', done => {
+  if ('production' === process.env.HUGO_ENV) {
+    return gulp
+      .src('_site/sitemap.xml')
+      .pipe(gulp.dest('_site/evaluation-guide/'));
+  }
+  return done();
+});
+
 gulp.task('build:menu', `Build menu jsons (production)`, writeMenu(true));
 
 gulp.task('build', `BUILD. Used for production`, done => {
-  runSequence('clean', 'write:mappings', ['build:menu', 'build:sass', 'build:js'], 'write:assetmappings', 'build:hugo', 'check', (err) => {
+  runSequence('clean', 'write:mappings', ['build:menu', 'build:sass', 'build:js'], 'write:assetmappings', 'build:hugo', 'check', 'replace', 'copy', 'clean:production', (err) => {
       //if any error happened in the previous tasks, exit with a code > 0
       if (err) {
         var exitCode = 2;
@@ -230,6 +298,7 @@ gulp.task('serve', `Serve`, done => {
 // CHECK
 gulp.task('check:html', `Check HTML files in the build folder`, done => {
   htmlproofer.check({
+    external: !!process.env.EXTERNAL,
     dir: path.resolve(CURRENTFOLDER, '_site'),
     callback: function (err) {
       if (err) {

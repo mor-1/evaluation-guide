@@ -2,6 +2,7 @@
 title: "Organization & Compliance"
 parent: "security"
 menu_order: 10
+bg: "security"
 tags: [""]
 ---
 
@@ -11,7 +12,7 @@ Mendix has implemented an information security management system (ISMS) accordin
 
 * Systematically evaluate our information security risks, taking into account the impact of threats and vulnerabilities
 * Design and implement a comprehensive suite of information security controls and other forms of risk treatment to address security risks
-* Have an overarching management process to ensure that information security controls meet our needs on an ongoing basis
+* Utilize an overarching management process to ensure that the information security controls meet our needs on an ongoing basis
 
 ## 2 Which Third-Party Security Certifications and Assurance Reports Does Mendix Have? {#security-certifications}
 
@@ -37,13 +38,15 @@ Mendix is certified to be compliant with the [ISO/IEC 27001](https://www.iso.org
 
 Mendix has completed the CSA STAR level one self-assessment, which is available upon request.
 
-## 3 Which Security ControIs Does Mendix Have in Place for Its Employees?
+## 3 What Security Controls Does Mendix Have in Place for Its Employees?
 
 All Mendix employees are required to provide a government-certified background check (certificate of good conduct) and are bound by strict confidentiality obligations that are embodied within a confidentiality agreement. Furthermore, Mendix has implemented a security awareness program for all employees. Mendix security staff holds industry standard certifications, including but not limited to CISSP and CISM.
 
-## 4 Who Is the Owner of Data in a Mendix Application?
+## 4 Who Is the Owner of Data in a Mendix App?
 
-The Mendix customer has ownership of the data and intellectual property of their Mendix applications as stated by Mendix master agreements and end-user agreements.
+The Mendix customer has ownership of the data and intellectual property of their Mendix applications, as stated by Mendix master agreements and end-user agreements.
+
+For more information, see [Exporting Your Data](vendor-lockin#export-data) in *No Vendor Lock-In*.
 
 ## 5 Who Has Access to My Data?
 
@@ -61,4 +64,4 @@ After contract termination, all applicable application environments are securely
 
 Disaster recovery and business continuity is part of the Mendix security framework. To ensure that customer services can be resumed after a disaster, Mendix has developed a disaster recovery procedure. This procedure is tested on a quarterly basis. Additionally, Mendix offers disaster recovery services that include high availability across multiple availability zones, horizontal scaling of app environments, and auto-recovery in the event of an unexpected outage.
 
-For more information on the Mendix Cloud architecture, see [Architecture Principles](../enterprise-capabilities/architecture-principles).
+For more information on the Mendix Cloud architecture, see [Cloud Architecture](../enterprise-capabilities/architecture-cloud).

@@ -16,8 +16,7 @@ fi
 
 if ([ "${TRAVIS_BRANCH}" == "master" ])
 then
-  # cf zero-downtime-push $CF_APP -f ./manifest_prod.yml
-  echo 'Master deployment disabled'
+  cf zero-downtime-push $CF_APP -f ./manifest_prod.yml
   exit 0
 fi
 

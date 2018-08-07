@@ -10,7 +10,7 @@ tags: [""]
 
 The Mendix Cloud is the deployment solution in which Mendix provides hosting environments for customers. The Mendix Cloud is built on top of Cloud Foundry and AWS, is available in multiple regions around the globe, and comes with high availability options. For details on the Mendix Cloud architecture, see [Cloud Architecture](../enterprise-capabilities/architecture-cloud).
 
-Mendix Cloud is the most optimzed cloud to run Mendix Applications. It comes standard with deep insights, alerting, high availabilty, and backups, all of which is self-service available. For more information, see [Mendix Cloud Features](mendix-features).
+Mendix Cloud is the most optimzed cloud to run Mendix Applications. It comes standard with deep insights, alerting, high availabilty, and backups, all of which is self-service available. For more information, see [Mendix Cloud Features](mendix-cloud-features).
 
 ## 2 What Does the Mendix Cloud Architecture Look Like?
 

@@ -46,7 +46,7 @@ All Mendix employees are required to provide a government-certified background c
 
 The Mendix customer has ownership of the data and intellectual property of their Mendix applications, as stated by Mendix master agreements and end-user agreements.
 
-For more information, see [Exporting Your Data](vendor-lock-in#export-data) in *No Vendor Lock-In*.
+For more information, see [Exporting Your Data](vendor-lockin#export-data) in *No Vendor Lock-In*.
 
 ## 5 Who Has Access to My Data?
 

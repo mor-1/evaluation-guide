@@ -65,11 +65,11 @@ For more information, see [Continuous Integration](cicd) and [Testing](test-auto
 
 During development with the Desktop Modeler, you can run your application locally on your machine while you are experimenting with the development of new features. And in addition to publishing apps in the Mendix Cloud, you can run your app locally when you do not want to share your app with others stakeholders yet.
 
-<video controls src="attachments/run-locally.mp4">VIDEO</video>
+<video controls src="attachments/run-locally.mp4">VIDEO</video>
 
 From both the Desktop Modeler and Web Modeler, you can easily publish your app directly in the Mendix Cloud with a single click. This immediately makes the app available as a Free App for up to 10 users, either for development or production use.
 
-<video controls src="attachments/MA_SandboxDeployment.mp4">VIDEO</video>
+<video controls src="attachments//MA_SandboxDeployment.mp4">VIDEO</video>
 
 Once the development team is satisfied with the version of the app that is running in development, the Mendix Developer Portal allows users to quickly stage the app to the test and acceptance environments before it is finally released to the production environment.
 

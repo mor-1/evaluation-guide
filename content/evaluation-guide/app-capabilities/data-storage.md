@@ -81,7 +81,7 @@ Indexes are lists of attributes for which a database index is created on the und
 
 Indexes are added using the entity properties menu inside the Modeler. Multiple indexes can be added to one entity.
 
-<video controls src="attachments/IndexSettings.mp4">VIDEO</video>
+<video controls src="attachments/IndexSettings.mp4">VIDEO</video>
 
 ## 5 How Can I Use a Stored Procedure with Mendix?
 

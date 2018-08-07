@@ -49,7 +49,7 @@ The option to register for a three-day [classroom course](https://gettingstarted
 Based on a survey conducted amongst developers about learning low code, we got these answers: 
 
 {{% image_container width="550" %}}
-![](attachments/survey.jpg)
+![](attachments/survey.png)
 {{% /image_container %}}
 
 Because the Mendix Platform provides extensive capabilities and does [monthly releases](https://www.mendix.com/releases/) with new features, Mendix users never actually stop learning!

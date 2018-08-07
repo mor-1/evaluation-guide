@@ -8,7 +8,7 @@ tags: [""]
 
 Welcome to the Mendix Platform Evaluation Guide. In this chapter, we will present the essence of Mendix, including background details on why we found the company and what the Mendix vision is.
 
-We recommend first watching this video of our Chief Technology Officer, Johann den Haan:
+We recommend first watching this video of our Chief Technology Officer, Johan den Haan:
 
 {{% youtube 5p23szMuhmI %}}
 

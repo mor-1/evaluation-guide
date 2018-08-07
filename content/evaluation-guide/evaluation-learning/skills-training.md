@@ -46,6 +46,10 @@ After a few months of experience with Mendix app projects, you will be able to g
 
 There is always the option to register for a three-day classroom course, taught by a Mendix Academy expert.
 
+Based on a survey conducted amongst developers about learning low code, we got these answers: 
+
+![](attachments/survey.jpg)
+
 Because the Mendix Platform provides extensive capabilities and does [monthly releases](https://www.mendix.com/releases/) with new features, Mendix users never actually stop learning!
 
 ## 4 What Are the Mendix Training Options? {#training-options}

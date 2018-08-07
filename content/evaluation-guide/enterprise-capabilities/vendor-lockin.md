@@ -12,7 +12,7 @@ At Mendix, we have put a lot of effort into opening up our platform in every way
 
 You own (via IP rights) all of your data and models, and you are free to do with them as you wish. Mendix helps you in the ways described below.
 
-### 1.1 Exporting Your App Models
+### 1.1 Exporting Your App Models {#export-model}
 
 By using the [Mendix SDK](https://developers.mendix.com/sdk/), you can programmatically access your application models. Of course, the SDK comes with [full documentation](https://apidocs.mendix.com/modelsdk/latest/index.html) of the models used to define your app. This enables you to automate a migration to alternative low-code platforms as well as to 3GL languages and platforms like Java and Hibernate. 
 

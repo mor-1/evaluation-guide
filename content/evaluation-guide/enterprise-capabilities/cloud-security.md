@@ -40,29 +40,29 @@ For connections from the internet to your Mendix Cloud applications, we provide 
 
 ### 1.5 How Is Access Management Handled for My Mendix Cloud Environments?
 
-Fine-grained access management for your Mendix Cloud environments is handled for each of your applications in the Developer Portal. Each team member can subscribe or unsubscribe to alerts, and the Technical Contact of an application can manage the various permissions of each team member per environment.
+Fine-grained access management for your Mendix Cloud environments is handled for each of your applications in the Developer Portal. Each team member can subscribe or unsubscribe to alerts, and the **Technical Contact** of an application can manage the various permissions of each team member per environment.
 
 The sections below describe the various App Team roles used in node settings.
 
 #### 1.5.1 What Team Role Manages Mendix Cloud Environment Access?
 
-Users with the Technical Contact role can manage all the settings in the cloud node and can edit the privileges of regular App Team members with the view, deploy, and monitor permissions. Other App Team members are restricted in what they can manage.
+Users with the Technical Contact role can manage all the settings in the cloud node and can edit the privileges of regular development team members with the view, deploy, and monitor permissions. Other team members are restricted in what they can manage.
 
-A cloud node always has only one Technical Contact (while any number of App Team members can have view, deploy, and monitor permissions).
+A cloud node always has only one Technical Contact (while any number of team members can have view, deploy, and monitor permissions).
 
 Only the Technical Contact can give their user role to another team member (after this, the new user has the Technical Contact role, and the old user does not).
 
 The Technical Contact receives the following alerts from the cloud node:
-* Notifications for maintenance from Mendix Support
-* Alerts from the node when problems arise
+* **Notifications for maintenance** from Mendix Support
+* **Alerts** from the node when problems arise
   * For example, CPU load is high, running out of disk space
   * The Technical Contact cannot turn these alerts off
 
 #### 1.5.2 Who Is the First Point of Contact for Incidents & Changes to the App?
 
 The Technical Contact is the first point of contact from Mendix Support about the application. The Technical Contact can submit requests for the cloud node with the following request types:
-* Incidents – for example, when the app is down
-* Standard changes – requests to add cloud resources, change the Mendix app URL, create a new app, obtain or renew a license, reset Google authenticator
+* **Incidents** – for example, when the app is down
+* **Standard changes** – requests to add cloud resources, change the Mendix app URL, create a new app, obtain or renew a license, reset Google authenticator
 
 ### 1.6 Which Types of Access Control Are Available for My Mendix Cloud Environment?
 
@@ -94,9 +94,9 @@ A backup of all data (model, database, and file storage) is made on a daily basi
 
 Backups are available for restore as follows:
 
-* Nightly backups – maximum 2 weeks history (counted from the day before the request)
-* Sunday backups – maximum 3 months history (counted from the day before the request)
-* Monthly backups (1st Sunday of each month) – maximum 1 year history (counted from the day before the request)
+* **Nightly backups** – maximum 2 weeks history (counted from the day before the request)
+* **Sunday backups** – maximum 3 months history (counted from the day before the request)
+* **Monthly backups** (1st Sunday of each month) – maximum 1 year history (counted from the day before the request)
 
 Both production data and backup data utilize cloud storage and are subject to the storage limit associated with the Mendix Platform subscription purchased. Companies are advised to set up an internal protocol for the usage and testing of backups. Administrators can download backups from the Cloud Portal or develop automated downloads of backups using the Mendix Platform REST API. Mendix also offers the option to use live data replication in order to enable a fallback environment.
 
@@ -116,7 +116,7 @@ For more details, see the sections [How Does Mendix Cloud Offer High Availabilit
 
 Mendix offers encryption for data at rest and in transit for app environments out of the box. For more encryption control, Mendix supports the encryption of specific columns within application databases and makes it possible to encrypt uploaded files.
 
-For details on routing and network encryption, refer to section [3.1 How Is Data in Transit Secured?](#data-in-transit) above.
+For details on routing and network encryption, refer to the section [How Is Data in Transit Secured?](#data-in-transit) above.
 
 ## 4 What Kind of Logging & Audit Trails Are Provided in the Mendix Cloud?
 
@@ -152,7 +152,7 @@ The Mendix Platform deployment architecture is based on Cloud Foundry, which is 
 
 A Mendix Cloud node is a grouping of virtual and autonomous instances of the Mendix Runtime that is dedicated to your company. A Mendix Cloud node includes an (optional) test, acceptance, and production environment, each running in their own app environment. This app environment also includes firewall, web server, and database services. Mendix Cloud nodes run on Cloud Foundry containers. The purpose of an app container is to contain the behavior and consumption of an environment while shielding other environments (and apps) from each other.
 
-Cloud Foundry uses "Garden" containers that have been designed to run applications and dependencies based on a buildpack. Garden containers consists of two layers: a read-only layer with an operating system root file system, and a non-persistent read/write layer for Mendix applications and dependencies.
+Cloud Foundry uses **Garden containers** that have been designed to run applications and dependencies based on a buildpack. Garden containers consists of two layers: a read-only layer with an operating system root file system, and a non-persistent read/write layer for Mendix applications and dependencies.
 
 Databases and files are also logically contained within the Mendix Cloud and Cloud Foundry. A database for a Mendix application is hosted on a separate instance of PostgreSQL, and this specific instance only allows traffic from this specific Mendix application.
 
@@ -166,4 +166,4 @@ The Mendix Security team has an established hardening security baseline based on
 
 ## 8 Which Physical Security Controls Are in Place for the Mendix Cloud?
 
-Mendix Cloud is hosted in industry-leading datacenters, which are reviewed bi-annually for compliance by the certified Information Security Officers of Mendix. All the datacenters possess third-party certifications and/or third-party assurance reports like ISO/IEC 27001:2013, SOC 2, and PCI-DSS.
+Mendix Cloud is hosted in industry-leading data centers, which are reviewed bi-annually for compliance by the certified Information Security Officers of Mendix. All the data centers possess third-party certifications and/or third-party assurance reports like ISO/IEC 27001:2013, SOC 2, and PCI-DSS.

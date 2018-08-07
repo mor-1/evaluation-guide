@@ -10,7 +10,9 @@ tags: [""]
 
 Mendix can be found in IBM Cloud as starter kits within the standard development experience. There are Watson, web, and mobile options that show you how to start building an application integrating the specific services.
 
+{{% image_container width="600" %}}
 ![](attachments/mendix-ibm-cloud-integration2.png)
+{{% /image_container %}}
 
 ### 1.1 How Can I Run & Deploy My Application on IBM Cloud?
 
@@ -20,7 +22,7 @@ For more details, see the section [How Can I Run Mendix on IBM Cloud?](../app-ca
 
 ## 2 Which IBM Services Can I Use Within Mendix? {#ibm-services}
 
-{{% todo %}}**[Feedback from Roald: I miss the entire CI-CD story, CF vs Kubernetes options]**{{% /todo %}}
+{{% todo %}}**[Feedback: missing CI-CD story, CF vs Kubernetes options]**{{% /todo %}}
 
 In principle, there are no limitations on consuming any service from IBM Cloud. However, together with IBM, Mendix has created some out-of-the box connectors that accelerate development on top of the services even more.
 

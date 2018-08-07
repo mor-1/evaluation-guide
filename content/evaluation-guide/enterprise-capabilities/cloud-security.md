@@ -8,11 +8,11 @@ tags: [""]
 
 ## 1 What Kind of Security Controls Are Available in the Mendix Cloud?
 
-Security controls for the Mendix Cloud include various levels of encryption, TLS, access restrictions, and node settings and permissions. The sections below describe these security controls in detail.
+Security controls for the Mendix Cloud include various levels of encryption, transport layer security (TLS), access restrictions, and node settings and permissions. The sections below describe these security controls in detail.
 
 ### 1.1 How Is Data in Transit Secured? {#data-in-transit}
 
-The Mendix Runtime that is running in a container is accessed via a load-balanced routing layer of clustered Nginx web servers that routes traffic to the relevant app environment, whereby the web server is responsible for the TLS connections. In addition, all common access and security services from the IaaS provider are used for the traffic that goes to their infrastructure. The TLS connection starting from the browser terminates at the web server service on the load-balanced routing layer. This ensures that data is encrypted end to end so that other app environments cannot intercept any data from the target app environment.
+The Mendix Runtime that is running in a container is accessed via a load-balanced routing layer of clustered Nginx web servers that routes traffic to the relevant app environment, whereby the web server is responsible for the TLS connections. In addition, all common access and security services from the IaaS provider are used for the traffic that goes to their infrastructure. The TLS connection starting from the browser terminates at the web server service on the load-balanced routing layer. This ensures that data is encrypted end to end, so other app environments cannot intercept any data from the target app environment.
 
 ### 1.2 How Is Access Restricted for Incoming Requests?
 

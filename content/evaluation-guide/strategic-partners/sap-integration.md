@@ -52,7 +52,7 @@ Mendix applications can even been used within the SAP Fiori mobile launchpad, wi
 
 The standard integration protocol that SAP uses for extending SAP products is the Open Data Protocol (OData). OData is an ISO/IEC-approved OASIS standard that defines a set of best practices for building and consuming RESTful APIs. As OData is based on REST, it is fully optimized for both cloud and on-premises integrations. This is reason why SAP positions the use of OData above using traditional BAPI integrations with your SAP products.
 
-Another reason to use OData is that in addition to SAP Business Suite and SAP S/4 HANA being OData-enabled, cloud products like SAP SuccessFactors, SAP Ariba, SAP Concur, and SAP Hybris are also OData- enabled. This gives you a single integration experience between all the SAP products available.
+Another reason to use OData is that in addition to SAP Business Suite and SAP S/4HANA being OData-enabled, cloud products like SAP SuccessFactors, SAP Ariba, SAP Concur, and SAP Hybris are also OData- enabled. This gives you a single integration experience between all the SAP products available.
 
 For SAP Business Suite, SAP Gateway (also known as SAP NetWeaver) is used to publish services in OData. This is supported for both standard and custom (Z-) services in your SAP Business Suite stack.
 

@@ -12,9 +12,8 @@ fi
 
 if ([ $TRAVIS_BRANCH == "master" ] && [ $TRAVIS_PULL_REQUEST == "false" ])
 then
-  echo 'Disabling Algolia for now'
-  # gulp algolia
-  # echo 'Pushed to Algolia'
+  gulp algolia
+  echo 'Pushed to Algolia'
 else
   echo "Not pushed to Algolia, we're not on master and/or this is a pull request"
 fi

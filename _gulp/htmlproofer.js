@@ -230,7 +230,7 @@ const getLinkPaths = link => {
 const validateFiles = files => Promise.resolve(_.map(files, file => {
 
   const warningKey = 'warnings';
-  const errorKey = 'warnings'; // Return this back to 'errors'
+  const errorKey = 'errors';
 
   // Let's check all the links
   _.forEach(file.links, link => {

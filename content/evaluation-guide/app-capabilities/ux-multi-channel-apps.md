@@ -13,7 +13,7 @@ Users can build rich front-ends for multi-channel apps (for both web and mobile 
 
 Finally, in addition to many standard components, Mendix offers several options for extending the platform via the Mendix front-end and customizing the look and feel of your applications.
 
-{{% todo %}}[**Add video when available**]{{% /todo %}}
+{{% youtube WomZYwyydmQ %}}
 
 ## How Does Mendix Support Multi-Channel Applications?
 

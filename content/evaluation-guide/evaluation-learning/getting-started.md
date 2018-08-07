@@ -54,7 +54,7 @@ The short answer here is that you decide, because there are no limitations. You 
 
 Technically, an “app” is the complete application as it is set up and organized in the Mendix Platform. It can contain any combination of screens, database entities, processes, and functional components. You will determine the size of an app based on your use case and desired user experience, as well as the app design, model complexity, and maintenance considerations.
 
-It is important to note that the architecture of your app is very important. Speed and flexibility typically drop when an application becomes too big or complex. The Mendix [Application Quality Monitor (AQM)](../app-lifecycle/model-consistency#aqm) provides insight on the right granularity of apps and microservices.
+It is important to note that the architecture of your app is very important. Speed and flexibility typically drop when an application becomes too big or complex. The Mendix [Application Quality Monitor (AQM)](../app-lifecycle/quality-monitoring#quality-monitoring) provides insight on the right granularity of apps and microservices.
 
 ### 4.4 How Many Applications Can I Build and Deploy?
 

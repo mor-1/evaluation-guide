@@ -12,7 +12,7 @@ Before understanding how security is handled in a Mendix application, it is impo
 
 In a Mendix application, the UI layer is implemented in the Mendix Client as JavaScript libraries running in the browser. For hybrid mobile applications, the UI layer runs in a native Cordova container. The logic and data layers are implemented in the Mendix Runtime (the Mendix Runtime itself is developed in Java and runs on a Java virtual machine).
 
-{{% image_container width="500" %}}
+{{% image_container width="550" %}}
 ![](attachments/mendix-architecture.png)
 {{% /image_container %}}
 
@@ -30,7 +30,7 @@ The core interface of the Mendix Runtime (which is responsible for the execution
 
 Data security in Mendix is handled by defining the data access rules on your entities. Per entity, you can define who can see what data and who can create or delete data.
 
-{{% image_container width="450" %}}
+{{% image_container width="550" %}}
 ![](attachments/entity_access_rules.png)
 {{% /image_container %}}
 
@@ -44,7 +44,9 @@ The Mendix Runtime and the Mendix Client have out-of-the-box security measures t
 
 ## 4 Does My Mendix App Comply with the OWASP Top 10?
 
-The Mendix Runtime protects your application and data according to your model, wherein the Mendix Cloud handles security at the infrastructural level. The Mendix Runtime takes care of most known security threats (OWASP top 10) out of the box, as the functionality where most common security mistakes take place is abstracted away from developers. Mendix has compiled a [few best practices](https://docs.mendix.com/howtogeneral/bestpractices/best-practices-security-and-improvements-for-mendix-applications) to keep your Mendix application safe from attackers.
+The Mendix Runtime protects your application and data according to your model, wherein the Mendix Cloud handles security at the infrastructural level. The Mendix Runtime takes care of most known security threats (OWASP top 10) out of the box, as the functionality where most common security mistakes take place is abstracted away from developers. 
+
+For more information on keeping your Mendix application safe from attackers, see [Best Practices for Mendix Application Security](https://docs.mendix.com/howtogeneral/bestpractices/best-practices-security-and-improvements-for-mendix-applications) in the Mendix documentation.
 
 ## 5 How Does My Mendix App Support Multi-Tenancy?
 
@@ -52,9 +54,9 @@ Mendix offers out-of-the-box support for developing multi-tenant applications. M
 
 The tenant object is used to do the following:
 
-* Define a tenant-aware object model for the application. Tenant-level access to domain objects is configured using XPath definitions. This restricts access to those application object instances for the company to which the end-user belongs.
-* Define tenant-specific microflows and configure access rights to implement tenant-level application and process logic.
-* Apply tenant-specific styling of the UI by making the CSS dependent on the companies defined in the MxID.
+* Define a **tenant-aware object model** for the application – tenant-level access to domain objects is configured using XPath definitions, which restricts access to those application object instances for the company to which the end-user belongs
+* Define **tenant-specific microflows** and configure access rights to implement tenant-level application and process logic
+* Apply **tenant-specific styling** of the UI by making the CSS dependent on the companies defined in the MxID
 
 Tenants can be custom defined in the application as well by using identifiers like division, country, and site.
 
@@ -64,7 +66,7 @@ Mendix offers MxID (which is a user management and provisioning service) as part
 
 ## 7 How Are Permissions Assigned with My App?
 
-Apart from the company profile and settings, Mendix supports the definition of Company Admins who can assign permissions to users following a delegated administration concept. One or more administrators can be identified per tenant who, in turn, can perform administrative tasks in the tenant according to the permissions granted.
+Apart from the company profile and settings, Mendix supports the definition of Company Admins who can assign permissions to users following a delegated administration concept. One or more administrators can be identified per tenant who can, in turn, perform administrative tasks in the tenant according to the permissions granted.
 
 ## 8 How Are User Roles Assigned to Users in My App? {#user-roles-assigned}
 

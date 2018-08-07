@@ -20,7 +20,7 @@ By using the Mendix SDK, you can generate Java classes or SQL DDL statements fro
 
 ![](attachments/platform-openness.png)
 
-### 1.2 Exporting Your Data
+### 1.2 Exporting Your Data {#export-data}
 
 The data is the most valuable part of your application projects. You can always export your data, and there are different ways to do this. In the Mendix Cloud, you can download a backup of all the data in your app, including all the files that form the app. This means you can store the files somewhere else, or you can create a new database with your data. You can then convert the data to other databases or file formats.
 

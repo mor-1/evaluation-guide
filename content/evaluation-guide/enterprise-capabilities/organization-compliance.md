@@ -12,7 +12,7 @@ Mendix has implemented an information security management system (ISMS) accordin
 
 * Systematically evaluate our information security risks, taking into account the impact of threats and vulnerabilities
 * Design and implement a comprehensive suite of information security controls and other forms of risk treatment to address security risks
-* Have an overarching management process to ensure that information security controls meet our needs on an ongoing basis
+* Utilize an overarching management process to ensure that the information security controls meet our needs on an ongoing basis
 
 ## 2 Which Third-Party Security Certifications and Assurance Reports Does Mendix Have? {#security-certifications}
 
@@ -44,7 +44,9 @@ All Mendix employees are required to provide a government-certified background c
 
 ## 4 Who Is the Owner of Data in a Mendix App?
 
-The Mendix customer has ownership of the data and intellectual property of their Mendix applications as stated by Mendix master agreements and end-user agreements.
+The Mendix customer has ownership of the data and intellectual property of their Mendix applications, as stated by Mendix master agreements and end-user agreements.
+
+For more information, see [Exporting Your Data](vendor-lock-in#export-data) in *No Vendor Lock-In*.
 
 ## 5 Who Has Access to My Data?
 
@@ -62,4 +64,4 @@ After contract termination, all applicable application environments are securely
 
 Disaster recovery and business continuity is part of the Mendix security framework. To ensure that customer services can be resumed after a disaster, Mendix has developed a disaster recovery procedure. This procedure is tested on a quarterly basis. Additionally, Mendix offers disaster recovery services that include high availability across multiple availability zones, horizontal scaling of app environments, and auto-recovery in the event of an unexpected outage.
 
-For more information on the Mendix Cloud architecture, see [Architecture Principles](../enterprise-capabilities/architecture-principles).
+For more information on the Mendix Cloud architecture, see [Cloud Architecture](../enterprise-capabilities/architecture-cloud).

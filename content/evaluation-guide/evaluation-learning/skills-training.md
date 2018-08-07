@@ -26,6 +26,8 @@ These are the most common Mendix user personas we encounter:
 
 Mendix provides multiple learning paths to onboard these different type of developers. The section [What Are the Mendix Training Options?](#training-options) below explains how we tailor the Mendix learning experience to the type of user.
 
+And for more information on how Mendix empowers various types of developers, see the section [How Does Mendix Support Different Developer Profiles?](../app-lifecycle/app-development#developer-profiles) in *App Development*.
+
 ## 2 What Skills Do I Need to Learn Mendix? {#skills-needed}
 
 You do not need to have any software development skills to build apps with Mendix. The Mendix community consists of a wide variety of users, all with different educational backgrounds, work experience, and skills.

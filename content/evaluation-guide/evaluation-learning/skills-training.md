@@ -8,43 +8,27 @@ tags: [""]
 
 ## 1 What Types of Users Can Build Apps with Mendix?
 
-With Mendix, anyone with an idea can build an app. It does not matter whether you are a citizen developer, business analyst, or seasoned professional developer – Mendix provides a wealth of resources for you to get started on the platform right away.
+Mendix is designed so that, anyone with an idea can build an app. It does not matter whether you are a marketer, business analyst, or seasoned professional developer – Mendix provides a wealth of resources for you to get started on the platform right away so that you can leverage your experience in the most effective way.
 
 Mendix users have different characteristics and backgrounds. Although these are simplified views, analyzing these have helped us to create certain "user personas" that we use to best improve our features and training courses.
 
-These are some example Mendix user personas:
+These are the most common Mendix user personas we encounter:
 
 ![](attachments/dev-personas.png)
 
-* **Curious Cate** – 
-* **Solution Sam** – 
-* **Tech Tom** – 
-* **Hardcore Harry** – 
+* **Curious Cate** – Cate is an application consumer sitting in line-of-business departments like Finance, Marketing, HR, or Operations. She has experience using tools like Excel, Access, Salesforce, Workday, and others, but uses them in a manual way that impacts her productivity. Cate will use the Web Modeler to build productivity applications to streamline her work and the work of her team.
 
-Through all Mendix user profiles, it is possible to identify Mendix developers who are more business-oriented and those who are more technical oriented.
+* **Solution Sam** – Often called a Business Developer by Forrester, Sam is the go-to technologist and problem-solver on the team. While Sam does not have a technical degree (CS or programming), he is data literate and knows how to create sophisticated Excel models; query databases and systems like Salesforce, Hyperion, and SAP using SQL; and bring together disparate data to create dashboards using popular business intelligence tools like Tableau, PowerBI, and Qlik. Sam’s combination of business knowledge and tech savviness enables him to play a critical bridge-role in organizations. He understands the business needs (the *why* and *what*) and has the skill to assemble the relevant parts (the *how*) to solve problems. Sam will begin his Mendix journey with the Web Modeler, and then graduate to the Desktop Modeler as his projects grow more complex.
 
-Business-oriented Mendix developers have the following characteristics:
+* **Tech Tom** – Tom is a professional developer who wants his applications to drive business value; therefore, he cares more about the solution making an impact than the code it took to create it. Tom is a productive member of the development team and he takes advantage of opportunities to automate repetitive processes, making his life and the lives of his team members easier. Tom’s background may be in .NET or Java, but he is always on the lookout for the next skill to add to his toolbelt. Tom spends the bulk of his time using the Desktop Modeler, and he extends the Mendix Platform by building reusable components with Scala, Java, and JavaScript.
 
-* Graduated with a business degree
-* Passionate about making an impact and solving business problems by building applications
-* Trying to bridge the gap between business and IT
-* Team players who communicate well
-* Have an interest in technology
-* For example, citizen developers and business analysts
-
-More technical developers in the Mendix community have the following characteristics:
-
-* Often have a technical education
-* Love building applications
-* Want to build better applications
-* Focus on the more complex parts of app development, integrations, and extending Mendix apps with code
-* Do not want to waste time on meetings
+* **Hardcore Harry** – Harry is a craftsman of code who is skeptical about low-code platforms because he believes he can create better code faster than dragging and dropping at higher levels of abstraction. Harry has spent much of his career coding in Java, C#, Ruby, or PHP, and he may have experience with RAD tools of the past. Mendix gives Harry the opportunity to empower Tom, Sam, and Cate to create apps that connect to core systems through reusable extensions made from custom code. These consistent and governed pieces of logic available through a private repository free Harry to pursue more complex and strategic initiatives using microservices, component-based architectures, and continuous deployment pipelines.
 
 Mendix provides multiple learning paths to onboard these different type of developers. The section [What Are the Mendix Training Options?](#training-options) below explains how we tailor the Mendix learning experience to the type of user.
 
 ## 2 What Skills Do I Need to Learn Mendix? {#skills-needed}
 
-You do not need to have any software development skills to build apps with Mendix. The Mendix community consists of a wide variety of users, all with different educational backgrounds, work experience and skills.
+You do not need to have any software development skills to build apps with Mendix. The Mendix community consists of a wide variety of users, all with different educational backgrounds, work experience, and skills.
 
 That being said, you can use use available programming skills to extend an app with custom code, UX/UI skills to add custom app styling, and database skills will help you to implement performance optimization.
 

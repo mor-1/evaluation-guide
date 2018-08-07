@@ -42,7 +42,7 @@ For connections from the internet to your Mendix Cloud applications, we provide 
 
 Fine-grained access management for your Mendix Cloud environments is handled for each of your applications in the Developer Portal. Each team member can subscribe or unsubscribe to alerts, and the **Technical Contact** of an application can manage the various permissions of each team member per environment.
 
-The sections below describe the various App Team roles used in node settings.
+The sections below describe the various development team roles used in node settings.
 
 #### 1.5.1 What Team Role Manages Mendix Cloud Environment Access?
 

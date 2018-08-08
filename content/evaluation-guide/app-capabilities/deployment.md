@@ -35,7 +35,7 @@ Mendix supports all the major cloud providers:
 * SAP Cloud Platform 
 * Microsoft Azure
 * Amazon Web Services (AWS)
-* Redshift Openshift
+* Red Hat OpenShift
 * Google Cloud Platform
 
 In addition, Mendix offers formal partnerships with IBM, SAP, Microsoft, and AWS. For details, see [Which Cloud Providers Can I Use for Mendix?](cloud-providers#which-cloud).

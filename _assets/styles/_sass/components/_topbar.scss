@@ -33,9 +33,14 @@
     @include mq('sm', max ) {
       font-size: 24px;
     }
+
+    @include mq('xs', max ) {
+      font-size: 20px;
+    }
   }
 
   @include element('column') {
     max-height: $size-topbar-height;
+    overflow: hidden;
   }
 }

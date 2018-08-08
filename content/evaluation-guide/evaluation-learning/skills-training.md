@@ -38,7 +38,7 @@ That being said, you can use any available programming skills to extend an app w
 
 With Mendix, you can build your first application in 30 minutes. Right after you create your account, you will be guided into the platform to build your first app.
 
-To really ramp up your learning, you can follow the [Become a Rapid Developer Learning Path](https://gettingstarted.mendixcloud.com/link/path/31) online at your own pace, free of charge. There are 11 modules in this learning path, which take about an hour each to complete. So, you could complete all the modules in a day or two, and then start building applications straightaway.
+To really ramp up your learning, you can follow the [Become a Rapid Developer learning path](https://gettingstarted.mendixcloud.com/link/path/31) online at your own pace, free of charge. There are 11 modules in this learning path, which take about an hour each to complete. So, you could complete all the modules in 2–3 days, and then start building applications straightaway.
 
 There is no time limit to complete a Mendix learning path, which allows you to work through everything in your own time. The modules have individual learning units, each of which take a few minutes to complete. In addition, each module has a knowledge check to verify your understanding and highlight any areas you might need to review again.
 
@@ -58,7 +58,7 @@ Because the Mendix Platform provides extensive capabilities and does [monthly re
 
 To learn Mendix, you can use the free online courses provided by Mendix Academy, attend a regular classroom course, and participate in live webinars. The [Mendix Academy](https://gettingstarted.mendixcloud.com/) is fully integrated in the platform with an in-product [guided introduction tour](#git), and provides multiple learning paths to onboard all Mendix Platform users.
 
-The online Mendix learning paths have a modular setup, so you can start at any point, go through the content at your own pace, and follow or skip modules based on your needs. The [Academy learning paths](#lp-m) are adjusted for various experience levels, so you can choose between **Beginner**, **Rapid**, and **Advanced** paths. This online  content is available for free, and you do not even need to have a Mendix account to use it.
+The online Mendix learning paths have a modular setup, so you can start at any point, go through the content at your own pace, and follow or skip modules based on your needs. The [Academy learning paths](#lp-m) can be filtered according to **Your Role**, **Your Level**, and keyword **Tags** that reflect your interests and goals. This online  content is available for free, and you do not even need to have a Mendix account to use it.
 
 In addition, Mendix offers regular [classroom courses](#classroom) that align with the online learning paths.
 
@@ -78,7 +78,7 @@ The Mendix Academy provides the training options described below.
 
 When you want to pioneer a way forward, it's good to start with a path. The Mendix [learning paths](https://gettingstarted.mendixcloud.com/link/path) guide you through various learning modules that build your skills. These paths teach you everything from the fundamentals of how to build a Mendix app to how to improve your UX skills, from how to implement security in your apps to how to handle errors, and from how to configure app model logic to how to track your app's behavior.
 
-The learning paths take you from different starting points, levels, and roles to new stages of Mendix knowledge. Want to get started with the Mendix Platform in less than one hour? The [Start with a Blank App learning path](https://gettingstarted.mendixcloud.com/link/path/14) guides you through the Web Modeler and helps you to build your first app. Want to work on a Mendix development team? The [Become a Rapid Developer learning path](https://gettingstarted.mendixcloud.com/link/path/10) takes you through the key lessons for starting your Mendix development career.
+The learning paths take you from different starting points, levels, and roles to new stages of Mendix knowledge. Want to get started with the Mendix Platform in less than one hour? The [Start with a Blank App learning path](https://gettingstarted.mendixcloud.com/link/path/14) guides you through the Web Modeler and helps you to build your first app. Want to work on a Mendix development team? The [Become a Rapid Developer learning path](https://gettingstarted.mendixcloud.com/link/path/31) takes you through the key lessons for starting your Mendix development career.
 
 <video controls  src="attachments/learning-path.mp4">VIDEO</video>
 

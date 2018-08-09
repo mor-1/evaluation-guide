@@ -36,9 +36,7 @@ Mendix also leverages [PhoneGap Build](https://build.phonegap.com/) to build the
 
 From the Mendix Modeler, changes can be published to the preferred environment, and the mobile app will automatically load the latest changes. There is no need to go through the app store process, which makes updating apps efficient.
 
-{{% image_container align="center" %}} 
 <video controls  src="attachments/update-app.mp4">VIDEO</video>
-{{% /image_container %}}
 
 A new app store publication is needed when changes are required for the generated app. Some examples of this are changes in the app information, icon, splash screen, permissions, or the Cordova plugins that are used. These changes can be made in the Developer Portal, and with a single click, the new version of the app is built with the new settings.
 

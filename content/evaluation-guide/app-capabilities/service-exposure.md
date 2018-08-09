@@ -21,9 +21,7 @@ The Mendix REST publish functionality follows the approach used by OpenAPI in wh
 
 Alternatively, you can let Mendix handle all of this automatically. Just expose your entity from your domain model or drag an entity onto the resources section of a publish-REST document, and everything required will be generated for you, including security. All the security rules you define on your entities are automatically used by your REST API.
 
-{{% image_container width="550" %}}
-![Publish REST API for entity](attachments/rest_publish_entity_api.gif)
-{{% /image_container %}}
+<video controls src="attachments/rest_publish_entity_api.mp4">VIDEO</video>
 
 Whether you want full control of the API you implement or you just want to generate a back-end for your mobile application in a few minutes, Mendix can do it.
 

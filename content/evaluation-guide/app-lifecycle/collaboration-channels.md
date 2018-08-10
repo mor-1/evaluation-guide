@@ -48,7 +48,9 @@ Any developer, product manager, key end-user, or other stakeholder collaborating
 
 All the users involved in a Mendix application project receive relevant and timely email notifications for the Buzz and other updates of interest. This includes responses to submitted feedback items and status changes (for example, feedback items that have been completed).
 
+{{% image_container width="600" %}}
 ![](attachments/buzz-notification.png)
+{{% /image_container %}}
 
 ### 1.5 How Can Stakeholders Get Involved via the Central Buzz? {#buzz}
 

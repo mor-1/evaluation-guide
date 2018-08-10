@@ -12,7 +12,7 @@ Continuous integration and continuous delivery (CI/CD) is supported both in the 
 
 The Mendix Platform’s support for CI/CD facilitates the rapid development and deployment of applications, enabling organizations to ship multiple code revisions through test and acceptance and in to production environments daily (if required). This reduces risk and cost through automation and standardization, and it enables DevOps and microservices.
 
-{{% image_container width="600" %}}
+{{% image_container width="700" %}}
 
 ![](attachments/cicd-overview.png)
 
@@ -26,11 +26,7 @@ The tested deployment packages can then be promoted through acceptance and in to
 
 Through automation with the Mendix Platform APIs, each of these functions can be automated into a continuous integration pipeline.
 
-{{% image_container width="700" %}}
-
 ![](attachments/cicd-mapping.png)
-
-{{% /image_container %}}
 
 ## 2 How Can I Integrate Automated Tests of My Mendix Apps in My CI/CD Pipeline?
 
@@ -49,7 +45,5 @@ The following APIs are available to enable the external promotion of model revis
 * [Deployment API](https://docs.mendix.com/apidocs-mxsdk/apidocs/deploy-api) – allows you to manage application environments in the Mendix Cloud – you can retrieve the app status, start and stop apps, and deploy and transport new model versions to app environments
 
 {{% image_container width="700" %}}
-
 ![](attachments/cicd-jenkins-docker.png)
-
 {{% /image_container %}}

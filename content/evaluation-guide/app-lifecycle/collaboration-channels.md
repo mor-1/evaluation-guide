@@ -22,7 +22,7 @@ The Mendix Platform provides various channels of engagement for different stakeh
 
 The [Mendix Developer Portal](https://docs.mendix.com/developerportal/) is where stakeholders can collaborate and perform requirements management. This is usually the place where product managers, product owners, and similar roles specify user stories, review feedback, prioritize the backlog, and provide their input to the development team through the Buzz.
 
-{{% image_container width="500" %}}
+{{% image_container width="600" %}}
 ![](attachments/app-project-buzz.png)
 {{% /image_container %}}
 
@@ -48,7 +48,7 @@ Any developer, product manager, key end-user, or other stakeholder collaborating
 
 All the users involved in a Mendix application project receive relevant and timely email notifications for the Buzz and other updates of interest. This includes responses to submitted feedback items and status changes (for example, feedback items that have been completed).
 
-{{% image_container width="600" %}}
+{{% image_container width="500" %}}
 ![](attachments/buzz-notification.png)
 {{% /image_container %}}
 

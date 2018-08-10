@@ -54,7 +54,7 @@ Once the team understands the feedback, they can decide on whether or not to acc
 
 When the team decides to accept a feedback item, it becomes a user story in the backlog of their app project. The product owner can then prioritize these stories in the context of the broader product backlog. This enables the development team to focus on what is truly important and schedule these user stories as part of their sprint planning.
 
-{{% image_container width="450" %}}
+{{% image_container width="550" %}}
 ![](attachments/accept-feedback.png)
 {{% /image_container %}}
 

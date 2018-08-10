@@ -10,8 +10,6 @@ tags: [""]
 
 Mendix has a vibrant community of tens of thousands users and active contributors. On the [Mendix Community site](http://developers.mendix.com), the community comes together around all the tools and information they need. This is where you can find out about updates in the Mendix [Forum](http://forum.mendixcloud.com) and [App Store](http://appstore.home.mendix.com), [product releases](https://www.mendix.com/releases/), [webinars](http://learn.mendix.com/link/webinar), [meetups](https://www.meetup.com/Mendix-Netherlands), [new blog posts](https://developers.mendix.com/spotlight/), and new [Academy](http://learn.mendix.com) content.
 
-{{% todo %}}[**Add sections for Forum, webinars, meetups, new blog posts**]{{% /todo %}}
-
 <video controls  src="attachments/community-page-scroll.mp4">VIDEO</video>
 
 ## 2 How Do I Use the Mendix Community Profile? {#community-profile}

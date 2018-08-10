@@ -13,8 +13,6 @@ The Mendix Platform is open and extensible at every level, with an open model sp
 ![](attachments/platform-openness-web-chart-1.png)
 {{% /image_container %}}
 
-{{% todo %}}[**Add video when available**]{{% /todo %}}
-
 ## How Can I Avoid Being Locked in to the Mendix Platform?
 
 We recognize the need for our customers to be able to migrate away from the Mendix Platform. Should they wish to do so, we offer the following options:

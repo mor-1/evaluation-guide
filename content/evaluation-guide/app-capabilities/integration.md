@@ -13,8 +13,6 @@ Mendix supports connections to other apps and services through industry-standard
 ![](attachments/integration-overview.png)
 {{% /image_container %}}
 
-{{% todo %}}[**Add video when available**]{{% /todo %}}
-
 ## How Can I Integrate with Mendix?
 
 Connecting applications and services is simple with Mendix. There are several ways that we enable integration, ranging from consuming and exposing REST APIs, SOAP web services, and OData, to implementing connectors that use external SDKs to extend the native toolbox of the Mendix Platform with integrations such as Kafka event streams, Redis, MQTT, Slack, Twitter, and Salesforce. Many connectors already exist in the Mendix App Store, and they can be downloaded for immediate use inside your applications. Alternatively, you can build your own connectors with our Connector Kit. 

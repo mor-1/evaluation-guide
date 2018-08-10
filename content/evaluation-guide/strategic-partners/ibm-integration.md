@@ -22,8 +22,6 @@ For more details, see the section [How Can I Run Mendix on IBM Cloud?](../app-ca
 
 ## 2 Which IBM Services Can I Use Within Mendix? {#ibm-services}
 
-{{% todo %}}**[Feedback: missing CI-CD story, CF vs Kubernetes options]**{{% /todo %}}
-
 In principle, there are no limitations on consuming any service from IBM Cloud. However, together with IBM, Mendix has created some out-of-the box connectors that accelerate development on top of the services even more.
 
 These are the services available as connectors:

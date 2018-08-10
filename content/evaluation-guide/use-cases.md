@@ -94,7 +94,7 @@ Some examples of legacy migration apps built with Mendix include apps for transf
 
 While there are endless possibilities for what apps can be built with the platform, we do have some advice on what you should not build in Mendix.
 
-If your application can already be bought off the shelf and provides 100% of the requirements you need, then buying that off-the-shelf product is advised. Buying such a solution is often more cost-effective (based on best practices) and faster to implement. Typically, these off-the-shelf solutions are available for traditional system-of-record applications (which have a low rate of change), because the processes are well established, common to most organizations, and often subject to regulatory requirements. Mendix can extend any application or stay stand-alone.
+If your application can already be bought off the shelf and provides 100% of the requirements you need, then buying that off-the-shelf product is advised. Buying such a solution is often more cost-effective (based on best practices) and faster to implement. Typically, these off-the-shelf solutions are available for traditional system-of-record applications (which have a low rate of change), because the processes are well established, common to most organizations, and often subject to regulatory requirements.
 
 However, there are situations when the Mendix platform is a good fit even if the app to be built is a traditional system of record. For details on such use cases, refer to [What Types of Projects Are a Good Fit for Mendix?](#good-fit) above.
 

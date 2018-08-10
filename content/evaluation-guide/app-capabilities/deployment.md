@@ -13,8 +13,6 @@ Mendix applications run on the platform's cloud-native stateless runtime archite
 ![](attachments/deployment-overview.png)
 {{% /image_container %}}
 
-{{% todo %}}[**Add video when available**]{{% /todo %}}
-
 ## What Deployment Options Does Mendix Provide?
 
 Mendix applications run on a variety of deployment options, including public cloud, virtual private cloud, private cloud, hybrid cloud, and traditional (virtual) servers. 

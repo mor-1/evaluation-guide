@@ -18,8 +18,6 @@ Before deploying an application, a deployment package is required. Using the Men
 
 Once a revision of the application is created in the Deployment Package Repository, it can be staged into one of the available environments. The Mendix Developer Portal allows you to do this with just a few clicks.
 
-{{% todo %}}**[David: Add video showing staging/deployment.]**{{% /todo %}}
-
 Development teams can fully automate this process by leveraging the [Deploy API](https://docs.mendix.com/apidocs-mxsdk/apidocs/deploy-api) in their [CI/CD tools and services of choice](cicd#cicd-other-tools).
 
 All deployment activities on the Mendix Platform are logged and visible in the Developer Portal. You can review the **Activity ** log for each environment to identify the user who executed the operations on your app's environments.

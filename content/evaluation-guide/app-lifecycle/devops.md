@@ -11,8 +11,6 @@ Mendix provides DevOps tools out of the box for continuous integration and conti
 
 ![](attachments/devops-cycle.png)
 
-{{% todo %}}[**Add video when available**]{{% /todo %}}
-
 ## How Does Mendix Support DevOps?
 
 With one-click deployment and out-of-the-box monitoring, the Mendix Platform enables small cross-functional teams working iteratively to rapidly build, test, release, and operate enterprise applications in production environments. Teams can continuously release new functionality to the cloud for automated testing before using two-factor authentication to push updates to live production environments. All of this is carried out under the strict security controls and governance set out by your enterprise requirements.

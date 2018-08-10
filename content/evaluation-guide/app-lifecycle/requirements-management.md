@@ -50,8 +50,6 @@ Mendix provides fully featured requirements-and-feedback management out of the b
 
 If you are working on a large app project with many teams and you find that the Mendix Platform does not provide enough functionality out of the box to enable cross-team project and delivery management, you can integrate with third-party project management tools and services such as Jira and Trello. Mendix provides a [Stories API](https://docs.mendix.com/apidocs-mxsdk/apidocs/stories-api) and [Feedback API](https://docs.mendix.com/apidocs-mxsdk/apidocs/feedback-api) to connect these tools and services to the Mendix Platform.
 
-{{% todo %}}[**Add video with integration with Jira from legacy guide**]{{% /todo %}}
-
 Mendix recommends that teams starting with Mendix for the first time leverage all the functionality available as part of the platform in order to bring your first application into production in the least possible time, without dependencies on external tools and services. The next step can be to integrate with a third-party project management tool or service of choice, but this is not necessary for the successful delivery of your first app.
 
 ## 4 How Does Mendix Provide Insight into Sprint Status & Progress?

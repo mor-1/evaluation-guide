@@ -13,8 +13,6 @@ The data required to build new enterprise applications is derived from many sour
 ![](attachments/data-management-overview.png)
 {{% /image_container %}}
 
-{{% todo %}}[**Add video when available**]{{% /todo %}}
-
 ## What Databases Does Mendix Support?
 
 The Mendix Platform supports the following database servers for data being managed by the Mendix Runtime:

@@ -13,8 +13,6 @@ To help you get started  with building apps, Mendix provides a fully integrated 
 ![](attachments/learning-overview.png)
 {{% /image_container %}}
 
-{{% todo %}}[**Add video when available**]{{% /todo %}}
-
 ## What Skills Do I Need to Learn Mendix?
 
 All you need is a great idea as well as the time to get started – we can help you do the rest. Some basic understanding of databases, process modeling, and coding will help, but this is not necessary to get started.

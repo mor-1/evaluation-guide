@@ -11,8 +11,6 @@ Mendix takes the security of your applications, the Mendix Platform your apps ru
 
 ![](attachments/certificate1.png)
 
-{{% todo %}}[**Add video when available**]{{% /todo %}}
-
 ## How Is Information Security Organized in Mendix?
 
 Mendix has implemented an information security management system (ISMS) according to the ISO/IEC 27001 standard. The basis of this ISO standard is the development and implementation of a rigorous security program, which includes the development and implementation of an ISMS. 

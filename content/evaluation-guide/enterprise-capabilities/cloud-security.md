@@ -124,8 +124,6 @@ Mendix applies extensive logging of the whole application lifecycle. Logging is 
 
 The following sections go into more detail about the various levels of logging.
 
-{{% todo %}}[**Add screenshots of platform**]{{% /todo %}}
-
 ### 4.1 Can I Identify Who Defined Which Requirements?
 
 The Mendix Platform supports the definition of requirements in the form of user stories (via the Projects module of an app project). Mendix logs actions related to the user stories in order to trace who defined which requirements.

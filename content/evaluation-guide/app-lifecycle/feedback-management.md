@@ -38,7 +38,9 @@ When a feedback item is accepted, the associated user story has the same metadat
 
 The development team can review and triage feedback items in the **Feedback** section of the Developer Portal. They can then communicate with the submitter of the feedback item through messages on the Buzz thread under the feedback item.
 
+{{% image_container width="600" %}}
 ![](attachments/feedback-buzz.png)
+{{% /image_container %}}
 
 End-users can keep track of submitted feedback through the Developer Portal and post updates and replies to questions. As with all Buzz activity, email notifications are sent when someone replies to your post. Users can quickly open the Developer Portal from those emails, or just reply by email to post a response.
 
@@ -52,7 +54,7 @@ Once the team understands the feedback, they can decide on whether or not to acc
 
 When the team decides to accept a feedback item, it becomes a user story in the backlog of their app project. The product owner can then prioritize these stories in the context of the broader product backlog. This enables the development team to focus on what is truly important and schedule these user stories as part of their sprint planning.
 
-{{% image_container width="450" %}}
+{{% image_container width="550" %}}
 ![](attachments/accept-feedback.png)
 {{% /image_container %}}
 

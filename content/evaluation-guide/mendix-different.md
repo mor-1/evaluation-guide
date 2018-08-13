@@ -22,15 +22,15 @@ This section zooms in on the main aspects of why Mendix is different compared to
 
 Innovation happens when people with ideas and technology come together. The culture of innovation has lived within Mendix from the day the company was started, resulting in a long list of industry-first innovations. Here is just a glimpse of the innovations our customers have been able to leverage: 
 
-* Web-based applications, AJAX (2005)
-* Integrated app store (2010)
-* Full application lifecycle management support (2012)
-* One-click cloud deployment (2013)
-* Cloud Foundry support (2014)
-* Model sharing (2015)
-* Model API & SDK (2015)
-* Low-code and no-code collaboration via the Web Modeler (2017)
 * The first low-code platform to support AI-assisted development (2018)
+* Low-code and no-code collaboration via the Web Modeler (2017)
+* Model API & SDK (2015)
+* Model sharing (2015)
+* Cloud Foundry support (2014)
+* One-click cloud deployment (2013)
+* Full application lifecycle management support (2012)
+* Integrated app store (2010)
+* Web-based applications, AJAX (2005)
 
 We are committed to keeping the Mendix Platform up to date with the latest technologies so our customers can deliver differentiated applications in record time.
 

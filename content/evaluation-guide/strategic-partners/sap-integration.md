@@ -18,7 +18,7 @@ For more details, see [How to Use the SAP XSUAA Connector](https://docs.mendix.c
 
 In combination with the SAP Cloud Platform, Mendix delivers an integration with SAP back-end systems based on [SAP principle propagation](https://www.sap.com/developer/blueprints/finder/cloud-platform-principal-propagation.html) both on premises and for the cloud. By connecting your IDP to the SAP Cloud Platform, it becomes possible to log in to all of your Mendix applications running on the SAP Cloud Platform via a specific role using your own IDP with an SSO experience. The end-user (called "the principle") then gains access to your SAP back-end system based on a trust configuration using the Cloud Connector (as the principle user).
 
-For on-premises systems, this is realized by setting up a trust between the SAP Cloud Connector, SAP Cloud Platform, and SAP Cloud Connector with your SAP back-end system. For SAP Cloud Platform solutions, this is done using an SAM2-to-oAuth assertion using a destination service, as presented in this diagram:
+For on-premises systems, this is realized by setting up a trust between the SAP Cloud Connector, SAP Cloud Platform, and SAP Cloud Connector with your SAP back-end system. For SAP Cloud Platform solutions, this is done using an SAML2-to-oAuth assertion using a destination service, as presented in this diagram:
 
 {{% image_container width="600" %}}
 ![](attachments/dev_principal_prop_solution_diagram.png)

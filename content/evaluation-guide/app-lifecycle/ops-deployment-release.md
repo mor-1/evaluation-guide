@@ -28,7 +28,7 @@ All deployment activities on the Mendix Platform are logged and visible in the D
 
 ## 3 How Can I Trace Released Changes Back to Requirements?
 
-When you commit the changes you have made to your app model in the Mendix Modeler to the Team Server, you can [mark the relevant user story from your active sprint](version-control#cross-reference). This cross-referencing metadata is stored in the Mendix Team Server, so you can trace the changes back to the requirements later in the development process. For more details, see [Version Control](version-control).
+When you commit the changes you have made to your app model in the Mendix Modeler to the Team Server, you can [mark the relevant user story from your active Sprint](version-control#cross-reference). This cross-referencing metadata is stored in the Mendix Team Server, so you can trace the changes back to the requirements later in the development process. For more details, see [Version Control](version-control).
 
 ## 4 How Many Environments Can I Provision for My Apps?
 

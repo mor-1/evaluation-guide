@@ -10,7 +10,7 @@ tags: ["devops", "continuous integration", "deploying", "monitoring", "apm", "da
 
 The Mendix Platform enables development teams to embrace the DevOps way of working. This means that  a single team can both develop applications and maintain and support those apps in production while adhering to enterprise requirements (for compliancy or high availability, for example).
 
-With [one-click deployment](https://docs.mendix.com/developerportal/howto/deploying-to-the-cloud#5-deploying-a-free-app-to-the-mendix-cloud) and out-of-the-box monitoring for all apps, the Mendix Platform provides the basis for development teams to adopt DevOps practices. In addition, the Mendix [Platform APIs](https://apidocs.mendix.com/) enable development teams to complement the capabilities of the Mendix Platform with their third-party DevOps tools of choice.
+With [one-click deployment](https://docs.mendix.com/developerportal/howto/deploying-to-the-cloud#5-deploying-a-free-app-to-the-mendix-cloud) and out-of-the-box monitoring for all apps, the Mendix Platform provides the basis for development teams to adopt DevOps practices. In addition, the [Mendix Platform APIs](https://apidocs.mendix.com/) enable development teams to complement the capabilities of the Mendix Platform with their third-party DevOps tools of choice.
 
 Through the same APIs, teams can implement CI/CD pipelines on top of the Mendix Platform to fully automate their DevOps processes, including the build, test, and release steps. Documentation and reference implementations for the most commonly used tools are available (for details, see [Can I Use My Own DevOps Tools with Mendix?](#devops-tools) below).
 

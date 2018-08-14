@@ -22,7 +22,7 @@ Depending on the stage of development, application and integrity checks can be a
 
 An end-user of your application is assigned one or more **user roles** by an administrator or is provisioned automatically from a (third-party) identity and access management solution that can be integrated with the app. The user then gets all the access rights that these user roles represent.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/figure-3-user-roles.png)
 {{% /image_container %}}
 

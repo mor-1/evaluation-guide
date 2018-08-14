@@ -20,7 +20,7 @@ The [Mendix Developer Portal](https://docs.mendix.com/developerportal/) is the c
 
 User story refinement is made even easier through the specific Buzz message threads available under each story. You can post update messages, which are centrally visible for all team members and stakeholders in the Developer Portal Buzz.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/story-detail.png)
 {{% /image_container %}}
 
@@ -70,7 +70,7 @@ These reports give insight into progress on the implementation of business requi
 
 Developers can commit changes made to their application models with a reference to the user stories defined for those aplications in the Developer Portal. This enables development teams to go back and check for commits when they need to know why a change was made. Alternatively, developers can review the changes associated with a user story.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/story-revisions.png)
 {{% /image_container %}}
 

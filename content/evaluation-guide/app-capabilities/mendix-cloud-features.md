@@ -18,7 +18,7 @@ The sections below describe the features delivered by the Mendix Cloud.
 
 This feature allows you to deploy a Mendix application with a single click from both the Mendix Development Portal and the Modeler.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/mx-deployment-management.png)
 {{% /image_container %}}
 
@@ -36,7 +36,7 @@ For more details, see the section [How Does Mendix Cloud Support Backup & Recove
 
 The Mendix Cloud Portal provides all the necessary metrics for you to analyze the performance of your application. This is not limited to insights into memory or CPU utilization, as it is even possible to see metrics on the actual model execution. This allows you to respond more quickly to a specific performance bottleneck and optimize your application more easily.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/mx-metrics.png)
 {{% /image_container %}}
 

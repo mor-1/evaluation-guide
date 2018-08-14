@@ -60,7 +60,7 @@ The implication for testing is that you can be assured your testing is scoped to
 
 The Mendix Platform supports the implementation of unit tests. These tests are built using microflows and the [UnitTesting](https://appstore.home.mendix.com/link/app/390/) module available from the Mendix App Store. Tests are run either every time there is a new build of the application or at a scheduled time.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/DO_UnitTestingModule.png)
 {{% /image_container %}}
 

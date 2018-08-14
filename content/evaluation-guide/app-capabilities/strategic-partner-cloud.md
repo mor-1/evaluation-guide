@@ -30,7 +30,7 @@ You can use the Mendix Development Portal to control the app items below within 
 * Deployments
 * Status
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/sapdevportalintegration.png)
 {{% /image_container %}}
 
@@ -81,7 +81,7 @@ Within the standard application development experience of IBM, Mendix has been a
 
 This pipeline is integrated with the Mendix package repository. As soon as a new release package is created within the Mendix Platform, the pipeline is notified and the user can deploy the app with single click.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/mx-ibm-portal.png)
 {{% /image_container %}}
 

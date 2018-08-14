@@ -22,7 +22,7 @@ Development teams can fully automate this process by leveraging the [Deploy API]
 
 All deployment activities on the Mendix Platform are logged and visible in the Developer Portal. You can review the **Activity ** log for each environment to identify the user who executed the operations on your app's environments.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/activity-log.png)
 {{% /image_container %}}
 
@@ -34,7 +34,7 @@ When you commit the changes you have made to your app model in the Mendix Modele
 
 In the Mendix Cloud, environments are provisioned to allow for staged deployment. Typically, most application nodes come with either two environments (acceptance and production) or three environments (test, acceptance, and production). The Mendix Platform can accommodate additional environments to fit with your DevOps process.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/DO_StagingEnvironments.png)
 {{% /image_container %}}
 

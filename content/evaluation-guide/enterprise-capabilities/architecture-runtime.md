@@ -49,7 +49,7 @@ The Runtime consists of 2 main components:
 * **Clients** – web and mobile clients
 * **Runtime server** – a scalable runtime to handle server-side logic
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/mendix-architecture.png)
 {{% /image_container %}}
 
@@ -57,7 +57,7 @@ The Runtime consists of 2 main components:
 
 The Mendix Server architecture consists of multiple components to execute logic, manage data, communicate with the client, and implement security. The diagram below presents an overview of all of the components, which is followed by a short description of their responsibilities:
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/runtime-engine.png)
 {{% /image_container %}}
 
@@ -79,7 +79,7 @@ The runtime consists of the following components:
 
 The Mendix Client is responsible for the user interaction and consists of a UI widget layer, a logic layer to execute offline logic, and a data layer for offline storage. This diagram presents an overview:
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/client-architecture.png)
 {{% /image_container %}}
 

@@ -18,7 +18,7 @@ The Mendix Cloud is a PaaS-based cloud architecture using Cloud Foundry running 
 
 For each region, the Mendix Cloud architecture is set up as fully high-available (HA) and divided into multi-availability zones. This means there is a fully reliable offering for disaster recovery.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/figure-7-mendix-cloud-deployment-architecture.png)
 {{% /image_container %}}
 

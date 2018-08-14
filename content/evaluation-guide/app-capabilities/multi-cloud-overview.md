@@ -12,7 +12,7 @@ An application built with Mendix is based on a cloud-native design and conforms 
 
 Within this flexible model, Mendix supports a large variety of deployment options that allow you to run your Mendix application on a public, virtual private, private, or hybrid cloud or via a traditional (virtual) server.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/multi-cloud.png)
 {{% /image_container %}}
 
@@ -20,7 +20,7 @@ Within this flexible model, Mendix supports a large variety of deployment option
 
 If you want to acquire the best utilization rate for your infrastructure, to maintain optimal flexibility, and to convert your capital investment into operational expenses, the public cloud is the best choice. Mendix has support for most public cloud vendors, such as Mendix Cloud, IBM, SAP, Microsoft, AWS, and Google. For Mendix Cloud, SAP, and IBM, we deliver a fully integrated experience in which you can run your app with a single click via your cloud choice.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/multi-cloud-deploy.png)
 {{% /image_container %}}
 

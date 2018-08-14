@@ -10,7 +10,7 @@ tags: [""]
 
 In Mendix, you define your data needs using domain models. Every module in your app project can have its own domain model, which consists of one or more entities. These entities can be persistable or non-persistable, and they contain one or more objects.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/data-domain-model.png)
 {{% /image_container %}}
 

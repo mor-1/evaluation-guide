@@ -20,7 +20,7 @@ To ensure your fellow team members and even external users can easily use custom
 
 The following image is taken from an example used in [How to Build Microflow Actions Using the Mendix Connector Kit](https://docs.mendix.com/howto/extensibility/howto-connector-kit) in the Mendix documentation. As you can see, the **Join objects in list** custom action looks like any other microflow activity, with an icon and user-friendly parameters:
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/java_action_join_objects.png)
 {{% /image_container %}}
 

@@ -12,7 +12,7 @@ Before understanding how security is handled in a Mendix application, it is impo
 
 In a Mendix application, the UI layer is implemented in the Mendix Client as JavaScript libraries running in the browser. For hybrid mobile applications, the UI layer runs in a native Cordova container. The logic and data layers are implemented in the Mendix Runtime (the Mendix Runtime itself is developed in Java and runs on a Java virtual machine).
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/mendix-architecture.png)
 {{% /image_container %}}
 
@@ -30,7 +30,7 @@ The core interface of the Mendix Runtime (which is responsible for the execution
 
 Data security in Mendix is handled by defining the data access rules on your entities. Per entity, you can define who can see what data and who can create or delete data.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/entity_access_rules.png)
 {{% /image_container %}}
 

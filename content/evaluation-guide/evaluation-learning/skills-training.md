@@ -48,7 +48,7 @@ The option to register for a three-day [classroom course](https://gettingstarted
 
 Based on a survey conducted amongst developers about learning low code, we got these answers: 
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/survey.png)
 {{% /image_container %}}
 
@@ -96,7 +96,7 @@ There are Mendix offices in Boston, Rotterdam, and London where you can receive 
 
 Mendix provides a free series of live and interactive [webinars](https://gettingstarted.mendixcloud.com/link/webinar) that will help you to understand the inner-workings of the platform. The wide range of webinar topics include UX, Java, REST integration, QA, mobile, and performance. Whether you are just getting started with Mendix or you are a veteran developer, there’s something for everyone.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/webinars.png)
 {{% /image_container %}}
 
@@ -104,6 +104,6 @@ Mendix provides a free series of live and interactive [webinars](https://getting
 
 You can browse all the documentation for the Mendix Platform on the [Mendix documentation site](https://docs.mendix.com). Here you can find release notes, how to's, reference guide material, API and SDK documentation, and content on all the other components of the platform.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/docs.png)
 {{% /image_container %}}

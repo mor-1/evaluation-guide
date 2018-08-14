@@ -18,7 +18,7 @@ The Mendix community is always there to help you, 24-7. [The Mendix Forum](https
 
 With the Mendix Community Profile and the platform's gamification, community members are incentivized to answer questions. This results in 80% of all forum questions being answered within 30 minutes by a Mendix community member.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/forum.png)
 {{% /image_container %}}
 
@@ -57,7 +57,7 @@ For more details, see [Mendix Support](https://docs.mendix.com/howtogeneral/supp
 
 Customers may wish to outsource the development and management of their applications to a partner. All Mendix development partners have to go through a training and verification process before they can qualify themselves as a Mendix partner. This helps us ensure that our partners deliver a level of service that meets our expectations.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/partner-overview.png)
 {{% /image_container %}}
 

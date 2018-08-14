@@ -15,7 +15,7 @@ IBM—the leader in enterprise cloud—and Mendix have partnered to help enterpr
 
 With the strategic reseller partnership that exists between IBM and Mendix, it is possible to purchase Mendix directly from IBM combined with your IBM contract. This offers you a single point of contact for your complete solution.
 
-For details, see [What Type of Partnership Does Mendix Have with IBM?](ibm-overview#ibm-partnership-type).
+For details, see [What Type of Partnership Does Mendix Have with IBM?](ibm-partnership#ibm-partnership-type).
 
 ## How Can I Start Using Mendix on IBM Cloud?
 
@@ -31,5 +31,5 @@ For details, see [Which IBM Services Can I Use Within Mendix?](ibm-integration#i
 
 ## Read More
 
-* [IBM Partnership](ibm-overview)
+* [IBM Partnership](ibm-partnership)
 * [IBM Integration](ibm-integration)

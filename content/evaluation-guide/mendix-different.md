@@ -57,7 +57,9 @@ The Mendix Platform provides the Web Modeler and Desktop Modeler visual modeling
 
 The Mendix Platform supports the rapid delivery of applications through an integrated set of tools designed to cover the full application lifecycle. Starting with business requirements management, teams can create a backlog of user stories, Sprints, and release plans. Developers can then use the Web and Desktop Modelers to rapidly build these user stories, continuously merge models, ship revisions for automated testing, refactor feedback from the built-in feedback mechanism and collaboration features of the platform, and deploy using the Mendix Cloud Portal. The Mendix Application Test Suite (ATS) can be used for automated testing. Finally, end-users can use the app's built-in feedback mechanism.
 
+{{% image_container width="_" %}}
 ![](attachments/cycle-1.png)
+{{% /image_container %}}
 
 ## 6  What Does the Mendix Cloud-Native Architecture Look Like?
 

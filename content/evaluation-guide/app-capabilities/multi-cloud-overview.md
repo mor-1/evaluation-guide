@@ -72,7 +72,7 @@ For more information, see the section [Which Operating Systems Do the Mendix Mod
 
 Mendix multi-cloud is a deep integration with different cloud providers, which allows you to deploy your application with a single click from both the Mendix Modeler and the Developer Portal.
 
-{{% image_container width="650" %}}
+{{% image_container width="450" %}}
 ![](attachments/run.png)
 {{% /image_container %}}
 
@@ -100,7 +100,7 @@ In the scenario that you have access to an IaaS and you need to choose a PaaS la
 
 The Mendix Runtime can be directly installed on a server. Mendix provides a service manager for both Linux-based and Windows-based servers that controls the start, stop, and deployment of an application on the server.
 
-{{% image_container width="600" %}}
+{{% image_container width="650" %}}
 ![](attachments/mx-service-console.png)
 {{% /image_container %}}
 

@@ -22,7 +22,7 @@ We recognize the need for our customers to be able to migrate away from the Mend
 * **Mendix Platform SDK** – enables you to programmatically access your models to automate the migration of your apps to other platforms and 3GL
 * **App data stored inside an SQL database of your choice** — this is owned and accessible by you at all times
 
-For more information on this important topic, see the section [How Can I Avoid Being Locked in to the Mendix Platform?](vendor-lockin#avoid-lockin) in *No Vendor Lock-In*.
+For more information on this important topic, see the section [How Can I Avoid Being Locked in to the Mendix Platform?](no-vendor-lockin#avoid-lockin) in *No Vendor Lock-In*.
 
 ## Where Can I Use the Openness & Extensibility the Mendix Platform Offers?
 
@@ -38,6 +38,6 @@ Explore this topic more in [How Can I Extend the Functionality of the Mendix Pla
 
 ## Read More
 
-* [No Vendor Lock-In](vendor-lockin)
+* [No Vendor Lock-In](no-vendor-lockin)
 * [Openness (API & SDK)](openness-api-sdk)
 * [Extensibility](extensibility)

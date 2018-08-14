@@ -33,7 +33,7 @@ Read on in the [What Mendix Tools Are Available for Test Automation & Quality As
 
 * [DevOps Overview](devops-overview)
 * [CI/CD](cicd)
-* [App Builds](building-your-app)
+* [App Builds](app-build)
 * [Test Automation & Quality Assurance](test-automation-qa)
 * [Operations, Deployment, Release](ops-deployment-release)
 * [Monitoring Solutions & Alerts](monitoring-alerts)

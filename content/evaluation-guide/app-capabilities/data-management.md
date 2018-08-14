@@ -46,4 +46,4 @@ For details, see [How Does Mendix Ensure Data Security?](data-security#ensure-da
 * [Data Storage](data-storage)
 * [Data Integrity](data-integrity)
 * [Data Security](data-security)
-* [Data Querying & Management](querying-managing-data)
+* [Data Querying & Management](data-querying)

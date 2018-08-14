@@ -65,7 +65,7 @@ The Mendix Platform supports the rapid delivery of applications through an integ
 
 The Mendix Cloud-native architecture enables you to scale your applications and nodes while supporting the speed and flexibility required to deliver new functionality. Built-in Agile and DevOps features combine with our Cloud-Foundry (platform-as-a-service [PaaS]) support to allow small cross-functional teams to deploy highly-portable microservices-based apps in containers.
 
-The [Mendix Runtime](enterprise-capabilities/architecture-runtime) executes your applications within the context of a cloud-native architecture by using the [Twelve-Factor Principles](enterprise-capabilities/architecture-12-factor). The Mendix Cloud is a PaaS-based [cloud architecture](app-capabilities/mendix-cloud-overview#2-what-does-the-mendix-cloud-architecture-look-like) using Cloud Foundry running on top of AWS.
+The [Mendix Runtime](enterprise-capabilities/runtime-architecture) executes your applications within the context of a cloud-native architecture by using the [Twelve-Factor Principles](enterprise-capabilities/twelve-factor-architecture). The Mendix Cloud is a PaaS-based [cloud architecture](app-capabilities/mendix-cloud-overview#2-what-does-the-mendix-cloud-architecture-look-like) using Cloud Foundry running on top of AWS.
 
 ## 7 What Strategic Partnerships Has Mendix Developed?
 

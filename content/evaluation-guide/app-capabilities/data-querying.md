@@ -100,7 +100,7 @@ For more information, see [How to Migrate Your Mendix Database](https://docs.men
 
 ## 4 How Can I Use My Existing SQL Database in Mendix?
 
-You can use the Database Connector to run SQL actions on any database you are using. To learn more about using an existing SQL database in Mendix, see the section [How Does Mendix Support Direct Access to an External SQL Database?](importing-data#external-sql) in *External Data*.
+You can use the Database Connector to run SQL actions on any database you are using. To learn more about using an existing SQL database in Mendix, see the section [How Does Mendix Support Direct Access to an External SQL Database?](external-data#external-sql) in *External Data*.
 
 ## 5 What APIs Does Mendix Offer to Extend Data Storage Behavior?
 

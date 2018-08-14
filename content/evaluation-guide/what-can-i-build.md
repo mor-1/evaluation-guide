@@ -83,10 +83,10 @@ Most legacy-migration Mendix application projects are business-driven transforma
 
 These key platform features enable you to build legacy migration apps in Mendix:
 
-*  [High Availability](enterprise-capabilities/architecture-cloud#cloud-ha) is on offer for all app environments via the Mendix Cloud, ensuring zero downtime in the case of a Mendix Runtime outage.
+*  [High Availability](enterprise-capabilities/cloud-architecture#cloud-ha) is on offer for all app environments via the Mendix Cloud, ensuring zero downtime in the case of a Mendix Runtime outage.
 *  [The Mendix Application Quality Monitor](app-lifecycle/quality-monitoring#quality-monitoring) provides benchmarks in the maintainability of apps based on the ISO 25010 standard, which ensures you are not just building tomorrow's legacy.
 *  [Integration options](app-capabilities/integration-overview) are on offer via an extensive array of Mendix tools for integrating with other systems.
-*  [Data migration tooling](app-capabilities/querying-managing-data#migrate-from-existing)  is integrated in the Mendix Platform. For example, visual data mapping allows you to create the optimal data model for a new solution (with traceability back to a system of record), rather than simply recreating the legacy system's model.
+*  [Data migration tooling](app-capabilities/data-querying#migrate-from-existing)  is integrated in the Mendix Platform. For example, visual data mapping allows you to create the optimal data model for a new solution (with traceability back to a system of record), rather than simply recreating the legacy system's model.
 
 Some examples of legacy migration apps built with Mendix include apps for transferring legacy [Lotus Notes](https://www.mendix.com/blog/how-one-customer-is-using-mendix-for-legacy-application-migration/), Microsoft Access, SharePoint, or Excel applications to an updated system.
 

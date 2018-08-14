@@ -28,7 +28,7 @@ For more information, see [What Are the Key Architectural Principles Behind the 
 
 The Mendix Platform is an integrated application-platform-as-a-service (aPaaS) for the design, build, test, and deployment of enterprise applications. It comprises a sophisticated Developer Portal for app portfolio management, requirements gathering, monitoring, and operations, desktop and web modeling environments for rapid visual app development, and a comprehensive app store complete with hundreds of reusable components, connectors, and building blocks to accelerate development.
 
-Read on in [What Are the Key Components of the Mendix Platform and Their Architecture?](architecture-platform#key-components).
+Read on in [What Are the Key Components of the Mendix Platform and Their Architecture?](platform-architecture#key-components).
 
 ## How Does the Mendix Runtime Support 12-Factor Cloud-Native Apps?
 
@@ -47,12 +47,12 @@ While not strictly a set of architectural principles, the [Twelve-Factor App](ht
 * **Logs** – collect logs via CF Firehose
 * **Admin Processes** – ship the admin and app code in one model
 
-For details about how Mendix applies these factors, see [How Does the Mendix Runtime Support 12-Factor Cloud-Native Apps?](architecture-12-factor#12-factor).
+For details about how Mendix applies these factors, see [How Does the Mendix Runtime Support 12-Factor Cloud-Native Apps?](twelve-factor-architecture#12-factor).
 
 ## Read More
 
 * [Architecture Principles](architecture-principles)
-* [Platform Architecture](architecture-platform)
-* [Cloud Architecture](architecture-cloud)
-* [Runtime Architecture](architecture-runtime)
-* [Twelve-Factor Architecture](architecture-12-factor)
+* [Platform Architecture](platform-architecture)
+* [Cloud Architecture](cloud-architecture)
+* [Runtime Architecture](runtime-architecture)
+* [Twelve-Factor Architecture](twelve-factor-architecture)

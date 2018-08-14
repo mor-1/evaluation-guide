@@ -57,7 +57,7 @@ Mendix users commit the changes they make to their app models to the Mendix Team
 ![](attachments/deployment-package-repository.png)
 {{% /image_container %}}
 
-For details on how to version your app models, create deployable artifacts, and manage those artifacts, see [App Build Creation](building-your-app).
+For details on how to version your app models, create deployable artifacts, and manage those artifacts, see [App Build Creation](app-build).
 
 ### 2.4 Continuous Integration (CI/CD)
 

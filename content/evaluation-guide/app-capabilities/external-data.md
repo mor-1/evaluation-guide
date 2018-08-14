@@ -26,7 +26,7 @@ The [Database Connector](https://appstore.home.mendix.com/link/app/2888/) availa
 
 <video controls src="attachments/DM_DragSQLStatement.mp4">VIDEO</video>
 
-The Database Connector works well with relational databases that support JDBC. Some NoSQL databases also include for SQL through JDBC, so for these NoSQL databases, you may also be able to use the Database Connector. Most NoSQL databases also offer connectivity through REST APIs. If this is the case, you can use Mendix's extensive [REST support](consuming-services#consume-rest-api) to use data in these databases.
+The Database Connector works well with relational databases that support JDBC. Some NoSQL databases also include for SQL through JDBC, so for these NoSQL databases, you may also be able to use the Database Connector. Most NoSQL databases also offer connectivity through REST APIs. If this is the case, you can use Mendix's extensive [REST support](service-consumption#consume-rest-api) to use data in these databases.
 
 For Oracle databases, the [Oracle Connector (Beta)](https://appstore.home.mendix.com/link/app/8683/) is available in the Mendix App Store. This is a version of the Database Connector with support for Oracle-specific features like [PL/SQL](http://www.oracle.com/technetwork/database/features/plsql/index.html), [Ref Cursors](https://docs.oracle.com/cd/E17781_01/appdev.112/e18751/procedures_plsql.htm#TDPNG60040), and [user-defined SQL types](https://docs.oracle.com/database/121/ADOBJ/adobjmng.htm#ADOBJ7651). This module will be useful for many Oracle databases used in Oracle Forms and Oracle Designer applications, where most of the data access is handled by table APIs implemented using PL/SQL packages.
 

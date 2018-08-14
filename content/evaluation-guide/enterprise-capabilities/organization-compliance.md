@@ -48,7 +48,7 @@ All Mendix employees are required to provide a government-certified background c
 
 The Mendix customer has ownership of the data and intellectual property of their Mendix applications, as stated by Mendix master agreements and end-user agreements.
 
-For more information, see [Exporting Your Data](vendor-lockin#export-data) in *No Vendor Lock-In*.
+For more information, see [Exporting Your Data](no-vendor-lockin#export-data) in *No Vendor Lock-In*.
 
 ## 5 Who Has Access to My Data?
 
@@ -66,4 +66,4 @@ After contract termination, all applicable application environments are securely
 
 Disaster recovery and business continuity is part of the Mendix security framework. To ensure that customer services can be resumed after a disaster, Mendix has developed a disaster recovery procedure. This procedure is tested on a quarterly basis. Additionally, Mendix offers disaster recovery services that include high availability across multiple availability zones, horizontal scaling of app environments, and auto-recovery in the event of an unexpected outage.
 
-For more information on the Mendix Cloud architecture, see [Cloud Architecture](../enterprise-capabilities/architecture-cloud).
+For more information on the Mendix Cloud architecture, see [Cloud Architecture](../enterprise-capabilities/cloud-architecture).

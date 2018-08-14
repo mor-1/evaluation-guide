@@ -38,7 +38,7 @@ If your organization is complying with specific regulations and is not allowed t
 
 For more information, see the section [How Can I Run Mendix in a Private Cloud or On Premises?](#on-prem) below.
 
-## 2 How Do I Run and Deploy My Mendix Application? {#run-deploy}
+## 2 How Do I Run & Deploy My Mendix Application? {#run-deploy}
 
 In the Mendix Platform, the development and execution of your application are fully separated. After developing the app, you can choose where you want to run it. The sections below explore your deployment options.
 

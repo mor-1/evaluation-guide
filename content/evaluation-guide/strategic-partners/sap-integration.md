@@ -52,7 +52,7 @@ The Mendix SAP integration comes with a standard application template for SAP Fi
 
 Mendix applications can even be used within the SAP Fiori mobile launchpad, with the support of native mobile integrations.
 
-{{% image_container width="600" %}}
+{{% image_container width="700" %}}
 ![](attachments/sapfiorisupport.png)
 {{% /image_container %}}
 

@@ -10,7 +10,7 @@ tags: [""]
 
 Mendix can be found in IBM Cloud as starter kits within the standard development experience. There are Watson, web, and mobile options that show you how to start building an application integrating the specific services.
 
-{{% image_container width="600" %}}
+{{% image_container width="700" %}}
 ![](attachments/mendix-ibm-cloud-integration2.png)
 {{% /image_container %}}
 

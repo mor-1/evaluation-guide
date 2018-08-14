@@ -45,7 +45,7 @@ Alternatively, you can define your messages based on a separate XML schema docum
 
 When creating services or APIs in Mendix, you can easily support both XML and JSON. To do this, you can create a message definition document, and then define all the separate message simply by dragging and dropping entities into your message definition document. Here you exclude properties you do not want included in your JSON or XML, or provide different naming for external systems.
 
-{{% image_container width="500" %}}
+{{% image_container width="450" %}}
 ![](attachments/message-definitions-from-entities.png)
 {{% /image_container %}}
 

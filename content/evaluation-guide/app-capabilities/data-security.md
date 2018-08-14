@@ -10,7 +10,7 @@ tags: [""]
 
 Data security in Mendix is handled by defining the data access rules on your entities. Per entity, you can define who can see what data and who can create or delete data.
 
-{{% image_container width="500" %}}
+{{% image_container width="600" %}}
 ![](attachments/entity_access_rules.png)
 {{% /image_container %}}
 

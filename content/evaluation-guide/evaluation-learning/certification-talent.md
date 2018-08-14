@@ -46,7 +46,7 @@ If you are you looking to hire external resources, the [Mendix Job Board](https:
 
 Every member of the [Mendix community](https://developer.mendixcloud.com/link/community) is ranked by Mendix points, and their level of Mendix certification is also displayed on their Community Profile. These factors allow you to get a clear picture of a developer’s experience. On the [Mendix Community site](https://developer.mendixcloud.com/link/community), you can search for specific skills, locations, and experience. Each developer has a profile where you can see examples of work and references.
 
-{{% image_container width="600" %}}
+{{% image_container width="700" %}}
 ![](attachments/devs.png)
 {{% /image_container %}}
 

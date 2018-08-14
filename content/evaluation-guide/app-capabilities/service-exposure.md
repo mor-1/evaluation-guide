@@ -33,7 +33,7 @@ Looking at the implementation of your REST operations, you can use any microflow
 
 The following images use the optional `httpResponse` parameter, which you can use to override HTTP status code or status message. If required, you can also specify that you want access to the HTTP request, for example, to determine the value of the HTTP header values.
 
-{{% image_container width="600" %}}
+{{% image_container width="550" %}}
 ![](attachments/get-order-rest-example-mf.png)
 {{% /image_container %}}
 
@@ -69,7 +69,7 @@ To expose your Mendix data through OData, select **Expose as OData resource** fo
 
 Next, you are able to specify which attributes you want to expose. You can also specify who can access this data. Of course, all the entity access rules specified on your domain model entities still apply when retrieving data through OData.
 
-{{% image_container width="600" %}}
+{{% image_container width="650" %}}
 ![](attachments/odata-published-service.png)
 {{% /image_container %}}
 
@@ -83,7 +83,7 @@ Mendix provides a Java API to define [custom request handlers](https://www.mendi
 
 Every REST API you implement with Mendix will automatically include an OpenAPI document, describing all the resources and methods provided by your API. If you include documentation and example values in your message definition, these will also be included in your OpenAPI documentation. This will make it very easy for your users to start using your API.
 
-{{% image_container width="450" %}}
+{{% image_container width="600" %}}
 ![](attachments/swagger-documentation.png)
 {{% /image_container %}}
 

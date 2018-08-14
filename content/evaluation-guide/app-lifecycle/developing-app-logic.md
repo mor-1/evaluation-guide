@@ -30,7 +30,9 @@ Mendix is all about the collaboration between business and IT, and the visual na
 
 The Mendix Web Modeler has review capabilities built in, which business users can utilize to review specific microflows describing the business logic. While reviewing that logic, such users can inspect what the logic does in a familiar visual language. They can also add comments on the microflow to describe the changes required to meet business requirements. This results in a very short feedback loop, leading to better products and lower costs.
 
+{{% image_container width="600" %}}
 ![](attachments/buzz_comment.png)
+{{% /image_container %}}
 
 ## 3 How Do I Build Client-Side Logic?
 
@@ -54,7 +56,7 @@ A microflow is composed of the following element types:
 
 For more information, see [Microflows](https://docs.mendix.com/refguide/microflows) in the Mendix Reference Guide.
 
-{{% image_container width="450" %}}
+{{% image_container width="500" %}}
 ![](attachments/microflow.png)
 {{% /image_container %}}
 
@@ -75,7 +77,9 @@ For more details, see the following sections:
 
 Integration with a third-generation programming language (in this case, Java) is one of the key strengths of the Mendix model-driven development approach. This is particularly useful in those rare situations where you are unable to achieve your desired results using microflows alone, or where you have an existing investment in Java/Scala code and skills that you would like to leverage in your application models. The Mendix Desktop Modeler is integrated with Eclipse to support you in making code extensions to the models. The Mendix debugging facilities are fully integrated into Eclipse, providing you the same debugging capabilities with the referred Java code as any other part of the running application.
 
+{{% image_container width="700" %}}
 ![](attachments/eclipse.png)
+{{% /image_container %}}
 
 In essence, you are never limited by the reach of a specific DSL and can always resort to the use of custom Java functions. Custom Java functions can be called from within a model, and the output can be used directly. The interface of each action (which equals a Java function) is also defined within the model. The name, parameters, and return values are all declared in the Mendix Desktop Modeler. The Modeler generates a Java template class for each action, which is the hook where custom code can be added.
 

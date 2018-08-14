@@ -48,7 +48,7 @@ The option to register for a three-day [classroom course](https://gettingstarted
 
 Based on a survey conducted amongst developers about learning low code, we got these answers: 
 
-{{% image_container width="600" %}}
+{{% image_container width="700" %}}
 ![](attachments/survey.png)
 {{% /image_container %}}
 
@@ -104,6 +104,6 @@ Mendix provides a free series of live and interactive [webinars](https://getting
 
 You can browse all the documentation for the Mendix Platform on the [Mendix documentation site](https://docs.mendix.com). Here you can find release notes, how to's, reference guide material, API and SDK documentation, and content on all the other components of the platform.
 
-{{% image_container width="600" %}}
+{{% image_container width="700" %}}
 ![](attachments/docs.png)
 {{% /image_container %}}

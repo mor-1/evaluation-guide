@@ -75,7 +75,7 @@ IBM has selected Mendix has their standard low-code development platform on top 
 
 Within the standard application development experience of IBM, Mendix has been adopted with a few starter kits. These starter kits allow you to start a new web, mobile, or Watson-oriented application on IBM Cloud. When creating an app, a full toolchain is automatically created with a delivery pipeline to run your application on IBM Cloud Foundry or Kubernetes.
 
-{{% image_container width="600" %}}
+{{% image_container width="700" %}}
 ![](attachments/ibm-toolchain.png)
 {{% /image_container %}}
 
@@ -89,7 +89,7 @@ This pipeline is integrated with the Mendix package repository. As soon as a new
 
 When selecting an IBM starter kit (via either the IBM Cloud Portal or the Mendix Platform Portal), the choice for deployment type is presented during the app creation flow:
 
-{{% image_container width="500" %}}
+{{% image_container width="550" %}}
 ![](attachments/select-ibm-deployment-type.png)
 {{% /image_container %}}
 

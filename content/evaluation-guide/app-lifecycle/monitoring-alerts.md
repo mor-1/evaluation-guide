@@ -10,7 +10,9 @@ tags: ["monitoring", "alerts", "devops"]
 
 The Mendix Platform enables development teams to not only develop but also maintain and support applications with enterprise-grade non-functional requirements. Mendix provides a number of monitoring solutions out of the box in order to support development teams. Trend graphs and alerts are available for the full application stack, and live logging and debugging make it possible to quickly diagnose issues as they happen in production.
 
+{{% image_container width="600" %}}
 ![](attachments/mx-metrics.png)
+{{% /image_container %}}
 
 Development teams can use the [Mendix Application Performance Monitor (APM)](https://docs.mendix.com/apm/) to continuously monitor and measure performance of their apps in order to diagnose and resolve performance issues. Mendix APM provides point-in-time visibility, tracking, and diagnostics into Mendix Runtime performance at both a high level for user experience performance and at the lowest possible level for details on microflow activity performance. This allows you to continuously improve your app's performance and user experience.
 

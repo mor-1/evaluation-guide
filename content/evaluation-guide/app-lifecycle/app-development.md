@@ -44,7 +44,7 @@ Business analysts and business developers use the Web Modeler to do the followin
 
 In short, the Web Modeler empowers these users to solve problems collaboratively, creatively, and quickly, maximizing the productivity of your organization and gaining higher end-user adoption.
 
-{{% image_container width="500" %}}
+{{% image_container width="600" %}}
 ![](attachments/web-modeler-test.png)
 {{% /image_container %}}
 
@@ -56,7 +56,7 @@ The Desktop Modeler is designed for (experienced) business analysts and develope
 
 Within the Desktop Modeler, you are able to build extensions, add integration to underlying systems, manage branch lines, and manage security. What is more, the Desktop Modeler consists of an extensive set of domain-specific languages and associated modeling tools, including the domain model, page editor, microflow editor, integrations, debugger, and security configuration.
 
-{{% image_container width="600" %}}
+{{% image_container width="800" %}}
 ![](attachments/desktop-modeler.png)
 {{% /image_container %}}
 

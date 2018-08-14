@@ -31,13 +31,13 @@ Mendix provides an integrated development experience between the Team Server ver
 * End-users can provide **feedback straight from the user interface of the app**, and this feedback can be transferred into a user story. As a developer, you can directly go to the form mentioned in the metadata of the feedback and implement the requested change.
 * Team members can start **discussions** in the Web Modeler and the app project Buzz on implemented features (for example, on a dashboard page or business logic in a microflow).
 
-{{% image_container width="500" %}}
+{{% image_container width="600" %}}
 ![](attachments/SeeBuzzComment.png)
 {{% /image_container %}}
 
 From these discussions, new user stories can be created and implemented in the Desktop Modeler. When linking the model commits to the user story, the full feedback cycle is ready and also cross-referenced.
 	
-{{% image_container width="500" %}}
+{{% image_container width="600" %}}
 ![](attachments/SeeUserStoryFromBuzzCommentInDM.png)
 {{% /image_container %}}
 

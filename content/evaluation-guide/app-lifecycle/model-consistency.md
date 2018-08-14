@@ -35,7 +35,7 @@ The implication for testing is that these consistency checks can point out or pr
 
 All the application models in Mendix are managed in a single environment. Mendix checks the completeness and consistency of the entire model. This way, Mendix guarantees the model does not contain technical inconsistencies once deployed. In fact, the system will not allow deployment of the model until inconsistencies are resolved.
 
-{{% image_container width="600" %}}
+{{% image_container width="650" %}}
 
 ![](attachments/error-list.png)
 

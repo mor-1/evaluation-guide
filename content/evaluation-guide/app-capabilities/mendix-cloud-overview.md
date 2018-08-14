@@ -18,7 +18,7 @@ The Mendix Cloud is a PaaS-based cloud architecture using Cloud Foundry running 
 
 For each region, the Mendix Cloud architecture is set up as fully high-available (HA) and divided into multi-availability zones. This means there is a fully reliable offering for disaster recovery.
 
-{{% image_container width="600" %}}
+{{% image_container width="650" %}}
 ![](attachments/figure-7-mendix-cloud-deployment-architecture.png)
 {{% /image_container %}}
 
@@ -54,7 +54,7 @@ The Mendix Runtime supports out-of-the-box horizontal scaling. This allows you t
 
 For the database, a fallback option needs to be purchased per application where HA is desired. The fallback add-on will enable the Multi-AZ option that AWS RDS offers. When scaling to two or more runtime instances with the fallback option enabled, Mendix applications can be made highly available.
 
-{{% image_container width="400" %}}
+{{% image_container width="500" %}}
 ![](attachments/mx-ha.png)
 {{% /image_container %}}
 

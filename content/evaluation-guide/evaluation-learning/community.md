@@ -22,7 +22,7 @@ The [Mendix Community Profile](https://developer.mendixcloud.com/link/community)
 
 With the goal of gaining different levels, points, and badges, Mendix incentivizes the community to add App Store content, answer Forum questions, and stay on the top of the [Mendix leaderboards](https://developer.mendixcloud.com/link/leaderboards).
 
-{{% image_container width="600" %}}
+{{% image_container width="650" %}}
 ![](attachments/leaderboards.png)
 {{% /image_container %}}
 

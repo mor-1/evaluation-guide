@@ -33,7 +33,7 @@ For more information, see [How Does Mendix Support Multi-User Development?](vers
 
 * [App Development](app-development)
 * [User Interfaces](user-interfaces)
-* [Logic](developing-app-logic)
+* [Logic](logic)
 * [Debugging Facilities](debugging)
 * [Version Control & Multi-User Development](version-control)
 * [Model Consistency](model-consistency)

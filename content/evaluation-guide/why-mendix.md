@@ -52,11 +52,11 @@ With Mendix, MDD  is visual from start till finish. This helps to make sure the 
 
 ## 5 What Development Process Bridges the Gap Between Business and IT?
 
-Mendix has always realized that you need more than technology to bridge the gap between business and IT. An iterative and agile process is required that allows key users and stakeholders to be involved at every step, allowing for fast experimentation and on-the-spot feedback. 
+Mendix has always realized that you need more than technology to bridge the gap between business and IT. An iterative and Agile process is required that allows key users and stakeholders to be involved at every step, allowing for fast experimentation and on-the-spot feedback. 
 
 ![](attachments/Mendix_RAD_process.png)
 
-While this process can be applied to any software development project, the unique combination of fast and visual MDD with an iterative agile process speeds up the development hugely. At the same time, it ensures the customer will be happy with the result, removing a lot of frustration and setting the customer up for success.
+While this process can be applied to any software development project, the unique combination of fast and visual MDD with an iterative Agile process speeds up the development hugely. At the same time, it ensures the customer will be happy with the result, removing a lot of frustration and setting the customer up for success.
 
 And thus Mendix came into creation.
 

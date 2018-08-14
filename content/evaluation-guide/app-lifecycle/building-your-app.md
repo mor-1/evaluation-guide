@@ -8,7 +8,7 @@ tags: ["version control", "branching", "consistency", "monitoring"]
 
 ## 1 How Do I Create a Build for My App? {#build-my-app}
 
-Mendix applications are easily built from their models, as the models are stored under version control in the Mendix Team Server on the platform. There are two ways to build a Mendix deployment archive for an app.
+Mendix applications are easily built from their models, as the models are stored under version control in the Mendix Team Server on the platform. There are two ways to build a Mendix Deployment Archive for an app.
 
 With the Mendix Desktop Modeler, you can create a deployment package by simply selecting the option from the menu, and a fully functional deployment package is created on your disk.
 

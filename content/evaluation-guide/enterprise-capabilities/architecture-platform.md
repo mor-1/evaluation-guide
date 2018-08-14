@@ -30,7 +30,7 @@ The sections below go into more detail about the following main modules and serv
 
 The Mendix Developer Portal is a collaborative environment for the design, development, and deployment of apps. This web-based portal comes with online social collaboration features (via the **Buzz**), a notification service, and a directory of active members in your company who could be invited for participation in app projects as well as for social collaboration.
 
-The Developer Portal is where you do most of your requirements management and tracking according to the Scrum methodology. You can define sprints and stories, follow the progress, and see the velocity for your project. The is hosted on the Mendix public cloud running on AWS.
+The Developer Portal is where you do most of your requirements management and tracking according to the Scrum methodology. You can define Sprints and stories, follow the progress, and see the velocity for your project. The is hosted on the Mendix public cloud running on AWS.
 
 ### 2.2 What Are the Mendix Modelers? {#modelers}
 

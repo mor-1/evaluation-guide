@@ -32,7 +32,7 @@ For every submitted feedback item, the Mendix Platform automatically collects th
 * The application-level user role the user had 
 * The browser the user was using and the resolution of their screen
 
-When a feedback item is accepted, the associated user story has the same metadata associated to it. When the story is scheduled in the current sprint, it becomes visible in the Desktop Modeler. From there, developers can click a link to open the page that was visible when the feedback item was submitted.
+When a feedback item is accepted, the associated user story has the same metadata associated to it. When the story is scheduled in the current Sprint, it becomes visible in the Desktop Modeler. From there, developers can click a link to open the page that was visible when the feedback item was submitted.
 
 ## 3 How Can Development Teams Communicate with Users About Submitted Feedback?
 
@@ -52,7 +52,7 @@ End-users can keep track of submitted feedback through the Developer Portal and 
 
 Once the team understands the feedback, they can decide on whether or not to accept it. This is an important step in the feedback management process, because it allows the team to immediately close feedback items (meaning, to get rid of duplicate items and close items that have been resolved) so that they do not pollute the backlog with low-priority items.
 
-When the team decides to accept a feedback item, it becomes a user story in the backlog of their app project. The product owner can then prioritize these stories in the context of the broader product backlog. This enables the development team to focus on what is truly important and schedule these user stories as part of their sprint planning.
+When the team decides to accept a feedback item, it becomes a user story in the backlog of their app project. The product owner can then prioritize these stories in the context of the broader product backlog. This enables the development team to focus on what is truly important and schedule these user stories as part of their Sprint planning.
 
 {{% image_container width="550" %}}
 ![](attachments/accept-feedback.png)

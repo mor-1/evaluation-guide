@@ -34,7 +34,7 @@ This integrated experience enables engaging stakeholders in the development proc
 
 ## 2 How Can I Manage My Team's Backlog? {#backlog}
 
-In the Mendix Developer Portal, each development team can find their user story backlog in the project space for their app. In this space, the team can review user stories, prioritize them, and schedule them for sprints.
+In the Mendix Developer Portal, each development team can find their user story backlog in the project space for their app. In this space, the team can review user stories, prioritize them, and schedule them for Sprints.
 
 On the [Stories](https://docs.mendix.com/developerportal/collaborate/stories) page in the Developer Portal, users can easily schedule user stories by dragging them from the backlog into a Sprint. Stories can be prioritized within the Sprint by dragging them into the correct spot in the story list.
 

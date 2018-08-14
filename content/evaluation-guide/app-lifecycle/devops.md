@@ -7,7 +7,7 @@ bg: "devops"
 tags: ["devops", "continuous integration", "deploying", "monitoring", "apm", "datadog", "new relic", "appdynamics"]
 ---
 
-Mendix provides DevOps tools out of the box for continuous integration and continuous delivery (CI/CD), test automation, and monitoring (among other services) so that your development team can embrace the DevOps way of working. Your team can rapidly build, test, release, and maintain applications in production environments more autonomously with Mendix while ensuring compliance with your enterprise requirements. They can also use the Platform APIs to support direct integration with your existing CI/CD pipeline.
+Mendix provides DevOps tools out of the box for continuous integration and continuous delivery (CI/CD), test automation, and monitoring (among other services) so that your development team can embrace the DevOps way of working. Your team can rapidly build, test, release, and maintain applications in production environments more autonomously with Mendix while ensuring compliance with your enterprise requirements. They can also use the Mendix Platform APIs to support direct integration with your existing CI/CD pipeline.
 
 ![](attachments/devops-cycle.png)
 

@@ -21,7 +21,7 @@ Read on in [Why Is Requirements Management Integrated in Mendix?](requirements-o
 
 ## How Does Mendix Support Requirements Management?
 
-Mendix supports requirements management through integrated, simple, and intuitive tools for story definition, backlog management, sprint and release planning, and velocity mapping. These tools enable all stakeholders to curate a backlog of user stories into sprint plans for development. The Mendix Platform APIs provide integration hooks to draw requirements from third-party tools to integrate with your existing requirements planning software. 
+Mendix supports requirements management through integrated, simple, and intuitive tools for story definition, backlog management, Sprint and release planning, and velocity mapping. These tools enable all stakeholders to curate a backlog of user stories into Sprint plans for development. The Mendix Platform APIs provide integration hooks to draw requirements from third-party tools to integrate with your existing requirements planning software. 
 
 See [How Does Mendix Support Requirements Management?](requirements-management#requirements-management) for more details.
 

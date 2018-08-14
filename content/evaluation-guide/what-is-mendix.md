@@ -31,7 +31,7 @@ This section explains all the components of the Mendix Platform that enable you 
 
 ### 2.1 Ideation & Requirements Management
 
-The first step of the application lifecycle management process is ideation. The Mendix Developer Portal enables a new approach to solving problems and facilitates the [requirements management](app-lifecycle/requirements-management) of your app development project. The Developer Portal provides capabilities such as sprint and user story management as well as integrated feedback management via embedded widgets that empower end-users to provide feedback directly within an application. This closed feedback loop enables the development team to quickly resolve queries from the business, facilitating rapid iteration.
+The first step of the application lifecycle management process is ideation. The Mendix Developer Portal enables a new approach to solving problems and facilitates the [requirements management](app-lifecycle/requirements-management) of your app development project. The Developer Portal provides capabilities such as Sprint and user story management as well as integrated feedback management via embedded widgets that empower end-users to provide feedback directly within an application. This closed feedback loop enables the development team to quickly resolve queries from the business, facilitating rapid iteration.
 
 The value of collaboration is strengthened through the Mendix Platform’s support for Agile requirements management. Learn about the Agile tools built into Mendix that will help you manage your projects and teams effectively from day one in the video below.
 
@@ -43,7 +43,7 @@ The next step is to develop your application and convert ideas into apps. Mendix
 
 * **Business Analysts & Business Developers** can directly use the Mendix Web Modeler to build, review, and collaborate on an app.
 * **Developers** with a technical programming background can use the Mendix Desktop Modeler along with Java and JavaScript to build and extend an app.
-* **Product Owners & Scrum Masters** can use the Mendix Developer Portal to govern user requirements, end-user feedback, and sprint backlogs.
+* **Product Owners & Scrum Masters** can use the Mendix Developer Portal to govern user requirements, end-user feedback, and Sprint backlogs.
 * **End-users** involved in running acceptance tests can use the app in combination with the Mendix Feedback Widget. This feedback is directly connected to the Mendix Developer Portal, so the Product Owner can review and validate the user feedback.
 
 With Mendix, development is visual from start till finish, which ensures that the customer is engaged and requirements are aligned throughout the development cycle. 

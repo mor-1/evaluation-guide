@@ -25,7 +25,7 @@ For more information, see [How Does Mendix Support Multi-Channel Applications?](
 
 ## How Do Mendix Mobile Apps Work?
 
-With Mendix, users can develop, deploy, test, and manage mobile apps from a single integrated visual development environment that uses the popular [Cordova](https://cordova.apache.org/) framework to provide access to native mobile device features. Mobile applications can operate in an online or offline mode, storing data locally and synchronizing with the Mendix server, which provides a complete mBaaS.
+With Mendix, users can develop, deploy, test, and manage mobile apps from a single integrated visual development environment that uses the popular [Cordova](https://cordova.apache.org/) framework to provide access to native mobile device features. Mobile applications can operate in an online or offline mode, storing data locally and synchronizing with the Mendix Server, which provides a complete mBaaS.
 
 The Mendix mBaaS provides over-the-air updates that remove the need to redeploy applications to the app stores in order to deploy new or updated functionality.
 

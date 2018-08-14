@@ -18,7 +18,7 @@ Java actions are often used to integrate with external systems (hence the term "
 
 To ensure your fellow team members and even external users can easily use custom Java actions, they are completely integrated into the microflow editor experience in the Mendix Desktop Modeler. Other Mendix developers will not see the difference between a standard microflow activity and a custom Java action.
 
-The following image is taken from an example discussed in [How to Build Microflow Actions Using the Mendix Connector Kit](https://docs.mendix.com/howto/extensibility/howto-connector-kit) in the Mendix documentation. As you can see, the **Join objects in list** custom action looks like any other microflow activity, with an icon and user-friendly parameters:
+The following image is taken from an example used in [How to Build Microflow Actions Using the Mendix Connector Kit](https://docs.mendix.com/howto/extensibility/howto-connector-kit) in the Mendix documentation. As you can see, the **Join objects in list** custom action looks like any other microflow activity, with an icon and user-friendly parameters:
 
 {{% image_container width="550" %}}
 ![](attachments/java_action_join_objects.png)

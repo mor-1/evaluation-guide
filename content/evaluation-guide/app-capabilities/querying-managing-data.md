@@ -104,7 +104,7 @@ You can use the Database Connector to run SQL actions on any database you are us
 
 ## 5 What APIs Does Mendix Offer to Extend Data Storage Behavior?
 
-The Mendix runtime provides Java APIs that enable extending the data storage behavior. Mendix ensures that anybody on your team can use these extensions by enabling you to provide them through normal microflow activities. For more info on this extensibility feature of Mendix, see the section [What Kind of APIs Does Mendix Expose?](../enterprise-capabilities/openness-api-sdk#apis) in *Openness (API & SDK)*.
+The Mendix Runtime provides Java APIs that enable extending the data storage behavior. Mendix ensures that anybody on your team can use these extensions by enabling you to provide them through normal microflow activities. For more info on this extensibility feature of Mendix, see the section [What Kind of APIs Does Mendix Expose?](../enterprise-capabilities/openness-api-sdk#apis) in *Openness (API & SDK)*.
 
 Regarding data storage extensibility, the main Java APIs provide the following functionality:
 

@@ -1,6 +1,6 @@
 ---
 title: "The Mendix Difference"
-parent: "introduction"
+parent: "welcome"
 bg: "mendix"
 menu_order: 60
 tags: [""]

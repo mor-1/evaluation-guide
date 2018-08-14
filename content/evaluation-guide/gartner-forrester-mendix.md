@@ -1,6 +1,6 @@
 ---
 title: "Gartner & Forrester Views"
-parent: "introduction"
+parent: "welcome"
 menu_order: 70
 bg: "mendix"
 tags: [""]

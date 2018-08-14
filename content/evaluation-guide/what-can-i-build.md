@@ -1,6 +1,6 @@
 ---
 title: "What Can I Build?"
-parent: "introduction"
+parent: "welcome"
 bg: "mendix"
 menu_order: 50
 tags: [""]

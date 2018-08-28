@@ -54,7 +54,7 @@ If you are looking for a Mendix partner company to help you with the implementat
 
 ## 3 How Does the Mendix University Program Work?
 
-Mendix works with many universities and higher education institutions to enable students to learn how to develop mobile and web applications quickly. The course curriculum is designed to give students a well-rounded knowledge of both the Mendix Platform and Agile project management using the Scrum framework. The curriculum allows students to receive hands-on experience with the process of building and deploying working applications.
+Mendix works with many universities and higher education institutions to enable students to learn how to develop mobile and web applications quickly. The course curriculum is designed to give students a well-rounded knowledge of both the Mendix Platform and Agile requirements management using the Scrum framework. The curriculum allows students to receive hands-on experience with the process of building and deploying working applications.
 
 When professors choose to use the Mendix Platform in their classrooms, each student receives a free license for the platform through the [Mendix University Program](https://www.mendix.com/university-program/). Students can build as many applications as they want and Mendix will host the apps, so students do not need to pay for additional cloud environments. There is also no requirement for students to develop, maintain, or integrate with an external database, because the database is built into Mendix.
 

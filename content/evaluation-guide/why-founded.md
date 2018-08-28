@@ -1,6 +1,6 @@
 ---
 title: "Why Was Mendix Founded?"
-parent: "introduction"
+parent: "welcome"
 bg: "mendix"
 menu_order: 10
 tags: [""]

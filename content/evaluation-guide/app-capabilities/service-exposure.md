@@ -25,7 +25,7 @@ Alternatively, you can let Mendix handle all of this automatically. Just expose 
 
 Whether you want full control of the API you implement or you just want to generate a back-end for your mobile application in a few minutes, Mendix can do it.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/rest-publish-post-example.png)
 {{% /image_container %}}
 
@@ -57,7 +57,7 @@ This ensures that the contract with the outside world is stable, while you can s
 
 ## 3 How Can I Publish an OData Service?
 
-Mendix currently provides OData in the Mendix Modeler as an integration facility for a specific use case, which is providing Mendix app data for analytics. Next to this, Mendix also provides an SAP integration based on OData, but this is also based on Mendix Connector Kit technology, as described in the section [How Can I Import & Export Fixed-Length & Delimited Files?](importing-data#fixed-length) of *External Data*.
+Mendix currently provides OData in the Mendix Modeler as an integration facility for a specific use case, which is providing Mendix app data for analytics. Next to this, Mendix also provides an SAP integration based on OData, but this is also based on Mendix Connector Kit technology, as described in the section [How Can I Import & Export Fixed-Length & Delimited Files?](external-data#fixed-length) of *External Data*.
 
 OData provides an interface similar to what you may expect from a database. It has insert, select, update, and delete functionality available. OData achieves this by standardizing a data language on top of REST. The benefit of this is that all client tools understand up front how to work with the data you expose.
 
@@ -69,7 +69,7 @@ To expose your Mendix data through OData, select **Expose as OData resource** fo
 
 Next, you are able to specify which attributes you want to expose. You can also specify who can access this data. Of course, all the entity access rules specified on your domain model entities still apply when retrieving data through OData.
 
-{{% image_container width="550" %}}
+{{% image_container width="650" %}}
 ![](attachments/odata-published-service.png)
 {{% /image_container %}}
 
@@ -83,7 +83,7 @@ Mendix provides a Java API to define [custom request handlers](https://www.mendi
 
 Every REST API you implement with Mendix will automatically include an OpenAPI document, describing all the resources and methods provided by your API. If you include documentation and example values in your message definition, these will also be included in your OpenAPI documentation. This will make it very easy for your users to start using your API.
 
-{{% image_container width="450" %}}
+{{% image_container width="600" %}}
 ![](attachments/swagger-documentation.png)
 {{% /image_container %}}
 

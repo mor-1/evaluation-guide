@@ -1,6 +1,6 @@
 ---
 title: "Development Process"
-parent: "introduction"
+parent: "welcome"
 bg: "mendix"
 menu_order: 40
 tags: [""]

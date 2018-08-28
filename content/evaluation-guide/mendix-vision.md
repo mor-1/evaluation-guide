@@ -1,6 +1,6 @@
 ---
 title: "The Mendix Vision"
-parent: "introduction"
+parent: "welcome"
 menu_order: 20
 bg: "mendix"
 tags: [""]

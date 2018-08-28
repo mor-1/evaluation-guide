@@ -22,7 +22,7 @@ Depending on the stage of development, application and integrity checks can be a
 
 An end-user of your application is assigned one or more **user roles** by an administrator or is provisioned automatically from a (third-party) identity and access management solution that can be integrated with the app. The user then gets all the access rights that these user roles represent.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/figure-3-user-roles.png)
 {{% /image_container %}}
 
@@ -80,7 +80,9 @@ Microflows are used to visually define business and process logic. Microflow acc
 
 Microflow access is managed within a matrix of microflows and module roles. For each combination, the user can indicate whether or not the module role has access to the microflow.
 
-![Modular security settings for Microflows](attachments/figure-5-modular-security-for-microflows.png)
+{{% image_container width="600" %}}
+![](attachments/figure-5-modular-security-for-microflows.png)
+{{% /image_container %}}
 
 This information can also be edited within a microflow using the **Allowed roles** property.
 
@@ -88,7 +90,9 @@ This information can also be edited within a microflow using the **Allowed roles
 
 For each module role, entity access defines whether users with the role are authorized to create, read, update, and delete objects of the entity. Entity access is configured with access rules that apply to entities. Each access rule in turn applies to a (set of) module role(s). The access rules of an entity define what a user is allowed to do with objects of the entity. Users can be allowed to create and delete objects as well as view and edit member values. A member is an attribute or an association of an entity.
 
-![Object security rule](attachments/figure-6-object-security-role.png)
+{{% image_container width="600" %}}
+![](attachments/figure-6-object-security-role.png)
+{{% /image_container %}}
 
 Furthermore, the data sets of objects available for viewing, editing, and removing, which can be limited by means of an XPath constraint. Every access rule is applicable to one or more module roles. An access rule grants certain access rights to those roles. Rules are additive, which means that if multiple access rules apply to the same module role, all the access rights of those rules are combined for that module role. This feature is applied, for example, when applications are configured for multi-tenant usage.
 

@@ -16,7 +16,7 @@ Model-driven development (MDD) has emerged as one of the leading approaches for 
 
 ## 3 How Does Mendix Prioritize Model Interpretation Over Code Generation?
 
-The Mendix Runtime directly executes models, which means that the model is literally the application, not an intermediary. As opposed to approaches where a visually-modeled design would actually generate code (for example, Java or .NET), Mendix's model interpretation approach has a number of [unique characteristics and advantages](architecture-runtime#model-execution).
+The Mendix Runtime directly executes models, which means that the model is literally the application, not an intermediary. As opposed to approaches where a visually-modeled design would actually generate code (for example, Java or .NET), Mendix's model interpretation approach has a number of [unique characteristics and advantages](runtime-architecture#model-execution).
 
 For more information, see the [Model Driven Development: Code Generation or Model Interpretation?](http://www.theenterprisearchitect.eu/blog/2010/06/28/model-driven-development-code-generation-or-model-interpretation/) blog post.
 
@@ -40,4 +40,4 @@ For more details on this important topic, see [Openness & Extensibility](opennes
 
 While not strictly a set of architectural principles, the [Twelve-Factor App](https://12factor.net/) methodology (originally developed by the Heroku team) is a set of best practices, the purpose of which is to help you avoid a set of common systemic mistakes involved in the building of cloud-native apps.
 
-For details on how this methodology is applied to Mendix, see [How Does the Mendix Runtime Support Twelve-Factor Cloud-Native Apps?](architecture-12-factor).
+For details on how this methodology is applied to Mendix, see [How Does the Mendix Runtime Support Twelve-Factor Cloud-Native Apps?](twelve-factor-architecture).

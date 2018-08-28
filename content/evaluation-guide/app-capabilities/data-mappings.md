@@ -27,7 +27,7 @@ External REST APIs often come with documentation including example JSON messages
 
 After doing this, you can use the message definition as any other message definition in your mappings.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/json-snippet-example.png)
 {{% /image_container %}}
 
@@ -37,7 +37,7 @@ When importing a web service definition (WSDL), the message definition will be a
 
 Alternatively, you can define your messages based on a separate XML schema document. Simply create an XML schema document in your project, read the XSD file, and all the available message will be displayed. You can then use them in your mappings.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/xsd-message-definition.png)
 {{% /image_container %}}
 
@@ -45,7 +45,7 @@ Alternatively, you can define your messages based on a separate XML schema docum
 
 When creating services or APIs in Mendix, you can easily support both XML and JSON. To do this, you can create a message definition document, and then define all the separate message simply by dragging and dropping entities into your message definition document. Here you exclude properties you do not want included in your JSON or XML, or provide different naming for external systems.
 
-{{% image_container width="500" %}}
+{{% image_container width="450" %}}
 ![](attachments/message-definitions-from-entities.png)
 {{% /image_container %}}
 
@@ -53,7 +53,7 @@ When you use import or export mappings based on these message definitions, you c
 
 The image below illustrates how to use a microflow export activity to generate a JSON message. Generating XML is just a matter of selecting XML instead of JSON.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/export-to-json.png)
 {{% /image_container %}}
 
@@ -63,6 +63,6 @@ You can use REST with import and export mappings, which support both JSON and XM
 
 This image illustrates how you can use a string template to define form-URL-encoded data to be sent to an API:
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/rest-post-template.png)
 {{% /image_container %}}

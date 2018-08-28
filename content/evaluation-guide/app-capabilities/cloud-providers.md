@@ -75,7 +75,7 @@ To run a Mendix application with high availability on a Kubernetes cluster, the 
 
 If the application needs file storage, this can be attached using a standard storage classed to the StatefullSet or by using cloud services like AWS S3 storage, Azure Blob storage, or IBM Swift storage.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/kubernetes.png)
 {{% /image_container %}}
 

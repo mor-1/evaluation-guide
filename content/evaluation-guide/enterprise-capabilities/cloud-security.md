@@ -110,7 +110,7 @@ Disaster recovery tests are performed quarterly on the Mendix Platform. These te
 
 The Mendix Cloud offers high availability for all app environments, ensuring zero downtime in the case of a Mendix Runtime outage. Users are able to scale Mendix app environments using the Cloud Portal. Furthermore, the Mendix Cloud enables auto-recovery and failover within the same availability zone.
 
-For more details, see the sections [How Does Mendix Cloud Offer High Availability?](architecture-cloud#cloud-ha), [How Does Mendix Provide Disaster Recovery?](architecture-cloud#cloud-dr), and [How Does Mendix Cloud Provide Auto-Recovery & Auto-Healing?](architecture-cloud#cloud-ar) in *Cloud Architecture*.
+For more details, see the sections [How Does Mendix Cloud Offer High Availability?](cloud-architecture#cloud-ha), [How Does Mendix Provide Disaster Recovery?](cloud-architecture#cloud-dr), and [How Does Mendix Cloud Provide Auto-Recovery & Auto-Healing?](cloud-architecture#cloud-ar) in *Cloud Architecture*.
 
 ## 3 What Kind of Encryption Is Provided in the Mendix Cloud?
 

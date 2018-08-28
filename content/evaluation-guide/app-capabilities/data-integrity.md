@@ -33,7 +33,7 @@ You can use the following types for your attributes:
 * **Long** – a 64-bit whole number
 * **String** – text containing letter, numbers, spaces, and other characters
 
-{{% image_container width="500" %}}
+{{% image_container width="600" %}}
 ![](attachments/entity_data_types.png)
 {{% /image_container %}}
 
@@ -43,7 +43,7 @@ For more details, see the section [Attributes](https://docs.mendix.com/refguide/
 
 Validation rules specify the rules to which your data should adhere. If your data does not follow the rules specified, you will receive an error when you try to save the data.
 
-{{% image_container width="500" %}}
+{{% image_container width="600" %}}
 
 ![](attachments/entity_validation_rule.png)
 
@@ -61,7 +61,7 @@ Event handlers give you the ability to run logic before or after certain events.
 
 To set event handlers on all the entities in your application, you can use the Mendix Java API. For example, to set a before commit event listener for all entities, use this method: [Core.getListenersRegistry().registerAfterCommitListener](https://apidocs.mendix.com/7/runtime/index.html?com/mendix/core/actionmanagement/ListenersRegistry.html).
 
-{{% image_container width="500" %}}
+{{% image_container width="600" %}}
 ![](attachments/entity_event_handler.png)
 {{% /image_container %}}
 
@@ -77,7 +77,7 @@ The access right aspects you can define on entities include the following:
 
 You can also use XPath constraints to define so-called **row-level security**, which defines what objects a user is allowed to see. This can be used to ensure customers can only see their data, case workers can only see data related to their cases, and tenants get access to only their tenant data in a multi-tenant application.
 
-{{% image_container width="500" %}}
+{{% image_container width="600" %}}
 ![](attachments/entity_access_rules.png)
 {{% /image_container %}}
 

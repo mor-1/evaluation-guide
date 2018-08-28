@@ -12,7 +12,7 @@ Mendix allows you to combine web and mobile applications into the same app model
 
 With Mendix, you can build responsive user interfaces that adapt automatically to the end-user’s device. By default, Mendix provides a full set of layouts, pages, building blocks, and widgets. There is a flexible grid system that can be easily nested and configured for different screen sizes. The Mendix front-end is based on [Bootstrap](https://getbootstrap.com/), which is also fully responsive, making it easy for (new) users to build responsive user interfaces.
 
-{{% image_container width="500" %}}
+{{% image_container width="600" %}}
 ![](attachments/web-modeler-test.png)
 {{% /image_container %}}
 
@@ -34,7 +34,7 @@ The [Atlas UI](https://atlas.mendix.com) framework offered on the Mendix Platfor
 
 Mendix offers various UI elements (called widgets) out of the box that can be used to build these rich user interfaces. Widgets can be placed directly on the page or combined in building blocks. Mendix provides widgets that include basic inputs, buttons, and text boxes as well as widgets for Google Maps, rich text, slider functionality, and much more. The Mendix community also develops, releases, and maintains over 600 hundred open-source custom widgets for use in app development via the [Mendix App Store](https://appstore.mendix.com). Next to this, it is also possible to extend Mendix with your own [custom widgets](#extend)
 
-{{% image_container width="600" %}}
+{{% image_container width="550" %}}
 ![](attachments/atlas-ui1.png)
 {{% /image_container %}}
 
@@ -46,7 +46,7 @@ You can learn more about the possibilities of Mendix app UX in the Mendix Academ
 
 With Mendix, you can visually model client-side logic via nanoflows, which can be used in both web and mobile apps. Nanoflows do not require a connection, making them also very useful in [offline mobile apps](offline-apps#build-offline). They have the same language and editor as [microflows](https://docs.mendix.com/refguide/microflows), but they contain a different set of activities that is focused on client-side possibilities. Nanoflows fully run on the device or in the browser, making them very fast. Here is an example nanoflow:
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/nanoflow.png)
 {{% /image_container %}}
 

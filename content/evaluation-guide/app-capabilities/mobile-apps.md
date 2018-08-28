@@ -40,7 +40,7 @@ From the Mendix Modeler, changes can be published to the preferred environment, 
 
 A new app store publication is needed when changes are required for the generated app. Some examples of this are changes in the app information, icon, splash screen, permissions, or the Cordova plugins that are used. These changes can be made in the Developer Portal, and with a single click, the new version of the app is built with the new settings.
 
-{{% image_container width="550" %}}
+{{% image_container width="650" %}}
 ![](attachments/cordova.png)
 {{% /image_container %}}
 

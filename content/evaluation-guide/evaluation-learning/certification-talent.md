@@ -12,7 +12,7 @@ The [Mendix Developer Certification Program](https://gettingstarted.mendixcloud.
 
 Once you sign up on the platform, you will automatically join as a Mendix community member, so you can start training and building apps with Mendix right away. The three levels of Mendix certification that you can obtain after you join as a Mendix community member are described below.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/certifications.png)
 {{% /image_container %}}
 
@@ -46,7 +46,7 @@ If you are you looking to hire external resources, the [Mendix Job Board](https:
 
 Every member of the [Mendix community](https://developer.mendixcloud.com/link/community) is ranked by Mendix points, and their level of Mendix certification is also displayed on their Community Profile. These factors allow you to get a clear picture of a developer’s experience. On the [Mendix Community site](https://developer.mendixcloud.com/link/community), you can search for specific skills, locations, and experience. Each developer has a profile where you can see examples of work and references.
 
-{{% image_container width="550" %}}
+{{% image_container width="700" %}}
 ![](attachments/devs.png)
 {{% /image_container %}}
 
@@ -54,7 +54,7 @@ If you are looking for a Mendix partner company to help you with the implementat
 
 ## 3 How Does the Mendix University Program Work?
 
-Mendix works with many universities and higher education institutions to enable students to learn how to develop mobile and web applications quickly. The course curriculum is designed to give students a well-rounded knowledge of both the Mendix Platform and Agile project management using the Scrum framework. The curriculum allows students to receive hands-on experience with the process of building and deploying working applications.
+Mendix works with many universities and higher education institutions to enable students to learn how to develop mobile and web applications quickly. The course curriculum is designed to give students a well-rounded knowledge of both the Mendix Platform and Agile requirements management using the Scrum framework. The curriculum allows students to receive hands-on experience with the process of building and deploying working applications.
 
 When professors choose to use the Mendix Platform in their classrooms, each student receives a free license for the platform through the [Mendix University Program](https://www.mendix.com/university-program/). Students can build as many applications as they want and Mendix will host the apps, so students do not need to pay for additional cloud environments. There is also no requirement for students to develop, maintain, or integrate with an external database, because the database is built into Mendix.
 

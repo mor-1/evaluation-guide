@@ -10,7 +10,7 @@ tags: [""]
 
 In Mendix, you define your data needs using domain models. Every module in your app project can have its own domain model, which consists of one or more entities. These entities can be persistable or non-persistable, and they contain one or more objects.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/data-domain-model.png)
 {{% /image_container %}}
 
@@ -40,7 +40,7 @@ The database structure created will include tables, data types, associations, re
 
 It is important to note that whenever you make changes to your applications, the underlying database tables will be automatically updated accordingly. Your data will also be migrated.
 
-{{% image_container width="500" %}}
+{{% image_container width="450" %}}
 ![](attachments/deploy_ddl.png)
 {{% /image_container %}}
 
@@ -97,7 +97,7 @@ Every request to the Mendix Runtime automatically starts a new transaction. Upon
 
 In the following microflow, a custom error handler is defined. When the **Change** activity fails, any changes it made to the database are rolled back. The error handler defines what you want to do with the transaction: you can roll back everything that happened in the microflow, or you can compensate for the problem and continue. In this example, a log message is generated, after which the microflow ends in an error. The calling microflow can then decide how to handle this.
 
-{{% image_container width="450" %}}
+{{% image_container width="600" %}}
 ![](attachments/transaction_error_handling.png)
 {{% /image_container %}}
 

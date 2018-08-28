@@ -14,7 +14,7 @@ Because of this strategic reseller partnership, it is possible to purchase Mendi
 
 The IBM Cloud has the portfolio to deliver a full-stack solution that will drive your business from performance and control to high development speed and innovation. Such a solution will lift and shift your existing workload and create new opportunities to differentiate yourself in the market with smart applications.
 
-{{% image_container width="600" %}}
+{{% image_container width="650" %}}
 ![](attachments/ibmcloudoffering.png)
 {{% /image_container %}}
 
@@ -22,6 +22,6 @@ To accelerate development, IBM Cloud delivers a broad range of services (which a
 
 Mendix has been added as the low-code development tooling on top of this offering in order to bring these services to an even broader group of users.
 
-{{% image_container width="600" %}}
+{{% image_container width="700" %}}
 ![](attachments/service-offering-ibm-cloud.png)
 {{% /image_container %}}

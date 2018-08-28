@@ -1,6 +1,6 @@
 ---
 title: "What Is Mendix?"
-parent: "introduction"
+parent: "welcome"
 bg: "mendix"
 menu_order: 30
 tags: [""]

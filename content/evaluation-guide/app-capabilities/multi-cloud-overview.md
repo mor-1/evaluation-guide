@@ -12,7 +12,7 @@ An application built with Mendix is based on a cloud-native design and conforms 
 
 Within this flexible model, Mendix supports a large variety of deployment options that allow you to run your Mendix application on a public, virtual private, private, or hybrid cloud or via a traditional (virtual) server.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/multi-cloud.png)
 {{% /image_container %}}
 
@@ -20,7 +20,7 @@ Within this flexible model, Mendix supports a large variety of deployment option
 
 If you want to acquire the best utilization rate for your infrastructure, to maintain optimal flexibility, and to convert your capital investment into operational expenses, the public cloud is the best choice. Mendix has support for most public cloud vendors, such as Mendix Cloud, IBM, SAP, Microsoft, AWS, and Google. For Mendix Cloud, SAP, and IBM, we deliver a fully integrated experience in which you can run your app with a single click via your cloud choice.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/multi-cloud-deploy.png)
 {{% /image_container %}}
 
@@ -38,7 +38,7 @@ If your organization is complying with specific regulations and is not allowed t
 
 For more information, see the section [How Can I Run Mendix in a Private Cloud or On Premises?](#on-prem) below.
 
-## 2 How Do I Run and Deploy My Mendix Application? {#run-deploy}
+## 2 How Do I Run & Deploy My Mendix Application? {#run-deploy}
 
 In the Mendix Platform, the development and execution of your application are fully separated. After developing the app, you can choose where you want to run it. The sections below explore your deployment options.
 
@@ -72,13 +72,17 @@ For more information, see the section [Which Operating Systems Do the Mendix Mod
 
 Mendix multi-cloud is a deep integration with different cloud providers, which allows you to deploy your application with a single click from both the Mendix Modeler and the Developer Portal.
 
+{{% image_container width="450" %}}
 ![](attachments/run.png)
+{{% /image_container %}}
 
 The Mendix multi-cloud solution makes use of container-based cloud solutions. The creation of the container and the required services (like the database) is done completely automatically.
 
 It is even possible to switch between cloud providers, so you can start developing and running your application on one cloud and, over time, move it to another cloud.
 
+{{% image_container width="600" %}}
 ![](attachments/mutli-cloud-selection.png)
+{{% /image_container %}}
 
 At the moment, the integrated Mendix multi-cloud solution is provided for Mendix Cloud, IBM Cloud, and SAP Cloud. More clouds will be added to the Mendix multi-cloud portfolio in the near future.
 
@@ -96,7 +100,9 @@ In the scenario that you have access to an IaaS and you need to choose a PaaS la
 
 The Mendix Runtime can be directly installed on a server. Mendix provides a service manager for both Linux-based and Windows-based servers that controls the start, stop, and deployment of an application on the server.
 
+{{% image_container width="650" %}}
 ![](attachments/mx-service-console.png)
+{{% /image_container %}}
 
 For Linux-based applications, this is a command-line based tool called [M2EE](https://github.com/mendix/m2ee-tools).
 

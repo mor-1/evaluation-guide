@@ -16,7 +16,7 @@ We recommend first watching this video of our Chief Technology Officer, Johan de
 
 Mendix was founded based on the belief that software development could only be significantly improved if there was a paradigm shift, which meant bringing the Business and IT much closer to together.
 
-Read more of the story of Mendix in [Why Was Mendix Founded?](why-mendix).
+Read more of the story of Mendix in [Why Was Mendix Founded?](why-founded).
 
 ## What Is the Vision Behind Mendix?
 
@@ -38,10 +38,10 @@ For details, see  [What Is Mendix?](what-is-mendix).
 
 ## Read More
 
-* [Why Was Mendix Founded?](why-mendix)
+* [Why Was Mendix Founded?](why-founded)
 * [The Mendix Vision](mendix-vision)
 * [What Is Mendix?](what-is-mendix)
-* [What App Development Process Should I Use with Mendix?](app-dev-process)
-* [What Can I Build with Mendix?](use-cases)
-* [The Mendix Difference](mendix-different)
+* [What App Development Process Should I Use with Mendix?](dev-process)
+* [What Can I Build with Mendix?](what-can-i-build)
+* [The Mendix Difference](mendix-difference)
 * [What Do Gartner & Forrester Say About Mendix?](gartner-forrester-mendix)

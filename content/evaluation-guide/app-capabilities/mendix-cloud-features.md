@@ -18,7 +18,7 @@ The sections below describe the features delivered by the Mendix Cloud.
 
 This feature allows you to deploy a Mendix application with a single click from both the Mendix Development Portal and the Modeler.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/mx-deployment-management.png)
 {{% /image_container %}}
 
@@ -36,7 +36,7 @@ For more details, see the section [How Does Mendix Cloud Support Backup & Recove
 
 The Mendix Cloud Portal provides all the necessary metrics for you to analyze the performance of your application. This is not limited to insights into memory or CPU utilization, as it is even possible to see metrics on the actual model execution. This allows you to respond more quickly to a specific performance bottleneck and optimize your application more easily.
 
-{{% image_container width="550" %}}
+{{% image_container width="650" %}}
 ![](attachments/mx-metrics.png)
 {{% /image_container %}}
 
@@ -62,6 +62,6 @@ For more information, see the section [How Can I Debug a Live App Running in the
 
 In the Mendix Cloud, it is possible to extend the access security of your application by using whitelisting based on IP filtering and by using TLS client certificate verification. This ensures that an app is only accessible from a another specific machine or location (like your office).
 
-{{% image_container width="450" %}}
+{{% image_container width="550" %}}
 ![](attachments/mx-restrictions.png)
 {{% /image_container %}}

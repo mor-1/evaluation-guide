@@ -60,7 +60,7 @@ The implication for testing is that you can be assured your testing is scoped to
 
 The Mendix Platform supports the implementation of unit tests. These tests are built using microflows and the [UnitTesting](https://appstore.home.mendix.com/link/app/390/) module available from the Mendix App Store. Tests are run either every time there is a new build of the application or at a scheduled time.
 
-{{% image_container width="550" %}}
+{{% image_container width="600" %}}
 ![](attachments/DO_UnitTestingModule.png)
 {{% /image_container %}}
 
@@ -68,7 +68,7 @@ The Mendix Platform supports the implementation of unit tests. These tests are b
 
 With the Mendix Platform, you can automate your functional tests for the user stories you are developing and reduce the overall cost of testing to less than 10% of your project budget. The Mendix [Application Test Suite (ATS)](https://docs.mendix.com/ats/) offers a suite of tools for embedding testing in your application lifecycle. These tools are built in Mendix, on top of Selenium.
 
-{{% image_container width="500" %}}
+{{% image_container width="650" %}}
 
 ![](attachments/ats2.png)
 

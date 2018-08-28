@@ -22,7 +22,9 @@ Mendix complies with various third-party security certifications and assurance r
 
 Mendix is certified to be compliant with the [ISO/IEC 27001](https://www.iso.org/isoiec-27001-information-security.html) standard with 113 Annex A controls in scope. ISO/IEC 27001 is a key international standard for security management that specifies security management best practices and comprehensive security controls.
 
+{{% image_container width="700" %}}
 ![](attachments/certificate.png)
+{{% /image_container %}}
 
 ### 2.2 ISAE 3402 Type II Assurance Report
 
@@ -46,7 +48,7 @@ All Mendix employees are required to provide a government-certified background c
 
 The Mendix customer has ownership of the data and intellectual property of their Mendix applications, as stated by Mendix master agreements and end-user agreements.
 
-For more information, see [Exporting Your Data](vendor-lockin#export-data) in *No Vendor Lock-In*.
+For more information, see [Exporting Your Data](no-vendor-lockin#export-data) in *No Vendor Lock-In*.
 
 ## 5 Who Has Access to My Data?
 
@@ -64,4 +66,4 @@ After contract termination, all applicable application environments are securely
 
 Disaster recovery and business continuity is part of the Mendix security framework. To ensure that customer services can be resumed after a disaster, Mendix has developed a disaster recovery procedure. This procedure is tested on a quarterly basis. Additionally, Mendix offers disaster recovery services that include high availability across multiple availability zones, horizontal scaling of app environments, and auto-recovery in the event of an unexpected outage.
 
-For more information on the Mendix Cloud architecture, see [Cloud Architecture](../enterprise-capabilities/architecture-cloud).
+For more information on the Mendix Cloud architecture, see [Cloud Architecture](../enterprise-capabilities/cloud-architecture).

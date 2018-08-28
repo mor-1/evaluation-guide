@@ -42,7 +42,9 @@ Developers can [preview and test their app](../app-capabilities/mobile-apps#mxap
 
 Any developer, product manager, key end-user, or other stakeholder collaborating on app development with Mendix can easily take part in the conversation around the development of the app at any time with the Buzz functionality in the Mendix mobile app.
 
+{{% image_container width="600" %}}
 ![](attachments/buzz-mobile.png)
+{{% /image_container %}}
 
 ### 1.4 How Can Stakeholders Get Involved via Email Notifications?
 
@@ -70,7 +72,9 @@ If you receive an invitation but do not yet have a Mendix account, the Mendix Pl
 
 Application development project resources are centrally managed from the Mendix Developer Portal with an advanced role-based access control model. Users can have different roles, which can be configured to allow for various levels of access to project resources. For example, some users might be allowed to make changes to the product backlog, while others might get access to the app model in the Team Server repository.
 
+{{% image_container width="600" %}}
 ![](attachments/team-security.png)
+{{% /image_container %}}
 
 By default, Mendix provides a set of sensible user roles, such as **Scrum Master**, **Business Engineer**, **Product Owner**, **Application Operator**, and **End User**. These roles can be modified to suit your particular organization's access management requirements.
 

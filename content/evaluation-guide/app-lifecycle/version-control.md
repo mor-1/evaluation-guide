@@ -45,7 +45,7 @@ From these discussions, new user stories can be created and implemented in the D
 
 Next to the default central Mendix Team Server versioning repository, you can choose to configure your own on-premises SVN repository instead as a versioning repository for your projects.
 
-For details on setup, see [How to Work with an On-Premises Version Control Server](https://docs.mendix.com/howto/collaboration-project-management/on-premises-svn-howto) in the Mendix documentation.
+For details on setup, see [How to Work with an On-Premises Version Control Server](https://docs.mendix.com/howto/collaboration-requirements-management/on-premises-svn-howto) in the Mendix documentation.
 
 ## 5 How Does Mendix Support Branching and Merging?
 

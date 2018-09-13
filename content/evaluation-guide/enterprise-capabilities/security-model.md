@@ -66,6 +66,8 @@ This video presents the various module-level security settings that are availabl
 
 <video controls src="attachments/DM_ModuleSecurity.mp4">VIDEO</video>
 
+<video controls src="attachments/DM_ModuleSecurity1.mp4">VIDEO</video>
+
 ### 2.3 How Does Mendix Protect the Pages of My App?
 
 Page access defines the application pages that users with a certain module role can access. The navigation items (menu bars and buttons) are optimized so that they only show items that direct to the pages to which the user has access.

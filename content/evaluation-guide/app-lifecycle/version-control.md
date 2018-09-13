@@ -61,8 +61,6 @@ Mendix supports creating and merging branches in the Mendix Team Server versioni
 
 This video shows how you can manage branch lines in the Desktop Modeler:
 
-<video controls src="attachments/DO_CreateBranchLine.mp4">VIDEO</video>
-
 <video controls src="attachments/DO_CreateBranchLine1.mp4">VIDEO</video>
 
 And this video presents how you can merge changes:

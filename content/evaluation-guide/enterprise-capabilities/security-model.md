@@ -64,8 +64,6 @@ At the module level, security logic is separated from application logic. This al
 
 This video presents the various module-level security settings that are available:
 
-<video controls src="attachments/DM_ModuleSecurity.mp4">VIDEO</video>
-
 <video controls src="attachments/DM_ModuleSecurity1.mp4">VIDEO</video>
 
 ### 2.3 How Does Mendix Protect the Pages of My App?

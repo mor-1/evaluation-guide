@@ -14,7 +14,7 @@ The App Store is fully integrated in both the Web and Desktop Modelers. Users ca
 
 For more information, see [App Store Overview](https://docs.mendix.com/community/app-store/app-store-overview) in the Mendix documentation.
 
-{{% image_container width="600" %}}
+{{% image_container width="650" %}}
 
 ![](attachments/app-store.png)
 

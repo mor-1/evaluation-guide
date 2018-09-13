@@ -18,7 +18,7 @@ The Mendix community is always there to help you, 24-7. [The Mendix Forum](https
 
 With the Mendix Community Profile and the platform's gamification, community members are incentivized to answer questions. This results in 80% of all forum questions being answered within 30 minutes by a Mendix community member.
 
-{{% image_container width="600" %}}
+{{% image_container width="700" %}}
 ![](attachments/forum.png)
 {{% /image_container %}}
 

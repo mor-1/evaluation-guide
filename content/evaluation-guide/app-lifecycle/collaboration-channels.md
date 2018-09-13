@@ -42,7 +42,7 @@ Developers can [preview and test their app](../app-capabilities/mobile-apps#mxap
 
 Any developer, product manager, key end-user, or other stakeholder collaborating on app development with Mendix can easily take part in the conversation around the development of the app at any time with the Buzz functionality in the Mendix mobile app.
 
-{{% image_container width="600" %}}
+{{% image_container width="300" %}}
 ![](attachments/buzz-mobile.png)
 {{% /image_container %}}
 

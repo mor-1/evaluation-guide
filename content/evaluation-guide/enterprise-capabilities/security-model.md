@@ -64,7 +64,7 @@ At the module level, security logic is separated from application logic. This al
 
 This video presents the various module-level security settings that are available:
 
-<video controls src="attachments/DM_ModuleSecurity.mp4">VIDEO</video>
+<video controls src="attachments/DM_ModuleSecurity1.mp4">VIDEO</video>
 
 ### 2.3 How Does Mendix Protect the Pages of My App?
 
@@ -80,7 +80,7 @@ Microflows are used to visually define business and process logic. Microflow acc
 
 Microflow access is managed within a matrix of microflows and module roles. For each combination, the user can indicate whether or not the module role has access to the microflow.
 
-{{% image_container width="600" %}}
+{{% image_container width="500" %}}
 ![](attachments/figure-5-modular-security-for-microflows.png)
 {{% /image_container %}}
 
@@ -90,7 +90,7 @@ This information can also be edited within a microflow using the **Allowed roles
 
 For each module role, entity access defines whether users with the role are authorized to create, read, update, and delete objects of the entity. Entity access is configured with access rules that apply to entities. Each access rule in turn applies to a (set of) module role(s). The access rules of an entity define what a user is allowed to do with objects of the entity. Users can be allowed to create and delete objects as well as view and edit member values. A member is an attribute or an association of an entity.
 
-{{% image_container width="600" %}}
+{{% image_container width="500" %}}
 ![](attachments/figure-6-object-security-role.png)
 {{% /image_container %}}
 

@@ -1,5 +1,7 @@
 ---
 title: "Architecture"
+seo_title: "Enterprise Architecture Introduction - 12-Factor Cloud Native Apps"
+seo_description: "Learn more about the Mendix high-productivity aPaaS environment, key architectural principles, components & runtime support for 12-factor cloud native apps."
 category: "Enterprise Capabilities"
 menu_order: 10
 notoc: true

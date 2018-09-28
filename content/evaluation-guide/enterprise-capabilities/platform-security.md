@@ -1,5 +1,7 @@
 ---
 title: "Platform Security"
+seo_title: "Enterprise Platform Security in Mendix - Encryption, Security Tests, Administration"
+seo_description: "Learn all about platform security in Mendix, including managing identities, multi-factor authentication, security tests, log trails & more."
 parent: "security"
 menu_order: 20
 bg: "security"
@@ -14,7 +16,7 @@ As part of the Mendix Cloud, Mendix provides a user management and provisioning 
 
 Apart from the company profile and settings, Mendix supports the definition of **Company Admins**, who can assign permissions to users following a delegated administration concept. One or more administrators can be identified per tenant who, in turn, can perform administrative tasks in the tenant according to the permissions granted.
 
-![](attachments/company-admin.png)
+![Company Admin Profile](attachments/company-admin.png)
 
 ## 3 How Can I Administer My Project Within the Mendix Platform?
 

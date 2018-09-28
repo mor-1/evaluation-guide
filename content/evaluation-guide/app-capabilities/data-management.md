@@ -1,5 +1,7 @@
 ---
 title: "Data Management"
+seo_title: "Data Management Tools - Database Support, Object-Relational Mapping, Security"
+seo_description: "Wondering how Mendix handles data management? Visit to learn about Mendix database support, how object-relational mapping (ORM) works and data security."
 category: "App Capabilities"
 notoc: true
 menu_order: 20
@@ -10,7 +12,7 @@ tags: [""]
 The data required to build new enterprise applications is derived from many sources, such as existing SQL databases, service calls, web APIs, and local application-specific databases. Mendix applications sit on top of their own SQL database, which is created and managed by the platform and without the need for a dedicated database administrator.
 
 {{% image_container width="400" %}}
-![](attachments/data-management-overview.png)
+![Data Management with Mendix](attachments/data-management-overview.png)
 {{% /image_container %}}
 
 ## What Databases Does Mendix Support?
@@ -37,7 +39,7 @@ For details, see [How Does Object-Relational Mapping Work in Mendix?](data-stora
 
 ## How Does Mendix Ensure Data Security?
 
-Mendix provides a comprehensive security DSL that enables your team to create fine-grained security controls across your application's navigation, UI, logic, and data. At the database level, access can be either granted or denied against specific attributes and entities, while server-side rules can be built to constrain data before leaving the server. 
+Mendix provides a comprehensive security DSL that enables your team to create fine-grained security controls across your application's navigation, UI, logic, and data. At the database level, access can be either granted or denied against specific attributes and entities, while server-side rules can be built to constrain data before leaving the server.
 
 For details, see [How Does Mendix Ensure Data Security?](data-security#ensure-data-security).
 

@@ -1,5 +1,7 @@
 ---
 title: "Twelve-Factor Architecture"
+seo_title: "12-Factor Cloud-Native Apps Support in Mendix"
+seo_description: "Learn about 12-Factor App Methodology & how the Mendix runtime supports 12-Factor Cloud Native Apps including the codebase, dependencies & more."
 parent: "architecture-intro"
 menu_order: 50
 bg: "architecture"
@@ -8,7 +10,7 @@ tags: [""]
 
 ## 1 What Is the Twelve-Factor App Methodology?
 
-While not strictly a set of architectural principles, the [Twelve-Factor App](https://12factor.net/) methodology is a set of best practices for cloud-native applications. 
+While not strictly a set of architectural principles, the [Twelve-Factor App](https://12factor.net/) methodology is a set of best practices for cloud-native applications.
 
 ## 2 How Does the Mendix Runtime Support Twelve-Factor Cloud-Native Apps? {#12-factor}
 

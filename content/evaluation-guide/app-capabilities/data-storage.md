@@ -1,5 +1,7 @@
 ---
 title: "Data Storage"
+seo_title: "Data Storage Tools - Persistable & Non-Persistable Objects"
+seo_description: "Visit to learn how to define data in the Mendix platform, the difference between persistable & non-persistable objects & how object-relational mapping works."
 parent: "data-management"
 menu_order: 10
 bg: "data"
@@ -11,7 +13,7 @@ tags: [""]
 In Mendix, you define your data needs using domain models. Every module in your app project can have its own domain model, which consists of one or more entities. These entities can be persistable or non-persistable, and they contain one or more objects.
 
 {{% image_container width="600" %}}
-![](attachments/data-domain-model.png)
+![Data Domain Model in Mendix Example](attachments/data-domain-model.png)
 {{% /image_container %}}
 
 Persistable objects are stored in a database, and Mendix automatically creates tables to store your entities in the database. For every object, one record is inserted in the table. Non-persistable entities only live in memory for the duration of a user session.
@@ -41,7 +43,7 @@ The database structure created will include tables, data types, associations, re
 It is important to note that whenever you make changes to your applications, the underlying database tables will be automatically updated accordingly. Your data will also be migrated.
 
 {{% image_container width="450" %}}
-![](attachments/deploy_ddl.png)
+![Data Definition Language Example](attachments/deploy_ddl.png)
 {{% /image_container %}}
 
 By handling both table creation and data migration, the Mendix Platform helps you to deliver apps quickly. You do not have to manage the database schema yourself. Equally important is that for most migrations (for example, attribute renaming or type changes), Mendix also automates data migration.
@@ -98,7 +100,7 @@ Every request to the Mendix Runtime automatically starts a new transaction. Upon
 In the following microflow, a custom error handler is defined. When the **Change** activity fails, any changes it made to the database are rolled back. The error handler defines what you want to do with the transaction: you can roll back everything that happened in the microflow, or you can compensate for the problem and continue. In this example, a log message is generated, after which the microflow ends in an error. The calling microflow can then decide how to handle this.
 
 {{% image_container width="600" %}}
-![](attachments/transaction_error_handling.png)
+![Transaction Error Handling Example](attachments/transaction_error_handling.png)
 {{% /image_container %}}
 
 ## 7 What Databases Does Mendix Support? {#database-support}

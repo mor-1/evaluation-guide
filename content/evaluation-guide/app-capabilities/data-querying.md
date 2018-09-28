@@ -1,5 +1,7 @@
 ---
 title: "Data Querying & Management"
+seo_title: "Data Querying Support & Management - XPath, OQL, SQL, OData"
+seo_description: "Learn about the querying languages Mendix supports like XPath, OQL, SQL & OData, how to migrate data from an existing database & extend storage behavior."
 parent: "data-management"
 menu_order: 40
 bg: "data"
@@ -22,7 +24,7 @@ XPath is an easy-to-use query language that enables retrieving specific objects.
 With XPath, you can define expressions to filter the objects you are interested in, and you can use associations to retrieve and filter related objects.
 
 {{% image_container width="600" %}}
-![](attachments/xpath-example.png)
+![Xpath Example](attachments/xpath-example.png)
 {{% /image_container %}}
 
 XPath automatically ensures that all the access rules you define on your entities are applied.
@@ -36,7 +38,7 @@ The Mendix Object Query Language (OQL) is a relational query language based on S
 OQL can use the predefined relations (associations) to easily join objects without having to calculate which columns should be coupled. Despite these differences, many SQL keywords also work in OQL.
 
 {{% image_container width="600" %}}
-![](attachments/oql-query.png)
+![OQL Example](attachments/oql-query.png)
 {{% /image_container %}}
 
 OQL is mostly used for reporting where you need aggregation functions while grouping over certain attributes. Another reason to use OQL is to define custom security expressions, which you need to define manually. In some cases, this may result in faster queries if you handle security yourself using OQL than by using the out-of-the-box security of XPath.

@@ -1,5 +1,7 @@
 ---
 title: "Developing in Mendix"
+seo_title: "Developing Applications in Mendix - Collaborative Model-Driven Development"
+seo_description: "Mendix's highly extensible visual modeling suite allows developers of all skill sets to design, build & deploy apps, using both low-code & no-code tools."
 category: "App Lifecycle"
 notoc: true
 bg: "developing"

@@ -1,5 +1,7 @@
 ---
 title: "Architecture Principles"
+seo_title: "Enterprise Architecture Principles - Model-Driven Development, Microservices, Containers & Statelessness"
+seo_description: "Learn about the key architectural principles behind the Mendix platform, enablement of model-driven development, microservices, containers & more."
 parent: "architecture-intro"
 menu_order: 10
 bg: "architecture"

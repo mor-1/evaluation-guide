@@ -1,5 +1,7 @@
 ---
 title: "User Interfaces"
+seo_title: "Building User Interfaces for Applications in Mendix"
+seo_description: "Learn how Mendix apps can target multiple device types with device-specific app flows & page layouts, while still reusing app logic & integrations."
 parent: "developing-in-mendix"
 menu_order: 20
 bg: "developing"
@@ -13,7 +15,7 @@ Mendix has a visual page editor in the Modelers that can be used to build both d
 The Mendix Platform supports mobile, tablet, and responsive profiles. For details on all the UI development capabilities that Mendix supports, refer to the various pages in the [UX & Multi-Channel Apps](../app-capabilities/ux-multi-channel-apps) chapter.
 
 {{% image_container width="500" %}}
-![](attachments/wm-page-editor.png)
+![Web Modeler Page Editor](attachments/wm-page-editor.png)
 {{% /image_container %}}
 
 ## 2 How Do I Build Reusable Page Elements?
@@ -25,7 +27,7 @@ The first main method is to use layouts to define a default page structure with 
 The second main method is to use snippets to define groups of widgets that will be referred to from multiple pages. This way, the model is stored in one location, and you need to adapt the group of widgets, you can easily do this in that location. To make reuse effortless, we have a one-click **Create snippet** feature that transforms a group of widgets into a snippet.
 
 {{% image_container width="500" %}}
-![](attachments/create-snippet.png)
+![Creating Snippets for Building Pages](attachments/create-snippet.png)
 {{% /image_container %}}
 
 ## 3 How Can I Provide Company-Branded Templates & Styling to My Projects? {#private-templates-styling}
@@ -57,5 +59,5 @@ For translation, the Mendix Desktop Modeler provides the following tools:
 * **Language operations** – for handling a set of labels in one quick operation (for example, copying all US English labels to UK English labels, whereafter individual labels can be adjusted)
 
 {{% image_container width="600" %}}
-![](attachments/BatchTranslate-1.png)
+![Batch Translating](attachments/BatchTranslate-1.png)
 {{% /image_container %}}

@@ -1,5 +1,7 @@
 ---
 title: "SAP Integration"
+seo_title: "SAP Integration - Cloud Connector, SOAP, REST, OData"
+seo_description: "Learn about how Mendix integrates with SAP, including a single sign-on experience, using the SAP Cloud Connector, support for extending cloud services, & more."
 parent: "sap"
 menu_order: 20
 bg: "sap"
@@ -21,7 +23,7 @@ In combination with the SAP Cloud Platform, Mendix delivers an integration with 
 For on-premises systems, this is realized by setting up a trust between the [SAP Cloud Connector](https://docs.mendix.com/refguide/sap/sap-cloud-connector), SAP Cloud Platform, and SAP Cloud Connector with your SAP back-end system. For SAP Cloud Platform solutions, this is done using an SAML2-to-oAuth assertion using a destination service, as presented in this diagram:
 
 {{% image_container width="600" %}}
-![](attachments/dev_principal_prop_solution_diagram.png)
+![Principle Propagation Support with SAP](attachments/dev_principal_prop_solution_diagram.png)
 {{% /image_container %}}
 
 ## 3 How Can I Use the SAP Cloud Connector to Integrate Mendix with Non-SAP Apps? {#integrate}
@@ -29,7 +31,7 @@ For on-premises systems, this is realized by setting up a trust between the [SAP
 The SAP Cloud Connector allows you to set up connections to any end-point within your premises. Because the SAP Cloud Connector acts as a secure reverse proxy, the Mendix native REST and web services integrations have been extended with the support to configure the use of the SAP Cloud Connector. This makes it possible to integrate with any REST-based or web services (SOAP)-based solution within your premises when running your Mendix application within the SAP Cloud Platform.
 
 {{% image_container width="600" %}}
-![](attachments/rest-to-non-sap.png)
+![SAP Cloud Connector Using REST Example](attachments/rest-to-non-sap.png)
 {{% /image_container %}}
 
 ## 4 How Does Mendix Support Extending Cloud Services like SAP SuccessFactors & SAP Hybris?
@@ -43,7 +45,7 @@ Together with SAP, Mendix has created an API discovery solution based on OData m
 Along with the SAP OData Connector, this allows you to consume any service provided by SAP within a few clicks.
 
 {{% image_container width="600" %}}
-![](attachments/api_business_hub_mg.png )
+![API Business Hub Example](attachments/api_business_hub_mg.png )
 {{% /image_container %}}
 
 ## 6 How Can I Integrate Mendix with SAP Fiori? {#integrate-with-sap-fiori}
@@ -53,7 +55,7 @@ The Mendix SAP integration comes with a standard application template for SAP Fi
 Mendix applications can even be used within the SAP Fiori mobile launchpad, with the support of native mobile integrations.
 
 {{% image_container width="700" %}}
-![](attachments/sapfiorisupport.png)
+![SAP Fiori Support ](attachments/sapfiorisupport.png)
 {{% /image_container %}}
 
 ## 7 Why Should I Use OData Instead of BAPI?

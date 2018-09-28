@@ -1,5 +1,7 @@
 ---
 title: "Extensibility"
+seo_title: "Extensibility in Mendix - Third Party Services & Open Standards"
+seo_description: "Learn how to extend the functionality of Mendix, provide reusable connectors to 3rd-party services, tooling integration & supported open standards."
 parent: "openness-extensibility"
 menu_order: 30
 bg: "openness"
@@ -21,7 +23,7 @@ To ensure your fellow team members and even external users can easily use custom
 The following image is taken from an example used in [How to Build Microflow Actions Using the Mendix Connector Kit](https://docs.mendix.com/howto/extensibility/howto-connector-kit) in the Mendix documentation. As you can see, the **Join objects in list** custom action looks like any other microflow activity, with an icon and user-friendly parameters:
 
 {{% image_container width="700" %}}
-![](attachments/java_action_join_objects.png)
+![Java Actions and Connector Kit](attachments/java_action_join_objects.png)
 {{% /image_container %}}
 
 All custom Java actions can be made available in the microflow toolbox, which eases discovery and use by non-technical Mendix users. In fact, users can just drag activities from the toolbox to their microflow without knowing that it is implemented as a custom Java action. To expose a Java action in the toolbox, just select the **Expose as microflow action** check box, as illustrated in this video:

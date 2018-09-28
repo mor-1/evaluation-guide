@@ -1,5 +1,7 @@
 ---
 title: "Development Process"
+seo_title: "Application Development Process - BizDevOps, DevOps, Agile"
+seo_description: "Mendix has collaborative agile tools built right into the platform. Learn how organizations practicing BizDevOps, DevOps or other frameworks employ these tools."
 parent: "welcome"
 bg: "mendix"
 menu_order: 40
@@ -12,13 +14,13 @@ The app development process Mendix used from day one was later identified as a c
 
 The Mendix development process encourages developers, operations staff, and business teams to work together so that the organization can develop software more quickly, grow more responsive to user demand, and ultimately maximize revenue. In this approach, not only does the business team set the requirements, they also work directly with the development team. The development team is composed of business analysts and professional developers working alongside the business.
 
-![](attachments/Mendix_RAD_process.png)
+![Rapid Application Development Process](attachments/Mendix_RAD_process.png)
 
 This section explains the concept of Mendix BizDevOps and compares this with other software development processes.
 
 ## 2 Why Should I Use the BizDevOps Process?
 
-Adopting the Mendix development process known as BizDevOps in combination with the Mendix low-code development platform drastically shortens the feedback loop. In turn, there is an increase in efficiency, which results in better outcomes, lower costs of app development, and shorter time-to-market. 
+Adopting the Mendix development process known as BizDevOps in combination with the Mendix low-code development platform drastically shortens the feedback loop. In turn, there is an increase in efficiency, which results in better outcomes, lower costs of app development, and shorter time-to-market.
 
 In Mendix app development projects, there is an instant feedback loop between the business analysts and the developers. With the Mendix Platform's capabilities of one-click-deployment and visual modeling, the development team can handle an hourly feedback loop from the business and product owners. This means it is often the provisioning of feedback from the business that determines the duration of the feedback loop. In practice, this results in a feedback loop of 1–2 weeks between the business and the development team, which enables monthly releases.
 
@@ -59,7 +61,7 @@ To learn more, see the [Requirements Management](app-lifecycle/requirements-mana
 
 DevOps is a software engineering culture and practice that aims to unify software development (Dev) and software operations (Ops). The main characteristic of the DevOps practice is to strongly advocate automation and monitoring at all steps of software construction, from integration, testing, and releasing to deployment and infrastructure management. DevOps aims for shorter development cycles, increased deployment frequency, and more dependable releases, in close alignment with business objectives.
 
-Mendix provides DevOps tools out of the box for CI/CD, test automation, and monitoring, among other services, empowering your development teams to embrace the DevOps way of working. For more details, see the [DevOps](app-lifecycle/devops) chapter. 
+Mendix provides DevOps tools out of the box for CI/CD, test automation, and monitoring, among other services, empowering your development teams to embrace the DevOps way of working. For more details, see the [DevOps](app-lifecycle/devops) chapter.
 
 Compared to DevOps, the BizDevOps approach knocks down the silos between DevOps teams (meaning, the development teams and operations staff) and business teams.
 

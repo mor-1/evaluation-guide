@@ -1,5 +1,7 @@
 ---
 title: "Enterprise Capabilities"
+seo_title: "Enterprise Capabilities in Mendix - Architecture, Openness & Extensibility, Security"
+seo_description: "Learn about Mendix enterprise capabilities, including the principles of the Mendix architecture,  how the platform offers openness & extensibility, & security."
 tags: [""]
 notoc: true
 ---

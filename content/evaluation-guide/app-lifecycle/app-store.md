@@ -1,5 +1,7 @@
 ---
 title: "App Store"
+seo_title: "Mendix App Store - Reusable Components: Connectors & Widgets"
+seo_description: "Learn about the platform capabilities of the Mendix App stores & about the reusable components such as connectors, widgets & modules that can be found there."
 parent: "developing-in-mendix"
 menu_order: 70
 bg: "developing"
@@ -16,7 +18,7 @@ For more information, see [App Store Overview](https://docs.mendix.com/community
 
 {{% image_container width="650" %}}
 
-![](attachments/app-store.png)
+![App Store](attachments/app-store.png)
 
 {{% /image_container %}}
 
@@ -32,7 +34,7 @@ A connector is a Mendix App Store component that contains microflow activities t
 
 {{% image_container width="500" %}}
 
-![](attachments/appstore_connector_grid.png)
+![App Store Connectors](attachments/appstore_connector_grid.png)
 
 {{% /image_container %}}
 
@@ -58,6 +60,6 @@ A module typically consists of a domain model, user interfaces, and microflows. 
 
 The Mendix App Store can be used as a private enterprise app store so that project teams can discover the reusable components (like connectors, widgets, styling, and starter apps) that are accessible to them within their organization.
 
-![](attachments/private-app-store.png)
+![Private App Store](attachments/private-app-store.png)
 
 The Mendix Private App Store supports the distribution of private company content. Any other user in your company can search for and use this private content from the App Store. Private content is always marked as "Private" so that it is clear what is publicly and privately available.

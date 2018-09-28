@@ -1,5 +1,7 @@
 ---
 title: "Logic"
+seo_title: "Developing Application Logic - Client & Server Side, Custom Code"
+seo_description: "Learn how to build client-side & server-side logic, how to add custom code to your Mendix App, & what debugging & error handling features are available."
 parent: "developing-in-mendix"
 menu_order: 30
 bg: "developing"
@@ -10,7 +12,7 @@ tags: ["logic", "business logic", "client-side", "server-side", "custom code", "
 
 Application logic is created in Mendix in the form of nanoflows and microflows. These are visual ways of expressing what traditionally ends up in functions or methods of programming code. In other words, microflows and nanoflows allow you to easily and visually add complex business logic to the processes in your application without having to write code.
 
-![](attachments/WF-NF-MF-comparison.png)
+![Workflow, Microflow, Nanoflow Comparison Chart](attachments/WF-NF-MF-comparison.png)
 
 The following table presents the differences between nanoflows and microflows along with the use cases applicable to each:
 
@@ -31,7 +33,7 @@ Mendix is all about the collaboration between business and IT, and the visual na
 The Mendix Web Modeler has review capabilities built in, which business users can utilize to review specific microflows describing the business logic. While reviewing that logic, such users can inspect what the logic does in a familiar visual language. They can also add comments on the microflow to describe the changes required to meet business requirements. This results in a very short feedback loop, leading to better products and lower costs.
 
 {{% image_container width="600" %}}
-![](attachments/buzz_comment.png)
+![Feedback Comments in App project Example](attachments/buzz_comment.png)
 {{% /image_container %}}
 
 ## 3 How Do I Build Client-Side Logic?
@@ -57,7 +59,7 @@ A microflow is composed of the following element types:
 For more information, see [Microflows](https://docs.mendix.com/refguide/microflows) in the Mendix Reference Guide.
 
 {{% image_container width="500" %}}
-![](attachments/microflow.png)
+![Microflow Example](attachments/microflow.png)
 {{% /image_container %}}
 
 A rule is a special kind of microflow and can be used to express business rules. A rule has to return a Boolean or enumeration, and it can be used in a split to make a decision based on that result. The idea is that complicated decisions can be consolidated in rules and reused in various places in the application.
@@ -78,7 +80,7 @@ For more details, see the following sections:
 Integration with a third-generation programming language (in this case, Java) is one of the key strengths of the Mendix model-driven development approach. This is particularly useful in those rare situations where you are unable to achieve your desired results using microflows alone, or where you have an existing investment in Java/Scala code and skills that you would like to leverage in your application models. The Mendix Desktop Modeler is integrated with Eclipse to support you in making code extensions to the models. The Mendix debugging facilities are fully integrated into Eclipse, providing you the same debugging capabilities with the referred Java code as any other part of the running application.
 
 {{% image_container width="700" %}}
-![](attachments/eclipse.png)
+![Eclipse Integration Example](attachments/eclipse.png)
 {{% /image_container %}}
 
 In essence, you are never limited by the reach of a specific DSL and can always resort to the use of custom Java functions. Custom Java functions can be called from within a model, and the output can be used directly. The interface of each action (which equals a Java function) is also defined within the model. The name, parameters, and return values are all declared in the Mendix Desktop Modeler. The Modeler generates a Java template class for each action, which is the hook where custom code can be added.

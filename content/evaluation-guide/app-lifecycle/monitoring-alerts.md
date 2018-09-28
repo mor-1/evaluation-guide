@@ -1,5 +1,7 @@
 ---
 title: "Monitoring & Alerting"
+seo_title: "Monitoring Solutions & Alerts for Application Development in Mendix"
+seo_description: "Learn how the Mendix platform monitoring solutions support development teams using devops, & how to monitor apps running on the Mendix cloud or on premise."
 parent: "devops"
 menu_order: 60
 bg: "devops"
@@ -11,7 +13,7 @@ tags: ["monitoring", "alerts", "devops"]
 The Mendix Platform enables development teams to not only develop but also maintain and support applications with enterprise-grade non-functional requirements. Mendix provides a number of monitoring solutions out of the box in order to support development teams. Trend graphs and alerts are available for the full application stack, and live logging and debugging make it possible to quickly diagnose issues as they happen in production.
 
 {{% image_container width="600" %}}
-![](attachments/mx-metrics.png)
+![Application performance Monitoring Example](attachments/mx-metrics.png)
 {{% /image_container %}}
 
 Development teams can use the [Mendix Application Performance Monitor (APM)](https://docs.mendix.com/apm/) to continuously monitor and measure performance of their apps in order to diagnose and resolve performance issues. Mendix APM provides point-in-time visibility, tracking, and diagnostics into Mendix Runtime performance at both a high level for user experience performance and at the lowest possible level for details on microflow activity performance. This allows you to continuously improve your app's performance and user experience.
@@ -32,13 +34,13 @@ Depending on the deployment scenario, different solutions are available to devel
 Any licensed app running in the Mendix Cloud can leverage the full monitoring capabilities provided by the Mendix Platform. These include out-of-the-box trend graphs, fully automated alerts, live logging and debugging, and available log archives. With these capabilities, development teams can maintain, operate, and support apps through their lifecycle.
 
 {{% image_container width="600" %}}
-![](attachments/alerts.png)
+![Application Development Alerts Example](attachments/alerts.png)
 {{% /image_container %}}
 
 This is a historical overview of alerts:
 
 {{% image_container width="600" %}}
-![](attachments/alerts-history.png)
+![Application Development Alerts History Example](attachments/alerts-history.png)
 {{% /image_container %}}
 
 Besides these monitoring features, the Mendix Cloud provides high availability features that can be enabled for any app in order to achieve enterprise-grade service availability.

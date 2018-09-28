@@ -1,5 +1,7 @@
 ---
 title: "The Mendix Difference"
+seo_title: "The Mendix Difference - Full Application Lifecycle Management"
+seo_description: "Mendix's unique approach to application development by providing both no-code & low-code solutions differentiates the platform from the competition."
 parent: "welcome"
 bg: "mendix"
 menu_order: 60
@@ -20,7 +22,7 @@ This section zooms in on the main aspects of why Mendix is different compared to
 
 ## 2 What Is Mendix's History of Delivering Innovation?
 
-Innovation happens when people with ideas and technology come together. The culture of innovation has lived within Mendix from the day the company was started, resulting in a long list of industry-first innovations. Here is just a glimpse of the innovations our customers have been able to leverage: 
+Innovation happens when people with ideas and technology come together. The culture of innovation has lived within Mendix from the day the company was started, resulting in a long list of industry-first innovations. Here is just a glimpse of the innovations our customers have been able to leverage:
 
 * The first low-code platform to support AI-assisted development (2018)
 * Low-code and no-code collaboration via the Web Modeler (2017)
@@ -44,7 +46,7 @@ Mendix involves business users across the application lifecycle, from [requirmen
 
 Both no-code and low-code tools use visual and model-driven development concepts to speed up and transform application development. In a way, the "low-code" and "no-code" labels can be misleading. At Mendix, we think the main distinction is found in the types of people using these tools.
 
-* **No-code tools** (as the name suggests) enable users to build apps without writing any code. The target audience for this capability consists of business analysts, business developers, and citizen developers – users with no or very little experience in software development. 
+* **No-code tools** (as the name suggests) enable users to build apps without writing any code. The target audience for this capability consists of business analysts, business developers, and citizen developers – users with no or very little experience in software development.
 * **Low-code tools** enable a wide range of developers with any level of software development experience.
 
 Organizations that want to harness the power of both groups should look for a rapid application development platform that appeals to both business developers and professional developers. Every user should feel comfortable and empowered to build apps themselves. But the real value is contained in enabling teams of developers from both business and IT with mixed experience levels to collaborate on a single platform and be focused on achieving the same goal – building apps that solve real business problems with unprecedented speed and out-of-the box control.
@@ -58,7 +60,7 @@ The Mendix Platform provides the Web Modeler and Desktop Modeler visual modeling
 The Mendix Platform supports the rapid delivery of applications through an integrated set of tools designed to cover the full application lifecycle. Starting with business requirements management, teams can create a backlog of user stories, Sprints, and release plans. Developers can then use the Web and Desktop Modelers to rapidly build these user stories, continuously merge models, ship revisions for automated testing, refactor feedback from the built-in feedback mechanism and collaboration features of the platform, and deploy using the Mendix Cloud Portal. The Mendix Application Test Suite (ATS) can be used for automated testing. Finally, end-users can use the app's built-in feedback mechanism.
 
 {{% image_container width="_" %}}
-![](attachments/cycle-1.png)
+![Application Development Lifecycle - Capture, Plan, Develop, Deploy, Review](attachments/cycle-1.png)
 {{% /image_container %}}
 
 ## 6  What Does the Mendix Cloud-Native Architecture Look Like?

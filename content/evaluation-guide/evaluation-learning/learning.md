@@ -1,5 +1,7 @@
 ---
 title: "Learning"
+seo_title: "Learn Application Development - Skills & Training Options"
+seo_description: "Find out what skills are needed to learn Mendix, what the training options are available, & how long it takes to learn the platform."
 category: "Evaluation & Learning"
 notoc: true
 menu_order: 20
@@ -10,7 +12,7 @@ tags: [""]
 To help you get started  with building apps, Mendix provides a fully integrated suite of training materials and learning paths via our [Academy](https://gettingstarted.mendixcloud.com/). Learning paths are tailored towards your skill set, so there is training content for citizen developers with little to no development experience, for UX designers, and of course for professional software engineers.  In addition, there is the rich and vibrant Mendix community composed of tens of thousands of active members jointly participating and sharing their best practices. Experience is always a great resource for accelerated learning!
 
 {{% image_container width="400" %}}
-![](attachments/learning-overview.png)
+![Learn Mendix](attachments/learning-overview.png)
 {{% /image_container %}}
 
 ## What Skills Do I Need to Learn Mendix?

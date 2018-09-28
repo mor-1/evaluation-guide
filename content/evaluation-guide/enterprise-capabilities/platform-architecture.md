@@ -1,5 +1,7 @@
 ---
 title: "Platform Architecture"
+seo_title: "Enterprise Architecture Platform - Modules & Services"
+seo_description: "Learn about the key components of the Mendix platform architecture: developers portal, Desktop & Web Modelers, Team Server, Cloud Portal & App Store."
 parent: "architecture-intro"
 menu_order: 20
 bg: "architecture"
@@ -12,7 +14,7 @@ The Mendix Platform is a completely integrated application platform-as-a-service
 
 The below diagram provides an overview of the key components of the Mendix Platform.
 
-![](attachments/architecture-overview.png)
+![Application Development Platform Architecture Overview](attachments/architecture-overview.png)
 
 ## 2 What Are the Main Mendix Platform Modules & Services?
 

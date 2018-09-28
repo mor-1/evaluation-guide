@@ -1,5 +1,7 @@
 ---
 title: "Mobile Apps"
+seo_title: "Building Mobile Applications in Mendix - Leverage Device Functionality"
+seo_description: "Learn how Mendix mobile apps work, how to leverage device capabilities as well as publishing, testing & updating applications."
 parent: "ux-multi-channel-apps"
 menu_order: 30
 bg: "ux"
@@ -17,7 +19,7 @@ The mobile app connects to the Mendix Runtime server in order to load. This acts
 This diagram below shows the runtime architecture of a Mendix  mobile app:
 
 {{% image_container width="600" %}}
-![](attachments/mobile-architecture.png)
+![Mobile Application Architecture](attachments/mobile-architecture.png)
 {{% /image_container %}}
 
 ## 2 How Can I Leverage Device Capabilities in My Mobile Apps?
@@ -41,7 +43,7 @@ From the Mendix Modeler, changes can be published to the preferred environment, 
 A new app store publication is needed when changes are required for the generated app. Some examples of this are changes in the app information, icon, splash screen, permissions, or the Cordova plugins that are used. These changes can be made in the Developer Portal, and with a single click, the new version of the app is built with the new settings.
 
 {{% image_container width="650" %}}
-![](attachments/cordova.png)
+![Cordova Configuration](attachments/cordova.png)
 {{% /image_container %}}
 
 ## 5 How Can I Preview & Test My Mobile App? {#mxapp-preview}

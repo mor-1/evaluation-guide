@@ -1,5 +1,7 @@
 ---
 title: "App Development"
+seo_title: "Application Development - Collaboration, Deployment, Testing, Operating Systems"
+seo_description: "Learn everything about developing applications in Mendix including collaboration, deployment & testing tools & what operating systems are supported."
 parent: "developing-in-mendix"
 menu_order: 10
 bg: "developing"
@@ -10,7 +12,7 @@ tags: ["app", "model", "modeler", "team", "test", "debug", "offline", "custom co
 
 The Mendix platform is designed for a variety of app developers, from business-oriented developers without any software development skills to very experienced technical developers with extensive software development and programming experience.
 
-![](attachments/developer-continuum.png)
+![The Developer Continuum - Solution Focused vs Technology Focused](attachments/developer-continuum.png)
 
 **Business Analysts** and **Business Developers** can directly use the Mendix Web Modeler to build, review, and collaborate on an app. The Web Modeler provides the tools to build the app, regardless of the user's programming experience or background. Users familiar with the Web Modeler can also start using the Desktop Modeler if more advanced app features need to be added. The Modelers share the same concepts and terminology, which makes for a smooth user experience.
 
@@ -26,7 +28,7 @@ For information on getting started with Mendix, have a look at [First Steps with
 
 ## 3 How Does Mendix Enable Model-Driven Development? {#enable}
 
-![](attachments/BothModelers.png)
+![Web and Desktop Application Modelers](attachments/BothModelers.png)
 
 While both the Web Modeler and Desktop Modeler environments support the ability to build data models, pages, and logic, their target audiences differ, and their features are tuned accordingly.
 
@@ -45,7 +47,7 @@ Business analysts and business developers use the Web Modeler to do the followin
 In short, the Web Modeler empowers these users to solve problems collaboratively, creatively, and quickly, maximizing the productivity of your organization and gaining higher end-user adoption.
 
 {{% image_container width="600" %}}
-![](attachments/web-modeler-test.png)
+![Application Development Web Modeler](attachments/web-modeler-test.png)
 {{% /image_container %}}
 
 ### 3.2 What Can I Do with the Desktop Modeler? {#desktop-modeler}
@@ -57,7 +59,7 @@ The Desktop Modeler is designed for (experienced) business analysts and develope
 Within the Desktop Modeler, you are able to build extensions, add integration to underlying systems, manage branch lines, and manage security. What is more, the Desktop Modeler consists of an extensive set of domain-specific languages and associated modeling tools, including the domain model, page editor, microflow editor, integrations, debugger, and security configuration.
 
 {{% image_container width="800" %}}
-![](attachments/desktop-modeler.png)
+![Application Development Desktop Modeler](attachments/desktop-modeler.png)
 {{% /image_container %}}
 
 ### 3.3 How Can I Work Offline?

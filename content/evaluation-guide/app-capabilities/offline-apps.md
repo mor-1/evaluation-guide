@@ -1,5 +1,7 @@
 ---
 title: "Offline Apps"
+seo_title: "Building Offline Native Applications in Mendix"
+seo_description: "Learn how Mendix offline apps work, how they handle data and how data conflicts are reconciled."
 parent: "ux-multi-channel-apps"
 menu_order: 50
 bg: "ux"
@@ -10,7 +12,7 @@ tags: [""]
 
 Mendix offers all the functionality to build rich offline mobile apps that always work, regardless of the network connectivity status. Your apps remain fully supported via consistency checks and data synchronization while you maintain the ability to fine-tune the apps and synchronization process.
 
-![](attachments/enable-offline.png)
+![Enable Offline Mobile App](attachments/enable-offline.png)
 
 Mendix offline mobile apps do not use a network connection except for synchronizing and updating. This increases the reliability and performance of the apps.
 

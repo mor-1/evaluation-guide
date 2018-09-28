@@ -1,5 +1,7 @@
 ---
 title: "UI Design"
+seo_title: "UI Design in Mendix - Widgets, Navigation Layouts, Page Templates"
+seo_description: "Mendix provides a hefty array of UI design tools out of the box for building rich user interfaces. Learn about navigation layouts, templates, widgets & more."
 parent: "ux-multi-channel-apps"
 menu_order: 20
 bg: "ux"
@@ -14,7 +16,7 @@ Common page patterns such as searchable lists, data views, dashboards, and wizar
 
 For speed and flexibility in building rich interfaces, Mendix uses the concepts described via this diagram:
 
-![](attachments/atlas-ui.png)
+![Atlas UI](attachments/atlas-ui.png)
 
 ### 1.1 Navigation Layouts
 
@@ -75,7 +77,7 @@ Mendix provides a growing list of out-of-the-box widgets. This is a selection of
 New widgets are built all the time by both the core Mendix development team and our community of developers using the standard available tooling. You can find available widgets in the [Mendix App Store](https://appstore.home.mendix.com/index3.html) and download them to use in your application.
 
 {{% image_container width="600" %}}
-![](attachments/appstore.png)
+![App Store](attachments/appstore.png)
 {{% /image_container %}}
 
 ## 3 How Can I Customize the Look & Feel of My Apps? {#customize}

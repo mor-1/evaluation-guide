@@ -1,5 +1,7 @@
 ---
 title: "Skills & Training"
+seo_title: "Mendix Application Development Skills Training"
+seo_description: "From low-tech citizen & business developers to skilled IT developers, Mendix is used by an array of people. Visit for more about training."
 parent: "learning"
 menu_order: 10
 bg: "learning"
@@ -14,7 +16,7 @@ Mendix users have different characteristics and backgrounds. Although these are 
 
 These are the most common Mendix user personas we encounter:
 
-![](attachments/dev-personas.png)
+![Mendix Developer Personas - Citizen Developers, Business Developers, IT Developers, Expert Developers](attachments/dev-personas.png)
 
 * **Curious Cate** – Cate is an application consumer sitting in line-of-business departments like Finance, Marketing, HR, or Operations. She has experience using tools like Excel, Access, Salesforce, and Workday, but uses them in a manual way that impacts her productivity. Cate will use the Mendix Web Modeler to build productivity applications to streamline her work and the work of her team.
 
@@ -46,10 +48,10 @@ After a few months of experience with Mendix app projects, you will be able to g
 
 The option to register for a three-day [classroom course](https://gettingstarted.mendixcloud.com/link/classroom) is also always available. These are taught by Mendix Academy experts.
 
-Based on a survey conducted amongst developers about learning low code, we got these answers: 
+Based on a survey conducted amongst developers about learning low code, we got these answers:
 
 {{% image_container width="700" %}}
-![](attachments/survey.png)
+![How Long Does It Take to Learn Low-code Chart](attachments/survey.png)
 {{% /image_container %}}
 
 Because the Mendix Platform provides extensive capabilities and does [monthly releases](https://www.mendix.com/releases/) with new features, Mendix users never actually stop learning!
@@ -97,7 +99,7 @@ There are Mendix offices in Boston, Rotterdam, and London where you can receive 
 Mendix provides a free series of live and interactive [webinars](https://gettingstarted.mendixcloud.com/link/webinar) that will help you to understand the inner-workings of the platform. The wide range of webinar topics include UX, Java, REST integration, QA, mobile, and performance. Whether you are just getting started with Mendix or you are a veteran developer, there’s something for everyone.
 
 {{% image_container width="600" %}}
-![](attachments/webinars.png)
+![Mendix Webinars](attachments/webinars.png)
 {{% /image_container %}}
 
 ### 4.3 Documentation
@@ -105,5 +107,5 @@ Mendix provides a free series of live and interactive [webinars](https://getting
 You can browse all the documentation for the Mendix Platform on the [Mendix documentation site](https://docs.mendix.com). Here you can find release notes, how to's, reference guide material, API and SDK documentation, and content on all the other components of the platform.
 
 {{% image_container width="700" %}}
-![](attachments/docs.png)
+![Mendix Reference Documentation](attachments/docs.png)
 {{% /image_container %}}

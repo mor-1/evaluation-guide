@@ -48,7 +48,7 @@
         var $li = $('<li id="menu-item-' + link.ID + '" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-' + link.ID + '"></li>');
         var $bottomli = $('<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-' + link.ID + '"></li>');
 
-        var $mobilePlus = $('<a href="#" aria-haspopup="true">' + link.title + '</a>');
+        var $mobilePlus = $('<a href="' + link.url + '" aria-haspopup="true">' + link.title + '</a>');
         $li.append($mobilePlus);
         $bottomli.append('<a href="#" aria-haspopup="true">' + link.title + '</a>');
 

@@ -50,7 +50,7 @@ Download your complimentary *Gartner 2018 Magic Quadrant for Mobile App Developm
 
 ## 5 The Forrester Wave™: Mobile Low-Code Development Platforms, Q1 2017
 
-Based on the assessment of the current offerings, strategy, and market presence of 11 vendors, Mendix was named a leader in The Forrester Wave™: Mobile Low-Code Development Platforms, Q1 2017.
+Based on an assessment of the current offerings, strategy, and market presence of 11 vendors, Mendix was named a leader in The Forrester Wave™: Mobile Low-Code Development Platforms, Q1 2017.
 
 Here's what this report states about Mendix:
 

@@ -1,7 +1,7 @@
 ---
 title: "App Store"
 seo_title: "Mendix App Store - Reusable Components: Connectors & Widgets"
-seo_description: "Learn about the platform capabilities of the Mendix App stores & about the reusable components such as connectors, widgets & modules that can be found there."
+seo_description: "Learn about the platform capabilities of the Mendix App Store & about the reusable components such as connectors, widgets & modules that can be found there."
 parent: "developing-in-mendix"
 menu_order: 70
 bg: "developing"

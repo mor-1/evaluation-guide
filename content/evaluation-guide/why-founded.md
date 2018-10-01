@@ -1,7 +1,7 @@
 ---
 title: "Why Was Mendix Founded?"
 seo_title: "Why Was Mendix Founded"
-seo_description: "It was the early 2000s when Mendix first set out on its goal to connect business & IT . Learn about the history & core philosophy behind the platform."
+seo_description: "It was the early 2000s when Mendix first set out on its mission to connect business & IT. Learn about the history & core philosophy behind the platform."
 parent: "welcome"
 bg: "mendix"
 menu_order: 10
@@ -18,7 +18,7 @@ Rewind the clock to the early 2000s. One of the founders of Mendix (Roald Kruit)
 
 Why does this keep happening? It does not take long for Roald to realize that apparently he does not understand the business, no matter how many lengthy documents are generated and long requirements meetings are held. Many implicit assumptions exist on both the business and the IT side about how the software should work and the way it should look. And even when there is perceived alignment, the next day, the customer's requirements change, either consciously or unconsciously, which brings the whole process back to square one. Why can't the business simply make up their minds about what they want? Determined to get to the root of this problem, Roald gets an MBA. It is during his studies that he gets a full view on how large and how fundamental the gap actually is.
 
-![The Gap Between Business and IT - Mendix is the Bridge](attachments/business-gap.png)
+![The Gap Between Business and IT - Mendix Is the Bridge](attachments/business-gap.png)
 
 In any organization, people on the business side and people on the IT side think and act inherently differently. Unless that gap is bridged, there is very little chance that any software project will be remotely successful.
 

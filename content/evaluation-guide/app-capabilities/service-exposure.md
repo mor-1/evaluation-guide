@@ -1,5 +1,7 @@
 ---
 title: "Service Exposure"
+seo_title: "Service Exposure in Mendix - Publishing REST API, SOAP, OData, HTTP, Swagger, OpenAI"
+seo_description: "Mendix low-code platform allows applications to publish REST API, SOAP services & other web services with ease. Learn more from the official evaluation guide."
 parent: "integration"
 menu_order: 40
 bg: "integration"
@@ -26,7 +28,7 @@ Alternatively, you can let Mendix handle all of this automatically. Just expose 
 Whether you want full control of the API you implement or you just want to generate a back-end for your mobile application in a few minutes, Mendix can do it.
 
 {{% image_container width="600" %}}
-![](attachments/rest-publish-post-example.png)
+![REST Publishing with POST](attachments/rest-publish-post-example.png)
 {{% /image_container %}}
 
 Looking at the implementation of your REST operations, you can use any microflow as the implementation of a REST operation. Mendix will automatically detect the parameters you need as well as any objects that need an import or export mapping. This can be specified in the **Operation** dialog box. You can also use, send, and receive binary data or file documents, for example, if you want to provide an operation to retrieve a PDF document.
@@ -34,7 +36,7 @@ Looking at the implementation of your REST operations, you can use any microflow
 The following images use the optional `httpResponse` parameter, which you can use to override HTTP status code or status message. If required, you can also specify that you want access to the HTTP request, for example, to determine the value of the HTTP header values.
 
 {{% image_container width="550" %}}
-![](attachments/get-order-rest-example-mf.png)
+![Get Order REST Example](attachments/get-order-rest-example-mf.png)
 {{% /image_container %}}
 
 Mendix automatically provides an OpenAPI contract and documentation page for every REST service you create. If you provide example values in your message definitions, users of your REST service literally only have to click **Execute** to see the result of calling your service. We cannot make it any easier than this!
@@ -70,7 +72,7 @@ To expose your Mendix data through OData, select **Expose as OData resource** fo
 Next, you are able to specify which attributes you want to expose. You can also specify who can access this data. Of course, all the entity access rules specified on your domain model entities still apply when retrieving data through OData.
 
 {{% image_container width="650" %}}
-![](attachments/odata-published-service.png)
+![Publishing with Odata](attachments/odata-published-service.png)
 {{% /image_container %}}
 
 You can now open the exposed entity directly in a tool like Microsoft Excel or PowerBI and always have up-to-date information from your Mendix application.
@@ -84,7 +86,7 @@ Mendix provides a Java API to define [custom request handlers](https://www.mendi
 Every REST API you implement with Mendix will automatically include an OpenAPI document, describing all the resources and methods provided by your API. If you include documentation and example values in your message definition, these will also be included in your OpenAPI documentation. This will make it very easy for your users to start using your API.
 
 {{% image_container width="600" %}}
-![](attachments/swagger-documentation.png)
+![Swagger Documentation](attachments/swagger-documentation.png)
 {{% /image_container %}}
 
 ## 6 How Can I Use Certificates to Secure My Integrations?

@@ -1,5 +1,7 @@
 ---
 title: "Evaluation"
+seo_title: "Where Do I Start with the Mendix Platform - Kick-Start App Development"
+seo_description: "Learn where to get started with the Mendix Platform, how to kick-start your application development project & what the Mendix community can do for you."
 category: "Evaluation & Learning"
 notoc: true
 menu_order: 10

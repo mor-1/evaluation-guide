@@ -1,5 +1,7 @@
 ---
 title: "IBM Integration"
+seo_title: "IBM Integration - IBM Cloud, Watson, Mobile Analytics, App Launch Connector"
+seo_description: "Learn how to start using Mendix on IBM Cloud & the services that can be integrated, including IBM Watson Connector Suite, IBM Mobile Analytics Widget & more."
 parent: "ibm"
 menu_order: 20
 bg: "ibm"
@@ -11,7 +13,7 @@ tags: [""]
 Mendix can be found in IBM Cloud as starter kits within the standard development experience. There are Watson, web, and mobile options that show you how to start building an application integrating the specific services.
 
 {{% image_container width="700" %}}
-![](attachments/mendix-ibm-cloud-integration2.png)
+![IBM Cloud Integration Example](attachments/mendix-ibm-cloud-integration2.png)
 {{% /image_container %}}
 
 ### 1.1 How Can I Run & Deploy My Application on IBM Cloud?
@@ -32,7 +34,4 @@ These are the services available as connectors:
  * [IBM App ID Connector](https://appstore.home.mendix.com/link/app/106198/)
  * [IBM Weather Company Connector](https://appstore.home.mendix.com/link/app/106297/)
 
-![](attachments/ibm-appstore-connectors.png)
-
-
-
+![Mendix IBM App Store Connectors](attachments/ibm-appstore-connectors.png)

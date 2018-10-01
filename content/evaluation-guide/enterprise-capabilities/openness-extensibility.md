@@ -1,5 +1,7 @@
 ---
 title: "Openness & Extensibility"
+seo_title: "Open Source and Extendable - Avoid Lock-In"
+seo_description: "Learn how the Mendix platform is open & extensible at every level, & how to avoid being locked in to the platform with ESCROW, the platform SDK & SQL databases."
 category: "Enterprise Capabilities"
 notoc: true
 menu_order: 40
@@ -7,10 +9,10 @@ bg: "openness"
 tags: [""]
 ---
 
-The Mendix Platform is open and extensible at every level, with an open model specification and tools provided for platform and app extensibility. Mendix apps are extensible with reusable components and custom code. And Mendix Platform APIs allow you to integrate with your existing requirements management tools, test automation suites, and CI/CD pipelines. 
+The Mendix Platform is open and extensible at every level, with an open model specification and tools provided for platform and app extensibility. Mendix apps are extensible with reusable components and custom code. And Mendix Platform APIs allow you to integrate with your existing requirements management tools, test automation suites, and CI/CD pipelines.
 
 {{% image_container width="500" %}}
-![](attachments/platform-openness-web-chart-1.png)
+![Application Development Platform Openness](attachments/platform-openness-web-chart-1.png)
 {{% /image_container %}}
 
 ## How Can I Avoid Being Locked in to the Mendix Platform?

@@ -1,5 +1,7 @@
 ---
 title: "Architecture"
+seo_title: "Enterprise Architecture Introduction - Twelve-Factor Cloud Native Apps"
+seo_description: "Learn more about the Mendix high-productivity aPaaS environment, key architectural principles, components & runtime support for twelve-factor cloud native apps."
 category: "Enterprise Capabilities"
 menu_order: 10
 notoc: true
@@ -30,7 +32,7 @@ The Mendix Platform is an integrated application-platform-as-a-service (aPaaS) f
 
 Read on in [What Are the Key Components of the Mendix Platform and Their Architecture?](platform-architecture#key-components).
 
-## How Does the Mendix Runtime Support 12-Factor Cloud-Native Apps?
+## How Does the Mendix Runtime Support Twelve-Factor Cloud-Native Apps?
 
 While not strictly a set of architectural principles, the [Twelve-Factor App](https://12factor.net/) methodology is a set of best practices for cloud-native applications covering the following points:
 
@@ -47,7 +49,7 @@ While not strictly a set of architectural principles, the [Twelve-Factor App](ht
 * **Logs** – collect logs via CF Firehose
 * **Admin Processes** – ship the admin and app code in one model
 
-For details about how Mendix applies these factors, see [How Does the Mendix Runtime Support 12-Factor Cloud-Native Apps?](twelve-factor-architecture#12-factor).
+For details about how Mendix applies these factors, see [How Does the Mendix Runtime Support Twelve-Factor Cloud-Native Apps?](twelve-factor-architecture#12-factor).
 
 ## Read More
 

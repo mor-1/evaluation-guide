@@ -1,5 +1,7 @@
 ---
 title: "Runtime Architecture"
+seo_title: "Enterprise Runtime Architecture - Server & Client Architecture"
+seo_description: "Learn about the Mendix Runtime & its components: including how models are executed, server architecture, client architecture, & mobile & web clients."
 parent: "architecture-intro"
 menu_order: 40
 bg: "architecture"
@@ -12,7 +14,7 @@ The Mendix Runtime executes your applications within the context of a cloud-nati
 
 ### 1.1 Which Component Is Responsible for Model Execution?
 
-The Mendix Runtime interprets and executes the models of your apps. The Runtime has a [12-factor-compatible](twelve-factor-architecture) design using industry-leading Java and Scala technologies.
+The Mendix Runtime interprets and executes the models of your apps. The Runtime has a [Twelve-Factor App-compatible](twelve-factor-architecture) design using industry-leading Java and Scala technologies.
 
 ### 1.2 How Does Mendix Execute Models? {#model-execution}
 
@@ -50,7 +52,7 @@ The Runtime consists of 2 main components:
 * **Runtime server** – a scalable runtime to handle server-side logic
 
 {{% image_container width="600" %}}
-![](attachments/mendix-architecture.png)
+![Application Development Platform Architecture](attachments/mendix-architecture.png)
 {{% /image_container %}}
 
 ### 2.1 Server Architecture
@@ -58,7 +60,7 @@ The Runtime consists of 2 main components:
 The Mendix Server architecture consists of multiple components to execute logic, manage data, communicate with the client, and implement security. The diagram below presents an overview of all of the components, which is followed by a short description of their responsibilities:
 
 {{% image_container width="600" %}}
-![](attachments/runtime-engine.png)
+![Runtime Engine](attachments/runtime-engine.png)
 {{% /image_container %}}
 
 The runtime consists of the following components:
@@ -80,7 +82,7 @@ The runtime consists of the following components:
 The Mendix Client is responsible for the user interaction and consists of a UI widget layer, a logic layer to execute offline logic, and a data layer for offline storage. This diagram presents an overview:
 
 {{% image_container width="600" %}}
-![](attachments/client-architecture.png)
+![Application Development Platform Client Architecture](attachments/client-architecture.png)
 {{% /image_container %}}
 
 The Mendix Client consists of the following components:

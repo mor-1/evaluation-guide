@@ -1,5 +1,7 @@
 ---
 title: "Quality Monitoring"
+seo_title: "Quality Monitoring Tools in Mendix & ISO 25010 Standards"
+seo_description: "Learn about application quality monitoring tools in Mendix & how the platform stacks up when it comes to ISO 25010 industry standards for maintainability."
 parent: "devops"
 menu_order: 40
 bg: "devops"
@@ -12,7 +14,7 @@ The Mendix [Application Quality Monitor (AQM)](https://docs.mendix.com/aqm/aqm-o
 
 {{% image_container width="600" %}}
 
-![](attachments/aqm.png)
+![Application Quality Monitoring Tools](attachments/aqm.png)
 
 {{% /image_container %}}
 
@@ -28,7 +30,7 @@ This rating provides a quality indicator for your application model and indicate
 
 There is a strong correlation between the maintainability rating of an application and the effort put forth to handle issues and implement enhancements. Issue resolution time increases exponentially as quality drops. The following charts show that issue resolution times for defects and enhancements get exponentially longer with each level of decrease in source code quality:
 
-![](attachments/aqm-quality.png)
+![Benefits of AQM - Improve Defect Resolution Time, Enhance Resolution Time](attachments/aqm-quality.png)
 *Source for charts above: Bijlsma, Ferreira, Luijten, and Visser: ["Faster Issue Resolution with Higher Technical Quality of Software"](https://www.sig.eu/wp-content/uploads/2016/10/Faster_Issue_Resolution_With_Higher_Technical_Quality_of_Software.pdf). N.d. June 26, 2018.*
 
 ## 4 How Does ISO 25010 (Maintainability) Apply to Mendix? {#iso}
@@ -37,6 +39,6 @@ Mendix application models have been mapped by experts from SIG on the ISO 25010 
 
 AQM rates your application and highlights any potential issues that should be addressed. The diagrams below demonstrate that AQM does not measure your application against Mendix standards, but rather against a true industry standard for expertly defined best practices in the execution of your development.
 
-![](attachments/aqm-sourcec_code_to_stars.png)
+![Application Quality Monitoring Tools Matrix](attachments/aqm-sourcec_code_to_stars.png)
 
-![](attachments/aqm-matrix.png)
+![ISO 25010 Maintainability](attachments/aqm-matrix.png)

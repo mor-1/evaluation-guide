@@ -1,5 +1,7 @@
 ---
 title: "Test Automation & Quality Assurance"
+seo_title: "Test Automation & Quality Assurance Tools in Mendix"
+seo_description: "Learn what tools are available in Mendix for test automation & application assurance monitoring (AQM) including support for third party integration."
 parent: "devops"
 menu_order: 30
 bg: "devops"
@@ -61,7 +63,7 @@ The implication for testing is that you can be assured your testing is scoped to
 The Mendix Platform supports the implementation of unit tests. These tests are built using microflows and the [UnitTesting](https://appstore.home.mendix.com/link/app/390/) module available from the Mendix App Store. Tests are run either every time there is a new build of the application or at a scheduled time.
 
 {{% image_container width="600" %}}
-![](attachments/DO_UnitTestingModule.png)
+![DevOps Testing Module](attachments/DO_UnitTestingModule.png)
 {{% /image_container %}}
 
 ## 4 What Tools Does Mendix Offer for Functional Testing? {#tools-functional}
@@ -70,7 +72,7 @@ With the Mendix Platform, you can automate your functional tests for the user st
 
 {{% image_container width="650" %}}
 
-![](attachments/ats2.png)
+![Application Test Suite](attachments/ats2.png)
 
 {{% /image_container %}}
 
@@ -80,7 +82,7 @@ ATS integrates into the Mendix Platform to enable viewing all the user stories a
 
 Test cases can be executed against different browsers and multiple devices using either [Browserstack](https://www.browserstack.com/) or [Saucelabs](https://saucelabs.com/).
 
-![](attachments/browserSauce.png)
+![BrowserStack and SauceLabs Logos](attachments/browserSauce.png)
 
 Test cases are run when there is a new deployment, either based on a schedule or triggered manually. The tool also allows for bulk testing by uploading data from Microsoft Excel.
 
@@ -88,7 +90,7 @@ Test cases are run when there is a new deployment, either based on a schedule or
 
 The Mendix Platform provides an open and extensible toolset, which can be extended to support any number of third-party testing tools. Mendix supports the [Selenium](https://www.seleniumhq.org/) and [JUnit](https://junit.org/) testing frameworks. Mendix customers have also built testing suites using other third-party testing tools.
 
-![](attachments/Junite5Selenium.png)
+![Junit and Selenium Logos](attachments/Junite5Selenium.png)
 
 ## 6 How Can I Link My User Stories & Test Cases to Model Revisions?
 

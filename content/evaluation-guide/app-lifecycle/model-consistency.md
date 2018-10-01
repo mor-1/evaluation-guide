@@ -1,5 +1,8 @@
 ---
 title: "Model Consistency"
+seo_title: "Model Consistency & Automated Quality Assessments - Application Development"
+seo_description: "Learn about model consistency, automated quality assessments & how Mendix ensures data access rights are respected in the UI & APIs from the official guide."
+
 parent: "developing-in-mendix"
 menu_order: 60
 bg: "developing"
@@ -19,7 +22,7 @@ Consistency checks are divided into three categories: **errors**, **warnings**, 
 At the same time, Mendix offers professional developers the possibility to make their own trade-offs when deviating from the recommendations that result from the checks. For example, a warning regarding the performance of a certain query may be ignored, as the user has the context about the frequency of this query to be triggered.
 
 {{% image_container width="600" %}}
-![](attachments/consistency-checks.png)
+![Consistency Checks - Logic, UX, Data](attachments/consistency-checks.png)
 {{% /image_container %}}
 
 Here are some examples of consistency checking on the Mendix Platform:
@@ -37,7 +40,7 @@ All the application models in Mendix are managed in a single environment. Mendix
 
 {{% image_container width="650" %}}
 
-![](attachments/error-list.png)
+![Error List Example](attachments/error-list.png)
 
 {{% /image_container %}}
 

@@ -1,5 +1,7 @@
 ---
 title: "Integration Overview"
+seo_title: "Mendix Integrations Overview - Supported Tools"
+seo_description: "Get an overview on what web services, data mapping, databases & connectors are compatible with Mendix from the official evaluation guide."
 parent: "integration"
 menu_order: 10
 bg: "integration"
@@ -25,4 +27,4 @@ Mendix offers you an extensive array of tools to handle integrations:
 * [Connectors](../app-lifecycle/app-store#connectors) – implement purpose-built connector modules that provide easy-to-use microflow activities integrated with third-party services
   * Examples include SAP, Kafka, Redis, and third-party services like Slack, Twitter, and Salesforce
 * [Connector Kit](../enterprise-capabilities/extensibility#connector-kit) – the Mendix Connector Kit enables adding any custom integration using Java to Mendix in an easy, generic, and reusable way
-* [Database integration](external-data#external-sql) – the Mendix [Database Connector](https://appstore.home.mendix.com/link/app/2888/) allows you to configure direct JDBC connections to your database of choice for executing SQL queries and stored procedures 
+* [Database integration](external-data#external-sql) – the Mendix [Database Connector](https://appstore.home.mendix.com/link/app/2888/) allows you to configure direct JDBC connections to your database of choice for executing SQL queries and stored procedures

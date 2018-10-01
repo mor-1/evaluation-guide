@@ -1,5 +1,7 @@
 ---
 title: "DevOps Overview"
+seo_title: "DevOps Tools in Mendix Overview"
+seo_description: "Mendix supports DevOps with tools for every stage of the application development lifecycle: planning, modeling, building, CI/CD & deployment. Visit for more!"
 parent: "devops"
 menu_order: 05
 bg: "devops"
@@ -23,14 +25,14 @@ To go deeper into how Mendix supports DevOps, see these featured questions:
 
 Many tools and services considered standard for DevOps are either available out of the box with Mendix or are fully automated in the platform. For example, during the **Model** phase, app model [consistency checking](model-consistency) is done continuously while you are building your app model. And in the **Deploy** phase, the staging, configuration, and deployment of an app to test, acceptance, and production environments is only a matter of clicks in the Mendix Developer Portal.
 
-![](attachments/devops-cycle.png)
+![DevOps Cycle Diagram](attachments/devops-cycle.png)
 
 ### 2.1 Planning Phase
 
 Mendix makes it easy to manage the requirements of different stakeholders for your apps. In the [Mendix Developer Portal](https://sprintr.home.mendix.com/), development teams can set up their app project backlogs. As part of the DevOps process, a team regularly schedules user stories from their backlog to improve their operational processes.
 
 {{% image_container width="600" %}}
-![](attachments/stories.png)
+![Application User Stories Example](attachments/stories.png)
 {{% /image_container %}}
 
 For more details on how Mendix helps development teams to manage their requirements and project backlogs, see [Requirements Management](requirements-management).
@@ -40,7 +42,7 @@ For more details on how Mendix helps development teams to manage their requireme
 During development, Mendix helps development teams to efficiently develop (or *model*) high-quality application models. An app model is continuously checked for consistency errors while the user is working in the Mendix Desktop Modeler or Web Modeler. These consistency checks ensure model integrity and immediately catch many of the mistakes users can make.
 
 {{% image_container width="650" %}}
-![](attachments/error-list.png)
+![Mendix Project Error List Example](attachments/error-list.png)
 {{% /image_container %}}
 
 Compared to other development tools, this makes users more efficient and reduces the number of accidentally introduced regressions. For more details, see [Consistency Checks](model-consistency).
@@ -54,7 +56,7 @@ For further information on developing Mendix apps, see [Developing in Mendix](de
 Mendix users commit the changes they make to their app models to the Mendix Team Server, which is a fully fledged and managed version control system based on Subversion. From any commit on any branch, you can create a deployment package. This is then stored in the Mendix Deployment Package Repository, where developers can manage all Mendix artifacts.
 
 {{% image_container width="600" %}}
-![](attachments/deployment-package-repository.png)
+![Deployment Package Repository Example](attachments/deployment-package-repository.png)
 {{% /image_container %}}
 
 For details on how to version your app models, create deployable artifacts, and manage those artifacts, see [App Build Creation](app-build).
@@ -88,7 +90,7 @@ For more details, see [Operations, Deployment, and Release](ops-deployment-relea
 The Mendix Platform provides out-of-the-box monitoring capabilities that give insight into the health and status of all your Mendix apps running in the Mendix Cloud. Development teams will find that the essential [trend graphs](https://docs.mendix.com/developerportal/operate/trends-v4), [alerting functionality](https://docs.mendix.com/developerportal/operate/monitoring-application-health), and [live logging](https://docs.mendix.com/developerportal/operate/logs) features make it very easy to operate and monitor Mendix apps after deployment.
 
 {{% image_container width="600" %}}
-![](attachments/metrics.png)
+![Application Performance Monitoring Example](attachments/metrics.png)
 {{% /image_container %}}
 
 Developers can do advanced problem diagnosis and performance monitoring of their Mendix apps with [Mendix Application Performance Monitor (APM)](https://docs.mendix.com/apm/).

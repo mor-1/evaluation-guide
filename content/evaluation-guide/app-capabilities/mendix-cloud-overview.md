@@ -1,5 +1,7 @@
 ---
 title: "Mendix Cloud Overview"
+seo_title: "Mendix Cloud Overview - Architecture, Regions & High Availability"
+seo_description: "The Mendix Cloud is built on top of Cloud Foundry & AWS, is available in multiple regions worldwide, & comes with high availability options. Visit for more!"
 parent: "deployment"
 menu_order: 30
 bg: "multicloud"
@@ -19,7 +21,7 @@ The Mendix Cloud is a PaaS-based cloud architecture using Cloud Foundry running 
 For each region, the Mendix Cloud architecture is set up as fully high-available (HA) and divided into multi-availability zones. This means there is a fully reliable offering for disaster recovery.
 
 {{% image_container width="650" %}}
-![](attachments/figure-7-mendix-cloud-deployment-architecture.png)
+![Mendix Cloud Architecture Chart](attachments/figure-7-mendix-cloud-deployment-architecture.png)
 {{% /image_container %}}
 
 For more information on Mendix Cloud architecture, see [Cloud Architecture](../enterprise-capabilities/cloud-architecture).
@@ -36,7 +38,7 @@ Mendix Cloud is currently available in the following regions:
 
 New applications can be placed in any of the available regions. Mendix adds new regions based on customer demand.
 
-![](attachments/mx-cloud-regions.png)
+![Mendix and Partner Cloud Regions Map](attachments/mx-cloud-regions.png)
 
 ## 4 How Does Mendix Cloud Support High Availability?
 
@@ -55,7 +57,7 @@ The Mendix Runtime supports out-of-the-box horizontal scaling. This allows you t
 For the database, a fallback option needs to be purchased per application where HA is desired. The fallback add-on will enable the Multi-AZ option that AWS RDS offers. When scaling to two or more runtime instances with the fallback option enabled, Mendix applications can be made highly available.
 
 {{% image_container width="500" %}}
-![](attachments/mx-ha.png)
+![High Availability Infrastructure Chart](attachments/mx-ha.png)
 {{% /image_container %}}
 
 For more information, see the sections [How Does Mendix Cloud Offer High Availability?](../enterprise-capabilities/cloud-architecture#cloud-ha), [How Does Mendix Provide Disaster Recovery](../enterprise-capabilities/cloud-architecture#cloud-dr), and [How Does Mendix Cloud Provide Auto-Recovery & Auto-Healing?](../enterprise-capabilities/cloud-architecture#cloud-ar) in *Cloud Architecture*.

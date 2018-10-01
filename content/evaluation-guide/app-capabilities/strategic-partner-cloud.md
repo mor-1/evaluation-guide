@@ -1,5 +1,7 @@
 ---
 title: "Strategic Partner Clouds"
+seo_title: "Strategic Cloud Partners - SAP Cloud Platform, IBM Cloud"
+seo_description: "Learn more about Mendix strategic cloud partners and how Mendix runs on SAP Cloud Platform & IBM Cloud in high availability, & what options are available."
 parent: "deployment"
 menu_order: 50
 bg: "multicloud"
@@ -14,7 +16,7 @@ A Mendix application is deployed by the Mendix Development Portal using the Mend
 
 Based on the cloud-native architecture of the Mendix application as well as the Cloud Foundry capabilities, a Mendix app running on the SAP Cloud Platform is fully high-available, and it supports vertical, horizontal, and auto scaling.
 
-![](attachments/runningonsapcloud.png)
+![Running Apps on SAP Cloud Platform](attachments/runningonsapcloud.png)
 
 ## 2 How Is the Mendix Development Portal Integrated with the SAP Cloud Platform?
 
@@ -31,7 +33,7 @@ You can use the Mendix Development Portal to control the app items below within 
 * Status
 
 {{% image_container width="600" %}}
-![](attachments/sapdevportalintegration.png)
+![SAP & Development Portal Integration](attachments/sapdevportalintegration.png)
 {{% /image_container %}}
 
 This video presents how you can create an environment;
@@ -76,13 +78,13 @@ IBM has selected Mendix has their standard low-code development platform on top 
 Within the standard application development experience of IBM, Mendix has been adopted with a few starter kits. These starter kits allow you to start a new web, mobile, or Watson-oriented application on IBM Cloud. When creating an app, a full toolchain is automatically created with a delivery pipeline to run your application on IBM Cloud Foundry or Kubernetes.
 
 {{% image_container width="700" %}}
-![](attachments/ibm-toolchain.png)
+![IBM Toolchain](attachments/ibm-toolchain.png)
 {{% /image_container %}}
 
 This pipeline is integrated with the Mendix package repository. As soon as a new release package is created within the Mendix Platform, the pipeline is notified and the user can deploy the app with single click.
 
 {{% image_container width="600" %}}
-![](attachments/mx-ibm-portal.png)
+![Mendix IBM Portal](attachments/mx-ibm-portal.png)
 {{% /image_container %}}
 
 ## 9 How Can I Select the Way to Run Mendix on IBM Cloud?
@@ -90,7 +92,7 @@ This pipeline is integrated with the Mendix package repository. As soon as a new
 When selecting an IBM starter kit (via either the IBM Cloud Portal or the Mendix Platform Portal), the choice for deployment type is presented during the app creation flow:
 
 {{% image_container width="550" %}}
-![](attachments/select-ibm-deployment-type.png)
+![IBM Deployment Types](attachments/select-ibm-deployment-type.png)
 {{% /image_container %}}
 
 Both deployment options provide full high availability as well as horizontal and vertical scaling.

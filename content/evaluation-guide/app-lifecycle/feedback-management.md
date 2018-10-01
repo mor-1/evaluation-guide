@@ -1,5 +1,7 @@
 ---
 title: "Feedback Management"
+seo_title: "Feedback Management Tools for Application Development"
+seo_description: "Learn how collecting feedback from users & stakeholders, prioritizing feedback, & acting on crucial items is essential to the success of app delivery projects."
 parent: "requirements-intro"
 menu_order: 40
 bg: "agile"
@@ -29,7 +31,7 @@ For every submitted feedback item, the Mendix Platform automatically collects th
 * Information about the user who submitted the feedback item
 * The page that was visible on the screen when the feedback item was submitted
 * A screenshot of the page as it looked when the user submitted the feedback
-* The application-level user role the user had 
+* The application-level user role the user had
 * The browser the user was using and the resolution of their screen
 
 When a feedback item is accepted, the associated user story has the same metadata associated to it. When the story is scheduled in the current Sprint, it becomes visible in the Desktop Modeler. From there, developers can click a link to open the page that was visible when the feedback item was submitted.
@@ -39,13 +41,13 @@ When a feedback item is accepted, the associated user story has the same metadat
 The development team can review and triage feedback items in the **Feedback** section of the Developer Portal. They can then communicate with the submitter of the feedback item through messages on the Buzz thread under the feedback item.
 
 {{% image_container width="600" %}}
-![](attachments/feedback-buzz.png)
+![Application Feedback Example](attachments/feedback-buzz.png)
 {{% /image_container %}}
 
 End-users can keep track of submitted feedback through the Developer Portal and post updates and replies to questions. As with all Buzz activity, email notifications are sent when someone replies to your post. Users can quickly open the Developer Portal from those emails, or just reply by email to post a response.
 
 {{% image_container width="500" %}}
-![](attachments/buzz-notification.png)
+![Application Feedback Notification Example](attachments/buzz-notification.png)
 {{% /image_container %}}
 
 ## 4 How Can Development Teams Manage, De-Deduplicate & Prioritize Feedback?
@@ -55,7 +57,7 @@ Once the team understands the feedback, they can decide on whether or not to acc
 When the team decides to accept a feedback item, it becomes a user story in the backlog of their app project. The product owner can then prioritize these stories in the context of the broader product backlog. This enables the development team to focus on what is truly important and schedule these user stories as part of their Sprint planning.
 
 {{% image_container width="600" %}}
-![](attachments/accept-feedback.png)
+![Accepting Application Feedback Example](attachments/accept-feedback.png)
 {{% /image_container %}}
 
 ## 5 How Do Users Get Notifications on Planning, Progress & Resolution Status Changes?

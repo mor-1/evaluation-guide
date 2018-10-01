@@ -1,5 +1,7 @@
 ---
 title: "Evaluation & Learning"
+seo_title: "Mendix Evaluation & Learning"
+seo_description: "Learn how to get started with the Mendix Platform, kick-starting app development, what skills are needed, Mendix training options & more."
 tags: [""]
 notoc: true
 ---

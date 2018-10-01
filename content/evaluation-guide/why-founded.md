@@ -1,5 +1,7 @@
 ---
 title: "Why Was Mendix Founded?"
+seo_title: "Why Was Mendix Founded"
+seo_description: "It was the early 2000s when Mendix first set out on its mission to connect business & IT. Learn about the history & core philosophy behind the platform."
 parent: "welcome"
 bg: "mendix"
 menu_order: 10
@@ -16,7 +18,7 @@ Rewind the clock to the early 2000s. One of the founders of Mendix (Roald Kruit)
 
 Why does this keep happening? It does not take long for Roald to realize that apparently he does not understand the business, no matter how many lengthy documents are generated and long requirements meetings are held. Many implicit assumptions exist on both the business and the IT side about how the software should work and the way it should look. And even when there is perceived alignment, the next day, the customer's requirements change, either consciously or unconsciously, which brings the whole process back to square one. Why can't the business simply make up their minds about what they want? Determined to get to the root of this problem, Roald gets an MBA. It is during his studies that he gets a full view on how large and how fundamental the gap actually is.
 
-![](attachments/business-gap.png)
+![The Gap Between Business and IT - Mendix Is the Bridge](attachments/business-gap.png)
 
 In any organization, people on the business side and people on the IT side think and act inherently differently. Unless that gap is bridged, there is very little chance that any software project will be remotely successful.
 
@@ -30,12 +32,12 @@ As a next step, Roald starts using visual tools—such as flow charts, user inte
 
 Meanwhile, the two other founders of Mendix (Derek Roos and Derckjan Kruit) are experiencing the business-IT gap from the opposite side – the business. They are asking the following questions:
 
-* Why is it so hard for developers to understand an obvious business need? 
+* Why is it so hard for developers to understand an obvious business need?
 * Why do so many IT projects fail, resulting in wasted time and money, not to mention pointless blame-shifting games that nobody ever wins?
 
-![](attachments/philosophy.png)
+![The Mendix Philosophy](attachments/philosophy.png)
 
-At this point in the story, it is 2005, and Mendix is founded to bridge the business-IT gap and provide organizations and people a whole new way of delivering and differentiating with innovative apps. 
+At this point in the story, it is 2005, and Mendix is founded to bridge the business-IT gap and provide organizations and people a whole new way of delivering and differentiating with innovative apps.
 
 This is a new way, both in the technology used as well as in the process that is applied.
 
@@ -52,9 +54,9 @@ With Mendix, MDD  is visual from start till finish. This helps to make sure the 
 
 ## 5 What Development Process Bridges the Gap Between Business and IT?
 
-Mendix has always realized that you need more than technology to bridge the gap between business and IT. An iterative and Agile process is required that allows key users and stakeholders to be involved at every step, allowing for fast experimentation and on-the-spot feedback. 
+Mendix has always realized that you need more than technology to bridge the gap between business and IT. An iterative and Agile process is required that allows key users and stakeholders to be involved at every step, allowing for fast experimentation and on-the-spot feedback.
 
-![](attachments/Mendix_RAD_process.png)
+![Mendix RAD Development Chart](attachments/Mendix_RAD_process.png)
 
 While this process can be applied to any software development project, the unique combination of fast and visual MDD with an iterative Agile process speeds up the development hugely. At the same time, it ensures the customer will be happy with the result, removing a lot of frustration and setting the customer up for success.
 

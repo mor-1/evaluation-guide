@@ -1,7 +1,7 @@
 ---
 title: "Extensibility"
-seo_title: "Extensibility in Mendix - Third Party Services & Open Standards"
-seo_description: "Learn how to extend the functionality of Mendix, provide reusable connectors to 3rd-party services, tooling integration & supported open standards."
+seo_title: "Extensibility in Mendix - Third-Party Services & Open Standards"
+seo_description: "Learn how to extend the functionality of Mendix, provide reusable connectors to third-party services, tooling integration & supported open standards."
 parent: "openness-extensibility"
 menu_order: 30
 bg: "openness"

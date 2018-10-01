@@ -36,7 +36,7 @@ You can use the following types for your attributes:
 * **String** – text containing letter, numbers, spaces, and other characters
 
 {{% image_container width="600" %}}
-![Entities Data Types Screenshot](attachments/entity_data_types.png)
+![Entities Data Types](attachments/entity_data_types.png)
 {{% /image_container %}}
 
 For more details, see the section [Attributes](https://docs.mendix.com/refguide/attributes#type-1) in the Mendix Reference Guide.
@@ -47,7 +47,7 @@ Validation rules specify the rules to which your data should adhere. If your dat
 
 {{% image_container width="600" %}}
 
-![Entities Validation Rules Screenshot](attachments/entity_validation_rule.png)
+![Entities Validation Rules](attachments/entity_validation_rule.png)
 
 {{% /image_container %}}
 
@@ -101,4 +101,4 @@ Here are two examples:
 
 * **Delete {name of entity} object only if it has no {name of other entity} object(s)** – used if you want to be able to delete a **Customer** only if it is not associated with any **Order**:
 
-  ![Referential Integrity 1-to-Many Model Screenshot](attachments/referential-integrity-2.png)
+  ![Referential Integrity 1-to-Many Model](attachments/referential-integrity-2.png)

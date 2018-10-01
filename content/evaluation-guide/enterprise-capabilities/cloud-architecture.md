@@ -1,7 +1,7 @@
 ---
 title: "Cloud Architecture"
 seo_title: "Mendix Cloud Security - Controls, Backups, Encryption, Logging & Audit Trails"
-seo_description: "Learn what kind of security controls are available in the Mendix cloud, how data in transit secured, backups, encryption, logging & audit trails, & more."
+seo_description: "Learn what kind of security controls are available in the Mendix Cloud, how data in transit secured, backups, encryption, logging & audit trails, & more."
 parent: "architecture-intro"
 menu_order: 30
 bg: "architecture"
@@ -59,5 +59,5 @@ Mendix Cloud architecture automatically applies failover between availability zo
 The Mendix Cloud enables auto-recovery and failover within the same availability zone, and the user load is balanced over two runtime containers. In the rare occurrence that a single runtime container crashes, the other runtime container automatically takes over all user requests while the Cloud Foundry Health Manager replaces the crashed runtime container with a new runtime container. Because of the stateless architecture of Mendix, end-users are not impacted in this scenario.
 
 {{% image_container width="600" %}}
-![Application Auto Recovery](attachments/figure-13-auto-recovery-in-mendix-cloud.png)
+![Application Auto-Recovery](attachments/figure-13-auto-recovery-in-mendix-cloud.png)
 {{% /image_container %}}

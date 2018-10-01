@@ -1,7 +1,7 @@
 ---
 title: "App Builds"
 seo_title: "Creating Application Builds & CI/CD Pipeline Support"
-seo_description: "Learn how to create a build for an app, support for on-premise build streets & how to integrate CI/CD pipelines. Visit for more!"
+seo_description: "Learn how to create a build for an app, support on-premises build streets, & how to integrate CI/CD pipelines. Visit for more!"
 parent: "devops"
 menu_order: 20
 bg: "devops"

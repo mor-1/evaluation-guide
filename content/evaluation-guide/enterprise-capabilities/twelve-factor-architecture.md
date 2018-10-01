@@ -1,7 +1,7 @@
 ---
 title: "Twelve-Factor Architecture"
-seo_title: "12-Factor Cloud-Native Apps Support in Mendix"
-seo_description: "Learn about 12-Factor App Methodology & how the Mendix runtime supports 12-Factor Cloud Native Apps including the codebase, dependencies & more."
+seo_title: "Twelve-Factor Cloud-Native Apps Support in Mendix"
+seo_description: "Learn about Twelve-Factor App methodology & how the Mendix Runtime supports Twelve-Factor cloud-native apps, including the codebase, dependencies & more."
 parent: "architecture-intro"
 menu_order: 50
 bg: "architecture"

@@ -1,7 +1,7 @@
 ---
 title: "Multi-Cloud Overview"
-seo_title: "Multi-cloud Deployment Support - Public, Virtual, & Private Clouds"
-seo_description: "Mendix is based on a cloud-native design & 12-factor principles. Learn more about multi-cloud deployment support, including public, virtual & private clouds."
+seo_title: "Multi-Cloud Deployment Support - Public, Virtual, & Private Clouds"
+seo_description: "Mendix is based on a cloud-native design & Twelve-Factor App principles. Learn more about multi-cloud deployment support, including public, virtual & private clouds."
 parent: "deployment"
 menu_order: 10
 bg: "multicloud"
@@ -15,7 +15,7 @@ An application built with Mendix is based on a cloud-native design and conforms 
 Within this flexible model, Mendix supports a large variety of deployment options that allow you to run your Mendix application on a public, virtual private, private, or hybrid cloud or via a traditional (virtual) server.
 
 {{% image_container width="600" %}}
-![Multi-cloud Infrastructure](attachments/multi-cloud.png)
+![Multi-Cloud Infrastructure](attachments/multi-cloud.png)
 {{% /image_container %}}
 
 ### 1.1 Public Cloud
@@ -23,7 +23,7 @@ Within this flexible model, Mendix supports a large variety of deployment option
 If you want to acquire the best utilization rate for your infrastructure, to maintain optimal flexibility, and to convert your capital investment into operational expenses, the public cloud is the best choice. Mendix has support for most public cloud vendors, such as Mendix Cloud, IBM, SAP, Microsoft, AWS, and Google. For Mendix Cloud, SAP, and IBM, we deliver a fully integrated experience in which you can run your app with a single click via your cloud choice.
 
 {{% image_container width="600" %}}
-![Multi-cloud Deployment - IBM, SAP, Azure, AWS](attachments/multi-cloud-deploy.png)
+![Multi-Cloud Deployment - IBM, SAP, Azure, AWS](attachments/multi-cloud-deploy.png)
 {{% /image_container %}}
 
 For more information, see the section [How Can I Run Mendix in the Public Cloud?](#running-public-cloud) below.

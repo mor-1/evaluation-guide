@@ -14,7 +14,7 @@ Continuous integration and continuous delivery (CI/CD) is supported both in the 
 
 The Mendix Platform’s support for CI/CD facilitates the rapid development and deployment of applications, enabling organizations to ship multiple code revisions through test and acceptance and in to production environments daily (if required). This reduces risk and cost through automation and standardization, and it enables DevOps and microservices.
 
-![Continuous Delivery and Integration Overview](attachments/cicd-overview.png)
+![Continuous Delivery & Integration Overview](attachments/cicd-overview.png)
 
 The core of the Mendix Platform provides all the tooling required to continuously integrate model revisions. Revisions are committed to the [Team Server](version-control) version control repository, where they are merged with the latest revision of the model and assigned to the relevant user stories and test cases.
 
@@ -24,7 +24,7 @@ The tested deployment packages can then be promoted through acceptance and in to
 
 Through automation with the Mendix Platform APIs, each of these functions can be automated into a continuous integration pipeline.
 
-![CICD Mapping](attachments/cicd-mapping.png)
+![CI/CD Mapping](attachments/cicd-mapping.png)
 
 ## 2 How Can I Integrate Automated Tests of My Mendix Apps in My CI/CD Pipeline?
 
@@ -42,4 +42,4 @@ The following APIs are available to enable the external promotion of model revis
 * [Build API](https://docs.mendix.com/apidocs-mxsdk/apidocs/build-api) – allows you to manage and create new deployment packages using the Mendix Build Server
 * [Deployment API](https://docs.mendix.com/apidocs-mxsdk/apidocs/deploy-api) – allows you to manage application environments in the Mendix Cloud – you can retrieve the app status, start and stop apps, and deploy and transport new model versions to app environments
 
-![CICD Jenkins](attachments/cicd-jenkins-docker.png)
+![CI/CD Jenkins](attachments/cicd-jenkins-docker.png)

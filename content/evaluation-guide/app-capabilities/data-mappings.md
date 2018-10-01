@@ -40,7 +40,7 @@ When importing a web service definition (WSDL), the message definition will be a
 Alternatively, you can define your messages based on a separate XML schema document. Simply create an XML schema document in your project, read the XSD file, and all the available message will be displayed. You can then use them in your mappings.
 
 {{% image_container width="600" %}}
-![Using XML Screenshot](attachments/xsd-message-definition.png)
+![Using XML](attachments/xsd-message-definition.png)
 {{% /image_container %}}
 
 ## 4 How Can I Create XML and JSON Messages from Application Data?
@@ -48,7 +48,7 @@ Alternatively, you can define your messages based on a separate XML schema docum
 When creating services or APIs in Mendix, you can easily support both XML and JSON. To do this, you can create a message definition document, and then define all the separate message simply by dragging and dropping entities into your message definition document. Here you exclude properties you do not want included in your JSON or XML, or provide different naming for external systems.
 
 {{% image_container width="450" %}}
-![Message Definitions Screenshot](attachments/message-definitions-from-entities.png)
+![Message Definitions](attachments/message-definitions-from-entities.png)
 {{% /image_container %}}
 
 When you use import or export mappings based on these message definitions, you can choose if you want to create XML or JSON. There are many places in your Mendix application where you can use mappings (for example, web service calls or REST APIs).
@@ -56,7 +56,7 @@ When you use import or export mappings based on these message definitions, you c
 The image below illustrates how to use a microflow export activity to generate a JSON message. Generating XML is just a matter of selecting XML instead of JSON.
 
 {{% image_container width="600" %}}
-![Exporting to JSON Screenshot](attachments/export-to-json.png)
+![Exporting to JSON](attachments/export-to-json.png)
 {{% /image_container %}}
 
 ## 5 How Does Mendix Support Using REST with Formats Other than JSON?
@@ -66,5 +66,5 @@ You can use REST with import and export mappings, which support both JSON and XM
 This image illustrates how you can use a string template to define form-URL-encoded data to be sent to an API:
 
 {{% image_container width="600" %}}
-![Using REST in Mendix Screenshot](attachments/rest-post-template.png)
+![Using REST in Mendix](attachments/rest-post-template.png)
 {{% /image_container %}}

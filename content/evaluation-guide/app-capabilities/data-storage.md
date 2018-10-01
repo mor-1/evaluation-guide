@@ -1,7 +1,7 @@
 ---
 title: "Data Storage"
 seo_title: "Data Storage Tools - Persistable & Non-Persistable Objects"
-seo_description: "Visit to learn how to define data in the Mendix platform, the difference between persistable & non-persistable objects & how object-relational mapping works."
+seo_description: "Visit to learn how to define data in the Mendix Platform, the difference between persistable & non-persistable objects, & how object-relational mapping works."
 parent: "data-management"
 menu_order: 10
 bg: "data"

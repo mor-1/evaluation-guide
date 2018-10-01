@@ -1,7 +1,7 @@
 ---
 title: "Data Mappings"
 seo_title: "Data Mapping Support in Mendix - JSON Snippets, XMLs, WDSLs, REST"
-seo_description: "Learn how Mendix gives you both advanced control over mappings & an intuitive visual editor for defining your mappings, be it JSON, XML or WSDL."
+seo_description: "Learn how Mendix gives you both advanced control over mappings & an intuitive visual editor for defining your mappings, be it JSON, XML, or WSDL."
 parent: "integration"
 menu_order: 20
 bg: "integration"

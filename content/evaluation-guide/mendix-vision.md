@@ -1,7 +1,7 @@
 ---
 title: "The Mendix Vision"
 seo_title: "Mendix's Vision & Core Principles"
-seo_description: "Speed, Collaboration & Control are the 3 Mendix core principals. Visit to learn more about this vision that empowers Developers, Business & IT Departments."
+seo_description: "Speed, collaboration & control are the three Mendix core principles. Visit to learn more about this vision that empowers developers and business & IT departments."
 parent: "welcome"
 menu_order: 20
 bg: "mendix"

@@ -1,7 +1,7 @@
 ---
 title: "Openness (API & SDK)"
 seo_title: "Open API & SDK - Runtime, Platform & Model APIs"
-seo_description: "Learn what kinds of APIs Mendix exposes including runtime, platform, model APIs. Also learn where the openness & extensibility offered by Mendix can be applied."
+seo_description: "Learn what kinds of APIs Mendix exposes including Runtime, Platform, Model APIs. Also learn where the openness & extensibility offered by Mendix can be applied."
 parent: "openness-extensibility"
 menu_order: 20
 bg: "openness"

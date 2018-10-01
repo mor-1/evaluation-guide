@@ -1,5 +1,7 @@
 ---
 title: "Requirements Management"
+seo_title: "Agile Requirements Management for Application Development"
+seo_description: "Mendix supports integration with third-party project management tools & services on top of internal Agile tools such as backlog management & feedback gathering."
 parent: "requirements-intro"
 menu_order: 30
 bg: "agile"
@@ -21,13 +23,13 @@ The [Mendix Developer Portal](https://docs.mendix.com/developerportal/) is the c
 User story refinement is made even easier through the specific Buzz message threads available under each story. You can post update messages, which are centrally visible for all team members and stakeholders in the Developer Portal Buzz.
 
 {{% image_container width="600" %}}
-![](attachments/story-detail.png)
+![Application Development Story Details](attachments/story-detail.png)
 {{% /image_container %}}
 
 Any updates to the conversation on the **Story Details** page are also pushed to the central Buzz wall and the Mendix mobile app. All the users involved in the conversations receive notifications by email.
 
 {{% image_container width="300" %}}
-![](attachments/buzz-mobile.png)
+![Feedback Management on Mobile Devices](attachments/buzz-mobile.png)
 {{% /image_container %}}
 
 This integrated experience enables engaging stakeholders in the development process in order to effectively capture and validate requirements. With the Developer Portal, Mendix mobile app, and notifications system, the Mendix Platform provides stakeholders a unified interface for all ongoing development activity and enables actively taking part in that process.
@@ -43,7 +45,7 @@ On the [Stories](https://docs.mendix.com/developerportal/collaborate/stories) pa
 User stories can be labeled with, for example, the epics under which the stories belong. This means that both within the backlog and in the scheduled Sprints, an individual user story can be easily identified as belonging to a certain set of stories. This enables the development team to group stories together across Sprints, so they can stay in control of their backlog and scheduled stories.
 
 {{% image_container width="600" %}}
-![](attachments/colored-labels.png)
+![Using Colored Labels Example](attachments/colored-labels.png)
 {{% /image_container %}}
 
 ## 3 How Can I Integrate Mendix with Third-Party Project Management Tooling? {#tooling}
@@ -59,13 +61,13 @@ Mendix recommends that teams starting with Mendix for the first time leverage al
 Development teams and their stakeholders can track the current status of the team in the Sprint on the implementation of user stories through the Scrum board in the Development Portal. The story state (**To-do**, **Running**, or **Done**) is set by the team for each user story as they progress, and this is represented on the Scrum board:
 
 {{% image_container width="600" %}}
-![](attachments/scrum-board.png)
+![Using a Scrum Board](attachments/scrum-board.png)
 {{% /image_container %}}
 
 Burndown charts provide insight into the progress of the  Sprint:
 
 {{% image_container width="500" %}}
-![](attachments/burndown.png)
+![Project Management Burndown Chart](attachments/burndown.png)
 {{% /image_container %}}
 
 These reports give insight into progress on the implementation of business requirements. For advanced project management functionality, development teams can set up [integrations with third-party project management tools](#tooling).
@@ -75,15 +77,15 @@ These reports give insight into progress on the implementation of business requi
 Developers can commit changes made to their application models with a reference to the user stories defined for those aplications in the Developer Portal. This enables development teams to go back and check for commits when they need to know why a change was made. Alternatively, developers can review the changes associated with a user story.
 
 {{% image_container width="600" %}}
-![](attachments/story-revisions.png)
+![Application Development Story Revisions](attachments/story-revisions.png)
 {{% /image_container %}}
 
 For more details, see the section on how [user stories can be cross-referenced with Team Server commits](version-control#cross-reference) in *Version Control & Multi-User Development*.
 
-## 6 How Can I Audit the Changes Made to Requirements? 
+## 6 How Can I Audit the Changes Made to Requirements?
 
-All the changes made to user stories are recorded in an audit trail for future reference. This audit trail shows which user made the change. It also allows for rollback. 
+All the changes made to user stories are recorded in an audit trail for future reference. This audit trail shows which user made the change. It also allows for rollback.
 
 {{% image_container width="600" %}}
-![](attachments/story-history.png)
+![Application Development Story History](attachments/story-history.png)
 {{% /image_container %}}

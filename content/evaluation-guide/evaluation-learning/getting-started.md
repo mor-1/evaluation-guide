@@ -1,5 +1,7 @@
 ---
 title: "Getting Started"
+seo_title: "Getting Started on Mendix, Onboarding New Users & Evaluating the Platform"
+seo_description: "Learn where to get started with the Mendix Platform, how to make the most of the free Community Edition, how Mendix onboards new users & training options."
 parent: "evaluation"
 menu_order: 10
 bg: "evaluation"

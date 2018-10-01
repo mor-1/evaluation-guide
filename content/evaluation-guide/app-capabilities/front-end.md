@@ -1,5 +1,7 @@
 ---
 title: "Front-End"
+seo_title: "Building Application Front-Ends in Mendix"
+seo_description: "Explore building front-ends for applications in Mendix and how to design beautiful apps that support client-side logic and more."
 parent: "ux-multi-channel-apps"
 menu_order: 10
 bg: "ux"
@@ -8,12 +10,12 @@ tags: [""]
 
 ## 1 How Does Mendix Support Multi-Channel Applications? {#support-multi-channel}
 
-Mendix allows you to combine web and mobile applications into the same app model using common development tools and a single code base. This increases productivity, reduces maintenance costs, and also reduces the need for differing skillsets to build web and mobile apps. 
+Mendix allows you to combine web and mobile applications into the same app model using common development tools and a single code base. This increases productivity, reduces maintenance costs, and also reduces the need for differing skillsets to build web and mobile apps.
 
 With Mendix, you can build responsive user interfaces that adapt automatically to the end-user’s device. By default, Mendix provides a full set of layouts, pages, building blocks, and widgets. There is a flexible grid system that can be easily nested and configured for different screen sizes. The Mendix front-end is based on [Bootstrap](https://getbootstrap.com/), which is also fully responsive, making it easy for (new) users to build responsive user interfaces.
 
 {{% image_container width="600" %}}
-![](attachments/web-modeler-test.png)
+![Mendix Web Modeler](attachments/web-modeler-test.png)
 {{% /image_container %}}
 
 To gain more flexibility and optimize the user experience, Mendix allows you to specify a user interface per device type (desktop, tablet, and mobile). In addition, it is possible to distinguish between a mobile website and a mobile app that can be installed. This can be done for both phones and tablets, which means you can build a mobile website and a native mobile app from a single model. Using the concept of navigation profiles, you can configure the channels and corresponding user flow for the app. Besides these navigation profiles, it is also possible to use the device type in the logic for other scenarios.
@@ -35,7 +37,7 @@ The [Atlas UI](https://atlas.mendix.com) framework offered on the Mendix Platfor
 Mendix offers various UI elements (called widgets) out of the box that can be used to build these rich user interfaces. Widgets can be placed directly on the page or combined in building blocks. Mendix provides widgets that include basic inputs, buttons, and text boxes as well as widgets for Google Maps, rich text, slider functionality, and much more. The Mendix community also develops, releases, and maintains over 600 hundred open-source custom widgets for use in app development via the [Mendix App Store](https://appstore.mendix.com). Next to this, it is also possible to extend Mendix with your own [custom widgets](#extend)
 
 {{% image_container width="550" %}}
-![](attachments/atlas-ui1.png)
+![Responsive Templates](attachments/atlas-ui1.png)
 {{% /image_container %}}
 
 Mendix apps can be fully styled (as discussed in [User Interface Design](ui-design)) and extended (as discussed below in the section [How Can I Extend the Mendix Front-End?](#extend)).
@@ -47,7 +49,7 @@ You can learn more about the possibilities of Mendix app UX in the Mendix Academ
 With Mendix, you can visually model client-side logic via nanoflows, which can be used in both web and mobile apps. Nanoflows do not require a connection, making them also very useful in [offline mobile apps](offline-apps#build-offline). They have the same language and editor as [microflows](https://docs.mendix.com/refguide/microflows), but they contain a different set of activities that is focused on client-side possibilities. Nanoflows fully run on the device or in the browser, making them very fast. Here is an example nanoflow:
 
 {{% image_container width="600" %}}
-![](attachments/nanoflow.png)
+![Nanoflow Logic Example](attachments/nanoflow.png)
 {{% /image_container %}}
 
 For more information, see [Nanoflows](https://docs.mendix.com/refguide/nanoflows) in the Mendix Reference Guide.

@@ -1,5 +1,7 @@
 ---
 title: "Strategic Partners"
+seo_title: "Mendix Strategic Partners Overview - IBM & SAP"
+seo_description: "Learn about Mendix strategic partnerships with IBM & SAP, what services & integrations can be employed, & deployment to the IBM Cloud."
 tags: [""]
 notoc: true
 ---

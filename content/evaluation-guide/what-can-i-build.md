@@ -1,5 +1,7 @@
 ---
 title: "What Can I Build?"
+seo_title: "What Can You Build - Use Cases for Low-Code Platforms"
+seo_description: "Learn what organizations can build with Mendix, what type of projects are a good fit & the common use cases for developing with low-code."
 parent: "welcome"
 bg: "mendix"
 menu_order: 50
@@ -16,7 +18,7 @@ The [Mendix App Gallery](https://gallery.mendix.com) showcases all kinds of appl
 
 A good way to explain what types of projects are a good fit with Mendix is to segment the type projects by using the Gartner’s [Pace-Layered Model](https://www.gartner.com/binaries/content/assets/events/keywords/applications/apn30/pace-layered-applications-research-report.pdf). Based on this model, an organization’s application landscape is made up of three distinct layers, each with a corresponding rate of change. This rate of change is dictated by the uniqueness of the solutions and how concrete the requirements are.
 
-![](attachments/blog-in-post-pace-payer-model-02.png)
+![Types of Application Projects Chart](attachments/blog-in-post-pace-payer-model-02.png)
 
 At the bottom of the model is the system of record, which is the foundation of the business. This a structurally solid system with a slow rate of change and well-defined requirements. In the middle is the system of differentiation, which focuses on fostering outside-in and customer-centric thinking, accelerating the rate of change, and developing unique approaches to sustain differentiation. And at the top is the system of innovation, which represents brand new ideas for the organization and thus has fuzzy requirements and a high rate of change.
 
@@ -39,7 +41,7 @@ Based on the experience of Mendix's hundreds of enterprise customers, there are 
 
 These four use cases are mapped to Gartner's Pace-Layered Model:
 
-![](attachments/blog-in-post-pace-payer-model-use-cases-03.png)
+![Mendix Application Use Cases Chart](attachments/blog-in-post-pace-payer-model-use-cases-03.png)
 
 The sections below describe these use cases in detail.
 

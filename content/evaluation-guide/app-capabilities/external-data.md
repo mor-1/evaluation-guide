@@ -1,5 +1,7 @@
 ---
 title: "External Data"
+seo_title: "External Data Support in Mendix - Integrated Data, External Databases, Excel, CSV Formats"
+seo_description: "Learn how to import and use external data in your Mendix application such as from Excel, SQL databases, and CSV files from the official evaluation guide."
 parent: "integration"
 menu_order: 50
 bg: "integration"

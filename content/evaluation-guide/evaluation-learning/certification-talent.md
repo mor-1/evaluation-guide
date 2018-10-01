@@ -1,5 +1,7 @@
 ---
 title: "Certification & Talent"
+seo_title: "Mendix Application Development Certification - University Program"
+seo_description: "Learn how to become Mendix-certified & what certifications are available. Also, learn about the Mendix University program & where to find Mendix developers."
 parent: "learning"
 menu_order: 20
 bg: "learning"
@@ -13,7 +15,7 @@ The [Mendix Developer Certification Program](https://gettingstarted.mendixcloud.
 Once you sign up on the platform, you will automatically join as a Mendix community member, so you can start training and building apps with Mendix right away. The three levels of Mendix certification that you can obtain after you join as a Mendix community member are described below.
 
 {{% image_container width="600" %}}
-![](attachments/certifications.png)
+![Mendix Certifications - Rapid Developer, Advanced Developer, Expert Developer](attachments/certifications.png)
 {{% /image_container %}}
 
 ### 1.1 Rapid Developer Certification
@@ -47,7 +49,7 @@ If you are you looking to hire external resources, the [Mendix Job Board](https:
 Every member of the [Mendix community](https://developer.mendixcloud.com/link/community) is ranked by Mendix points, and their level of Mendix certification is also displayed on their Community Profile. These factors allow you to get a clear picture of a developer’s experience. On the [Mendix Community site](https://developer.mendixcloud.com/link/community), you can search for specific skills, locations, and experience. Each developer has a profile where you can see examples of work and references.
 
 {{% image_container width="700" %}}
-![](attachments/devs.png)
+![Mendix Developers Site](attachments/devs.png)
 {{% /image_container %}}
 
 If you are looking for a Mendix partner company to help you with the implementation of a Mendix app development project, you can search through our extensive [list of Mendix partner companies](https://developer.mendixcloud.com/link/partneroverview). And for more information on Mendix partnerships, see [Strategic Partners](../strategic-partners/).

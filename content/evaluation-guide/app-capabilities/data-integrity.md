@@ -1,5 +1,7 @@
 ---
 title: "Data Integrity"
+seo_title: "Data Integrity Tools - Validation Rules, Event Handlers, Access Rules"
+seo_description: "Learn how Mendix ensures the integrity of data, what data types are supported, what validation rules can be used & all about event handlers & access rules."
 parent: "data-management"
 menu_order: 20
 bg: "data"
@@ -34,7 +36,7 @@ You can use the following types for your attributes:
 * **String** – text containing letter, numbers, spaces, and other characters
 
 {{% image_container width="600" %}}
-![](attachments/entity_data_types.png)
+![Entities Data Types](attachments/entity_data_types.png)
 {{% /image_container %}}
 
 For more details, see the section [Attributes](https://docs.mendix.com/refguide/attributes#type-1) in the Mendix Reference Guide.
@@ -45,7 +47,7 @@ Validation rules specify the rules to which your data should adhere. If your dat
 
 {{% image_container width="600" %}}
 
-![](attachments/entity_validation_rule.png)
+![Entities Validation Rules](attachments/entity_validation_rule.png)
 
 {{% /image_container %}}
 
@@ -62,7 +64,7 @@ Event handlers give you the ability to run logic before or after certain events.
 To set event handlers on all the entities in your application, you can use the Mendix Java API. For example, to set a before commit event listener for all entities, use this method: [Core.getListenersRegistry().registerAfterCommitListener](https://apidocs.mendix.com/7/runtime/index.html?com/mendix/core/actionmanagement/ListenersRegistry.html).
 
 {{% image_container width="600" %}}
-![](attachments/entity_event_handler.png)
+![Entities Event Handlers](attachments/entity_event_handler.png)
 {{% /image_container %}}
 
 ## 5 How Can I Configure Access Rules?
@@ -78,7 +80,7 @@ The access right aspects you can define on entities include the following:
 You can also use XPath constraints to define so-called **row-level security**, which defines what objects a user is allowed to see. This can be used to ensure customers can only see their data, case workers can only see data related to their cases, and tenants get access to only their tenant data in a multi-tenant application.
 
 {{% image_container width="600" %}}
-![](attachments/entity_access_rules.png)
+![Configuring Access Rules](attachments/entity_access_rules.png)
 {{% /image_container %}}
 
 ## 6 How Does Referential Integrity Work in Mendix?
@@ -95,8 +97,8 @@ Here are two examples:
 
 * **Delete {name of entity} object but keep {name of other entity} object(s) (default value)** – used if you want to delete any associated **Customer_Profile** when a **Customer** is deleted :
 
-  ![](attachments/referential-integrity-1.png)
+  ![Referential Integrity 1-to-1 Model](attachments/referential-integrity-1.png)
 
 * **Delete {name of entity} object only if it has no {name of other entity} object(s)** – used if you want to be able to delete a **Customer** only if it is not associated with any **Order**:
 
-  ![](attachments/referential-integrity-2.png)
+  ![Referential Integrity 1-to-Many Model](attachments/referential-integrity-2.png)

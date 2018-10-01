@@ -1,5 +1,7 @@
 ---
 title: "UX & Multi-Channel Apps"
+seo_title: "Building UX & Multi-Channel Applications with Mendix Low-Code Platform"
+seo_description: "Learn how Mendix supports building multi-channel, mobile and native applications & features that ensure superior UX no matter the device being used."
 category: "App Capabilities"
 menu_order: 10
 notoc: true
@@ -37,7 +39,7 @@ The most important point to make here is that you build offline apps using the s
 
 In addition, Mendix creates and synchronizes a local SQL database to persist data between the client and server automatically, requiring no additional skills to manage data movement when on- or offline.
 
-The default Mendix synchronization patterns can be overwritten by custom models, giving the developer full control of the synchronization in case the default patterns do not suffice. 
+The default Mendix synchronization patterns can be overwritten by custom models, giving the developer full control of the synchronization in case the default patterns do not suffice.
 
 For details, go to [How Can I Build an Offline Mobile App?](offline-apps#build-offline).
 

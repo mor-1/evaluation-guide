@@ -1,5 +1,7 @@
 ---
 title: "DevOps"
+seo_title: "DevOps, Continuous Integration & Delivery, & Quality Assurance Tools in Mendix"
+seo_description: "Learn how Mendix supports DevOps, continuous integration & delivery (CI/CD), test automation & quality assurance for the application development lifecycle."
 category: "App Lifecycle"
 notoc: true
 menu_order: 30
@@ -9,7 +11,7 @@ tags: ["devops", "continuous integration", "deploying", "monitoring", "apm", "da
 
 Mendix provides DevOps tools out of the box for continuous integration and continuous delivery (CI/CD), test automation, and monitoring (among other services) so that your development team can embrace the DevOps way of working. Your team can rapidly build, test, release, and maintain applications in production environments more autonomously with Mendix while ensuring compliance with your enterprise requirements. They can also use the Mendix Platform APIs to support direct integration with your existing CI/CD pipeline.
 
-![](attachments/devops-cycle.png)
+![DevOps Cycle Diagram](attachments/devops-cycle.png)
 
 ## How Does Mendix Support DevOps?
 
@@ -25,7 +27,7 @@ For more information, see [How Does Mendix Support Continuous Integration and De
 
 ## What Mendix Tools Are Available for Test Automation & Quality Assurance?
 
-The Mendix Platform offers several features to ensure the quality of your applications, such as the integrated consistency checking of your models at design-time as well as Mendix AQM for monitoring your application model against the ISO 25010 standard for maintainability. The development roundtrip can be completed via Mendix ATS, which is a fully automated functional testing environment with test cases tied to user stories. 
+The Mendix Platform offers several features to ensure the quality of your applications, such as the integrated consistency checking of your models at design-time as well as Mendix AQM for monitoring your application model against the ISO 25010 standard for maintainability. The development roundtrip can be completed via Mendix ATS, which is a fully automated functional testing environment with test cases tied to user stories.
 
 Read on in the [What Mendix Tools Are Available for Test Automation & Quality Assurance?](test-automation-qa#qa-tools).
 

@@ -1,7 +1,7 @@
 ---
 title: "Security"
 seo_title: "Enterprise Security - Certified ISO/IEC 27001 Compliance"
-seo_description: "Learn how security handled at every level in the Mendix platform and which third party security certifications & assurance reports the platform has."
+seo_description: "Learn how security handled at every level in the Mendix Platform and which third-party security certifications & assurance reports the platform has."
 category: "Enterprise Capabilities"
 notoc: true
 menu_order: 50

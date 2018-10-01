@@ -1,7 +1,7 @@
 ---
 title: "SAP"
-seo_title: "Mendix - SAP Solution Extension Partner - S/4Hana & Success Factor"
-seo_description: "As an SAP Solution Extension partner, Mendix is able to extend SAP solutions like SAP Business Suite, SAP S/4HANA, SuccessFactors & more. Visit to learn more."
+seo_title: "Mendix - SAP Solution Extension Partner - S/4Hana & SuccessFactors"
+seo_description: "As an SAP Solution Extension partner, Mendix is able to extend SAP solutions like SAP Business Suite, SAP S/4HANA, SAP SuccessFactors & more. Visit to learn more."
 category: "Strategic Partners"
 notoc: true
 menu_order: 10

@@ -12,7 +12,7 @@ The Mendix Runtime executes your applications within the context of a cloud-nati
 
 ### 1.1 Which Component Is Responsible for Model Execution?
 
-The Mendix Runtime interprets and executes the models of your apps. The Runtime has a [12-factor-compatible](twelve-factor-architecture) design using industry-leading Java and Scala technologies.
+The Mendix Runtime interprets and executes the models of your apps. The Runtime has a [Twelve-Factor App-compatible](twelve-factor-architecture) design using industry-leading Java and Scala technologies.
 
 ### 1.2 How Does Mendix Execute Models? {#model-execution}
 

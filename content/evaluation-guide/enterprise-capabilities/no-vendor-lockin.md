@@ -1,7 +1,7 @@
 ---
 title: "No Vendor Lock-In"
-seo_title: "Vendor Lock-in - Avoid Being Locked in to the Mendix Platform"
-seo_description: "Learn how to avoid being locked in to the Mendix platform by exporting app models via the Mendix SDK & how to export data to a new database."
+seo_title: "Vendor Lock-In - Avoid Being Locked In to the Mendix Platform"
+seo_description: "Learn how to avoid being locked in to the Mendix Platform by exporting app models via the Mendix SDK & how to export data to a new database."
 parent: "openness-extensibility"
 menu_order: 10
 bg: "openness"

@@ -24,7 +24,7 @@ XPath is an easy-to-use query language that enables retrieving specific objects.
 With XPath, you can define expressions to filter the objects you are interested in, and you can use associations to retrieve and filter related objects.
 
 {{% image_container width="600" %}}
-![Xpath Example](attachments/xpath-example.png)
+![XPath Example](attachments/xpath-example.png)
 {{% /image_container %}}
 
 XPath automatically ensures that all the access rules you define on your entities are applied.

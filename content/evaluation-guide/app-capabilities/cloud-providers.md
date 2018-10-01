@@ -44,7 +44,7 @@ As the Mendix Cloud is based on Cloud Foundry, a buildpack is available at [http
 The container build within Cloud Foundry contains the full runtime setup for running your application. Together with a database service and optionally a storage service, you are able to run your application on Cloud Foundry.
 
 {{% image_container width="400" %}}
-![Mendix Container Setup - Webserver, Mendix Model, Mendix Runtime, Java, M2EE](attachments/mendix-container.png)
+![Mendix Container Setup - Web Server, Mendix Model, Mendix Runtime, Java, M2EE](attachments/mendix-container.png)
 {{% /image_container %}}
 
 ### 2.1 How Can I Use the Mendix Cloud Foundry Buildpack in Offline Mode?

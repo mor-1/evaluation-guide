@@ -1,5 +1,7 @@
 ---
 title: "Cloud Providers"
+seo_title: "Cloud Provider Support - SAP, IBM, AWS, Azure, Pivotal, Cloud Foundry, Docker"
+seo_description: "Mendix is compatible with IBM Cloud, SAP Cloud, Azure, AWS, OpenShift & Google Cloud, & supports Cloud Foundry, Kubernetes & Docker. Visit to learn more!"
 parent: "deployment"
 menu_order: 20
 bg: "multicloud"
@@ -12,7 +14,7 @@ Mendix is compatible with all the well-known cloud providers: IBM Cloud, SAP Clo
 
 In addition, Mendix has formal partnerships with SAP, IBM, Microsoft, and AWS. Both [SAP](../strategic-partners/sap) and [IBM](../strategic-partners/ibm) are official resellers and see Mendix as an extension of their own cloud offerings.
 
-![](attachments/CloudProvIdersLogos.png)
+![Cloud Providers - SAP, IBM, AWS, Azure, Pivotal](attachments/CloudProvIdersLogos.png)
 
 This table presents an overview of the deployment options for each provider:
 
@@ -35,14 +37,14 @@ The key benefits of using Cloud Foundry are user governance, high control combin
 
 An application runs in a fully isolated container, consuming the specific services that are connected to this container. To deploy an application on Cloud Foundry, a compatible buildpack needs to be available that is responsible for compiling, building, and running the application on Cloud Foundry.
 
-![](attachments/buildpack-cf.png)
+![Running Application Models on Cloud Foundry](attachments/buildpack-cf.png)
 
 As the Mendix Cloud is based on Cloud Foundry, a buildpack is available at [https://github.com/mendix/cf-mendix-buildpack](https://github.com/mendix/cf-mendix-buildpack) to deploy a Mendix application to any Cloud Foundry offering. This buildpack is part of the open-source Cloud Foundry community and is officially supported by Mendix. For more information, see the [cf-mendix-buildpack repository documentation](https://github.com/mendix/cf-mendix-buildpack).
 
 The container build within Cloud Foundry contains the full runtime setup for running your application. Together with a database service and optionally a storage service, you are able to run your application on Cloud Foundry.
 
 {{% image_container width="400" %}}
-![](attachments/mendix-container.png)
+![Mendix Container Setup - Web Server, Mendix Model, Mendix Runtime, Java, M2EE](attachments/mendix-container.png)
 {{% /image_container %}}
 
 ### 2.1 How Can I Use the Mendix Cloud Foundry Buildpack in Offline Mode?
@@ -61,7 +63,7 @@ Mendix provides a Docker buildpack as a generic Docker build file. This buildpac
 
 For building a Docker image, the standard `Docker build` command can be used. This will result in an image containing the full runtime setup for your application.
 
-![](attachments/buildpack-docker.png)
+![Running Application Models on Docker](attachments/buildpack-docker.png)
 
 Along with a database and optionally a storage service, you will be able to run your application.
 
@@ -76,7 +78,7 @@ To run a Mendix application with high availability on a Kubernetes cluster, the 
 If the application needs file storage, this can be attached using a standard storage classed to the StatefullSet or by using cloud services like AWS S3 storage, Azure Blob storage, or IBM Swift storage.
 
 {{% image_container width="600" %}}
-![](attachments/kubernetes.png)
+![Running Mendix on Kubernetes Chart](attachments/kubernetes.png)
 {{% /image_container %}}
 
 For more details, see [How to Run Mendix on Kubernetes](https://docs.mendix.com/deployment/docker/run-mendix-on-kubernetes) in the Mendix documentation.

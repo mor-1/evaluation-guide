@@ -1,5 +1,7 @@
 ---
 title: "Runtime Security"
+seo_title: "Mendix Security Model - User Roles, Passwords, Data Level Security"
+seo_description: "Learn how application security is defined in Mendix, including defining user roles & password policies, module roles & module-level security, & more!"
 parent: "security"
 menu_order: 35
 bg: "security"
@@ -13,7 +15,7 @@ Before understanding how security is handled in a Mendix application, it is impo
 In a Mendix application, the UI layer is implemented in the Mendix Client as JavaScript libraries running in the browser. For hybrid mobile applications, the UI layer runs in a native Cordova container. The logic and data layers are implemented in the Mendix Runtime (the Mendix Runtime itself is developed in Java and runs on a Java virtual machine).
 
 {{% image_container width="600" %}}
-![](attachments/mendix-architecture.png)
+![Runtime Architecture](attachments/mendix-architecture.png)
 {{% /image_container %}}
 
 Within the Mendix Client, we implement measures against JavaScript-based security threats such as cross-site scripting. This prevents other websites and web applications running in the same browser from obtaining sensitive information from the Mendix app (for example, cookies).
@@ -31,7 +33,7 @@ The core interface of the Mendix Runtime (which is responsible for the execution
 Data security in Mendix is handled by defining the data access rules on your entities. Per entity, you can define who can see what data and who can create or delete data.
 
 {{% image_container width="600" %}}
-![](attachments/entity_access_rules.png)
+![Entity Access Rules](attachments/entity_access_rules.png)
 {{% /image_container %}}
 
 These rules will be applied anytime your application uses an entity. The rules will be automatically applied to XPath retrieves done in your model. You can define XPath constraints on entities, which means you can define access rules depending on the user role or organization. This can be used to ensure strict data separation in multi-tenant applications.
@@ -44,7 +46,7 @@ The Mendix Runtime and the Mendix Client have out-of-the-box security measures t
 
 ## 4 Does My Mendix App Comply with the OWASP Top 10?
 
-The Mendix Runtime protects your application and data according to your model, wherein the Mendix Cloud handles security at the infrastructural level. The Mendix Runtime takes care of most known security threats (OWASP top 10) out of the box, as the functionality where most common security mistakes take place is abstracted away from developers. 
+The Mendix Runtime protects your application and data according to your model, wherein the Mendix Cloud handles security at the infrastructural level. The Mendix Runtime takes care of most known security threats (OWASP top 10) out of the box, as the functionality where most common security mistakes take place is abstracted away from developers.
 
 For more information on keeping your Mendix application safe from attackers, see [Best Practices for Mendix Application Security](https://docs.mendix.com/howtogeneral/bestpractices/best-practices-security-and-improvements-for-mendix-applications) in the Mendix documentation.
 

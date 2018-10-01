@@ -1,5 +1,7 @@
 ---
 title: "Version Control & Multi-User Development"
+seo_title: "Version Control Management Tools & Multi-user Application Development"
+seo_description: "Learn how the Mendix Team Server uses SVN technology to enable multiple developers to work on projects, continuously merging model changes into revisions."
 parent: "developing-in-mendix"
 bg: "developing"
 menu_order: 50
@@ -18,7 +20,7 @@ Mendix supports the use of a centralized version control repository based on Sub
 
 This diagram presents the Mendix version control architecture:
 
-![](attachments/TeamServer.png)
+![Application Development Team Server](attachments/TeamServer.png)
 
 Developers can manage revisions and conflicts as well as create branch lines, which can be merged back to a mainline branch as required. Every change in the platform is recorded and compared against other revisions to detect conflicts and manage updates. Users are invited to app projects via the [Developer Portal](https://sprintr.home.mendix.com/index.html) and assigned security roles, which allow them appropriate access rights to the models held in Team Server.
 
@@ -32,13 +34,13 @@ Mendix provides an integrated development experience between the Team Server ver
 * Team members can start **discussions** in the Web Modeler and the app project Buzz on implemented features (for example, on a dashboard page or business logic in a microflow).
 
 {{% image_container width="600" %}}
-![](attachments/SeeBuzzComment.png)
+![Feedback Comments](attachments/SeeBuzzComment.png)
 {{% /image_container %}}
 
 From these discussions, new user stories can be created and implemented in the Desktop Modeler. When linking the model commits to the user story, the full feedback cycle is ready and also cross-referenced.
-	
+
 {{% image_container width="600" %}}
-![](attachments/SeeUserStoryFromBuzzCommentInDM.png)
+![Application Development User Stories](attachments/SeeUserStoryFromBuzzCommentInDM.png)
 {{% /image_container %}}
 
 ## 4 How Do I Use My Own SVN Repository Instead of Mendix Team Server? {#ts-on-prem}
@@ -53,7 +55,7 @@ A development project always starts with a single development line, which is cal
 
 A deployment from the main line must contain all the (released) functions of the application. In addition to the main line, a project can have multiple branch lines. Branches are made from a specific commit (revision) to the main line or a branch line. Creating a branch means that a copy is made of the selected revision that will be used as the starting revision for the new development line. This enables the developer to change the model in an isolated line. In most cases, a branch line is used for solving issues in a released version of the application at the same time as ongoing development continues in the main line. This allows for new development in the main line without the release of functionality that has not been finalized or tested. After you create a branch and solve the issue (or create a new large feature), it is possible to merge these changes with the main line.
 
-![](attachments/branching-merging.png)
+![Application Development Branching and Merging](attachments/branching-merging.png)
 
 Thanks to Mendix's model-driven development approach, merging models takes place with a higher level of accuracy than merging code. This is because Mendix understands the semantics of the models. This results in fewer conflicts, and if conflicts do arise, they can be resolved in the Mendix Desktop Modeler through the consistency checking mechanisms described above.
 

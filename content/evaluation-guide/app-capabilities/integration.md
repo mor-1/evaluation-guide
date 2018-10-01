@@ -1,5 +1,7 @@
 ---
 title: "Integration"
+seo_title: "Integrations in Mendix - Data Mapping Support, REST & Web Services"
+seo_description: "Learn how simple it is to integrate with Mendix through REST API, SOAP Web Services & OData as well as how the platform supports data mapping."
 category: "App Capabilities"
 notoc: true
 menu_order: 30
@@ -10,12 +12,12 @@ tags: [""]
 Mendix supports connections to other apps and services through industry-standard interfaces and protocols such as REST, SOAP, JDBC, and OData. The platform offers many solutions for ensuring that new applications can both consume and expose data and services in heterogeneous environments.
 
 {{% image_container width="400" %}}
-![](attachments/integration-overview.png)
+![Mendix Integrations - JSON, REST, SOAP, OData](attachments/integration-overview.png)
 {{% /image_container %}}
 
 ## How Can I Integrate with Mendix?
 
-Connecting applications and services is simple with Mendix. There are several ways that we enable integration, ranging from consuming and exposing REST APIs, SOAP web services, and OData, to implementing connectors that use external SDKs to extend the native toolbox of the Mendix Platform with integrations such as Kafka event streams, Redis, MQTT, Slack, Twitter, and Salesforce. Many connectors already exist in the Mendix App Store, and they can be downloaded for immediate use inside your applications. Alternatively, you can build your own connectors with our Connector Kit. 
+Connecting applications and services is simple with Mendix. There are several ways that we enable integration, ranging from consuming and exposing REST APIs, SOAP web services, and OData, to implementing connectors that use external SDKs to extend the native toolbox of the Mendix Platform with integrations such as Kafka event streams, Redis, MQTT, Slack, Twitter, and Salesforce. Many connectors already exist in the Mendix App Store, and they can be downloaded for immediate use inside your applications. Alternatively, you can build your own connectors with our Connector Kit.
 
 For more information, see [How Can I Integrate with Mendix?](integration-overview#integrate-with).
 

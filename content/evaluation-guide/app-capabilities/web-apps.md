@@ -1,5 +1,7 @@
 ---
 title: "Web Apps"
+seo_title: "Building Web Applications in Mendix - Responsive Design"
+seo_description: "Learn how Mendix web apps work & how Mendix's responsive design means applications will look great no matter which resolution or device they're displayed on."
 parent: "ux-multi-channel-apps"
 menu_order: 40
 bg: "ux"
@@ -35,7 +37,7 @@ Mendix offers several options for extending web apps. These are discussed in the
 Mendix offers an integrated [Application Testing Suite (ATS)](https://docs.mendix.com/ats/), in which (non-technical) users can test web applications using recorded test scripts on multiple browsers and multiple devices.
 
 {{% image_container width="600" %}}
-![](attachments/ats.png)
+![Application Testing Suite](attachments/ats.png)
 {{% /image_container %}}
 
 It is also possible to use standard test tooling, like [Selenium](https://www.seleniumhq.org/). Because Mendix widgets have unique identifiers in the document object model (DOM), test tooling can easily leverage these IDs to create readable and robust test scripts.

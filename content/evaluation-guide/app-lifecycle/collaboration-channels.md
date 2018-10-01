@@ -1,5 +1,7 @@
 ---
 title: "Collaboration Channels"
+seo_title: "Collaboration Development Tools for App Development"
+seo_description: "Mendix's project space provides backlog management, Sprint planning & user feedback management, DevOps features, & a central social channel. Visit to learn more"
 parent: "requirements-intro"
 menu_order: 20
 bg: "agile"
@@ -23,7 +25,7 @@ The Mendix Platform provides various channels of engagement for different stakeh
 The [Mendix Developer Portal](https://docs.mendix.com/developerportal/) is where stakeholders can collaborate and perform requirements management. This is usually the place where product managers, product owners, and similar roles specify user stories, review feedback, prioritize the backlog, and provide their input to the development team through the Buzz.
 
 {{% image_container width="600" %}}
-![](attachments/app-project-buzz.png)
+![Collaboration Tool Example](attachments/app-project-buzz.png)
 {{% /image_container %}}
 
 Stakeholders can post updates, comments, and photos as well as upload documents and publish polls. All the updates can be posted both to a company-wide Buzz channel as well as to project-specific Buzz channels.
@@ -43,7 +45,7 @@ Developers can [preview and test their app](../app-capabilities/mobile-apps#mxap
 Any developer, product manager, key end-user, or other stakeholder collaborating on app development with Mendix can easily take part in the conversation around the development of the app at any time with the Buzz functionality in the Mendix mobile app.
 
 {{% image_container width="300" %}}
-![](attachments/buzz-mobile.png)
+![Mendix Collaboration Tool on Mobile](attachments/buzz-mobile.png)
 {{% /image_container %}}
 
 ### 1.4 How Can Stakeholders Get Involved via Email Notifications?
@@ -51,7 +53,7 @@ Any developer, product manager, key end-user, or other stakeholder collaborating
 All the users involved in a Mendix application project receive relevant and timely email notifications for the Buzz and other updates of interest. This includes responses to submitted feedback items and status changes (for example, feedback items that have been completed).
 
 {{% image_container width="500" %}}
-![](attachments/buzz-notification.png)
+![Mendix Collaboration Tool Notification](attachments/buzz-notification.png)
 {{% /image_container %}}
 
 ### 1.5 How Can Stakeholders Get Involved via the Central Buzz? {#buzz}
@@ -73,7 +75,7 @@ If you receive an invitation but do not yet have a Mendix account, the Mendix Pl
 Application development project resources are centrally managed from the Mendix Developer Portal with an advanced role-based access control model. Users can have different roles, which can be configured to allow for various levels of access to project resources. For example, some users might be allowed to make changes to the product backlog, while others might get access to the app model in the Team Server repository.
 
 {{% image_container width="600" %}}
-![](attachments/team-security.png)
+![Mendix Security User Roles Example](attachments/team-security.png)
 {{% /image_container %}}
 
 By default, Mendix provides a set of sensible user roles, such as **Scrum Master**, **Business Engineer**, **Product Owner**, **Application Operator**, and **End User**. These roles can be modified to suit your particular organization's access management requirements.

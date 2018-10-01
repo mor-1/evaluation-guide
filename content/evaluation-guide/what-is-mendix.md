@@ -1,5 +1,7 @@
 ---
 title: "What Is Mendix?"
+seo_title: "What Is Mendix & How Does It Support the App Development Lifecycle?"
+seo_description: "What is Mendix? Mendix is a low-code application development platform that facilitates the app creation process from conception to deployment. Visit for more."
 parent: "welcome"
 bg: "mendix"
 menu_order: 30
@@ -8,7 +10,7 @@ tags: [""]
 
 ## 1 What Is Mendix?
 
-Mendix is a high productivity app platform that enables you to build and continuously improve mobile and web applications at scale. The Mendix Platform is designed to accelerate enterprise app delivery across your entire application development lifecycle, from ideation to deployment and operations. 
+Mendix is a high productivity app platform that enables you to build and continuously improve mobile and web applications at scale. The Mendix Platform is designed to accelerate enterprise app delivery across your entire application development lifecycle, from ideation to deployment and operations.
 
 Mendix enables you to implement both Agile and DevOps best practices. It even goes beyond that by involving business stakeholders in the actual development of the applications.
 
@@ -27,7 +29,7 @@ Based on our three core principles of **speed**, **collaboration**, and **contro
 
 This section explains all the components of the Mendix Platform that enable you to accelerate every step of your app life cycle, from ideation to development, deployment, testing, and the ongoing management of your application portfolio in the cloud or on premises.
 
-![](attachments/accelerate-app-journey.png)
+![Application Development Cycle Chart](attachments/accelerate-app-journey.png)
 
 ### 2.1 Ideation & Requirements Management
 
@@ -46,7 +48,7 @@ The next step is to develop your application and convert ideas into apps. Mendix
 * **Product Owners & Scrum Masters** can use the Mendix Developer Portal to govern user requirements, end-user feedback, and Sprint backlogs.
 * **End-users** involved in running acceptance tests can use the app in combination with the Mendix Feedback Widget. This feedback is directly connected to the Mendix Developer Portal, so the Product Owner can review and validate the user feedback.
 
-With Mendix, development is visual from start till finish, which ensures that the customer is engaged and requirements are aligned throughout the development cycle. 
+With Mendix, development is visual from start till finish, which ensures that the customer is engaged and requirements are aligned throughout the development cycle.
 
 To make sure developers do not get stuck, Mendix makes sure that any model is extensible. In this way, highly specific application features and low-level optimizations can be built without sacrificing the benefits of model-driven development.
 
@@ -58,8 +60,8 @@ To discover more about all these capabilities, see [Developing in Mendix](app-li
 
 Mendix provides all the cloud deployment options you need and is fully optimized for compatibility with the latest cloud platforms and technologies. Running and deploying your Mendix app in the Mendix Cloud is easy, fast, and flexible. The Mendix Cloud is a PaaS-based cloud offering based on Cloud Foundry technology. A Mendix app runs in a container provided by Cloud Foundry and has standard support for horizontal and vertical scaling (without any downtime) as well as auto-healing.
 
-The ability to deploy with one click to any cloud environment or on premises directly from Mendix's modeling environment enables developers with any background to bring applications to their users. In short, the Mendix Platform enables development teams to embrace the DevOps way of working, which means that a single team can develop, maintain, and support apps in production while adhering to enterprise requirements. 
+The ability to deploy with one click to any cloud environment or on premises directly from Mendix's modeling environment enables developers with any background to bring applications to their users. In short, the Mendix Platform enables development teams to embrace the DevOps way of working, which means that a single team can develop, maintain, and support apps in production while adhering to enterprise requirements.
 
-<video controls src="attachments/Deployment-Operations.mp4">VIDEO</video> 
+<video controls src="attachments/Deployment-Operations.mp4">VIDEO</video>
 
 Read more in the [DevOps Overview](app-lifecycle/devops-overview) about why cloud technology is at the core of the Mendix Platform.

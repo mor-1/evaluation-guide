@@ -1,5 +1,7 @@
 ---
 title: "Gartner & Forrester Views"
+seo_title: "Gartner Magic Quadrant & Forrester Wave Analyses "
+seo_description: "Mendix is a recognized leader as a low-code application development platform by analysts Gartner & Forrester. Visit to learn why."
 parent: "welcome"
 menu_order: 70
 bg: "mendix"
@@ -10,7 +12,7 @@ tags: [""]
 
 Mendix is a leader in four analyst reports at the same time. This page will provide an overview of these reports along with links for downloading the reports.
 
-![](attachments/magic-quadrants.png)
+![Gartner Magic Quadrant and Forrester Wave Example](attachments/magic-quadrants.png)
 
 ## 2 Gartner 2018 Magic Quadrant for High-Productivity Application Platform as a Service
 

@@ -1,5 +1,7 @@
 ---
 title: "Requirements"
+seo_title: "Requirements Management - Agile Methodologies"
+seo_description: "From ideation & development through deployment, maintenance, & analytics, Mendix supports Agile project management, governance tools, & feedback loops."
 category: "App Lifecycle"
 notoc: true
 bg: "agile"
@@ -7,10 +9,10 @@ menu_order: 10
 tags: ["agile", "project management", "feedback", "dashboard", "traceability"]
 ---
 
-Capturing and managing requirements using Agile methodologies is critical to the success of any software development lifecycle (SDLC). This enables cross-functional teams to close the feedback loop by working collaboratively and iteratively while accelerating the development process towards better and faster business outcomes. 
+Capturing and managing requirements using Agile methodologies is critical to the success of any software development lifecycle (SDLC). This enables cross-functional teams to close the feedback loop by working collaboratively and iteratively while accelerating the development process towards better and faster business outcomes.
 
 {{% image_container width="400" %}}
-![](attachments/cycle-1.png)
+![Requirements Cycle - Capture, Plan, Develop, Deploy, Review](attachments/cycle-1.png)
 {{% /image_container %}}
 
 ## Why Is Requirements Management Integrated in Mendix?
@@ -21,7 +23,7 @@ Read on in [Why Is Requirements Management Integrated in Mendix?](requirements-o
 
 ## How Does Mendix Support Requirements Management?
 
-Mendix supports requirements management through integrated, simple, and intuitive tools for story definition, backlog management, Sprint and release planning, and velocity mapping. These tools enable all stakeholders to curate a backlog of user stories into Sprint plans for development. The Mendix Platform APIs provide integration hooks to draw requirements from third-party tools to integrate with your existing requirements planning software. 
+Mendix supports requirements management through integrated, simple, and intuitive tools for story definition, backlog management, Sprint and release planning, and velocity mapping. These tools enable all stakeholders to curate a backlog of user stories into Sprint plans for development. The Mendix Platform APIs provide integration hooks to draw requirements from third-party tools to integrate with your existing requirements planning software.
 
 See [How Does Mendix Support Requirements Management?](requirements-management#requirements-management) for more details.
 

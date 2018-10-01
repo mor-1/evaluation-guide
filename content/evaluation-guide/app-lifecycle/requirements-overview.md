@@ -1,5 +1,7 @@
 ---
 title: "Requirements Overview"
+seo_title: "Application Development Requirements Management Overview"
+seo_description: "Learn how Mendix helps to shorten the feedback loop between development teams, users & stakeholders to lower costs & decrease time-to-market."
 parent: "requirements-intro"
 menu_order: 10
 bg: "agile"

@@ -1,5 +1,7 @@
 ---
 title: "Deployment"
+seo_title: "Application Deployment - Cloud-Native Stateless Runtime Architecture"
+seo_description: "Mendix apps run on the platform’s cloud-native stateless runtime architecture with support for Docker, Kubernetes, and Cloud Foundry. Visit to learn more."
 category: "App Capabilities"
 notoc: true
 menu_order: 40
@@ -10,12 +12,12 @@ tags: [""]
 Mendix applications run on the platform's cloud-native stateless runtime architecture that conforms to 12-factor principles with support for modern cloud platforms such as Docker, Kubernetes and Cloud Foundry. As a result, Mendix apps benefit from auto-scaling, auto-provisioning, auto-healing, low infrastructure overhead, CI/CD, and cloud interoperability out of the box.
 
 {{% image_container width="400" %}}
-![](attachments/deployment-overview.png)
+![Deployment to the Cloud](attachments/deployment-overview.png)
 {{% /image_container %}}
 
 ## What Deployment Options Does Mendix Provide?
 
-Mendix applications run on a variety of deployment options, including public cloud, virtual private cloud, private cloud, hybrid cloud, and traditional (virtual) servers. 
+Mendix applications run on a variety of deployment options, including public cloud, virtual private cloud, private cloud, hybrid cloud, and traditional (virtual) servers.
 
 For deployment details, see [What Deployment Options Does Mendix Provide?](multi-cloud-overview#deployment-options).
 
@@ -29,8 +31,8 @@ For details, see [How Do I Run & Deploy My Mendix Application?](multi-cloud-over
 
 Mendix supports all the major cloud providers:
 
-* IBM Cloud 
-* SAP Cloud Platform 
+* IBM Cloud
+* SAP Cloud Platform
 * Microsoft Azure
 * Amazon Web Services (AWS)
 * Red Hat OpenShift

@@ -1,7 +1,7 @@
 ---
 title: "Platform Architecture"
 seo_title: "Enterprise Architecture Platform - Modules & Services"
-seo_description: "Learn about the key components of the Mendix platform architecture: developers portal, Desktop & Web Modelers, Team Server, Cloud Portal & App Store."
+seo_description: "Learn about the key components of the Mendix Platform architecture: Developer Portal, Desktop & Web Modelers, Team Server, Cloud Portal & App Store."
 parent: "architecture-intro"
 menu_order: 20
 bg: "architecture"

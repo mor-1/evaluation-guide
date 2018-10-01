@@ -1,7 +1,7 @@
 ---
 title: "Deployment"
 seo_title: "Application Deployment - Cloud-Native Stateless Runtime Architecture"
-seo_description: "Mendix apps run on the platform’s cloud-native stateless runtime architecture with support for Docker, Kubernetes and Cloud Foundry. Visit to learn more."
+seo_description: "Mendix apps run on the platform’s cloud-native stateless runtime architecture with support for Docker, Kubernetes, and Cloud Foundry. Visit to learn more."
 category: "App Capabilities"
 notoc: true
 menu_order: 40

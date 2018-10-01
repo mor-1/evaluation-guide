@@ -1,7 +1,7 @@
 ---
 title: "Support"
 seo_title: "Mendix Support - Forum & Community, Documentation & In-Product Chat"
-seo_description: "Learn about all the resources Mendix provides to assist the use of the platform, including forum & community support, documentation, the Support Team & more."
+seo_description: "Learn about all the resources Mendix provides to assist the use of the platform, including the Mendix Forum & community support, documentation, the Support Team & more."
 parent: "evaluation"
 bg: "evaluation"
 menu_order: 20

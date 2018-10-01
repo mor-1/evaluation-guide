@@ -1,7 +1,7 @@
 ---
 title: "Data Management"
 seo_title: "Data Management Tools - Database Support, Object-Relational Mapping, Security"
-seo_description: "Wondering how Mendix handles data management? Visit to learn about Mendix database support, how object-relational mapping (ORM) works and data security."
+seo_description: "Wondering how Mendix handles data management? Visit to learn about Mendix database support, how object-relational mapping (ORM) works, and data security."
 category: "App Capabilities"
 notoc: true
 menu_order: 20

@@ -25,13 +25,13 @@ Finally, you use the **Call REST** activity in your microflows to call the REST 
 When you have a WSDL (either from a Mendix application or from a third-party application), you can import it into your Mendix app. All you have to do is create a new consumed web service document and specify the location of your WSDL.
 
 {{% image_container width="600" %}}
-![Consuming Webservices](attachments/consumed_webservice.png)
+![Consuming Web Services](attachments/consumed_webservice.png)
 {{% /image_container %}}
 
 You can call any operation in the consumed web service via the **Call Web Service** activity in a microflow. When calling an external web service, you can use import and export mappings to ensure your domain models are easily converted to and from any messages you need to exchange with the service.
 
 {{% image_container width="600" %}}
-![Webservices Call](attachments/ws_call.png)
+![Web Services Call](attachments/ws_call.png)
 {{% /image_container %}}
 
 The Mendix Platform offers you all the control and flexibility you need when dealing with web services:
@@ -43,5 +43,5 @@ The Mendix Platform offers you all the control and flexibility you need when dea
 * **Binary attachments** – Mendix provides out-of-the-box support for efficiently sending binary data using the Message Transmission Optimization Mechanism (MTOM).
 
 {{% image_container width="600" %}}
-![Calling Webservices](attachments/call_web_Service.png)
+![Calling Web Services](attachments/call_web_Service.png)
 {{% /image_container %}}

@@ -48,7 +48,7 @@ After a few months of experience with Mendix app projects, you will be able to g
 
 The option to register for a three-day [classroom course](https://gettingstarted.mendixcloud.com/link/classroom) is also always available. These are taught by Mendix Academy experts.
 
-Based on a survey conducted amongst developers about learning low code, we got these answers:
+Based on a survey conducted amongst developers about learning low-code, we got these answers:
 
 {{% image_container width="700" %}}
 ![How Long Does It Take to Learn Low-code Chart](attachments/survey.png)

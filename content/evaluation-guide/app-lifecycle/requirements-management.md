@@ -1,7 +1,7 @@
 ---
 title: "Requirements Management"
 seo_title: "Agile Requirements Management for Application Development"
-seo_description: "Mendix supports integration with 3rd party project management tools & services on top of internal Agile tools such as backlog management & feedback gathering."
+seo_description: "Mendix supports integration with third-party project management tools & services on top of internal Agile tools such as backlog management & feedback gathering."
 parent: "requirements-intro"
 menu_order: 30
 bg: "agile"

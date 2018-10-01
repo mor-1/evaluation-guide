@@ -1,6 +1,6 @@
 ---
 title: "UX & Multi-Channel Apps"
-seo_title: "Building UX & Multichannel Applications with Mendix Low-Code Platform"
+seo_title: "Building UX & Multi-Channel Applications with Mendix Low-Code Platform"
 seo_description: "Learn how Mendix supports building multi-channel, mobile and native applications & features that ensure superior UX no matter the device being used."
 category: "App Capabilities"
 menu_order: 10

@@ -1,7 +1,7 @@
 ---
 title: "Certification & Talent"
 seo_title: "Mendix Application Development Certification - University Program"
-seo_description: "Learn how to become Mendix Certified & what certifications are available. Also, learn about the Mendix University program & where to find Mendix developers."
+seo_description: "Learn how to become Mendix-certified & what certifications are available. Also, learn about the Mendix University program & where to find Mendix developers."
 parent: "learning"
 menu_order: 20
 bg: "learning"

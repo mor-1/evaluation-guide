@@ -1,6 +1,6 @@
 ---
 title: "What Is Mendix?"
-seo_title: "What is Mendix & How Does it Support the App Development Lifecycle"
+seo_title: "What Is Mendix & How Does It Support the App Development Lifecycle?"
 seo_description: "What is Mendix? Mendix is a low-code application development platform that facilitates the app creation process from conception to deployment. Visit for more."
 parent: "welcome"
 bg: "mendix"

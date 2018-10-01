@@ -33,7 +33,7 @@ Mendix is all about the collaboration between business and IT, and the visual na
 The Mendix Web Modeler has review capabilities built in, which business users can utilize to review specific microflows describing the business logic. While reviewing that logic, such users can inspect what the logic does in a familiar visual language. They can also add comments on the microflow to describe the changes required to meet business requirements. This results in a very short feedback loop, leading to better products and lower costs.
 
 {{% image_container width="600" %}}
-![Feedback Comments in App project Example](attachments/buzz_comment.png)
+![Feedback Comments in App Project Example](attachments/buzz_comment.png)
 {{% /image_container %}}
 
 ## 3 How Do I Build Client-Side Logic?

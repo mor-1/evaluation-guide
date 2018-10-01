@@ -1,6 +1,6 @@
 ---
 title: "Front-End"
-seo_title: "Building Application Front-ends in Mendix"
+seo_title: "Building Application Front-Ends in Mendix"
 seo_description: "Explore building front-ends for applications in Mendix and how to design beautiful apps that support client-side logic and more."
 parent: "ux-multi-channel-apps"
 menu_order: 10

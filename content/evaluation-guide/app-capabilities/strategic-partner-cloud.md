@@ -1,7 +1,7 @@
 ---
 title: "Strategic Partner Clouds"
 seo_title: "Strategic Cloud Partners - SAP Cloud Platform, IBM Cloud"
-seo_description: "Learn more about Mendix strategic cloud partners and how Mendix runs on SAP Cloud Platforms & IBM Cloud in high availability, & what options are available."
+seo_description: "Learn more about Mendix strategic cloud partners and how Mendix runs on SAP Cloud Platform & IBM Cloud in high availability, & what options are available."
 parent: "deployment"
 menu_order: 50
 bg: "multicloud"
@@ -16,7 +16,7 @@ A Mendix application is deployed by the Mendix Development Portal using the Mend
 
 Based on the cloud-native architecture of the Mendix application as well as the Cloud Foundry capabilities, a Mendix app running on the SAP Cloud Platform is fully high-available, and it supports vertical, horizontal, and auto scaling.
 
-![Running Apps on SAP Cloud](attachments/runningonsapcloud.png)
+![Running Apps on SAP Cloud Platform](attachments/runningonsapcloud.png)
 
 ## 2 How Is the Mendix Development Portal Integrated with the SAP Cloud Platform?
 
@@ -33,7 +33,7 @@ You can use the Mendix Development Portal to control the app items below within 
 * Status
 
 {{% image_container width="600" %}}
-![SAP Development Portal Integration](attachments/sapdevportalintegration.png)
+![SAP & Development Portal Integration](attachments/sapdevportalintegration.png)
 {{% /image_container %}}
 
 This video presents how you can create an environment;

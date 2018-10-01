@@ -1,7 +1,7 @@
 ---
 title: "Organization & Compliance"
 seo_title: "Mendix Security Organization & Compliance - Certifications & Standards"
-seo_description: "Learn about security organization & compliance within the Mendix platform, 3rd-party security certifications, data access, risk assessments & more."
+seo_description: "Learn about security organization & compliance within the Mendix Platform, third-party security certifications, data access, risk assessments & more."
 parent: "security"
 menu_order: 10
 bg: "security"

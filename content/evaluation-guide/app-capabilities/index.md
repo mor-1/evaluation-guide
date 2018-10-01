@@ -1,7 +1,7 @@
 ---
 title: "App Capabilities"
 seo_title: "Mendix Low-Code Platform Application Capabilities"
-seo_description: "From data management & integration support, to building beautiful multi-channel apps with elegant UX design, the Mendix platform presents many powerful capabilities."
+seo_description: "From data management & integration support to building beautiful multi-channel apps with elegant UX design, the Mendix Platform presents many powerful capabilities."
 tags: [""]
 notoc: true
 ---

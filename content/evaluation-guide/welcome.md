@@ -12,7 +12,7 @@ Welcome to the Mendix Platform Evaluation Guide. In this chapter, we will presen
 
 We recommend first watching this video of our Chief Technology Officer, Johan den Haan:
 
-{{% youtube 5p23szMuhmI ?rel=0  %}}
+{{% youtube 5p23szMuhmI?rel=0  %}}
 
 ## Why Was Mendix Founded?
 

@@ -22,7 +22,7 @@ Apart from the company profile and settings, Mendix supports the definition of *
 
 The Mendix Cloud Portal allows administrators to manage users (defined in MxID) and configure role-based user access to environments to deploy and manage apps. The Cloud Portal security interface is integrated into the app project dashboard, so you have a 360° view of all the access rights for a specific person within the context of an app. Mendix enforces the segregation of duties between (at least) the developer and application administrator, whose roles are both safeguarded using personal accounts. Mendix will not allow you to configure a general management account, to ensure that all actions are traceable to a person.
 
-For more information, see [Roles Within the Company and Apps](https://docs.mendix.com/developerportal/general/roles) in the Mendix documentation.
+For more information, see [Company & App Roles](https://docs.mendix.com/developerportal/company-app-roles/) in the Mendix documentation.
 
 ## 4 How Does the Mendix Platform Support Multi-Factor Authentication?
 

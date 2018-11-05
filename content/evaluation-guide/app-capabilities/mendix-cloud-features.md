@@ -12,7 +12,7 @@ tags: [""]
 
 The Mendix Cloud has a full range of features that make it efficient for managing your application deployments and monitoring your app and database performance. The Mendix Cloud enables you to configure custom domains, backups, alerts, and logs. You can use the fine-grained access controls that are provided, and in the long term, you can use the rich set of tools for live debugging.
 
-The Mendix Cloud is the most optimized and self-service cloud for running Mendix applications. It comes with a rich set of features to ensure that your your applications are run with the best possible business continuity and self-control.
+The Mendix Cloud is the most optimized and self-service cloud for running Mendix applications. It comes with a rich set of features to ensure that your applications are run with the best possible business continuity and self-control.
 
 The sections below describe the features delivered by the Mendix Cloud.
 

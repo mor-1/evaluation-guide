@@ -7,6 +7,7 @@ notoc: true
 menu_order: 10
 bg: "sap"
 tags: [""]
+seo_video: "sap"
 ---
 
 Mendix has joined forces with SAP, the world leader in enterprise applications. This partnership has the goal of helping enterprises shorten time-to-value for web and mobile apps by leveraging their investments in SAP software.

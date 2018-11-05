@@ -6,6 +6,7 @@ parent: "welcome"
 bg: "mendix"
 menu_order: 60
 tags: [""]
+seo_video: "mendix-difference"
 ---
 
 ## 1 How Is Mendix Different?

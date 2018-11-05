@@ -16,7 +16,7 @@ Mendix has a vibrant community of tens of thousands users and active contributor
 
 ## 2 How Do I Use the Mendix Community Profile? {#community-profile}
 
-The [Mendix Community Profile](https://developer.mendixcloud.com/link/community) is integrated into all of the community tools. The profile encourages the online community to grow by enabling individual developers to showcase their projects and skills, and it serves as a human touch in your interactions with other Mendix community members. When you click the name of a community member somewhere on the Mendix Platform, their Community Profile will open and you can see all of the interesting and useful information about them. And if they have set their [profile to public](https://docs.mendix.com/community/tools/how-to-set-up-your-profile), you can contact them directly.
+The [Mendix Community Profile](https://developer.mendixcloud.com/link/community) is integrated into all of the community tools. The profile encourages the online community to grow by enabling individual developers to showcase their projects and skills, and it serves as a human touch in your interactions with other Mendix community members. When you click the name of a community member somewhere on the Mendix Platform, their Community Profile will open and you can see all of the interesting and useful information about them. And if they have set their [profile to public](https://docs.mendix.com/developerportal/mendix-profile/#public), you can contact them directly.
 
 {{% image_container width="600" %}}
 ![Mendix Community Profile Example](attachments/community-profile.png)

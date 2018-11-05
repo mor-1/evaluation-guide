@@ -6,6 +6,7 @@ category: "Overview"
 bg: "mendix"
 notoc: true
 tags: [""]
+seo_video: "welcome"
 ---
 
 Welcome to the Mendix Platform Evaluation Guide. In this chapter, we will present the essence of Mendix, including background details on why we found the company and what the Mendix vision is.

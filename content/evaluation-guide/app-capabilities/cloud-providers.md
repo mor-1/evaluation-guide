@@ -10,7 +10,7 @@ tags: [""]
 
 ## 1 Which Cloud Providers Can I Use for Mendix? {#which-cloud}
 
-Mendix is compatible with all the well-known cloud providers: IBM Cloud, SAP Cloud Platform, Microsoft Azure, Amazon Web Services (AWS), Redhat Openshift, and Google Coud Platform.
+Mendix is compatible with all the well-known cloud providers: IBM Cloud, SAP Cloud Platform, Microsoft Azure, Amazon Web Services (AWS), Redhat Openshift, and Google Cloud Platform.
 
 In addition, Mendix has formal partnerships with SAP, IBM, Microsoft, and AWS. Both [SAP](../strategic-partners/sap) and [IBM](../strategic-partners/ibm) are official resellers and see Mendix as an extension of their own cloud offerings.
 
@@ -29,7 +29,7 @@ This table presents an overview of the deployment options for each provider:
 
 ## 2 How Does Mendix Provide Support for Cloud Foundry?
 
-In 2014, Mendix adopted Cloud Foundry (CF) as the fundament for the Mendix Cloud. This was also the year Mendix joined the Cloud Foundry Foundation open source project to contribute to the community.
+In 2014, Mendix adopted Cloud Foundry (CF) as the basis for the Mendix Cloud. This was also the year Mendix joined the Cloud Foundry Foundation open source project to contribute to the community.
 
 Cloud Foundry is a platform-as-a-service (PaaS), although it is positioned by some analysts as an application-platform-as-a-service (aPaaS). Cloud Foundry provides an abstraction layer on top of an IaaS like Vmware, Openstack, Azure, or AWS. This allows you to provision services and applications without having to deal with servers, network, routing, or storage.
 

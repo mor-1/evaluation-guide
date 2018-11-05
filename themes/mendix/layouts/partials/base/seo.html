@@ -82,7 +82,7 @@
     }{{ end }}
   </script>
   {{- with $page.Params.seo_video -}}
-    {{- $filePath := (printf "snippets/video_ls_json/%s.html" $page.Params.seo_video) -}}
+    {{- $filePath := (printf "snippets/video_ld_json/%s.html" $page.Params.seo_video) -}}
     {{ readFile $filePath | markdownify | chomp }}
   {{- end }}
   {{ "<!-- /SEO -->" | safeHTML }}

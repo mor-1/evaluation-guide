@@ -6,6 +6,7 @@ parent: "welcome"
 bg: "mendix"
 menu_order: 30
 tags: [""]
+seo_video: "what-is-mendix"
 ---
 
 ## 1 What Is Mendix?

@@ -7,6 +7,7 @@ notoc: true
 menu_order: 20
 bg: "ibm"
 tags: [""]
+seo_video: "ibm"
 ---
 
 IBM—the leader in enterprise cloud—and Mendix have partnered to help enterprises shorten time-to-value by building applications. IBM Cloud is built for the enterprise, and it is the only cloud that integrates public, private, multi-cloud, and an on-premises data center through a single architecture. Furthermore, it is designed for cognitive workloads. IBM has selected Mendix as the standard low-code development platform for use on top of IBM Cloud.

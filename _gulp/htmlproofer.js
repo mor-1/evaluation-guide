@@ -312,11 +312,16 @@ const checkAllLinks = (links, files) => {
         if (file.external && file.external.links) {
           file.external.links.forEach(link => {
             const res = _.find(results, result => result.url === link);
-            if (res && res.code && res.code !== 200) {
+            if (res && typeof res.code !== 'undefined' && res.code !== 200 && res.code !== 301 && res.code !== 302 && res.code !== 303) {
               if (res.code === 404) {
                 file.errors.push(`Has link to ${gutil.colors.cyan(link)} which return a ${gutil.colors.red('Page not found')}. Please fix this`);
+              } else if (res.code === 560 && (link.indexOf('home.mendix.com') !== -1 || link.indexOf('mendixcloud.com') !== -1)) {
+                // Do nothing for Mendix apps
               } else {
-                //file.warnings.push(`Has link to ${gutil.colors.cyan(link)} which return a http code ${gutil.colors.cyan(res.code)}. Please check this`);
+                file.warnings.push(`Has link to ${gutil.colors.cyan(link)} which return a http code ${gutil.colors.cyan(res.code)}. Please check this`);
+                if (res.err) {
+                  file.warnings.push(`Has link to ${gutil.colors.cyan(link)} which has this error: ${gutil.colors.cyan(res.err)}.`);
+                }
               }
             }
           })

@@ -60,6 +60,12 @@
   <link rel="canonical" href="{{ $permaLink }}">
   <meta property="og:url" content="{{ $permaLink }}" />
 
+  {{- with $page.Params.seo_image -}}
+  <meta property="og:image" content={{ $page.Params.seo_image }} />
+  {{- else -}}
+  <meta property="og:image" content={{ "/evaluation-guide/public/images/platform_guide.png" | absURL }} />
+  {{- end }}
+
   <meta property="og:site_name" content="Mendix Evaluation Guide" />
   <meta property="og:locale" content="en_US" />
 
@@ -75,4 +81,8 @@
       "description": "{{ $page.Params.seo_description  | safeJS }}"{{ end }}
     }{{ end }}
   </script>
+  {{- with $page.Params.seo_video -}}
+    {{- $filePath := (printf "snippets/video_ls_json/%s.html" $page.Params.seo_video) -}}
+    {{ readFile $filePath | markdownify | chomp }}
+  {{- end }}
   {{ "<!-- /SEO -->" | safeHTML }}

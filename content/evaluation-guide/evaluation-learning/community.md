@@ -19,13 +19,13 @@ Mendix has a vibrant community of tens of thousands users and active contributor
 The [Mendix Profile](https://developer.mendixcloud.com/link/profile) is integrated into all of the community tools. The profile encourages the online community to grow by enabling individual developers to showcase their projects and skills, and it serves as a human touch in your interactions with other Mendix community members. When you click the name of a community member somewhere on the Mendix Platform, their Mendix Profile will open and you can see all of the interesting and useful information about them. And if they have set their [profile to public](https://docs.mendix.com/developerportal/mendix-profile/#public), you can contact them directly.
 
 {{% image_container width="600" %}}
-![Mendix Profile Example](attachments/profile.png)
+![Mendix Profile Example](attachments/profile.jpg)
 {{% /image_container %}}
 
 With the goal of gaining different levels, points, and badges, Mendix incentivizes the community to add App Store content, answer Forum questions, and stay on the top of the [Mendix leaderboards](https://developer.mendixcloud.com/link/leaderboards).
 
 {{% image_container width="650" %}}
-![Mendix Leaderboards Example](attachments/leaderboards.png)
+![Mendix Leaderboards Example](attachments/leaderboards.jpg)
 {{% /image_container %}}
 
 This gamification system makes it fun to learn, build, and contribute to Mendix while you get rewarded for your achievements.

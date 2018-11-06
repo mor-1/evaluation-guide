@@ -10,7 +10,7 @@ tags: [""]
 
 ## 1 How Do I Get Certified in Mendix? {#get-certified}
 
-The [Mendix Developer Certification Program](https://gettingstarted.mendixcloud.com/link/certification) will help to boost your career by validating your knowledge, skill level, and contributions to the Mendix community. A certification obtained at the Rapid Developer, Advanced Developer, and Expert Developer levels contributes to your ranking and visibility, and it will be directly visible to the Mendix community via your [Community Profile](community#community-profile).
+The [Mendix Developer Certification Program](https://gettingstarted.mendixcloud.com/link/certification) will help to boost your career by validating your knowledge, skill level, and contributions to the Mendix community. A certification obtained at the Rapid Developer, Advanced Developer, and Expert Developer levels contributes to your ranking and visibility, and it will be directly visible to the Mendix community via your [Mendix Profile](community#mendix-profile).
 
 Once you sign up on the platform, you will automatically join as a Mendix community member, so you can start training and building apps with Mendix right away. The three levels of Mendix certification that you can obtain after you join as a Mendix community member are described below.
 
@@ -46,7 +46,7 @@ Mendix encourages customers to first look internally at their talent pool. In ev
 
 If you are you looking to hire external resources, the [Mendix Job Board](https://developers.mendix.com/jobs/) features job openings posted by Mendix customers and partners.
 
-Every member of the [Mendix community](https://developer.mendixcloud.com/link/community) is ranked by Mendix points, and their level of Mendix certification is also displayed on their Community Profile. These factors allow you to get a clear picture of a developer’s experience. On the [Mendix Community site](https://developer.mendixcloud.com/link/community), you can search for specific skills, locations, and experience. Each developer has a profile where you can see examples of work and references.
+Every member of the [Mendix community](https://developer.mendixcloud.com/link/community) is ranked by Mendix points, and their level of Mendix certification is also displayed on their Mendix Profile. These factors allow you to get a clear picture of a developer’s experience. On the [Mendix Community site](https://developer.mendixcloud.com/link/community), you can search for specific skills, locations, and experience. Each developer has a profile where you can see examples of work and references.
 
 {{% image_container width="700" %}}
 ![Mendix Developers Site](attachments/devs.png)

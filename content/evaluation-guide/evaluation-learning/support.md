@@ -16,15 +16,15 @@ If you get stuck on the platform, Mendix provides various support channels, whic
 
 ## 2 Forum and Community Support
 
-The Mendix community is always there to help you, 24-7. [The Mendix Forum](https://forum.mendixcloud.com/link/questions) is where the community comes together to help each other out with questions and answers and to propose ideas for improving the platform. The Forum is closely integrated with the Community Profile, so Mendix community members can see all the interesting and useful information about who is participating in the forum.
+The Mendix community is always there to help you, 24-7. [The Mendix Forum](https://forum.mendixcloud.com/link/questions) is where the community comes together to help each other out with questions and answers and to propose ideas for improving the platform. The Forum is closely integrated with the Mendix Profile, so Mendix community members can see all the interesting and useful information about who is participating in the forum.
 
-With the Mendix Community Profile and the platform's gamification, community members are incentivized to answer questions. This results in 80% of all forum questions being answered within 30 minutes by a Mendix community member.
+With the Mendix Profile and the platform's gamification, community members are incentivized to answer questions. This results in 80% of all forum questions being answered within 30 minutes by a Mendix community member.
 
 {{% image_container width="700" %}}
 ![Mendix Community Support Forums](attachments/forum.png)
 {{% /image_container %}}
 
-To find out more about the Community Profile and the Mendix community, see section [What Can the Mendix Community Do for Me?](community#community-do-for-me) in *Community*.
+To find out more about the Mendix Profile and the Mendix community, see section [What Can the Mendix Community Do for Me?](community#community-do-for-me) in *Community*.
 
 ## 3 Documentation
 

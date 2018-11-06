@@ -33,12 +33,12 @@
     /*****************
       Image containers
     ******************/
-    $('.image-container').each(function () {
+    $('.image-container, .video-container').each(function () {
       var $this = $(this);
       var widthData = $this.data('max-width');
       var alignData = $this.data('align');
-      var $images = $('img', $this);
-      if (!widthData || !$images) {
+      var $media = $('img, video', $this);
+      if (!widthData || !$media) {
         return;
       }
       if (alignData) {
@@ -47,7 +47,7 @@
         $this.addClass('text-center');
       }
       var width = 'number' === typeof widthData ? widthData + 'px' : widthData;
-      $images.each(function () {
+      $media.each(function () {
         var $img = $(this);
         $img.css('width', '100%');
         $img.css('max-width', width);

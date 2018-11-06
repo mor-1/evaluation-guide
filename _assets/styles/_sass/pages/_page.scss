@@ -207,7 +207,7 @@ $block: 'mx';
       }
 
       video {
-        margin: 20px 0;
+        margin: 20px auto;
         display:block;
         max-width:100%;
         height:auto;
@@ -233,6 +233,12 @@ $block: 'mx';
 
       .image-container {
         img {
+          display: none;
+        }
+      }
+
+      .video-container {
+        video {
           display: none;
         }
       }

@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build-prod": "HUGO_ENV=production ./node_modules/.bin/gulp build",
+    "build-prod-external": "EXTERNAL=true HUGO_ENV=production ./node_modules/.bin/gulp build",
     "build-test": "HUGO_ENV=test ./node_modules/.bin/gulp build",
     "build-windows-prod": "SET HUGO_ENV production; .\\node_modules\\.bin\\gulp build",
     "build-windows-test": "SET HUGO_ENV test; .\\node_modules\\.bin\\gulp build",

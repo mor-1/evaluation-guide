@@ -16,6 +16,7 @@ const os = require('os');
 
 const verbose = false;
 const indicator = gutil.colors.cyan("[HTML CHECK]");
+const feedindicator = gutil.colors.cyan("[FEED]");
 
 let totalChecks = 0;
 let totalChecked = 0;
@@ -314,13 +315,13 @@ const checkAllLinks = (links, files) => {
             const res = _.find(results, result => result.url === link);
             if (res && typeof res.code !== 'undefined' && res.code !== 200 && res.code !== 301 && res.code !== 302 && res.code !== 303) {
               if (res.code === 404) {
-                file.errors.push(`Has link to ${gutil.colors.cyan(link)} which return a ${gutil.colors.red('Page not found')}. Please fix this`);
+                file.warnings.push(`External: Has link to ${gutil.colors.cyan(link)} which return a ${gutil.colors.red('Page not found')}. Please fix this`);
               } else if (res.code === 560 && (link.indexOf('home.mendix.com') !== -1 || link.indexOf('mendixcloud.com') !== -1)) {
                 // Do nothing for Mendix apps
               } else {
-                file.warnings.push(`Has link to ${gutil.colors.cyan(link)} which return a http code ${gutil.colors.cyan(res.code)}. Please check this`);
+                file.warnings.push(`External: Has link to ${gutil.colors.cyan(link)} which return a http code ${gutil.colors.cyan(res.code)}. Please check this`);
                 if (res.err) {
-                  file.warnings.push(`Has link to ${gutil.colors.cyan(link)} which has this error: ${gutil.colors.cyan(res.err)}.`);
+                  file.warnings.push(`External: Has link to ${gutil.colors.cyan(link)} which has this error: ${gutil.colors.cyan(res.err)}.`);
                 }
               }
             }
@@ -375,9 +376,9 @@ const writeUpdateFeed = files => new Promise((resolve, reject) => {
 
   fs.writeFile(feedDest, feed.xml({ indent: true }), err => {
     if (err) {
-      gutil.log(`Error writing /feed.xml: ${err}`)
+      gutil.log(`${feedindicator} Error writing /feed.xml: ${err}`)
     } else {
-      gutil.log(`Update feed written to ${feedDest}`);
+      gutil.log(`${feedindicator} Update feed written to ${feedDest}`);
     }
     resolve(files);
   });
@@ -404,7 +405,8 @@ const checkHTMLFiles = (opts) => helpers.getFiles(SOURCEPATH)
     const errors = _.filter(files, file => file.errors.length > 0),
           warnings = _.filter(files, file => file.warnings.length > 0);
 
-    console.log(`Finished checking ${files.length} files`);
+    gutil.log(`${gutil.colors.cyan('[HTML CHECK]')} ====== REPORT =====`)
+    console.log(`\nFinished checking ${files.length} files`);
     console.log('\n======= Errors: ' + errors.length);
     if (errors.length > 0) {
       _.forEach(errors, file => {
@@ -425,10 +427,12 @@ const checkHTMLFiles = (opts) => helpers.getFiles(SOURCEPATH)
     }
     console.log('');
 
-    if (DELETE_UNUSED_IMAGES) {
-      const unused = _.filter(allResidualFiles, f => f.indexOf('/attachments/') !== -1 && (f.indexOf('.png') !== -1 || f.indexOf('.jpg') !== -1 || f.indexOf('.jpeg') !== -1));
+    const unusedMediaFiles = _.filter(allResidualFiles,
+      f => f.indexOf('/attachments/') !== -1 &&
+      (f.indexOf('.png') !== -1 || f.indexOf('.jpg') !== -1 || f.indexOf('.jpeg') !== -1 || f.indexOf('.mp4') !== -1));
 
-      _.forEach(unused, file => {
+    if (DELETE_UNUSED_IMAGES) {
+      _.forEach(unusedMediaFiles, file => {
         // This is diry, should be done differently
         const f = file.replace('/_site/', '/content/');
         console.log(`Deleting ${gutil.colors.cyan(f)}`);

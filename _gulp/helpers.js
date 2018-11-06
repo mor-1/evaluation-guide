@@ -12,9 +12,12 @@ const { normalizeSafe } = require('upath');
 const readFile = Promise.promisify(require('fs').readFile);
 const writeFile = Promise.promisify(require('fs').writeFile);
 
+const externalIndicator = gutil.colors.cyan("[HTML EXTERNAL CHECK]");
+
 const ASYNCLIMIT = 50;
 let TESTED = [];
 let TOTAL = 0;
+let lastperc = null;
 
 const throwError = (plugin, error) => {
   const e = new gutil.PluginError({
@@ -119,18 +122,20 @@ const checkLink = (url, cb) => {
       res.code = response.statusCode;
     }
     TESTED.push(res);
-    if (100 * (TESTED.length / TOTAL) % 10 === 0) {
-      console.log(100 * (TESTED.length / TOTAL) + "% TESTED");
+    const perc = Math.floor(100 * (TESTED.length / TOTAL));
+    if (perc % 10 === 0 && perc !== lastperc) {
+      lastperc = perc;
+      gutil.log(`${externalIndicator} Tested links: ${perc}%`);
     }
-    //console.log(TESTED.length, res);
     cb();
   });
 }
 
 const checkLinks = urls => new Promise((resolve, reject) => {
-  console.log('checkLinks', urls.length)
+  gutil.log(`${externalIndicator} Checking ${urls.length} links`);
   TESTED = [];
   TOTAL = urls.length;
+  lastperc = null;
   async.eachLimit(urls, ASYNCLIMIT, checkLink, asyncErr => {
     if (asyncErr) {
       reject(asyncErr);

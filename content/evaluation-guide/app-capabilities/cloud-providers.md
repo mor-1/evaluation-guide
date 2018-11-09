@@ -67,7 +67,7 @@ For building a Docker image, the standard `Docker build` command can be used. Th
 
 Along with a database and optionally a storage service, you will be able to run your application.
 
-For more information, see [How to Run a Mendix Docker Image](https://docs.mendix.com/deployment/docker/run-mendix-docker-image) in the Mendix documentation.
+For more information, see [How to Run a Mendix Docker Image](https://docs.mendix.com/developerportal/deploy/run-mendix-docker-image) in the Mendix documentation.
 
 ### 3.1 How Does Mendix Run on Kubernetes?
 
@@ -81,4 +81,4 @@ If the application needs file storage, this can be attached using a standard sto
 ![Running Mendix on Kubernetes Chart](attachments/kubernetes.png)
 {{% /image_container %}}
 
-For more details, see [How to Run Mendix on Kubernetes](https://docs.mendix.com/deployment/docker/run-mendix-on-kubernetes) in the Mendix documentation.
+For more details, see [How to Run Mendix on Kubernetes](https://docs.mendix.com/developerportal/deploy/run-mendix-on-kubernetes) in the Mendix documentation.

@@ -22,7 +22,7 @@ This functionality enables a very fast feedback loop between the development tea
 
 ## 2 How Can Users Provide Feedback on Applications to the Development Teams?
 
-Mendix provides the [Mendix Feedback Widget](https://appstore.home.mendix.com/link/app/199/) to empower end-users to submit feedback from the context of the app itself. Feedback items are submitted through the widget into the [Feedback](https://docs.mendix.com/developerportal/collaborate/feedback) section of the app project in the Developer Portal. This allows end-users to easily provide valuable feedback to the app development team.
+Mendix provides the [Mendix Feedback Widget](https://appstore.home.mendix.com/link/app/199/) to empower end-users to submit feedback from the context of the app itself. Feedback items are submitted through the widget into the [Feedback](https://docs.mendix.com/developerportal/feedback/) section of the app project in the Developer Portal. This allows end-users to easily provide valuable feedback to the app development team.
 
 <video controls src="attachments/OE_FeedbackAPI_CreateFeedback-1.mp4">VIDEO</video>
 

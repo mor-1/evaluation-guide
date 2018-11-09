@@ -10,7 +10,7 @@ tags: ["agile", "collaboration", "requirements", "project management", "feedback
 
 ## 1 How Does Mendix Enable Active Stakeholder Involvement? {#stakeholder-involvement}
 
-The Mendix Developer Portal is the central point for the development of Mendix app projects. Each app has its own central project space, where the development team and their stakeholders can collaborate. This project space provides [backlog management](requirements-management#requirements-management), Sprint planning and [user feedback management](feedback-management#feedback-management), development-oriented [DevOps features](devops-overview), and a central social channel, which is the [Buzz](https://docs.mendix.com/developerportal/). The Buzz can also be accessed through the [Mendix mobile app](#mxapp).
+The Mendix Developer Portal is the central point for the development of Mendix app projects. Each app has its own central project space, where the development team and their stakeholders can collaborate. This project space provides [backlog management](requirements-management#requirements-management), Sprint planning and [user feedback management](feedback-management#feedback-management), development-oriented [DevOps features](devops-overview), and a central social channel, which is the [Buzz](https://docs.mendix.com/developerportal/collaborate/buzz). The Buzz can also be accessed through the [Mendix mobile app](#mxapp).
 
 The Mendix Platform provides various channels of engagement for different stakeholders:
 

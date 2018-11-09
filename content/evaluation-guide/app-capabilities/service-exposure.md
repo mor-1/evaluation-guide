@@ -94,10 +94,10 @@ Every REST API you implement with Mendix will automatically include an OpenAPI d
 Mendix enables using certificates for incoming and outgoing communication in the following ways:
 
 * You can use certificates to ensure secure communication with services. You can provide multiple pkcs12 certificate files to be used for authentication with the service, including both REST services and SOAP web services. In the configuration, you can specify which certificate should be used for which service domain.
-* For connections from the internet to your Mendix Cloud applications, Mendix provides a *.mendixcloud.com* or *.mxapps.io* domain with a certificate managed by Mendix. If you want to set up your own domain name, you can configure [custom domains](https://docs.mendix.com/developerportal/howto/custom-domains). You can also restrict incoming traffic by requiring client certificates signed by a certificate authority of your choice. For details on how to set this up, see [How to Restrict Access for Incoming Requests](https://docs.mendix.com/deployment/mendixcloud/access-restrictions) in the Mendix documentation.
+* For connections from the internet to your Mendix Cloud applications, Mendix provides a *.mendixcloud.com* or *.mxapps.io* domain with a certificate managed by Mendix. If you want to set up your own domain name, you can configure [custom domains](https://docs.mendix.com/developerportal/howto/custom-domains). You can also restrict incoming traffic by requiring client certificates signed by a certificate authority of your choice. For details on how to set this up, see [How to Restrict Access for Incoming Requests](https://docs.mendix.com/developerportal/deploy/access-restrictions) in the Mendix documentation.
 
 The following Mendix documentation provides more information:
 
 * [How to Use a Client Certificate](https://docs.mendix.com/howto/integration/use-a-client-certificate)
 * [Securing Outgoing Connections from Your Application](https://docs.mendix.com/developerportal/deploy/securing-outgoing-connections-from-your-application)
-* [Using Certificates in the Mendix Cloud](https://docs.mendix.com/deployment/mendixcloud/certificates)
+* [Using Certificates in the Mendix Cloud](https://docs.mendix.com/developerportal/deploy/certificates)

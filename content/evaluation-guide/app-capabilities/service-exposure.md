@@ -99,5 +99,5 @@ Mendix enables using certificates for incoming and outgoing communication in the
 The following Mendix documentation provides more information:
 
 * [How to Use a Client Certificate](https://docs.mendix.com/howto/integration/use-a-client-certificate)
-* [Securing Outgoing Connections from Your Application](https://docs.mendix.com/deployment/mendixcloud/securing-outgoing-connections-from-your-application)
+* [Securing Outgoing Connections from Your Application](https://docs.mendix.com/developerportal/deploy/securing-outgoing-connections-from-your-application)
 * [Using Certificates in the Mendix Cloud](https://docs.mendix.com/deployment/mendixcloud/certificates)

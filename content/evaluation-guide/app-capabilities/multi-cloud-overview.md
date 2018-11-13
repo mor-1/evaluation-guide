@@ -110,4 +110,4 @@ For Linux-based applications, this is a command-line based tool called [M2EE](ht
 
 For details on supported operating systems and related databases, see [System Requirements](https://docs.mendix.com/refguide/system-requirements) in the Mendix Reference Guide.
 
-In addition to a container-based solution, Mendix provides full support for a high availability configuration. For more information, see [How to Configure High Availability](https://docs.mendix.com/deployment/on-premises/high-availability) in the Mendix documentation.
+In addition to a container-based solution, Mendix provides full support for a high availability configuration. For more information, see [How to Configure High Availability](https://docs.mendix.com/developerportal/deploy/high-availability) in the Mendix documentation.

@@ -14,7 +14,7 @@ The Mendix Platform is integrated with the [Mendix App Store](https://appstore.h
 
 The App Store is fully integrated in both the Web and Desktop Modelers. Users can directly search for and implement reusable components in their applications.
 
-For more information, see [App Store Overview](https://docs.mendix.com/community/app-store/app-store-overview) in the Mendix documentation.
+For more information, see [App Store Overview](https://docs.mendix.com/developerportal/app-store/app-store-overview) in the Mendix documentation.
 
 {{% image_container width="650" %}}
 

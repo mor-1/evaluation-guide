@@ -5,7 +5,7 @@ seo_description: "Learn how the Mendix Platform monitoring solutions support dev
 parent: "devops"
 menu_order: 60
 bg: "devops"
-tags: ["monitoring", "alerts", "devops"]
+tags: ["monitoring", "alerts", "devops", "cloud", "metrics"]
 ---
 
 ## 1 How Do Mendix Platform Monitoring Solutions Support Development Teams that Adopt DevOps?
@@ -47,7 +47,7 @@ Besides these monitoring features, the Mendix Cloud provides high availability f
 
 When third-party services (like New Relic, Datadog, and AppDynamics) are integrated, development teams can leverage the advanced monitoring capabilities provided by these services to increase the service level of their applications even further.
 
-For more details, see the section [Which Features Are Available in the Mendix Cloud?](../app-capabilities/mendix-cloud-features#cloud-portal) in *Mendix Cloud*.
+For more details, see the section [Which Features Are Available in the Mendix Cloud?](../app-capabilities/mendix-cloud-features#cloud) in *Mendix Cloud*.
 
 ## 3 How Do I Monitor My Mendix Apps Running on Premises?
 

@@ -25,7 +25,7 @@ The sections below go into more detail about the following main modules and serv
 * [Team Server](#team-server)
 * [Build Server](#build-server)
 * [MxID](#mxid)
-* [Deployment via the Developer Portal](#cloud-portal)
+* [Deployment via the Developer Portal](#cloud)
 * [App Store](#app-store)
 
 ### 2.1 What Is the Developer Portal? {#dev-portal}
@@ -54,9 +54,9 @@ MxID is a user-management and provisioning service that applies the OpenID stand
 
 Furthermore, MxID provides an administration portal for the management of companies and app users.
 
-### 2.6 What Is Deployment via the Developer Portal? {#cloud-portal}
+### 2.6 What Is Deployment via the Developer Portal? {#cloud}
 
-Deployment via the [Mendix Developer Portal](../app-capabilities/mendix-cloud-features#cloud-portal) enables you to manage environments and configurations as well as to deploy apps to the cloud with a single click and manage and monitor their performance. The Developer Portal is the interface to the deployment services layer in the platform. Mendix also offers interfaces for deploying to the [SAP Cloud Platform](../app-capabilities/strategic-partner-cloud#running-sap-cloud) and [IBM Cloud](../app-capabilities/strategic-partner-cloud#ibm-cloud).
+Deployment via the [Mendix Developer Portal](../app-capabilities/mendix-cloud-features#cloud) enables you to manage environments and configurations as well as to deploy apps to the cloud with a single click and manage and monitor their performance. The Developer Portal is the interface to the deployment services layer in the platform. Mendix also offers interfaces for deploying to the [SAP Cloud Platform](../app-capabilities/strategic-partner-cloud#running-sap-cloud) and [IBM Cloud](../app-capabilities/strategic-partner-cloud#ibm-cloud).
 
 ### 2.7 What Is the Mendix App Store? {#app-store}
 

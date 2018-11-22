@@ -73,8 +73,8 @@ The runtime consists of the following components:
 * **Data layer** – persists and retrieves objects from your application database; also responsible for creating and updating the database structures required to persist your data: the data layer supports a large number of different databases, and data is stored using common data model design best practices (for details, see the section [What Databases Does Mendix Support?](../app-capabilities/data-storage#database-support) in *Data Storage*)
 * **Integration layer** – handles incoming and outgoing service requests for web services, REST APIs, app services, and OData
 * **Client API** – responsible for communication with web and mobile clients; the API is used to retrieve data, persist data changes, and execute microflow logic
-* **Configuration API** – this JSON API is used by the Cloud Portal and container buildpack to configure the runtime
-* **Monitoring API** – this JSON API is used by the Cloud Portal and container buildpack to retrieve monitoring metrics
+* **Configuration API** – this JSON API is used by the Developer Portal and container buildpack to configure the runtime
+* **Monitoring API** – this JSON API is used by the Developer Portal and container buildpack to retrieve monitoring metrics
 * **Custom APIs** – this Java APIs is used to extend the Mendix Runtime (for example, with microflow activities or entity listeners)
 
 ### 2.2 Client Architecture

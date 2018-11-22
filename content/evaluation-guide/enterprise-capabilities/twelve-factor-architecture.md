@@ -60,7 +60,7 @@ To guarantee quality, apps deployed in testing environments should behave simila
 
 ### 1.11 Logs
 
-Mendix Cloud uses the Cloud Foundry firehose to collect all the log events from all your applications. This can be viewed and filtered in the Mendix Cloud Portal.
+Mendix Cloud uses the Cloud Foundry firehose to collect all the log events from all your applications. This can be viewed and filtered in the Mendix Developer Portal.
 
 ### 1.12 Admin Processes
 

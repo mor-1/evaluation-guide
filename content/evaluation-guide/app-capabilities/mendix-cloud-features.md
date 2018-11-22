@@ -8,7 +8,7 @@ bg: "multicloud"
 tags: [""]
 ---
 
-## 1 What Features Are Available in the Mendix Cloud? {#cloud-portal}
+## 1 What Features Are Available in the Mendix Cloud? {#cloud}
 
 The Mendix Cloud has a full range of features that make it efficient for managing your application deployments and monitoring your app and database performance. The Mendix Cloud enables you to configure custom domains, backups, alerts, and logs. You can use the fine-grained access controls that are provided, and in the long term, you can use the rich set of tools for live debugging.
 
@@ -36,7 +36,7 @@ For more details, see the section [How Does Mendix Cloud Support Backup & Recove
 
 ## 5 How Does Application & Database (Performance) Monitoring Work?
 
-The Mendix Cloud Portal provides all the necessary metrics for you to analyze the performance of your application. This is not limited to insights into memory or CPU utilization, as it is even possible to see metrics on the actual model execution. This allows you to respond more quickly to a specific performance bottleneck and optimize your application more easily.
+The Developer Portal provides all the necessary metrics for you to analyze the performance of your application. This is not limited to insights into memory or CPU utilization, as it is even possible to see metrics on the actual model execution. This allows you to respond more quickly to a specific performance bottleneck and optimize your application more easily.
 
 {{% image_container width="650" %}}
 ![Database Performance Monitoring Example](attachments/mx-metrics.png)
@@ -52,7 +52,7 @@ To be able to act proactively and ensure business continuity, Mendix Cloud sends
 
 ## 7 What Logs Are Available?
 
-In the Mendix Platform, your log files are available via the Cloud Portal. A log file rotates each 5 MB.
+In the Mendix Platform, your log files are available via the Developer Portal. A log file rotates each 5 MB.
 
 ## 8 How Does Live Debugging Work?
 

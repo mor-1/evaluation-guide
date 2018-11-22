@@ -69,4 +69,4 @@ Compared to DevOps, the BizDevOps approach knocks down the silos between DevOps 
 
 In traditional app development, feedback can only be given on full working applications, which contrasts with the iterative approach of the Agile methodology. Compared to DevOps teams, traditional app development projects, development teams, operation teams, and business management teams all operate in silos, instead of unifying software development (Dev) and software operation (Ops).
 
-Mendix can be used in this traditional process as a low-code development platform to enable developers to build apps faster. Operations can use the Mendix Cloud Portal to manage and monitor the apps. Of course, in this approach, you will be missing a big part of what makes building apps with Mendix so succesful – the Mendix BizDevOps process.
+Mendix can be used in this traditional process as a low-code development platform to enable developers to build apps faster. Operations can use the Mendix Developer Portal to manage and monitor apps. Of course, in this approach, you will be missing a big part of what makes building apps with Mendix so succesful – the Mendix BizDevOps process.

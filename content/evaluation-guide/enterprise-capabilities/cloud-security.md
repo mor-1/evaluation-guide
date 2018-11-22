@@ -99,7 +99,7 @@ Backups are available for restore as follows:
 * **Sunday backups** – maximum 3 months history (counted from the day before the request)
 * **Monthly backups** (1st Sunday of each month) – maximum 1 year history (counted from the day before the request)
 
-Both production data and backup data utilize cloud storage and are subject to the storage limit associated with the Mendix Platform subscription purchased. Companies are advised to set up an internal protocol for the usage and testing of backups. Administrators can download backups from the Cloud Portal or develop automated downloads of backups using the Mendix Platform REST API. Mendix also offers the option to use live data replication in order to enable a fallback environment.
+Both production data and backup data utilize cloud storage and are subject to the storage limit associated with the Mendix Platform subscription purchased. Companies are advised to set up an internal protocol for the usage and testing of backups. Administrators can download backups from the Developer Portal or develop automated downloads of backups using the Mendix Platform REST API. Mendix also offers the option to use live data replication in order to enable a fallback environment.
 
 ### 2.1 How Does Mendix Mitigate Disasters?
 
@@ -109,7 +109,7 @@ Disaster recovery tests are performed quarterly on the Mendix Platform. These te
 
 ### 2.2 Does the Mendix Cloud Offers High Availability & Auto-Recovery?
 
-The Mendix Cloud offers high availability for all app environments, ensuring zero downtime in the case of a Mendix Runtime outage. Users are able to scale Mendix app environments using the Cloud Portal. Furthermore, the Mendix Cloud enables auto-recovery and failover within the same availability zone.
+The Mendix Cloud offers high availability for all app environments, ensuring zero downtime in the case of a Mendix Runtime outage. Users are able to scale Mendix app environments using the Developer Portal. Furthermore, the Mendix Cloud enables auto-recovery and failover within the same availability zone.
 
 For more details, see the sections [How Does Mendix Cloud Offer High Availability?](cloud-architecture#cloud-ha), [How Does Mendix Provide Disaster Recovery?](cloud-architecture#cloud-dr), and [How Does Mendix Cloud Provide Auto-Recovery & Auto-Healing?](cloud-architecture#cloud-ar) in *Cloud Architecture*.
 
@@ -135,7 +135,7 @@ The integrity of the application being developed is monitored by the Team Server
 
 ### 4.3 Which Deployment Activities Are Logged?
 
-The Cloud Portal is the component that, among other functions, handles the deployment of application packages (called deployment archives in Mendix). Activities pertaining to deployment in the Cloud Portal include the deployment and staging of apps across environments. In addition, backup and restore actions are logged, so there is full traceability of the administrative tasks performed.
+The Developer Portal is the component of the Mendix Platform that, among other functions, handles the deployment of application packages (called deployment archives in Mendix). Activities pertaining to deployment in the Developer Portal include the deployment and staging of apps across environments. In addition, backup and restore actions are logged, so there is full traceability of the administrative tasks performed.
 
 ### 4.4 Which Runtime Activities Are Logged?
 
@@ -155,7 +155,7 @@ Cloud Foundry uses **Garden containers** that have been designed to run applicat
 
 Databases and files are also logically contained within the Mendix Cloud and Cloud Foundry. A database for a Mendix application is hosted on a separate instance of PostgreSQL, and this specific instance only allows traffic from this specific Mendix application.
 
-As each app environment has its own dedicated web server and firewall services, Mendix supports customization at an app environment-level through the Cloud Portal without affecting other app environments. For example, the customization of request handlers for a specific app environment is not compromised by the demands and desires of other Mendix customers.
+As each app environment has its own dedicated web server and firewall services, Mendix supports customization at an app environment-level through the Developer Portal without affecting other app environments. For example, the customization of request handlers for a specific app environment is not compromised by the demands and desires of other Mendix customers.
 
 The app environment setup allows test, acceptance, and production instances of the same application to operate identically but independently. Because the app environments are fully standardized, Mendix optimizes the combination of OS, integration software, and virtualization software while implementing the highest possible degree of security and performance. Furthermore, Mendix offers encryption for data at rest for app environments out of the box.
 

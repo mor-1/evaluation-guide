@@ -8,6 +8,9 @@ const fm = require('front-matter');
 const path = require('path');
 const promiseLimit = require('promise-limit');
 const cheerio = require('cheerio');
+const gutil = require('gulp-util');
+
+const pluginID = gutil.colors.cyan('[ALGOLIA]');
 
 function preProcessMd () {
     // Split the input stream by lines
@@ -88,7 +91,7 @@ const markdownToPDF = file => new Promise((resolve, reject) => {
         })
         .from(file.src)
         .to(file.dist, () => {
-            console.log(file.dist);
+            gutil.log(`${pluginID} Written ${file.url}`);
             resolve(true);
         })
 });
@@ -106,7 +109,7 @@ const generatePDF = async (opts) => {
     });
     const limit = promiseLimit(10);
 
-    console.log(mappedFiles.length);
+    gutil.log(`${pluginID} Writing ${mappedFiles.length} PDFs`);
     await Promise.all(mappedFiles.map(file => limit(() => markdownToPDF(file))));
 
     opts.cb && opts.cb();

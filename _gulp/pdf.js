@@ -34,14 +34,12 @@ function preProcessHtml (file) {
             $('a').each(function(i, el) {
                 const $el = $(this);
                 const text = $el.text();
-                const href = $el.attr('href');
-                if (href.indexOf('http:') === -1 && href.indexOf('https' === -1)) {
+                const href = $el.attr('href').trim();
+                if (href.indexOf('http:') !== 0 && href.indexOf('https') !== 0) {
                     const newPath = 'https://mendix.com' + path.join(path.dirname(file.src), href).replace(file.base, '');
                     $el.replaceWith($(`<a href="${newPath}">${text}</a>`));
                 }
             });
-            // console.log($('body').html());
-            // console.log('========>', data);
             this.queue($('body').html());
         })
 
@@ -50,19 +48,21 @@ function preProcessHtml (file) {
     }
 }
 
-const frontMatterExtractor = md => {
-    const oldRender = md.render;
+const frontMatterExtraction = (file) => {
+    return md => {
+        const oldRender = md.render;
 
-    md.render = (str) => {
-        const content = fm(str);
+        md.render = (str) => {
+            const content = fm(str);
 
-        let body = content.body;
-        if (content.attributes && content.attributes.title) {
-            body = `# ${content.attributes.title}\n\n` + content.body;
+            let body = content.body;
+            if (content.attributes && content.attributes.title) {
+                body = `# ${content.attributes.title}\n#### URL: ${file.url}\n\n` + content.body;
+            }
+            body = body.replace(/\{#.*\}/ig, '');
+
+            return oldRender.call(md, body);
         }
-        body = body.replace(/\{#.*\}/ig, '');
-
-        return oldRender.call(md, body);
     }
 }
 
@@ -80,9 +80,11 @@ const markdownToPDF = file => new Promise((resolve, reject) => {
                 preset: 'full',
                 syntax: [ 'sup', 'sub' ],
                 plugins: [
-                    frontMatterExtractor
+                    frontMatterExtraction(file)
                 ]
-            }
+            },
+            cssPath: path.join(__dirname, 'pdf', 'pdf.css'),
+            runningsPath: path.join(__dirname, 'pdf', 'runnings.js')
         })
         .from(file.src)
         .to(file.dist, () => {
@@ -98,6 +100,7 @@ const generatePDF = async (opts) => {
         return {
             src: file,
             base: opts.src,
+            url: `https://mendix.com/evalutation-guide${file.replace(opts.src, '').replace('.md', '')}`,
             dist: file.replace(opts.src, opts.dist).replace('.md', '.pdf')
         };
     });

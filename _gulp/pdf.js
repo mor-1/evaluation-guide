@@ -63,6 +63,7 @@ const frontMatterExtraction = (file) => {
                 body = `# ${content.attributes.title}\n#### URL: ${file.url}\n\n` + content.body;
             }
             body = body.replace(/\{#.*\}/ig, '');
+            body = body.replace(/\{\{%.*%\}\}/ig, '');
 
             return oldRender.call(md, body);
         }

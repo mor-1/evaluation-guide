@@ -10,7 +10,7 @@ const promiseLimit = require('promise-limit');
 const cheerio = require('cheerio');
 const gutil = require('gulp-util');
 
-const pluginID = gutil.colors.cyan('[ALGOLIA]');
+const pluginID = gutil.colors.cyan('[PDF]');
 
 function preProcessMd () {
     // Split the input stream by lines
@@ -91,7 +91,7 @@ const markdownToPDF = file => new Promise((resolve, reject) => {
         })
         .from(file.src)
         .to(file.dist, () => {
-            gutil.log(`${pluginID} Written ${file.url}`);
+            gutil.log(`${pluginID} Written PDF for ${file.url}`);
             resolve(true);
         })
 });

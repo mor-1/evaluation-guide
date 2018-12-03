@@ -14,6 +14,7 @@ const htmlproofer = require('./_gulp/htmlproofer');
 const algolia     = require('./_gulp/algolia');
 const menu_check  = require('./_gulp/menu_check');
 const menu_build  = require('./_gulp/menu_build');
+const generatePDF = require('./_gulp/pdf');
 
 const path        = require('path');
 const pump        = require('pump');
@@ -245,7 +246,7 @@ gulp.task('copy', 'Move sitemap on production', done => {
 gulp.task('build:menu', `Build menu jsons (production)`, writeMenu(true));
 
 gulp.task('build', `BUILD. Used for production`, done => {
-  runSequence('clean', 'write:mappings', ['build:menu', 'build:sass', 'build:js'], 'write:assetmappings', 'build:hugo', 'check', 'replace', 'copy', 'clean:production', (err) => {
+  runSequence('clean', 'write:mappings', ['build:menu', 'build:sass', 'build:js'], 'write:assetmappings', 'build:hugo', 'check', 'replace', 'copy', 'clean:production', 'pdf', (err) => {
       //if any error happened in the previous tasks, exit with a code > 0
       if (err) {
         var exitCode = 2;
@@ -335,3 +336,11 @@ gulp.task('algolia', `Push Algolia indexes`, done => {
     cb: done
   });
 });
+
+gulp.task('pdf', `Generate PDFs`, done => {
+  generatePDF({
+    src: CONTENTFOLDER,
+    dist: DIST_FOLDER,
+    cb: done
+  });
+})

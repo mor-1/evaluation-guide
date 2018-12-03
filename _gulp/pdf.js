@@ -7,6 +7,7 @@ const Promise = require('bluebird');
 const fm = require('front-matter');
 const path = require('path');
 const promiseLimit = require('promise-limit');
+const cheerio = require('cheerio');
 
 function preProcessMd () {
     // Split the input stream by lines
@@ -22,18 +23,31 @@ function preProcessMd () {
     return duplexer(splitter, replacer)
 }
 
-function preProcessHtml () {
-    // Split the input stream by lines
-    const splitter = split()
+function preProcessHtml (file) {
+    return function () {
+        // Split the input stream by lines
+        const splitter = split()
 
-    // Replace occurences of "foo" with "bar"
-    const replacer = through(function (data) {
-        console.log('========>', data);
-        this.queue(data)
-    })
+        // Replace occurences of "foo" with "bar"
+        const replacer = through(function (data) {
+            const $ = cheerio.load(data);
+            $('a').each(function(i, el) {
+                const $el = $(this);
+                const text = $el.text();
+                const href = $el.attr('href');
+                if (href.indexOf('http:') === -1 && href.indexOf('https' === -1)) {
+                    const newPath = 'https://mendix.com' + path.join(path.dirname(file.src), href).replace(file.base, '');
+                    $el.replaceWith($(`<a href="${newPath}">${text}</a>`));
+                }
+            });
+            // console.log($('body').html());
+            // console.log('========>', data);
+            this.queue($('body').html());
+        })
 
-    splitter.pipe(replacer)
-    return duplexer(splitter, replacer)
+        splitter.pipe(replacer)
+        return duplexer(splitter, replacer)
+    }
 }
 
 const frontMatterExtractor = md => {
@@ -56,7 +70,7 @@ const markdownToPDF = file => new Promise((resolve, reject) => {
     const cwd = path.dirname(file.src);
     markdownpdf({
             // preProcessMd,
-            preProcessHtml,
+            preProcessHtml: preProcessHtml(file),
             cwd,
             remarkable: {
                 html: true,
@@ -83,9 +97,10 @@ const generatePDF = async (opts) => {
     const mappedFiles = allMarkdownFiles.map(file => {
         return {
             src: file,
+            base: opts.src,
             dist: file.replace(opts.src, opts.dist).replace('.md', '.pdf')
         };
-    }).slice(0, 1);
+    });
     const limit = promiseLimit(10);
 
     console.log(mappedFiles.length);

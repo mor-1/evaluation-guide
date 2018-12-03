@@ -14,6 +14,7 @@ const htmlproofer = require('./_gulp/htmlproofer');
 const algolia     = require('./_gulp/algolia');
 const menu_check  = require('./_gulp/menu_check');
 const menu_build  = require('./_gulp/menu_build');
+const generatePDF = require('./_gulp/pdf');
 
 const path        = require('path');
 const pump        = require('pump');
@@ -335,3 +336,11 @@ gulp.task('algolia', `Push Algolia indexes`, done => {
     cb: done
   });
 });
+
+gulp.task('pdf', `Generate PDFs`, done => {
+  generatePDF({
+    src: CONTENTFOLDER,
+    dist: DIST_FOLDER,
+    cb: done
+  });
+})

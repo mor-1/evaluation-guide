@@ -46,7 +46,6 @@ branches:
   only:
   - master
   - development
-  - feature/pdf-generator
 deploy:
 - provider: script
   script:

@@ -246,7 +246,7 @@ gulp.task('copy', 'Move sitemap on production', done => {
 gulp.task('build:menu', `Build menu jsons (production)`, writeMenu(true));
 
 gulp.task('build', `BUILD. Used for production`, done => {
-  runSequence('clean', 'write:mappings', ['build:menu', 'build:sass', 'build:js'], 'write:assetmappings', 'build:hugo', 'check', 'replace', 'copy', 'clean:production', 'pdf', (err) => {
+  runSequence('clean', 'write:mappings', ['build:menu', 'build:sass', 'build:js'], 'write:assetmappings', 'build:hugo', 'pdf', 'check', 'replace', 'copy', 'clean:production', (err) => {
       //if any error happened in the previous tasks, exit with a code > 0
       if (err) {
         var exitCode = 2;

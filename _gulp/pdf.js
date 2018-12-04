@@ -10,6 +10,10 @@ const promiseLimit = require('promise-limit');
 const cheerio = require('cheerio');
 const gutil = require('gulp-util');
 
+let built = 0;
+let toBuild = 0;
+let lastParsed = -1;
+
 const pluginID = gutil.colors.cyan('[PDF]');
 
 function preProcessMd () {
@@ -92,7 +96,13 @@ const markdownToPDF = file => new Promise((resolve, reject) => {
         })
         .from(file.src)
         .to(file.dist, () => {
-            gutil.log(`${pluginID} Written PDF for ${file.url}`);
+            built++;
+            const perc = Math.floor(100 * (built / toBuild));
+            if (perc % 10 === 0 && perc !== lastParsed) {
+              lastParsed = perc;
+              gutil.log(`${pluginID} PDFs created: ${perc}%`);
+            }
+            // gutil.log(`${pluginID} Written PDF for ${file.url}`);
             resolve(true);
         })
 });
@@ -111,6 +121,9 @@ const generatePDF = async (opts) => {
     const limit = promiseLimit(10);
 
     gutil.log(`${pluginID} Writing ${mappedFiles.length} PDFs`);
+    toBuild = mappedFiles.length;
+    built = 0;
+
     await Promise.all(mappedFiles.map(file => limit(() => markdownToPDF(file))));
 
     opts.cb && opts.cb();

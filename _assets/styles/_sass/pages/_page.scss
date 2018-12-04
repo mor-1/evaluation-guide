@@ -53,7 +53,7 @@ $block: 'mx';
         //letter-spacing: -1.75px;
         line-height: 1;
         font-weight: 600;
-        margin: 0 0 20px;
+        margin: 0;
         color: $color-grey-font;
         @include modifier('frontpage') {
           font-size: 48px;
@@ -78,6 +78,12 @@ $block: 'mx';
         display: block;
         width: 100%;
         padding: 4px 0;
+      }
+      @include element('pdf-button') {
+        font-size: 11px;
+        i {
+          margin-right: 3px;
+        }
       }
     }
 
@@ -111,7 +117,7 @@ $block: 'mx';
       .h2 {
           font-size: 24px;
           border-bottom: 1px solid $color-mendix-blue;
-          margin-top: 30px;
+          margin-top: 20px;
           margin-bottom: 30px;
           padding-bottom: 15px;
       }

@@ -1,10 +1,12 @@
 {{- $notoc := index .Page.Params "notoc" -}}
+{{- $pdfLink := replace .Page.URL ".html" ".pdf" -}}
 <div class="row mx__page__header">
   <div class="col-md-12 col-xs-12">
     <header class="mx__page__header__head">
       <h1 class="mx__page__header__title">{{ .Page.Title }}</h1>
     </header>
     <div class="mx__page__header__nav">
+      <a href="{{ $pdfLink }}" target="_blank" class="mx__page__header__pdf-button ignore_proofer"><i class="glyphicon glyphicon-download-alt"></i>Download PDF</a>
       {{- if not (eq $notoc true) -}}
       <div id="toc"></div>
       {{- end }}

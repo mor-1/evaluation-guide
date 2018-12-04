@@ -53,7 +53,7 @@ $block: 'mx';
         //letter-spacing: -1.75px;
         line-height: 1;
         font-weight: 600;
-        margin: 0 0 20px;
+        margin: 0;
         color: $color-grey-font;
         @include modifier('frontpage') {
           font-size: 48px;
@@ -78,6 +78,19 @@ $block: 'mx';
         display: block;
         width: 100%;
         padding: 4px 0;
+      }
+      @include element('pdf-button') {
+        @include clearfix();
+        font-size: 12px;
+        margin: 15px 0 10px;
+        display: inline-block;
+        float: right;
+        i {
+          margin-right: 3px;
+        }
+        &:hover {
+          text-decoration: none;
+        }
       }
     }
 

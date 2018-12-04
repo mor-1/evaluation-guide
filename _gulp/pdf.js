@@ -64,7 +64,7 @@ const frontMatterExtraction = (file) => {
 
             let body = content.body;
             if (content.attributes && content.attributes.title) {
-                body = `# ${content.attributes.title}\n#### URL: ${file.url}\n\n` + content.body;
+                body = `# ${content.attributes.title}\n#### URL: [${file.url}](${file.url})\n\n` + content.body;
             }
             body = body.replace(/\{#.*\}/ig, '');
             body = body.replace(/\{\{%.*%\}\}/ig, '');
@@ -114,7 +114,7 @@ const generatePDF = async (opts) => {
         return {
             src: file,
             base: opts.src,
-            url: `https://mendix.com/evalutation-guide${file.replace(opts.src, '').replace('.md', '')}`,
+            url: `https://www.mendix.com${file.replace(opts.src, '').replace('.md', '')}`,
             dist: file.replace(opts.src, opts.dist).replace('.md', '.pdf')
         };
     });

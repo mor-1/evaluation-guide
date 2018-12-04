@@ -80,9 +80,16 @@ $block: 'mx';
         padding: 4px 0;
       }
       @include element('pdf-button') {
-        font-size: 11px;
+        @include clearfix();
+        font-size: 12px;
+        margin: 15px 0 10px;
+        display: inline-block;
+        float: right;
         i {
           margin-right: 3px;
+        }
+        &:hover {
+          text-decoration: none;
         }
       }
     }
@@ -117,7 +124,7 @@ $block: 'mx';
       .h2 {
           font-size: 24px;
           border-bottom: 1px solid $color-mendix-blue;
-          margin-top: 20px;
+          margin-top: 30px;
           margin-bottom: 30px;
           padding-bottom: 15px;
       }

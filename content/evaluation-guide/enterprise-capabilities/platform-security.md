@@ -36,7 +36,7 @@ The Mendix Platform logs relevant activities during the app delivery cycle, from
 
 An independent auditing firm periodically performs security audits of Mendix, which are reported through our ISO/IEC 27001 certificate, ISAE 3402 Type II assertion report ,and SOC I Type II assertion report.
 
-In addition, a leading IT security firm performs penetration tests on the Mendix Platform on a monthly basis. These penetration tests are based on the Open Web Application Security Project (OWASP), Information Systems Security Assessment Framework (ISSAF), and Open Source Security Testing Methodology Manual (OSSTMM ).
+In addition, a leading IT security firm performs penetration tests on the Mendix Platform on a monthly basis. These penetration tests are based on the Open Web Application Security Project (OWASP), Information Systems Security Assessment Framework (ISSAF), and Open Source Security Testing Methodology Manual (OSSTMM).
 
 For vulnerability management, a program is in place for continuous monitoring of the security posture of the Mendix Platform. Before a release is shipped, the release is scanned by Black Duck and SonarQube.
 

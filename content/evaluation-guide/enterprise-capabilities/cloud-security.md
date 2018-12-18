@@ -105,7 +105,7 @@ Both production data and backup data utilize cloud storage and are subject to th
 
 The Mendix Cloud has multiple mitigations for disasters, including high availability with deployment to multiple availability zones, scaling, and auto-recovery.
 
-Disaster recovery tests are performed quarterly on the Mendix Platform. These tests are reported in our ISAE 3402 Type II report, SOC 1 Type II report, SOC 2 Type II, and ISO/IEC 27001:2013 certification.
+Disaster recovery tests are performed quarterly on the Mendix Platform. These tests are reported in our ISAE 3402 Type II report, SOC 1 Type II report, SOC 2 Type II report, and ISO/IEC 27001:2013 certification.
 
 ### 2.2 Does the Mendix Cloud Offers High Availability & Auto-Recovery?
 

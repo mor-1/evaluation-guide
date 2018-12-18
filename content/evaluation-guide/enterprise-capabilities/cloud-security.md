@@ -105,7 +105,7 @@ Both production data and backup data utilize cloud storage and are subject to th
 
 The Mendix Cloud has multiple mitigations for disasters, including high availability with deployment to multiple availability zones, scaling, and auto-recovery.
 
-Disaster recovery tests are performed quarterly on the Mendix Platform. These tests are reported in our ISAE 3402 Type II report, SOC 1 Type II report, and ISO/IEC 27001:2013 certification.
+Disaster recovery tests are performed quarterly on the Mendix Platform. These tests are reported in our ISAE 3402 Type II report, SOC 1 Type II report, SOC 2 Type II report, and ISO/IEC 27001:2013 certification.
 
 ### 2.2 Does the Mendix Cloud Offers High Availability & Auto-Recovery?
 
@@ -161,7 +161,7 @@ The app environment setup allows test, acceptance, and production instances of t
 
 ## 7 Does Mendix Establish and Maintain Baseline Configurations for Hardening?
 
-The Mendix Security team has an established hardening security baseline based on international standards like SANS and CIS. This is audited by our independent third-party auditors and results in our annual published ISAE 3402 Type II report, SOC 1 Type II report, and ISO/IEC 27001:2013 certificate.
+The Mendix Security team has an established hardening security baseline based on international standards like SANS and CIS. This is audited by our independent third-party auditors and results in our annual published ISAE 3402 Type II report, SOC 1 Type II report, SOC 2 Type II report, and ISO/IEC 27001:2013 certification.
 
 ## 8 Which Physical Security Controls Are in Place for the Mendix Cloud?
 

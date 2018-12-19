@@ -30,7 +30,7 @@ Mendix is certified to be compliant with the [ISO/IEC 27001](https://www.iso.org
 
 ### 2.2 ISAE 3402 Type II Assurance Report
 
-[ISAE 3402](http://isae3402.com/ISAE3402_overview.html) is an international assurance standard on controls at a service organization. Mendix holds an ISAE 3403 Type II report, which discloses how Mendix security controls have been managed over the past year.
+[ISAE 3402](http://isae3402.com/ISAE3402_overview.html) is an international assurance standard on controls at a service organization. Mendix holds an ISAE 3402 Type II report, which discloses how Mendix security controls have been managed over the past year.
 
 ### 2.3 SOC 1 Type II Assurance Report
 

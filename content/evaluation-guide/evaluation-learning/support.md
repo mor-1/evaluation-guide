@@ -51,7 +51,7 @@ For more details, see [App Store Content Support](https://docs.mendix.com/develo
 
 Contact with the [Mendix Support Team](http://support.mendix.com) is available for all users of the Mendix Platform. For licensed Mendix customers, Mendix Support is bound to SLAs.
 
-For more details, see [Mendix Support](https://docs.mendix.com/howtogeneral/support/).
+For more details, see [Mendix Support](https://docs.mendix.com/developerportal/support/).
 
 ## 7 Application Development Support
 

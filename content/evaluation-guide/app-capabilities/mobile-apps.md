@@ -5,7 +5,7 @@ seo_description: "Learn how Mendix mobile apps work, how to leverage device capa
 parent: "ux-multi-channel-apps"
 menu_order: 30
 bg: "ux"
-tags: [""]
+tags: ["evaluation guide", "mendix", "mobile app", "ux"]
 ---
 
 ## 1 How Do Mendix Mobile Apps Work? {#mobile-apps-work}

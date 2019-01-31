@@ -5,7 +5,7 @@ seo_description: "Mendix is based on a cloud-native design & Twelve-Factor App p
 parent: "deployment"
 menu_order: 10
 bg: "multicloud"
-tags: [""]
+tags: ["evaluation guide", "mendix", "multi cloud", "cloud", "deployment", "on premises", "IaaS", "PaaS"]
 ---
 
 ## 1 What Deployment Options Does Mendix Provide? {#deployment-options}

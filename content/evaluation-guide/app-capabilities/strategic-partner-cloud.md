@@ -5,7 +5,7 @@ seo_description: "Learn more about Mendix strategic cloud partners and how Mendi
 parent: "deployment"
 menu_order: 50
 bg: "multicloud"
-tags: [""]
+tags: ["evaluation guide", "mendix", "sap", "sap cloud", "auto scaling", "ibm", "ibm cloud"]
 ---
 
 ## 1 How Does Mendix Run on the SAP Cloud Platform? {#running-sap-cloud}

@@ -5,7 +5,7 @@ seo_description: "Mendix makes consuming services as simple as possible. Visit t
 parent: "integration"
 menu_order: 30
 bg: "integration"
-tags: [""]
+tags: ["evaluation guide", "mendix", "rest api", "soap service"]
 ---
 
 ## 1 How Can I Consume a REST API? {#consume-rest-api}

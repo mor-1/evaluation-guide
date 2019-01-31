@@ -5,7 +5,7 @@ seo_description: "Mendix is compatible with IBM Cloud, SAP Cloud, Azure, AWS, Op
 parent: "deployment"
 menu_order: 20
 bg: "multicloud"
-tags: [""]
+tags: ["evaluation guide", "mendix", "cloud provider", "cloud", "sap", "ibm", "aws", "azure", "pivotal", "cloud foundry"]
 ---
 
 ## 1 Which Cloud Providers Can I Use for Mendix? {#which-cloud}

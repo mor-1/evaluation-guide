@@ -5,7 +5,7 @@ seo_description: "Learn how Mendix web apps work & how Mendix's responsive desig
 parent: "ux-multi-channel-apps"
 menu_order: 40
 bg: "ux"
-tags: [""]
+tags: ["evaluation guide", "mendix", "web app", "app", "application"]
 ---
 
 ## 1 How Do Mendix Web Apps Work?
@@ -18,7 +18,7 @@ When an app is deployed to the cloud, the static resources (HTML, CSS, JavaScrip
 
 The Mendix JavaScript Client renders the UI, handles actions in the browser, and communicates through APIs via HTTPS with the Mendix Runtime. The rich client can perform many actions without the need to call the server, thus minimizing the number of (costly) server round-trips. Combined with our [client-side functionality](front-end#support-client-side-logic) and the fact that Mendix apps support browsers' back/forward functionality while complying with accessibility guidelines, you can efficiently model web apps that have excellent performance.
 
-## 2 How Does Mendix Support Different Screen Sizes and Devices?
+## 2 How Does Mendix Support Different Screen Sizes & Devices?
 
 Mendix pages are responsive by default, so they automatically adjust to screen size. This results in web apps that look great out of the box on screen sizes from desktops to phones. For an optimized user experience, it is possible to define separate mobile web channels for phone and tablet. The device type (as in, phone, tablet, or desktop) can also be used in the logic for other scenarios.
 

@@ -6,7 +6,7 @@ category: "App Capabilities"
 notoc: true
 menu_order: 20
 bg: "data"
-tags: [""]
+tags: ["evaluation guide", "mendix", "data management", "database"]
 ---
 
 The data required to build new enterprise applications is derived from many sources, such as existing SQL databases, service calls, web APIs, and local application-specific databases. Mendix applications sit on top of their own SQL database, which is created and managed by the platform and without the need for a dedicated database administrator.

@@ -5,7 +5,7 @@ seo_description: "Mendix has collaborative agile tools built right into the plat
 parent: "welcome"
 bg: "mendix"
 menu_order: 40
-tags: [""]
+tags: ["evaluation guide", "mendix", "development", "bizdevops", "devops", "agile"]
 ---
 
 ## 1 What Development Process Works Best for Mendix? {#bizdevops}

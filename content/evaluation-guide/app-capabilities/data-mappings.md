@@ -5,7 +5,7 @@ seo_description: "Learn how Mendix gives you both advanced control over mappings
 parent: "integration"
 menu_order: 20
 bg: "integration"
-tags: ["Integration"]
+tags: ["evaluation guide", "mendix", "integration", "data mapping"]
 ---
 
 ## 1 How Does Mendix Support Data Mapping? {#data-mapping}
@@ -33,7 +33,7 @@ After doing this, you can use the message definition as any other message defini
 ![Using JSON Snippets](attachments/json-snippet-example.png)
 {{% /image_container %}}
 
-## 3 How Can I Use XMLs and WSDLs?
+## 3 How Can I Use XMLs & WSDLs?
 
 When importing a web service definition (WSDL), the message definition will be automatically provided in your application based on the XML schema used in the WSDL.
 
@@ -43,7 +43,7 @@ Alternatively, you can define your messages based on a separate XML schema docum
 ![Using XML](attachments/xsd-message-definition.png)
 {{% /image_container %}}
 
-## 4 How Can I Create XML and JSON Messages from Application Data?
+## 4 How Can I Create XML & JSON Messages from Application Data?
 
 When creating services or APIs in Mendix, you can easily support both XML and JSON. To do this, you can create a message definition document, and then define all the separate message simply by dragging and dropping entities into your message definition document. Here you exclude properties you do not want included in your JSON or XML, or provide different naming for external systems.
 

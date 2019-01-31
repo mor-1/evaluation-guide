@@ -5,7 +5,7 @@ seo_description: "Explore building front-ends for applications in Mendix and how
 parent: "ux-multi-channel-apps"
 menu_order: 10
 bg: "ux"
-tags: [""]
+tags: ["evaluation guide", "mendix", "front end", "multi channel", "multilingual"]
 ---
 
 ## 1 How Does Mendix Support Multi-Channel Applications? {#support-multi-channel}

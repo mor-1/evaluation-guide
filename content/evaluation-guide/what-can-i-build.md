@@ -5,7 +5,7 @@ seo_description: "Learn what organizations can build with Mendix, what type of p
 parent: "welcome"
 bg: "mendix"
 menu_order: 50
-tags: [""]
+tags: ["evaluation guide", "mendix", "application", "innovation app", "customer engagement", "operational efficiency"]
 ---
 
 ## 1 In General, What Can I Build with Mendix? {#can-i-build}

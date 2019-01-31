@@ -5,7 +5,7 @@ seo_description: "The Mendix Cloud has a full set of features for app deployment
 parent: "deployment"
 menu_order: 40
 bg: "multicloud"
-tags: [""]
+tags: ["evaluation guide", "mendix", "mendix cloud", "cloud"]
 ---
 
 ## 1 What Features Are Available in the Mendix Cloud? {#cloud}

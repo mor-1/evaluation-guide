@@ -5,7 +5,7 @@ seo_description: "Mendix is a low-code development platform, but what does that 
 category: "Overview"
 bg: "mendix"
 notoc: true
-tags: [""]
+tags: ["evaluation guide", "mendix", "no code", "low code"]
 seo_video: "welcome"
 ---
 

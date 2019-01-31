@@ -5,7 +5,7 @@ seo_description: "Get an overview on what web services, data mapping, databases 
 parent: "integration"
 menu_order: 10
 bg: "integration"
-tags: [""]
+tags: ["evaluation guide", "mendix", "integration"]
 ---
 
 ## 1 How Can I Integrate with Mendix? {#integrate-with}

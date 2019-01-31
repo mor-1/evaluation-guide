@@ -5,7 +5,7 @@ seo_description: "Visit to learn how to define data in the Mendix Platform, the 
 parent: "data-management"
 menu_order: 10
 bg: "data"
-tags: [""]
+tags: ["evaluation guide", "mendix", "database", "data storage", "persistable"]
 ---
 
 ## 1 How Do I Define Data in Mendix?

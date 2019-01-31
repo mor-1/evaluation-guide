@@ -5,7 +5,7 @@ seo_description: "Speed, collaboration & control are the three Mendix core princ
 parent: "welcome"
 menu_order: 20
 bg: "mendix"
-tags: [""]
+tags: ["evaluation guide", "mendix"]
 ---
 
 ## 1 What Is the Mendix Vision?

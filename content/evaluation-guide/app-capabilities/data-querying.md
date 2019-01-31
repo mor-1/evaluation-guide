@@ -5,7 +5,7 @@ seo_description: "Learn about the querying languages Mendix supports like XPath,
 parent: "data-management"
 menu_order: 40
 bg: "data"
-tags: [""]
+tags: ["evaluation guide", "mendix", "data querying", "xpath", "oql", "sql", "odata"]
 ---
 
 ## 1 Which Query Languages Does Mendix Support?

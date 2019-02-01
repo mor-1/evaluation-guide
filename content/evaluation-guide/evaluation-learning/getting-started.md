@@ -5,7 +5,7 @@ seo_description: "Learn where to get started with the Mendix Platform, how to ma
 parent: "evaluation"
 menu_order: 10
 bg: "evaluation"
-tags: [""]
+tags: ["onboarding", "community", "free", "paid", "edition", "training"]
 ---
 
 ## 1 Where Do I Start with the Mendix Platform? {#where-do-i-start}

@@ -5,7 +5,7 @@ seo_description: "From low-tech citizen & business developers to skilled IT deve
 parent: "learning"
 menu_order: 10
 bg: "learning"
-tags: [""]
+tags: ["skills", "training", "academy", "tour", "guidance", "webinar", "documentation"]
 ---
 
 ## 1 What Types of Users Can Build Apps with Mendix? {#personas}

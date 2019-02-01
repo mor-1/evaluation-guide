@@ -5,7 +5,7 @@ seo_description: "Learn about the key components of the Mendix Platform architec
 parent: "architecture-intro"
 menu_order: 20
 bg: "architecture"
-tags: [""]
+tags: ["platform architecture", "architecture", "developer portal", "team server", "deployment"]
 ---
 
 ## 1 What Are the Key Components of the Mendix Platform Architecture? {#key-components}

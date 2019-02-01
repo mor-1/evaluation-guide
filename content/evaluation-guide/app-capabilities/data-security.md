@@ -5,7 +5,7 @@ seo_description: "Learn how Mendix ensures data security by defining data access
 parent: "data-management"
 menu_order: 30
 bg: "data"
-tags: ["evaluation guide", "mendix", "data security", "data", "security"]
+tags: ["data security", "data", "security"]
 ---
 
 ## 1 How Does Mendix Ensure Data Security? {#ensure-data-security}

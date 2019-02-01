@@ -6,7 +6,7 @@ category: "App Capabilities"
 menu_order: 10
 notoc: true
 bg: "ux"
-tags: ["evaluation guide", "mendix", "mobile app", "multi-channel", "offline", "ux"]
+tags: ["mobile app", "multi-channel", "offline", "ux"]
 seo_video: "ux-multi-channel-apps"
 ---
 

@@ -2,7 +2,7 @@
 title: "App Lifecycle"
 seo_title: "Application Development Lifecycle"
 seo_description: "Learn how Mendix supports the entire application lifecycle through requirements management and what it is like developing in the low-code platform."
-tags: [""]
+tags: ["app lifecycle", "hpaPaaS"]
 notoc: true
 ---
 

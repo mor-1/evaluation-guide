@@ -5,7 +5,7 @@ seo_description: "Learn how to extend the functionality of Mendix, provide reusa
 parent: "openness-extensibility"
 menu_order: 30
 bg: "openness"
-tags: [""]
+tags: ["extensibility", "java action", "connector kit", "javascript", "widget", "request handler", "eclipse"]
 ---
 
 ## 1 How Can I Extend the Functionality of the Mendix Platform? {#extend-functionality}

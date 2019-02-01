@@ -5,7 +5,7 @@ seo_description: "Learn how Mendix supports staging & deployment, how to deploy 
 parent: "devops"
 menu_order: 50
 bg: "devops"
-tags: [""]
+tags: ["operations", "deployment", "release", "app"]
 ---
 
 ## 1 How Does Mendix Support Staging & Deployment?

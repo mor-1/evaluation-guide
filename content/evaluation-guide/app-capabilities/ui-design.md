@@ -5,7 +5,7 @@ seo_description: "Mendix provides a hefty array of UI design tools out of the bo
 parent: "ux-multi-channel-apps"
 menu_order: 20
 bg: "ux"
-tags: ["evaluation guide", "mendix", "ui", "design", "atlas ui", "template", "building block", "widget"]
+tags: ["ui", "design", "atlas ui", "template", "building block", "widget"]
 ---
 
 ## 1 How Can I Design Rich User Interfaces? {#atlas-ui}

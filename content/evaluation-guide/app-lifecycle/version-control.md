@@ -5,7 +5,7 @@ seo_description: "Learn how the Mendix Team Server uses SVN technology to enable
 parent: "developing-in-mendix"
 bg: "developing"
 menu_order: 50
-tags: ["version control", "multi-user", "user stories", "SVN", "branching", "merging", "API"]
+tags: ["version control", "multi-user", "user stories", "svn", "branching", "merging", "api"]
 ---
 
 ## 1 How Does Mendix Support Multi-User Development? {#multi-user}

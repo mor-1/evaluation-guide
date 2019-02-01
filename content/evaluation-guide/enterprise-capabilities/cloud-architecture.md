@@ -5,7 +5,7 @@ seo_description: "Learn what kind of security controls are available in the Mend
 parent: "architecture-intro"
 menu_order: 30
 bg: "architecture"
-tags: [""]
+tags: ["architecture", "cloud", "deployment", "mendix cloud", "disaster recovery"]
 ---
 
 ## 1 What Does the Mendix Deployment Architecture Look Like?

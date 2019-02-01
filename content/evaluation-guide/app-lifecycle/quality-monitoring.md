@@ -5,7 +5,7 @@ seo_description: "Learn about application quality monitoring tools in Mendix & h
 parent: "devops"
 menu_order: 40
 bg: "devops"
-tags: ["test automation", "quality assurance", "model", "AQM", "unit test", "functional test", "Selenium", "JUnit"]
+tags: ["test automation", "quality assurance", "model", "aqm", "unit test", "functional test", "selenium", "junit"]
 ---
 
 ## 1 What Tools Are Available for Quality-Monitoring Mendix Apps? {#quality-monitoring}

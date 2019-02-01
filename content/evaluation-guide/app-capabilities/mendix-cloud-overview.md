@@ -5,7 +5,7 @@ seo_description: "The Mendix Cloud is built on top of Cloud Foundry & AWS, is av
 parent: "deployment"
 menu_order: 30
 bg: "multicloud"
-tags: ["evaluation guide", "mendix", "mendix cloud", "high availability", "uptime"]
+tags: ["mendix cloud", "high availability", "uptime"]
 ---
 
 ## 1 How Can I Run Mendix on the Mendix Cloud {#mendix-cloud}

@@ -5,7 +5,7 @@ seo_description: "Learn how Mendix web apps work & how Mendix's responsive desig
 parent: "ux-multi-channel-apps"
 menu_order: 40
 bg: "ux"
-tags: ["evaluation guide", "mendix", "web app", "app", "application"]
+tags: ["web app", "app", "application"]
 ---
 
 ## 1 How Do Mendix Web Apps Work?

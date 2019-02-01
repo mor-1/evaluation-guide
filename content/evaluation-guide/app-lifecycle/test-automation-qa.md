@@ -5,7 +5,7 @@ seo_description: "Learn what tools are available in Mendix for test automation &
 parent: "devops"
 menu_order: 30
 bg: "devops"
-tags: ["test automation", "quality assurance", "model", "AQM", "unit test", "functional test", "Selenium", "JUnit"]
+tags: ["test automation", "quality assurance", "model", "aqm", "unit test", "functional test", "selenium", "junit"]
 ---
 
 ## 1 What Mendix Tools Are Available for Test Automation & Quality Assurance? {#qa-tools}

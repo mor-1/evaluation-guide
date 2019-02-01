@@ -5,7 +5,7 @@ seo_description: "Learn about the Mendix Runtime & its components: including how
 parent: "architecture-intro"
 menu_order: 40
 bg: "architecture"
-tags: [""]
+tags: ["runtime architecture", "debugging", "monitoring", "stateless", "architecture"]
 ---
 
 ## 1 What Is the Mendix Runtime & How Does It Support Key Architectural Principles?

@@ -5,7 +5,7 @@ seo_description: "Learn how Mendix gives you both advanced control over mappings
 parent: "integration"
 menu_order: 20
 bg: "integration"
-tags: ["evaluation guide", "mendix", "integration", "data mapping"]
+tags: ["integration", "data mapping"]
 ---
 
 ## 1 How Does Mendix Support Data Mapping? {#data-mapping}

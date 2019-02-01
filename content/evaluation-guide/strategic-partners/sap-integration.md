@@ -5,7 +5,7 @@ seo_description: "Learn about how Mendix integrates with SAP, including a single
 parent: "sap"
 menu_order: 20
 bg: "sap"
-tags: [""]
+tags: ["sap", "cloud connector", "soap", "rest", "odata"]
 ---
 
 ## 1 How Can I Deliver a Single Sign-On Experience in My Mendix App Extending SAP?

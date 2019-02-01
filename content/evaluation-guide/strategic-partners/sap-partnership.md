@@ -5,7 +5,7 @@ seo_description: "SAP, together with Mendix, offers the ability to extend the di
 parent: "sap"
 menu_order: 10
 bg: "sap"
-tags: [""]
+tags: ["sap", "sap cloud", "partner"]
 ---
 
 ## 1 What Type of Partnership Does Mendix Have with SAP? {#sap-partnership-type}

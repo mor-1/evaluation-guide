@@ -6,7 +6,7 @@ category: "Strategic Partners"
 notoc: true
 menu_order: 10
 bg: "sap"
-tags: [""]
+tags: ["sap", "partner", "low code"]
 seo_video: "sap"
 ---
 

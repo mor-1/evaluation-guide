@@ -5,7 +5,7 @@ seo_description: "Learn how to start using Mendix on IBM Cloud & the services th
 parent: "ibm"
 menu_order: 20
 bg: "ibm"
-tags: [""]
+tags: ["integration", "ibm", "ibm cloud", "deploy", "watson", "connector"]
 ---
 
 ## 1 How Can I Start Using Mendix on IBM Cloud? {#start-ibm}

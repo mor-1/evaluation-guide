@@ -32,9 +32,9 @@ Mendix is certified to be compliant with the [ISO/IEC 27001](https://www.iso.org
 
 [ISAE 3000](http://www.ifac.org/publications-resources/international-standard-assurance-engagements-isae-3000-revised-assurance-enga) is an international assurance standard on controls at a service organization and [ISAE 3402](http://isae3402.com/ISAE3402_overview.html) are international assurance standards on controls at a service organization. Mendix holds an ISAE 3000 Type II and an ISAE 3402 Type II report, which discloses how Mendix security controls have been managed over the past year.
 
-### 2.3 SOC 1 Type II & SOC 2 Type II Assurance Reports
+### 2.3 SOC 1 Type II & SOC 2 Type II & SOC 3 Type II Assurance Reports
 
-[SOC 1](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc1report.html) and [SOC 2](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) are American assurance standards on controls at a service organization. Mendix holds an SOC 1 Type II report and an SOC 2 Type II report disclosing how Mendix security controls have been managed over the past year.
+[SOC 1](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc1report.html) and [SOC 2](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) and [SOC 3](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc3report.html) are American assurance standards on controls at a service organization. Mendix holds an SOC 1 Type II report, SOC 2 Type II report and an SOC 3 Type II report disclosing how Mendix security controls have been managed over the past year.
 
 ### 2.4 CSA STAR Certification
 

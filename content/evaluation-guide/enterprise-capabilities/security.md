@@ -28,6 +28,7 @@ Mendix complies with the following third-party security certifications and assur
 * ISAE 3402 Type II Assurance Report
 * SOC 1 Type II Assurance Report
 * SOC 2 Type II Assurance Report
+* SOC 3 Type II Assurance Report
 * CSA STAR Certification
 
 For more information, see [Which Third-Party Security Certifications and Assurance Reports Does Mendix Have?](organization-compliance#security-certifications)

@@ -9,7 +9,7 @@ tags: ["evaluation guide", "mendix", "no code", "low code"]
 seo_video: "welcome"
 ---
 
-Welcome to the Mendix Platform Evaluation Guide. In this chapter, we will present the essence of Mendix, including background details on why we found the company and what the Mendix vision is.
+Welcome to the Mendix Platform Evaluation Guide. In this chapter, we will present the essence of Mendix, including background details on why we founded the company and what the Mendix vision is.
 
 We recommend first watching this video of our Chief Technology Officer, Johan den Haan:
 

@@ -5,7 +5,7 @@ seo_description: "What is Mendix? Mendix is a low-code application development p
 parent: "welcome"
 bg: "mendix"
 menu_order: 30
-tags: [""]
+tags: ["evaluation guide", "mendix", "app lifecycle", "no code", "low code"]
 seo_video: "what-is-mendix"
 ---
 

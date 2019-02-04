@@ -5,7 +5,7 @@ seo_description: "Mendix is a recognized leader as a low-code application develo
 parent: "welcome"
 menu_order: 70
 bg: "mendix"
-tags: [""]
+tags: ["evaluation guide", "mendix", "gartner", "forrester", "hpaPaaS", "low-code", "app"]
 ---
 
 ## 1 What Do Gartner and Forrester Say About Mendix?

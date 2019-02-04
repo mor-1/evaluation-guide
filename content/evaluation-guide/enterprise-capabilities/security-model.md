@@ -5,7 +5,7 @@ seo_description: "Learn how application security is defined in Mendix, including
 parent: "security"
 menu_order: 30
 bg: "security"
-tags: [""]
+tags: ["security", "user role", "password", "policy", "module role", "identity management", "third party"]
 ---
 
 ## 1 How Is Application Security Defined in Mendix?

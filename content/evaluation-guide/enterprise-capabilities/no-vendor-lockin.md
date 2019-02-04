@@ -5,7 +5,7 @@ seo_description: "Learn how to avoid being locked in to the Mendix Platform by e
 parent: "openness-extensibility"
 menu_order: 10
 bg: "openness"
-tags: [""]
+tags: ["vendor", "lock in", "exporting"]
 ---
 
 ## 1 How Can I Avoid Being Locked In to the Mendix Platform? {#avoid-lockin}

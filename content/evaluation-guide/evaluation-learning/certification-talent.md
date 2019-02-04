@@ -5,7 +5,7 @@ seo_description: "Learn how to become Mendix-certified & what certifications are
 parent: "learning"
 menu_order: 20
 bg: "learning"
-tags: [""]
+tags: ["certification", "talent", "advanced", "expert", "university"]
 ---
 
 ## 1 How Do I Get Certified in Mendix? {#get-certified}

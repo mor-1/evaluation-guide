@@ -6,7 +6,7 @@ category: "Enterprise Capabilities"
 notoc: true
 menu_order: 50
 bg: "security"
-tags: [""]
+tags: ["security", "iso", "iec", "isae", "soc", "csa", "information"]
 ---
 
 Mendix takes the security of your applications, the Mendix Platform your apps run on, and the cloud operations running the platform very seriously.  To achieve the levels of security required by our customers, Mendix has implemented an information security management system (ISMS) according to the ISO/IEC 27001 standards as well as comprehensive security and governance features built into the platform itself.

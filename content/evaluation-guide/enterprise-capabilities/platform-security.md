@@ -5,7 +5,7 @@ seo_description: "Learn all about platform security in Mendix, including managin
 parent: "security"
 menu_order: 20
 bg: "security"
-tags: [""]
+tags: ["platform security", "security", "company", "authentication", "security", "logging", "audit trail", "encryption"]
 ---
 
 ## 1 How Does the Mendix Platform Manage My Identities?

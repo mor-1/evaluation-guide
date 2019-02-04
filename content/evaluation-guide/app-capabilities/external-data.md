@@ -5,7 +5,7 @@ seo_description: "Learn how to import and use external data in your Mendix appli
 parent: "integration"
 menu_order: 50
 bg: "integration"
-tags: [""]
+tags: ["data", "excel", "export", "import"]
 ---
 
 ## 1 How Can I Store & Use Integrated Data in My Applications?

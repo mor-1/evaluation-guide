@@ -5,7 +5,7 @@ seo_description: "Learn about Twelve-Factor App methodology & how the Mendix Run
 parent: "architecture-intro"
 menu_order: 50
 bg: "architecture"
-tags: [""]
+tags: ["architecture", "twelve factor"]
 ---
 
 ## 1 What Is the Twelve-Factor App Methodology?

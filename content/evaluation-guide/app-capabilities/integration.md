@@ -6,7 +6,7 @@ category: "App Capabilities"
 notoc: true
 menu_order: 30
 bg: "integration"
-tags: [""]
+tags: ["integration", "data mapping", "rest service", "web service"]
 ---
 
 Mendix supports connections to other apps and services through industry-standard interfaces and protocols such as REST, SOAP, JDBC, and OData. The platform offers many solutions for ensuring that new applications can both consume and expose data and services in heterogeneous environments.

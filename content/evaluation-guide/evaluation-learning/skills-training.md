@@ -5,10 +5,10 @@ seo_description: "From low-tech citizen & business developers to skilled IT deve
 parent: "learning"
 menu_order: 10
 bg: "learning"
-tags: [""]
+tags: ["skills", "training", "academy", "tour", "guidance", "webinar", "documentation"]
 ---
 
-## 1 What Types of Users Can Build Apps with Mendix?
+## 1 What Types of Users Can Build Apps with Mendix? {#personas}
 
 Mendix is designed so that anyone with an idea can build an app. Whether you are a marketer, business analyst, or seasoned professional developer, Mendix provides a wealth of resources for you to get started on the platform and leverage your experience in the most effective way possible.
 

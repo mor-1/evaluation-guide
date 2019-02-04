@@ -5,7 +5,7 @@ seo_description: "Learn how application security is defined in Mendix, including
 parent: "security"
 menu_order: 35
 bg: "security"
-tags: [""]
+tags: ["runtime security", "runtime", "security", "data layer", "owasp", "multi tenant", "password", "authenticate", "encryption"]
 ---
 
 ## 1 How Is Security Handled in a Mendix App?

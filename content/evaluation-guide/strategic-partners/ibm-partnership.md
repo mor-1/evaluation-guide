@@ -5,7 +5,7 @@ seo_description: "IBM has selected Mendix as the standard low-code platform to b
 parent: "ibm"
 menu_order: 10
 bg: "ibm"
-tags: [""]
+tags: ["ibm", "partnership", "ibm cloud"]
 ---
 
 ## 1 What Type of Partnership Does Mendix Have with IBM? {#ibm-partnership-type}
@@ -19,6 +19,8 @@ The IBM Cloud has the portfolio to deliver a full-stack solution that will drive
 {{% image_container width="650" %}}
 ![IBM Cloud Offerings Examples](attachments/ibmcloudoffering.png)
 {{% /image_container %}}
+
+## 2 What Does the Mendix–IBM Partnership Offer?
 
 To accelerate development, IBM Cloud delivers a broad range of services (which are also called PaaS services). These are directly accessible from the [IBM Cloud Catalog](https://console.bluemix.net/catalog/). Typical services that IBM offers include Watson cognitive services, data management, mobile, services, CI/CD, toolchain services, and starter apps.
 

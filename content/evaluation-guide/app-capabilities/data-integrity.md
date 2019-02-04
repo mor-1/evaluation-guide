@@ -5,7 +5,7 @@ seo_description: "Learn how Mendix ensures the integrity of data, what data type
 parent: "data-management"
 menu_order: 20
 bg: "data"
-tags: [""]
+tags: ["data", "data integrity", "validation", "event handler"]
 ---
 
 ## 1 How Do I Ensure the Integrity of My Data?

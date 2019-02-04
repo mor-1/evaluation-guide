@@ -5,7 +5,7 @@ seo_description: "Learn how Mendix offline apps work, how they handle data, and 
 parent: "ux-multi-channel-apps"
 menu_order: 50
 bg: "ux"
-tags: [""]
+tags: ["mobile app", "offline"]
 ---
 
 ## 1 How Can I Build an Offline Mobile App? {#build-offline}

@@ -6,7 +6,7 @@ category: "Enterprise Capabilities"
 notoc: true
 menu_order: 40
 bg: "openness"
-tags: [""]
+tags: ["openness", "extensibility", "lock in", "api", "sdk"]
 ---
 
 The Mendix Platform is open and extensible at every level, with an open model specification and tools provided for platform and app extensibility. Mendix apps are extensible with reusable components and custom code. And Mendix Platform APIs allow you to integrate with your existing requirements management tools, test automation suites, and CI/CD pipelines.

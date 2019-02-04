@@ -4,7 +4,7 @@ seo_title: "Cloud Security"
 parent: "security"
 menu_order: 40
 bg: "security"
-tags: [""]
+tags: ["cloud security", "cloud", "security", "access", "restriction", "control", "custom domain"]
 ---
 
 ## 1 What Kind of Security Controls Are Available in the Mendix Cloud?
@@ -54,6 +54,7 @@ A cloud node always has only one Technical Contact (while any number of team mem
 Only the Technical Contact can give their user role to another team member (after this, the new user has the Technical Contact role, and the old user does not).
 
 The Technical Contact receives the following alerts from the cloud node:
+
 * **Notifications for maintenance** from Mendix Support
 * **Alerts** from the node when problems arise
   * For example, CPU load is high, running out of disk space
@@ -62,6 +63,7 @@ The Technical Contact receives the following alerts from the cloud node:
 #### 1.5.2 Who Is the First Point of Contact for Incidents & Changes to the App?
 
 The Technical Contact is the first point of contact from Mendix Support about the application. The Technical Contact can submit requests for the cloud node with the following request types:
+
 * **Incidents** – for example, when the app is down
 * **Standard changes** – requests to add cloud resources, change the Mendix app URL, create a new app, obtain or renew a license, reset Google authenticator
 

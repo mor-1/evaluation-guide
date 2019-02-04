@@ -5,7 +5,7 @@ seo_description: "Learn about all the resources Mendix provides to assist the us
 parent: "evaluation"
 bg: "evaluation"
 menu_order: 20
-tags: [""]
+tags: ["support", "forum", "community", "documentation", "app store", "partner", "expert service"]
 ---
 
 ## 1 What Kinds of Additional Support Does Mendix Offer?

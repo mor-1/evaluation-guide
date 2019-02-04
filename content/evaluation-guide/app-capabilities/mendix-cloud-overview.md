@@ -5,7 +5,7 @@ seo_description: "The Mendix Cloud is built on top of Cloud Foundry & AWS, is av
 parent: "deployment"
 menu_order: 30
 bg: "multicloud"
-tags: [""]
+tags: ["mendix cloud", "high availability", "uptime"]
 ---
 
 ## 1 How Can I Run Mendix on the Mendix Cloud {#mendix-cloud}
@@ -62,7 +62,7 @@ For the database, a fallback option needs to be purchased per application where 
 
 For more information, see the sections [How Does Mendix Cloud Offer High Availability?](../enterprise-capabilities/cloud-architecture#cloud-ha), [How Does Mendix Provide Disaster Recovery](../enterprise-capabilities/cloud-architecture#cloud-dr), and [How Does Mendix Cloud Provide Auto-Recovery & Auto-Healing?](../enterprise-capabilities/cloud-architecture#cloud-ar) in *Cloud Architecture*.
 
-## 5 How Does Horizontal and Vertical Scaling Work in the Mendix Cloud?
+## 5 How Does Horizontal & Vertical Scaling Work in the Mendix Cloud?
 
 A Mendix Application relies on these three basic components:
 

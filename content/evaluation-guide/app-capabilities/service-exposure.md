@@ -5,7 +5,7 @@ seo_description: "Mendix low-code platform allows applications to publish REST A
 parent: "integration"
 menu_order: 40
 bg: "integration"
-tags: [""]
+tags: ["service exposure", "rest api", "soap service", "web service", "odata"]
 ---
 
 ## 1 How Can I Publish a REST API?

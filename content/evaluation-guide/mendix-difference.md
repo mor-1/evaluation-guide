@@ -5,7 +5,7 @@ seo_description: "Mendix's unique approach to application development by providi
 parent: "welcome"
 bg: "mendix"
 menu_order: 60
-tags: [""]
+tags: ["evaluation guide", "mendix", "low code", "no code", "sap", "ibm"]
 seo_video: "mendix-difference"
 ---
 

@@ -5,7 +5,7 @@ seo_description: "Learn what kinds of APIs Mendix exposes including Runtime, Pla
 parent: "openness-extensibility"
 menu_order: 20
 bg: "openness"
-tags: [""]
+tags: ["openness", "api", "sdk", "automation"]
 ---
 
 ## 1 What Kind of APIs Does Mendix Expose? {#apis}

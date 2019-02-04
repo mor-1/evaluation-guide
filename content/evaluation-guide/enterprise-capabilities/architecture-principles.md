@@ -5,7 +5,7 @@ seo_description: "Learn about the key architectural principles behind the Mendix
 parent: "architecture-intro"
 menu_order: 10
 bg: "architecture"
-tags: [""]
+tags: ["architecture", "microservice", "container", "statelessness", "openness", "extensibility", "twelve factor"]
 ---
 
 ## 1 What Are the Key Architectural Principles Behind the Mendix Platform? {#key-principles}

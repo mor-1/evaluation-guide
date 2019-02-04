@@ -5,7 +5,7 @@ seo_description: "Learn what the Mendix community can do for you, how to set up 
 parent: "evaluation"
 menu_order: 20
 bg: "evaluation"
-tags: [""]
+tags: ["community", "profile", "partner"]
 ---
 
 ## 1 What Can the Mendix Community Do for Me? {#community-do-for-me}

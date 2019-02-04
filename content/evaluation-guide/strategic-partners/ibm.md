@@ -6,7 +6,7 @@ category: "Strategic Partners"
 notoc: true
 menu_order: 20
 bg: "ibm"
-tags: [""]
+tags: ["ibm", "ibm cloud", "partner"]
 seo_video: "ibm"
 ---
 

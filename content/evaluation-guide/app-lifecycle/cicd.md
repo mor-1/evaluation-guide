@@ -5,7 +5,7 @@ seo_description: "Learn how Mendix supports continuous integration & delivery (C
 parent: "devops"
 menu_order: 10
 bg: "devops"
-tags: ["continuous integration and delivery", "ci/cd", "automated test", "API", "jenkins", "testing"]
+tags: ["continuous integration and delivery", "ci/cd", "automated test", "api", "jenkins", "testing"]
 ---
 
 ## 1 How Does Mendix Support Continuous Integration & Delivery (CI/CD)? {#support-cicd}

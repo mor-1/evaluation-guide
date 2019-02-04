@@ -5,7 +5,7 @@ seo_description: "Learn about security organization & compliance within the Mend
 parent: "security"
 menu_order: 10
 bg: "security"
-tags: [""]
+tags: ["compliance", "security", "iso", "sec", "isae", "data", "contract"]
 ---
 
 ## 1 How Is Information Security Organized in Mendix? {#security-organized}

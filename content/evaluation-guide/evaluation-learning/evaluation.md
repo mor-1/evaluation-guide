@@ -6,7 +6,7 @@ category: "Evaluation & Learning"
 notoc: true
 menu_order: 10
 bg: "evaluation"
-tags: [""]
+tags: ["evaluation", "community", "support"]
 ---
 
 To help you get started with the Mendix Platform, we have created a complete integrated onboarding experience that will get you working with Mendix as quickly as possible. Embedded guidance will walk you through the core aspects of the platform, offering you the ability to experience Mendix while learning about key concepts and features. Additionally, there are a wealth of resources for learning available to the Mendix community, such as an active user forum where answers to your questions will be provided in minutes.

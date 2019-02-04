@@ -5,7 +5,7 @@ seo_description: "It was the early 2000s when Mendix first set out on its missio
 parent: "welcome"
 bg: "mendix"
 menu_order: 10
-tags: [""]
+tags: ["evaluation guide", "mendix", "model-driven development"]
 ---
 
 ## 1 Why Was Mendix Founded? {#founded}

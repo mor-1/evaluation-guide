@@ -6,7 +6,7 @@ category: "Evaluation & Learning"
 notoc: true
 menu_order: 20
 bg: "learning"
-tags: [""]
+tags: ["learning", "training", "skills"]
 ---
 
 To help you get started  with building apps, Mendix provides a fully integrated suite of training materials and learning paths via our [Academy](https://gettingstarted.mendixcloud.com/). Learning paths are tailored towards your skill set, so there is training content for citizen developers with little to no development experience, for UX designers, and of course for professional software engineers.  In addition, there is the rich and vibrant Mendix community composed of tens of thousands of active members jointly participating and sharing their best practices. Experience is always a great resource for accelerated learning!

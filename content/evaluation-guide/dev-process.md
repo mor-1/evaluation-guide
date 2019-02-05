@@ -43,7 +43,7 @@ The core development team in Mendix low-code BizDevOps projects consists of thre
 
 * **Business analyst** – This role talks to the business and works together with a more technical developer to run the entire application delivery lifecycle, including the operations. The enablement of the business analyst is key in interpreting the requirements and feedback from the business correctly. In other words, they speak the same language to verify the UX/UI (pages), business rules (logic), and the conceptual data model of the app in development.
 
-* **Developer** – This role is delivers tangible results by supporting the business analyst to build the app. The developer focusses on the technical work with the integrations, data model, security, and performance.
+* **Developer** – This role delivers tangible results by supporting the business analyst to build the app. The developer focusses on the technical work with the integrations, data model, security, and performance.
 
 This core development team runs the entire application delivery lifecycle without the direct help of a Java programmer. All of these roles are important, especially in an enterprise-scale delivery of multiple applications. However, they are also part of a higher-level Center of Excellence, which is often spread between multiple Mendix application development teams.
 

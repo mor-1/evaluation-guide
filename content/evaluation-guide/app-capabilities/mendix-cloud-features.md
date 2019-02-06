@@ -18,7 +18,7 @@ The sections below describe the features delivered by the Mendix Cloud.
 
 ## 2 How Does Application Deployment Management Work?
 
-This feature allows you to deploy a Mendix application with a single click from both the Mendix Development Portal and the Modeler.
+This feature allows you to deploy a Mendix application with a single click from both the Mendix Developer Portal and the Modeler.
 
 {{% image_container width="600" %}}
 ![Deployment Management Example](attachments/mx-deployment-management.png)

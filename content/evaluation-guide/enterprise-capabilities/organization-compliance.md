@@ -22,7 +22,7 @@ Mendix complies with various third-party security certifications and assurance r
 
 ### 2.1 ISO/IEC 27001 Certification
 
-Mendix is certified to be compliant with the [ISO/IEC 27001](https://www.iso.org/isoiec-27001-information-security.html) standard with 113 Annex A controls in scope. ISO/IEC 27001 is a key international standard for security management that specifies security management best practices and comprehensive security controls.
+Mendix is certified to be compliant with the [ISO/IEC 27001](https://www.iso.org/isoiec-27001-information-security.html) standard with all Annex A controls in scope. ISO/IEC 27001 is a key international standard for security management that specifies security management best practices and comprehensive security controls.
 
 {{% image_container width="700" %}}
 ![ISO IEC 27001 Security Certificate](attachments/certificate.png)

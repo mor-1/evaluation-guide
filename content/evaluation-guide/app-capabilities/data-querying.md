@@ -98,7 +98,7 @@ For more details, see [Backups](https://docs.mendix.com/developerportal/operate/
 
 When deploying a Mendix application for the first time, you have the option to initialize it with data from an existing Mendix app. The main purpose of this functionality is to enable migrating from one environment to another (for example, from the Mendix Cloud to a private cloud). Once you have migrated your non-Mendix data into Mendix data, you can use this data to initialize a new Mendix app. This will work between databases from the same vendor, and also when moving from one database vendor to another. This means that you can initialize an Azure SQL database using data in a PostgreSQL database running on your workstation.
 
-For more information, see [How to Migrate Your Mendix Database](https://docs.mendix.com/howto/tips/migrating-your-mendix-database) in the Mendix documentation.
+For more information, see [How to Migrate Your Mendix Database](https://docs.mendix.com/howto/data-models/migrating-your-mendix-database) in the Mendix documentation.
 
 ## 4 How Can I Use My Existing SQL Database in Mendix?
 

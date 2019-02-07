@@ -66,7 +66,7 @@ Custom widgets are based on JavaScript and can be used to create custom inputs, 
 
 Developers can use their preferred IDE and the standard available integrations with [NPM](https://www.npmjs.com/), [Gulp](https://gulpjs.com/), and [Grunt](https://gruntjs.com/) for a simple and flexible workflow.
 
-For more information, see the [Custom Widget Development](https://docs.mendix.com/howto/custom-widget-development/) how-to's in the Mendix documentation.
+For more information, see the [Widget Development](https://docs.mendix.com/howto/widget-development/) how-to's in the Mendix documentation.
 
 ## 5 Does Mendix Support Multilingual Apps?
 

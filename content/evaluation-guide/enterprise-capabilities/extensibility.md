@@ -50,9 +50,9 @@ To ease the development of custom widgets, Mendix provides a [Mendix widget gene
 
 For more details on custom JavaScript widgets, reference the section [How Can I Extend the Mendix Front-End](../app-capabilities/front-end#extend) in *Front-End* as well as the following Mendix documentation:
 
-* [Custom Widget Development how-to's](https://docs.mendix.com/howto/custom-widget-development/)
+* [Widget Development how-to's](https://docs.mendix.com/howto/widget-development/)
 * [Mendix Widget Generator documentation](https://github.com/mendix/generator-mendix)
-* [How to Scaffold a Widget with the Yeoman Widget Generator](https://docs.mendix.com/howto/custom-widget-development/scaffold-a-widget-with-the-yeoman-widget-generator)
+* [How to Scaffold a Widget with the Yeoman Widget Generator](https://docs.mendix.com/howto/widget-development/scaffold-a-widget-with-the-yeoman-widget-generator)
 
 ### 1.3 Java Request Handlers
 
@@ -101,7 +101,7 @@ Mendix provides seamless integration with a number of tools that developers use:
 
 * By selecting **Deploy for Eclipse** in the Modeler, your Mendix app project will be made compatible with Eclipse,w hich means you can run and debug your app from Eclipse. You will also have access to the Java source code, where you can implement custom Java actions. For more information, see [Using Eclipse](https://docs.mendix.com/refguide/using-eclipse) and [How to Debug Java actions](https://docs.mendix.com/howto/monitoring-troubleshooting/debug-java-actions) in the Mendix documentation.
 * Many Mendix developers use IntelliJ IDEA. IntelliJ enables you to import Eclipse projects, so by selecting **Deploy for Eclipse** in the Mendix Modeler, you will also be able to do all your custom Java actions coding in IntelliJ.
-* Widget developers can benefit from the [Widget Generator](https://docs.mendix.com/howto/custom-widget-development/scaffold-a-widget-with-the-yeoman-widget-generator) to quickly scaffold a new Mendix widget. This supports a number of commonly used JavaScript tools, like Yeoman, NodeJS, and Grunt. As this relies on common tools, you can edit your JavaScript widgets using a number of popular JavaScript IDEs, such as Brackets and WebStorm.
+* Widget developers can benefit from the [Widget Generator](https://docs.mendix.com/howto/widget-development/scaffold-a-widget-with-the-yeoman-widget-generator) to quickly scaffold a new Mendix widget. This supports a number of commonly used JavaScript tools, like Yeoman, NodeJS, and Grunt. As this relies on common tools, you can edit your JavaScript widgets using a number of popular JavaScript IDEs, such as Brackets and WebStorm.
 
 ## 4 What Open Standards Does Mendix Support?
 

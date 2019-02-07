@@ -72,7 +72,7 @@ For more details, see the following sections:
 
 * [How Can I Use My Own Custom Code in Server-Side Logic?](#custom-code) below
 * [Where Can I Use the Openness & Extensibility Provided by Mendix?](../enterprise-capabilities/openness-api-sdk#where) in *Openness (API & SDK)*
-* [Custom Widget Development how-to's](https://docs.mendix.com/howto/custom-widget-development/) about how to develop UI extensions and custom Mendix widgets for adding app-specific UI and JavaScript logic to pages
+* [Widget Development how-to's](https://docs.mendix.com/howto/widget-development/) about how to develop UI extensions and custom Mendix widgets for adding app-specific UI and JavaScript logic to pages
 * [Writing Code in a Low-Code World blog post](https://www.mendix.com/blog/writing-code-in-a-low-code-world/)
 
 ### 5.1 How Can I Use My Own Custom Code in Server-Side Logic? {#custom-code}

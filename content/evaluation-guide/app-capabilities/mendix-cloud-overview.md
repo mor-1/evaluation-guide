@@ -86,7 +86,7 @@ This video presents how you can create a backup:
 
 <video controls src="attachments/CreateBackup.mp4">VIDEO</video>
 
-For more information, see [Backups](https://docs.mendix.com/developerportal/operate/backups), [How to Create a Backup](https://docs.mendix.com/developerportal/operate/how-to-create-backup), and [How to Restore a Backup](https://docs.mendix.com/developerportal/operate/how-to-restore-a-backup) in the Mendix documentation.
+For more information, see [Backups](https://docs.mendix.com/developerportal/operate/backups), [How to Create a Backup](https://docs.mendix.com/developerportal/operate/create-backup), and [How to Restore a Backup](https://docs.mendix.com/developerportal/operate/restore-backup) in the Mendix documentation.
 
 ## 7 What Is the Uptime Guarantee for the Mendix Cloud?
 

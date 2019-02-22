@@ -40,7 +40,7 @@ Debugging and solving problems becomes easier for the developer, as they do not 
 
 To ensure scalability, performance, and high availability, Mendix has implemented a stateless runtime. This means that any runtime instance available can handle a user request, regardless of any previous requests or subsequent requests.
 
-To achieve this, runtime instances have state for the duration of a user request. At the end of a request, all the committed state will be saved to the client. All the uncommitted state will be returned to the client, along with all other data that the client needs.
+To achieve this, runtime instances have state for the duration of a user request. At the end of a request, all the committed state will be saved to the database. All the uncommitted state will be returned to the client, along with all other data that the client needs.
 
 For more information, see [Clustered Mendix Runtime](https://docs.mendix.com/refguide/clustered-mendix-runtime) in the Mendix Reference Guide.
 

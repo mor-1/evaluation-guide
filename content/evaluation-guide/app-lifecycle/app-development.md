@@ -24,7 +24,9 @@ For information on getting started with Mendix, have a look at [First Steps with
 
 **Business Analysts** and **Business Developers** can work together on a single app model version in the Web Modeler. This means that all changes are directly available to all other Web Modeler users. The Web Modeler can also be used for stakeholders to review the app and place comments on the app pages, domain model, and microflow logic.
 
-**Developers** using the Mendix Desktop Modeler can work together on the same app model via the [Team Server](version-control) version control repository. The models in the Web Modeler and Desktop Modeler environments can be brought into sync using the Team Server. For detailed steps on how to manage this, see [How to Sync  the Web Modeler with the Desktop Modeler](https://docs.mendix.com/howto/web-modeler/syncing-webmodeler-desktop) in the Mendix documentation.
+**Developers** using the Mendix Desktop Modeler can work together on the same app model via the [Team Server](version-control) version control repository. Changes from other team members using the Mendix Web Modeler or Desktop Modeler can be retrieved via the Team Server. For more details, see [Collaborative Development](https://docs.mendix.com/refguide/collaborative-development) in the Mendix documentation.
+
+{{% todo %}}[**VERIFY DOC TITLE & URL FOR PUBLICATION**]{{% /todo %}}
 
 ## 3 How Does Mendix Enable Model-Driven Development? {#enable}
 

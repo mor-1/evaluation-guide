@@ -18,7 +18,7 @@ The Mendix development process encourages developers, operations staff, and busi
 
 This section explains the concept of Mendix BizDevOps and compares this with other software development processes.
 
-## 2 Why Should I Use the BizDevOps Process?
+## 2 Why Should I Use the BizDevOps Process? {#bizdevops}
 
 Adopting the Mendix development process known as BizDevOps in combination with the Mendix low-code development platform drastically shortens the feedback loop. In turn, there is an increase in efficiency, which results in better outcomes, lower costs of app development, and shorter time-to-market.
 

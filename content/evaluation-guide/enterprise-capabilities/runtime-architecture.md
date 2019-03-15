@@ -98,7 +98,7 @@ Mobile applications use the same HTML5-, CSS-, and React-based client architectu
 
 * **Accessibility** – apps can be discovered in the standard device app store, installed on mobile devices, and opened via an icon
 * **Offline availability** – because the app is installed on mobile devices (including all required resources and potentially cached data), end-users can use your Mendix app offline, and relevant app data is cached in an SQLite database on your device
-* **Support for native functionality** – Apache Cordoba enables JavaScript applications to use native device functionality, which in turn allows you to benefit from all the sensors available in your mobile device, like the camera and microphone, for example
+* **Support for native functionality** – Apache Cordova enables JavaScript applications to use native device functionality, which in turn allows you to benefit from all the sensors available in your mobile device, like the camera and microphone, for example
 
 For more details on Mendix mobile device support, see [Mobile Apps](../app-capabilities/mobile-apps).
 

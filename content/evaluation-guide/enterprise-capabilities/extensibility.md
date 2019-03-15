@@ -58,7 +58,7 @@ For more details on custom JavaScript widgets, reference the section [How Can I 
 
 The Java Request Handler API enables you to create a custom HTTP endpoint implementation in Java. A request handler is basically a Java method that receives an HTTP request, uses the input, and then sends a response to the caller. This can be useful in many situations, such as custom authentication, deep links into specific pages, and custom protocol implementations. Implementation of the request handler is not limited to Java, as you can run Mendix microflows and activities from the Java implementation.
 
-Please note that with the availability of native REST publishing in Mendix 7, the need for custom Java request handlers has been greatly reduced.
+Please note that with the availability of native REST publishing, the need for custom Java request handlers has been greatly reduced.
 
 ### 1.4 Data Storage
 

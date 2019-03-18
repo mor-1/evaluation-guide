@@ -10,7 +10,7 @@ tags: ["version control", "multi-user", "user stories", "svn", "branching", "mer
 
 ## 1 How Does Mendix Support Multi-User Development? {#multi-user}
 
-The Mendix Desktop Modeler and Web Modeler combine multi-user development across different skill levels. Team members can choose the Modeler that fits their needs best. More information can be found in [App Development](../app-development).
+The Mendix Desktop Modeler and Web Modeler combine multi-user development across different skill levels. Team members can choose the Modeler that fits their needs best. More information can be found in [App Development](app-development).
 
 At the start of a project, all team members can work together on the main line of the version control repository. Desktop Modeler users can share app updates with the rest of the team using the update and commit pattern via the version control repository. All changes made by team members using the Web Modeler will be shared via the version control repository when the Desktop Modeler user requests an update from the version control repository.
 

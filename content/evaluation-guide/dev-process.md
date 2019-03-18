@@ -32,7 +32,7 @@ Mendix has optimized the BizDevOps approach for low-code, resulting in a feedbac
 
 * [Integrated requirement management](app-lifecycle/requirements-overview) – The business provides their requirements and feedback on the live app (minimal viable product) through a user-friendly feedback mechanism, which is integrated in the Mendix IDEs. This provides developers with contextual metadata, such as the page, user, and browser from which the feedback was given.
 * [Visual modeling](app-lifecycle/developing-in-mendix) – With the Mendix low-code platform, the business analyst is enabled to visually build apps and work together with the professional developer on a common model in a shared environment with ongoing real-time feedback. Any issues are quickly detected and resolved, ensuring apps meet business and customer expectations with the first release.
-* [Team synergy via multiple IDEs (modelers)](app-lifecycle/app-development) – With tailored-made IDEs for the different roles, Mendix enables everyone to contribute to their strengths while still working on the same model.
+* [Team synergy via multiple IDEs (Modelers)](app-lifecycle/app-development) – With tailored-made IDEs for the different roles, Mendix enables everyone to contribute to their strengths while still working on the same model.
 * [One-click deployment](app-capabilities/multi-cloud-overview) – The one-click deployment to any cloud ensures the app can be released in minutes, enabling the business to provide their feedback on the next iteration.
 
 ## 4 What Are the Key Roles in a Mendix Development Team? {#changing-roles}

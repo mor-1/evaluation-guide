@@ -26,7 +26,7 @@ Mendix's export and import mappings provide support for both persistable and non
 
 The [Database Connector](https://appstore.home.mendix.com/link/app/2888/) available in the Mendix App Store can be used to run SQL actions on any database you are using. The database connector supports queries as well as actions like updates, deletes, and stored procedure calls.
 
-<video controls src="attachments/DM_DragSQLStatement.mp4">VIDEO</video>
+<video controls src="attachments/DragSQLStatement.mp4">VIDEO</video>
 
 The Database Connector works well with relational databases that support JDBC. Some NoSQL databases also include for SQL through JDBC, so for these NoSQL databases, you may also be able to use the Database Connector. Most NoSQL databases also offer connectivity through REST APIs. If this is the case, you can use Mendix's extensive [REST support](service-consumption#consume-rest-api) to use data in these databases.
 

@@ -15,7 +15,7 @@ Mendix has a visual page editor in the Modelers that can be used to build both d
 The Mendix Platform supports mobile, tablet, and responsive profiles. For details on all the UI development capabilities that Mendix supports, refer to the various pages in the [UX & Multi-Channel Apps](../app-capabilities/ux-multi-channel-apps) chapter.
 
 {{% image_container width="500" %}}
-![Web Modeler Page Editor](attachments/wm-page-editor.png)
+![Web Modeler Page Editor](attachments/page-editor.png)
 {{% /image_container %}}
 
 ## 2 How Do I Build Reusable Page Elements?
@@ -36,7 +36,7 @@ Mendix provides a rich set of [Atlas UI](https://atlas.mendix.com/) resources ou
 
 Atlas UI can be tuned or even fully replaced by your company-branded and company-specific set of UI resources. Company-specific resources can contain a theme, layouts, page templates, and building blocks that are fully compliant with your company's design standards and best practices. These UI resources can be published in a Mendix Private App Store in order to make them available for all of your company's apps. Such resources can thus be used immediately and updated when necessary, which makes branding, reuse, and standardization easy and low-cost.
 
-For more information on how to start building you own set of UI resources, see the [Atlas UI](https://docs.mendix.com/howto/atlasui/) how-to's in the Mendix documentation.
+For more information on how to start building you own set of UI resources, see the [Atlas UI](https://docs.mendix.com/howto/front-end/atlas-ui/index) how-to's in the Mendix documentation.
 
 ## 4 How Does Mendix Support Multilingual Apps? {#multi-lingual}
 

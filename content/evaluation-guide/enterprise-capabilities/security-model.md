@@ -30,7 +30,7 @@ An end-user of your application is assigned one or more **user roles** by an adm
 
 Within a user role, it is possible to assign user management rights as well, so that users assigned the role can then manage access rights for other users with that selected role. This feature is relevant for supporting a delegated administration concept.
 
-<video controls src="attachments/DM_ProjectSecurity.mp4">VIDEO</video>
+<video controls src="attachments/ProjectSecurity.mp4">VIDEO</video>
 
 Every user role has one or more **module roles**. Module roles define a role at the module level (for example, “order entry” or “approver”). This means that users with that user role have all the access rights defined for those module roles. An end-user of your application only sees the user roles and not the module roles, so only user roles can be assigned to an end-user, while module roles are assigned to user roles. A user role aggregates multiple access rights on data, pages, and microflows (logic) from the module roles.
 
@@ -66,7 +66,7 @@ At the module level, security logic is separated from application logic. This al
 
 This video presents the various module-level security settings that are available:
 
-<video controls src="attachments/DM_ModuleSecurity1.mp4">VIDEO</video>
+<video controls src="attachments/ModuleSecurity1.mp4">VIDEO</video>
 
 ### 2.3 How Does Mendix Protect the Pages of My App?
 
@@ -98,7 +98,7 @@ For each module role, entity access defines whether users with the role are auth
 
 Furthermore, the data sets of objects available for viewing, editing, and removing, which can be limited by means of an XPath constraint. Every access rule is applicable to one or more module roles. An access rule grants certain access rights to those roles. Rules are additive, which means that if multiple access rules apply to the same module role, all the access rights of those rules are combined for that module role. This feature is applied, for example, when applications are configured for multi-tenant usage.
 
-<video controls src="attachments/DM_XpathSecurity.mp4">VIDEO</video>
+<video controls src="attachments/XpathSecurity.mp4">VIDEO</video>
 
 These rules are applied anytime your application uses an entity, and the rules are automatically applied to XPath retrieves done in your model. You can define XPath constraints on entities, which means you can define access rules depending on the user role or organization. This can be used to ensure strict data separation in multi-tenant applications.
 

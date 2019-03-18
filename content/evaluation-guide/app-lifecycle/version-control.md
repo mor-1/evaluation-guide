@@ -40,7 +40,7 @@ Mendix provides an integrated development experience between the Team Server ver
 From these discussions, new user stories can be created and implemented in the Desktop Modeler. When linking the model commits to the user story, the full feedback cycle is ready and also cross-referenced.
 
 {{% image_container width="600" %}}
-![Application Development User Stories](attachments/SeeUserStoryFromBuzzCommentInDM.png)
+![Application Development User Stories](attachments/SeeUserStoryFromBuzzComment.png)
 {{% /image_container %}}
 
 ## 4 How Do I Use My Own SVN Repository Instead of Mendix Team Server? {#ts-on-prem}

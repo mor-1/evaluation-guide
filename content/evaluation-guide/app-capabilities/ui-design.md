@@ -58,7 +58,7 @@ You can further customize widgets by changing their design properties. Colors, t
 
 Here is an example of how easy it is to change the design properties of a button in the Web Modeler:
 
-<video controls src="attachments/Eval_WebModeler_DesignProperties.mp4">VIDEO</video>
+<video controls src="attachments/DesignProperties.mp4">VIDEO</video>
 
 ## 2 What UI Elements Does Mendix Provide Out of the Box?
 
@@ -90,7 +90,7 @@ Next to this, Mendix uses [Sass](https://sass-lang.com/) to define the styling. 
 
 <video controls src="attachments/SassCompiler.mp4">VIDEO</video>
 
-For more information, see the collection of [Atlas UI](https://docs.mendix.com/howto/atlasui/) how-to's in the Mendix documentation.
+For more information, see the collection of [Atlas UI](https://docs.mendix.com/howto/front-end/atlas-ui/index) how-to's in the Mendix documentation.
 
 ## 4 How Can I Create a Consistent User Experience Across My Apps?
 

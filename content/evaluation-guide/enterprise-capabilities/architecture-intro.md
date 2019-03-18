@@ -22,7 +22,7 @@ The Mendix Platform is architected for the demands of enterprise-ready applicati
 * Microservices, containers, and deployment standardization
 * Statelessness
 * Openness and extensibility
-* Twelve-factor app principles
+* Twelve-Factor App principles
 
 For more information, see [What Are the Key Architectural Principles Behind the Mendix Platform?](architecture-principles#key-principles).
 

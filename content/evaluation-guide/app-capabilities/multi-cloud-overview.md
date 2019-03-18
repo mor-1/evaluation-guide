@@ -10,7 +10,7 @@ tags: ["multi cloud", "cloud", "deployment", "on premises", "IaaS", "PaaS"]
 
 ## 1 What Deployment Options Does Mendix Provide? {#deployment-options}
 
-An application built with Mendix is based on a cloud-native design and conforms to Twelve-Factor App principles. The Mendix Runtime is fully optimized to run in a container technology that is compatible with most modern cloud platform offerings like Kubernetes and Cloud Foundry. Mendix apps are thus able to utilize benefits of these cloud platforms such as auto-scaling, auto-provisioning, auto-healing, low infra-overhead, CI/CD support, and cloud interoperability. For more information on these Mendix architecture principles, see [Architecture Principles](../enterprise-capabilities/architecture-principles).
+An application built with Mendix is based on a cloud-native design and conforms to [Twelve-Factor App](https://12factor.net/) principles. The Mendix Runtime is fully optimized to run in a container technology that is compatible with most modern cloud platform offerings like Kubernetes and Cloud Foundry. Mendix apps are thus able to utilize benefits of these cloud platforms such as auto-scaling, auto-provisioning, auto-healing, low infra-overhead, CI/CD support, and cloud interoperability. For more information on these Mendix architecture principles, see [Architecture Principles](../enterprise-capabilities/architecture-principles).
 
 Within this flexible model, Mendix supports a large variety of deployment options that allow you to run your Mendix application on a public, virtual private, private, or hybrid cloud or via a traditional (virtual) server.
 

@@ -9,7 +9,7 @@ bg: "multicloud"
 tags: ["deployment", "cloud", "cloud provider"]
 ---
 
-Mendix applications run on the platform's cloud-native stateless runtime architecture that conforms to Twelve-Factor App principles with support for modern cloud platforms such as Docker, Kubernetes and Cloud Foundry. As a result, Mendix apps benefit from auto-scaling, auto-provisioning, auto-healing, low infrastructure overhead, CI/CD, and cloud interoperability out of the box.
+Mendix applications run on the platform's cloud-native stateless runtime architecture that conforms to [Twelve-Factor App](https://12factor.net/) principles with support for modern cloud platforms such as Docker, Kubernetes and Cloud Foundry. As a result, Mendix apps benefit from auto-scaling, auto-provisioning, auto-healing, low infrastructure overhead, CI/CD, and cloud interoperability out of the box.
 
 {{% image_container width="400" %}}
 ![Deployment to the Cloud](attachments/deployment-overview.png)

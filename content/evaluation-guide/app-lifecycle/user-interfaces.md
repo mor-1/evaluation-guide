@@ -15,7 +15,7 @@ Mendix has a visual page editor in the Modelers that can be used to build both d
 The Mendix Platform supports mobile, tablet, and responsive profiles. For details on all the UI development capabilities that Mendix supports, refer to the various pages in the [UX & Multi-Channel Apps](../app-capabilities/ux-multi-channel-apps) chapter.
 
 {{% image_container width="500" %}}
-![Web Modeler Page Editor](attachments/wm-page-editor.png)
+![Web Modeler Page Editor](attachments/page-editor.png)
 {{% /image_container %}}
 
 ## 2 How Do I Build Reusable Page Elements?

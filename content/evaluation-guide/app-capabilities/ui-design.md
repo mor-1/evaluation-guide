@@ -58,7 +58,7 @@ You can further customize widgets by changing their design properties. Colors, t
 
 Here is an example of how easy it is to change the design properties of a button in the Web Modeler:
 
-<video controls src="attachments/Eval_WebModeler_DesignProperties.mp4">VIDEO</video>
+<video controls src="attachments/DesignProperties.mp4">VIDEO</video>
 
 ## 2 What UI Elements Does Mendix Provide Out of the Box?
 

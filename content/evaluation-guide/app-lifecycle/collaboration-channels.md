@@ -34,7 +34,7 @@ Stakeholders can post updates, comments, and photos as well as upload documents 
 
 Because developers are usually found working with the [Desktop Modeler](app-development#desktop-modeler) or the [Web Modeler](app-development#web-modeler), user stories from the active Sprint and the Buzz are available in the Modelers as well. They are displayed in a side panel, as shown here:
 
-<video controls src="attachments/buzz-in-wm.mp4">VIDEO</video>
+<video controls src="attachments/buzz-in.mp4">VIDEO</video>
 
 ### 1.3 How Can Stakeholders Get Involved via the Mendix Mobile App? {#mxapp}
 

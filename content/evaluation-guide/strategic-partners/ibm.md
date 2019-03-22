@@ -14,19 +14,19 @@ IBM—the leader in enterprise cloud—and Mendix have partnered to help enterpr
 
 {{% youtube fMBEMoyzcXc %}}
 
-## What Type of Partnership Does Mendix Have with IBM?
+## What Type of Partnership Does Mendix Have with IBM? {#type}
 
 With the strategic reseller partnership that exists between IBM and Mendix, it is possible to purchase Mendix directly from IBM combined with your IBM contract. This offers you a single point of contact for your complete solution.
 
 For details, see [What Type of Partnership Does Mendix Have with IBM?](ibm-partnership#ibm-partnership-type).
 
-## How Can I Start Using Mendix on IBM Cloud?
+## How Can I Start Using Mendix on IBM Cloud? {#how}
 
 Mendix can be found in IBM Cloud as starter kits. In addition, IBM has integrated the provisioning and deployment of Mendix apps directly to the IBM Cloud.
 
 Read on in [How Can I Start Using Mendix on IBM Cloud?](ibm-integration#start-ibm).
 
-## Which IBM Services Can I Use Within Mendix?
+## Which IBM Services Can I Use Within Mendix? {#services}
 
 There are no limitations when it comes to consuming services from IBM Cloud. However, Mendix provides several connectors out of the box to accelerate your development.
 

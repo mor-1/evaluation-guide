@@ -18,7 +18,7 @@ Finally, in addition to many standard components, Mendix offers several options 
 
 {{% youtube WomZYwyydmQ %}}
 
-## How Does Mendix Support Multi-Channel Applications?
+## How Does Mendix Support Multi-Channel Applications? {#multi}
 
 Mendix provides a single development paradigm for building multi-channel apps. You can build simple responsive user experiences, complete offline mobile apps with client-side logic and data synchronization, and everything in between.
 
@@ -26,7 +26,7 @@ Both business and IT developers can create multi-channel apps through Mendix's v
 
 For more information, see [How Does Mendix Support Multi-Channel Applications?](front-end#support-multi-channel).
 
-## How Do Mendix Mobile Apps Work?
+## How Do Mendix Mobile Apps Work? {#work}
 
 With Mendix, users can develop, deploy, test, and manage mobile apps from a single integrated visual development environment that uses the popular [Cordova](https://cordova.apache.org/) framework to provide access to native mobile device features. Mobile applications can operate in an online or offline mode, storing data locally and synchronizing with the Mendix Server, which provides a complete mBaaS.
 
@@ -34,7 +34,7 @@ The Mendix mBaaS provides over-the-air updates that remove the need to redeploy 
 
 For details, see [How Do Mendix Mobile Apps Work?](mobile-apps#mobile-apps-work).
 
-## How Can I Build an Offline Mobile App?
+## How Can I Build an Offline Mobile App? {#offline}
 
 The most important point to make here is that you build offline apps using the same tools as online and responsive apps, which helps to consolidate your skills and knowledge of reuse across the deployment landscape. By simply specifying an offline profile inside your app model and setting the data source of your required offline pages to be offline, the Mendix Platform will automatically manage both the consistency and deployment of those model artifacts that are required to be synchronized to the device to run locally.
 

@@ -15,7 +15,7 @@ The Mendix Platform is open and extensible at every level, with an open model sp
 ![Application Development Platform Openness](attachments/platform-openness-web-chart-1.png)
 {{% /image_container %}}
 
-## How Can I Avoid Being Locked in to the Mendix Platform?
+## How Can I Avoid Being Locked in to the Mendix Platform? {#nolockin}
 
 We recognize the need for our customers to be able to migrate away from the Mendix Platform. Should they wish to do so, we offer the following options:
 
@@ -26,13 +26,13 @@ We recognize the need for our customers to be able to migrate away from the Mend
 
 For more information on this important topic, see the section [How Can I Avoid Being Locked in to the Mendix Platform?](no-vendor-lockin#avoid-lockin).
 
-## Where Can I Use the Openness & Extensibility the Mendix Platform Offers?
+## Where Can I Use the Openness & Extensibility the Mendix Platform Offers? {#open}
 
 There are many occasions for using the openness and extensibility provided by the Mendix Platform. For example, you may have a specific need for a new UI widget or component, or you want to build a connector using the SDK for an external service or API. Perhaps your software engineers want to ensure that the quality of the models developed by business developers is of a high standard by building external scripts using the Model SDK to analyze them and automate updates. Or, you may need to leverage your existing investments in tools and technology, such as CI/CD pipelines and external requirements and project management tools.
 
 For details, see [Where Can I Use the Openness & Extensibility the Mendix Platform Offers?](openness-api-sdk#where)
 
-## How Can I Extend the Functionality of the Mendix Platform?
+## How Can I Extend the Functionality of the Mendix Platform? {#ext}
 
 The Mendix Runtime can be extended using Java Actions that enable you to build reusable microflow activities, which are packaged as native actions and consumed by less technical developers from the Mendix Toolbox or App Store. For the front-end client, you can create custom JavaScript extensions for both web and mobile, including Cordova plugins.
 

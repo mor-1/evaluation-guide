@@ -13,19 +13,19 @@ Mendix provides DevOps tools out of the box for continuous integration and conti
 
 ![DevOps Cycle Diagram](attachments/devops-cycle.png)
 
-## How Does Mendix Support DevOps?
+## How Does Mendix Support DevOps? {#support}
 
 With one-click deployment and out-of-the-box monitoring, the Mendix Platform enables small cross-functional teams working iteratively to rapidly build, test, release, and operate enterprise applications in production environments. Teams can continuously release new functionality to the cloud for automated testing before using two-factor authentication to push updates to live production environments. All of this is carried out under the strict security controls and governance set out by your enterprise requirements.
 
 Read more about this topic in the [How Does Mendix Support DevOps?](devops-overview#support-devops).
 
-## How Does Mendix Support Continuous Integration & Delivery (CI/CD)?
+## How Does Mendix Support Continuous Integration & Delivery (CI/CD)? {#cicd}
 
 Mendix supports CI/CD at both the platform-level and via the Mendix Platform APIs. The APIs enable integrating external tools in order to build a delivery pipeline using products like Jenkins and Visual Studio Team Services coupled with container technologies like Cloud Foundry, Kubernetes, and Docker as well as quality assurance services like Mendix Application Test Suite (ATS), Mendix Application Quality Monitor (AQM), and Selenium.
 
 For more information, see [How Does Mendix Support Continuous Integration and Delivery (CI/CD)?](cicd#support-cicd).
 
-## What Mendix Tools Are Available for Test Automation & Quality Assurance?
+## What Mendix Tools Are Available for Test Automation & Quality Assurance? {#tools}
 
 The Mendix Platform offers several features to ensure the quality of your applications, such as the integrated consistency checking of your models at design-time as well as Mendix AQM for monitoring your application model against the ISO 25010 standard for maintainability. The development roundtrip can be completed via Mendix ATS, which is a fully automated functional testing environment with test cases tied to user stories.
 

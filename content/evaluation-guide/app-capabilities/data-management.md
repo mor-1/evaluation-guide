@@ -15,7 +15,7 @@ The data required to build new enterprise applications is derived from many sour
 ![Data Management with Mendix](attachments/data-management-overview.png)
 {{% /image_container %}}
 
-## What Databases Does Mendix Support?
+## What Databases Does Mendix Support? {#support}
 
 The Mendix Platform supports the following database servers for data being managed by the Mendix Runtime:
 
@@ -31,13 +31,13 @@ For integration purposes, Mendix supports integration with any database via the 
 
 For more information, see [What Databases Does Mendix Support?](data-storage#database-support).
 
-## How Does Object-Relational Mapping Work in Mendix?
+## How Does Object-Relational Mapping Work in Mendix? {#object}
 
 ORM in Mendix enables developers to concentrate on the creation of domain models using our visual domain modeling editor. Developers drag and drop entities, configure attributes, and map associations across entities to create the required data model visually. Once complete, the Mendix Platform will turn this domain model into an underlying SQL database, automatically creating and maintaining the desired tables, data types, joins, and constraints.
 
 For details, see [How Does Object-Relational Mapping Work in Mendix?](data-storage#object-relational-mapping).
 
-## How Does Mendix Ensure Data Security?
+## How Does Mendix Ensure Data Security? {#security}
 
 Mendix provides a comprehensive security DSL that enables your team to create fine-grained security controls across your application's navigation, UI, logic, and data. At the database level, access can be either granted or denied against specific attributes and entities, while server-side rules can be built to constrain data before leaving the server.
 

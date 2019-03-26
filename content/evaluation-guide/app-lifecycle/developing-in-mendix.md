@@ -14,19 +14,19 @@ Mendix is a model-driven development environment designed to cater to the needs 
 
 {{% youtube rXR6IFxVOXE %}}
 
-## How Does Mendix Enable Model-Driven Development?
+## How Does Mendix Enable Model-Driven Development? {#enable}
 
 Mendix enables model-driven development through the Web and Desktop Modelers, which provide visual drag-and-drop development tools for UI, data, logic, and navigation using no-code and low-code development. By interpreting the resulting model at runtime and thus maintaining the bond between model and application, Mendix prevents the production of tomorrow's legacy. Furthermore, direct model execution removes code generation overhead and provides significant advantages by accommodating live changes, controlled extensions, and dynamic monitoring analysis at runtime.
 
 For details, see [How Does Mendix Enable Model-Driven Development?](app-development#enable).
 
-## How Does Mendix Support Different Developer Profiles?
+## How Does Mendix Support Different Developer Profiles? {#different}
 
 Mendix is designed to support the spectrum of users who are necessary for building enterprise apps in today's software-driven world. This includes line-of-business developers, citizen developers, business analysts, and professional developers.  Each of these roles can collaborate in Mendix through an integrated set of tools across the entire software development lifecycle.
 
 Read on in [How Does Mendix Support Different Developer Profiles?](app-development#developer-profiles).
 
-## How Does Mendix Support Multi-User Development?
+## How Does Mendix Support Multi-User Development? {#multi}
 
 Project team members are connected instantly and interactively to changes and updates such as new requirements, software revisions, updates, and shipments as well as test results and feedback loops from end-users. This live feed becomes the backbone for the Mendix collaborative process, while visual models and drag-and-drop WYSYWG editors lower the barrier to entry for business users to participate in the development process.
 

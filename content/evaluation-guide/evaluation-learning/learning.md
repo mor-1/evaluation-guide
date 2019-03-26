@@ -15,13 +15,13 @@ To help you get started  with building apps, Mendix provides a fully integrated 
 ![Learn Mendix](attachments/learning-overview.png)
 {{% /image_container %}}
 
-## What Skills Do I Need to Learn Mendix?
+## What Skills Do I Need to Learn Mendix? {#skills}
 
 All you need is a great idea as well as the time to get started – we can help you do the rest. Some basic understanding of databases, process modeling, and coding will help, but this is not necessary to get started.
 
 Read more in [What Skills Do I Need to  Learn Mendix?](skills-training#skills-needed).
 
-## What Are the Mendix Training Options?
+## What Are the Mendix Training Options? {#training}
 
 Training is fully integrated in the platform with an in-product [guided introduction tour](skills-training#git). And in addition to the Academy learning paths and modules, there are multiple channels for helping different kinds of users learn about the Mendix Platform:
 
@@ -31,7 +31,7 @@ Training is fully integrated in the platform with an in-product [guided introduc
 
 For more details, see [What Are the Mendix Training Options?](skills-training#training-options).
 
-## How Long Does It Take to Learn Mendix
+## How Long Does It Take to Learn Mendix {#learn}
 
 The answer to this question depends on your profile and background. For example, you could have your first Mendix starter app up and running in less than 30 minutes, or you could start the [Become a Rapid Developer](https://gettingstarted.mendixcloud.com/link/path/10) learning path online for free. There are 12 modules in this learning path, each of which takes about thirty minutes to complete. That means you could be done in less than a day and start building Mendix apps straightaway!
 

@@ -26,8 +26,6 @@ For information on getting started with Mendix, have a look at [First Steps with
 
 **Developers** using the Mendix Desktop Modeler can work together on the same app model via the [Team Server](version-control) version control repository. Changes from other team members using the Mendix Web Modeler or Desktop Modeler can be retrieved via the Team Server. For more details, see [Collaborative Development](https://docs.mendix.com/refguide/collaborative-development) in the Mendix documentation.
 
-{{% todo %}}[**VERIFY DOC TITLE & URL FOR PUBLICATION**]{{% /todo %}}
-
 ## 3 How Does Mendix Enable Model-Driven Development? {#enable}
 
 ![Web and Desktop Application Modelers](attachments/BothModelers.png)

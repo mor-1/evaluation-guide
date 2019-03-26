@@ -10,9 +10,15 @@ tags: ["version control", "multi-user", "user stories", "svn", "branching", "mer
 
 ## 1 How Does Mendix Support Multi-User Development? {#multi-user}
 
-The Mendix Desktop Modeler and Web Modeler combine multi-user development across different skill levels. When a user creates a new set of pages and associated assets using the Web Modeler, it will be built in a branch line. When the app project is synchronized with the Desktop Modeler, the branch can be merged at the request of the developer in the Modeler. From that point on, control of the model is handed over to the developer, effectively blocking access by other users until the merges are committed back to the Team Server and the developer releases the lock.
+The Mendix Desktop Modeler and Web Modeler combine multi-user development across different skill levels. Team members can choose the Modeler that fits their needs best. More information can be found in [App Development](app-development).
 
-This process ensures that across the continuum of a user’s application, changes can be controlled and managed by experienced low-code developers.
+At the start of a project, all team members can work together on the main line of the version control repository. Desktop Modeler users can share app updates with the rest of the team using the update and commit pattern via the version control repository. All changes made by team members using the Web Modeler will be shared via the version control repository when the Desktop Modeler user requests an update from the version control repository.
+
+Assigning a dedicated branch for team collaboration using the Web Modeler provides full control over which changes are made in the Web Modeler.
+
+For example, when a Business Developer creates a new set of pages and associated assets using the Web Modeler, the new app version can be shared in a branch line. Business users (for example, a Business Analyst) can then use the Web Modeler to review and change the content of app. When finished, the branch can be merged at the request of the Business Developer in the Desktop Modeler. This provides the developer full control over the model changes. Effectively, this ensures that experienced developers on the the team control which elements are merged back from the branch.
+
+For more details, see [Collaborative Development](https://docs.mendix.com/refguide/collaborative-development) in the Mendix documentation.
 
 ## 2 How Does Version Control Work in Mendix?
 

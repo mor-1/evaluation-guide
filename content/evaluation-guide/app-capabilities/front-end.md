@@ -58,7 +58,7 @@ In addition to nanoflows, it is possible to directly use client-side expressions
 
 ## 4 How Can I Extend the Mendix Front-End? {#extend}
 
-Mendix makes it possible to extend the front-end by creating custom widgets that have a seamless integration with the Modeler and making them part of your app's model. You can define all types of parameters and make these widgets reusable. The input parameters are transformed into easy-to-use settings screens that can be configured from the Modeler. In addition, custom widgets have preview capabilities for a WYSIWYG effect, making it easy to get an impression of the widget and quickly verify its configuration.
+Mendix makes it possible to extend the front-end by creating custom widgets that have a seamless integration with Mendix Studio and Mendix Studio Pro to make them part of your app's model. You can define all types of parameters and make these widgets reusable. The input parameters are transformed into easy-to-use settings screens that can be configured from Mendix Studio and Mendix Studio Pro. In addition, custom widgets have preview capabilities for a WYSIWYG effect, making it easy to get an impression of the widget and quickly verify its configuration.
 
 You can version custom widgets and upload them to a Mendix Private App Store so that other developers can easily use them. It is also possible to share widgets manually or embed them in (company) starter apps.
 
@@ -70,6 +70,6 @@ For more information, see the [Widget Development](https://docs.mendix.com/howto
 
 ## 5 Does Mendix Support Multilingual Apps?
 
-Mendix fully supports multilingual apps. In the Modeler, you can configure multiple languages per app, and texts and captions can all be configured for multiple languages. Per language, default number and date formats can be configured for the whole app. When you use numbers and dates they are automatically applied, but it is also possible to locally specify custom formats.
+Mendix fully supports multilingual apps. In Mendix Studio and Mendix Studio Pro, you can configure multiple languages per app, and texts and captions can all be configured for multiple languages. Per language, default number and date formats can be configured for the whole app. When you use numbers and dates they are automatically applied, but it is also possible to locally specify custom formats.
 
 For more details, see the section [How Does Mendix Support Multilingual Apps?](../app-lifecycle/user-interfaces#multi-lingual) in *User Interfaces*.

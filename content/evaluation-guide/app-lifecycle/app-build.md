@@ -26,9 +26,9 @@ It is important to note that you do not need to create a build for your applicat
 
 Regardless of where the Team Server is hosted (by default in the Mendix Cloud, or alternatively, with an [on-premises Team Server implementation](version-control#ts-on-prem)), Mendix supports full automation of the build process.
 
-For almost all customers, the fully managed Mendix Team Server is the optimal solution for the version control of Mendix application models. In this scenario, the Mendix Developer Portal and Mendix Modeler provide user interfaces to easily create versioned deployment archives. Platform APIs enable development teams to fully automate this process.
+For almost all customers, the fully managed Mendix Team Server is the optimal solution for the version control of Mendix application models. In this scenario, the Mendix Developer Portal, Mendix Studio, and Mendix Studio Pro provide user interfaces to easily create versioned deployment archives. Platform APIs enable development teams to fully automate this process.
 
-In some specific cases, an on-premises Team Server implementation can be used. In this scenario, Mendix provides an on-premises solution for the build process. You can use the [MxBuild](https://docs.mendix.com/refguide/mxbuild) command-line tool to automate the build process. MxBuild provides the same model consistency guarantees mentioned above in the section [How Do I Create a Build for My App?](#build-my-app) as when the Mendix Modeler, Developer Portal, or platform APIs are used to create a deployment package.
+In some specific cases, an on-premises Team Server implementation can be used. In this scenario, Mendix provides an on-premises solution for the build process. You can use the [MxBuild](https://docs.mendix.com/refguide/mxbuild) command-line tool to automate the build process. MxBuild provides the same model consistency guarantees mentioned above in the section [How Do I Create a Build for My App?](#build-my-app) as when Mendix Studio, Mendix Studio Pro, the Developer Portal, or platform APIs are used to create a deployment package.
 
 ## 3 How Can I Integrate the Mendix Build Process in My CI/CD Pipeline?
 

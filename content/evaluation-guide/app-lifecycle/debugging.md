@@ -14,7 +14,7 @@ Developers can debug any deployed instance of a Mendix app running either locall
 
 <video controls src="attachments/Inspect.mp4">VIDEO</video>
 
-Once connected, the breakpoints defined within microflows will automatically trigger the events that are trapped by Mendix Studio Pro. After triggering, the debugging tool within the Modeler allows you to step through each microflow action, one action at a time, viewing the changing variables along the route.
+Once connected, the breakpoints defined within microflows will automatically trigger the events that are trapped by Mendix Studio Pro. After triggering, the debugging tool within Mendix Studio and Mendix Studio Pro allows you to step through each microflow action, one action at a time, viewing the changing variables along the route.
 
 For more information about how to use the built-in debugging functionality, see [How to Debug Microflows](https://docs.mendix.com/howto/monitoring-troubleshooting/debug-microflows) in the Mendix documentation.
 

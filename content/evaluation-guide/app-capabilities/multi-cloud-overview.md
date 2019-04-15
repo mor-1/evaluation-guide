@@ -68,11 +68,11 @@ If you are required to run your software on your own premises, you can choose an
 
 In terms of speed, self-service, and governance, the **PaaS** level has significant benefits. Because of the small footprint of a Mendix application, having a two-node (VMs) Kubernetes cluster allows you to run multiple Mendix applications (in test, acceptance, and production environments) with high availability as well as auto-scaling and auto-healing capabilities. This is also possible when running Mendix on traditional servers, but the setup time and maintenance will be significantly higher.
 
-For more information, see the section [Which Operating Systems Do the Mendix Modelers Support?](../app-lifecycle/app-development#operating-systems) in *App Development*.
+For more information, see the section [Which Operating Systems Do Mendix Studio and Mendix Studio Pro Support?](../app-lifecycle/app-development#operating-systems) in *App Development*.
 
 ### 2.4 How Do I Select a Cloud Provider?
 
-Mendix multi-cloud is a deep integration with different cloud providers, which allows you to deploy your application with a single click from both the Mendix Modeler and the Developer Portal.
+Mendix multi-cloud is a deep integration with different cloud providers, which allows you to deploy your application with a single click from Mendix Studio, Mendix Studio Pro, and the Developer Portal.
 
 {{% image_container width="450" %}}
 ![Deploying Applications to the Cloud](attachments/run.png)

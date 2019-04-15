@@ -14,7 +14,7 @@ The Mendix platform is designed for a variety of app developers, from business-o
 
 ![The Developer Continuum - Solution Focused vs Technology Focused](attachments/developer-continuum.png)
 
-**Business Analysts** and **Business Developers** can directly use Mendix Studio to build, review, and collaborate on an app. Mendix Studio provides the tools to build the app, regardless of the user's programming experience or background. Users familiar with Mendix Studio can also start using Mendix Studio Pro if more advanced app features need to be added. The Modelers share the same concepts and terminology, which makes for a smooth user experience.
+**Business Analysts** and **Business Developers** can directly use Mendix Studio to build, review, and collaborate on an app. Mendix Studio provides the tools to build the app, regardless of the user's programming experience or background. Users familiar with Mendix Studio can also start using Mendix Studio Pro if more advanced app features need to be added. Mendix Studio and Mendix Studio Pros share the same concepts and terminology, which makes for a smooth user experience.
 
 **Developers** with a technical programming background (for example, JavaScript, Java, or .NET) can use Mendix Studio Pro along with CSS, Java, and JavaScript to build, customize, and extend a Mendix app.
 
@@ -28,7 +28,7 @@ For information on getting started with Mendix, have a look at [First Steps with
 
 ## 3 How Does Mendix Enable Model-Driven Development? {#enable}
 
-![Web and Desktop Application Modelers](attachments/BothModelers.png)
+![Mendix Studio and Mendix Studio Pro app-modeling](attachments/both-studios.png)
 
 While both Mendix Studio and Mendix Studio Pro environments support the ability to build data models, pages, and logic, their target audiences differ, and their features are tuned accordingly.
 
@@ -78,7 +78,7 @@ The **Instant Update** feature in Mendix Studio Pro provides the fastest way to 
 
 You can even test changes locally without the need for an internet connection using `http://localhost:{dynamic variable port}`.
 
-### 3.5 Which Operating Systems Do the Mendix Modelers Support? {#operating-systems}
+### 3.5 Which Operating Systems Do Mendix Studio and Mendix Studio Pro Support? {#operating-systems}
 
 Most Mendix Platform features are browser-based, including Mendix Studio. These features are available on Windows, MacOS, and Linux.
 

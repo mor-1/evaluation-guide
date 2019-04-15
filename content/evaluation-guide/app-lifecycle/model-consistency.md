@@ -26,12 +26,12 @@ At the same time, Mendix offers professional developers the possibility to make 
 
 Here are some examples of consistency checking on the Mendix Platform:
 
-* The Modeler prevents the deployment of an app that has an input field connected to a wrongly-typed attribute or to an attribute that no longer exists (for example, a text box connected to a Boolean attribute).
+* Mendix Studio and Mendix Studio Pro prevent the deployment of an app that has an input field connected to a wrongly-typed attribute or to an attribute that no longer exists (for example, a text box connected to a Boolean attribute).
 * Mendix automatically hides navigation menu options from the user that lead to pages for which the current user does not have sufficient rights.
-* The Modeler shows an error if the user with a given role can navigate to a page that displays entities and/or attributes that are inaccessible to users of that role due to security settings.
+* Mendix Studio and Mendix Studio Pro show an error if the user with a given role can navigate to a page that displays entities and/or attributes that are inaccessible to users of that role due to security settings.
 * When defining data retrievals in your application, Mendix validates whether the resulting database queries are both syntactically and semantically correct and will execute successfully against the database.
 
-The implication for testing is that these consistency checks can point out or prevent defects that could easily slip through in non-Mendix development efforts. This results in fewer defects to deal with. In some instances, these checks also work proactively (for example, when you change the name of an attribute, the Modeler adjusts all references to this attribute). This again reduces the chances of defects slipping into your model.
+The implication for testing is that these consistency checks can point out or prevent defects that could easily slip through in non-Mendix development efforts. This results in fewer defects to deal with. In some instances, these checks also work proactively (for example, when you change the name of an attribute, Mendix Studio and Mendix Studio Pro adjust all references to this attribute). This again reduces the chances of defects slipping into your model.
 
 ### 1.2 Single Modeling Environment
 
@@ -55,7 +55,7 @@ The intrinsic quality and consistency checking mechanisms in Mendix are key cont
 
 ### 1.5 Model Refactoring
 
-The Mendix Modeler has extensive support for model refactoring. For example, when the user refactors the name of a page or a microflow variable, the Modeler will propagate the refactoring in all model parts, keeping the model consistent. Such refactoring is automatically and consistently propagated throughout the whole model.
+Mendix Studio and Mendix Studio Pro have extensive support for model refactoring. For example, when the user refactors the name of a page or a microflow variable, Mendix Studio and Mendix Studio Pro will propagate the refactoring in all model parts, keeping the model consistent. Such refactoring is automatically and consistently propagated throughout the whole model.
 
 When the refactoring requires a conscious decision by the user (for example, adding an additional input parameter to a microflow signature), the model consistency checks provide direct feedback on which parts of the model require further action before the the application can be deployed again.
 

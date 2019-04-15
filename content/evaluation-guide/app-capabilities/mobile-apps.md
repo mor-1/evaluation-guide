@@ -36,7 +36,7 @@ Mendix also leverages [PhoneGap Build](https://build.phonegap.com/) to build the
 
 ## 4 How Can I Update My Mobile App?
 
-From the Mendix Modeler, changes can be published to the preferred environment, and the mobile app will automatically load the latest changes. There is no need to go through the app store process, which makes updating apps efficient.
+From Mendix Studio or Mendix Studio Pro, changes can be published to the preferred environment, and the mobile app will automatically load the latest changes. There is no need to go through the app store process, which makes updating apps efficient.
 
 <video controls  src="attachments/update-app.mp4">VIDEO</video>
 
@@ -48,7 +48,7 @@ A new app store publication is needed when changes are required for the generate
 
 ## 5 How Can I Preview & Test My Mobile App? {#mxapp-preview}
 
-There are several approaches to testing your mobile app. Mendix offers an out-of-the-box mobile view in the browser, so you can preview your mobile app with one click. And with the [Mendix mobile app](https://docs.mendix.com/refguide/getting-the-mendix-app) (available for [Android](https://play.google.com/store/apps/details?id=com.mendix.SprintrMobile) and [iOS](https://itunes.apple.com/nl/app/mendix/id458058946)), you can quickly test the mobile app on a real device by scanning the QR code in the Modeler. This can be used for local testing, but also to test mobile apps that are published to the (free) cloud.
+There are several approaches to testing your mobile app. Mendix offers an out-of-the-box mobile view in the browser, so you can preview your mobile app with one click. And with the [Mendix mobile app](https://docs.mendix.com/refguide/getting-the-mendix-app) (available for [Android](https://play.google.com/store/apps/details?id=com.mendix.SprintrMobile) and [iOS](https://itunes.apple.com/nl/app/mendix/id458058946)), you can quickly test the mobile app on a real device by scanning the QR code in Mendix Studio and Mendix Studio Pro. This can be used for local testing, but also to test mobile apps that are published to the (free) cloud.
 
 <video controls src="attachments/MA_TestingMobile.mp4">VIDEO</video>
 

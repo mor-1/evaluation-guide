@@ -81,7 +81,7 @@ For more information, see this Mendix documentation:
 
 ## 2 How Can I Provide Reusable Connectors to Third-Party Services? {#connectors}
 
-Generic connectors can be easily shared with other developers and companies. You can export a connector module from the Mendix Modeler that can then be imported into other Mendix app projects. The connector module can also be uploaded to the Mendix App Store – either to the Public App Store so anyone can use it, or to your company's Private App Store so that only developers in your company can reuse it. For more information, see [How to Share App Store Content](https://docs.mendix.com/developerportal/app-store/share-app-store-content) in the Mendix documentation.
+Generic connectors can be easily shared with other developers and companies. You can export a connector module from Mendix Studio and Mendix Studio Pro that can then be imported into other Mendix app projects. The connector module can also be uploaded to the Mendix App Store – either to the Public App Store so anyone can use it, or to your company's Private App Store so that only developers in your company can reuse it. For more information, see [How to Share App Store Content](https://docs.mendix.com/developerportal/app-store/share-app-store-content) in the Mendix documentation.
 
 Connectors include everything you need to use them, like microflow activities, logic, domain models, Java code, and any required Java libraries. This complexity will not be visible to the users of your connector. They can simply drag your custom microflow activities from the toolbox into any microflow to use your connector.
 
@@ -99,8 +99,8 @@ And for more information on building connectors, see [How to Build Microflow Act
 
 Mendix provides seamless integration with a number of tools that developers use:
 
-* By selecting **Deploy for Eclipse** in the Modeler, your Mendix app project will be made compatible with Eclipse,w hich means you can run and debug your app from Eclipse. You will also have access to the Java source code, where you can implement custom Java actions. For more information, see [Using Eclipse](https://docs.mendix.com/refguide/using-eclipse) and [How to Debug Java actions](https://docs.mendix.com/howto/monitoring-troubleshooting/debug-java-actions) in the Mendix documentation.
-* Many Mendix developers use IntelliJ IDEA. IntelliJ enables you to import Eclipse projects, so by selecting **Deploy for Eclipse** in the Mendix Modeler, you will also be able to do all your custom Java actions coding in IntelliJ.
+* By selecting **Deploy for Eclipse** in Mendix Studio and Mendix Studio Pro, your Mendix app project will be made compatible with Eclipse,w hich means you can run and debug your app from Eclipse. You will also have access to the Java source code, where you can implement custom Java actions. For more information, see [Using Eclipse](https://docs.mendix.com/refguide/using-eclipse) and [How to Debug Java actions](https://docs.mendix.com/howto/monitoring-troubleshooting/debug-java-actions) in the Mendix documentation.
+* Many Mendix developers use IntelliJ IDEA. IntelliJ enables you to import Eclipse projects, so by selecting **Deploy for Eclipse** in Mendix Studio and Mendix Studio Pro, you will also be able to do all your custom Java actions coding in IntelliJ.
 * Widget developers can benefit from the [Widget Generator](https://docs.mendix.com/howto/widget-development/scaffold-a-widget-with-the-yeoman-widget-generator) to quickly scaffold a new Mendix widget. This supports a number of commonly used JavaScript tools, like Yeoman, NodeJS, and Grunt. As this relies on common tools, you can edit your JavaScript widgets using a number of popular JavaScript IDEs, such as Brackets and WebStorm.
 
 ## 4 What Open Standards Does Mendix Support?

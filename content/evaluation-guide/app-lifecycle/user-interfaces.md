@@ -10,7 +10,7 @@ tags: ["user interface", "reusable", "template", "multilingual", "translate"]
 
 ## 1 How Can I Build Pages & Forms in Mendix? {#build-pages}
 
-Mendix has a visual page editor in the Modelers that can be used to build both dynamic and static pages (for example, a dashboard page containing a report overview, or a registration form for a mortgage application). An app built in Mendix can support multiple app profile, so you can target multiple device types with device-specific app flows and page layouts while still reusing the underlying app logic and integrations.
+Mendix has a visual page editor in Mendix Studio and Mendix Studio Pro that can be used to build both dynamic and static pages (for example, a dashboard page containing a report overview, or a registration form for a mortgage application). An app built in Mendix can support multiple app profile, so you can target multiple device types with device-specific app flows and page layouts while still reusing the underlying app logic and integrations.
 
 The Mendix Platform supports mobile, tablet, and responsive profiles. For details on all the UI development capabilities that Mendix supports, refer to the various pages in the [UX & Multi-Channel Apps](../app-capabilities/ux-multi-channel-apps) chapter.
 

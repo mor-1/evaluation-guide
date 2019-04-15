@@ -10,7 +10,7 @@ tags: ["version control", "multi-user", "user stories", "svn", "branching", "mer
 
 ## 1 How Does Mendix Support Multi-User Development? {#multi-user}
 
-Mendix Studio Pro and Mendix Studio combine multi-user development across different skill levels. Team members can choose the Modeler that fits their needs best. More information can be found in [App Development](app-development).
+Mendix Studio Pro and Mendix Studio combine multi-user development across different skill levels. Team members can choose Mendix Studio or Mendix Studio Pro, depending on their needs. More information can be found in [App Development](app-development).
 
 At the start of a project, all team members can work together on the main line of the version control repository. Mendix Studio Pro users can share app updates with the rest of the team using the update and commit pattern via the version control repository. All changes made by team members using Mendix Studio will be shared via the version control repository when the Mendix Studio Pro user requests an update from the version control repository.
 
@@ -106,6 +106,6 @@ If a whole folder (or module) was deleted and another developer changes a docume
 
 ## 10 How Can I Resolve Conflicts in External Files like Java Classes, Widgets & Images?
 
-By default, the Mendix Modeler also does a diff comparison on external files like Java classes. When there are new versions or files have been deleted, this is directly handled by Mendix Studio Pro itself.
+By default, Mendix Studio and Mendix Studio Pro also perform a diff comparison on external files like Java classes. When there are new versions or files have been deleted, this is directly handled by Mendix Studio Pro itself.
 
 For additional diffing or conflict resolution on external files, external SVN tools like Tortoise SVN can be used.

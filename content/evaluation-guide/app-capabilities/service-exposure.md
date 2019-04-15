@@ -59,7 +59,7 @@ This ensures that the contract with the outside world is stable, while you can s
 
 ## 3 How Can I Publish an OData Service?
 
-Mendix currently provides OData in the Mendix Modeler as an integration facility for a specific use case, which is providing Mendix app data for analytics. Next to this, Mendix also provides an SAP integration based on OData, but this is also based on Mendix Connector Kit technology, as described in the section [How Can I Import & Export Fixed-Length & Delimited Files?](external-data#fixed-length) of *External Data*.
+Mendix currently provides OData in Mendix Studio and Mendix Studio Pro as an integration facility for a specific use case, which is providing Mendix app data for analytics. Next to this, Mendix also provides an SAP integration based on OData, but this is also based on Mendix Connector Kit technology, as described in the section [How Can I Import & Export Fixed-Length & Delimited Files?](external-data#fixed-length) of *External Data*.
 
 OData provides an interface similar to what you may expect from a database. It has insert, select, update, and delete functionality available. OData achieves this by standardizing a data language on top of REST. The benefit of this is that all client tools understand up front how to work with the data you expose.
 

@@ -15,7 +15,7 @@ Mendix has a visual page editor in the Modelers that can be used to build both d
 The Mendix Platform supports mobile, tablet, and responsive profiles. For details on all the UI development capabilities that Mendix supports, refer to the various pages in the [UX & Multi-Channel Apps](../app-capabilities/ux-multi-channel-apps) chapter.
 
 {{% image_container width="500" %}}
-![Web Modeler Page Editor](attachments/page-editor.png)
+![Mendix Studio Page Editor](attachments/page-editor.png)
 {{% /image_container %}}
 
 ## 2 How Do I Build Reusable Page Elements?
@@ -52,7 +52,7 @@ Full Unicode (double-byte characters) character sets, support is provided that e
 
 For the international rollout of applications, Mendix supports the use of multiple languages in parallel for an application running in production. By default, the application will be presented to the user in the language that is defined in their user profile.
 
-For translation, the Mendix Desktop Modeler provides the following tools:
+For translation, Mendix Studio Pro provides the following tools:
 
 * **Batch replace** – for ensuring the consistency of labels in the default language in your application
 * **Batch translate** – for translating all the labels in your application from the source language to the destination language batch-wise (after having translated the individual labels)

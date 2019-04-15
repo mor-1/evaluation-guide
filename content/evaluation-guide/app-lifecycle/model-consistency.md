@@ -10,7 +10,7 @@ tags: ["model", "consistency", "refactoring", "aqm", "iso standard"]
 
 ## 1 How Does Mendix Ensure the Quality & Consistency of Apps in the Development Phase?
 
-The Mendix Desktop Modeler ensures the intrinsic quality and consistency of applications built with the Mendix Platform through the approach and mechanisms described below.
+Mendix Studio Pro ensures the intrinsic quality and consistency of applications built with the Mendix Platform through the approach and mechanisms described below.
 
 ### 1.1 Consistency Checks {#consistency-checks}
 
@@ -67,7 +67,7 @@ For example, when write rights are limited to only the administrator role on a s
 
 ## 3 Which Analysis Tools Are Available to Improve the Quality of the Model?
 
-In addition to integrated model analysis and consistency checks, the Mendix Desktop Modeler has a **Find Advanced** feature that can be used to analyze and find all kinds of model elements (for example, unused documents, large microflows that need refactoring, and an overview of all the microflows using specific integration types).
+In addition to integrated model analysis and consistency checks, Mendix Studio Pro has a **Find Advanced** feature that can be used to analyze and find all kinds of model elements (for example, unused documents, large microflows that need refactoring, and an overview of all the microflows using specific integration types).
 
 {{% image_container width="500" %}}
 

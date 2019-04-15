@@ -39,7 +39,7 @@ For more details on how Mendix helps development teams to manage their requireme
 
 ### 2.2 Modeling Phase {#modeling-phase}
 
-During development, Mendix helps development teams to efficiently develop (or *model*) high-quality application models. An app model is continuously checked for consistency errors while the user is working in the Mendix Desktop Modeler or Web Modeler. These consistency checks ensure model integrity and immediately catch many of the mistakes users can make.
+During development, Mendix helps development teams to efficiently develop (or *model*) high-quality application models. An app model is continuously checked for consistency errors while the user is working in Mendix Studio Pro or Mendix Studio. These consistency checks ensure model integrity and immediately catch many of the mistakes users can make.
 
 {{% image_container width="650" %}}
 ![Mendix Project Error List Example](attachments/error-list.png)
@@ -71,11 +71,11 @@ For more information, see [Continuous Integration](cicd) and [Testing](test-auto
 
 ### 2.5 Deploying Phase
 
-During development with the Desktop Modeler, you can run your application locally on your machine while you are experimenting with the development of new features. And in addition to publishing apps in the Mendix Cloud, you can run your app locally when you do not want to share your app with others stakeholders yet.
+During development with Mendix Studio Pro, you can run your application locally on your machine while you are experimenting with the development of new features. And in addition to publishing apps in the Mendix Cloud, you can run your app locally when you do not want to share your app with others stakeholders yet.
 
 <video controls src="attachments/run-locally.mp4">VIDEO</video>
 
-From both the Desktop Modeler and Web Modeler, you can easily publish your app directly in the Mendix Cloud with a single click. This immediately makes the app available as a Free App for up to 10 users, either for development or production use.
+From both Mendix Studio Pro and Mendix Studio, you can easily publish your app directly in the Mendix Cloud with a single click. This immediately makes the app available as a Free App for up to 10 users, either for development or production use.
 
 <video controls src="attachments/MA_SandboxDeployment.mp4">VIDEO</video>
 

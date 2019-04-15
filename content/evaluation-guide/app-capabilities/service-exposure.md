@@ -45,7 +45,7 @@ Mendix automatically provides an OpenAPI contract and documentation page for eve
 
 ## 2 How Can I Publish a SOAP Service or Web Service?
 
-Creating a web service is as easy as selecting **Publish as web service operation** in the Mendix Desktop Modeler.  When you turn a microflow into a web service operation, the input parameters and the microflow return value will automatically be converted into input and output messages for the operation.
+Creating a web service is as easy as selecting **Publish as web service operation** in Mendix Studio Pro.  When you turn a microflow into a web service operation, the input parameters and the microflow return value will automatically be converted into input and output messages for the operation.
 
 <video controls src="attachments/Integration_PublishWebService-1.mp4">VIDEO</video>
 

@@ -16,7 +16,7 @@ Mendix is a model-driven development environment designed to cater to the needs 
 
 ## How Does Mendix Enable Model-Driven Development? {#enable}
 
-Mendix enables model-driven development through the Web and Desktop Modelers, which provide visual drag-and-drop development tools for UI, data, logic, and navigation using no-code and low-code development. By interpreting the resulting model at runtime and thus maintaining the bond between model and application, Mendix prevents the production of tomorrow's legacy. Furthermore, direct model execution removes code generation overhead and provides significant advantages by accommodating live changes, controlled extensions, and dynamic monitoring analysis at runtime.
+Mendix enables model-driven development through Mendix Studio and Mendix Studio Pro, which provide visual drag-and-drop development tools for UI, data, logic, and navigation using no-code and low-code development. By interpreting the resulting model at runtime and thus maintaining the bond between model and application, Mendix prevents the production of tomorrow's legacy. Furthermore, direct model execution removes code generation overhead and provides significant advantages by accommodating live changes, controlled extensions, and dynamic monitoring analysis at runtime.
 
 For details, see [How Does Mendix Enable Model-Driven Development?](app-development#enable).
 

@@ -35,7 +35,7 @@ For more information, see [Which Third-Party Security Certifications and Assuran
 
 ## How Is Application Security Defined in Mendix? {#defined}
 
-Application-specific security is defined using the security domain-specific language of the Mendix Desktop Modeler. Your developers can create specific users roles which in turn are mapped to module roles inside your app model. Each module role defines the access and security levels to all assets in the module, including data. Fine-grained security restrictions can be created down to the attribute level on specific entities, along with database constraints to ensure data never leaves your servers if the constraints are not met in full.
+Application-specific security is defined using the security domain-specific language of Mendix Studio Pro. Your developers can create specific users roles which in turn are mapped to module roles inside your app model. Each module role defines the access and security levels to all assets in the module, including data. Fine-grained security restrictions can be created down to the attribute level on specific entities, along with database constraints to ensure data never leaves your servers if the constraints are not met in full.
 
 For details, see [What Kind of Encryption Is Provided by the Mendix Platform?](platform-security#encryption).
 

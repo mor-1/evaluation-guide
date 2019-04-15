@@ -56,7 +56,7 @@ The data migration phase can also migrate data from one Mendix app to another ac
 
 Mendix offers a number of ways to specify what data you want to retrieve:
 
-* Both the Desktop Modeler and Web Modeler offer visual ways to specify your query needs
+* Both Mendix Studio Pro and Mendix Studio offer visual ways to specify your query needs
 * To retrieve specific objects or a set of related objects, you can use XPath expressions
 * For reporting needs (where aggregation and the joining of multiple entities into a single result set is important), Mendix offers OQL queries
 

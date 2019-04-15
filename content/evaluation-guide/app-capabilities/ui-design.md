@@ -10,7 +10,7 @@ tags: ["ui", "design", "atlas ui", "template", "building block", "widget"]
 
 ## 1 How Can I Design Rich User Interfaces? {#atlas-ui}
 
-User interfaces are built via the combination of a drag-and-drop interface with a WYSIWYG page editor. Our Web Modeler and Desktop Modeler environments can be used with the [Atlas UI](https://atlas.mendix.com) framework, which is a fully responsive, [open-source](https://github.com/mendix/atlas-framework), and extensible design language that facilitates a design-thinking approach to building user interfaces.
+User interfaces are built via the combination of a drag-and-drop interface with a WYSIWYG page editor. Our Mendix Studio and Mendix Studio Pro environments can be used with the [Atlas UI](https://atlas.mendix.com) framework, which is a fully responsive, [open-source](https://github.com/mendix/atlas-framework), and extensible design language that facilitates a design-thinking approach to building user interfaces.
 
 Common page patterns such as searchable lists, data views, dashboards, and wizards are made available as starter templates that help accelerate development and ensure a consistent, standard user interface across multiple devices.
 
@@ -26,7 +26,7 @@ Navigation layouts are built using the platform layout editor, which allows you 
 
 Layouts use specific controls—such as layout grids, content placeholders, scrolling containers, sliding menus bars, and snippets—to centrally define the required page layout patterns that will be consumed when building the your application's UI.
 
-This video shows how easy it is to select a reusable navigation layout for your app project in the Web Modeler:
+This video shows how easy it is to select a reusable navigation layout for your app project in Mendix Studio:
 
 <video controls src="attachments/OE_ReusableNavigationLayouts.mp4">VIDEO</video>
 
@@ -56,7 +56,7 @@ Mendix provides many widgets out of the box, and there are hundreds of open-sour
 
 You can further customize widgets by changing their design properties. Colors, text, and many other variables can be altered to customize widgets on a case-by-case basis if the styling or placement are not quite right. Theme developers can implement their own (company) design properties so that other users can easily change the look and feel of widgets to match the company's brand.
 
-Here is an example of how easy it is to change the design properties of a button in the Web Modeler:
+Here is an example of how easy it is to change the design properties of a button in Mendix Studio:
 
 <video controls src="attachments/DesignProperties.mp4">VIDEO</video>
 
@@ -116,4 +116,4 @@ Layouts are wireframe page designs that combine widgets, navigation placeholders
 
 ### 5.3 Building Blocks
 
-Building blocks are optimized for reuse in the Web Modeler. For more details, see the section [Building Blocks](#building-blocks) above.
+Building blocks are optimized for reuse in Mendix Studio. For more details, see the section [Building Blocks](#building-blocks) above.

@@ -24,7 +24,7 @@ This diagram below shows the runtime architecture of a Mendix  mobile app:
 
 ## 2 How Can I Leverage Device Capabilities in My Mobile Apps?
 
-A Mendix mobile app can leverage various native capabilities via widgets that use [Cordova plugins](https://cordova.apache.org/plugins/). You can easily add these widgets to your mobile app projects and configure them in the Desktop Modeler. Many capabilities are provided out of the box by Mendix or by partners via the [Mendix App Store](https://appstore.home.mendix.com/index3.html). If other device capabilities are needed, you can extend the project with a custom widget that wraps a Cordova plugin and so accesses the device capabilities.
+A Mendix mobile app can leverage various native capabilities via widgets that use [Cordova plugins](https://cordova.apache.org/plugins/). You can easily add these widgets to your mobile app projects and configure them in Mendix Studio Pro. Many capabilities are provided out of the box by Mendix or by partners via the [Mendix App Store](https://appstore.home.mendix.com/index3.html). If other device capabilities are needed, you can extend the project with a custom widget that wraps a Cordova plugin and so accesses the device capabilities.
 
 ## 3 How Can I Build and Publish My Mobile App?
 
@@ -52,7 +52,7 @@ There are several approaches to testing your mobile app. Mendix offers an out-of
 
 <video controls src="attachments/MA_TestingMobile.mp4">VIDEO</video>
 
-When testing locally, your app is automatically reloaded within seconds after you make a change and click **Run** in the Desktop Modeler.
+When testing locally, your app is automatically reloaded within seconds after you make a change and click **Run** in Mendix Studio Pro.
 
 ## 6 How Can I Share My Mobile App? {#mxapp-share}
 

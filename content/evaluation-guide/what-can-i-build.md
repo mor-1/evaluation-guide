@@ -51,7 +51,7 @@ Innovation applications stem from ideas for new digital business models, product
 
 These key platform features enable you to build innovation apps in Mendix:
 
-* [The Mendix Web Modeler](app-lifecycle/app-development#web-modeler) empowers business users to build prototypes that development teams can continue to enhance via the Desktop Modeler.
+* [Mendix Studio](app-lifecycle/app-development#studio) empowers business users to build prototypes that development teams can continue to enhance via Mendix Studio Pro.
 * [Out-of-the-box connectors](app-lifecycle/app-store#connectors) simplify integration with third-party databases and applications by handling complex XML messages and utilizing IoT and cognitive services. In turn, developers can leverage emerging technologies and legacy systems with minimal dependencies on IT.
 * [Requirements management](app-lifecycle/requirements-management) via the easy-to-use [Developer Portal](app-lifecycle/requirements-management#requirements-management) allows business users to create and track their own user stories, enables the development team to adopt a Scrum-based development approach, and shortens the feedback loop between the development team and the business.
 
@@ -75,7 +75,7 @@ Operational efficiency applications are employee- or partner-facing apps designe
 
 These key platform features enable you to build operational efficiency apps in Mendix:
 
-* [The Mendix Web Modeler](app-lifecycle/app-development#web-modeler) empowers business users to build prototypes that development teams can continue to enhance via the Desktop Modeler.
+* [Mendix Studio](app-lifecycle/app-development#studio) empowers business users to build prototypes that development teams can continue to enhance via Mendix Studio Pro.
 * [Integration options](app-capabilities/integration-overview) are on offer via an extensive array of Mendix tools for integrating with other systems.
 * [The Mendix Cloud](app-capabilities/mendix-cloud-overview) enables you to deploy your apps easily and cost-effectively to the cloud.
 

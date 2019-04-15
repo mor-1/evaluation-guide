@@ -1,6 +1,7 @@
 // Measurements
 
-$size-topbar-height: 120px;
+$size-header: 75px;
+$size-topbar-height: 195px;
 $frontpage-search-block-margins: 60px;
 
 // OLD COLORS
@@ -45,3 +46,9 @@ $font-code: 'Inconsolata', monospace;
 
 $color-topbar-color: $white;
 $size-topbar-font: 36px;
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1227px;
+    }
+}

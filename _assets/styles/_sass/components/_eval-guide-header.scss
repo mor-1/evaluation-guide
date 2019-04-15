@@ -11,12 +11,13 @@
 }
 
 #mxHeader {
+    font-family: "Patron";
   .btn {
     font-size: 11px;
     line-height: 1.5;
     position: relative;
     display: inline-block;
-    padding: 0.8rem 1rem;
+    padding: 0.8rem 2.5em;
     -webkit-transition: all 250ms ease;
     -o-transition: all 250ms ease;
     transition: all 250ms ease;
@@ -89,16 +90,23 @@
 .nav--header a {
     transition: color 150ms;
     text-decoration: none;
-    color: #424242
+    color: #FFF
 }
 .nav--header a:focus,
 .nav--header a:hover {
     text-decoration: underline;
     color: #0595db
 }
+.nav--header {
+    .sub-menu {
+        a {
+            color: #424242;
+        }
+    }
+}
 .nav--header > .menu-item-has-children > a {
     text-decoration: none;
-    color: #424242
+    color: #FFF;
 }
 #mendix-search-button {
     max-height: 30px;
@@ -156,8 +164,9 @@
         background-color: #424242
     }
     .sub-menu {
-        padding-left: 0.9375rem
+        padding-left: 0.9375rem;
     }
+
     #main-logo {
         margin-left: 0.9375rem
     }
@@ -331,11 +340,11 @@
         content: '⌃';
         transition: all 250ms ease;
         transform: rotate(180deg) translate(-3px, 3px);
-        color: #424242
+        color: #FFF
     }
     .nav--header > .menu-item-has-children.focus-within > a,
     .nav--header > .menu-item-has-children:hover > a {
-        color: #000;
+        color: #FFF;
         transform: translate(0, -1px)
     }
     .nav--header > .menu-item-has-children.focus-within > a:after,
@@ -364,7 +373,13 @@
     }
 }
 
+.btn-clear {
+    padding: 0.8rem!important;
+}
 @media screen and (min-width:1200px) {
+    .btn-clear {
+        padding: 0.8rem 2.5em!important;
+    }
     .nav--header > .menu-item {
         padding-left: 20px
     }
@@ -407,6 +422,36 @@
   background-color: #67ca39;
 }
 
+.btn-clear {
+    color:#FFF;
+    border-color: #FFF;
+    background: transparent;
+    font-size: 16px!important;
+    &:hover, &:active {
+        color:#FFF;
+        background: #0595db;
+    }
+}
+
+.link-svg {
+    display: inline-block;
+    text-align: center;
+    padding: 0 0.5rem;
+    min-width: 40px;
+    background: transparent;
+    background-color: transparent;
+    border-width: 0;
+    svg {
+        pointer-events: none;
+    }
+    &:hover {
+        svg {
+            .color {
+                stroke: #0CABF9;
+            }
+        }
+    }
+}
 .btn.gray-outline {
   color: #9f9f9e;
   border-color: #9f9f9e;
@@ -424,7 +469,7 @@
             .col-xs-12 {
                 display: block!important;
                 .mx__header__logo {
-                    line-height: 70px;
+                    line-height: 105px;
                 }
             }
         }

@@ -56,7 +56,7 @@ The data migration phase can also migrate data from one Mendix app to another ac
 
 Mendix offers a number of ways to specify what data you want to retrieve:
 
-* Both the Desktop Modeler and Web Modeler offer visual ways to specify your query needs
+* Both Mendix Studio Pro and Mendix Studio offer visual ways to specify your query needs
 * To retrieve specific objects or a set of related objects, you can use XPath expressions
 * For reporting needs (where aggregation and the joining of multiple entities into a single result set is important), Mendix offers OQL queries
 
@@ -79,7 +79,7 @@ As you can see, Mendix ORM applies a number of performance optimizations that ar
 
 Indexes are lists of attributes for which a database index is created on the underlying database table of the entity. Indexes improve the speed of retrieving objects if the indexed attributes are used in a search field, in the XPath constraint of a data or template grid, or in an XPath query.
 
-Indexes are added using the entity properties menu inside the Modeler. Multiple indexes can be added to one entity.
+Indexes are added using the entity properties menu inside Mendix Studio and Mendix Studio Pro. Multiple indexes can be added to one entity.
 
 <video controls src="attachments/IndexSettings.mp4">VIDEO</video>
 

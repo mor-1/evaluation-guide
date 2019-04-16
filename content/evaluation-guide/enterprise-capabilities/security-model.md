@@ -62,7 +62,7 @@ Mendix distinguishes module roles from user roles so that the module along with 
 
 ### 2.2 How Can I Define Module-Level Security Settings?
 
-At the module level, security logic is separated from application logic. This allows for easy accessibility as well as the maintenance and validation of security settings even by less technical users. All the security settings are managed from the Mendix Desktop Modeler in order to define access rights for the elements described below.
+At the module level, security logic is separated from application logic. This allows for easy accessibility as well as the maintenance and validation of security settings even by less technical users. All the security settings are managed from Mendix Studio Pro in order to define access rights for the elements described below.
 
 This video presents the various module-level security settings that are available:
 

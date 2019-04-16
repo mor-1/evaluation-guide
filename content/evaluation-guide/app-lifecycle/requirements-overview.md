@@ -22,7 +22,7 @@ Requirements management is an integral part of Mendix application development. M
 
 <video controls src="attachments/feedback-cycle.mp4">VIDEO</video>
 
-End-users can easily provide feedback to the development team when using the apps. This feedback is triaged by the development team and accepted as user story. The user story is scheduled into the current Sprint and becomes visible in the Desktop Modeler. The developer can click the link on the user story to quickly open the actual page from which the feedback item was submitted. They can then resolve the issue and quickly redeploy the application with a single click.
+End-users can easily provide feedback to the development team when using the apps. This feedback is triaged by the development team and accepted as user story. The user story is scheduled into the current Sprint and becomes visible in Mendix Studio Pro. The developer can click the link on the user story to quickly open the actual page from which the feedback item was submitted. They can then resolve the issue and quickly redeploy the application with a single click.
 
 ## 3 How Does Mendix Support Agile Development Teams?
 

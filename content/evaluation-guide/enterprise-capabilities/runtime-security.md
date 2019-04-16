@@ -48,7 +48,7 @@ The Mendix Runtime and the Mendix Client have out-of-the-box security measures t
 
 The Mendix Runtime protects your application and data according to your model, wherein the Mendix Cloud handles security at the infrastructural level. The Mendix Runtime takes care of most known security threats (OWASP top 10) out of the box, as the functionality where most common security mistakes take place is abstracted away from developers.
 
-For more information on keeping your Mendix application safe from attackers, see [Best Practices for Mendix Application Security](https://docs.mendix.com/howtogeneral/bestpractices/best-practices-security-and-improvements-for-mendix-applications) in the Mendix documentation.
+For more information on keeping your Mendix application safe from attackers, see [How to Implement Best Practices for App Security](https://docs.mendix.com/howto/security/best-practices-security) in the Mendix documentation.
 
 ## 5 How Does My Mendix App Support Multi-Tenancy?
 

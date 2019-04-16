@@ -34,7 +34,7 @@ For every submitted feedback item, the Mendix Platform automatically collects th
 * The application-level user role the user had
 * The browser the user was using and the resolution of their screen
 
-When a feedback item is accepted, the associated user story has the same metadata associated to it. When the story is scheduled in the current Sprint, it becomes visible in the Desktop Modeler. From there, developers can click a link to open the page that was visible when the feedback item was submitted.
+When a feedback item is accepted, the associated user story has the same metadata associated to it. When the story is scheduled in the current Sprint, it becomes visible in Mendix Studio Pro. From there, developers can click a link to open the page that was visible when the feedback item was submitted.
 
 ## 3 How Can Development Teams Communicate with Users About Submitted Feedback?
 

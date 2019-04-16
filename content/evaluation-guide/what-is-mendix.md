@@ -17,8 +17,8 @@ Mendix enables you to implement both Agile and DevOps best practices. It even go
 
 Mendix offers both no-code and low-code tooling in one single fully integrated platform:
 
-* **No code** – Mendix provides a web-based visual modeler that is tailored toward business domain experts
-* **Low code** – an extensive and powerful desktop-based visual modeler is also provided, which is tailored towards professional developers and can be integrated with coding IDEs to extend capabilities
+* **No code** – Mendix provides a web-based visual app-modeling studio that is tailored toward business domain experts
+* **Low code** – an extensive and powerful desktop-based visual app-modeling studio is also provided, which is tailored towards professional developers and can be integrated with coding IDEs to extend capabilities
 
 The result of this no-code and low-code combination is that business domain experts (like analysts and citizen developers) can work alongside expert developers to achieve much greater levels of alignment and accelerated delivery. Moreover, the Mendix Platform’s cloud-native architecture and automation tools support the deployment, management, and monitoring of highly available enterprise-grade applications.
 
@@ -44,8 +44,8 @@ The value of collaboration is strengthened through the Mendix Platform’s suppo
 
 The next step is to develop your application and convert ideas into apps. Mendix uses visual modeling languages for all the aspects of an application, and the platform is designed for a variety of users, even as it provides powerful capabilities to developers for their day-to-day work.
 
-* **Business Analysts & Business Developers** can directly use the Mendix Web Modeler to build, review, and collaborate on an app.
-* **Developers** with a technical programming background can use the Mendix Desktop Modeler along with Java and JavaScript to build and extend an app.
+* **Business Analysts & Business Developers** can directly use Mendix Studio to build, review, and collaborate on an app.
+* **Developers** with a technical programming background can use Mendix Studio Pro along with Java and JavaScript to build and extend an app.
 * **Product Owners & Scrum Masters** can use the Mendix Developer Portal to govern user requirements, end-user feedback, and Sprint backlogs.
 * **End-users** involved in running acceptance tests can use the app in combination with the Mendix Feedback Widget. This feedback is directly connected to the Mendix Developer Portal, so the Product Owner can review and validate the user feedback.
 

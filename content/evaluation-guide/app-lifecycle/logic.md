@@ -30,7 +30,7 @@ The following table presents the differences between nanoflows and microflows al
 
 Mendix is all about the collaboration between business and IT, and the visual nature of microflows and nanoflows, business-minded users can gain insight into how an application is designed. That means all extended development team members can have the necessary discussions about what the logic should do.
 
-The Mendix Web Modeler has review capabilities built in, which business users can utilize to review specific microflows describing the business logic. While reviewing that logic, such users can inspect what the logic does in a familiar visual language. They can also add comments on the microflow to describe the changes required to meet business requirements. This results in a very short feedback loop, leading to better products and lower costs.
+Mendix Studio has review capabilities built in, which business users can utilize to review specific microflows describing the business logic. While reviewing that logic, such users can inspect what the logic does in a familiar visual language. They can also add comments on the microflow to describe the changes required to meet business requirements. This results in a very short feedback loop, leading to better products and lower costs.
 
 {{% image_container width="600" %}}
 ![Feedback Comments in App Project Example](attachments/buzz_comment.png)
@@ -66,7 +66,7 @@ A rule is a special kind of microflow and can be used to express business rules.
 
 ## 5 How Can I Add Custom Code to My Application?
 
-On the server side, Mendix provides out-of-the-box microflow logic and integration features based on REST, OData, and SOAP web services. This means that there is not often a need for custom code. If you do need to extend the microflow logic with your own (via a library call or an external service call that exposes via Java), the Mendix Modeler allows you to build Java logic that can be used directly from within the Mendix Modelers.
+On the server side, Mendix provides out-of-the-box microflow logic and integration features based on REST, OData, and SOAP web services. This means that there is not often a need for custom code. If you do need to extend the microflow logic with your own (via a library call or an external service call that exposes via Java), Mendix Studio and Mendix Studio Pro allow you to build Java logic that can be used directly from within the IDEs.
 
 For more details, see the following sections:
 
@@ -77,25 +77,25 @@ For more details, see the following sections:
 
 ### 5.1 How Can I Use My Own Custom Code in Server-Side Logic? {#custom-code}
 
-Integration with a third-generation programming language (in this case, Java) is one of the key strengths of the Mendix model-driven development approach. This is particularly useful in those rare situations where you are unable to achieve your desired results using microflows alone, or where you have an existing investment in Java/Scala code and skills that you would like to leverage in your application models. The Mendix Desktop Modeler is integrated with Eclipse to support you in making code extensions to the models. The Mendix debugging facilities are fully integrated into Eclipse, providing you the same debugging capabilities with the referred Java code as any other part of the running application.
+Integration with a third-generation programming language (in this case, Java) is one of the key strengths of the Mendix model-driven development approach. This is particularly useful in those rare situations where you are unable to achieve your desired results using microflows alone, or where you have an existing investment in Java/Scala code and skills that you would like to leverage in your application models. Mendix Studio Pro is integrated with Eclipse to support you in making code extensions to the models. The Mendix debugging facilities are fully integrated into Eclipse, providing you the same debugging capabilities with the referred Java code as any other part of the running application.
 
 {{% image_container width="700" %}}
 ![Eclipse Integration Example](attachments/eclipse.png)
 {{% /image_container %}}
 
-In essence, you are never limited by the reach of a specific DSL and can always resort to the use of custom Java functions. Custom Java functions can be called from within a model, and the output can be used directly. The interface of each action (which equals a Java function) is also defined within the model. The name, parameters, and return values are all declared in the Mendix Desktop Modeler. The Modeler generates a Java template class for each action, which is the hook where custom code can be added.
+In essence, you are never limited by the reach of a specific DSL and can always resort to the use of custom Java functions. Custom Java functions can be called from within a model, and the output can be used directly. The interface of each action (which equals a Java function) is also defined within the model. The name, parameters, and return values are all declared in Mendix Studio Pro. Mendix Studio and Mendix Studio Pro generates a Java template class for each action, which is the hook where custom code can be added.
 
 Whenever the interface definition in the app is renamed or refactored, the Java class template automatically changes without losing any of your custom code. Changes are also automatically caught by the Mendix Platform’s built-in consistency checker, which raises consistency errors in the custom code early in the development process. This ensures that the Java code will compile and the app extensions are consistent with the model before deployment takes place, saving valuable time during development iterations.
 
 A professional developer has complete freedom to extend with any Java construct, allowing them to leverage any open-source or proprietary library as needed. Within this custom code, an extensive API can be used for the core of the runtime engine. This is a low-level API that enables, among other things, reflective programming patterns.
 
-Java extensions are fully managed by the Mendix Platform across the entire application lifecycle, including versioning, compilation, and packaging for deployment. Java actions provide an elegant way of building new microflow functionality that can be consumed by non-Java developers. Once your Java action is complete, right-click it to expose it as a native action inside the Desktop Modeler's **Toolbox**. This will make it easily discoverable by all the developers in the app project.
+Java extensions are fully managed by the Mendix Platform across the entire application lifecycle, including versioning, compilation, and packaging for deployment. Java actions provide an elegant way of building new microflow functionality that can be consumed by non-Java developers. Once your Java action is complete, right-click it to expose it as a native action inside Mendix Studio Pro's **Toolbox**. This will make it easily discoverable by all the developers in the app project.
 
 For more information about how to use Java code in a Mendix app, see [Java Programming](https://docs.mendix.com/refguide/java-programming) in the Mendix Reference Guide.
 
 ## 6 How Do I Debug in Mendix?
 
-The Mendix Desktop Modeler ensures the intrinsic quality, security, and technical consistency of applications built with the Mendix Platform through the approach and mechanisms described in [Model Consistencies](model-consistency).
+Mendix Studio Pro ensures the intrinsic quality, security, and technical consistency of applications built with the Mendix Platform through the approach and mechanisms described in [Model Consistencies](model-consistency).
 
 As a result, debugging and issue testing are primarily needed on a functional level. The advantage here is that, through extensive quality and consistency checking, non-technical domain experts can develop robust and sophisticated apps.
 
@@ -113,7 +113,7 @@ This error handling process ensures consistency across a Mendix app.
 
 ## 8 How Can I Reuse Logic?
 
-The following features in the Mendix Modelers make logic reuse easy:
+The following features in Mendix Studio and Mendix Studio Pro make logic reuse easy:
 
 * Existing **microflows** and rules can be called from any other microflow or page context in the Mendix app project. Mendix has refactoring tooling built in that makes it easy to extract logic from an existing microflow into a new microflow containing a well-defined interface of input parameters and a return type. The logic is then fully reusable from any other context.
 * You can reuse your existing **Java libraries and custom code** in the app logic.

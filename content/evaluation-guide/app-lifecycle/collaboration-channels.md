@@ -15,7 +15,7 @@ The Mendix Developer Portal is the central point for the development of Mendix a
 The Mendix Platform provides various channels of engagement for different stakeholders:
 
 * Developer Portal
-* Modelers (IDE)
+* Mendix Studio and Mendix Studio Pro (IDE)
 * Mendix mobile app
 * Notification emails
 * Buzz
@@ -32,7 +32,7 @@ Stakeholders can post updates, comments, and photos as well as upload documents 
 
 ### 1.2 How Can Stakeholders Get Involved via the Mendix IDE?
 
-Because developers are usually found working with the [Desktop Modeler](app-development#desktop-modeler) or the [Web Modeler](app-development#web-modeler), user stories from the active Sprint and the Buzz are available in the Modelers as well. They are displayed in a side panel, as shown here:
+Because developers are usually found working with [Mendix Studio Pro](app-development#studio-pro) or [Mendix Studio](app-development#studio), user stories from the active Sprint and the Buzz are available in Mendix Studio and Mendix Studio Pros as well. They are displayed in a side panel, as shown here:
 
 <video controls src="attachments/buzz-in.mp4">VIDEO</video>
 

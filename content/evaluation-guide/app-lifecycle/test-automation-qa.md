@@ -12,7 +12,7 @@ tags: ["test automation", "quality assurance", "model", "aqm", "unit test", "fun
 
 The Mendix Platform provides development teams with an extensive toolset and extension points to set up quality assurance via efficient test automation.
 
-Mendix apps are built from standard components that are already pre-tested by Mendix. The internal consistency of a custom application model that a development team builds on top of these components is continuously checked by the Mendix Modeler. The goal of this is to catch common modeling mistakes and issues early in development. For more details, see  [How Does Mendix Ensure the Quality of My Apps?](#ensure) below.
+Mendix apps are built from standard components that are already pre-tested by Mendix. The internal consistency of a custom application model that a development team builds on top of these components is continuously checked by Mendix Studio and Mendix Studio Pro. The goal of this is to catch common modeling mistakes and issues early in development. For more details, see  [How Does Mendix Ensure the Quality of My Apps?](#ensure) below.
 
 During development, the [Mendix Application Quality Monitor (AQM)](https://docs.mendix.com/aqm/) provides insight into the quality of the application models that you are building. Dashboards provide high-level details and allow you to drill down at the microflow level. For more details, see the section [What Tools Are Available for Quality-Monitoring Mendix Apps?](quality-monitoring#quality-monitoring) in *Quality Monitoring*.
 
@@ -38,7 +38,7 @@ These three main ways are explained below in detail.
 
 ### 2.1 Enforcing Consistency Within Your Application Model
 
-The Mendix Modeler continuously monitors whether the entirety of the application model is internally consistent. For example, the microflow activities and page elements you define need to be consistent with the domain model. The Modeler will show an error and prevent the deployment of an application that does not pass the consistency checks.
+Mendix Studio and Mendix Studio Pro continuously monitor whether the entirety of the application model is internally consistent. For example, the microflow activities and page elements you define need to be consistent with the domain model. Mendix Studio and Mendix Studio Pro will show an error and prevent the deployment of an application that does not pass the consistency checks.
 
 For more information, see [Model Consistency](model-consistency).
 

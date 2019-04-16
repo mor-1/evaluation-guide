@@ -141,7 +141,7 @@ The Developer Portal is the component of the Mendix Platform that, among other f
 
 ### 4.4 Which Runtime Activities Are Logged?
 
-The Mendix Runtime offers the option to log user behavior and object manipulations, enabling audit trails to the lowest level. Aside from standard log details (for example, active users), the Mendix Modeler allows you to add custom logging. You can even add active alerts based on bespoke integrity triggers.
+The Mendix Runtime offers the option to log user behavior and object manipulations, enabling audit trails to the lowest level. Aside from standard log details (for example, active users), Mendix Studio and Mendix Studio Pro allow you to add custom logging. You can even add active alerts based on bespoke integrity triggers.
 
 Logs are persistently stored in log files, and Mendix provides an API for subscribing to log events. Mendix also integrates with third-party tools like RSA for the encrypted storage of log files in environments where secure logging and auditing is required.
 

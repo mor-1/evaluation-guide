@@ -85,7 +85,7 @@ You can also use XPath constraints to define so-called **row-level security**, w
 
 ## 6 How Does Referential Integrity Work in Mendix?
 
-Referential integrity is added inside the Modeler using delete behavior properties. Delete behavior defines what should happen to the associated object when an object is deleted. The following options can be configured for each end of the association.
+Referential integrity is added using delete behavior properties. Delete behavior defines what should happen to the associated object when an object is deleted. The following options can be configured for each end of the association.
 
 | Value |	Description |
 | --- | --- |

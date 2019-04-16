@@ -18,7 +18,7 @@ The sections below describe the features delivered by the Mendix Cloud.
 
 ## 2 How Does Application Deployment Management Work?
 
-This feature allows you to deploy a Mendix application with a single click from both the Mendix Developer Portal and the Modeler.
+This feature allows you to deploy a Mendix application with a single click from both the Mendix Developer Portal and Mendix Studio and Mendix Studio Pro.
 
 {{% image_container width="600" %}}
 ![Deployment Management Example](attachments/mx-deployment-management.png)
@@ -56,7 +56,7 @@ In the Mendix Platform, your log files are available via the Developer Portal. A
 
 ## 8 How Does Live Debugging Work?
 
-If you need to perform a root cause analysis on a running application and the issue only occurs in production, it is possible to connect your Mendix Modeler to your production environment and perform live debugging.
+If you need to perform a root cause analysis on a running application and the issue only occurs in production, it is possible to connect Mendix Studio or Mendix Studio Pro to your production environment and perform live debugging.
 
 For more information, see the section [How Can I Debug a Live App Running in the Cloud](../app-lifecycle/debugging#debug-live-app) in *Debugging Facilities*.
 

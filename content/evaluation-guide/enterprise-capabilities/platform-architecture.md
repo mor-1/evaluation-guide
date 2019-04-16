@@ -1,7 +1,7 @@
 ---
 title: "Platform Architecture"
 seo_title: "Enterprise Architecture Platform - Modules & Services"
-seo_description: "Learn about the key components of the Mendix Platform architecture: Developer Portal, Desktop & Web Modelers, Team Server, & App Store."
+seo_description: "Learn about the key components of the Mendix Platform architecture: Developer Portal, Mendix Studio Pro, Mendix Studio, Team Server, & App Store."
 parent: "architecture-intro"
 menu_order: 20
 bg: "architecture"
@@ -10,7 +10,7 @@ tags: ["platform architecture", "architecture", "developer portal", "team server
 
 ## 1 What Are the Key Components of the Mendix Platform Architecture? {#key-components}
 
-The Mendix Platform is a completely integrated application platform-as-a-service (aPaaS) offering for designing, building, deploying, and managing enterprise apps. The platform is accessible to developers and administrators through the Developer Portal, which provides access to apps as well as services for requirements management, development, and deployment in the operation and administration of apps and app services. The platform includes both the Desktop and Web Modeler and an [App Store](https://appstore.home.mendix.com/index3.html) that features hundreds of publicly available building blocks to speed up development. The Mendix App Store can be configured for private use as well, so that apps and building blocks can be shared across your organization. The platform features online collaboration amongst users through the Dev Portal, Mendix app, and both modelers.
+The Mendix Platform is a completely integrated application platform-as-a-service (aPaaS) offering for designing, building, deploying, and managing enterprise apps. The platform is accessible to developers and administrators through the Developer Portal, which provides access to apps as well as services for requirements management, development, and deployment in the operation and administration of apps and app services. The platform includes both Mendix Studio Pro and Mendix Studio as well as the [Mendix App Store](https://appstore.home.mendix.com/index3.html) that features hundreds of publicly available building blocks to speed up development. The Mendix App Store can be configured for private use as well, so that apps and building blocks can be shared across your organization. The platform features online collaboration among users through the Developer Portal, Mendix app, and Mendix Studio and Mendix Studio Pro.
 
 The below diagram provides an overview of the key components of the Mendix Platform.
 
@@ -21,7 +21,7 @@ The below diagram provides an overview of the key components of the Mendix Platf
 The sections below go into more detail about the following main modules and services of the Mendix Platform:
 
 * [Developer Portal](#dev-portal)
-* [Modelers](#modelers)
+* [Mendix Studio and Mendix Studio Pro](#studios)
 * [Team Server](#team-server)
 * [Build Server](#build-server)
 * [MxID](#mxid)
@@ -34,9 +34,9 @@ The Mendix Developer Portal is a collaborative environment for the design, devel
 
 The Developer Portal is where you do most of your requirements management and tracking according to the Scrum methodology. You can define Sprints and stories, follow the progress, and see the velocity for your project. The is hosted on the Mendix public cloud running on AWS.
 
-### 2.2 What Are the Mendix Modelers? {#modelers}
+### 2.2 What Is Mendix Studio and Mendix Studio Pro? {#studios}
 
-The [Desktop Modeler](https://docs.mendix.com/refguide/desktop-modeler-overview) and [Web Modeler](https://docs.mendix.com/refguide/web-modeler/overview-wm) are the multi-user modeling studios of the Mendix Platform. The general purpose of the Modelers is to provide an integrated, unified modeling space, where business analysts, and IT engineers can work closely together to model the various application elements. The Desktop Modeler runs locally on the developer’s computer and has an integrated build service for working fully offline, while the Web Modeler is hosted on the [Mendix Cloud](../app-capabilities/mendix-cloud-overview).
+[Mendix Studio Pro](https://docs.mendix.com/refguide/desktop-modeler-overview) and [Mendix Studio](https://docs.mendix.com/refguide/web-modeler/overview-wm) are the multi-user modeling studios of the Mendix Platform. The general purpose of Mendix Studio and Mendix Studio Pro is to provide an integrated, unified modeling space, where business analysts, and IT engineers can work closely together to model the various application elements. Mendix Studio Pro runs locally on the developer’s computer and has an integrated build service for working fully offline, while Mendix Studio is hosted on the [Mendix Cloud](../app-capabilities/mendix-cloud-overview).
 
 ### 2.3 What Is the Team Server? {#team-server}
 

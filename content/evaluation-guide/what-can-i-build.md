@@ -51,7 +51,7 @@ Innovation applications stem from ideas for new digital business models, product
 
 These key platform features enable you to build innovation apps in Mendix:
 
-* [The Mendix Web Modeler](app-lifecycle/app-development#web-modeler) empowers business users to build prototypes that development teams can continue to enhance via the Desktop Modeler.
+* [Mendix Studio](app-lifecycle/app-development#studio) empowers business users to build prototypes that development teams can continue to enhance via Mendix Studio Pro.
 * [Out-of-the-box connectors](app-lifecycle/app-store#connectors) simplify integration with third-party databases and applications by handling complex XML messages and utilizing IoT and cognitive services. In turn, developers can leverage emerging technologies and legacy systems with minimal dependencies on IT.
 * [Requirements management](app-lifecycle/requirements-management) via the easy-to-use [Developer Portal](app-lifecycle/requirements-management#requirements-management) allows business users to create and track their own user stories, enables the development team to adopt a Scrum-based development approach, and shortens the feedback loop between the development team and the business.
 
@@ -63,7 +63,7 @@ Customer engagement applications enable customers and partners to better interac
 
 These key platform features enable you to build customer engagement apps in Mendix:
 
-* [Multi-channel apps](app-capabilities/ux-multi-channel-apps) can be built once for all channels via the Mendix Modeler's [WYSIWYG page editor](app-lifecycle/user-interfaces#build-pages), which allows users without front-end development or UI design skills to create beautiful, engaging, and highly usable multi-channel apps.
+* [Multi-channel apps](app-capabilities/ux-multi-channel-apps) can be built once for all channels via Mendix Studio's and Mendix Studio Pro's [WYSIWYG page editor](app-lifecycle/user-interfaces#build-pages), which allows users without front-end development or UI design skills to create beautiful, engaging, and highly usable multi-channel apps.
 * [The Atlas UI framework](app-capabilities/ui-design#atlas-ui) enables you to build pixel-perfect apps. In addition, your company's UI/UX team can create a package containing the organization’s design language for use across development teams, ensuring consistency while broadly leveraging the skills of what could be a small UI/UX team.
 * [Horizontal scalability](enterprise-capabilities/architecture-principles#statelessness) allows additional resources to be added easily as required to support increasing user or processing loads.
 
@@ -75,7 +75,7 @@ Operational efficiency applications are employee- or partner-facing apps designe
 
 These key platform features enable you to build operational efficiency apps in Mendix:
 
-* [The Mendix Web Modeler](app-lifecycle/app-development#web-modeler) empowers business users to build prototypes that development teams can continue to enhance via the Desktop Modeler.
+* [Mendix Studio](app-lifecycle/app-development#studio) empowers business users to build prototypes that development teams can continue to enhance via Mendix Studio Pro.
 * [Integration options](app-capabilities/integration-overview) are on offer via an extensive array of Mendix tools for integrating with other systems.
 * [The Mendix Cloud](app-capabilities/mendix-cloud-overview) enables you to deploy your apps easily and cost-effectively to the cloud.
 

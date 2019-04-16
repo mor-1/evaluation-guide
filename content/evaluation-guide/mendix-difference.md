@@ -58,7 +58,7 @@ The Mendix Platform provides Mendix Studio and Mendix Studio Pro visual modeling
 
 ## 5 How Does Mendix Support Full Application Lifecycle Management?
 
-The Mendix Platform supports the rapid delivery of applications through an integrated set of tools designed to cover the full application lifecycle. Starting with business requirements management, teams can create a backlog of user stories, Sprints, and release plans. Developers can then use the Web and Mendix Studio Pros to rapidly build these user stories, continuously merge models, ship revisions for automated testing, refactor feedback from the built-in feedback mechanism and collaboration features of the platform, and deploy using the Mendix Developer Portal. The Mendix Application Test Suite (ATS) can be used for automated testing. Finally, end-users can use the app's built-in feedback mechanism.
+The Mendix Platform supports the rapid delivery of applications through an integrated set of tools designed to cover the full application lifecycle. Starting with business requirements management, teams can create a backlog of user stories, Sprints, and release plans. Developers can then use Mendix Studio and Mendix Studio Pro to rapidly build these user stories, continuously merge models, ship revisions for automated testing, refactor feedback from the built-in feedback mechanism and collaboration features of the platform, and deploy using the Mendix Developer Portal. The Mendix Application Test Suite (ATS) can be used for automated testing. Finally, end-users can use the app's built-in feedback mechanism.
 
 ![Application Development Lifecycle - Capture, Plan, Develop, Deploy, Review](attachments/cycle-1.png)
 

@@ -36,7 +36,7 @@ The Developer Portal is where you do most of your requirements management and tr
 
 ### 2.2 What Is Mendix Studio and Mendix Studio Pro? {#studios}
 
-[Mendix Studio Pro](https://docs.mendix.com/refguide/desktop-modeler-overview) and [Mendix Studio](https://docs.mendix.com/refguide/web-modeler/overview-wm) are the multi-user modeling studios of the Mendix Platform. The general purpose of Mendix Studio and Mendix Studio Pro is to provide an integrated, unified modeling space, where business analysts, and IT engineers can work closely together to model the various application elements. Mendix Studio Pro runs locally on the developer’s computer and has an integrated build service for working fully offline, while Mendix Studio is hosted on the [Mendix Cloud](../app-capabilities/mendix-cloud-overview).
+[Mendix Studio Pro](https://docs.mendix.com/refguide/desktop-modeler-overview) and [Mendix Studio](https://docs.mendix.com/refguide/web-modeler/overview-wm) are the multi-user modeling IDEs of the Mendix Platform. The general purpose of the Mendix Studios is to provide an integrated, unified modeling space, where business analysts, and IT engineers can work closely together to model the various application elements. Mendix Studio Pro runs locally on the developer’s computer and has an integrated build service for working fully offline, while Mendix Studio is hosted on the [Mendix Cloud](../app-capabilities/mendix-cloud-overview).
 
 ### 2.3 What Is the Team Server? {#team-server}
 

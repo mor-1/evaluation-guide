@@ -10,7 +10,7 @@ tags: ["mobile app", "multi-channel", "offline", "ux"]
 seo_video: "ux-multi-channel-apps"
 ---
 
-The Mendix Platform offers a completely integrated visual development environment for building multi-channel apps. Developers can rapidly build, visualize, and deploy multi-channel apps using the drag-and-drop interfaces of the Mendix Web and Mendix Studio Pros.
+The Mendix Platform offers a completely integrated visual development environment for building multi-channel apps. Developers can rapidly build, visualize, and deploy multi-channel apps using the drag-and-drop interfaces of Mendix Studio and Mendix Studio Pro.
 
 Users can build rich front-ends for multi-channel apps (for both web and mobile apps) from a single model that supports reuse and a consistent look and feel. In addition, Mendix’s [Atlas UI](https://atlas.mendix.com/) framework enables users to create beautiful interfaces quickly via a wealth of Mendix UX resources.
 

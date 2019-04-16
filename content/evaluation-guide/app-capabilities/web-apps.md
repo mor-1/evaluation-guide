@@ -12,7 +12,7 @@ tags: ["web app", "app", "application"]
 
 As discussed in the [How Does Mendix Support Multi-Channel Applications?](front-end#support-multi-channel) section of *Front-End*, a web app is one possible channel for Mendix applications. The Mendix Client is responsible for rendering web apps, which are rich single-page applications (SPA) based on JavaScript, HTML5, and CSS3.
 
-Using the WYSIWYG page editor in Mendix Studio and Mendix Studio Pros, users can model pages and interactions that can run locally or be deployed directly from Mendix Studio and Mendix Studio Pro. When running locally, the changes are made visible directly. This is done with our **instant update** feature that instantly reloads the UI while preserving the current state, making testing and previewing apps a breeze.
+Using the WYSIWYG page editor in Mendix Studio and Mendix Studio Pro, users can model pages and interactions that can run locally or be deployed directly from Mendix Studio and Mendix Studio Pro. When running locally, the changes are made visible directly. This is done with our **instant update** feature that instantly reloads the UI while preserving the current state, making testing and previewing apps a breeze.
 
 When an app is deployed to the cloud, the static resources (HTML, CSS, JavaScript) are deployed on a front-facing server that caches and efficiently serves the resources. The main entry is the *index.html* page, which loads the Mendix Client, renders the page, and starts handling events. If authentication is needed, the end-user is redirected to either the login page or an identity provider. Mendix makes sure that there are no caching issues when deploying new versions by applying a cache-busting mechanism.
 

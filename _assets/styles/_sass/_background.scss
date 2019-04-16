@@ -43,6 +43,7 @@ $block: 'mx';
   @include element('content') {
     position: relative;
     overflow: hidden;
+    // margin-top: -$size-header;
     & > .container {
       position: relative;
       z-index: 20;

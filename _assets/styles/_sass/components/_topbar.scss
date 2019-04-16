@@ -3,10 +3,10 @@
   $topbar-search-padding: ($size-topbar-height - $size-topbar-search) / 2;
   $top-search-logo: $size-topbar-search / 2;
 
-  background: url('/evaluation-guide/public/images/swirl-blue.svg');
+  background: url('/evaluation-guide/public/images/eval-guide-background.jpg');
   background-size: cover;
   background-position: center center;
-  height: $size-topbar-height;
+  height: $size-topbar-height + $size-header;
   line-height: $size-topbar-height;
 
   @include mq('lg', min) {
@@ -18,11 +18,11 @@
   }
 
   @include element('title') {
-    line-height: $size-topbar-height;
+    line-height: 300px;
     margin: 0;
     padding: 0;
     color: $color-topbar-color;
-    font-family: $font-base;
+    font-family: 'Patron';
     font-size: $size-topbar-font;
     font-weight: 500;
 
@@ -32,6 +32,7 @@
 
     @include mq('sm', max ) {
       font-size: 24px;
+      line-height: 240px;
     }
 
     @include mq('xs', max ) {

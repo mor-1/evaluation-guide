@@ -2,7 +2,7 @@
     @include opacity(0.1);
     @include transform(rotate(-20deg));
     position: absolute;
-    top: 100px;
+    top: 100px + $size-header;
     right: -10px;
     display: block;
 
@@ -23,7 +23,7 @@
     }
     @include modifier('agile') {
         background-image: url('/evaluation-guide/public/images/card/Agile.svg');
-        top: 120px;
+        top: 120px + $size-header;
         right: -4px;
     }
     @include modifier('data') {
@@ -32,7 +32,7 @@
     @include modifier('developing') {
         background-image: url('/evaluation-guide/public/images/card/Develop.svg');
         @include transform(rotate(-25deg));
-        top: 120px;
+        top: 120px + $size-header;
     }
     @include modifier('devops') {
         background-image: url('/evaluation-guide/public/images/card/Devops.svg');
@@ -42,12 +42,12 @@
     }
     @include modifier('integration') {
         background-image: url('/evaluation-guide/public/images/card/Integration.svg');
-        top: 110px;
+        top: 110px + $size-header;
         right: 0px;
     }
     @include modifier('multicloud') {
         background-image: url('/evaluation-guide/public/images/card/MultiCloud.svg');
-        top: 105px;
+        top: 105px + $size-header;
         right: -19px;
     }
     @include modifier('architecture') {
@@ -75,13 +75,13 @@
     @include modifier('sap') {
         @include transform(rotate(0deg));
         background-image: url('/evaluation-guide/public/images/card/Sap.png');
-        top: 76px;
+        top: 76px + $size-header;
         right: 2px;
     }
     @include modifier('ibm') {
         @include transform(rotate(0deg));
         background-image: url('/evaluation-guide/public/images/card/IBM.png');
-        top: 124px;
+        top: 124px + $size-header;
         right: 3px;
     }
 

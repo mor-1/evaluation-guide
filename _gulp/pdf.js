@@ -41,10 +41,14 @@ function preProcessHtml (file) {
             $('a').each(function(i, el) {
                 const $el = $(this);
                 const text = $el.text();
-                const href = $el.attr('href').trim();
-                if (href.indexOf('http:') !== 0 && href.indexOf('https') !== 0) {
-                    const newPath = 'https://mendix.com' + path.join(path.dirname(file.src), href).replace(file.base, '');
-                    $el.replaceWith($(`<a href="${newPath}">${text}</a>`));
+                const foundHref = $el.attr('href');
+                const name = $el.attr('name');
+                if (!name && foundHref) {
+                    const href = foundHref.trim();
+                    if (href.indexOf('http:') !== 0 && href.indexOf('https') !== 0) {
+                        const newPath = 'https://mendix.com' + path.join(path.dirname(file.src), href).replace(file.base, '');
+                        $el.replaceWith($(`<a href="${newPath}">${text}</a>`));
+                    }
                 }
             });
             this.queue($('body').html());

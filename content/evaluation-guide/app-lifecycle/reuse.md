@@ -31,7 +31,7 @@ UI reuse is divided between components and styling, centralized theming, and ref
 
 With the Mendix [Atlas UI](https://docs.mendix.com/howto/front-end/atlas-ui) framework, developers can rapidly build consistent user interfaces through reuse while maintaing control and flexibility per app. With Atlas UI, it is possible to create a UI resource package that combines reusable elements, templates, and theming to reflect the brand guidelines of your company.
 
-The philosophy behind Atlas UI is that designers can create a company design language and implement best practices that developers can easily reuse. This helps to make designers more productive in that they only need to design UI components once, and it makes developers more productive in that they can focus on building functionality. The Mendix Platform uses several concepts for creating consistently great looking apps that can be encapsulated in the UI resources package. For an explanation of these concepts, see [UI Design](ui-design).
+The philosophy behind Atlas UI is that designers can create a company design language and implement best practices that developers can easily reuse. This helps to make designers more productive in that they only need to design UI components once, and it makes developers more productive in that they can focus on building functionality. The Mendix Platform uses several concepts for creating consistently great looking apps that can be encapsulated in the UI resources package. For an explanation of these concepts, see [UI Design](../app-capabilities/ui-design).
 
 You can share your UI resources through the Mendix [private App Store](https://docs.mendix.com/developerportal/app-store/app-store-overview#privateappstore) or integrate them in company starter apps so that other developers can quickly reuse the design language when starting a new app project. This helps to increase development velocity and create consistency across apps. New updates to the design language can be easily published via your company's private App Store.
 
@@ -72,7 +72,7 @@ Reuse within applications also occurs in the UI, logic, and data, as presented i
 
 ### 3.1 User Interface
 
-Mendix applies a UI component-based approach based on several concepts for supporting reuse within apps while still enabling extensibility per use case. For details on these concepts, see [UI Design](ui-design).
+Mendix applies a UI component-based approach based on several concepts for supporting reuse within apps while still enabling extensibility per use case. For details on these concepts, see [UI Design](../app-capabilities/ui-design).
 
 Mendix offers layouts and snippets that can be used as references, meaning that if a layout or snippet is changed, this change is propagated globally in the project. This workflow optimizes reuse, but in some cases, propogating a change may not be preferred if some pages or parts of the app are intentionally designed differently. To support these use cases, Mendix also offers page templates and building blocks for a template approach. These templates serve as design inspiration while helping to increase productivity by providing app pages (or parts of pages) that are already created. After a template is used, changes are only applied on that location, so unforeseen side effects can be avoided during the development process.
 

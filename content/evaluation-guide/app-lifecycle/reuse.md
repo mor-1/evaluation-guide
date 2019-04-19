@@ -10,7 +10,7 @@ tags: ["reuse", "reusable component", "ui", "logic", "data", "module"]
 
 {{% todo %}}[**ADD AT LEAST 2 DIAGRAMS**]{{% /todo %}}
 
-## 1 Introduction
+## 1 Introduction to Reuse
 
 One important aspect to consider when building multiple applications is whether you can reuse components of your app models across your applications. The Mendix Platform enables such reuse on different levels, both within a single app and across multiple apps. This allows you to achieve the following:
 

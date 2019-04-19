@@ -10,7 +10,7 @@ tags: ["reuse", "reusable component", "ui", "logic", "data", "module"]
 
 {{% todo %}}[**ADD AT LEAST 2 DIAGRAMS**]{{% /todo %}}
 
-## 1 Introduction to Reuse
+## 1 Introduction to Reuse in Mendix
 
 One important aspect to consider when building multiple applications is whether you can reuse components of your app models across your applications. The Mendix Platform enables such reuse on different levels, both within a single app and across multiple apps. This allows you to achieve the following:
 
@@ -63,7 +63,7 @@ Your approach to reusing a data model across different applicatiosn will depend 
 
 Mendix supports both reusing a data model and the actual data across apps:
 
-* **Reusing a data model while retaining different data in every app** – To accomplish this, you can export your domain model in a module, as described in the [Logic](#export-import) section above.
+* **Reusing a data model while retaining different data in every app** – To accomplish this, you can export your domain model in a module, as described for exporting & importing app modules in the [Logic](#export-import) section above.
 * **Reusing a data model and the data** – To accomplish this, creating an API in a central application is a better approach. This can be achieved through web, REST, or OData services. Web services are a good choice when sharing data with legacy systems. REST and OData services both have the benefit of being better suited for sharing data through defining a standard set of operations on the data. REST will enable you to share data with other Mendix apps as well as with most other modern application development platforms. OData has the additional benefit of being well supported as a way to reuse data in business intelligence and reporting tools.
 
 ## 3 Reuse Within Applications

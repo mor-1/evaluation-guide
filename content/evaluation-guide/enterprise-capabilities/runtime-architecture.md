@@ -42,7 +42,7 @@ To ensure scalability, performance, and high availability, Mendix has implemente
 
 To achieve this, runtime instances have state for the duration of a user request. At the end of a request, all the committed state will be saved to the database. All the uncommitted state will be returned to the client, along with all other data that the client needs.
 
-For more information, see [Clustered Mendix Runtime](https://docs.mendix.com/refguide/clustered-mendix-runtime) in the Mendix Reference Guide.
+For more information, see [Clustered Mendix Runtime](https://docs.mendix.com/refguide/clustered-mendix-runtime) in the *Mendix Studio Pro 8 Guide*.
 
 ## 2 What Are the Components of the Mendix Runtime?
 

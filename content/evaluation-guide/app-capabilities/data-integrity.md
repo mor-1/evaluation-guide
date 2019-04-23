@@ -39,7 +39,7 @@ You can use the following types for your attributes:
 ![Entities Data Types](attachments/entity_data_types.png)
 {{% /image_container %}}
 
-For more details, see the section [Attributes](https://docs.mendix.com/refguide/attributes#type-1) in the Mendix Reference Guide.
+For more details, see [Attributes](https://docs.mendix.com/refguide/attributes#type-1) in the *Mendix Studio Pro 8 Guide*.
 
 ## 3 What Validation Rules Can I Use in Mendix?
 

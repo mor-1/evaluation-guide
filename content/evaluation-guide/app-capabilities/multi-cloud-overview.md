@@ -108,6 +108,6 @@ The Mendix Runtime can be directly installed on a server. Mendix provides a serv
 
 For Linux-based applications, this is a command-line based tool called [M2EE](https://github.com/mendix/m2ee-tools).
 
-For details on supported operating systems and related databases, see [System Requirements](https://docs.mendix.com/refguide/system-requirements) in the Mendix Reference Guide.
+For details on supported operating systems and related databases, see [System Requirements](https://docs.mendix.com/refguide/system-requirements) in the *Mendix Studio Pro 8 Guide*.
 
 In addition to a container-based solution, Mendix provides full support for a high availability configuration. For more information, see [How to Configure High Availability](https://docs.mendix.com/developerportal/deploy/high-availability) in the Mendix documentation.

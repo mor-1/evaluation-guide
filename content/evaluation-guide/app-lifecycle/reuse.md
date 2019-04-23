@@ -10,7 +10,7 @@ tags: ["reuse", "reusable component", "ui", "logic", "data", "module"]
 
 {{% todo %}}[**ADD AT LEAST 2 DIAGRAMS**]{{% /todo %}}
 
-## 1 Introduction to Reuse in Mendix
+## 1 How Does Mendix Enable Component Reuse?
 
 One important aspect to consider when building multiple applications is whether you can reuse components of your app models across your applications. The Mendix Platform enables such reuse on different levels, both within a single app and across multiple apps. This allows you to achieve the following:
 
@@ -19,7 +19,7 @@ One important aspect to consider when building multiple applications is whether 
 
 The sections below will discuss the reuse options you have in the Mendix Platform for different aspects of your application models.
 
-## 2 Reuse Across Applications
+## 2 How Can I Reuse Components Across Mendix Applications?
 
 Reuse across applications can occur in the UI, logic, and data. Dive into the sections below for details.
 
@@ -66,7 +66,7 @@ Mendix supports both reusing a data model and the actual data across apps:
 * **Reusing a data model while retaining different data in every app** – To accomplish this, you can export your domain model in a module, as described for exporting & importing app modules in the [Logic](#export-import) section above.
 * **Reusing a data model and the data** – To accomplish this, creating an API in a central application is a better approach. This can be achieved through web, REST, or OData services. Web services are a good choice when sharing data with legacy systems. REST and OData services both have the benefit of being better suited for sharing data through defining a standard set of operations on the data. REST will enable you to share data with other Mendix apps as well as with most other modern application development platforms. OData has the additional benefit of being well supported as a way to reuse data in business intelligence and reporting tools.
 
-## 3 Reuse Within Applications
+## 3 How Can I Reuse Components Within Mendix Applications?
 
 Reuse within applications also occurs in the UI, logic, and data, as presented in the sections below
 

@@ -29,7 +29,7 @@ With XPath, you can define expressions to filter the objects you are interested 
 
 XPath automatically ensures that all the access rules you define on your entities are applied.
 
-For more details, consult [XPath](https://docs.mendix.com/refguide/xpath) in the *Mendix Studio Pro 8 Guide*.
+For more details, consult [XPath](https://docs.mendix.com/refguide/xpath) in the *Mendix Studio Pro Guide*.
 
 ### 1.2 OQL {#oql}
 
@@ -43,7 +43,7 @@ OQL can use the predefined relations (associations) to easily join objects witho
 
 OQL is mostly used for reporting where you need aggregation functions while grouping over certain attributes. Another reason to use OQL is to define custom security expressions, which you need to define manually. In some cases, this may result in faster queries if you handle security yourself using OQL than by using the out-of-the-box security of XPath.
 
-For more details, see [OQL](https://docs.mendix.com/refguide/oql) in the *Mendix Studio Pro 8 Guide*.
+For more details, see [OQL](https://docs.mendix.com/refguide/oql) in the *Mendix Studio Pro Guide*.
 
 ### 1.3 SQL {#sql}
 
@@ -121,4 +121,4 @@ You can configure the number of concurrent database connections per runtime to t
 
 <video controls src="attachments/MA_ConnectionPooling-1.mp4">VIDEO</video>
 
-For other relevant pooling settings, see [Customization](https://docs.mendix.com/refguide/custom-settings#4-2-connection-pooling) in the *Mendix Studio Pro 8 Guide*.
+For other relevant pooling settings, see [Customization](https://docs.mendix.com/refguide/custom-settings#4-2-connection-pooling) in the *Mendix Studio Pro Guide*.

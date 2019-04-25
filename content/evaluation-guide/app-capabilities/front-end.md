@@ -52,7 +52,7 @@ With Mendix, you can visually model client-side logic via nanoflows, which can b
 ![Nanoflow Logic Example](attachments/nanoflow.png)
 {{% /image_container %}}
 
-For more information, see [Nanoflows](https://docs.mendix.com/refguide/nanoflows) in the *Mendix Studio Pro 8 Guide*.
+For more information, see [Nanoflows](https://docs.mendix.com/refguide/nanoflows) in the *Mendix Studio Pro Guide*.
 
 In addition to nanoflows, it is possible to directly use client-side expressions on pages for validations, conditional visibility, and editability in order to create highly interactive pages.
 

@@ -28,7 +28,7 @@ When the user starts the application and there is a connection, the app checks i
 
 Data is stored in a local SQLite database, which is only accessible by the app. All the (unsynchronized) data is persisted, even if the app is closed, the device is rebooted, or the power is lost. There are no size limitations of the database (other than the device storage). However, in practice, it is good to think about what data needs to be available on the device, which can be controlled (for details, see [What Data Is Stored on the Device](#what-data-is-stored-on-the-device) below).
 
-The synchronization of data can be triggered manually via buttons, gestures, or the saving of data. If an error occurs while synchronizing, the app tries to sync the data again later. For more information about offline mobile apps, see [Offline](https://docs.mendix.com/refguide/offline) in the *Mendix Studio Pro Guide*.
+The synchronization of data can be triggered manually via buttons, gestures, or the saving of data. If an error occurs while synchronizing, the app tries to sync the data again later. For more information about offline mobile apps, see [Offline First](https://docs.mendix.com/refguide/offline-first) in the *Mendix Studio Pro Guide*.
 
 ## 3 What Data Is Stored on the Device? {#what-data-is-stored-on-the-device}
 

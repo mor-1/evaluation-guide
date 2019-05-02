@@ -62,4 +62,4 @@ The Mendix App Store can be used as a private enterprise app store so that proje
 
 ![Private App Store](attachments/private-app-store.png)
 
-The Mendix Private App Store supports the distribution of private company content. Any other user in your company can search for and use this private content from the App Store. Private content is always marked as "Private" so that it is clear what is publicly and privately available.
+The Mendix App Store supports the distribution of private company-only content. Any other user in your company can search for and use this private content from the App Store. Private content is always marked as "Company only" so that it is clear what is publicly and privately available.

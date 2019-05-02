@@ -56,7 +56,7 @@ A microflow is composed of the following element types:
 * **Splits** enable making choices and merging different paths again
 * **Error handlers** can be set on an activity, split, or loop to define how to handle an error
 
-For more information, see [Microflows](https://docs.mendix.com/refguide/microflows) in the Mendix Reference Guide.
+For more information, see [Microflows](https://docs.mendix.com/refguide/microflows) in the *Mendix Studio Pro Guide*.
 
 {{% image_container width="500" %}}
 ![Microflow Example](attachments/microflow.png)
@@ -73,7 +73,7 @@ For more details, see the following sections:
 * [How Can I Use My Own Custom Code in Server-Side Logic?](#custom-code) below
 * [Where Can I Use the Openness & Extensibility Provided by Mendix?](../enterprise-capabilities/openness-api-sdk#where) in *Openness (API & SDK)*
 * [Widget Development how-to's](https://docs.mendix.com/howto/widget-development/) about how to develop UI extensions and custom Mendix widgets for adding app-specific UI and JavaScript logic to pages
-* [Writing Code in a Low-Code World blog post](https://www.mendix.com/blog/writing-code-in-a-low-code-world/)
+* [Writing Code in a Low-Code World](https://www.mendix.com/blog/writing-code-in-a-low-code-world/)
 
 ### 5.1 How Can I Use My Own Custom Code in Server-Side Logic? {#custom-code}
 
@@ -91,7 +91,7 @@ A professional developer has complete freedom to extend with any Java construct,
 
 Java extensions are fully managed by the Mendix Platform across the entire application lifecycle, including versioning, compilation, and packaging for deployment. Java actions provide an elegant way of building new microflow functionality that can be consumed by non-Java developers. Once your Java action is complete, right-click it to expose it as a native action inside Mendix Studio Pro's **Toolbox**. This will make it easily discoverable by all the developers in the app project.
 
-For more information about how to use Java code in a Mendix app, see [Java Programming](https://docs.mendix.com/refguide/java-programming) in the Mendix Reference Guide.
+For more information about how to use Java code in a Mendix app, see [Java Programming](https://docs.mendix.com/refguide/java-programming) in the *Mendix Studio Pro Guide*.
 
 ## 6 How Do I Debug in Mendix?
 

@@ -40,27 +40,20 @@ For more information on using custom Java actions, explore this Mendix documenta
 * [Java Programming](https://docs.mendix.com/refguide/java-programming)
 * [Mendix Java API](https://apidocs.mendix.com/7/runtime/)
 
-### 1.2 JavaScript Widgets {#custom-widgets}
+### 1.2 Pluggable Widgets {#custom-widgets}
 
-You can extend the [front-end](../app-capabilities/front-end#extend) of your Mendix applications using custom JavaScript widgets. For mobile apps, these custom JavaScript widgets can include Cordova plugins to provide native functionality in your mobile apps.
+You can extend the [front-end](../app-capabilities/front-end) of your Mendix applications by building custom widgets based on JavaScript or TypeScript. See [pluggable widgets](../app-capabilities/front-end#pluggable-widgets) for more inforamtion.
 
-To ease the development of custom widgets, Mendix provides a [Mendix widget generator](https://github.com/mendix/generator-mendix). This will set up your environment and all the dependencies so that you can focus on implementing the custom widget. Watch this video for a short demonstration of this tool:
+### 1.3 Pluggable Actions {#custom-action}
+For building custom application logic, Mendix enables developers do build customs nanofow actions. These pluggable nanoflow actions — called JavaScript actions in Studio Pro — can be used to leverage device capabilities or perform any type of logic in the client. For more information see: [Pluggable nanoflow actions](../app-capabilities/front-end#pluggable-widgets)
 
-<video controls src="attachments/MA_CustomWidgetGeneration-2.mp4">VIDEO</video>
-
-For more details on custom JavaScript widgets, reference the section [How Can I Extend the Mendix Front-End](../app-capabilities/front-end#extend) in *Front-End* as well as the following Mendix documentation:
-
-* [Widget Development how-to's](https://docs.mendix.com/howto/widget-development/)
-* [Mendix Widget Generator documentation](https://github.com/mendix/generator-mendix)
-* [How to Build Pluggable Widgets](https://docs.mendix.com/howto/extensibility/pluggable-widgets)
-
-### 1.3 Java Request Handlers
+### 1.4 Java Request Handlers
 
 The Java Request Handler API enables you to create a custom HTTP endpoint implementation in Java. A request handler is basically a Java method that receives an HTTP request, uses the input, and then sends a response to the caller. This can be useful in many situations, such as custom authentication, deep links into specific pages, and custom protocol implementations. Implementation of the request handler is not limited to Java, as you can run Mendix microflows and activities from the Java implementation.
 
 Please note that with the availability of native REST publishing, the need for custom Java request handlers has been greatly reduced.
 
-### 1.4 Data Storage
+### 1.5 Data Storage
 
 All the query languages supported by Mendix can be used through a Java API. This includes XPath, OQL, and SQL:
 

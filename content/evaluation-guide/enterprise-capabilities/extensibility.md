@@ -42,10 +42,11 @@ For more information on using custom Java actions, explore this Mendix documenta
 
 ### 1.2 Pluggable Widgets {#custom-widgets}
 
-You can extend the [front-end](../app-capabilities/front-end) of your Mendix applications by building custom widgets based on JavaScript or TypeScript. See [pluggable widgets](../app-capabilities/front-end#pluggable-widgets) for more inforamtion.
+You can extend the [front-end](../app-capabilities/front-end) of your Mendix applications by building custom widgets based on JavaScript or TypeScript. For more information, see the [Pluggable Widgets](../app-capabilities/front-end#pluggable-widgets) section of *Front-End*.
 
 ### 1.3 Pluggable Actions {#custom-action}
-For building custom application logic, Mendix enables developers do build customs nanofow actions. These pluggable nanoflow actions — called JavaScript actions in Studio Pro — can be used to leverage device capabilities or perform any type of logic in the client. For more information see: [Pluggable nanoflow actions](../app-capabilities/front-end#pluggable-widgets)
+
+For creating custom application logic, Mendix enables developers to build customs nanofow actions. These pluggable nanoflow actions (which are called JavaScript actions in Studio Pro) can be used to leverage device capabilities or perform any type of logic in the client. For more information, see the [Pluggable Nanoflow Actions](../app-capabilities/front-end#pluggable-widgets) section of *Front-End*.
 
 ### 1.4 Java Request Handlers
 

@@ -20,6 +20,8 @@ The Mendix Platform supports configurable integrity checks for security on all t
 
 Depending on the stage of development, application and integrity checks can be applied more or less stringently. This is advantageous in development and prototype contexts to avoid unnecessary activities regarding consistency and security in the preproduction stage. The security levels **Off** and **Prototype / demo** are only allowed for apps deployed to a development and/or local test environment, not for deployments in production environments. Deployment to the Mendix Cloud (except for Free Apps) requires the **Production** security level and the complete configuration of all security settings.
 
+To avoid unintended security omissions by citizen developers, apps deployed to the Mendix Cloud from Mendix Studio always require the [Production security level](https://docs.mendix.com/refguide/project-security#level). Moreover, Studio users cannot configure roles with anonymous access.
+
 ### 1.2 How Can I Define User Roles for My App?
 
 An end-user of your application is assigned one or more **user roles** by an administrator or is provisioned automatically from a (third-party) identity and access management solution that can be integrated with the app. The user then gets all the access rights that these user roles represent.

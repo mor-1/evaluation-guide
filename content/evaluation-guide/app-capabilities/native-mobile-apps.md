@@ -1,5 +1,5 @@
 ---
-title: "Mobile Apps"
+title: "Native Mobile Apps"
 seo_title: "Building Native Mobile Applications in Mendix - Great UX & Leverage of Device Functionality"
 seo_description: "Learn how Mendix native mobile apps work as well as how to create great UX, leverage device capabilities, publish, test, and update applications."
 parent: "ux-multi-channel-apps"

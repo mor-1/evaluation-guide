@@ -11,6 +11,7 @@ tags: ["data querying", "xpath", "oql", "sql", "odata"]
 ## 1 Which Query Languages Does Mendix Support?
 
 Mendix offers a number of ways to specify the data you want to retrieve:
+
 * Both Mendix Studio Pro and Mendix Studio offer visual ways to specify your query needs via an expression editor
 * To retrieve specific objects or a set of related objects, you can use XPath expressions (see [XPath](#xpath) below)
 * For reporting needs where the aggregation and joining of multiple entities into a single result set is important, Mendix offers OQL queries (see [OQL](#oql) below)

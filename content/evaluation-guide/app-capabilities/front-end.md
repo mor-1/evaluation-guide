@@ -79,7 +79,7 @@ These JavaScript actions are similar to [Java actions](../enterprise-capabilitie
 You can edit JavaScript actions directly from Mendix Studio Pro with an integrated powerful editor based on the [Monaco Editor](https://microsoft.github.io/monaco-editor/index.html), which is the editor that powers the most popular IDE, [Visual Studio Code](https://code.visualstudio.com/). This editor delivers a great experience, as it supports smart context-aware auto-completion, embedded documentation on web and Mendix APIs, correct indenting, and code-friendly shortcuts.
 
 {{% image_container width="600" %}}
-![Integrated Javacript Editor](attachments/monaco.gif)
+![Integrated Javacript Editor](attachments/Monaco.gif)
 {{% /image_container %}}
 
 Developers can also used their preferred IDE to edit the code outside of Mendix Studio Pro, if preferred. The files will be kept in sync.

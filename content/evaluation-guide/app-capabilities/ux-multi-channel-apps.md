@@ -30,7 +30,7 @@ For more information, see [How Does Mendix Support Multi-Channel Applications?](
 
 With Mendix, you can develop, deploy, test, and manage mobile applications from a single integrated visual development environment.
 
-Mendix supports two type of mobile apps: [native mobile apps](native-mobile-apps) and [hybrid mobile apps](hybrid-mobile-apps).
+Mendix supports two type of mobile apps: [native mobile apps](native-mobile-apps) and [hybrid mobile apps](mobile-apps).
 
 Mendix native mobile apps are truly native and are based on [React Native](https://facebook.github.io/react-native/). This results in fast performance, smooth animations, natural interaction patterns (like swipe gestures), and access to all the native device capabilities. These applications always have an [offline-first architecture](#offline).
 

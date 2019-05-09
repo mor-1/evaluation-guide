@@ -92,7 +92,7 @@ Next to this, Mendix uses [Sass](https://sass-lang.com/) to define the styling. 
 
 For more information, see the collection of [Atlas UI](https://docs.mendix.com/howto/front-end/atlas-ui/index) how-to's in the Mendix documentation.
 
-For [Native mobile apps](native-mobile-apps), the styling is based on JavaScript. More information about styling for native mobile apps can be found [here](https://docs.mendix.com/refguide/native-styling-refguide)
+For [native mobile apps](native-mobile-apps), the styling is based on JavaScript. For more information, see [Native Styling](https://docs.mendix.com/refguide/native-styling-refguide).
 
 ## 4 How Can I Create a Consistent User Experience Across My Apps?
 

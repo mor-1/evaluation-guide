@@ -22,9 +22,9 @@ To gain more flexibility and optimize the user experience, Mendix allows you to 
 
 This multi-channel approach allows developers to optimize the user experience by using different channels while quickly building user interfaces by reusing UI components and building responsive interfaces.
 
-The JavaScript-based Mendix Client renders the front-end while handling the actions and communication with the server. For web and Hybrid mobile apps Mendix uses [ReactJS](https://reactjs.org/) and [Dojo](https://dojotoolkit.org/) to optimally render and update the UI, and native mobile is fully based on [React Native](https://facebook.github.io/react-native/). The client is highly optimized, using optimal page reload (OPR) to only reload those elements of the page that have been changed. This is combined with asynchronous data transport for all widgets and the ability to cache the assets required to render pages and data on the device/browser, reducing round-trips to the server and improving app performance.
+The JavaScript-based Mendix Client renders the front-end while handling the actions and communication with the server. For web and hybrid mobile apps, Mendix uses [ReactJS](https://reactjs.org/) and [Dojo](https://dojotoolkit.org/) to optimally render and update the UI. Native mobile apps are fully based on [React Native](https://facebook.github.io/react-native/), which allows the client to be highly optimized, using optimal page reload (OPR) to reload only those elements of the page that have been changed. This is combined with asynchronous data transport for all widgets and the ability to cache the assets required to render pages and data on the device/browser. This helps to reduce round-trips to the server and improve the app performance overall.
 
-For more information, see the section [Runtime](../enterprise-capabilities/architecture-principles) in *Architecture Principles*.
+For more information, see the [Runtime](../enterprise-capabilities/architecture-principles) section in *Architecture Principles*.
 
 ## 2 How Can I Build the Front-End of My App?
 

@@ -14,7 +14,7 @@ The Mendix platform is designed for a variety of app developers, from business-o
 
 ![The Developer Continuum - Solution Focused vs Technology Focused](attachments/developer-continuum.png)
 
-**Business Analysts** and **Citizen Developers** can directly use Mendix Studio to build, review, and collaborate on an app. Mendix Studio provides the tools to build the app, regardless of the user's programming experience or background. Getting started takes only a few minutes. Users familiar with Mendix Studio can also start using Mendix Studio Pro if more advanced app features need to be added, or involve a professional developer using Mendix Studio Pro to support them in adding these advanced features. Mendix Studio and Mendix Studio Pro share the same concepts and terminology, which makes for a smooth collaborative experience.
+**Business Analysts** and **Citizen Developers** can directly use Mendix Studio to build, review, and collaborate on an application. Mendix Studio provides the tools to build the app, regardless of the user's programming experience or background. Getting started takes only a few minutes. Users familiar with Mendix Studio can also start using Mendix Studio Pro if more advanced app features need to be added, or involve a professional developer using Mendix Studio Pro to support them in adding these advanced features. Mendix Studio and Mendix Studio Pro share the same concepts and terminology, which makes for a smooth collaborative experience.
 
 **Developers** with a technical programming background (for example, JavaScript, Java, or .NET) can use Mendix Studio Pro along with CSS, Java, and JavaScript to build, customize, and extend a Mendix app.
 
@@ -22,7 +22,7 @@ For information on getting started with Mendix, have a look at [First Steps with
 
 ## 2 How Can I Work with My Team Members on the Same App?
 
-**Business Analysts** and **Citizen Developers** can work together on a single app model version in Mendix Studio. This means that all changes are directly available to all other Mendix Studio users. Mendix Studio can also be used for stakeholders to review the app and place comments on the app pages, domain model, and microflow logic.
+**Business Analysts** and **Citizen Developers** can work together on a single app model version in Mendix Studio. This means that all changes are directly available to all other Mendix Studio users. Mendix Studio can also be used for stakeholders to review the application and place comments on the app pages, domain model, and microflow logic.
 
 **Developers** using Mendix Studio Pro can work together on the same app model via the [Team Server](version-control) version control repository. Changes from other team members using Mendix Studio or Mendix Studio Pro can be retrieved via the Team Server. For more details, see [Collaborative Development](https://docs.mendix.com/refguide/collaborative-development) in the Mendix documentation.
 
@@ -34,13 +34,13 @@ While both Mendix Studio and Mendix Studio Pro environments support the ability 
 
 ### 3.1 What Can I Do with Mendix Studio? {#studio}
 
-Mendix Studio is our collaborative, no-code, web-based application development environment. It enables citizen developers and people in the business with minimal coding or software development experience to create engaging web and mobile applications without having to know how to code. With Mendix Studio's visual drag-and-drop interface for design, data, and logic, collaborative software development becomes accessible to a variety of makers that do not sit in IT.
+Mendix Studio is our collaborative, no-code, web-based application development environment. It enables citizen developers and people in the business with minimal coding or software development experience to create engaging web and mobile applications without having to know how to code. With Mendix Studio's visual drag-and-drop interface for design, data, and logic, collaborative software development becomes accessible to a variety of makers who do not sit in IT.
 
 These makers add value in three ways using Mendix Studio:
 
-1. Bridge the requirements gap by building functional app prototypes that serve to validate ideas with business stakeholders, before involving professional developer teams to complete the application. 
-2. Contribute lightweight changes to existing apps, e.g. app users improving the user interface themselves, saving professional developers a lot of time while ensuring the right business outcomes. 
-3. Build simple business applications from start to finish themselves. Some processes are vastly improved by a simple web app, built by the person that best knows the process.
+1. They help to bridge the requirements gap by building functional app prototypes that serve to validate ideas with business stakeholders. This happens before professional developer teams are involved to complete the application. 
+2. They contribute lightweight changes to existing apps (for example, operating as app users improving the user interface themselves). This saves professional developers a lot of time while ensuring the right business outcomes. 
+3. They build simple business applications from start to finish themselves. Some processes are vastly improved by a simple web app, built by the person who best knows the process.
 
 Business analysts and citizen developers use Mendix Studio to do the following:
 

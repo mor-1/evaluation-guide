@@ -75,7 +75,7 @@ During development with Mendix Studio Pro, you can run your application locally 
 
 <video controls src="attachments/run-locally.mp4">VIDEO</video>
 
-From both Mendix Studio Pro and Mendix Studio, you can easily publish your app directly in the Mendix Cloud with a single click. This immediately makes the app available as a Free App for up to 10 users, either for development or production use.
+From both Mendix Studio Pro and Mendix Studio, you can easily publish your app directly in the Mendix Cloud with a single click. This immediately makes the app available as a Free App, either for development or production use.
 
 <video controls src="attachments/MA_SandboxDeployment.mp4">VIDEO</video>
 

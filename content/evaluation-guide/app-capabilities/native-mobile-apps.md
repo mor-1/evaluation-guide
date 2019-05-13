@@ -18,7 +18,7 @@ This feature is currently in Beta as part of [Mendix Studio Pro 8](https://docs.
 
 Mendix native mobile apps are truly native mobile apps based on [React Native](https://facebook.github.io/react-native/). Native mobile apps differ from hybrid apps in that they do not render inside a web view. Instead, they use native UI elements, which results in faster performance, smooth animations, natural interaction patterns (like swipe gestures), and improved access to all native device capabilities. React native has a large community that is continuously building components and modules, and this community supports users in creating rich native mobile apps with numerous extension options. What is more, for a great user experience, native mobile apps are based on an [offline-first architecture](offline-apps).
 
-{{% image_container %}}
+{{% image_container width="550" %}}
 ![Examples of Apps Using ReactNative as Technology](attachments/reactnative_showcases.png)
 {{% /image_container %}}
 
@@ -28,7 +28,7 @@ It is possible to add a native mobile app as an additional channel to an existin
 
 A Mendix native mobile app connects to the Mendix Runtime server in order to load. This acts as a mobile-back-end-as-a-service (mBaaS) for the app, wherein the communication is automatically handled by Mendix. The mobile app automatically loads everything that is needed at startup and for later usage.
 
-{{% image_container width="400" %}}
+{{% image_container width="500" %}}
 ![Native Mobile Application Architecture](attachments/native-mobile-architecture.png)
 {{% /image_container %}}
 
@@ -36,7 +36,7 @@ A Mendix native mobile app connects to the Mendix Runtime server in order to loa
 
 Mendix native mobile apps come out of the box with a rich set of actions to leverage native device capabilities (such as the camera, biometric authentication, GPS, and Bluetoot) as well as platform features such as sharing data, opening the navigation, and drafting an email. 
 
-{{% image_container width="600" %}}
+{{% image_container width="400" %}}
 ![Out-of-the-Box Native Device Capabilities](attachments/native-actions.png)
 {{% /image_container %}}
 

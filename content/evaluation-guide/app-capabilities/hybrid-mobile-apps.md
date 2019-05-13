@@ -66,7 +66,7 @@ From the Mendix Developer Portal, you can download the source of the mobile app.
 
 In addition, there are several hooks that allow you to easily extend the mobile app by adding JavaScript. The source contains configuration files that allow you to define different versions of your mobile app with specific settings (like the Mendix environment) and app information in order to easily test multiple versions of your app. Because Mendix mobile apps are based on a standard Cordova stack, Cordova settings and plugins can easily be integrated.
 
-The source leverages [NPM](https://www.npmjs.com/), which makes it easy to build the project to your needs. There are several tasks available that allow you to build directly in the cloud using [Phonegap Build](https://build.phonegap.com/), to build the binaries locally, or to generate the *.zip* files that can shared or uploaded to PhoneGap Build. For more information, see the [hybrid-app-template GitHub repo page](https://github.com/mendix/hybrid-app-template/).
+The source leverages [npm](https://www.npmjs.com/), which makes it easy to build the project to your needs. There are several tasks available that allow you to build directly in the cloud using [Phonegap Build](https://build.phonegap.com/), to build the binaries locally, or to generate the *.zip* files that can shared or uploaded to PhoneGap Build. For more information, see the [hybrid-app-template GitHub repo page](https://github.com/mendix/hybrid-app-template/).
 
 ## 8 How Is My Mobile App Secured?
 

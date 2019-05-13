@@ -28,7 +28,7 @@ It is possible to add a native mobile app as an additional channel to an existin
 
 A Mendix native mobile app connects to the Mendix Runtime server in order to load. This acts as a mobile-back-end-as-a-service (mBaaS) for the app, wherein the communication is automatically handled by Mendix. The mobile app automatically loads everything that is needed at startup and for later usage.
 
-{{% image_container width="600" %}}
+{{% image_container width="400" %}}
 ![Native Mobile Application Architecture](attachments/native-mobile-architecture.png)
 {{% /image_container %}}
 
@@ -36,7 +36,7 @@ A Mendix native mobile app connects to the Mendix Runtime server in order to loa
 
 Mendix native mobile apps come out of the box with a rich set of actions to leverage native device capabilities (such as the camera, biometric authentication, GPS, and Bluetoot) as well as platform features such as sharing data, opening the navigation, and drafting an email. 
 
-{{% image_container %}}
+{{% image_container width="600" %}}
 ![Out-of-the-Box Native Device Capabilities](attachments/native-actions.png)
 {{% /image_container %}}
 

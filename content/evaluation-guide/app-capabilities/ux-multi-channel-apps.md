@@ -28,9 +28,7 @@ For more information, see [How Does Mendix Support Multi-Channel Applications?](
 
 ## How Do Mendix Mobile Apps Work? {#work}
 
-With Mendix, you can develop, deploy, test, and manage mobile applications from a single integrated visual development environment.
-
-Mendix supports two type of mobile apps: [native mobile apps](native-mobile-apps) and [hybrid mobile apps](mobile-apps).
+With Mendix, you can develop, deploy, test, and manage mobile applications from a single integrated visual development environment. Mendix supports two type of mobile apps: [native mobile apps](native-mobile-apps) and [hybrid mobile apps](hybrid-mobile-apps).
 
 Mendix native mobile apps are truly native and are based on [React Native](https://facebook.github.io/react-native/). This results in fast performance, smooth animations, natural interaction patterns (like swipe gestures), and access to all the native device capabilities. These applications always have an [offline-first architecture](#offline).
 
@@ -38,7 +36,7 @@ You can also build hybrid mobile apps that use the [Cordova](https://cordova.apa
 
 The Mendix mBaaS provides over-the-air updates that remove the need to redeploy applications to the app stores in order to deploy new or updated functionality. 
 
-For details, see [How Do Mendix Native Mobile Apps Work?](mobile-apps#native-mobile-apps-work) and [How Do Mendix Hybrid Mobile Apps Work?](mobile-apps#mobile-apps-work).
+For details, see [How Do Mendix Native Mobile Apps Work?](native-mobile-apps#native-mobile-apps-work) and [How Do Mendix Hybrid Mobile Apps Work?](hybrid-mobile-apps#mobile-apps-work).
 
 ## How Can I Build an Offline-first Mobile App? {#offline}
 
@@ -55,6 +53,6 @@ For more details, go to [How Can I Build an Offline Mobile App?](offline-apps#bu
 * [Front-End](front-end)
 * [UI Design](ui-design)
 * [Native Mobile Apps](native-mobile-apps)
-* [Hybrid Mobile Apps](mobile-apps)
+* [Hybrid Mobile Apps](hybrid-mobile-apps)
 * [Web Apps](web-apps)
 * [Offline-first Apps](offline-apps)

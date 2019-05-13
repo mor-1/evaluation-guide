@@ -22,9 +22,9 @@ To gain more flexibility and optimize the user experience, Mendix allows you to 
 
 This multi-channel approach allows developers to optimize the user experience by using different channels while quickly building user interfaces by reusing UI components and building responsive interfaces.
 
-The JavaScript-based Mendix Client renders the front-end while handling the actions and communication with the server. Mendix uses [ReactJS](https://reactjs.org/) and [Dojo](https://dojotoolkit.org/) to optimally render and update the UI. The client is highly optimized, using optimal page reload (OPR) to only reload those elements of the page that have been changed. This is combined with asynchronous data transport for all widgets and the ability to cache the assets required to render pages and data on the device/browser, reducing round-trips to the server and improving app performance.
+The JavaScript-based Mendix Client renders the front-end while handling the actions and communication with the server. For web and hybrid mobile apps, Mendix uses [ReactJS](https://reactjs.org/) and [Dojo](https://dojotoolkit.org/) to optimally render and update the UI. Native mobile apps are fully based on [React Native](https://facebook.github.io/react-native/), which allows the client to be highly optimized, using optimal page reload (OPR) to reload only those elements of the page that have been changed. This is combined with asynchronous data transport for all widgets and the ability to cache the assets required to render pages and data on the device/browser. This helps to reduce round-trips to the server and improve the app performance overall.
 
-For more information, see the section [Runtime](../enterprise-capabilities/architecture-principles) in *Architecture Principles*.
+For more information, see the [Runtime](../enterprise-capabilities/architecture-principles) section in *Architecture Principles*.
 
 ## 2 How Can I Build the Front-End of My App?
 
@@ -58,15 +58,37 @@ In addition to nanoflows, it is possible to directly use client-side expressions
 
 ## 4 How Can I Extend the Mendix Front-End? {#extend}
 
-Mendix makes it possible to extend the front-end by creating custom widgets that have a seamless integration with Mendix Studio and Mendix Studio Pro to make them part of your app's model. You can define all types of parameters and make these widgets reusable. The input parameters are transformed into easy-to-use settings screens that can be configured from Mendix Studio and Mendix Studio Pro. In addition, custom widgets have preview capabilities for a WYSIWYG effect, making it easy to get an impression of the widget and quickly verify its configuration.
+Mendix makes it possible to create extensions that seamlessly integrate with Mendix Studio and Mendix Studio Pro to make them part of your app's model. Mendix supports two types of front-end extensions, which are described below.
 
-You can version custom widgets and upload them to a Mendix Private App Store so that other developers can easily use them. It is also possible to share widgets manually or embed them in (company) starter apps.
+### 4.1 Pluggable Widgets {#pluggable-widgets}
 
-Custom widgets are based on JavaScript and can be used to create custom inputs, visualizations, and logic as well as utilize device capabilities. Mendix offers an extensive [Client API](https://apidocs.mendix.com/7/client/) to leverage Mendix functionality. For other functionality, third-party libraries and [Cordova plugins](https://cordova.apache.org/plugins/) can easily be integrated.
+Mendix supports building custom UI components—called pluggable widgets—that can be used for different types of visualizations and interactions. You can define all the parameter types and make these widgets reusable. The input parameters are transformed into easy-to-use settings screens that can be configured from Mendix Studio and Mendix Studio Pro. In addition, custom widgets have preview capabilities for a WYSIWYG effect, making it easy to get an impression of the widget and quickly verify its configuration.
 
-Developers can use their preferred IDE and the standard available integrations with [NPM](https://www.npmjs.com/), [Gulp](https://gulpjs.com/), and [Grunt](https://gruntjs.com/) for a simple and flexible workflow.
+Custom widgets can be based on JavaScript or TypeScript, and they can be used to create custom inputs, visualizations, and logic as well as to utilize device capabilities. Mendix offers an extensive [Client API](https://apidocs.mendix.com/8/client/) to leverage the Mendix functionality. For other functionality, third-party libraries and can easily be integrated by using [npm](https://www.npmjs.com/)
 
-For more information, see the [Widget Development](https://docs.mendix.com/howto/widget-development/) how-to's in the Mendix documentation.
+Developers can use their preferred IDE. In addition, to ease the development of custom widgets, Mendix provides a [Yeoman generator](https://yeoman.io/) to set up a project with an easy and fast developer workflow.
+
+For more information, see [How to Build Pluggable Widgets](https://docs.mendix.com/howto/extensibility/pluggable-widgets) in the Mendix documentation.
+
+### 4.2 Pluggable Nanoflow Actions {#pluggable-actions}
+
+For creating device integrations or custom application logic, Mendix enables developers to build customs nanofow actions. These pluggable nanoflow actions—called JavaScript actions in Studio Pro—are based on JavaScript and can leverage the many ReactNative, Cordova, or browser capabilities.
+
+These JavaScript actions are similar to [Java actions](../enterprise-capabilities/extensibility#connector-kit).
+
+You can edit JavaScript actions directly from Mendix Studio Pro with an integrated powerful editor based on the [Monaco Editor](https://microsoft.github.io/monaco-editor/index.html), which is the editor that powers the most popular IDE, [Visual Studio Code](https://code.visualstudio.com/). This editor delivers a great experience, as it supports smart context-aware auto-completion, embedded documentation on web and Mendix APIs, correct indenting, and code-friendly shortcuts.
+
+{{% image_container width="600" %}}
+![Integrated Javacript Editor](attachments/Monaco.gif)
+{{% /image_container %}}
+
+Developers can also used their preferred IDE to edit the code outside of Mendix Studio Pro, if preferred. The files will be kept in sync.
+
+For more information, see [How to Write JavaScript Actions](https://docs.mendix.com/howto/extensibility/write-javascript-actions) in the Mendix documentation.
+
+### 4.3 Distribution
+
+You can version pluggable widgets as well as pluggable nanoflow actions and upload them to your private Mendix App Store so that other developers in your company can easily use them. It is also possible to share widgets/actions manually or embed them in company starter apps.
 
 ## 5 Does Mendix Support Multilingual Apps?
 

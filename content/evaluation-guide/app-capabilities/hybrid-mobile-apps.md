@@ -1,14 +1,14 @@
 ---
-title: "Mobile Apps"
-seo_title: "Building Mobile Applications in Mendix - Leverage Device Functionality"
-seo_description: "Learn how Mendix mobile apps work, how to leverage device capabilities as well as publishing, testing & updating applications."
+title: "Hybrid Mobile Apps"
+seo_title: "Building Hybrid Mobile Applications in Mendix - Leverage Device Functionality"
+seo_description: "Learn how Mendix hybrid mobile apps work, how to leverage device capabilities as well as publishing, testing & updating applications."
 parent: "ux-multi-channel-apps"
 menu_order: 30
 bg: "ux"
 tags: ["mobile app", "ux"]
 ---
 
-## 1 How Do Mendix Mobile Apps Work? {#mobile-apps-work}
+## 1 How Do Mendix Hybrid Mobile Apps Work? {#mobile-apps-work}
 
 With Mendix, you can develop, deploy, test, and manage mobile apps from a single integrated visual development environment. Mendix leverages the popular [Cordova](https://cordova.apache.org/) framework for building mobile apps that offer a native experience and run both on Android and iOS. You can reuse the existing domain model, logic, and user interface components in Mendix apps. In addition, the apps can leverage native device features via mobile-specific controls, transitions, and gestures that are dragged into the page editor when designing rich native user experiences.
 
@@ -19,12 +19,12 @@ The mobile app connects to the Mendix Runtime server in order to load. This acts
 This diagram below shows the runtime architecture of a Mendix  mobile app:
 
 {{% image_container width="600" %}}
-![Mobile Application Architecture](attachments/mobile-architecture.png)
+![Hybrid Mobile Application Architecture](attachments/mobile-architecture.png)
 {{% /image_container %}}
 
 ## 2 How Can I Leverage Device Capabilities in My Mobile Apps?
 
-A Mendix mobile app can leverage various native capabilities via widgets that use [Cordova plugins](https://cordova.apache.org/plugins/). You can easily add these widgets to your mobile app projects and configure them in Mendix Studio Pro. Many capabilities are provided out of the box by Mendix or by partners via the [Mendix App Store](https://appstore.home.mendix.com/index3.html). If other device capabilities are needed, you can extend the project with a custom widget that wraps a Cordova plugin and so accesses the device capabilities.
+A Mendix hybrid mobile app can leverage various native capabilities via actions and widgets that use [Cordova plugins](https://cordova.apache.org/plugins/). You can easily add these actions or widgets to your mobile app projects and configure them in Mendix Studio Pro. Many capabilities are provided out of the box by Mendix or by partners via the [Mendix App Store](https://appstore.home.mendix.com/index3.html). If other device capabilities are needed, you can extend your app project with a custom JavaScript action or widget that wraps a Cordova plugin and so accesses the device capabilities, as described in [How Can I Extend the Mendix Front-End?](front-end#extend).
 
 ## 3 How Can I Build and Publish My Mobile App?
 
@@ -66,7 +66,7 @@ From the Mendix Developer Portal, you can download the source of the mobile app.
 
 In addition, there are several hooks that allow you to easily extend the mobile app by adding JavaScript. The source contains configuration files that allow you to define different versions of your mobile app with specific settings (like the Mendix environment) and app information in order to easily test multiple versions of your app. Because Mendix mobile apps are based on a standard Cordova stack, Cordova settings and plugins can easily be integrated.
 
-The source leverages [NPM](https://www.npmjs.com/), which makes it easy to build the project to your needs. There are several tasks available that allow you to build directly in the cloud using [Phonegap Build](https://build.phonegap.com/), to build the binaries locally, or to generate the *.zip* files that can shared or uploaded to PhoneGap Build. For more information, see the [hybrid-app-template GitHub repo page](https://github.com/mendix/hybrid-app-template/).
+The source leverages [npm](https://www.npmjs.com/), which makes it easy to build the project to your needs. There are several tasks available that allow you to build directly in the cloud using [Phonegap Build](https://build.phonegap.com/), to build the binaries locally, or to generate the *.zip* files that can shared or uploaded to PhoneGap Build. For more information, see the [hybrid-app-template GitHub repo page](https://github.com/mendix/hybrid-app-template/).
 
 ## 8 How Is My Mobile App Secured?
 

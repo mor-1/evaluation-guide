@@ -82,7 +82,7 @@ New widgets are built all the time by both the core Mendix development team and 
 
 ## 3 How Can I Customize the Look & Feel of My Apps? {#customize}
 
-The Mendix front-end uses the [Atlas UI](https://atlas.mendix.com) framework to render responsive pages. The framework is based on a default theme that be fully customized. With the **Theme Customizer** tool, you can easily upload a logo that is used to determine your brand's colors. The various colors, fonts, and size settings can be quickly configured and previewed.
+The Mendix front-end uses the [Atlas UI](https://atlas.mendix.com) framework to render responsive pages or native mobile pages. The framework is based on a default theme that be fully customized. With the **Theme Customizer** tool, you can easily upload a logo that is used to determine your brand's colors. The various colors, fonts, and size settings can be quickly configured and previewed.
 
 <video controls src="attachments/ThemeCustomizer.mp4">VIDEO</video>
 
@@ -91,6 +91,8 @@ Next to this, Mendix uses [Sass](https://sass-lang.com/) to define the styling. 
 <video controls src="attachments/SassCompiler.mp4">VIDEO</video>
 
 For more information, see the collection of [Atlas UI](https://docs.mendix.com/howto/front-end/atlas-ui/index) how-to's in the Mendix documentation.
+
+For [native mobile apps](native-mobile-apps), the styling is based on JavaScript. For more information, see [Native Styling](https://docs.mendix.com/refguide/native-styling-refguide).
 
 ## 4 How Can I Create a Consistent User Experience Across My Apps?
 

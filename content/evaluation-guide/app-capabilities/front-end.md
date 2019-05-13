@@ -74,7 +74,7 @@ For more information, see [How to Build Pluggable Widgets](https://docs.mendix.c
 
 For creating device integrations or custom application logic, Mendix enables developers to build customs nanofow actions. These pluggable nanoflow actions—called JavaScript actions in Studio Pro—are based on JavaScript and can leverage the many ReactNative, Cordova, or browser capabilities.
 
-These JavaScript actions are similar to [Java actions](../enterprise-capabilities/extensibility##connector-kit).
+These JavaScript actions are similar to [Java actions](../enterprise-capabilities/extensibility#connector-kit).
 
 You can edit JavaScript actions directly from Mendix Studio Pro with an integrated powerful editor based on the [Monaco Editor](https://microsoft.github.io/monaco-editor/index.html), which is the editor that powers the most popular IDE, [Visual Studio Code](https://code.visualstudio.com/). This editor delivers a great experience, as it supports smart context-aware auto-completion, embedded documentation on web and Mendix APIs, correct indenting, and code-friendly shortcuts.
 

@@ -1,5 +1,5 @@
 ---
-title: "Offline Apps"
+title: "Offline-First Apps"
 seo_title: "Building Offline Native Applications in Mendix"
 seo_description: "Learn how Mendix offline apps work, how they handle data, and how data conflicts are reconciled."
 parent: "ux-multi-channel-apps"
@@ -14,7 +14,7 @@ Mendix offers all the functionality to build rich offline-first mobile apps that
 
 With offline-first, your apps remain fully supported via consistency checks and data synchronization while you maintain the ability to fine-tune both the apps and the synchronization process.
 
-## 2 How Do Mendix Offline-first Apps Work?
+## 2 How Do Mendix Offline-First Apps Work?
 
 Mendix makes it easy to add offline capabilities to an existing app model, allowing for the reuse of UI components, logic, and domain models. Offline capabilities are exposed as a separate channel that can be enabled by adding an offline navigation profile. For details, see [How Does Mendix Support Multi-Channel Applications?](front-end#support-multi-channel) in *Front-End*. Note that native mobile apps are always offline-first.
 

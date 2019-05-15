@@ -5,7 +5,7 @@ seo_description: "Learn how Mendix native mobile apps work as well as how to cre
 parent: "ux-multi-channel-apps"
 menu_order: 29
 bg: "ux"
-tags: ["mobile app", "ux", "reactnative", "native"]
+tags: ["mobile app", "ux", "react native", "native"]
 ---
 
 ## 1 How Do Mendix Native Mobile Apps Work? {#native-mobile-apps-work}
@@ -16,7 +16,7 @@ With Mendix, you can build truly native mobile apps from a single integrated vis
 This feature is currently in Beta as part of [Mendix Studio Pro 8](https://docs.mendix.com/releasenotes/studio-pro/8.0).
 {{% /alert %}}
 
-Mendix native mobile apps are truly native mobile apps based on [React Native](https://facebook.github.io/react-native/). Native mobile apps differ from hybrid apps in that they do not render inside a web view. Instead, they use native UI elements, which results in faster performance, smooth animations, natural interaction patterns (like swipe gestures), and improved access to all native device capabilities. React native has a large community that is continuously building components and modules, and this community supports users in creating rich native mobile apps with numerous extension options. What is more, for a great user experience, native mobile apps are based on an [offline-first architecture](offline-apps).
+Mendix native mobile apps are truly native mobile apps based on [React Native](https://facebook.github.io/react-native/). Native mobile apps differ from hybrid apps in that they do not render inside a web view. Instead, they use native UI elements, which results in faster performance, smooth animations, natural interaction patterns (like swipe gestures), and improved access to all native device capabilities. React Native has a large community that is continuously building components and modules, and this community supports users in creating rich native mobile apps with numerous extension options. What is more, for a great user experience, native mobile apps are based on an [offline-first architecture](offline-apps).
 
 {{% image_container width="500" %}}
 ![Examples of Apps Using ReactNative as Technology](attachments/reactnative_showcases.png)
@@ -34,7 +34,7 @@ A Mendix native mobile app connects to the Mendix Runtime server in order to loa
 
 ## 2 How Can I Leverage Device Capabilities in My Mobile Apps?
 
-Mendix native mobile apps come out of the box with a rich set of actions to leverage native device capabilities (such as the camera, biometric authentication, GPS, and Bluetoot) as well as platform features such as sharing data, opening the navigation, and drafting an email. 
+Mendix native mobile apps come out of the box with a rich set of actions to leverage native device capabilities (such as the camera, biometric authentication, GPS, and Bluetooth) as well as platform features such as sharing data, opening the navigation, and drafting an email. 
 
 {{% image_container width="275" %}}
 ![Out-of-the-Box Native Device Capabilities](attachments/native-actions.png)

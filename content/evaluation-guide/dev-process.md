@@ -1,7 +1,7 @@
 ---
 title: "Development Process"
 seo_title: "Application Development Process - BizDevOps, DevOps, Agile"
-seo_description: "Mendix has collaborative agile tools built right into the platform. Learn how organizations practicing BizDevOps, DevOps, or other frameworks employ these tools."
+seo_description: "Mendix has collaborative Agile tools built right into the platform. Learn how organizations practicing BizDevOps, DevOps, or other frameworks employ these tools."
 parent: "welcome"
 bg: "mendix"
 menu_order: 40

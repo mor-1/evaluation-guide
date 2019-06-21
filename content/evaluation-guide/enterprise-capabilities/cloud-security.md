@@ -15,7 +15,7 @@ Security controls for the Mendix Cloud include various levels of encryption, tra
 
 The Mendix Runtime that is running in a container is accessed via a load-balanced routing layer of clustered Nginx web servers that routes traffic to the relevant app environment, whereby the web server is responsible for the TLS connections. In addition, all common access and security services from the IaaS provider are used for the traffic that goes to their infrastructure. The TLS connection starting from the browser terminates at the web server service on the load-balanced routing layer. This ensures that data is encrypted end to end, so other app environments cannot intercept any data from the target app environment.
 
-The Mendix Cloud supports a variaty of configurable HTTP response headers to protect your Mendix Application. For more information, see the [deployment environment details](https://docs.mendix.com/developerportal/deploy/environments-details#http-headers) page.
+The Mendix Cloud supports a variety of configurable HTTP response headers to protect your Mendix application. For more information, see [Environment Details](https://docs.mendix.com/developerportal/deploy/environments-details#http-headers) in the *Mendix Developer Portal Guide*.
 
 ### 1.2 How Is Access Restricted for Incoming Requests?
 

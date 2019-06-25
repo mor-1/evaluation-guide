@@ -14,13 +14,13 @@ SAP Cloud Platform comes with a standard identity provider (IDP) integration, al
 
 After configuring this trust, a Mendix application automatically integrates with the IDP. By mapping the Mendix application roles with the self-defined SAP Cloud Platform roles attached to your IDP, you can log in to the Mendix application with the specific assigned role using your corporate identity.
 
-For more details, see [How to Use the SAP XSUAA Connector](https://docs.mendix.com/howto/sap/use-sap-xsuaa-connector) in the Mendix documentation.
+For more details, see [How to Use the SAP XSUAA Connector](https://docs.mendix.com/partners/sap/use-sap-xsuaa-connector) in the Mendix documentation.
 
 ## 2 How Does Mendix Support Principle Propagation Between My Mendix App & the SAP Back-End System? {#principle}
 
 In combination with the SAP Cloud Platform, Mendix delivers an integration with SAP back-end systems based on [SAP principle propagation](https://www.sap.com/developer/blueprints/finder/cloud-platform-principal-propagation.html) both on premises and for the cloud. By connecting your IDP to the SAP Cloud Platform, it becomes possible to log in to all of your Mendix applications running on the SAP Cloud Platform via a specific role using your own IDP with an SSO experience. The end-user (called "the principle") then gains access to your SAP back-end system based on a trust configuration using the Cloud Connector (as the principle user).
 
-For on-premises systems, this is realized by setting up a trust between the [SAP Cloud Connector](https://docs.mendix.com/refguide/sap/sap-cloud-connector), SAP Cloud Platform, and SAP Cloud Connector with your SAP back-end system. For SAP Cloud Platform solutions, this is done using an SAML2-to-oAuth assertion using a destination service, as presented in this diagram:
+For on-premises systems, this is realized by setting up a trust between the [SAP Cloud Connector](https://docs.mendix.com/partners/sap/sap-cloud-connector), SAP Cloud Platform, and SAP Cloud Connector with your SAP back-end system. For SAP Cloud Platform solutions, this is done using an SAML2-to-oAuth assertion using a destination service, as presented in this diagram:
 
 {{% image_container width="600" %}}
 ![Principle Propagation Support with SAP](attachments/dev_principal_prop_solution_diagram.png)

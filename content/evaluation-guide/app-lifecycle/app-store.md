@@ -44,7 +44,7 @@ A Mendix widget is a part of your Mendix app's UI that enables functionality and
 
 The Mendix Platform provides several dozen widgets out of the box, and additional widgets are available from the Mendix App Store. A full overview of Mendix-supported widgets is shown on the [Mendix Atlas UI site](https://atlas.mendix.com/p/widgets).
 
-In addition to the widgets provided by Mendix, any developer can build additional custom widgets and upload these to the Mendix App Store. A custom widget can alter the interface, data, and images of the app as well as the way the app works. For details on creating a custom widget, see the [Widget Development](https://docs.mendix.com/howto/widget-development/) how-to's in the Mendix documentation.
+In addition to the widgets provided by Mendix, any developer can build additional custom widgets and upload these to the Mendix App Store. A custom widget can alter the interface, data, and images of the app as well as the way the app works. For details on creating a custom widget, see the [Make Custom Widgets](https://docs.mendix.com/howto/extensibility/widget-development) how-to's in the Mendix documentation.
 
 ### 2.3 Modules
 

@@ -72,7 +72,7 @@ For more details, see the following sections:
 
 * [How Can I Use My Own Custom Code in Server-Side Logic?](#custom-code) below
 * [Where Can I Use the Openness & Extensibility Provided by Mendix?](../enterprise-capabilities/openness-api-sdk#where) in *Openness (API & SDK)*
-* [Widget Development how-to's](https://docs.mendix.com/howto/widget-development/) about how to develop UI extensions and custom Mendix widgets for adding app-specific UI and JavaScript logic to pages
+* [Make Custom Widgets how-to's](https://docs.mendix.com/howto/extensibility/widget-development) about how to develop UI extensions and custom Mendix widgets for adding app-specific UI and JavaScript logic to pages
 * [Writing Code in a Low-Code World](https://www.mendix.com/blog/writing-code-in-a-low-code-world/)
 
 ### 5.1 How Can I Use My Own Custom Code in Server-Side Logic? {#custom-code}
@@ -110,7 +110,6 @@ The Mendix Platform is transaction-based, which means that executed logic can ei
 This error handling process ensures consistency across a Mendix app.
 
 <video controls  src="attachments/error-handling.mp4">VIDEO</video>
-
 ## 8 How Can I Reuse Logic?
 
 The following features in Mendix Studio and Mendix Studio Pro make logic reuse easy:

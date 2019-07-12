@@ -25,7 +25,7 @@ Mendix APM provides this experience through the following tools:
 * **Performance Tool** – analyzes individual functions and visualizes where improvement is possible
 * **Measurements Tool** – monitors the CPU and memory, performs measuring queries, and alerts if a limit is exceeded
 
-Customized monitoring is available through integration with third-party services like [New Relic](https://docs.mendix.com/howto/monitoring-troubleshooting/manage-application-performance-with-new-relic), [Datadog](https://www.datadoghq.com/), and [AppDynamics](https://docs.mendix.com/howto/monitoring-troubleshooting/manage-application-performance-with-appdynamics). Alternatively, [JMX integration](https://docs.mendix.com/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx) is available, and the Mendix Runtime provides an [easy-to-program REST-based proprietary interface](https://docs.mendix.com/refguide/monitoring-mendix-runtime) for custom solutions.
+Customized monitoring is available through integration with third-party services like [New Relic](https://docs.mendix.com/developerportal/deploy/setting-up-monitoring-with-new-relic), [Datadog](https://www.datadoghq.com/), and [AppDynamics](https://docs.mendix.com/howto/monitoring-troubleshooting/manage-app-performance-with-appdynamics). Alternatively, [JMX integration](https://docs.mendix.com/howto/monitoring-troubleshooting/monitoring-mendix-using-jmx) is available, and the Mendix Runtime provides an [easy-to-program REST-based proprietary interface](https://docs.mendix.com/refguide/monitoring-mendix-runtime) for custom solutions.
 
 Depending on the deployment scenario, different solutions are available to development teams. The sections below present details on specific scenarios.
 

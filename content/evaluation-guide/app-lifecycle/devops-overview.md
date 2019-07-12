@@ -74,11 +74,9 @@ For more information, see [Continuous Integration](cicd) and [Testing](test-auto
 During development with Mendix Studio Pro, you can run your application locally on your machine while you are experimenting with the development of new features. And in addition to publishing apps in the Mendix Cloud, you can run your app locally when you do not want to share your app with others stakeholders yet.
 
 <video controls src="attachments/run-locally.mp4">VIDEO</video>
-
 From both Mendix Studio Pro and Mendix Studio, you can easily publish your app directly in the Mendix Cloud with a single click. This immediately makes the app available as a Free App, either for development or production use.
 
 <video controls src="attachments/MA_SandboxDeployment.mp4">VIDEO</video>
-
 Once the development team is satisfied with the version of the app that is running in development, the Mendix Developer Portal allows users to quickly stage the app to the test and acceptance environments before it is finally released to the production environment.
 
 Deployment operations can be easily automated by the development team through [platform APIs](https://apidocs.mendix.com/) and with third-party CI/CD tools like Jenkins, GitLab-CI, or Visual Studio Team Services.
@@ -101,6 +99,6 @@ For an overview of the features available for development teams to run apps with
 
 Development teams that like to use third-party tools for certain tasks can integrate those with the Mendix Platform through the [Mendix Platform APIs](https://apidocs.mendix.com/). For example, continuous integration services like [Visual Studio Team Services](https://github.com/mendix/azure-kubernetes-cicd-reference-impl-vsts), [Jenkins](https://github.com/mendix/azure-kubernetes-cicd-reference-impl), or  [GitLab-CI](https://about.gitlab.com/features/gitlab-ci-cd/) can be easily configured as CI pipeline orchestrators on top of the Mendix Platform.
 
-You can use application performance management services like [Datadog](https://www.datadoghq.com/), [New Relic](https://docs.mendix.com/howto/monitoring-troubleshooting/manage-application-performance-with-new-relic), and [AppDynamics](https://docs.mendix.com/howto/monitoring-troubleshooting/manage-application-performance-with-appdynamics) to monitor and manage the performance of Mendix apps.
+You can use application performance management services like [Datadog](https://www.datadoghq.com/), [New Relic](https://docs.mendix.com/developerportal/deploy/setting-up-monitoring-with-new-relic), and [AppDynamics](https://docs.mendix.com/howto/monitoring-troubleshooting/manage-app-performance-with-appdynamics) to monitor and manage the performance of Mendix apps.
 
 For more details, see [CI/CD](cicd) and [Monitoring Solutions & Alerts](monitoring-alerts).

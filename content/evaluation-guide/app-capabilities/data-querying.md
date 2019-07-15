@@ -89,9 +89,9 @@ The [Database Replication](https://appstore.home.mendix.com/link/app/160/) modul
 
 The [Database Connector](https://appstore.home.mendix.com/link/app/2888/) module provides you with microflow activities to run queries on any database with JDBC support. This means you can create microflows to define what data you want from your existing database as well as how you want to convert that data into your new Mendix application.
 
-### 3.3 Backing Up and Restoring
+### 3.3 Backing Up & Restoring
 
-If you prefer a manual migration through SQL statements or SQL scripts, you can do this with a local database. Fore example, you can set up a copy of your existing database, deploy your Mendix app that is connected to this database, and then use an SQL statement to copy data from the old tables to the Mendix tables. Once you have all the data migrated locally, you can create a backup of the Mendix data and restore this in your target Mendix environment.
+If you prefer a manual migration through SQL statements or SQL scripts, you can do this with a local database. For example, you can set up a copy of your existing database, deploy your Mendix app that is connected to this database, and then use an SQL statement to copy data from the old tables to the Mendix tables. Once you have all the data migrated locally, you can create a backup of the Mendix data and restore this in your target Mendix environment.
 
 For more details, see [Backups](https://docs.mendix.com/developerportal/operate/backups#3-2-uploading-data) in the Mendix documentation.
 
@@ -121,5 +121,4 @@ Regarding data storage extensibility, the main Java APIs provide the following f
 You can configure the number of concurrent database connections per runtime to the database using the custom setting `ConnectionPoolingMaxActive`.
 
 <video controls src="attachments/MA_ConnectionPooling-1.mp4">VIDEO</video>
-
 For other relevant pooling settings, see [Customization](https://docs.mendix.com/refguide/custom-settings#4-2-connection-pooling) in the *Mendix Studio Pro Guide*.

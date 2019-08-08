@@ -26,7 +26,7 @@ Mendix helps most in projects where the requirements are not completely defined 
 
 * The application is not available off the shelf
 * The off-the-shelf solution is too complex and/or or too expensive
-* The customer needs more then 20% customization
+* The customer needs more than 20% customization
 * The system of record is also a system of differentiation for the customer
 * The customer wants more control over future capabilities
 

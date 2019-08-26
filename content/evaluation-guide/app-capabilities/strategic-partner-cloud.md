@@ -65,11 +65,11 @@ To extend your on-premises SAP system, a secure connection is required between t
 
 When deploying a Mendix application on the SAP Cloud Platform, the SAP Connectivity service is automatically bound to your app. This service provides the necessary information to the Mendix app for it to use the tunnel and connect to your on-premises system.
 
-## 7 How Can I Set Up Principle Propagation Between My Mendix App & the SAP Back-End?
+## 7 How Can I Set Up Principal Propagation Between My Mendix App & the SAP Back-End?
 
-The SAP Cloud Connector must be configured for principle propagation with the back-end system, which is a standard operation within the SAP Cloud Connector. For the developer of the Mendix app, no effort is required.
+The SAP Cloud Connector must be configured for principal propagation with the back-end system, which is a standard operation within the SAP Cloud Connector. For the developer of the Mendix app, no effort is required.
 
-For details on this integration, see the section [How Does Mendix Support Principle Propagation Between My Mendix Application and the SAP Back-End System?](../strategic-partners/sap-integration#principle) in *SAP Integration*.
+For details on this integration, see the section [How Does Mendix Support Principal Propagation Between My Mendix Application and the SAP Back-End System?](../strategic-partners/sap-integration#principal) in *SAP Integration*.
 
 ## 8 How Can I Run Mendix on IBM Cloud? {#ibm-cloud}
 

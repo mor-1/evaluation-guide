@@ -16,14 +16,14 @@ After configuring this trust, a Mendix application automatically integrates with
 
 For more details, see [How to Use the SAP XSUAA Connector](https://docs.mendix.com/partners/sap/use-sap-xsuaa-connector) in the Mendix documentation.
 
-## 2 How Does Mendix Support Principle Propagation Between My Mendix App & the SAP Back-End System? {#principle}
+## 2 How Does Mendix Support Principal Propagation Between My Mendix App & the SAP Back-End System? {#principal}
 
-In combination with the SAP Cloud Platform, Mendix delivers an integration with SAP back-end systems based on [SAP principal propagation](https://cloudplatform.sap.com/scenarios/usecases/principal-propagation.html) both on premises and for the cloud. By connecting your IDP to the SAP Cloud Platform, it becomes possible to log in to all of your Mendix applications running on the SAP Cloud Platform via a specific role using your own IDP with an SSO experience. The end-user (called "the principle") then gains access to your SAP back-end system based on a trust configuration using the Cloud Connector (as the principle user).
+In combination with the SAP Cloud Platform, Mendix delivers an integration with SAP back-end systems based on [SAP principal propagation](https://cloudplatform.sap.com/scenarios/usecases/principal-propagation.html) both on premises and for the cloud. By connecting your IDP to the SAP Cloud Platform, it becomes possible to log in to all of your Mendix applications running on the SAP Cloud Platform via a specific role using your own IDP with an SSO experience. The end-user (called "the principal") then gains access to your SAP back-end system based on a trust configuration using the Cloud Connector (as the principal user).
 
 For on-premises systems, this is realized by setting up a trust between the [SAP Cloud Connector](https://docs.mendix.com/partners/sap/sap-cloud-connector), SAP Cloud Platform, and SAP Cloud Connector with your SAP back-end system. For SAP Cloud Platform solutions, this is done using an SAML2-to-oAuth assertion using a destination service, as presented in this diagram:
 
 {{% image_container width="600" %}}
-![Principle Propagation Support with SAP](attachments/dev_principal_prop_solution_diagram.png)
+![Principal Propagation Support with SAP](attachments/dev_principal_prop_solution_diagram.png)
 {{% /image_container %}}
 
 ## 3 How Can I Use the SAP Cloud Connector to Integrate Mendix with Non-SAP Apps? {#integrate}
@@ -36,7 +36,7 @@ The SAP Cloud Connector allows you to set up connections to any end-point within
 
 ## 4 How Does Mendix Support Extending Cloud Services like SAP SuccessFactors & SAP Hybris?
 
-Cloud solutions like SAP SuccessFactors, SAP Hybris, SAP Concur, and SAP Ariba are all enabled with OData support. Using the Mendix [SAP OData Connector](https://appstore.home.mendix.com/link/app/74525/), Mendix apps can integrate with these SAP Cloud Platform solutions. This integration also includes support for principle propagation.
+Cloud solutions like SAP SuccessFactors, SAP Hybris, SAP Concur, and SAP Ariba are all enabled with OData support. Using the Mendix [SAP OData Connector](https://appstore.home.mendix.com/link/app/74525/), Mendix apps can integrate with these SAP Cloud Platform solutions. This integration also includes support for principal propagation.
 
 ## 5 How Can I Use SAP Data Within My Mendix App?
 

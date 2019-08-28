@@ -23,7 +23,7 @@ To go deeper into how Mendix supports DevOps, see these featured questions:
 
 ## 2 Which DevOps Tools Does Mendix Provide Out of the Box?
 
-Many tools and services considered standard for DevOps are either available out of the box with Mendix or are fully automated in the platform. For example, during the **Model** phase, app model [consistency checking](model-consistency) is done continuously while you are building your app model. And in the **Deploy** phase, the staging, configuration, and deployment of an app to test, acceptance, and production environments is only a matter of clicks in the Mendix Developer Portal.
+Many tools and services considered standard for DevOps are either available out of the box with Mendix or are fully automated in the platform. For example, during the **Model** phase, app model [consistency checking](model-consistency) is done continuously while you are building your app model. And in the **Deploy** phase, the staging, configuration, and deployment of an app to a particular environment (for example, acceptance or production) is only a matter of clicks in the Mendix Developer Portal.
 
 ![DevOps Cycle Diagram](attachments/devops-cycle.png)
 
@@ -77,7 +77,7 @@ During development with Mendix Studio Pro, you can run your application locally 
 From both Mendix Studio Pro and Mendix Studio, you can easily publish your app directly in the Mendix Cloud with a single click. This immediately makes the app available as a Free App, either for development or production use.
 
 <video controls src="attachments/MA_SandboxDeployment.mp4">VIDEO</video>
-Once the development team is satisfied with the version of the app that is running in development, the Mendix Developer Portal allows users to quickly stage the app to the test and acceptance environments before it is finally released to the production environment.
+Once the development team is satisfied with the version of the app that is running in development, the Mendix Developer Portal allows users to quickly stage the app to further environments, such as an acceptance environment. before it is finally released to the production environment.
 
 Deployment operations can be easily automated by the development team through [platform APIs](https://apidocs.mendix.com/) and with third-party CI/CD tools like Jenkins, GitLab-CI, or Visual Studio Team Services.
 

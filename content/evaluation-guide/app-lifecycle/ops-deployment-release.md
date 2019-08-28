@@ -34,7 +34,7 @@ When you commit the changes you have made to your app model in Mendix Studio and
 
 ## 4 How Many Environments Can I Provision for My Apps?
 
-In the Mendix Cloud, environments are provisioned to allow for staged deployment. Typically, most application nodes come with either two environments (acceptance and production) or three environments (test, acceptance, and production). The Mendix Platform can accommodate additional environments to fit with your DevOps process.
+In the Mendix Cloud, environments are provisioned to allow for staged deployment. Most application nodes come with either two environments (acceptance and production) or three environments (test, acceptance, and production). The Mendix Platform supports adding further environments to fit with your DevOps process.
 
 {{% image_container width="650" %}}
 ![DevOps Staging Environment](attachments/DO_StagingEnvironments.png)

@@ -36,13 +36,13 @@ The SAP Cloud Connector allows you to set up connections to any end-point within
 
 ## 4 How Does Mendix Support Extending Cloud Services like SAP SuccessFactors & SAP Hybris?
 
-Cloud solutions like SAP SuccessFactors, SAP Hybris, SAP Concur, and SAP Ariba are all enabled with OData support. Using the Mendix [SAP OData Connector](https://appstore.home.mendix.com/link/app/74525/), Mendix apps can integrate with these SAP Cloud Platform solutions. This integration also includes support for principal propagation.
+Cloud solutions like SAP SuccessFactors, SAP Hybris, SAP Concur, and SAP Ariba are all enabled with OData support. Using the Mendix [OData Connector for SAP solutions](https://appstore.home.mendix.com/link/app/74525/), Mendix apps can integrate with these SAP Cloud Platform solutions. This integration also includes support for principal propagation.
 
 ## 5 How Can I Use SAP Data Within My Mendix App?
 
 Together with SAP, Mendix has created an API discovery solution based on OData metadata files and SAP API Business Hub integration. This allows you to generate a Mendix domain model within your application from any SAP service in order to represent the data set of your service.
 
-Along with the SAP OData Connector, this allows you to consume any service provided by SAP within a few clicks.
+Along with the OData Connector for SAP solutions, this allows you to consume any service provided by SAP within a few clicks.
 
 {{% image_container width="600" %}}
 ![API Business Hub Example](attachments/api_business_hub_mg.png )

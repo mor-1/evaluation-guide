@@ -30,7 +30,7 @@ The Mendix App Store is directly accessible from Mendix Studio Pro, where app st
 
 ### 2.1 Connectors {#connectors}
 
-A connector is a Mendix App Store component that contains microflow activities that can directly be used in your app logic to connect to external systems. For example, the [IBM Watson Connector Suite](https://appstore.home.mendix.com/link/app/2860/) contains microflow activities to translate text to speech or to analyze an image, or the [SAP OData Connector](https://appstore.home.mendix.com/link/app/74525/) to connect to any SAP system.
+A connector is a Mendix App Store component that contains microflow activities that can directly be used in your app logic to connect to external systems. For example, the [IBM Watson Connector Suite](https://appstore.home.mendix.com/link/app/2860/) contains microflow activities to translate text to speech or to analyze an image, or the [OData Connector for SAP solutions](https://appstore.home.mendix.com/link/app/74525/) to connect to any SAP system.
 
 {{% image_container width="500" %}}
 

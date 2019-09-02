@@ -12,10 +12,6 @@ tags: ["mobile app", "ux", "react native", "native"]
 
 With Mendix, you can build truly native mobile apps from a single integrated visual development environment.
 
-{{% alert type="warning" %}}
-This feature is currently in Beta as part of [Mendix Studio Pro 8](https://docs.mendix.com/releasenotes/studio-pro/8.0).
-{{% /alert %}}
-
 Mendix native mobile apps are truly native mobile apps based on [React Native](https://facebook.github.io/react-native/). Native mobile apps differ from hybrid apps in that they do not render inside a web view. Instead, they use native UI elements, which results in faster performance, smooth animations, natural interaction patterns (like swipe gestures), and improved access to all native device capabilities. React Native has a large community that is continuously building components and modules, and this community supports users in creating rich native mobile apps with numerous extension options. What is more, for a great user experience, native mobile apps are based on an [offline-first architecture](offline-apps).
 
 {{% image_container width="500" %}}
@@ -46,7 +42,7 @@ If other device capabilities are needed, you can extend the project with custom 
 
 ## 3 How Can I Preview & Test My Native Mobile App? {#mxapp-preview}
 
-You can preview a Mendix native mobile app directly on your device via the Mendx Make It Native app (available for [Android](https://play.google.com/store/apps/details?id=com.mendix.developerapp) and [iOS](https://docs.mendix.com/howto/mobile/getting-started-with-native-mobile#downloading-for-ios) by scanning the QR code in Mendix Studio Pro or manually entering the IP address. When you make a change to your app and press the run button, the app will be automatically reloaded, quickly making your changes visible while keeping the original state so that you are still on the same page with the same data. This creates a very short feedback cycle. Next to this, you can use a simple three-finger tab to reload the app after you make changes to the styling.
+You can preview a Mendix native mobile app directly on your device via the Mendix Make It Native app (available for [Android](https://play.google.com/store/apps/details?id=com.mendix.developerapp) and [iOS](https://docs.mendix.com/howto/mobile/getting-started-with-native-mobile#downloading-for-ios) by scanning the QR code in Mendix Studio Pro or manually entering the IP address. When you make a change to your app and press the run button, the app will be automatically reloaded, quickly making your changes visible while keeping the original state so that you are still on the same page with the same data. This creates a very short feedback cycle. Next to this, you can use a simple three-finger tab to reload the app after you make changes to the styling.
 
 For more information, see [How to Create & Test a Native Mobile App](https://docs.mendix.com/howto/mobile/getting-started-with-native-mobile).
 

@@ -18,7 +18,7 @@ The sections below describe how Mendix conforms to the Twelve-Factor App methodo
 
 ### 1.1 Codebase
 
-By default, the source code for every application you create with Mendix is stored in the Mendix Team Server code repository. When you deploy an app, a package is created based on your model as stored in the Team Server. This package is then deployed to your different environments like test, acceptance, and production.
+By default, the source code for every application you create with Mendix is stored in the Mendix Team Server code repository. When you deploy an app, a package is created based on your model as stored in the Team Server. This package is then deployed to your different environments, for example acceptance or production.
 
 ### 1.2 Dependencies
 
@@ -26,7 +26,7 @@ All the dependencies (like modules and libraries) used by your app's modules are
 
 ### 1.3 Configuration
 
-Configuration needs are defined in your application model through constants. These values can be specified at deployment time in your environment, or through APIs called in your CI/CD pipeline. The actual configuration values are never part of your model, which means that the same deployment package can be deployed in any test, acceptance, or production environment without changing the app model.
+Configuration needs are defined in your application model through constants. These values can be specified at deployment time in your environment, or through APIs called in your CI/CD pipeline. The actual configuration values are never part of your model, which means that the same deployment package can be deployed in any environment without changing the app model.
 
 ### 1.4 Backing Services
 

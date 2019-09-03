@@ -95,7 +95,7 @@ With this permission, you can view the application metrics, logs, and alerts in 
 
 ## 2 What Backup Functionality Is Provided by Mendix?
 
-A backup of all data (model, database, and file storage) is made on a daily basis for the acceptance, test, and production environments. Backups are stored in secured locations that are geographically dispersed.
+A backup of all data (model, database, and file storage) is made on a daily basis for all of your environments. Backups are stored in secured locations that are geographically dispersed.
 
 Backups are available for restore as follows:
 
@@ -149,11 +149,11 @@ Logs are persistently stored in log files, and Mendix provides an API for subscr
 
 ## 5 How Does the Mendix Cloud Support DTAP Environments?
 
-The Mendix Platform deployment architecture is based on Cloud Foundry, which is the industry-standard cloud application platform used by SAP, IBM, Pivotal, and GE, among others. Cloud Foundry logically separates Mendix applications using containers. This includes an (optional) test, acceptance, and production environment, each running in their own app environment.
+The Mendix Platform deployment architecture is based on Cloud Foundry, which is the industry-standard cloud application platform used by SAP, IBM, Pivotal, and GE, among others. Cloud Foundry logically separates Mendix applications using containers. You can have as many environments as you need, but this usually includes environments for acceptance, production, and sometimes test, each running in their own app environment.
 
 ## 6 How Does Mendix Provide Containment Within the Mendix Cloud?
 
-A Mendix Cloud node is a grouping of virtual and autonomous instances of the Mendix Runtime that is dedicated to your company. A Mendix Cloud node includes an (optional) test, acceptance, and production environment, each running in their own app environment. This app environment also includes firewall, web server, and database services. Mendix Cloud nodes run on Cloud Foundry containers. The purpose of an app container is to contain the behavior and consumption of an environment while shielding other environments (and apps) from each other.
+A Mendix Cloud node is a grouping of virtual and autonomous instances of the Mendix Runtime that is dedicated to your company. A Mendix Cloud node includes a minimum of two environments (acceptance and production), each running in their own app environment. You can expand this to have as many environments as you need. Each app environment also includes firewall, web server, and database services. Mendix Cloud nodes run on Cloud Foundry containers. The purpose of an app container is to contain the behavior and consumption of an environment while shielding other environments (and apps) from each other.
 
 Cloud Foundry uses **Garden containers** that have been designed to run applications and dependencies based on a buildpack. Garden containers consists of two layers: a read-only layer with an operating system root file system, and a non-persistent read/write layer for Mendix applications and dependencies.
 
@@ -161,7 +161,7 @@ Databases and files are also logically contained within the Mendix Cloud and Clo
 
 As each app environment has its own dedicated web server and firewall services, Mendix supports customization at an app environment-level through the Developer Portal without affecting other app environments. For example, the customization of request handlers for a specific app environment is not compromised by the demands and desires of other Mendix customers.
 
-The app environment setup allows test, acceptance, and production instances of the same application to operate identically but independently. Because the app environments are fully standardized, Mendix optimizes the combination of OS, integration software, and virtualization software while implementing the highest possible degree of security and performance. Furthermore, Mendix offers encryption for data at rest for app environments out of the box.
+The app environment setup allows all instances of the same application to operate identically but independently. Because the app environments are fully standardized, Mendix optimizes the combination of OS, integration software, and virtualization software while implementing the highest possible degree of security and performance. Furthermore, Mendix offers encryption for data at rest for app environments out of the box.
 
 ## 7 Does Mendix Establish and Maintain Baseline Configurations for Hardening?
 

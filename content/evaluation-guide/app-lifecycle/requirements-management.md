@@ -10,7 +10,7 @@ tags: ["agile", "requirements", "requirements management", "project management",
 
 ## 1 How Does Mendix Support Agile Requirements Management? {#requirements-management}
 
-Mendix enables development teams to adopt a Scrum-based development approach through easy-to-use [backlog management](#backlog) features, [feedback gathering and management tools](feedback-management#feedback-management), and [rapid deployment](devops-overview#support-devops) to testing, acceptance, and production environments.
+Mendix enables development teams to adopt a Scrum-based development approach through easy-to-use [backlog management](#backlog) features, [feedback gathering and management tools](feedback-management#feedback-management), and [rapid deployment](devops-overview#support-devops) to different environments which support your development process, for example testing, acceptance, and production.
 
 The development team can [involve users and other stakeholders](collaboration-channels#stakeholder-involvement) through [multiple channels](collaboration-channels). Preview versions of apps can be rolled out to end-users through the [Mendix mobile app](https://docs.mendix.com/refguide/getting-the-mendix-app), and those end-users can provide feedback through the [Mendix Feedback Widget](https://appstore.home.mendix.com/link/app/199/). The development team can communicate with users through Buzz messages for each feedback item. Finally, end-users and other stakeholders can actively take part in the conversation through the Developer Portal and the Mendix mobile app.
 

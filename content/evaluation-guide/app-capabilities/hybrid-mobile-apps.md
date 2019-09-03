@@ -28,7 +28,7 @@ A Mendix hybrid mobile app can leverage various native capabilities via actions 
 
 ## 3 How Can I Build and Publish My Mobile App?
 
-The Mendix Platform generates the Mendix mobile app and provides all the logic to run the app. Via the [Mendix Developer Portal](https://sprintr.home.mendix.com/index.html), it is possible to customize the environment (test, acceptance, and production) as well as the necessary settings like app details, icons, splash screens, and permission settings. From the Developer Portal, it is also possible to build the app binaries without the need to install software like Xcode or Android Studio. The binaries can be downloaded from the Developer Portal and uploaded to the app stores.
+The Mendix Platform generates the Mendix mobile app and provides all the logic to run the app. Via the [Mendix Developer Portal](https://sprintr.home.mendix.com/index.html), it is possible to customize the environment (for example, test or production) as well as the necessary settings like app details, icons, splash screens, and permission settings. From the Developer Portal, it is also possible to build the app binaries without the need to install software like Xcode or Android Studio. The binaries can be downloaded from the Developer Portal and uploaded to the app stores.
 
 <video controls src="attachments/Eval_Mobile_PhoneGapBuild.mp4">VIDEO</video>
 

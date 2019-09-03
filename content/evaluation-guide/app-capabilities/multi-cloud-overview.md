@@ -66,7 +66,7 @@ If you are required to run your software on your own premises, you can choose an
 * IaaS
 * PaaS
 
-In terms of speed, self-service, and governance, the **PaaS** level has significant benefits. Because of the small footprint of a Mendix application, having a two-node (VMs) Kubernetes cluster allows you to run multiple Mendix applications (in test, acceptance, and production environments) with high availability as well as auto-scaling and auto-healing capabilities. This is also possible when running Mendix on traditional servers, but the setup time and maintenance will be significantly higher.
+In terms of speed, self-service, and governance, the **PaaS** level has significant benefits. Because of the small footprint of a Mendix application, having a two-node (VMs) Kubernetes cluster allows you to run multiple Mendix applications (in multiple environments) with high availability as well as auto-scaling and auto-healing capabilities. This is also possible when running Mendix on traditional servers, but the setup time and maintenance will be significantly higher.
 
 For more information, see the section [Which Operating Systems Do Mendix Studio and Mendix Studio Pro Support?](../app-lifecycle/app-development#operating-systems) in *App Development*.
 
@@ -96,7 +96,7 @@ The choice of either an IaaS or a PaaS in relation to Mendix is based on the amo
 
 If you are able to consume a PaaS on demand from a public cloud, this will always be the best fit for a Mendix hosting solution based on cost, speed, and control.
 
-In the scenario that you have access to an IaaS and you need to choose a PaaS layer yourself (like Kubernetes or Cloud Foundry), the key factor is the amount of applications. A Kubernetes cluster can be beneficial when you are planning on running more than two applications, wherein each app contains a test, acceptance, and one or more production environments. When you are planning on running more than 10 applications, a Cloud Foundry solution could be beneficial (this has to do with the footprint and maintenance of the PaaS layer). Finally, for a single application, a traditional server-based solution will be enough.
+In the scenario that you have access to an IaaS and you need to choose a PaaS layer yourself (like Kubernetes or Cloud Foundry), the key factor is the number of applications. A Kubernetes cluster can be beneficial when you are planning on running more than two applications, wherein each app contains a test, acceptance, and one or more production environments. When you are planning on running more than 10 applications, a Cloud Foundry solution could be beneficial (this has to do with the footprint and maintenance of the PaaS layer). Finally, for a single application, a traditional server-based solution will be enough.
 
 ## 3 How Can I Run Mendix on a (Virtual) Server or IaaS?
 

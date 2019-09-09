@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 seo_title: "Getting Started on Mendix, Onboarding New Users & Evaluating the Platform"
-seo_description: "Learn where to get started with the Mendix Platform, how to make the most of the free Community Edition, how Mendix onboards new users & training options."
+seo_description: "Learn where to get started with the Mendix Platform, how to make the most of the Free Edition, how Mendix onboards new users & training options."
 parent: "evaluation"
 menu_order: 10
 bg: "evaluation"
@@ -16,7 +16,7 @@ In order to onboard this variety of users, Mendix provides a [guided product int
 
 The [free online training materials](https://gettingstarted.mendixcloud.com/link/home) that Mendix provides are built in a modular fashion. This means that you can skip modules depending on your knowledge, or only complete the knowledge checks to see if you need more information about a specific topic.
 
-In addition to Mendix being free to try and evaluate, the Mendix Community Edition gives all users unlimited access to the platform and community environments. For more details, see [Can I Evaluate Mendix Before I Buy?](#evaluate-before) below.
+In addition to Mendix being free to try and evaluate, the Mendix Free Edition gives all users unlimited access to the platform and community environments. For more details, see [Can I Evaluate Mendix Before I Buy?](#evaluate-before) below.
 
 ## 2 How Can I Kick-Start My App Development Project? {#starter-apps}
 
@@ -36,17 +36,17 @@ Visual development is fast and easy to understand for all type of users, which m
 
 ## 4 Can I Evaluate Mendix Before I Buy? {#evaluate-before}
 
-No problem! Anyone can [sign up](https://signup.mendix.com/link/signup/?source=techevaluationguide) on the Mendix Platform. This will create a Mendix account for you, and you will have access to the Mendix Community Edition. The Community Edition is free, meaning no credit card is required, and there are no setup fees.
+No problem! Anyone can [sign up](https://signup.mendix.com/link/signup/?source=techevaluationguide) on the Mendix Platform. This will create a Mendix account for you, and you will have access to the Mendix Free Edition. *Free Edition* means that no credit card is required, and there are no setup fees.
 
-### 4.1 What Does the Community Edition Offer?
+### 4.1 What Does the Free Edition Offer?
 
-The Mendix Community Edition includes everything you need to design, build, and deploy demos, prototypes, or small applications. All the features in the Mendix IDEs are available without restriction. This edition includes a deployment environment for each application to the Mendix Cloud for up to 10 internal users with no charge.
+The Mendix Free Edition includes everything you need to design, build, and deploy demos, prototypes, or small applications. All the features in the Mendix IDEs are available without restriction. This edition includes a deployment environment for each application to the Mendix Cloud for up to 10 internal users with no charge.
 
-The Community Edition is designed to provide developers and business users with a rapid cloud deployment option for prototyping and testing new applications, without having to provision a full cloud node.
+The Free Edition is designed to provide developers and business users with a rapid cloud deployment option for prototyping and testing new applications, without having to provision a full cloud node.
 
 ### 4.2 When Should I Upgrade from the Free Edition to a Paid Edition?
 
-The Community Edition is designed for prototyping and testing new applications, and it is not meant as a professional testing or production environment. The cloud environment of the Community Edition is called a Sandbox environment, where you can test the full capabilities of the platform. Due the restrictions on limited users, the lower CPU, and the fact that the app goes into sleep mode after a longer period with no activity, the Community Edition cannot be used for professional app development projects.
+The Free Edition is designed for prototyping and testing new applications, and is not meant as a professional testing or production environment. You can test the full capabilities of the platform in the cloud environment of the Free Edition. Due restrictions on scaling, and the fact that the app goes into sleep mode after a period with no activity, the Free Edition cannot be used for professional app development projects.
 
 When you start a professional app development project, you will need more enterprise-level features and services (for example, more deployment options or formal service-level agreements). In that case, you will need to upgrade your app to a paid cloud environment. Upgrading is easy, as you will keep your user account and all the apps that you have already built.
 
@@ -60,7 +60,7 @@ It is important to note that the architecture of your app is very important. Spe
 
 ### 4.4 How Many Applications Can I Build and Deploy?
 
-There is no limitation to the number or the complexity of applications you can build and deploy using the platform when you select the Mendix Community, Pro, or Enterprise Platform Editions.
+There is no limitation to the number or the complexity of applications you can build and deploy using the platform when you select the Mendix Free, Pro, or Enterprise Platform Editions.
 
 ## 5 What Are the Mendix Training Options? {#options}
 

@@ -18,7 +18,7 @@ The Mendix Platform’s support for CI/CD facilitates the rapid development and 
 
 The core of the Mendix Platform provides all the tooling required to continuously integrate model revisions. Revisions are committed to the [Team Server](version-control) version control repository, where they are merged with the latest revision of the model and assigned to the relevant user stories and test cases.
 
-At any point and with a single click, a model revision can be versioned and pushed to the build server, packaged, and moved to staging before it is deployed to test. At that point, the platform’s built-in ATS system will run functional testing based on test cases defined against user stories.
+At any point and with a single click, a model revision can be versioned and pushed to the Mendix Build Server, packaged, and moved to staging before it is deployed to test. At that point, the platform’s built-in ATS system will run functional testing based on test cases defined against user stories.
 
 The tested deployment packages can then be promoted to production (via further acceptance environments, if required) with two-factor authentication. Finally, applications are monitored using the platform’s built-in monitoring tools and feedback loops to complete the delivery pipeline.
 

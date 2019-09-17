@@ -28,7 +28,7 @@ Read on in [How Does Mendix Support Different Developer Profiles?](app-developme
 
 ## How Does Mendix Support Multi-User Development? {#multi}
 
-Project team members are connected instantly and interactively to changes and updates such as new requirements, software revisions, updates, and shipments as well as test results and feedback loops from end-users. This live feed becomes the backbone for the Mendix collaborative process, while visual models and drag-and-drop WYSYWG editors lower the barrier to entry for business users to participate in the development process.
+Project team members are connected instantly and interactively to changes and updates such as new requirements, software revisions, updates, and shipments as well as test results and feedback loops from end-users. This live feed becomes the backbone for the Mendix collaborative process, while visual models and drag-and-drop WYSIWYG editors lower the barrier to entry for business users to participate in the development process.
 
 For more information, see [How Does Mendix Support Multi-User Development?](version-control#multi-user).
 

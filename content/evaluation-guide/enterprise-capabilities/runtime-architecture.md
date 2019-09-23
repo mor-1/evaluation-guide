@@ -63,7 +63,7 @@ The Mendix Server architecture consists of multiple components to execute logic,
 ![Runtime Engine](attachments/runtime-engine.png)
 {{% /image_container %}}
 
-The runtime consists of the following components:
+The Mendix Runtime consists of the following components:
 
 * **Platform core** – responsible for the correct startup and shutdown of your application and loading the required libraries and extensions
 * **Object cache** – handles the creation and removal of objects

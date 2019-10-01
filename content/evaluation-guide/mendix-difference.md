@@ -41,7 +41,7 @@ We are committed to keeping the Mendix Platform up to date with the latest techn
 
 Delivering applications quickly is a key reason for adopting a low-code platform. However, to achieve true agility and scale with application development, Mendix marries speed with collaboration and control. It does this by bringing business and IT together and providing a common language between both worlds.
 
-Mendix involves business users across the application lifecycle, from [requirments management](app-lifecycle/requirements-overview) during the ideation and continuous feedback process, to direct participation in the [development](app-lifecycle/developing-in-mendix) with visual models. The Mendix Platform enables development teams to embrace the [DevOps](app-lifecycle/devops-overview) way of working, with a high focus on involving business users. The next section zooms in on how business users—without any coding experience—can build apps with Mendix.
+Mendix involves business users across the application lifecycle, from [requirements management](app-lifecycle/requirements-overview) during the ideation and continuous feedback process, to direct participation in the [development](app-lifecycle/developing-in-mendix) with visual models. The Mendix Platform enables development teams to embrace the [DevOps](app-lifecycle/devops-overview) way of working, with a high focus on involving business users. The next section zooms in on how business users—without any coding experience—can build apps with Mendix.
 
 ## 4 How Does Mendix Provide Both Low Code & No Code in a Single Platform?
 

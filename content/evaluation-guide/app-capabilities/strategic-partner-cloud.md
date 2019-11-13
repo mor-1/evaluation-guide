@@ -12,7 +12,9 @@ tags: ["sap", "sap cloud", "auto scaling", "ibm", "ibm cloud"]
 
 The SAP Cloud Platform is available in two development environments: SAP Neo and SAP Cloud Foundry (which is their newest option). Mendix is integrated with the SAP Cloud Foundry environment.
 
-A Mendix application is deployed by the Mendix Development Portal using the Mendix Cloud Foundry buildpack. The app is supported by a PostgreSQL service, an optional storage service for files, an authentication and authorization service, and a connectivity service.
+A Mendix application is deployed by the Mendix Development Portal using the Mendix Cloud Foundry buildpack. The data of the application is stored in either an SAP HANA or a Postgresql database running on a cloud provider like AWS or Azure. Optionally, a storage service is attached to allow the storage of files. By default the application is integrated with the SAP authentication and authorization service, and a connectivity service.
+
+
 
 Based on the cloud-native architecture of the Mendix application as well as the Cloud Foundry capabilities, a Mendix app running on the SAP Cloud Platform is fully high-available, and it supports vertical, horizontal, and auto scaling.
 

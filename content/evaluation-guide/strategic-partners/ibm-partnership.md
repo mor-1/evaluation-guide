@@ -12,7 +12,7 @@ tags: ["ibm", "partnership", "ibm cloud"]
 
 Based on Mendix and IBM's shared vision of cloud native technologies like Cloud Foundry and Kubernetes, IBM has endorsed Mendix as the standard low-code development platform to be used on IBM Cloud.  
 
-The IBM Cloud comprises a portfolio that delivers a full-stack solution that, when coupled with Mendix, will transform application delivery from a process limited by controls to a rapid delivery platform that drives innovation.  This combination of technologies and capabilities will create new opportunities for you to differentiate with smart applications and best-of-breed customer engagement.
+IBM Cloud comprises a portfolio that delivers a full-stack solution that, when coupled with Mendix, will transform application delivery from a process limited by controls to a rapid delivery platform that drives innovation.  This combination of technologies and capabilities will create new opportunities for you to differentiate with smart applications and best-of-breed customer engagement.
 
 {{% image_container width="650" %}}
 ![IBM Cloud Offerings Examples](attachments/ibmcloudoffering.png)
@@ -20,7 +20,7 @@ The IBM Cloud comprises a portfolio that delivers a full-stack solution that, wh
 
 ## 2 What Does the Mendix–IBM Partnership Offer?
 
-To accelerate development, IBM Cloud delivers a broad range of PaaS services that are accessible from the IBM Cloud Catalog. For example, IBM offers services for Watson cognitive access, data management, mobile , CI/CD toolchain , and starter apps.
+To accelerate development, IBM Cloud delivers a broad range of PaaS services that are accessible from the IBM Cloud Catalog. For example, IBM offers Watson cognitive services as well as services for data management, mobile , CI/CD toolchain , and starter apps.
 
 Mendix is the best equipped platform to make these services accessible to a broader group of developers.
 

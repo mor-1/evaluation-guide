@@ -10,15 +10,13 @@ tags: ["ibm", "ibm cloud", "partner"]
 seo_video: "ibm"
 ---
 
-IBM—the leader in enterprise cloud—and Mendix - the leader in low code development - have partnered to help enterprises shorten time-to-value
-when building applications. IBM Cloud is built for the enterprise, and it is the only cloud that integrates public, private, multi-cloud, and an on-premises data center through a single architecture. Furthermore, it is designed for cognitive workloads. IBM has selected Mendix as the preferred low-code development platform for use on top of IBM Cloud.
+IBM — the leader in enterprise cloud — and Mendix — the leader in low code development — have partnered to help enterprises shorten time-to-value when building applications. IBM Cloud is built for the enterprise, and it is the only cloud that integrates public, private, multi-cloud, and an on-premises data center through a single architecture. Furthermore, it is designed for cognitive workloads. IBM has selected Mendix as the preferred low-code development platform for use on top of IBM Cloud.
 
 {{% youtube fMBEMoyzcXc %}}
 
 ## What Type of Partnership Does Mendix Have with IBM? {#type}
 
-The strong business partnership between Mendix and IBM allows us to support our joint customers in the
-best possible way.  This partnership ensures applications build on Mendix run on IBM Cloud and integrate with IBM Services as smoothly as possible. 
+The strong business partnership between Mendix and IBM allows us to support our joint customers in the best possible way.  This partnership ensures applications built on Mendix run on IBM Cloud and integrate with IBM Services as smoothly as possible. 
 
 For details, see [What Type of Partnership Does Mendix Have with IBM?](ibm-partnership#ibm-partnership-type).
 

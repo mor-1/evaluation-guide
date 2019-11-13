@@ -10,7 +10,7 @@ tags: ["integration", "ibm", "ibm cloud", "deploy", "watson", "connector"]
 
 ## 1 How Can I Start Using Mendix on IBM Cloud? {#start-ibm}
 
-The easiest way to start using Mendix on IBM Cloud is by using the Starter App that automatically configures applications to deploy to the IBM Cloud.  Alternatively, IBM Cloud can be found as an integrated cloud target option when selecting a cloud for any application.  In addtion, when Watson services are consumed by an application, IBM Cloud will be the default deployment target so that application and service data are located within the same cloud.
+The easiest way to start using Mendix on IBM Cloud is by using the Starter App that automatically configures applications to deploy to the IBM Cloud.  Alternatively, IBM Cloud can be found as an integrated cloud target option when selecting a cloud for any application.  In addition, when Watson services are consumed by an application, IBM Cloud will be the default deployment target so that application and service data are located within the same cloud.
 
 {{% image_container width="700" %}}
 ![IBM Cloud Integration Example](attachments/ibm_integration-cf2.png)

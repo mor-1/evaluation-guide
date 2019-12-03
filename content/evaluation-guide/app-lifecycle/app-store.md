@@ -10,7 +10,7 @@ tags: ["app store", "reusable component", "widget", "module"]
 
 ## 1 What Are the Platform Capabilities of the Mendix App Store?
 
-The Mendix Platform is integrated with the [Mendix App Store](https://appstore.home.mendix.com/index3.html), which is full of items built by both Mendix and the Mendix community. There is a Public App Store for apps and application components, and a Private App Store where companies can internally share apps and application components.
+The Mendix Platform is integrated with the [Mendix App Store](https://appstore.home.mendix.com/index3.html), which is full of components built by both Mendix and the Mendix community. There is a Public App Store for apps and application components, and a Private App Store where companies can internally share apps and application components.
 
 The App Store is fully integrated in both Mendix Studio Pro and Mendix Studio. Users can directly search for and implement reusable components in their applications.
 
@@ -24,7 +24,7 @@ For more information, see [App Store Overview](https://docs.mendix.com/developer
 
 ## 2 What Types of Reusable Components Are Available in the Mendix App Store?
 
-For developers, the Mendix App Store offers a rich repository of reusable components that can significantly accelerate development productivity. These components are shared in the Mendix community as open-source items or commercial products.
+For developers, the Mendix App Store offers a rich repository of reusable components that can significantly accelerate development productivity. These components are shared in the Mendix community as open-source components or commercial products.
 
 The Mendix App Store is directly accessible from Mendix Studio Pro, where app store components can be loaded into the project model with a single click. The components are presented in the categories described below.
 

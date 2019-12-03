@@ -20,7 +20,7 @@ Java actions are often used to integrate with external systems (hence the term "
 
 To ensure your fellow team members and even external users can easily use custom Java actions, they are completely integrated into the microflow editor experience in Mendix Studio Pro. Other Mendix developers will not see the difference between a standard microflow activity and a custom Java action.
 
-The following image is taken from an example used in [How to Build Microflow Actions Using the Mendix Connector Kit](https://docs.mendix.com/howto/extensibility/howto-connector-kit) in the Mendix documentation. As you can see, the **Join objects in list** custom action looks like any other microflow activity, with an icon and user-friendly parameters:
+The following image is taken from an example used in [How to Build Microflow Actions Using the Mendix Connector Kit](https://docs.mendix.com/howto/extensibility/howto-connector-kit) in the *Mendix Studio Pro How-to's*. As you can see, the **Join objects in list** custom action looks like any other microflow activity, with an icon and user-friendly parameters:
 
 {{% image_container width="700" %}}
 ![Java Actions and Connector Kit](attachments/java_action_join_objects.png)
@@ -75,7 +75,7 @@ For more information, see this Mendix documentation:
 
 ## 2 How Can I Provide Reusable Connectors to Third-Party Services? {#connectors}
 
-Generic connectors can be easily shared with other developers and companies. You can export a connector module from Mendix Studio and Mendix Studio Pro that can then be imported into other Mendix app projects. The connector module can also be uploaded to the Mendix App Store – either to the Public App Store so anyone can use it, or to your company's Private App Store so that only developers in your company can reuse it. For more information, see [How to Share App Store Content](https://docs.mendix.com/developerportal/app-store/share-app-store-content) in the Mendix documentation.
+Generic connectors can be easily shared with other developers and companies. You can export a connector module from Mendix Studio and Mendix Studio Pro that can then be imported into other Mendix app projects. The connector module can also be uploaded to the Mendix App Store – either to the Public App Store so anyone can use it, or to your company's Private App Store so that only developers in your company can reuse it. For more information, see [How to Share App Store Content](https://docs.mendix.com/developerportal/app-store/share-app-store-content) in the *Mendix Developer Portal Guide*.
 
 Connectors include everything you need to use them, like microflow activities, logic, domain models, Java code, and any required Java libraries. This complexity will not be visible to the users of your connector. They can simply drag your custom microflow activities from the toolbox into any microflow to use your connector.
 
@@ -87,13 +87,13 @@ This video presents details on how to build a connector in Mendix:
 
 {{% youtube wTQJ1MiXAow %}}
 
-And for more information on building connectors, see [How to Build Microflow Actions Using the Mendix Connector Kit](https://docs.mendix.com/howto/extensibility/howto-connector-kit) in the Mendix documentation.
+And for more information on building connectors, see [How to Build Microflow Actions Using the Mendix Connector Kit](https://docs.mendix.com/howto/extensibility/howto-connector-kit) in the *Mendix Studio Pro How-to's*.
 
 ## 3 What Tooling Does Mendix Integrate With? {#external-ides}
 
 Mendix provides seamless integration with a number of tools that developers use:
 
-* By selecting **Deploy for Eclipse** in Mendix Studio and Mendix Studio Pro, your Mendix app project will be made compatible with Eclipse,w hich means you can run and debug your app from Eclipse. You will also have access to the Java source code, where you can implement custom Java actions. For more information, see [Using Eclipse](https://docs.mendix.com/refguide/using-eclipse) and [How to Debug Java actions](https://docs.mendix.com/howto/monitoring-troubleshooting/debug-java-actions) in the Mendix documentation.
+* By selecting **Deploy for Eclipse** in Mendix Studio and Mendix Studio Pro, your Mendix app project will be made compatible with Eclipse,w hich means you can run and debug your app from Eclipse. You will also have access to the Java source code, where you can implement custom Java actions. For more information, see [Using Eclipse](https://docs.mendix.com/refguide/using-eclipse) in the *Mendix Studio Pro Guide* and [How to Debug Java actions](https://docs.mendix.com/howto/monitoring-troubleshooting/debug-java-actions) in the *Mendix Studio Pro How-to's*.
 * Many Mendix developers use IntelliJ IDEA. IntelliJ enables you to import Eclipse projects, so by selecting **Deploy for Eclipse** in Mendix Studio and Mendix Studio Pro, you will also be able to do all your custom Java actions coding in IntelliJ.
 * Widget developers can benefit from building [Pluggable Widgets](https://docs.mendix.com/howto/extensibility/pluggable-widgets).
 

@@ -48,7 +48,9 @@ The Mendix Cloud offers high availability for all app environments, ensuring zer
 
 ## 5 How Does Mendix Provide Disaster Recovery? {#cloud-dr}
 
-Mendix Cloud architecture automatically applies failover between availability zones, so database containers and file storage buckets are automatically replicated across multiple availability zones. All backups are copied to other data centers, but the data will not leave the region, should your company require this.
+Mendix Cloud architecture keeps runtime containers, database containers, and file storage buckets in the same availability zone (AZ) to minimize latency in database operations. It automatically applies failover to a geographically separate AZ if the current AZ fails.  New copies of your app will be started automatically in the new AZ. File storage buckets are automatically replicated by AWS across multiple AZs and, with Mendix high-availability options, the  database containers can also be replicated automatically through streaming – or you can restore a backup to the new AZ.
+
+All backups are copied to other data centers, but the data will not leave the region, should your company require this.
 
 {{% image_container width="600" %}}
 ![Application Disaster Recovery Chart](attachments/figure-12-multi-az-deployment-in-mendix-cloud.png)

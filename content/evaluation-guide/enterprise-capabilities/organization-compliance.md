@@ -36,7 +36,11 @@ Mendix is certified to be compliant with the [ISO/IEC 27001](https://www.iso.org
 
 [SOC 1](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc1report.html), [SOC 2](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html), and [SOC 3](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc3report.html) are American assurance standards on controls at a service organization. Mendix holds an SOC 1 Type II report, SOC 2 Type II report, and SOC 3 Type II report disclosing how Mendix security controls have been managed over the past year.
 
-### 2.4 CSA STAR Certification
+### 2.4 PCI DSS Level 1 Service Provider Attestation of Compliance
+
+Mendix is certified to be compliant with the [PCI DSS](https://www.pcisecuritystandards.org/document_library) standard as Level 1 Service Provider which is the highest certification a service provider can get.
+
+### 2.5 CSA STAR Certification
 
 [CSA STAR](https://cloudsecurityalliance.org/star/#_overview) is a program for security assurance in the cloud. STAR consists of three levels of assurance based upon a comprehensive list of cloud control objectives.
 

@@ -165,7 +165,7 @@ The app environment setup allows all instances of the same application to operat
 
 ## 7 Does Mendix Establish and Maintain Baseline Configurations for Hardening?
 
-The Mendix Security team has an established hardening security baseline based on international standards like SANS and CIS. This is audited by our independent third-party auditors and results in our annual published ISAE 3402 Type II report, SOC 1 Type II report, SOC 2 Type II report, SOC 3 Type II report, and ISO/IEC 27001:2013 certification.
+The Mendix Security team has an established hardening security baseline based on international standards like SANS and CIS. This is audited by our independent third-party auditors and results in our annual published ISAE 3402 Type II report, SOC 1 Type II report, SOC 2 Type II report, SOC 3 Type II report, PCI DSS Level 1 Service Provider Attestation of Compliance, and ISO/IEC 27001:2013 certification.
 
 ## 8 Which Physical Security Controls Are in Place for the Mendix Cloud?
 

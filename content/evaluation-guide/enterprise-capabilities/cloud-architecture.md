@@ -48,9 +48,9 @@ The Mendix Cloud offers high availability for all app environments, ensuring zer
 
 ## 5 How Does Mendix Provide Disaster Recovery? {#cloud-dr}
 
-Mendix Cloud architecture keeps runtime containers, database containers, and file storage buckets in the same availability zone (AZ) to minimize latency in database operations. It automatically applies failover to a geographically separate AZ if the current AZ fails.  New copies of your app will be started automatically in the new AZ. File storage buckets are automatically replicated by AWS across multiple AZs and, with Mendix high-availability options, the  database containers can also be replicated automatically through streaming – or you can restore a backup to the new AZ.
+Mendix Cloud architecture keeps runtime engines and databases in the same availability zone (AZ) to minimize latency in database operations. It automatically applies failover to a geographically separate AZ if the current AZ fails.  New copies of your app will be started automatically in the new AZ. File storage buckets are automatically replicated by AWS across multiple AZs and, with Mendix Fallback options, the database can also be replicated automatically through streaming – or you can restore a backup to the new AZ.
 
-All backups are copied to other data centers, but the data will not leave the region, should your company require this.
+All backups are copied to another region, but the data will not leave the continent, should your company require this.
 
 {{% image_container width="600" %}}
 ![Application Disaster Recovery Chart](attachments/figure-12-multi-az-deployment-in-mendix-cloud.png)
@@ -58,7 +58,7 @@ All backups are copied to other data centers, but the data will not leave the re
 
 ## 6 How Does Mendix Cloud Provide Auto-Recovery & Auto-Healing? {#cloud-ar}
 
-The Mendix Cloud enables auto-recovery and failover within the same availability zone, and the user load is balanced over two runtime containers. In the rare occurrence that a single runtime container crashes, the other runtime container automatically takes over all user requests while the Cloud Foundry Health Manager replaces the crashed runtime container with a new runtime container. Because of the stateless architecture of Mendix, end-users are not impacted in this scenario.
+The Mendix Cloud enables auto-recovery and failover within the same availability zone, and the user load is balanced over two runtime engines. In the rare occurrence that a single runtime engine crashes, the other runtime engine automatically takes over all user requests while the Cloud Foundry Health Manager replaces the crashed runtime engine with a new runtime engine. Because of the stateless architecture of Mendix, end-users are not impacted in this scenario.
 
 {{% image_container width="600" %}}
 ![Application Auto-Recovery](attachments/figure-13-auto-recovery-in-mendix-cloud.png)

@@ -163,9 +163,11 @@ As each app environment has its own dedicated web server and firewall services, 
 
 The app environment setup allows all instances of the same application to operate identically but independently. Because the app environments are fully standardized, Mendix optimizes the combination of OS, integration software, and virtualization software while implementing the highest possible degree of security and performance. Furthermore, Mendix offers encryption for data at rest for app environments out of the box.
 
-## 7 Does Mendix Establish and Maintain Baseline Configurations for Hardening?
+## 7 Does Mendix Establish & Maintain Baseline Configurations for Hardening?
 
 The Mendix Security team has an established hardening security baseline based on international standards like SANS and CIS. This is audited by our independent third-party auditors and results in our annual published ISAE 3402 Type II report, SOC 1 Type II report, SOC 2 Type II report, SOC 3 Type II report, PCI DSS Level 1 Service Provider Attestation of Compliance, and ISO/IEC 27001:2013 certification.
+
+For more information, see [Which Third-Party Security Certifications & Assurance Reports Does Mendix Have?](organization-compliance#security-certifications).
 
 ## 8 Which Physical Security Controls Are in Place for the Mendix Cloud?
 

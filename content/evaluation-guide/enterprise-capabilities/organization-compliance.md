@@ -16,7 +16,7 @@ Mendix has implemented an information security management system (ISMS) accordin
 * Design and implement a comprehensive suite of information security controls and other forms of risk treatment to address security risks
 * Utilize an overarching management process to ensure that the information security controls meet our needs on an ongoing basis
 
-## 2 Which Third-Party Security Certifications and Assurance Reports Does Mendix Have? {#security-certifications}
+## 2 Which Third-Party Security Certifications & Assurance Reports Does Mendix Have? {#security-certifications}
 
 Mendix complies with various third-party security certifications and assurance reports. These are described below.
 
@@ -32,13 +32,13 @@ Mendix is certified to be compliant with the [ISO/IEC 27001](https://www.iso.org
 
 [ISAE 3000](http://www.ifac.org/publications-resources/international-standard-assurance-engagements-isae-3000-revised-assurance-enga) and [ISAE 3402](http://isae3402.com/ISAE3402_overview.html) are international assurance standards on controls at a service organization. Mendix holds an ISAE 3000 Type II and an ISAE 3402 Type II report, which discloses how Mendix security controls have been managed over the past year.
 
-### 2.3 SOC 1 Type II & SOC 2 Type II & SOC 3 Type II Assurance Reports
+### 2.3 SOC 1 Type II, SOC 2 Type II & SOC 3 Type II Assurance Reports
 
 [SOC 1](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc1report.html), [SOC 2](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html), and [SOC 3](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc3report.html) are American assurance standards on controls at a service organization. Mendix holds an SOC 1 Type II report, SOC 2 Type II report, and SOC 3 Type II report disclosing how Mendix security controls have been managed over the past year.
 
 ### 2.4 PCI DSS Level 1 Service Provider Attestation of Compliance
 
-Mendix is certified to be compliant with the [PCI DSS](https://www.pcisecuritystandards.org/document_library) standard as Level 1 Service Provider which is the highest certification a service provider can get.
+Mendix is certified to be compliant with the [PCI DSS](https://www.pcisecuritystandards.org/document_library) standard as a Level 1 Service Provider, which is the highest certification a service provider can get.
 
 ### 2.5 CSA STAR Certification
 

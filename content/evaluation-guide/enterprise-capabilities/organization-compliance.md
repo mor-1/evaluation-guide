@@ -40,7 +40,10 @@ Mendix is certified to be compliant with the [ISO/IEC 27001](https://www.iso.org
 
 Mendix is certified to be compliant with the [PCI DSS](https://www.pcisecuritystandards.org/document_library) standard as a Level 1 Service Provider, which is the highest certification a service provider can get.
 
-### 2.5 CSA STAR Certification
+### 2.5 Cyber Essentials [UK]
+Mendix is certified to be compliant with Cyber Essentials and the Cyber Essentials scheme addresses the most common Internet-based threats to cyber security and helps organisations to protect the confidentiality, integrity and availability of data stored on devices which connect to the Internet.
+
+### 2.6 CSA STAR Certification
 
 [CSA STAR](https://cloudsecurityalliance.org/star/#_overview) is a program for security assurance in the cloud. STAR consists of three levels of assurance based upon a comprehensive list of cloud control objectives.
 

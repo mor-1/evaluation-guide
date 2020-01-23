@@ -40,7 +40,7 @@ There are many use cases that benefit from the openness and extensibility of the
 
 These are some examples of how you can increase productivity and quality using the openness and extensibility of the Mendix Platform:
 
-* Using the [Mendix SDK](https://developers.mendix.com/sdk/), you can make bulk changes to one or more application models (for example, to change the icons in a number of app projects).
+* Using the [Mendix SDK](https://docs.mendix.com/apidocs-mxsdk/mxsdk/), you can make bulk changes to one or more application models (for example, to change the icons in a number of app projects).
 * The Mendix SDK enables doing static analysis of an app model. One example of this is in the [Mendix Application Quality Monitor (AQM)](https://www.mendix.com/security-and-quality/#quality). This tool measures the quality of your app models and rates them compared to other models for a number of aspects identified by the ISO standard for maintainability.
 * You can also use the Mendix SDK to generate documentation from your app models, ensuring that you always have the correct up-to-date documentation. For more details, see the section [Exporting Your App Models](no-vendor-lockin#export-model) in *No Vendor Lock-In*.
 * The [OData Connector for SAP solutions](https://appstore.home.mendix.com/link/app/74525/) provided by Mendix uses the SDK to automatically generate the parts of your app needed to build on top of SAP services. For every data item defined in the SAP service (as specified using OData metadata), the connector will generate entities in a domain model in your Mendix application. This saves you a lot of time, and also ensures that the entities are 100% correct.

@@ -66,7 +66,7 @@ If you are required to run your software on your own premises, you can choose an
 * IaaS
 * PaaS
 
-In terms of speed, self-service, and governance, the **PaaS** level has significant benefits. Because of the small footprint of a Mendix application, having a two-node (VMs) Kubernetes cluster allows you to run multiple Mendix applications (in multiple environments) with high availability as well as auto-scaling and auto-healing capabilities. This is also possible when running Mendix on traditional servers, but the setup time and maintenance will be significantly higher.
+In terms of speed, self-service, and governance, the **PaaS** level has significant benefits. Because of the small footprint of a Mendix application, having a two-node (VMs) Kubernetes cluster allows you to run multiple Mendix applications (in multiple environments) with auto-scaling and auto-healing capabilities and high availability options. This is also possible when running Mendix on traditional servers, but the setup time and maintenance will be significantly higher.
 
 For more information, see the section [Which Operating Systems Do Mendix Studio and Mendix Studio Pro Support?](../app-lifecycle/app-development#operating-systems) in *App Development*.
 
@@ -90,7 +90,7 @@ At the moment, the integrated Mendix multi-cloud solution is provided for Mendix
 
 ### 2.5 When Should I Use IaaS vs. PaaS?
 
-IaaS is the virtualization of computing, network, and storage running on premises or in the public cloud. A PaaS is an extra abstraction layer on top that allows you to work with services and applications. The abstraction layer of a PaaS will allow you to think in terms of services and applications while providing capabilities like high availability, auto-scaling, auto-healing, auto-provisioning, and user governance.
+IaaS is the virtualization of computing, network, and storage running on premises or in the public cloud. A PaaS is an extra abstraction layer on top that allows you to work with services and applications. The abstraction layer of a PaaS will allow you to think in terms of services and applications while providing capabilities like auto-scaling, auto-healing, auto-provisioning, user governance, and optional high availability.
 
 The choice of either an IaaS or a PaaS in relation to Mendix is based on the amount of applications you are planning to run and who the owner is of the PaaS layer on the cloud.
 

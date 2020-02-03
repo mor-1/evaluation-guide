@@ -12,7 +12,7 @@ tags: ["cloud provider", "cloud", "sap", "ibm", "aws", "azure", "pivotal", "clou
 
 Mendix is compatible with all the well-known cloud providers: IBM Cloud, SAP Cloud Platform, Microsoft Azure, Amazon Web Services (AWS), Redhat Openshift, and Google Cloud Platform.
 
-In addition, Mendix has formal partnerships with SAP, IBM, Microsoft, and AWS. Both [SAP](../strategic-partners/sap) and [IBM](../strategic-partners/ibm) are official resellers and see Mendix as an extension of their own cloud offerings.
+In addition, Mendix has formal partnerships with SAP, IBM, Microsoft, and AWS. [SAP](../strategic-partners/sap) is an official reseller and sees Mendix as an extension of SAP Cloud Platform. [IBM](../strategic-partners/ibm) has selected Mendix as the preferred low-code development platform for use on top of IBM Cloud.
 
 ![Cloud Providers - SAP, IBM, AWS, Azure, Pivotal](attachments/CloudProvIdersLogos.png)
 
@@ -75,7 +75,7 @@ Mendix added official support for Kubernetes in 2017. Kubernetes is a container 
 
 To run a Mendix application with high availability on a Kubernetes cluster, the app should be deployed in a StatefulSet of a minimum of two pods. This allows you to horizontally scale the application to your own needs while keeping control of single processes like scheduled events. The pods need to have access to a database. This database can also run on the Kubernetes cluster, or it can be served by an underlying cloud like Azure SQL, AWS RDS PostgreSQL, IBM Compose PostgreSQL, or IBM DB2.
 
-If the application needs file storage, this can be attached using a standard storage classed to the StatefullSet or by using cloud services like AWS S3 storage, Azure Blob storage, or IBM Swift storage.
+If the application needs file storage, this can be attached using a standard storage classed to the StatefulSet or by using cloud services like AWS S3 storage, Azure Blob storage, or IBM Swift storage.
 
 {{% image_container width="600" %}}
 ![Running Mendix on Kubernetes Chart](attachments/kubernetes.png)

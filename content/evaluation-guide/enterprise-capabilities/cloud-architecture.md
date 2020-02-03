@@ -40,7 +40,7 @@ Within the Mendix Cloud, the logical term "app container" is used to describe th
 
 ## 4 How Does Mendix Cloud Offer High Availability? {#cloud-ha}
 
-The Mendix Cloud offers high availability for all app environments, ensuring zero downtime in the case of a Mendix Runtime outage. Users are able to scale Mendix app environments using the Developer Portal. When selecting a minimum of two instances, the application will run in high availability mode.
+The Mendix Cloud offers high availability as an option to customers with an enterprise license. This ensures zero downtime in the case of a Mendix Runtime outage. Users are able to scale Mendix app environments using the Developer Portal. When more than one instance is selected, the app can continue to run if one instance fails.
 
 {{% image_container width="600" %}}
 ![Application Scaling](attachments/figure-11-mendix-app-scaling.png)

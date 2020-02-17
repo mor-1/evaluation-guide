@@ -29,6 +29,7 @@ Persistable objects are stored in a database, so you can use your data across se
 Non-persistable entities are mostly used for calculations where you do not want to store all the intermediate results, or for temporarily storing data fetched from external systems through different integration means.
 
 <video controls src="attachments/Integration_PersistableEntity.mp4">VIDEO</video>
+
 ## 3 How Does Object-Relational Mapping Work in Mendix? {#object-relational-mapping}
 
 Mendix object-relational mapping (ORM) handles all aspects of your database management, from your modeled data needs to technical storage and retrieval with most popular relational database systems. The main goal of Mendix ORM is to remove the need for users to think about technical database aspects, like how to create and modify tables or access and update data.

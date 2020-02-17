@@ -29,7 +29,6 @@ Persistable objects are stored in a database, so you can use your data across se
 Non-persistable entities are mostly used for calculations where you do not want to store all the intermediate results, or for temporarily storing data fetched from external systems through different integration means.
 
 <video controls src="attachments/Integration_PersistableEntity.mp4">VIDEO</video>
-
 ## 3 How Does Object-Relational Mapping Work in Mendix? {#object-relational-mapping}
 
 Mendix object-relational mapping (ORM) handles all aspects of your database management, from your modeled data needs to technical storage and retrieval with most popular relational database systems. The main goal of Mendix ORM is to remove the need for users to think about technical database aspects, like how to create and modify tables or access and update data.
@@ -87,7 +86,7 @@ Indexes are added using the entity properties menu inside Mendix Studio and Mend
 
 Using a stored procedure in Mendix depends on where your data resides.
 
-If you want to use a stored procedure in the database of your Mendix application, you can use the Mendix Java API. For more information, see [How to Use the Java API](https://docs.mendix.com/howto/logic-business-rules/java-api-tutorial) in the *Mendix Studio Pro How-to's*. And for details on executing SQL statements on your Mendix app database using JDBC, see [DataStorage executeWithConnection](https://apidocs.mendix.com/7/runtime/com/mendix/datastorage/DataStorage.html#executeWithConnection-java.util.function.Function-).
+If you want to use a stored procedure in the database of your Mendix application, you can use the Mendix Java API. For more information, see [How to Use the Java API](https://docs.mendix.com/howto/logic-business-rules/java-api-tutorial) in the *Mendix Studio Pro How-to's*. And for details on executing SQL statements on your Mendix app database using JDBC, see [DataStorage executeWithConnection](https://apidocs.mendix.com/8/runtime/com/mendix/datastorage/DataStorage.html#executeWithConnection-java.util.function.Function-).
 
 If you are using an external database, you can use the [Database Connector](https://appstore.home.mendix.com/link/app/2888/) add-on available in the Mendix App Store.
 
@@ -107,12 +106,5 @@ In the following microflow, a custom error handler is defined. When the **Change
 
 A Mendix application can by default be deployed to a number of different database servers. As long as you do not include any database-specific code, you can switch database vendors at any moment.
 
-The Mendix Platform supports the following database servers:
+The Mendix Platform supports the database servers listed in the [Databases](https://docs.mendix.com/refguide/system-requirements#databases) section of *System Requirements*.
 
- * PostgreSQL 9.2, 9.3, 9.4, 9.5, 9.6
- * Microsoft SQL Server 2008, 2008 R2, 2012, 2014, 2016
- * Microsoft Azure SQL Database
- * Oracle Database 11g Release 2, 12c Release 1
- * IBM DB2 11.1
- * MariaDB 5.5, 10.0, 10.1
- * MySQL 5.5, 5.6, 5.7

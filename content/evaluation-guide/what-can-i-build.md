@@ -16,7 +16,7 @@ The [Mendix App Gallery](https://gallery.mendix.com) showcases all kinds of appl
 
 ## 2 What Types of Projects Are a Good Fit for Mendix? {#good-fit}
 
-A good way to explain what types of projects are a good fit with Mendix is to segment the type projects by using the Gartner’s [Pace-Layered Model](https://www.gartner.com/binaries/content/assets/events/keywords/applications/apn30/pace-layered-applications-research-report.pdf). Based on this model, an organization’s application landscape is made up of three distinct layers, each with a corresponding rate of change. This rate of change is dictated by the uniqueness of the solutions and how concrete the requirements are.
+A good way to explain what types of projects are a good fit with Mendix is to segment the type projects by using the Gartner’s *Pace-Layered Model*. Based on this model, an organization’s application landscape is made up of three distinct layers, each with a corresponding rate of change. This rate of change is dictated by the uniqueness of the solutions and how concrete the requirements are.
 
 ![Types of Application Projects Chart](attachments/blog-in-post-pace-payer-model-02.png)
 

@@ -153,7 +153,7 @@ The Mendix Platform deployment architecture is based on Cloud Foundry, which is 
 
 ## 6 How Does Mendix Provide Containment Within the Mendix Cloud?
 
-A Mendix Cloud node is a grouping of virtual and autonomous instances of the Mendix Runtime that is dedicated to your company. A Mendix Cloud node includes a minimum of two environments (acceptance and production), each running in their own app environment. You can expand this to have as many environments as you need. Each app environment also includes firewall, web server, and database services. Mendix Cloud nodes run on Cloud Foundry containers. The purpose of an app container is to contain the behavior and consumption of an environment while shielding other environments (and apps) from each other.
+A Mendix Cloud node is a grouping of virtual and autonomous instances of the Mendix Runtime that is dedicated to your company. A Mendix Cloud node includes a minimum of two environments (acceptance and production), each running in their own app environment. You can expand this to have as many environments as you need. Each app environment also includes firewall, web server, and database services. Mendix Cloud nodes use Cloud Foundry containers. The purpose of an app container is to contain the behavior and consumption of an environment while shielding other environments (and apps) from each other.
 
 Cloud Foundry uses **Garden containers** that have been designed to run applications and dependencies based on a buildpack. Garden containers consists of two layers: a read-only layer with an operating system root file system, and a non-persistent read/write layer for Mendix applications and dependencies.
 

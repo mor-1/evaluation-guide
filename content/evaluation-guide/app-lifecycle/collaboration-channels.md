@@ -32,7 +32,9 @@ Stakeholders can post updates, comments, and photos as well as upload documents 
 
 ### 1.2 How Can Stakeholders Get Involved via the Mendix IDE?
 
-Because developers are usually found working with [Mendix Studio Pro](app-development#studio-pro) or [Mendix Studio](app-development#studio), user stories from the active Sprint and the Buzz are available in Mendix Studio and Mendix Studio Pro as well. They are displayed in a side panel, as shown here:
+Developers are usually found working on stories in an active Sprint. In [Mendix Studio Pro](app-development#studio-pro), the active stories are displayed right inside the IDE. Developers can mark stories as complete when committing their changes.
+
+Communication between the developers on a development team is also integrated into the IDE. For instance, in [Mendix Studio](app-development#studio), team conversations are available in a side panel showing the [Buzz](https://docs.mendix.com/developerportal/collaborate/buzz). This enables in-context collaborative modeling, ruling out any room for misinterpretation of comments made, as shown here:
 
 <video controls src="attachments/buzz-in.mp4">VIDEO</video>
 

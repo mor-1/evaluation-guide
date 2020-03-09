@@ -12,7 +12,7 @@ tags: ["evaluation guide", "mendix", "development", "bizdevops", "devops", "agil
 
 The app development process Mendix used from day one was later identified as a combination of Agile and DevOps, though optimized for low-code app development. Due to the high focus on business and IT collaboration, the Mendix development process can be better described as **BizDevOps** or **DevOps 2.0**. Mendix has optimized the BizDevOps approach for low-code usage.
 
-The Mendix development process encourages developers, operations staff, and business teams to work together so that the organization can develop software more quickly, grow more responsive to user demand, and ultimately maximize revenue. In this approach, not only does the business team set the requirements, they also work directly with the development team. The development team is composed of business analysts and professional developers working alongside the business.
+The Mendix development process encourages developers, operations staff, and business teams to work together so that the organization can develop software more quickly, grow more responsive to user demand, and ultimately maximize revenue. In this approach, not only does the business team set the requirements, they also work directly with the development team. The development team is composed of business analysts and professional developers working alongside business.
 
 ![Rapid Application Development Process](attachments/Mendix_RAD_process.png)
 
